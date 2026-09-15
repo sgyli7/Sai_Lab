@@ -1,0 +1,9 @@
+{
+  "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/00-flat-candidate",
+  "kind": "flat",
+  "passed_no_premature_lift": true,
+  "premature_lift_events": [],
+  "all_wheels_far_samples": 20,
+  "max_gap_while_all_far_m": 0.010985855010123141,
+  "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+}

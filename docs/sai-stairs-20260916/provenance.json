@@ -1,0 +1,17 @@
+{
+  "commit": "fbdb3e64647cdc55cc15cfc1b1e1eb25b7020fba",
+  "sources": {
+    "src/sim2sim/sai_controller.py": "51894d76f8ed5f378a98b62fbf215b5c042d6d1b188e50fbeb0ed10fba214ce8",
+    "src/sim2sim/sai_compliance.py": "1b6f0b6454cc060debc3c85ea7344df52c6a8305598d10b7266b46defc8a858a",
+    "src/sim2sim/sai_terrain.py": "2b28fc4bf83da8cc59526cec9f06af265177d9132cb884a76ad2b156f2646c61",
+    "scripts/train_sai_loaded_suspension.py": "3b32d3e36eca57910c984fc14f343fb9440821a1a715a6d42f331eb977f6203d",
+    "src/sim2sim/assets/sai/suspension-v2.json": "b1f56f1fe41f492d6f34f3d1f98467944782c331efa890d6daa05804a72873ce",
+    "godot/sai/native_controller.gd": "b179178ad5914140cd4632cea102fef30656005951729e699c5512ed558342c9",
+    "godot/hub/sai.gd": "0ed8311060e67420da73be1c83b82b527a1ed9d6958558ff05eaf1180b59e6ce",
+    "src/sim2sim/workshop.py": "3fa612c7bf9d19815f859a4f220d22e5df1567d008df5f5fbc294d0c2020f43e"
+  },
+  "scope": "Research, read-only trajectory audit and next-training specification. Deployed control unchanged.",
+  "six_stair_traces_show_premature_lifts": true,
+  "flat_negative_control_passed": true,
+  "native_template_checked": true
+}
