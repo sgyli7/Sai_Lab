@@ -15,12 +15,14 @@ from sai_agent.paths import resource_root
 from sai_agent.cli import prepare_godot
 from sim2sim.sai_controller import MotionController
 from sim2sim.sai_suspension import Suspension
+from sim2sim.sai_timebase import DEFAULT_PHYSICS_HZ, SUPPORTED_PHYSICS_HZ, configure_project_timebase, patch_generated_runtime
 from sai_suspension_experiment import Terrain,metrics,ROOT
 
 
-def run(out,seed=47,kind='rough',parameters=None,mode='gate',riser=0.,descending=False,speed=.5,yaw=0.,crouch=0.,maneuver="drive"):
+def run(out,seed=47,kind='rough',parameters=None,mode='gate',riser=0.,descending=False,speed=.5,yaw=0.,crouch=0.,maneuver="drive",physics_hz=DEFAULT_PHYSICS_HZ):
     out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)
     runtime=out/'runtime';prepare_godot(resource_root(),runtime)
+    patch_generated_runtime(runtime);configure_project_timebase(runtime/'project.godot',physics_hz)
     shutil.copyfile(ROOT/'scripts/sai_suspension_probe.gd',runtime/'probe.gd')
     shutil.copyfile(ROOT/'godot/sai/terrain_scan.gd',runtime/'terrain_scan.gd')
     terrain=Terrain(seed,kind)
@@ -35,7 +37,7 @@ def run(out,seed=47,kind='rough',parameters=None,mode='gate',riser=0.,descending
     with socket.socket() as listener,ThreadPoolExecutor(max_workers=1) as pool:
         listener.bind(('127.0.0.1',0));listener.listen(1);listener.settimeout(.25)
         stop=threading.Event();service=pool.submit(c.serve,listener,stop)
-        command=[godot,'--headless','--fixed-fps','2000','--path',str(runtime),'res://probe.tscn','--',
+        command=[godot,'--headless','--fixed-fps',str(physics_hz),'--path',str(runtime),'res://probe.tscn','--',
                  f'--port={listener.getsockname()[1]}','--no-visuals','--case=W',f'--duration={45 if riser else 7}',
                  f'--output={out / "raw.json"}',f'--stairs={riser}',f'--initial-yaw={yaw}']
         if descending:command.append('--descending')
@@ -60,7 +62,8 @@ def run(out,seed=47,kind='rough',parameters=None,mode='gate',riser=0.,descending
             angular=(rotation.T@np.array(s['base_angular_world'])).tolist(),upright=s['upright'],gap=(wheel[:,2]-ground-.048).tolist(),
             supported=s['wheels_supported'],stage=s['controller_stage'],command=s['command'],effective_speed=s['policy_observation'][9]))
     report=dict(seed=seed,kind=kind,parameters=parameters,mode=mode,riser=riser,descending=descending,
-                physics='Godot/Jolt',metrics=metrics(rows),engine=raw['engine'])
+                physics='Godot/Jolt',physics_hz=physics_hz,controller_hz=50,
+                metrics=metrics(rows),engine=raw['engine'])
     if riser:
         last=raw['samples'][-1];settled=raw['samples'][-50:]
         report['stairs_passed']=bool(np.min(np.array(last['wheel_positions'])[:,0])>.45+3*.18+.05 and raw['cleared_at']>=0
@@ -76,7 +79,8 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--out',type=Path,required=True);p.add_argument('--seed',type=int,default=47)
     p.add_argument('--kind',default='rough');p.add_argument('--profile',type=Path);p.add_argument('--mode',default='gate')
     p.add_argument('--riser',type=float,default=0.);p.add_argument('--descending',action='store_true')
+    p.add_argument('--physics-hz',type=int,choices=SUPPORTED_PHYSICS_HZ,default=DEFAULT_PHYSICS_HZ)
     a=p.parse_args();parameters=json.loads(a.profile.read_text())['parameters'] if a.profile else None
-    run(a.out,a.seed,a.kind,parameters,a.mode,a.riser,a.descending)
+    run(a.out,a.seed,a.kind,parameters,a.mode,a.riser,a.descending,physics_hz=a.physics_hz)
 
 if __name__=='__main__':main()

@@ -10,15 +10,16 @@ def leg_angles(down):
 
 
 class Suspension:
-    def __init__(self, parameters):
+    def __init__(self, parameters, apply_on_stairs=False):
         p = np.asarray(parameters, dtype=float)
         if p.shape != (3,) or not np.isfinite(p).all() or np.any(p < [0.,0.,.02]) or np.any(p > [1.2,1.2,.30]):
             raise ValueError('Invalid suspension gain/attitude/time-constant parameters')
         self.ground_gain, self.attitude_gain, self.tau = p
+        self.apply_on_stairs = bool(apply_on_stairs)
         self.offset = np.zeros(4)
 
     def apply(self, result, state):
-        if 'wheel_ground_heights' not in state or result['stage']=='stairs':
+        if 'wheel_ground_heights' not in state or (result['stage']=='stairs' and not self.apply_on_stairs):
             self.offset.fill(0.)
             return result
         heights = np.asarray(state['wheel_ground_heights'],dtype=float)

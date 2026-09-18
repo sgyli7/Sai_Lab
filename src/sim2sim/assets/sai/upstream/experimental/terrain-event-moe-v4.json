@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "id": "sai-stairs-terrain-event-moe-v4",
+  "actor": "terrain-event-moe-v4.onnx",
+  "onnx_sha256": "28cd6800736dbc211e6b353cf5c611db5ccfea141e7800d9392f1aacc4fdf12f",
+  "observation_size": 243,
+  "action_size": 16,
+  "contract": "sai-phase-free-stairs-v4",
+  "algorithm": "terrain-conditioned mixture of phase-free stair experts with high-obstacle event memory",
+  "experts": {
+    "low": "state-conditioned behavior distillation",
+    "high": "dense-edge PPO"
+  },
+  "high_obstacle_threshold_m": 0.05,
+  "event_memory": "latch on measured dense-edge rise; clear when forward command stops",
+  "stair_suspension_geometry": [
+    0.1,
+    0.0,
+    0.04
+  ],
+  "control": {
+    "speed": 0.16,
+    "wheel_residual_scale": 6.0,
+    "yaw_correction_limit": 0.4
+  },
+  "status": "quarantined-unsafe-joint-limit-saturation",
+  "validation": {
+    "mujoco": {
+      "up20": {
+        "completed": true,
+        "cargo_accel_rms": 1.1957303110538129,
+        "redundant_lifts": 4
+      },
+      "up40": {
+        "completed": true,
+        "cargo_accel_rms": 1.3395886173574283,
+        "redundant_lifts": 2
+      },
+      "up60": {
+        "completed": true,
+        "cargo_accel_rms": 3.6536190988617645,
+        "redundant_lifts": 9
+      }
+    },
+    "godot_jolt_clamped_100g": {
+      "up20": {
+        "completed": true,
+        "cargo_accel_rms": 1.0037411422587605,
+        "redundant_lifts": 4
+      },
+      "up40": {
+        "completed": true,
+        "cargo_accel_rms": 1.5717469063994236,
+        "redundant_lifts": 9
+      },
+      "up60": {
+        "completed": true,
+        "cargo_accel_rms": 3.959761249711488,
+        "redundant_lifts": 13
+      }
+    },
+    "limitations": [
+      "60 mm exceeds the 3.25 m/s^2 internal comfort target",
+      "40 and 60 mm exceed the four-redundant-lift internal target in Godot/Jolt",
+      "the medium-step recovery is a diagnostic fallback and is not the universal learned controller"
+    ]
+  },
+  "payload_clamp_target_rad": 3.508111796508603,
+  "payload_settle_seconds": 8.0,
+  "medium_obstacle_threshold_m": 0.03
+}

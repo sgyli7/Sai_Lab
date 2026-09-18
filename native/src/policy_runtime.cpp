@@ -68,14 +68,14 @@ public:
                 auto shape = tensor.GetShape();
                 if (tensor.GetElementType() != ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT ||
                     shape.size() != 2 || (shape[0] != 1 && shape[0] != -1) ||
-                    (input ? (shape[1] != 61 && shape[1] != 68 && shape[1] != 82)
+                    (input ? (shape[1] != 61 && shape[1] != 68 && shape[1] != 82 && shape[1] != 104 && shape[1] != 242 && shape[1] != 243 && shape[1] != 258)
                            : (shape[1] != 14 && shape[1] != 16)))
-                    throw std::runtime_error("Expected float32 [1,61|68] -> [1,14] or [1,82] -> [1,16] policy");
+                    throw std::runtime_error("Expected float32 [1,61|68] -> [1,14] or [1,82|104|242|243|258] -> [1,16] policy");
                 if (input) observation_dim = shape[1];
                 else action_dim = shape[1];
             }
-            if ((observation_dim == 82) != (action_dim == 16))
-                throw std::runtime_error("Sai observation/action dimensions must be [1,82] -> [1,16]");
+            if (((observation_dim == 82 || observation_dim == 104 || observation_dim == 242 || observation_dim == 243 || observation_dim == 258)) != (action_dim == 16))
+                throw std::runtime_error("Sai observation/action dimensions must be [1,82|104|242|243|258] -> [1,16]");
             Ort::AllocatorWithDefaultOptions allocator;
             input_name = session->GetInputNameAllocated(0, allocator).get();
             output_name = session->GetOutputNameAllocated(0, allocator).get();

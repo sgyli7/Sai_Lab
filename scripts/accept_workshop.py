@@ -17,7 +17,7 @@ def main():
         'persistent_hub_and_workshop':len({(e['hub'],e['atelier']) for e in events})==1,
         'loose_body_ids_and_positions_preserved':all(e['props_before']==e['props_after'] for e in events),
         'separate_jolt_spaces':all(e['space']!=e['new_space'] for e in events),
-        'published_sai_settings':all(e['physics_hz']==2000 and e['settings']=={'speculative':.0005,'velocity_steps':10.} for e in events if e['to']=='sai'),
+        'qualified_sai_settings':all(e['physics_hz']==1000 and e['settings']=={'speculative':.0005,'velocity_steps':10.} for e in events if e['to']=='sai'),
         'original_md_settings':all(e['physics_hz']==200 and e['settings']=={'speculative':0.,'velocity_steps':32.} for e in events if e['to']!='sai'),
         'all_body_counts':all(e['bodies']=={'microduck':16,'roller':19,'sai':26}[e['to']] for e in events),
     }

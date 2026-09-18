@@ -1,0 +1,15 @@
+{
+  "seconds": 8,
+  "capture_interval": 0.06666666666666667,
+  "cinematic": true,
+  "events": [],
+  "fixed_shots": [
+    {
+      "id": "stand_side",
+      "at": 0,
+      "position": [0.85, 0.62, 1.55],
+      "target": [0.0, 0.22, 0.75],
+      "fov": 46
+    }
+  ]
+}

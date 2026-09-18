@@ -96,7 +96,8 @@ def main():
         for i in range(count):
             image.seek(i);duration+=image.info['duration'];unique.add(hashlib.sha256(image.convert('RGB').tobytes()).hexdigest())
     assert 14800<=duration<=15200 and len(unique)>count*.90 and gif.stat().st_size<10_000_000
-    report=dict(capture=args.capture.name,physics='Godot/Jolt 2000 Hz; policy motor targets 50 Hz',
+    report=dict(capture=args.capture.name,
+        physics=f"Godot/Jolt {task.get('physics_hz', 'unknown')} Hz; policy motor targets {task.get('controller_hz', 50)} Hz",
         revision='v2-fixed-camera',camera_audit=camera_audit,
         raw_timestamp_quantization_s=1/30,raw_timestamp_max_error_s=timestamp_error,
         cargo_success=True,frame_count=len(frames),source_wall_seconds=frames[-1]['milliseconds']/1000,

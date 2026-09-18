@@ -69,7 +69,7 @@ func _ready() -> void:
 	_headless = DisplayServer.get_name() == "headless"
 	options = {"scene":"workshop","drive_speed":.5,"fast_check":false,"choose_scene":false,
 		"robot":"microduck","task":"drive","output":"user://run","record":false,
-		"sai_controller":"native","plan":{}}
+		"sai_controller":"native","sai_physics_hz":1000,"plan":{}}
 	if FileAccess.file_exists("res://hub/options.json"):
 		var saved=JSON.parse_string(FileAccess.get_file_as_string("res://hub/options.json"))
 		if saved is Dictionary:options.merge(saved,true)
@@ -82,6 +82,7 @@ func _ready() -> void:
 		elif arg.begins_with("--task="):options.task=arg.trim_prefix("--task=")
 		elif arg.begins_with("--output="):options.output=arg.trim_prefix("--output=")
 		elif arg.begins_with("--sai-controller="):options.sai_controller=arg.trim_prefix("--sai-controller=")
+		elif arg.begins_with("--sai-physics-hz="):options.sai_physics_hz=int(arg.trim_prefix("--sai-physics-hz="))
 		elif arg.begins_with("--drive-speed="):options.drive_speed=float(arg.trim_prefix("--drive-speed="))
 		elif arg.begins_with("--plan="):
 			var plan_path:=arg.trim_prefix("--plan=")
@@ -146,6 +147,10 @@ func spawn_point() -> Vector3:
 
 func task_settings() -> Dictionary:
 	var spec: Dictionary = TASKS[active_task].duplicate(true)
+	var stair_profile:=str(options.get("sai_stair_profile",""))
+	if active_robot=="sai" and active_task.begins_with("up") and not stair_profile.is_empty():
+		spec["skill"]=stair_profile
+		spec["payload"]=true
 	if is_science_station():
 		var p := spawn_point()
 		spec = {"label":"自由探索", "task":"drive", "origin":[p.x,p.y,p.z]}
@@ -219,8 +224,13 @@ func _change_robot(kind: String) -> void:
 	ProjectSettings.settings_changed.emit()
 	var previous_world: World3D = get_world_3d()
 	get_viewport().world_3d = World3D.new()
-	Engine.physics_ticks_per_second = 2000 if kind == "sai" else 200
-	Engine.max_physics_steps_per_frame = 100 if kind == "sai" else 32
+	var physics_hz := int(options.get("sai_physics_hz",1000)) if kind == "sai" else 200
+	if kind == "sai" and (physics_hz < 50 or physics_hz % 50 != 0):
+		push_error("Sai physics rate must be an integer multiple of the 50 Hz controller")
+		get_tree().quit(2)
+		return
+	Engine.physics_ticks_per_second = physics_hz
+	Engine.max_physics_steps_per_frame = maxi(8,int(ceil(float(physics_hz)/20.0))) if kind == "sai" else 32
 	get_node("World/Floor").physics_material_override.friction = .8 if kind == "sai" else 1.
 	active_robot = kind
 	task_result.clear()
@@ -261,7 +271,7 @@ func _change_robot(kind: String) -> void:
 	if is_science_station(): _cam_yaw=-.30;_cam_pitch=.10
 	atelier.follow_initialized = false
 	Engine.max_fps = 0 if options.get("fast_check",false) else 30
-	Engine.max_physics_steps_per_frame = 100 if kind == "sai" else 32
+	Engine.max_physics_steps_per_frame = maxi(8,int(ceil(float(physics_hz)/20.0))) if kind == "sai" else 32
 	get_window().title = "Robot Sim2Sim · "+scene_title()+" / "+kind
 	get_tree().paused = false
 	atelier.loose_props.set_frozen(false)
@@ -504,7 +514,7 @@ func _physics_process(delta: float) -> void:
 			if key!=checkpoint and _base.global_position.distance_to(StationLayout.CHECKPOINTS[key].position)<.85:
 				checkpoint=key;probe_spawn=null;checkpoint_visits.append({"id":key,"time":elapsed})
 	elapsed += delta
-	_t = actor.robot.tick*.0005 if active_robot == "sai" else actor._t
+	_t = actor.robot.sim_time_seconds() if active_robot == "sai" else actor._t
 	if elapsed >= next_sample:
 		next_sample = elapsed+.1
 		var p := _base.global_position

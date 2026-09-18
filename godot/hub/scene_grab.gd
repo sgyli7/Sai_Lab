@@ -99,7 +99,7 @@ func perform(action: String) -> void:
 		busy = false
 		_restore_sleep()
 		message = "已取消 · 物件已松开"
-		history.append({"event":"cancel","time":scene.robot.tick*.0005})
+		history.append({"event":"cancel","time":scene.robot.sim_time_seconds()})
 	elif action == "pick":
 		if busy: return
 		if cleanup_body != null:
@@ -129,7 +129,7 @@ func perform(action: String) -> void:
 		grasp_start_height = _center(target).y
 		max_lift = 0.
 		message = "正在靠近物件 · X 取消"
-		history.append({"event":"start","object":str(target.name),"id":target.get_instance_id(),"time":scene.robot.tick*.0005})
+		history.append({"event":"start","object":str(target.name),"id":target.get_instance_id(),"time":scene.robot.sim_time_seconds()})
 
 func observation() -> Dictionary:
 	var body: RigidBody3D = target if is_instance_valid(target) else _body()
@@ -165,7 +165,7 @@ func accept(command: Dictionary) -> void:
 		request = "idle"
 		message = "已放入蓝色货仓 · B 选下一件" if placed else command.get("grab_message","未放稳 · 请靠近物件后重试")
 		var result := {"event":"complete","object":str(target.name),"id":target.get_instance_id(),
-			"success":placed,"captured":captured,"released":released,"lift_m":max_lift,"time":scene.robot.tick*.0005}
+			"success":placed,"captured":captured,"released":released,"lift_m":max_lift,"time":scene.robot.sim_time_seconds()}
 		var bounds := _cargo_bounds(target)
 		result["cargo_bounds"] = [[bounds[0].x,bounds[0].y,bounds[0].z],[bounds[1].x,bounds[1].y,bounds[1].z]]
 		result["supported"] = _supported(target)
@@ -190,7 +190,7 @@ func _attach() -> void:
 	for key in ["arm_gripper","arm_moving_jaw"]:
 		target.add_collision_exception_with(scene.robot.bodies[key])
 	captured = true
-	history.append({"event":"attach","object":str(target.name),"time":scene.robot.tick*.0005})
+	history.append({"event":"attach","object":str(target.name),"time":scene.robot.sim_time_seconds()})
 
 func _detach() -> void:
 	if grip == null: return
@@ -217,7 +217,7 @@ func _restore_sleep() -> void:
 	if is_instance_valid(target): target.can_sleep = target_can_sleep
 
 func _process(_delta: float) -> void:
-	if cleanup_body != null and scene.robot.tick*.0005-released_at > 1.0:
+	if cleanup_body != null and scene.robot.sim_time_seconds()-released_at > 1.0:
 		var tool: Vector3 = scene.robot.bodies.arm_gripper.global_transform*scene.robot.gv(scene.specification.tool_local_m)
 		# Restore hand contacts after the retreat clears the larger scene props.
 		if tool.distance_to(_center(cleanup_body)) > .15: _cleanup_collisions()

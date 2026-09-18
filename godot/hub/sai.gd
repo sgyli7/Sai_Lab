@@ -4,6 +4,7 @@ var settings: Dictionary
 var grab: Node3D
 var native_controller
 var native_mode := true
+var payload_start_reset := false
 
 func _ready() -> void:
 	settings = hub.task_settings()
@@ -46,7 +47,11 @@ func _ready_native() -> void:
 	add_child(robot)
 	build_ground()
 	robot.setup(specification,visuals,4*riser if descending else 0.0)
-	if task=="cargo":robot.build_item()
+	if task=="cargo" or bool(settings.get("payload",false)):
+		robot.build_item()
+		if task!="cargo":
+			# Free 100 g validation payload, initialized on the open rear tray.
+			robot.item.position=robot.gv([-.09,0.,.284+4*riser if descending else .284])
 	if initial_yaw!=0.0:
 		var initial_basis := Basis(Vector3.UP,initial_yaw)
 		for body in robot.bodies.values():
@@ -80,6 +85,8 @@ func _unhandled_input(_event: InputEvent) -> void:
 
 func movement_command() -> Array:
 	var request: Array = super.movement_command()
+	if bool(settings.get("payload",false)) and robot.sim_time_seconds()<float(settings.get("payload_settle_seconds",8.0)):
+		return [0.0,0.0,0.0]
 	var speed: float = float(hub.options.get("drive_speed", .5)) if task == "drive" and riser <= 0.0 else .16
 	return preload("res://sai/driving_input.gd").vehicle_command(request, speed)
 
@@ -184,6 +191,8 @@ func _physics_process(_delta: float) -> void:
 		super._physics_process(_delta)
 		return
 	if finished or robot==null or native_controller==null:return
+	if bool(settings.get("payload",false)) and not payload_start_reset and robot.sim_time_seconds()>=float(settings.get("payload_settle_seconds",8.0)):
+		_reset_loaded_start()
 	var state: Dictionary=robot.state()
 	if task=="cargo":
 		max_height=maxf(max_height,robot.item.position.y)
@@ -195,7 +204,7 @@ func _physics_process(_delta: float) -> void:
 			for key in specification.leg_order:
 				for other in robot.bodies[str(key)+"_wheel"].get_colliding_bodies():
 					if str(other.name).begins_with("course_"):course_contacts[str(other.name)]=true
-	if robot.tick%40==0:
+	if robot.is_control_tick():
 		if test_case!="":inject_test_keys(float(state.time))
 		state["robot_id"]="Sai_Agent_001"
 		state["command"]=movement_command()
@@ -219,6 +228,12 @@ func _physics_process(_delta: float) -> void:
 		state["stair_profile"]=command.get("stair_profile","")
 		state["contract_id"]=command.get("contract_id","")
 		state["controller_backend"]=command.get("controller_backend","")
+		if robot.item!=null:
+			var base:RigidBody3D=robot.bodies.chassis
+			var local:Vector3=base.global_transform.affine_inverse()*robot.item.global_position+robot.gv(specification.bodies.chassis.origin_m)
+			state["object_world_m"]=robot.source(robot.item.position)
+			state["object_chassis_m"]=robot.source(local)
+			state["object_linear_world"]=robot.source(robot.item.linear_velocity)
 		if task=="cargo":
 			var contacts:Array=[]
 			for body in robot.item.get_colliding_bodies():contacts.append(str(body.name))
@@ -246,13 +261,28 @@ func _physics_process(_delta: float) -> void:
 			return
 	robot.apply_command(state,command)
 
+func _reset_loaded_start()->void:
+	var base:RigidBody3D=robot.bodies.chassis
+	var desired:=Transform3D(Basis.IDENTITY,Vector3(0.0,base.position.y,0.0))
+	var delta:=desired*base.transform.affine_inverse()
+	for body in robot.bodies.values():
+		body.transform=delta*body.transform
+		body.linear_velocity=Vector3.ZERO
+		body.angular_velocity=Vector3.ZERO
+	if robot.item!=null:
+		robot.item.transform=delta*robot.item.transform
+		robot.item.linear_velocity=Vector3.ZERO
+		robot.item.angular_velocity=Vector3.ZERO
+	payload_start_reset=true
+	native_controller.reset()
+
 func finish_run() -> void:
 	finished = true
 	if not native_mode: peer.put_data((JSON.stringify({"finish":true})+"\n").to_utf8_buffer())
 	var result := {"task":hub.active_task,"physics":"Godot/Jolt","engine":Engine.get_version_info().string,
-		"physics_hz":2000,"controller_hz":50,"body_count":robot.bodies.size(),"hinges":23,"sliders":2,
+		"physics_hz":Engine.physics_ticks_per_second,"controller_hz":50,"control_decimation":robot.control_decimation(),"body_count":robot.bodies.size(),"hinges":23,"sliders":2,
 		"riser":riser,"descending":descending,"cleared_at":cleared_at,"tread":stair_tread,
-		"input_events":input_events,"samples":records,"duration_s":robot.tick*.0005,
+		"input_events":input_events,"samples":records,"duration_s":robot.sim_time_seconds(),
 		"controller_backend":"godot-native-onnxruntime" if native_mode else "python-tcp-oracle"}
 	hub.on_task_finished(result)
 
@@ -270,10 +300,10 @@ func finish_cargo() -> void:
 		"controller_backend":"godot-native-onnxruntime" if native_mode else "python-tcp-oracle",
 		"jolt_penetration_slop_m":ProjectSettings.get_setting("physics/jolt_physics_3d/simulation/penetration_slop"),
 		"jolt_speculative_contact_distance_m":ProjectSettings.get_setting("physics/jolt_physics_3d/simulation/speculative_contact_distance"),
-		"physics_hz":2000,"controller_hz":50,"body_count":robot.bodies.size(),"joint_count":robot.drives.size(),"hinge_count":23,"slider_count":2,
+		"physics_hz":Engine.physics_ticks_per_second,"controller_hz":50,"control_decimation":robot.control_decimation(),"body_count":robot.bodies.size(),"joint_count":robot.drives.size(),"hinge_count":23,"slider_count":2,
 		"max_object_height_m":max_height,"two_finger_contact_samples":bilateral,"placed_in_cargo":placed,
-		"success":placed and max_height>.20 and bilateral>10 and robot.tick*0.0005>=float(command.end),
-		"final_object_chassis_m":p,"duration_s":robot.tick*0.0005,"samples":records}
+		"success":placed and max_height>.20 and bilateral>10 and robot.sim_time_seconds()>=float(command.end),
+		"final_object_chassis_m":p,"duration_s":robot.sim_time_seconds(),"samples":records}
 	if command.get("transport_required",false):
 		result["transport_distance_m"]=command.transport_distance_m
 		result["transport_policy_sha256"]=command.policy_sha256

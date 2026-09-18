@@ -9,7 +9,7 @@ func _ready() -> void:
 	process_physics_priority = -10
 
 func _physics_process(_delta: float) -> void:
-	if scene.finished or scene.robot.tick % 40 != 0: return
+	if scene.finished or not scene.robot.is_control_tick(): return
 	for key in scene.injected:
 		if scene.injected[key] and not Input.is_physical_key_pressed(key):
 			var event := InputEventKey.new()
@@ -18,4 +18,4 @@ func _physics_process(_delta: float) -> void:
 			event.pressed = true
 			Input.parse_input_event(event)
 			# Keep logical press/release history intact; report restorations separately.
-			print("SAI_REPLAY_RESTORE key=", key, " time=", scene.robot.tick * .0005)
+			print("SAI_REPLAY_RESTORE key=", key, " time=", scene.robot.sim_time_seconds())

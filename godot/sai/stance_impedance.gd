@@ -94,8 +94,10 @@ func _weights(contact:Array,xy:Array)->Array:
 			if not active[i]:continue
 			var c:=float(contact[i]);var x:=float(xy[i][0]);var y:=float(xy[i][1])
 			m00+=c;m01+=c*x;m02+=c*y;m11+=c*x*x;m12+=c*x*y;m22+=c*y*y
+		# Same damped least-squares system as Python training and CPU MuJoCo.
+		# It remains solvable when only one axle supports the chassis at an edge.
+		m00+=1e-8;m11+=1e-6;m22+=1e-6
 		var matrix:=Basis(Vector3(m00,m01,m02),Vector3(m01,m11,m12),Vector3(m02,m12,m22))
-		if absf(matrix.determinant())<1e-10:break
 		var solution:=matrix.inverse()*Vector3(1,0,0)
 		var lowest:=0.0;var lowest_index:=-1
 		for i in range(4):

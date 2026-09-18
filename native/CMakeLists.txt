@@ -9,6 +9,7 @@ set(ORT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.deps/onnxruntime-linux-aarch64-1.29.0"
 set(GODOTCPP_BUILD_PROFILE "${CMAKE_CURRENT_SOURCE_DIR}/build_profile.json" CACHE FILEPATH "Minimal Godot API surface")
 set(GODOTCPP_DISABLE_EXCEPTIONS OFF CACHE BOOL "ORT C++ API reports recoverable failures with exceptions" FORCE)
 set(GODOTCPP_TARGET "template_debug" CACHE STRING "Must match the Godot editor/debug or release allocator ABI")
+set(GODOTCPP_API_VERSION "4.7" CACHE STRING "Pinned Godot extension API bundled by godot-cpp")
 set(MICRODUCK_PRECISION "single" CACHE STRING "Godot ABI precision: single or double")
 set(GODOTCPP_PRECISION "${MICRODUCK_PRECISION}" CACHE STRING "" FORCE)
 add_subdirectory("${GODOTCPP_DIR}" godot-cpp)
