@@ -94,6 +94,11 @@ func _ready() -> void:
 				get_tree().quit(2)
 				return
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(str(options.output)))
+	# The unified launcher also supports a direct 03 route for desktop shortcuts
+	# and automated smoke checks. The picker keeps its own 003/001 choice.
+	if options.scene=="polar_range" and not options.choose_scene:
+		get_tree().quit(74)
+		return
 	profiles = JSON.parse_string(FileAccess.get_file_as_string("res://hub/physics_profiles.json"))
 	get_tree().auto_accept_quit = false
 	get_window().close_requested.connect(_finish)

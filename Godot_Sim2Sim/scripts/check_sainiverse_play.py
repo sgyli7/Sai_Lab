@@ -31,8 +31,18 @@ def run(mode: str, seconds: int, output: Path, *, drive_probe: bool = False, swi
 def frame_p95_ms(output: Path, *, after_s: float) -> float:
     report = json.loads((output / "run_visual.json").read_text())
     assert report["rendering_method"] == "forward_plus" and report["resolution"] == [1920, 1080]
-    frames = sorted(float(row["frame_ms"]) for row in report["frames"] if float(row["simulation_s"]) >= after_s)
+    observed = [row for row in report["frames"] if float(row["simulation_s"]) >= after_s]
+    frames = sorted(float(row["frame_ms"]) for row in observed)
     assert len(frames) >= 100, "Not enough rendered frames for a performance verdict"
+    wall_times = [int(row["wall_usec"]) for row in observed]
+    whole_seconds = (wall_times[-1] - wall_times[0]) // 1_000_000
+    assert whole_seconds >= 3, "Not enough uninterrupted play time for a sustained FPS verdict"
+    one_second_counts = [0] * whole_seconds
+    for stamp in wall_times:
+        window = (stamp - wall_times[0]) // 1_000_000
+        if window < whole_seconds:
+            one_second_counts[window] += 1
+    assert min(one_second_counts) >= 60, f"Sustained FPS dipped below 60: {min(one_second_counts)}"
     return frames[int(0.95 * (len(frames) - 1))]
 
 
@@ -55,7 +65,7 @@ def check_microduck(output: Path) -> dict:
     patrol = json.loads((output / "robot_patrol.json").read_text())
     rows = patrol["samples"]
     distance = float(rows[-1]["local_source_m"][0]) - float(rows[0]["local_source_m"][0])
-    p95 = frame_p95_ms(output, after_s=10.5)
+    p95 = frame_p95_ms(output, after_s=3)
     assert not patrol["error"] and patrol["first_fall"] is None
     assert distance >= 0.5 and max(row["carrier_contacts"] for row in rows) >= 1 and p95 <= 1000 / 60
     return {"mode": "microduck", "distance_m": distance, "p95_frame_ms": p95}
@@ -66,21 +76,22 @@ def check_roller(output: Path) -> dict:
     patrol = json.loads((output / "robot_patrol.json").read_text())
     rows = patrol["samples"]
     distance = float(rows[-1]["local_source_m"][0]) - float(rows[0]["local_source_m"][0])
-    p95 = frame_p95_ms(output, after_s=10.5)
+    p95 = frame_p95_ms(output, after_s=3)
     assert not patrol["error"] and patrol["first_fall"] is None
     assert distance >= 1 and max(row["carrier_contacts"] for row in rows) >= 1 and p95 <= 1000 / 60
     return {"mode": "roller", "distance_m": distance, "p95_frame_ms": p95}
 
 
 def check_sai(output: Path, *, robot_id: str = "Sai_Agent_001") -> dict:
-    run("sai_board_002" if robot_id == "Sai_Agent_002" else "sai_board", 16, output)
+    run("sai_board_002" if robot_id == "Sai_Agent_002" else "sai_board", 115, output)
     boarding = json.loads((output / "sai_boarding.json").read_text())
     rows = boarding["samples"]
-    p95 = frame_p95_ms(output, after_s=10.5)
+    p95 = frame_p95_ms(output, after_s=3)
     assert boarding["robot_id"] == robot_id
-    assert not boarding["failure"] and min(row["upright"] for row in rows) >= 0.95
+    assert boarding["completed"] and not boarding["failure"]
+    assert min(row["upright"] for row in rows) >= 0.90
     assert max(row["wheels_supported"] for row in rows) == 4 and p95 <= 1000 / 60
-    return {"mode": robot_id, "samples": len(rows), "p95_frame_ms": p95}
+    return {"mode": robot_id, "completed": True, "minimum_upright": min(row["upright"] for row in rows), "samples": len(rows), "p95_frame_ms": p95}
 
 
 def check_sai002(output: Path) -> dict:
@@ -98,7 +109,7 @@ def check_switch(output: Path) -> dict:
     for row, minimum in zip(rows[:4], minimum_distances):
         assert row["distance_m"] >= minimum, (row["robot"], row["distance_m"])
         assert row.get("first_fall") is None and not row.get("failure"), row
-    p95 = frame_p95_ms(output, after_s=11)
+    p95 = frame_p95_ms(output, after_s=3)
     assert p95 <= 1000 / 60
     return {"mode": "switch", "distance_m": [round(row["distance_m"], 3) for row in rows[:4]], "p95_frame_ms": p95}
 

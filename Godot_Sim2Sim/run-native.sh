@@ -15,11 +15,18 @@ NATIVE_OUTPUT="${SAI_NATIVE_OUTPUT:-$NATIVE_ROOT/results/workshop-hub/native-pla
 mkdir -p -- "$NATIVE_OUTPUT"
 NATIVE_ENGINE_ARGS=()
 NATIVE_USER_ARGS=("--sai-controller=native" "--output=$NATIVE_OUTPUT")
+NATIVE_POLAR_ARGS=()
 while [ "$#" -gt 0 ]; do
     case "$1" in
         --headless)
             NATIVE_ENGINE_ARGS+=("--headless")
+            NATIVE_POLAR_ARGS+=("--headless")
             shift
+            ;;
+        --seconds)
+            if [ "$#" -lt 2 ]; then echo "$1 requires a value" >&2; exit 2; fi
+            NATIVE_POLAR_ARGS+=("--seconds" "$2")
+            shift 2
             ;;
         --fast-check)
             NATIVE_ENGINE_ARGS+=("--fixed-fps" "30")
@@ -52,6 +59,6 @@ set +e
     "${NATIVE_ENGINE_ARGS[@]}" -- "${NATIVE_USER_ARGS[@]}"
 NATIVE_STATUS=$?
 set -e
-if [ "$NATIVE_STATUS" -eq 74 ]; then exec "$NATIVE_ROOT/run-sainiverse-v0.1.sh" --terrain polar; fi
+if [ "$NATIVE_STATUS" -eq 74 ]; then exec "$NATIVE_ROOT/run-sainiverse-v0.1.sh" --terrain polar "${NATIVE_POLAR_ARGS[@]}"; fi
 if [ "$NATIVE_STATUS" -eq 73 ]; then exec "$NATIVE_ROOT/run-leviathan.sh" --reference-runtime; fi
 exit "$NATIVE_STATUS"
