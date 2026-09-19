@@ -13,6 +13,7 @@ import threading
 import time
 from sim2sim.paths import sim2sim_root
 from sim2sim.sai_driving import DEFAULT_DRIVE_SPEED, drive_speed
+from sim2sim.sai_timebase import DEFAULT_PHYSICS_HZ, SUPPORTED_PHYSICS_HZ, patch_generated_runtime
 
 ROOT = sim2sim_root()
 
@@ -43,6 +44,7 @@ def prepare(runtime: Path, godot: str) -> Path:
     bundle = resource_root()
     core = runtime.parent / "sai-release"
     prepare_godot(bundle, core)
+    patch_generated_runtime(core)
     (runtime / "sai_release").mkdir(exist_ok=True)
     # Release code assumes an origin-centred scene in this diagnostic only.
     source = (core / "main.gd").read_text()
@@ -145,6 +147,11 @@ def main(argv=None):
     parser.add_argument("--record", action="store_true", help="Timestamped native game frames and policy trace")
     parser.add_argument("--sai-controller", choices=("native", "python"), default="native",
                         help="Native in-process locomotion (default), or explicit Python/TCP oracle for manipulation")
+    parser.add_argument("--sai-physics-hz", type=int, choices=SUPPORTED_PHYSICS_HZ, default=DEFAULT_PHYSICS_HZ,
+                        help="Sai Jolt physics rate; the ONNX controller remains exactly 50 Hz")
+    parser.add_argument("--sai-stair-profile", default="",
+                        help="Experimental profile name under sai_policy/experimental for ascending stair tasks")
+    parser.add_argument("--allow-quarantined-stair-profile", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument("--prepare-only", action="store_true", help="Prepare the self-contained Godot runtime and exit")
     args = parser.parse_args(argv)
     if args.fast_check and not (args.headless and args.plan):
@@ -153,6 +160,14 @@ def main(argv=None):
         parser.error("Science station supports free exploration and scene pickup; use workshop for task courses")
     if not args.godot_bin:
         parser.error("Godot 4.7.2 is required")
+    if args.sai_stair_profile:
+        profile_path = (ROOT / "src/sim2sim/assets/sai/upstream/experimental"
+                        / f"{args.sai_stair_profile}.json")
+        if not profile_path.is_file():
+            parser.error(f"Unknown Sai stair profile: {args.sai_stair_profile}")
+        profile_status = str(json.loads(profile_path.read_text()).get("status", ""))
+        if profile_status.startswith("quarantined-") and not args.allow_quarantined_stair_profile:
+            parser.error(f"Sai stair profile {args.sai_stair_profile} is quarantined: {profile_status}")
     args.output = args.output.resolve()
     args.output.mkdir(parents=True, exist_ok=True)
     os.environ.update(SIM2SIM_VISUAL_STYLE="legacy", MD_WORKSHOP_COLLISIONS="1", MD_MODE="hub")
@@ -161,7 +176,7 @@ def main(argv=None):
         project = args.runtime_dir / "project.godot"
         project.write_text(project.read_text().replace('config/name="Robot Godot Workshop"',
                                                        'config/name="Robot Godot Worlds"'))
-    options = dict(scene=args.scene, drive_speed=args.drive_speed, fast_check=args.fast_check, choose_scene=args.choose_scene and not args.headless and not args.plan, robot=args.robot, task=args.task, output=str(args.output), record=args.record, sai_controller=args.sai_controller,
+    options = dict(scene=args.scene, drive_speed=args.drive_speed, fast_check=args.fast_check, choose_scene=args.choose_scene and not args.headless and not args.plan, robot=args.robot, task=args.task, output=str(args.output), record=args.record, sai_controller=args.sai_controller, sai_stair_profile=args.sai_stair_profile, sai_physics_hz=args.sai_physics_hz,
                    plan=json.loads(args.plan.read_text()) if args.plan else {})
     (args.runtime_dir / "hub/options.json").write_text(json.dumps(options))
     if args.prepare_only:

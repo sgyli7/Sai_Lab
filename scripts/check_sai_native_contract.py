@@ -52,10 +52,10 @@ def group(profile: Path | None, cases: list[dict]) -> dict:
     )
 
 
-def fixtures() -> dict:
+def fixtures(extra_profile: Path | None = None) -> dict:
     stair = np.repeat([0.0, 0.0, 0.0, 0.04, 0.04, 0.04, 0.04, 0.04], 3)
     policies = resource_root() / "policies" / "experimental"
-    return dict(schema_version=1, groups=[
+    groups = [
         group(None, [
             state("flat_heading", .20, [.18, .22, 0.0], yaw=.11, roll=.04),
             state("flat_crouch", .22, [.14, -.16, 1.0], yaw=.10, roll=-.03),
@@ -70,21 +70,38 @@ def fixtures() -> dict:
         group(policies / "descent60.json", [
             state("stairs_descent60", .90, [.16, .0, 0.0], yaw=.08, terrain=stair, stair_course=True),
         ]),
-    ])
+    ]
+    if extra_profile is not None:
+        groups.append(group(extra_profile, [
+            state("task_space_v6", .72, [.16, .0, 0.0], terrain=stair,
+                  stair_course=True, wheel_ground=[0.0, 0.0, 0.0, 0.0]),
+        ]))
+    return dict(schema_version=1, groups=groups)
 
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--godot", default=os.environ.get("GODOT") or shutil.which("godot"))
     parser.add_argument("--runtime", type=Path, default=ROOT / "results/workshop-hub/runtime")
+    parser.add_argument("--profile", type=Path)
     args = parser.parse_args(argv)
     if not args.godot or not (args.runtime / "project.godot").is_file():
         raise SystemExit("Prepare the runtime first: ./run-workshop.sh --prepare-only")
     shutil.copy2(ROOT / "godot/tests/sai_native_contract_probe.gd", args.runtime / "tests/sai_native_contract_probe.gd")
     shutil.copy2(ROOT / "godot/sai/native_controller.gd", args.runtime / "sai/native_controller.gd")
+    shutil.copy2(ROOT / "godot/sai/task_space_impedance.gd", args.runtime / "sai/task_space_impedance.gd")
+    native_binary = ROOT / "godot/native/bin/libmicroduck_policy.linux.debug.arm64.so"
+    if native_binary.is_file():
+        shutil.copy2(native_binary, args.runtime / "native/bin/libmicroduck_policy.linux.debug.arm64.so")
+    if args.profile is not None:
+        profile = json.loads(args.profile.read_text())
+        destination = args.runtime / "sai_policy/experimental"
+        destination.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(args.profile, destination / args.profile.name)
+        shutil.copy2(args.profile.parent / profile["actor"], destination / profile["actor"])
     with tempfile.TemporaryDirectory(prefix="sai-native-contract-") as directory:
         path = Path(directory) / "fixtures.json"
-        path.write_text(json.dumps(fixtures(), separators=(",", ":")))
+        path.write_text(json.dumps(fixtures(args.profile), separators=(",", ":")))
         result = subprocess.run([args.godot, "--headless", "--path", str(args.runtime),
                                  "--script", "res://tests/sai_native_contract_probe.gd", "--",
                                  f"--fixtures={path}"], text=True, timeout=120)

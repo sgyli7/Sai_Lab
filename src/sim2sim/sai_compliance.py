@@ -4,6 +4,7 @@ import numpy as np
 from sai_agent.control import STAND_HEIGHT, CROUCH_DROP
 from sim2sim.sai_controller import MotionController
 from sim2sim.sai_suspension import Suspension
+from sim2sim.sai_task_impedance import support_weights
 
 BASE_GEOMETRY=[1.077687564550128,.4125468028688285,.0841540838419023]
 LEG_AXES=np.array([i for i in range(16) if i%4!=3])
@@ -55,15 +56,7 @@ class StanceImpedance:
         # Match net support and its moment around the actual robot CoM.
         # Active-set elimination prevents a foot from pulling on the ground.
         xy=self.data.xpos[self.wheel_ids,:2]-self.data.subtree_com[self.model.body('chassis').id,:2]
-        A=np.vstack([np.ones(4),xy.T]);active=contact>1e-4;weights=np.zeros(4)
-        for _ in range(4):
-            if not np.any(active):break
-            B=A[:,active];D=np.diag(contact[active])
-            values=D@B.T@np.linalg.pinv(B@D@B.T,rcond=1e-7)@np.array([1.,0.,0.])
-            if np.min(values)>=-1e-8:
-                weights[active]=np.maximum(values,0.);break
-            ids=np.flatnonzero(active);active[ids[np.argmin(values)]]=False
-        if weights.sum()>0:weights*=min(1.,float(contact.sum()))/weights.sum()
+        weights=support_weights(contact,xy)
         for i,body in enumerate(self.wheel_ids):
             mujoco.mj_jacBody(self.model,self.data,self.jac,self.jacr,body)
             feedforward[LEG_AXES]-=self.jac[2,self.adapter.vadr[LEG_AXES]]*force*weights[i]
@@ -86,8 +79,8 @@ class StanceImpedance:
 
 class CompliantController(MotionController):
     """Explicit experimental entry point; the packaged default cannot affect trials."""
-    def __init__(self,root,parameters=None):
-        super().__init__(root,suspension_profile="off")
+    def __init__(self,root,parameters=None,stair_profile=None):
+        super().__init__(root,stair_profile=stair_profile,suspension_profile="off")
         self.suspension=Suspension(BASE_GEOMETRY)
         self.impedance=None if parameters is None else StanceImpedance(self,parameters)
         self.roll_descent=parameters is not None

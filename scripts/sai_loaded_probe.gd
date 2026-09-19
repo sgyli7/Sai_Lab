@@ -43,7 +43,7 @@ func build_ground() -> void:
 		for i in range(5):box_surface("stair_"+str(i),bounds[i],bounds[i+1],2.,riser*(4-i if descending else i),.5)
 
 func movement_command() -> Array:
-	var t:float=robot.tick*.0005
+	var t:float=robot.sim_time_seconds()
 	if t<1. or cleared_at>=0. or (riser<=0. and t>=7.):return [0.,0.,0.]
 	return [.16 if riser>0. else float(experiment.get("drive_speed",.5)),float(experiment.get("turn_rate",0.)),0.]
 
@@ -60,7 +60,7 @@ func _physics_process(delta:float) -> void:
 	if robot!=null and robot.item!=null and not finished:
 		var base:RigidBody3D=robot.bodies.chassis
 		var item:RigidBody3D=robot.item
-		var t:float=robot.tick*.0005
+		var t:float=robot.sim_time_seconds()
 		if riser>0. and cleared_at<0.:
 			var cleared:=true
 			for leg in specification.leg_order:
@@ -74,10 +74,10 @@ func _physics_process(delta:float) -> void:
 			lost=lost or cargo.z<.02 or absf(cargo.y)>.12 or cargo.x<-.17 or cargo.x>-.025
 		var deck_offset:Vector3=base.global_basis*Vector3(-.09,.06,0.)
 		var deck_velocity:Vector3=base.linear_velocity+base.angular_velocity.cross(deck_offset)
-		var acc:Vector3=(item.linear_velocity-previous_velocity)/.0005
-		var deck_acc:Vector3=(deck_velocity-previous_deck_velocity)/.0005
-		filtered+=(acc-filtered)*(.0005/.0155)
-		var jerk:Vector3=(filtered-previous_filtered)/.0005
+		var acc:Vector3=(item.linear_velocity-previous_velocity)/delta
+		var deck_acc:Vector3=(deck_velocity-previous_deck_velocity)/delta
+		filtered+=(acc-filtered)*(delta/(.015+delta))
+		var jerk:Vector3=(filtered-previous_filtered)/delta
 		var supported:=false
 		var left_pad:=false
 		var right_pad:=false

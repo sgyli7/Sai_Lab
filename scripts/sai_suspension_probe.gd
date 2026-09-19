@@ -29,7 +29,7 @@ func build_ground() -> void:
 
 func movement_command() -> Array:
 	if riser>0.:return super.movement_command()
-	var t:float=robot.tick*.0005
+	var t:float=robot.sim_time_seconds()
 	var driving:bool=t>=1. and t<6.
 	var turn:float=.3 if experiment.get("maneuver","")=="turn" and driving else 0.
 	var low:float=float(experiment.get("crouch",0.))

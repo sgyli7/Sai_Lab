@@ -1,0 +1,134 @@
+[
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/07-up20-candidate",
+    "kind": "up20",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.12,
+        "gap_m": 0.01628049968770997,
+        "distance_to_first_riser_m": 0.25840268773690167
+      },
+      {
+        "leg": "front_right",
+        "time": 1.6,
+        "gap_m": 0.027517838063993376,
+        "distance_to_first_riser_m": 0.2491203044959323
+      }
+    ],
+    "all_wheels_far_samples": 47,
+    "max_gap_while_all_far_m": 0.09266501879672127,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  },
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/09-up40-candidate",
+    "kind": "up40",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.1,
+        "gap_m": 0.017517782438539797,
+        "distance_to_first_riser_m": 0.3124087766054241
+      },
+      {
+        "leg": "front_right",
+        "time": 1.58,
+        "gap_m": 0.021125418791343935,
+        "distance_to_first_riser_m": 0.28297952502049245
+      }
+    ],
+    "all_wheels_far_samples": 56,
+    "max_gap_while_all_far_m": 0.09500879705561477,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  },
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/20-up20-candidate",
+    "kind": "up20",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.1400000000000001,
+        "gap_m": 0.016416278900583336,
+        "distance_to_first_riser_m": 0.23354874201940437
+      },
+      {
+        "leg": "front_right",
+        "time": 1.58,
+        "gap_m": 0.017337302975607552,
+        "distance_to_first_riser_m": 0.21925864873744477
+      }
+    ],
+    "all_wheels_far_samples": 41,
+    "max_gap_while_all_far_m": 0.06675295327486108,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  },
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/22-up40-candidate",
+    "kind": "up40",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.1,
+        "gap_m": 0.01703289287666824,
+        "distance_to_first_riser_m": 0.25453610058761883
+      },
+      {
+        "leg": "front_right",
+        "time": 1.58,
+        "gap_m": 0.02110456443886679,
+        "distance_to_first_riser_m": 0.2314750564359775
+      }
+    ],
+    "all_wheels_far_samples": 42,
+    "max_gap_while_all_far_m": 0.07203423764413688,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  },
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/33-up20-candidate",
+    "kind": "up20",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.1400000000000001,
+        "gap_m": 0.017049996549752942,
+        "distance_to_first_riser_m": 0.2569786795246476
+      },
+      {
+        "leg": "front_right",
+        "time": 1.58,
+        "gap_m": 0.02300588956581405,
+        "distance_to_first_riser_m": 0.26510175363814265
+      }
+    ],
+    "all_wheels_far_samples": 51,
+    "max_gap_while_all_far_m": 0.10287975150509485,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  },
+  {
+    "episode": "results/sai-cargo-suspension-20260915/accept-mujoco/35-up40-candidate",
+    "kind": "up40",
+    "passed_no_premature_lift": false,
+    "premature_lift_events": [
+      {
+        "leg": "front_left",
+        "time": 1.1,
+        "gap_m": 0.017204513463560125,
+        "distance_to_first_riser_m": 0.28676604244038956
+      },
+      {
+        "leg": "front_right",
+        "time": 1.58,
+        "gap_m": 0.022556654237382658,
+        "distance_to_first_riser_m": 0.2707584981456944
+      }
+    ],
+    "all_wheels_far_samples": 50,
+    "max_gap_while_all_far_m": 0.09441638666156431,
+    "definition": "actual cylinder geometry orientation/extents; no wheel-terrain contact, >15 mm vertical ground clearance and front envelope >100 mm before first riser; after 1 s settling"
+  }
+]

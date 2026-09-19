@@ -1,0 +1,10 @@
+{
+  "near_and_far_zero_actor_templates_identical": true,
+  "max_hip_knee_deviation_from_standing_rad": 0.8347886640120523,
+  "policy_residual_scale_rad": 0.18,
+  "period_seconds": 3.2,
+  "lift_height_m": 0.055,
+  "source": "/home/ethan/Projects/Robot_Godot_Sim2Sim/main/.venv-sai/lib/python3.12/site-packages/sai_agent/control.py",
+  "source_sha256": "b04660ca95af32b560c4384ab57f8692a34ac08b5fd502050a32dee0c6bb4660",
+  "interpretation": "The scripted stair reference still swings with a zero actor and depends only on scan range, not the edge location. Neural residual can alter targets but does not own phase or nominal clearance."
+}

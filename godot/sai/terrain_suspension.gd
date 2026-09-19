@@ -7,15 +7,17 @@ const CROUCH_DROP := 0.035
 
 var parameters:Array
 var offset:=[0.0,0.0,0.0,0.0]
+var apply_on_stairs:=false
 
-func _init(profile:Dictionary)->void:
+func _init(profile:Dictionary,enable_on_stairs:=false)->void:
 	parameters=profile.geometry_parameters.duplicate()
+	apply_on_stairs=enable_on_stairs
 
 func reset()->void:
 	offset=[0.0,0.0,0.0,0.0]
 
 func apply(result:Dictionary,state:Dictionary)->Dictionary:
-	if state.get("wheel_ground_heights",[]).size()!=4 or result.stage=="stairs":
+	if state.get("wheel_ground_heights",[]).size()!=4 or (result.stage=="stairs" and not apply_on_stairs):
 		reset();return result
 	var heights:Array=state.wheel_ground_heights
 	var mean:=0.0
