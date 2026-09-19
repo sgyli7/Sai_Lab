@@ -50,8 +50,8 @@
 需要 Python 3.12、[uv](https://docs.astral.sh/uv/)、Godot 4.7.2，以及 [microduck_rl](https://github.com/pollen-robotics/microduck_rl) 的机器人资源和 ONNX 权重。
 
 ```bash
-git clone https://github.com/sgyli7/Robot_Godot_Sim2Sim.git
-cd Robot_Godot_Sim2Sim
+git clone https://github.com/sgyli7/Sai_Lab.git
+cd Sai_Lab/Godot_Sim2Sim
 uv sync
 
 export MICRODUCK_RL=/path/to/microduck_rl
