@@ -70,7 +70,7 @@ func _nearest_floor_target() -> RigidBody3D:
 	for candidate in candidates:
 		if not (candidate is RigidBody3D) or candidate.mass > MAX_MASS_KG: continue
 		var center := _center(candidate)
-		var relative := actor._base.global_basis.inverse() * (center-actor._base.global_position)
+		var relative: Vector3 = actor._base.global_basis.inverse() * (center-actor._base.global_position)
 		# The GroundPick skill bends at the feet and has no object navigation.
 		if relative.x < -0.03 or relative.x > 0.27 or absf(relative.z) > 0.14: continue
 		if center.y > actor._base.global_position.y + 0.04: continue
