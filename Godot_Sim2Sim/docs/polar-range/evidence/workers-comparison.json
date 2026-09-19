@@ -1,0 +1,30 @@
+[
+  {
+    "workers": 1,
+    "affinity": null,
+    "wall_s": 6.348446,
+    "simulation_s": 2.00249999999984,
+    "ratio": 0.315431524502191
+  },
+  {
+    "workers": 1,
+    "affinity": "5-9,15-19",
+    "wall_s": 5.981918,
+    "simulation_s": 2.00249999999984,
+    "ratio": 0.334758851592388
+  },
+  {
+    "workers": 2,
+    "affinity": "5-9,15-19",
+    "wall_s": 6.029878,
+    "simulation_s": 2.00249999999984,
+    "ratio": 0.332096271267816
+  },
+  {
+    "workers": 4,
+    "affinity": "5-9,15-19",
+    "wall_s": 5.945128,
+    "simulation_s": 2.00199999999984,
+    "ratio": 0.336746324048841
+  }
+]

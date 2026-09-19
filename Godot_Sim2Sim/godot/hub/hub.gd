@@ -168,7 +168,7 @@ func _make_scene_picker() -> void:
 	var heading := Label.new();heading.text="选择探索地点";heading.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
 	heading.add_theme_font_override("font",load("res://atelier/ui_font.tres"));heading.add_theme_font_size_override("font_size",34)
 	heading.add_theme_color_override("font_color",Color("343944"));column.add_child(heading)
-	for entry in [["science_station","风口科学站","观测塔 · 样本处理 · 岩丘步道"],["workshop","小小维修站","机械小院 · 检修台 · 运送练习"]]:
+	for entry in [["science_station","01 · 风口科学站","观测塔 · 样本处理 · 岩丘步道"],["workshop","02 · 小小维修站","机械小院 · 检修台 · 运送练习"],["polar_range","03 · 极地雪原","利维坦车底 · 平台 · 驾驶舱"]]:
 		var button := Button.new();button.text=entry[1]+"\n"+entry[2];button.custom_minimum_size=Vector2(550,110)
 		button.add_theme_font_override("font",load("res://atelier/ui_font.tres"));button.add_theme_font_size_override("font_size",23)
 		for state in ["normal","hover","pressed","focus"]:
@@ -177,10 +177,12 @@ func _make_scene_picker() -> void:
 			style.set_corner_radius_all(8);button.add_theme_stylebox_override(state,style)
 		for state in ["font_color","font_hover_color","font_pressed_color","font_focus_color"]:
 			button.add_theme_color_override(state,Color("343944"))
-		button.pressed.connect(func(): options.scene=entry[0];active_task="drive";options.task="drive";layer.queue_free();scene_chosen.emit())
+		button.pressed.connect(func():
+			if entry[0]=="polar_range":_choose_polar_vehicle();return
+			options.scene=entry[0];active_task="drive";options.task="drive";layer.queue_free();scene_chosen.emit())
 		column.add_child(button)
 		if entry[0]=="science_station":button.grab_focus()
-	var note:=Label.new();note.text="MicroDuck  ·  Roller  ·  Sai 001";note.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+	var note:=Label.new();note.text="MicroDuck  ·  Roller  ·  Sai 001  ·  Leviathan 001";note.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
 	note.add_theme_color_override("font_color",Color("73777d"));column.add_child(note)
 
 
@@ -423,7 +425,8 @@ func _make_hud() -> void:
 		row.add_child(button)
 	task_menu = OptionButton.new()
 	task_menu.focus_mode = Control.FOCUS_NONE
-	for key in TASKS: task_menu.add_item(TASKS[key].label)
+	for key in TASKS:
+		task_menu.add_item(TASKS[key].label)
 	task_menu.item_selected.connect(func(index):
 		active_task = TASKS.keys()[index]
 		select_robot("sai"))
@@ -463,17 +466,26 @@ func _refresh_controls() -> void:
 	controls_hint.text = load("res://hub/controls.gd").describe(active_robot,active_task,finished,available,grabbing)
 	if actor != null and active_robot == "sai" and actor.grab != null:
 		controls_hint.text += "\n" + actor.grab.status_text()
-	elif actor != null and active_robot == "microduck":
-		controls_hint.text += "\n踢击目标：" + atelier.loose_props.target_label()
-	grab_row.visible = active_robot == "sai" and active_task in ["drive", "sort"] and not finished
+	elif actor != null and active_robot in ["microduck", "roller"]:
+		controls_hint.text += "\n" + (actor.beak.status_text() if actor.beak != null else "踢击目标：" + atelier.loose_props.target_label())
+	grab_row.visible = (active_robot == "sai" and active_task in ["drive", "sort"] and not finished) or (active_robot in ["microduck", "roller"] and actor != null and actor.beak != null)
+	if active_robot in ["microduck", "roller"]:
+		for i in range(grab_row.get_child_count()):
+			grab_row.get_child(i).text = ["B · 选择物件", "H · 用嘴捡起", "X · 松开 / 取消"][i]
+	elif active_robot == "sai":
+		for i in range(grab_row.get_child_count()):
+			grab_row.get_child(i).text = ["B · 选择物件", "G · 抓取入仓", "X · 取消 / 松开"][i]
 	for i in range(grab_row.get_child_count()):
-		grab_row.get_child(i).disabled = grabbing if i < 2 else not grabbing
+		grab_row.get_child(i).disabled = (grabbing if i < 2 else not grabbing) if active_robot == "sai" else false
 	for kind in robot_buttons:
 		robot_buttons[kind].set_pressed_no_signal(kind == active_robot)
 
 func _grab_action(action: String) -> void:
-	if switching or stopping or active_robot != "sai" or actor == null or actor.grab == null or actor.finished: return
-	actor.grab.perform(action)
+	if switching or stopping or actor == null: return
+	if active_robot == "sai" and actor.grab != null and not actor.finished:
+		actor.grab.perform(action)
+	elif active_robot in ["microduck", "roller"] and actor.beak != null:
+		actor.beak.perform(action)
 
 func _input(event: InputEvent) -> void:
 	if atelier==null:
@@ -497,7 +509,11 @@ func _input(event: InputEvent) -> void:
 		elif active_robot == "sai" and event.physical_keycode in [KEY_B,KEY_G,KEY_X]:
 			_grab_action({KEY_B:"cycle",KEY_G:"pick",KEY_X:"cancel"}[event.physical_keycode])
 			get_viewport().set_input_as_handled()
+		elif active_robot in ["microduck", "roller"] and event.physical_keycode in [KEY_H,KEY_X,KEY_V]:
+			_grab_action({KEY_H:"pick",KEY_X:"cancel",KEY_V:"open"}[event.physical_keycode])
+			get_viewport().set_input_as_handled()
 		elif active_robot == "roller" and event.physical_keycode == KEY_B:
+			_grab_action("cycle")
 			get_viewport().set_input_as_handled()
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_RIGHT: drag = event.pressed
@@ -672,3 +688,11 @@ func _save_native_trace() -> void:
 	var file := FileAccess.open(actor.session.trace_path,FileAccess.WRITE)
 	file.store_string(JSON.stringify({"robot":active_robot,"pid":OS.get_process_id(),"rows":actor.session.rows,
 		"first_fall":actor.session.first_fall,"deployment":actor.deployment}))
+
+func _choose_polar_vehicle()->void:
+	var picker:AcceptDialog=load("res://hub/leviathan_picker.gd").new()
+	add_child(picker)
+	picker.vehicle_selected.connect(func(model:String):get_tree().quit(74 if model=="003" else 73))
+	picker.confirmed.connect(picker.queue_free)
+	picker.canceled.connect(picker.queue_free)
+	picker.popup_centered(Vector2i(620,220))

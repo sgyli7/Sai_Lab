@@ -1,0 +1,83 @@
+{
+  "seconds": 60,
+  "events": [
+    {
+      "at": 0.1,
+      "key": "F8",
+      "pressed": true
+    },
+    {
+      "at": 0.3,
+      "key": "W",
+      "pressed": true
+    },
+    {
+      "at": 0.5,
+      "time_scale": 0.1
+    },
+    {
+      "at": 1,
+      "time_scale": 3
+    },
+    {
+      "at": 2,
+      "time_scale": 1
+    },
+    {
+      "at": 10,
+      "key": "A",
+      "pressed": true
+    },
+    {
+      "at": 24,
+      "key": "A",
+      "pressed": false
+    },
+    {
+      "at": 26,
+      "key": "W",
+      "pressed": false
+    },
+    {
+      "at": 36,
+      "key": "S",
+      "pressed": true
+    },
+    {
+      "at": 50,
+      "key": "S",
+      "pressed": false
+    },
+    {
+      "at": 51,
+      "key": "F7",
+      "pressed": true
+    },
+    {
+      "at": 53,
+      "key": "F8",
+      "pressed": true
+    },
+    {
+      "at": 54,
+      "key": "W",
+      "pressed": true
+    },
+    {
+      "at": 55,
+      "key": "Space",
+      "pressed": true
+    },
+    {
+      "at": 57,
+      "key": "W",
+      "pressed": false
+    },
+    {
+      "at": 57,
+      "key": "Space",
+      "pressed": false
+    }
+  ],
+  "trace_keys": true
+}

@@ -17,7 +17,10 @@ func run() -> void:
 	RenderingServer.force_draw(false)
 	root.get_texture().get_image().save_png(options.output+"/picker.png")
 	var focused:Control=root.gui_get_focus_owner()
-	if not focused is Button or not focused.text.begins_with("风口科学站"):
+	var scene_buttons:=root.find_children("","Button",true,false)
+	if scene_buttons.size()!=3 or not scene_buttons[2].text.begins_with("03 · 极地雪原"):
+		push_error("Scene picker must expose 01, 02 and 03");quit(1);return
+	if not focused is Button or not focused.text.begins_with("01 · 风口科学站"):
 		push_error("Science station must be the keyboard default");quit(1);return
 	var event:=InputEventKey.new();event.keycode=KEY_ENTER;event.physical_keycode=KEY_ENTER;event.pressed=true
 	Input.parse_input_event(event)

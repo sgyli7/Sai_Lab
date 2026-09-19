@@ -210,7 +210,7 @@ def main(argv=None):
                         service.result()
                     if args.plan and time.monotonic() - started > max(180, float(options["plan"].get("seconds",72))*6+60):
                         raise TimeoutError("Workshop plan exceeded its wall-time budget")
-                return child.returncode
+                result = child.returncode
             finally:
                 stop.set()
                 if child.poll() is None:
@@ -222,6 +222,11 @@ def main(argv=None):
                 service.result(timeout=5)
                 if trace:
                     trace.close()
+        if result == 74:
+            return subprocess.call([str(ROOT / "run-leviathan003.sh")])
+        if result == 73:
+            return subprocess.call([str(ROOT / "run-leviathan.sh"), "--reference-runtime"])
+        return result
 
 
 if __name__ == "__main__":

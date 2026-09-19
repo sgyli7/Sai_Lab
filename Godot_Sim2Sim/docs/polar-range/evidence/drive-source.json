@@ -1,0 +1,28 @@
+{
+  "baseline": "leviathan-training-r001-2026-09-14",
+  "engine_sha256": "a269ae41f3341b957a06a49898ff1f7da0c1fa5d7057df4e94705db0c0785651",
+  "mass_kg": 10966208.782140562,
+  "vehicle_runtime_sha256": "598024b1ea73aed3b7741949f6d11a4d25e7a22bef01e5c63607065f3ce10675",
+  "native_extension_sha256": "8b05db55671bdd02eac9e1d282ab87f5aaba39f6538fcb7106ac95a49e503920",
+  "native_batch": true,
+  "physics_hz": 2000,
+  "solver_iterations": [
+    32,
+    4
+  ],
+  "time_scale": 1.0,
+  "physics_manifest_sha256": "5d5599de3c827369a44c060a95d48eec0d8f708a0e2653398a2b490c2c1e01dd",
+  "host": {
+    "integrations/leviathan/godot/hub/scene_grab.gd": "7f87b6d389793b4c86aa8fb984aef084b283c4573e55d924687f3c14c1a8c967",
+    "integrations/leviathan/godot/hub/leviathan_support.gd": "9094c4a40869f1c919f8a5ec706ad3acb87cf45b8210a2fc508439f817d1059b",
+    "integrations/leviathan/godot/hub/sai.gd": "3a3283df9373c901136664353c3a9010012d7795516372ea24728299d2cfbdd1",
+    "integrations/leviathan/godot/hub/hub.gd": "5946a323e24bebbc7b76c94d029051a6fb6fa68874c74b1b98674c5f9d3e95b6",
+    "integrations/leviathan/godot/hub/simulation_clock.gd": "e054a3edac397a74358111bb38373cdd58f26f2fb184c9c5c824eb0a63571ddc",
+    "integrations/leviathan/godot/hub/leviathan_driver.gd": "e464d723e5c7c931a95be90f09f788a10e9937f74e033d090a8abc3f085f36e2",
+    "integrations/leviathan/godot/hub/leviathan.gd": "87d25c5c352f6b56ba218e2f5d2544bdf8f0862eeeb6c95fda53bc999f4ac921",
+    "integrations/leviathan/godot/polar_range/snow.gdshader": "3c3c966c3a31b1b8e1b30351f17858042e9864ad078fecc1cc1d0907ebd70bdc",
+    "integrations/leviathan/godot/polar_range/scene.gd": "0f5002d639b5d883e026252856a3f444fe87324194dd2f12f4b57e2418efc299",
+    "integrations/leviathan/godot/polar_range/sky.gdshader": "971e2aacfd337aacca309235407129a0ad3252cc8b7ed8d80da52270b255da57",
+    "integrations/leviathan/godot/polar_range/terrain.gd": "58d22fdd63a72e2cefe029388474dc73992093db602fc9bd6f7e8b3c5bf49faa"
+  }
+}

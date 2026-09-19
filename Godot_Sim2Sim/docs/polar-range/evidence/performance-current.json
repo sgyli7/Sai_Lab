@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "frame_delivery_passed": false,
+  "requested_rate": 1.0,
+  "median_fps": 4.0,
+  "simulation_to_wall_ratio": 0.24750931074242014,
+  "requested_time_rate_passed": false
+}

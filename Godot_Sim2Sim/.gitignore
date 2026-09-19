@@ -29,6 +29,7 @@ results/
 policies/**
 !policies/.gitkeep
 *.onnx
+!src/sim2sim/assets/microduck_pickable_v1/*.onnx
 
 # training runs
 logs/
