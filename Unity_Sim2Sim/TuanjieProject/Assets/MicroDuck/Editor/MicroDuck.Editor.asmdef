@@ -1,0 +1,22 @@
+{
+  "name": "MicroDuck.Editor",
+  "rootNamespace": "AgenticRobot.MicroDuck.Editor",
+  "references": [
+    "MicroDuck.Runtime",
+    "MicroDuck.MujocoRuntime",
+    "Unity.Barracuda",
+    "Mujoco.Runtime",
+    "Mujoco.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

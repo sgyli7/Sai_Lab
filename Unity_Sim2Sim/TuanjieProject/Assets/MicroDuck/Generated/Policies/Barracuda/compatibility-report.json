@@ -1,0 +1,74 @@
+{
+  "fixtureNames": [
+    "zeros",
+    "ramp",
+    "seeded"
+  ],
+  "policies": [
+    {
+      "convertedSha256": "7af6945dbe09dc05a16445085649e1bee312ee9b22b8ab6ac089bedc49d27850",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "alpha_walking.onnx",
+      "originalSha256": "e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c"
+    },
+    {
+      "convertedSha256": "464a261a52c67141448b3574af3b437b7f9b930dc4325849d2443ce5daf8c604",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "alpha_stand.onnx",
+      "originalSha256": "1569268713e40deea795dd2922dba50d3621e15a872855408b6b1b125b1c094b"
+    },
+    {
+      "convertedSha256": "940f95056fab2047a41c1d0b7a6b3bf366a3b7355b80ca68ed2945914f2694b5",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "alpha_sitstand.onnx",
+      "originalSha256": "c6c40e35e726eabd803d633e090d112994f469921152448367953fbaf9799bc8"
+    },
+    {
+      "convertedSha256": "e52e6a618a6b197e916f26bccf689af03157ad65e0b757b7681958c8c842c85a",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "alpha_ground_pick.onnx",
+      "originalSha256": "ffbf5109982ff999b0ba53afe86b9ae731bbec679d67fb7f8ab4c52152c88872"
+    },
+    {
+      "convertedSha256": "f12aaf741286d537f01e99ec5907889d8e864e86a785bc6e319f5f231d5ef580",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "ball_kick_left.onnx",
+      "originalSha256": "d6928284dccd3dd61e08bf2f760effa74309fbefd97b2b31afb2a60f526d196a"
+    },
+    {
+      "convertedSha256": "3c23e73db52ecb14410738b44fdd6db1310d6a266cbe3f172e99076e1c933c3b",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "ball_kick_right.onnx",
+      "originalSha256": "147a32c388c6b19111b3ac3b550a9a6dc8b8bf267118af4d8c3712522eedb5af"
+    },
+    {
+      "convertedSha256": "076faecf9b08b3ee6b6fe15ebdadedc3c0794883a137ca78ecda08d7751c2caf",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "roller.onnx",
+      "originalSha256": "cf05651d2708a2f9364212e86b866c97a70ace8131c492500105e8f28bf99afd"
+    },
+    {
+      "convertedSha256": "3b38a1570a9a92cea4276738fb36ad4282f568b3f010b5e1af95f863045f6dc6",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "roller_crouch.onnx",
+      "originalSha256": "a1a084be240469c76ac9d3fa44d4792f16d4b1da60398b3ecd3cfc5e2244d990"
+    },
+    {
+      "convertedSha256": "eb9e5a75ef9a03224db273f0da795ea45796167c9ed379810b1dd26b4b234f82",
+      "fixtureCount": 3,
+      "maxAbsError": 0.0,
+      "name": "roulade.onnx",
+      "originalSha256": "3d60da08fc13f29c1b57f41977aa898132c0d60042100149d8e775affcbca32b"
+    }
+  ],
+  "schemaVersion": 1,
+  "targetOpset": 9
+}

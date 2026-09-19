@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+*.py[cod]
+
+# Downloaded upstream sources and generated evidence
+.cache/
+artifacts/
+tuanjie-*.log
+
+# Tuanjie / Unity generated state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+*.csproj
+*.sln
+
+# Builds and generated media
+Builds/
+Recordings/
+
+# Local credentials and machine configuration
+.env
+*.local.json
+
+# Local agent session state
+.codely-cli/
+.superpowers/

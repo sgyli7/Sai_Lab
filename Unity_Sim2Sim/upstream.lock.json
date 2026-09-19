@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "repositories": {
+    "microduck": {
+      "url": "https://github.com/pollen-robotics/microduck.git",
+      "commit": "9f7eaad1008fffd90ef871a33a18aecd066b51a9"
+    },
+    "microduck_rl": {
+      "url": "https://github.com/pollen-robotics/microduck_rl.git",
+      "commit": "5946fd9cdbc58956424420153e51975af3b30d77"
+    }
+  },
+  "nativeBinaries": {
+    "mujocoWindowsX64": {
+      "version": "3.12.0",
+      "distribution": "official MuJoCo PyPI wheel",
+      "url": "https://files.pythonhosted.org/packages/18/2e/7c42bb3c57b0ae6c37f55f47af94bcc7ea1fe9c39d76df99fb55c3d28591/mujoco-3.12.0-cp312-cp312-win_amd64.whl",
+      "archiveSha256": "d575c455829c8b8d2ffeff4eb3341115623f2e10a250271e73ad94219b707a35",
+      "archiveMember": "mujoco/mujoco.dll",
+      "sha256": "bb001b847c5b2429facfa6827feb4b1d403d59b1fbd81bdb872d291e1f1856e6",
+      "projectPath": "TuanjieProject/Assets/Plugins/x86_64/mujoco.dll"
+    },
+    "mujocoMacOSUniversal2": {
+      "version": "3.12.0",
+      "distribution": "official MuJoCo GitHub release DMG",
+      "url": "https://github.com/google-deepmind/mujoco/releases/download/3.12.0/mujoco-3.12.0-macos-universal2.dmg",
+      "archiveSha256": "8410882d724c3637b935dc0482b0de90efed44b17bbcfcb4a165ee46285a4865",
+      "archiveMember": "MuJoCo.app/Contents/Frameworks/mujoco.framework/Versions/Current/libmujoco.3.12.0.dylib",
+      "sha256": "848bd617513c22d1e2fb729ac4088c3698c5b2b751023f653c420f5ec84ce488",
+      "projectPath": "TuanjieProject/Assets/Plugins/macOS/mujoco.dylib",
+      "architectures": ["x86_64", "arm64"]
+    }
+  },
+  "policies": [
+    "alpha_walking.onnx",
+    "alpha_stand.onnx",
+    "alpha_sitstand.onnx",
+    "alpha_ground_pick.onnx",
+    "ball_kick_left.onnx",
+    "ball_kick_right.onnx",
+    "roller.onnx",
+    "roller_crouch.onnx",
+    "roulade.onnx"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "physicsTimestepSeconds": 0.005,
+  "policyDecimation": 4,
+  "defaultJointPositionRad": [
+    0.0,
+    -0.0873,
+    -0.4579,
+    -0.0049,
+    0.4530,
+    0.3491,
+    0.3491,
+    0.0,
+    0.0,
+    0.0,
+    0.0873,
+    0.4579,
+    0.0049,
+    -0.4530
+  ],
+  "runtimeFilter": {
+    "headAlpha": 0.5,
+    "legAlpha": 0.7,
+    "headJointIndices": [5, 6, 7, 8]
+  },
+  "scenarios": {
+    "alpha_walking.onnx": {
+      "role": "walk",
+      "robotVariant": "legged",
+      "scene": "scene.xml",
+      "durationSeconds": 6.0,
+      "actionScale": 1.1,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minForwardDistanceMeters": 0.03, "minUprightDot": 0.25}
+    },
+    "alpha_stand.onnx": {
+      "role": "stand",
+      "robotVariant": "legged",
+      "scene": "scene.xml",
+      "durationSeconds": 4.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minUprightDot": 0.5, "maxRootDriftMeters": 0.2}
+    },
+    "alpha_sitstand.onnx": {
+      "role": "sitstand",
+      "robotVariant": "legged",
+      "scene": "scene.xml",
+      "durationSeconds": 8.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]},
+        {"atSeconds": 1.0, "command": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]},
+        {"atSeconds": 4.5, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minHeightExcursionMeters": 0.015, "minFinalUprightDot": 0.35}
+    },
+    "alpha_ground_pick.onnx": {
+      "role": "ground-pick",
+      "robotVariant": "legged",
+      "scene": "scene.xml",
+      "durationSeconds": 4.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "phasePeriodSeconds": 4.0, "phaseEnd": 0.8}
+      ],
+      "acceptance": {"minJointExcursionRad": 0.1, "minFinalUprightDot": 0.2}
+    },
+    "ball_kick_left.onnx": {
+      "role": "kick-left",
+      "robotVariant": "legged",
+      "scene": "scene_ball.xml",
+      "durationSeconds": 3.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minBallDisplacementMeters": 0.01, "minJointExcursionRad": 0.1}
+    },
+    "ball_kick_right.onnx": {
+      "role": "kick-right",
+      "robotVariant": "legged",
+      "scene": "scene_ball.xml",
+      "durationSeconds": 3.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minBallDisplacementMeters": 0.01, "minJointExcursionRad": 0.1}
+    },
+    "roller.onnx": {
+      "role": "roller",
+      "robotVariant": "roller",
+      "scene": "scene_rollers.xml",
+      "durationSeconds": 6.0,
+      "actionScale": 0.8,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minForwardDistanceMeters": 0.04, "minUprightDot": 0.2}
+    },
+    "roller_crouch.onnx": {
+      "role": "roller-crouch",
+      "robotVariant": "roller",
+      "scene": "scene_rollers.xml",
+      "durationSeconds": 3.0,
+      "actionScale": 0.8,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "phasePeriodSeconds": 5.0, "phaseEnd": 0.7}
+      ],
+      "acceptance": {"minHeightExcursionMeters": 0.01, "minJointExcursionRad": 0.1}
+    },
+    "roulade.onnx": {
+      "role": "roulade",
+      "robotVariant": "legged",
+      "scene": "scene.xml",
+      "durationSeconds": 3.0,
+      "actionScale": 1.0,
+      "commandProgram": [
+        {"atSeconds": 0.0, "command": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+      ],
+      "acceptance": {"minPitchRotationRad": 3.0, "minJointExcursionRad": 0.1}
+    }
+  }
+}

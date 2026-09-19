@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agenticrobot-bridge"
+version = "0.1.0"
+description = "Deterministic MicroDuck model, policy, and trace bridge"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mujoco>=3.4,<4",
+  "numpy>=2.0,<3",
+  "onnx>=1.19,<2",
+  "onnxruntime>=1.22,<2",
+  "trimesh>=4.8,<5",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<9",
+  "pytest-cov>=7,<8",
+  "ruff>=0.13,<0.14",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agenticrobot_bridge"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
