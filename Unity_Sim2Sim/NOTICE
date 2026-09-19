@@ -1,0 +1,16 @@
+MicroDuck-Unity-Sim2Sim
+
+This repository is a Unity / Tuanjie Engine implementation for evaluating
+MicroDuck MuJoCo models and ONNX policies.
+
+Third-party components and generated assets retain their original licensing:
+
+* MicroDuck and microduck_rl source: Apache License 2.0.
+* MicroDuck 3D model files and their derived meshes: Creative Commons
+  Attribution-ShareAlike-NonCommercial (CC BY-SA-NC).
+* The generated-asset provenance, source revisions, hashes, and copied license
+  texts are in TuanjieProject/Assets/MicroDuck/Generated/Licenses/.
+
+This repository does not grant commercial rights for the included or derived
+MicroDuck 3D model assets. Preserve the attribution and share-alike
+requirements when redistributing those assets.

@@ -1,0 +1,28 @@
+# Generated MicroDuck mesh; do not edit by hand.
+# Source: microduck_rl/src/mjlab_microduck/robot/microduck/assets/speaker.stl
+# Source repository: https://github.com/pollen-robotics/microduck_rl.git@5946fd9cdbc58956424420153e51975af3b30d77
+# Source SHA-256: 694064a99dbecd48aea6122232ff1051b085e59ccbd4c53d8c32640105b4e826
+# License: Creative Commons BY-SA-NC; see ../Licenses/ATTRIBUTION.json.
+# Modified: exported MuJoCo-compiled mesh geometry in Tuanjie coordinates.
+# Transform: (x,y,z) -> (-y,z,x); triangle winding reversed.
+o speaker
+v -0.0125000002 0.0175000001 -0.00350000011
+v -0.0125000002 -0.0175000001 -0.00350000011
+v 0.0125000002 0.0175000001 -0.00350000011
+v 0.0125000002 -0.0175000001 -0.00350000011
+v -0.0125000002 -0.0175000001 0.00350000011
+v -0.0125000002 0.0175000001 0.00350000011
+v 0.0125000002 -0.0175000001 0.00350000011
+v 0.0125000002 0.0175000001 0.00350000011
+f 1 3 2
+f 2 3 4
+f 5 7 6
+f 6 7 8
+f 8 3 6
+f 6 3 1
+f 6 1 5
+f 5 1 2
+f 7 4 8
+f 8 4 3
+f 5 2 7
+f 7 2 4

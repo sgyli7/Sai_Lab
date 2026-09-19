@@ -1,0 +1,22 @@
+{
+  "name": "MicroDuck.PlayModeTests",
+  "rootNamespace": "AgenticRobot.MicroDuck.Tests",
+  "references": [
+    "MicroDuck.Runtime",
+    "MicroDuck.MujocoRuntime",
+    "Mujoco.Runtime",
+    "Unity.Barracuda"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "meshLicense": "Creative Commons BY-SA-NC",
+  "meshLicenseNotice": "3D model files are licensed under Creative Commons BY-SA-NC.",
+  "meshLicenseSource": {
+    "file": "Assets/MicroDuck/Generated/Licenses/microduck_rl-README.md",
+    "sha256": "db028a0ccbdc20a7fc3d50870eeccb1a4b91200401a5fb872227aff95c740f77"
+  },
+  "modificationNotice": "Generated OBJ files transform coordinates from MuJoCo to Tuanjie and reverse triangle winding. Generated ONNX files only change the default opset declaration from 18 to 9 after restricted validation and parity tests.",
+  "repositories": {
+    "microduck": {
+      "commit": "9f7eaad1008fffd90ef871a33a18aecd066b51a9",
+      "licenseAsset": "Assets/MicroDuck/Generated/Licenses/microduck-LICENSE.txt",
+      "licenseSha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "url": "https://github.com/pollen-robotics/microduck.git"
+    },
+    "microduck_rl": {
+      "commit": "5946fd9cdbc58956424420153e51975af3b30d77",
+      "licenseAsset": "Assets/MicroDuck/Generated/Licenses/microduck_rl-LICENSE.txt",
+      "licenseSha256": "48a029ca4cffafe32428e9f7d3f6a54ce637fac5327a9ccf88c93cb3c40e5a8a",
+      "url": "https://github.com/pollen-robotics/microduck_rl.git"
+    }
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,294 @@
+{
+  "maxHullVertices": 128,
+  "proxies": [
+    {
+      "bodyName": "trunk_base",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/power_support.obj",
+      "collisionAssetSha256": "f6b1d81d4c923e67e823ac41e1fb6b89760a3c5e8baa5179c85ab2d807b68cfc",
+      "conaffinity": 2,
+      "contype": 2,
+      "geomName": "__geom_007_trunk_base",
+      "halfExtents": [
+        0.02729301436499367,
+        0.04700184075311795,
+        0.010664977940708826
+      ],
+      "localPosition": [
+        -4.945441722257045e-06,
+        0.0028916862719754292,
+        -0.024356735716034066
+      ],
+      "localRotationWxyz": [
+        9.042966517613937e-05,
+        0.0005805068205395648,
+        -0.9999758037010656,
+        0.006931583276299271
+      ],
+      "meshName": "power_support",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "trunk_base",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/np_f970.obj",
+      "collisionAssetSha256": "f8aa0d329c6a548b3ef55711253cd83e099ed06cf88974023fe4e3bf8f98baa1",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_009_trunk_base",
+      "halfExtents": [
+        0.019311870637848238,
+        0.0356403120620824,
+        0.010659194595228582
+      ],
+      "localPosition": [
+        7.024503971980631e-06,
+        -0.004094097634336314,
+        -0.03559272495928282
+      ],
+      "localRotationWxyz": [
+        0.009019064888765665,
+        -0.9999592628950843,
+        0.00011577244771791752,
+        -0.0003400229313244547
+      ],
+      "meshName": "np_f970",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "hip_l",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/hip_l.obj",
+      "collisionAssetSha256": "f3c114dc4a5217b86b059d71b11cea04f210166c35219bc5c137c2c494334056",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_019_hip_l",
+      "halfExtents": [
+        0.013452729787466734,
+        0.022451504292743635,
+        0.009501839526478454
+      ],
+      "localPosition": [
+        -1.8398319522334885e-06,
+        -0.006717739615561992,
+        0.011459907061034426
+      ],
+      "localRotationWxyz": [
+        0.6618553097995563,
+        -0.24889264531145688,
+        -0.6618553097995563,
+        0.24889264531145688
+      ],
+      "meshName": "hip_l",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "leg",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/leg.obj",
+      "collisionAssetSha256": "79d53386de0005588c61beeb2e55bebe1cccd7ec9706ab179589912ad85105b6",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_026_leg",
+      "halfExtents": [
+        0.010000006667391259,
+        0.03068824448462503,
+        0.004470066919639041
+      ],
+      "localPosition": [
+        -0.017257779768352462,
+        0.00186705617593097,
+        6.7716993887301236e-09
+      ],
+      "localRotationWxyz": [
+        0.49253855648891054,
+        0.5073517225474062,
+        0.49253855648891054,
+        -0.5073517225474062
+      ],
+      "meshName": "leg",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "ankle_left",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/sole_left.obj",
+      "collisionAssetSha256": "2660da153aa99edf9b947ae1e2ab86bd757171db0c80c68012358bed72480863",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "left_foot_collision",
+      "halfExtents": [
+        0.02174142665451742,
+        0.027229970684708008,
+        0.006787960776309599
+      ],
+      "localPosition": [
+        0.018218442746407423,
+        -0.015740582100317507,
+        -0.0068320009762206715
+      ],
+      "localRotationWxyz": [
+        0.49239760788212883,
+        -0.4898241487919812,
+        -0.5093531930920157,
+        0.5081104443909208
+      ],
+      "meshName": "sole_left",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "jaw_soft",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/top_head_shell.obj",
+      "collisionAssetSha256": "b29bf31adc122c527ba337cc8aad40b6595510757fd9988ff5a81a0bbe7a620f",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_049_jaw_soft",
+      "halfExtents": [
+        0.045883950898248274,
+        0.06482166620720282,
+        0.029943398860564605
+      ],
+      "localPosition": [
+        -2.3385603580711384e-06,
+        -0.021557787299150435,
+        0.018531922629895007
+      ],
+      "localRotationWxyz": [
+        5.816828981658473e-05,
+        6.880388255636749e-06,
+        -0.06266871841119531,
+        -0.9980343823244824
+      ],
+      "meshName": "top_head_shell",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "jaw_soft",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/jaw.obj",
+      "collisionAssetSha256": "5d9349a72bbd422d5f517e292b410caab9a5293ea096c61f9146300f5963cdd3",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_056_jaw_soft",
+      "halfExtents": [
+        0.038670729536156655,
+        0.046233257061725666,
+        0.014670456854913323
+      ],
+      "localPosition": [
+        0.00023428649158254306,
+        -0.045215151021850974,
+        -0.009019853386791836
+      ],
+      "localRotationWxyz": [
+        -0.6989888538667667,
+        -0.07890042332498737,
+        0.0806423084688607,
+        -0.7061771190388274
+      ],
+      "meshName": "jaw",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "jaw_soft",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/bottom_head_shell.obj",
+      "collisionAssetSha256": "89e8bf4dd345df8b1fa312aca4eb0b1bf883524a3b52667b15caf5098d3623d8",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_058_jaw_soft",
+      "halfExtents": [
+        0.047571455174725996,
+        0.06550060829499739,
+        0.012276245675139564
+      ],
+      "localPosition": [
+        0.001532339675089942,
+        -0.01299049249499619,
+        -0.009130745606460332
+      ],
+      "localRotationWxyz": [
+        0.0014242172442586742,
+        0.0027427963455924076,
+        -0.017246118895890505,
+        -0.9998464982468456
+      ],
+      "meshName": "bottom_head_shell",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "hip_l_2",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/hip_l.obj",
+      "collisionAssetSha256": "f3c114dc4a5217b86b059d71b11cea04f210166c35219bc5c137c2c494334056",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_067_hip_l_2",
+      "halfExtents": [
+        0.013452729787466734,
+        0.022451504292743635,
+        0.009501839526478454
+      ],
+      "localPosition": [
+        -1.8398319522334885e-06,
+        -0.006717739615561992,
+        0.011459907061034426
+      ],
+      "localRotationWxyz": [
+        0.6618553097995563,
+        -0.24889264531145688,
+        -0.6618553097995563,
+        0.24889264531145688
+      ],
+      "meshName": "hip_l",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "leg_2",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/leg.obj",
+      "collisionAssetSha256": "79d53386de0005588c61beeb2e55bebe1cccd7ec9706ab179589912ad85105b6",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "__geom_076_leg_2",
+      "halfExtents": [
+        0.010000006667391259,
+        0.03068824448462503,
+        0.004470066919639041
+      ],
+      "localPosition": [
+        -6.771699385260677e-09,
+        0.001867056175930977,
+        -0.017257779768352466
+      ],
+      "localRotationWxyz": [
+        0.696554706578284,
+        0.7175036869198934,
+        -0.0,
+        -0.0
+      ],
+      "meshName": "leg",
+      "proxyType": "convexMesh"
+    },
+    {
+      "bodyName": "ankle_right",
+      "collisionAssetFile": "Assets/MicroDuck/Generated/CollisionMeshes/sole_right.obj",
+      "collisionAssetSha256": "6d9da305f6f7dee50a854c586ac3ce5d845309085285276937351f2fb4eec245",
+      "conaffinity": 1,
+      "contype": 1,
+      "geomName": "right_foot_collision",
+      "halfExtents": [
+        0.021741484734262538,
+        0.027229830271888446,
+        0.006788012574034744
+      ],
+      "localPosition": [
+        0.018218451225690872,
+        -0.015740675022931458,
+        0.00683211164006502
+      ],
+      "localRotationWxyz": [
+        0.5093535041430419,
+        0.5081115556633908,
+        -0.4923962861697297,
+        -0.4898240012339056
+      ],
+      "meshName": "sole_right",
+      "proxyType": "convexMesh"
+    }
+  ],
+  "schemaVersion": 2,
+  "strategy": "mujoco-capped-convex-hull; tire-as-cylinder",
+  "variant": "legged"
+}
