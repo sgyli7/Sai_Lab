@@ -1,10 +1,10 @@
 # Robot Godot Sim2Sim
 
-## 03 · 极地雪原 / Leviathan 手动驾驶
+## 03 · 极地雪原 / Sainiverse v0.1
 
-桌面仅保留统一的 `Robot_Godot_Sim2Sim` 入口，可在主界面选择 01 风口科学站、02 小小维修站或 03 极地雪原。三号场景可用 1/2/3 在利维坦车底、平台上和驾驶舱室内出生，并用 F5/F6/F7/F8 切换 MicroDuck、轮滑版、Sai 与 Leviathan。
+桌面入口的 03 场景现在进入 **Sainiverse v0.1** 雪原试车场；01 风口科学站和 02 小小维修站仍走原有场景。也可从本目录执行 `./run-sainiverse-v0.1.sh --terrain polar`。W/S 驾驶、A/D 转向、空格制动，鼠标或左侧面板可控制视角、主题与作业机构。时间流速滑条默认为 1.0×，范围 0.1×～3.0×。
 
-时间倍率默认为 1.0×，可用滑条调节到 0.1～3.0×；保持 0.5 ms 物理步长。原先约 0.15× 的人为调度上限已移除，实际速度仍受计算性能限制。资产、质量和物理参数保持冻结版本。见[启动、按键与验收范围](docs/leviathan-integration.md)。
+新车采用独立的 [Sai_Design 设计交付包](https://github.com/sgyli7/Sai_Design)和游戏运行目录。启动器默认从 `/home/ethan/Projects/RobotDesign/delivery/Sai_Design` 读取交付包，其他路径可设置 `SAINIVERSE_RELEASE_ROOT`。按[首次准备](docs/workshop-hub.md#首次准备)安装当前机器人资源后，启动器会把最新 Sai/MD 控制器和模型同步到新车运行目录。`./run-sainiverse-v0.1.sh --mode cabin_patrol` 可看 MD 舱内巡视，`--mode sai_board` 可看 Sai 登车。旧 Leviathan 001 仍可从 03 场景的车型选择框进入，说明见[原版集成文档](docs/leviathan-integration.md)。
 
 将 MuJoCo 训练的机器人控制策略迁移到 **Godot / Jolt**，运行真实刚体物理与策略控制。支持 MicroDuck、MD 轮滑版和 Sai Robot 001，三种机器人可在同一游戏窗口中动态切换。
 

@@ -52,6 +52,6 @@ set +e
     "${NATIVE_ENGINE_ARGS[@]}" -- "${NATIVE_USER_ARGS[@]}"
 NATIVE_STATUS=$?
 set -e
-if [ "$NATIVE_STATUS" -eq 74 ]; then exec "$NATIVE_ROOT/run-leviathan003.sh"; fi
+if [ "$NATIVE_STATUS" -eq 74 ]; then exec "$NATIVE_ROOT/run-sainiverse-v0.1.sh" --terrain polar; fi
 if [ "$NATIVE_STATUS" -eq 73 ]; then exec "$NATIVE_ROOT/run-leviathan.sh" --reference-runtime; fi
 exit "$NATIVE_STATUS"

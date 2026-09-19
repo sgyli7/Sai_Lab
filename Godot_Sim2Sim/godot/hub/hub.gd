@@ -168,7 +168,7 @@ func _make_scene_picker() -> void:
 	var heading := Label.new();heading.text="选择探索地点";heading.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
 	heading.add_theme_font_override("font",load("res://atelier/ui_font.tres"));heading.add_theme_font_size_override("font_size",34)
 	heading.add_theme_color_override("font_color",Color("343944"));column.add_child(heading)
-	for entry in [["science_station","01 · 风口科学站","观测塔 · 样本处理 · 岩丘步道"],["workshop","02 · 小小维修站","机械小院 · 检修台 · 运送练习"],["polar_range","03 · 极地雪原","利维坦车底 · 平台 · 驾驶舱"]]:
+	for entry in [["science_station","01 · 风口科学站","观测塔 · 样本处理 · 岩丘步道"],["workshop","02 · 小小维修站","机械小院 · 检修台 · 运送练习"],["polar_range","03 · 极地雪原","Sainiverse v0.1 · 雪原试车"]]:
 		var button := Button.new();button.text=entry[1]+"\n"+entry[2];button.custom_minimum_size=Vector2(550,110)
 		button.add_theme_font_override("font",load("res://atelier/ui_font.tres"));button.add_theme_font_size_override("font_size",23)
 		for state in ["normal","hover","pressed","focus"]:
