@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "completed_60_simulation_seconds": true,
+    "154_bodies": true,
+    "no_connector_failures": true,
+    "forward_motion": true,
+    "reverse_motion": true,
+    "steering_request": true,
+    "measured_turn": true,
+    "released_command": true,
+    "sai_selection_stops_carrier": true,
+    "space_stops_command": true,
+    "no_sai_input_leak": true,
+    "stable": true,
+    "time_rates_exercised": true,
+    "unchanged_integration_step": true
+  },
+  "final_position": [
+    147.675058403028,
+    12.1157784519084,
+    0.0241725568383491
+  ],
+  "final_speed_m_s": 0.000471772090828567
+}

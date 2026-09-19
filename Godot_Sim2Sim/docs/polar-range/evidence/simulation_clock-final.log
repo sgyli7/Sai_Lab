@@ -1,0 +1,3 @@
+Godot Engine v4.7.2.stable.double.custom_build - https://godotengine.org
+
+SIMULATION_CLOCK [{"passed":true,"physics_delta_error":0.0,"rate":0.1,"scheduling_capacity":1.5},{"passed":true,"physics_delta_error":0.0,"rate":1.0,"scheduling_capacity":2.01},{"passed":true,"physics_delta_error":0.0,"rate":3.0,"scheduling_capacity":6.0}]

@@ -1,5 +1,14 @@
 extends "res://standalone/driver.gd"
 var hub: Node3D
+var beak: Node3D
+
+func _ready() -> void:
+	super._ready()
+	if hub != null and ready_to_run and bool(deployment.get("pickable_enabled",false)):
+		beak = load("res://hub/microduck_beak.gd").new()
+		beak.actor = self
+		beak.hub = hub
+		add_child(beak)
 
 func _setup_play_ui() -> void:
 	pass
@@ -18,6 +27,14 @@ func _physics_process(delta: float) -> void:
 	super._physics_process(delta)
 
 func _handle(command: Variant) -> void:
+	if beak != null and session.mode == "roller" and command is Dictionary and command.get("cmd","") == "step" and (beak.pending or beak.grip != null):
+		command = command.duplicate(true)
+		var ctrl: Array = command.ctrl
+		# The roller actors have no floor-pick skill. Lower the existing head
+		# servos toward a raised object, then return to home to hoist it.
+		ctrl[5] = -0.8 if beak.pending else float(home[5])
+		ctrl[6] = 1.0 if beak.pending else float(home[6])
+		command.ctrl = ctrl
 	if command is Dictionary and command.get("cmd","") == "step" and command.has("place_ball"):
 		if hub.atelier.loose_props.selected > 0:
 			var point: Array = command.place_ball
@@ -36,4 +53,5 @@ func _handle(command: Variant) -> void:
 	super._handle(command)
 
 func _ground_height_at(body_pos: Array) -> float:
+	if hub.has_method("is_polar_range") and hub.is_polar_range() and hub.polar_spawn!="under":return hub.polar_support_height()
 	return hub.atelier.ground_height(float(body_pos[0]),-float(body_pos[1])) if hub.is_science_station() else 0.

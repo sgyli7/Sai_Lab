@@ -1,0 +1,119 @@
+{
+  "id": "Leviathan_003",
+  "schema": 1,
+  "coordinates": "SI X front Y left Z up",
+  "mass_kg": [
+    5000000.0,
+    5000000.0
+  ],
+  "com_z": 10.0,
+  "hull_centers_x": [
+    0,
+    -42
+  ],
+  "hitch_x": -21,
+  "hitch_z": 6.5,
+  "dt": 0.005,
+  "control_dt": 0.05,
+  "max_speed": 27.77777777777778,
+  "reverse_speed": 5.0,
+  "max_accel": 0.65,
+  "max_brake": 1.0,
+  "lateral_accel": 0.65,
+  "max_yaw": 0.06,
+  "friction": 0.7,
+  "suspension_travel": 1.5,
+  "rest_height": 10.65,
+  "power_w": 180000000.0,
+  "rolling": 0.012,
+  "patches_per_hull": 16,
+  "patch_offsets": [
+    [
+      -13.6,
+      -13.55,
+      -10.0
+    ],
+    [
+      -13.6,
+      -10.05,
+      -10.0
+    ],
+    [
+      -7.4,
+      -13.55,
+      -10.0
+    ],
+    [
+      -7.4,
+      -10.05,
+      -10.0
+    ],
+    [
+      -13.6,
+      10.05,
+      -10.0
+    ],
+    [
+      -13.6,
+      13.55,
+      -10.0
+    ],
+    [
+      -7.4,
+      10.05,
+      -10.0
+    ],
+    [
+      -7.4,
+      13.55,
+      -10.0
+    ],
+    [
+      7.4,
+      -13.55,
+      -10.0
+    ],
+    [
+      7.4,
+      -10.05,
+      -10.0
+    ],
+    [
+      13.6,
+      -13.55,
+      -10.0
+    ],
+    [
+      13.6,
+      -10.05,
+      -10.0
+    ],
+    [
+      7.4,
+      10.05,
+      -10.0
+    ],
+    [
+      7.4,
+      13.55,
+      -10.0
+    ],
+    [
+      13.6,
+      10.05,
+      -10.0
+    ],
+    [
+      13.6,
+      13.55,
+      -10.0
+    ]
+  ],
+  "inertia_diagonal": [
+    438750000.0,
+    616666666.6666667,
+    785416666.6666667
+  ],
+  "assumptions": "10,000 tonne numerical benchmark, estimated mass/inertia; not CAD-derived or hardware-rated",
+  "reduction": "2 dynamic hulls / ball articulation / 32 compliant contact patches; 8 bogies visually follow suspension; equipment locked"
+}

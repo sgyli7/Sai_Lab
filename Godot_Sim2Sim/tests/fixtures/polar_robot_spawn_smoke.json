@@ -1,0 +1,9 @@
+{
+  "seconds": 3.0,
+  "events": [
+    {"at": 0.6, "robot": "roller"},
+    {"at": 1.2, "spawn": "cockpit"},
+    {"at": 1.8, "robot": "sai"},
+    {"at": 2.4, "spawn": "under"}
+  ]
+}

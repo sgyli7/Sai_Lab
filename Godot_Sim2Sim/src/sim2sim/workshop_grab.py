@@ -21,6 +21,9 @@ class WorkshopController(MotionController):
         self.task = None
         self.arm_hold = np.zeros(6)
         self.cancel_start = None
+        self.clamp_started = None
+        self.clamp_path_time = 0.
+        self.clamp_done = False
 
     def command(self, state):
         request = state.get("workshop_grab", {})
@@ -32,6 +35,8 @@ class WorkshopController(MotionController):
                 self.started = now
                 self.task = None
                 self.cancel_start = None
+                self.clamp_started = None
+                self.clamp_done = False
             elif request.get("request") == "cancel":
                 self.phase = "idle"
                 self.cancel_start = now
@@ -90,8 +95,16 @@ class WorkshopController(MotionController):
         task = self.task
         now = float(state["time"])
         elapsed = now - self.started - self.waited
+        if self.clamp_started is None and request["held"] and 6. <= elapsed < 10.8:
+            self.clamp_started = now
+            self.clamp_path_time = elapsed
+        if self.clamp_started is not None and not self.clamp_done and now - self.clamp_started < 1.2:
+            self.waited += now - self.last_time
+            elapsed = self.clamp_path_time
+        elif self.clamp_started is not None and not self.clamp_done:
+            self.clamp_done = True
         # Hold the close phase until the actual game-side grip exists.
-        if 10.8 <= elapsed < 12. and not request["held"]:
+        if self.clamp_started is None and 10.8 <= elapsed < 12. and not request["held"]:
             self.waited += now - self.last_time
             elapsed = min(elapsed, 10.8)
             if self.waited > 4.:
@@ -113,11 +126,12 @@ class WorkshopController(MotionController):
         data.qvel[task.lv] = state["v"][:16]
         data.qvel[task.av] = state["v"][16:22]
         mujoco.mj_forward(task.model, data)
-        q, drop, label = task.path(elapsed)
-        # Open wider for varied scene shapes; grip stability is game assistance.
-        q[5] = 74. if request["held"] and elapsed < 34. else 60.
+        path_time = elapsed + (11.4 - self.clamp_path_time if self.clamp_done else 0.)
+        q, drop, label = task.path(path_time)
+        if self.clamp_started is not None and not self.clamp_done:
+            q[5] = np.interp((now - self.clamp_started) / 1.2, [0., 1.], [65., 79.64679384305832])
         point = task.arm.tool(q, drop)[0] * .001
-        blend = float(np.clip((elapsed - 15.8) / (29. - 15.8), 0., 1.))
+        blend = float(np.clip((path_time - 15.8) / (29. - 15.8), 0., 1.))
         blend = blend * blend * (3. - 2. * blend)
         release_height = .259 + request["rest_height_m"] + .001
         destination_delta = np.array([-.030, -.04 if request["slot"] == 0 else .04, release_height - .27923])
@@ -164,11 +178,11 @@ class WorkshopController(MotionController):
         result = dict(mode="manipulation", stage=label, target_leg=target_leg.tolist(),
                       target_arm=target_arm.tolist(), arm_bias=data.qfrc_bias[task.av].tolist(),
                       grip_cap=1.4, cargo_target_rad=0., physics_advanced_by_controller=False,
-                      grab_stage="manipulation", assist_grip=6. <= elapsed < 12., assist_release=elapsed >= 34.5 and ready_to_release,
-                      grab_elapsed=elapsed, tool_target_m=point.tolist(),
+                      grab_stage="manipulation", assist_release=path_time >= 34.5 and ready_to_release,
+                      grab_elapsed=path_time, tool_target_m=point.tolist(),
                       IK_target_error_m=float(np.linalg.norm(task.ik.site_xpos[task.site] - point)),
                       FK_tool_error_m=float(np.linalg.norm(data.site_xpos[task.site] - state["tool_m"])))
-        if elapsed >= task.end:
+        if path_time >= task.end:
             result.update(grab_stage="complete")
             self.phase = "idle"
             self.cancel_start = now

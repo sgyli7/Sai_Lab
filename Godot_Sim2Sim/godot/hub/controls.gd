@@ -20,6 +20,7 @@ static func describe(kind: String, task: String, finished: bool, available: Dict
 		lines.append("当前操控：MicroDuck · 轮滑模式")
 		lines.append("W 滑行 · S 制动 · A / D 转向 · 空格 松开推进")
 		lines.append("Y / 2 蹲起 · 0 归位")
+		lines.append("B 选择物件 · H 用可动嘴捡轻物件 · X 松开 · V 张嘴 / 合嘴")
 	else:
 		lines.append("当前操控：MicroDuck · 步行模式")
 		lines.append("W / S 前进 / 后退 · A / D 转向 · Q / E 平移 · 空格 停止")
@@ -30,5 +31,6 @@ static func describe(kind: String, task: String, finished: bool, available: Dict
 			if available.get(entry[0], false): skills.append(entry[1])
 		lines.append(" · ".join(skills))
 		lines.append("B 选择踢击目标 · 0 归位")
+		lines.append("H 用可动嘴捡轻物件 · X 松开 · V 张嘴 / 合嘴（20 g 内）")
 	lines.append("右键 环视 · 滚轮 缩放 · Tab 观景 · F5 / F6 / F7 切换机器人 · Esc 退出")
 	return "\n".join(lines)

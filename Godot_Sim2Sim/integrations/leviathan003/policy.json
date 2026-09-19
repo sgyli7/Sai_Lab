@@ -1,0 +1,27 @@
+{
+  "policy_type": "bounded parametric feedback; cross-entropy policy search in MuJoCo",
+  "weights": [
+    3.8902941364228725,
+    4.6582341720906975,
+    3.4234344450686605
+  ],
+  "parameters": [
+    "speed_error_gain",
+    "yaw_alignment_gain",
+    "lateral_velocity_gain"
+  ],
+  "training_seed": 3003,
+  "training_episodes": 64,
+  "training_sim_seconds": 4800,
+  "loss": 0.04358881534451149,
+  "observations": [
+    "front_speed_m_s",
+    "hull_angular_velocity",
+    "hull_heading",
+    "contact_velocity",
+    "command_speed",
+    "command_yaw"
+  ],
+  "actions": "bounded traction and lateral patch forces; poses always integrated by MuJoCo",
+  "physics_sha256": "0854e798f75e0bd6b784abaa7ce0aca21341742262527462bf3b304b1ef0fcca"
+}

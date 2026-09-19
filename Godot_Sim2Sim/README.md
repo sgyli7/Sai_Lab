@@ -1,5 +1,11 @@
 # Robot Godot Sim2Sim
 
+## 03 · 极地雪原 / Leviathan 手动驾驶
+
+桌面仅保留统一的 `Robot_Godot_Sim2Sim` 入口，可在主界面选择 01 风口科学站、02 小小维修站或 03 极地雪原。三号场景可用 1/2/3 在利维坦车底、平台上和驾驶舱室内出生，并用 F5/F6/F7/F8 切换 MicroDuck、轮滑版、Sai 与 Leviathan。
+
+时间倍率默认为 1.0×，可用滑条调节到 0.1～3.0×；保持 0.5 ms 物理步长。原先约 0.15× 的人为调度上限已移除，实际速度仍受计算性能限制。资产、质量和物理参数保持冻结版本。见[启动、按键与验收范围](docs/leviathan-integration.md)。
+
 将 MuJoCo 训练的机器人控制策略迁移到 **Godot / Jolt**，运行真实刚体物理与策略控制。支持 MicroDuck、MD 轮滑版和 Sai Robot 001，三种机器人可在同一游戏窗口中动态切换。
 
 ![风口科学站 · SIM2SIM](docs/science-station/media/sai-windpass-15s.gif)

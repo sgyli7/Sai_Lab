@@ -22,6 +22,9 @@ var wheel_origin:Array=[]
 var arm_hold:Array=[0.0,0.0,0.0,0.0,0.0,0.0]
 var cancel_start:Variant=null
 var end_time:=0.0
+var clamp_started := -1.0
+var clamp_path_time := 0.0
+var clamp_done := false
 
 func _init(base_controller,spec:Dictionary)->void:
 	motion=base_controller
@@ -34,7 +37,7 @@ func _init(base_controller,spec:Dictionary)->void:
 	end_time=1.5+float(frames.size()-1)*.22+2.0
 
 func reset()->void:
-	motion.reset();grab_serial=-1;phase="idle";cancel_start=null
+	motion.reset();grab_serial=-1;phase="idle";cancel_start=null;clamp_started=-1.0;clamp_done=false
 
 func command(state:Dictionary)->Dictionary:
 	var request:Dictionary=state.get("workshop_grab",{})
@@ -42,7 +45,7 @@ func command(state:Dictionary)->Dictionary:
 	if int(request.get("serial",-1))!=grab_serial:
 		grab_serial=int(request.get("serial",-1))
 		if request.get("request","")=="pick":
-			phase="docking";started=now;cancel_start=null
+			phase="docking";started=now;cancel_start=null;clamp_started=-1.0;clamp_done=false
 		elif request.get("request","")=="cancel":
 			phase="idle";cancel_start=now;arm_hold=state.q.slice(16,22)
 	if phase=="docking":
@@ -89,7 +92,14 @@ func _drive(state:Dictionary,input:Array)->Dictionary:
 func _manipulate(state:Dictionary,request:Dictionary)->Dictionary:
 	var now:=float(state.time)
 	var elapsed:=now-started-waited
-	if elapsed>=10.8 and elapsed<12.0 and not bool(request.get("held",false)):
+	if clamp_started<0.0 and bool(request.get("held",false)) and elapsed>=6.0 and elapsed<10.8:
+		clamp_started=now;clamp_path_time=elapsed
+	if clamp_started>=0.0 and not clamp_done and now-clamp_started<1.2:
+		waited+=now-last_time
+		elapsed=clamp_path_time
+	elif clamp_started>=0.0 and not clamp_done:
+		clamp_done=true
+	if clamp_started<0.0 and elapsed>=10.8 and elapsed<12.0 and not bool(request.get("held",false)):
 		waited+=now-last_time;elapsed=minf(elapsed,10.8)
 		if waited>4.0:
 			phase="idle";cancel_start=now;arm_hold=state.q.slice(16,22)
@@ -97,13 +107,14 @@ func _manipulate(state:Dictionary,request:Dictionary)->Dictionary:
 			failed.merge({"grab_stage":"failed","grab_message":"夹爪未够到物件 · 请换个位置重试"},true)
 			return failed
 	last_time=now
-	var path:=_path(elapsed)
+	var path_time:float=elapsed+(11.4-clamp_path_time if clamp_done else 0.0)
+	var path:=_path(path_time)
 	var q:Array=path.q
 	var drop:=float(path.drop)
-	if bool(request.get("held",false)) and elapsed<34.0:q[5]=74.0
-	else:q[5]=60.0
+	if clamp_started>=0.0 and not clamp_done:
+		q[5]=lerpf(65.0,79.64679384305832,clampf((now-clamp_started)/1.2,0.0,1.0))
 	var point:=_tool_point(q,drop)
-	var blend:=clampf((elapsed-15.8)/(29.0-15.8),0.0,1.0)
+	var blend:=clampf((path_time-15.8)/(29.0-15.8),0.0,1.0)
 	blend=blend*blend*(3.0-2.0*blend)
 	var release_height:=.259+float(request.rest_height_m)+.001
 	var destination_delta:=Vector3(-.030,-.04 if int(request.slot)==0 else .04,release_height-.27923)
@@ -123,9 +134,8 @@ func _manipulate(state:Dictionary,request:Dictionary)->Dictionary:
 	var result:={"mode":"manipulation","stage":path.label,"target_leg":target_leg,
 		"target_arm":target_arm,"arm_bias":state.arm_gravity_bias,"grip_cap":1.4,"cargo_target_rad":0.0,
 		"physics_advanced_by_controller":false,"grab_stage":"manipulation",
-		"assist_grip":elapsed>=6.0 and elapsed<12.0,
-		"assist_release":elapsed>=34.5 and ready_to_release,"grab_elapsed":elapsed,"tool_target_m":[point.x,point.y,point.z]}
-	if elapsed>=end_time:
+		"assist_release":path_time>=34.5 and ready_to_release,"grab_elapsed":path_time,"tool_target_m":[point.x,point.y,point.z]}
+	if path_time>=end_time:
 		result.grab_stage="complete";phase="idle";cancel_start=now;arm_hold=target_arm.duplicate()
 	return result
 

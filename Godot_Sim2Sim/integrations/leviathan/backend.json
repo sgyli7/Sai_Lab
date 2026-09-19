@@ -1,0 +1,12 @@
+{
+  "description": "Computational backends tested against the frozen physical state; original physical assets stay unchanged.",
+  "sha256": {
+    "physics_runtime.gd": "ac4b01245410e59d2ff038b5f86b2e4f7d95aa612e09387aa663e990f275d9b2",
+    "jel_forces.gd": "ee10176493a2380071bcf5da1784805e65aef73a73716b86b7b3fd0eb7ae3283",
+    "visual_binding.gd": "3bfe05dc5b4f9888437a56a4724cd573811c5be7b9a4d3f9028f44e3d7a85fc1",
+    "imported_vehicle.gd": "57a0cab0ca03d49cad6c463167ba97a3baed607cd0be46aea4ad58f26813a53b",
+    "native/bin/libleviathan_jel_double.so": "8b05db55671bdd02eac9e1d282ab87f5aaba39f6538fcb7106ac95a49e503920"
+  },
+  "source_directory": "/home/ethan/Projects/RobotDesign/Leviathan_001/godot",
+  "qualification": "drive-final (60 simulated seconds), backend-comparison; visual-upstream-alignment"
+}
