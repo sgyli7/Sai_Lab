@@ -10,15 +10,15 @@
 
 ![Sai 001 登船](docs/media/sainiverse-polar-sai-boarding.gif)
 
-**Sai Robot 001 用机械臂操作驾驶舱控制器**
+**Sai Robot 001 用机械臂接触原有驾驶舱控制器**
 
-![Sai 001 操作实体方向舵](docs/media/sainiverse-polar-sai-steering.gif)
+![Sai 001 机械臂触碰原有方向舵辐条](docs/media/sainiverse-polar-sai-cockpit-control.gif)
 
 **普通 MicroDuck 巡视驾驶舱**
 
 ![MicroDuck 驾驶舱巡视](docs/media/sainiverse-polar-microduck-cockpit.gif)
 
-这些画面来自 Godot/Jolt 实录。驾驶舱短片使用机械臂阻抗控制和脚本指定的手部目标，机械手接触实体操作柄并带动方向舵；登船片段按阶段选帧，升降过程压缩了播放时间。全景 PV 的四个镜头均保留整车，没有穿入车体。
+这些画面来自 Godot/Jolt 实录。驾驶舱短片使用机械臂阻抗控制和脚本指定的手部目标，机械手接触原有方向舵辐条并使其轻微转动；此前附加的黄色握柄已移除，Sainiverse 本体结构未改。登船片段按阶段选帧，升降过程压缩了播放时间。全景 PV 的四个镜头均保留整车，没有穿入车体。
 
 桌面入口的 03 场景现在进入 **Sainiverse v0.1** 雪原试车场；01 风口科学站和 02 小小维修站仍走原有场景。也可从本目录执行 `./run-native.sh --scene polar_range` 直达 03，或执行 `./run-sainiverse-v0.1.sh --terrain polar`。W/S 驾驶、A/D 转向、空格制动；停车后用 F5/F6/F7/F8 在车旁雪地切换普通 MicroDuck、轮滑版、Sai 001、Sai 002，F9 返回母车。切换机器人后，左侧面板显示对应的移动按钮和操作提示；F1 到车旁雪地、F2 到甲板、F3 到驾驶舱。鼠标或左侧面板可控制视角、主题与作业机构。时间流速滑条默认为 1.0×，范围 0.1×～3.0×。
 
