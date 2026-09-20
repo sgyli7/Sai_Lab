@@ -20,9 +20,9 @@
 
 这些画面来自 Godot/Jolt 实录。驾驶舱短片使用机械臂阻抗控制和脚本指定的手部目标，机械手接触实体操作柄并带动方向舵；登船片段按阶段选帧，升降过程压缩了播放时间。全景 PV 的四个镜头均保留整车，没有穿入车体。
 
-桌面入口的 03 场景现在进入 **Sainiverse v0.1** 雪原试车场；01 风口科学站和 02 小小维修站仍走原有场景。也可从本目录执行 `./run-native.sh --scene polar_range` 直达 03，或执行 `./run-sainiverse-v0.1.sh --terrain polar`。W/S 驾驶、A/D 转向、空格制动；停车后用 F5/F6/F7/F8 在车旁雪地切换普通 MicroDuck、轮滑版、Sai 001、Sai 002，F9 返回母车。鼠标或左侧面板可控制视角、主题与作业机构。时间流速滑条默认为 1.0×，范围 0.1×～3.0×。
+桌面入口的 03 场景现在进入 **Sainiverse v0.1** 雪原试车场；01 风口科学站和 02 小小维修站仍走原有场景。也可从本目录执行 `./run-native.sh --scene polar_range` 直达 03，或执行 `./run-sainiverse-v0.1.sh --terrain polar`。W/S 驾驶、A/D 转向、空格制动；停车后用 F5/F6/F7/F8 在车旁雪地切换普通 MicroDuck、轮滑版、Sai 001、Sai 002，F9 返回母车。切换机器人后，左侧面板显示对应的移动按钮和操作提示；F1 到车旁雪地、F2 到甲板、F3 到驾驶舱。鼠标或左侧面板可控制视角、主题与作业机构。时间流速滑条默认为 1.0×，范围 0.1×～3.0×。
 
-新车采用独立的 [Sainiverse 设计交付包](https://github.com/sgyli7/Sai_Art)和游戏运行目录。启动器默认从 `/home/ethan/Projects/RobotDesign/delivery/Sai_Design` 读取交付包，其他路径可设置 `SAINIVERSE_RELEASE_ROOT`；Sai 002 模型来自 [Sai_Rotbots](https://github.com/sgyli7/Sai_Rotbots)，可用 `SAI_ROBOTS_ROOT` 指定其检出目录。按[首次准备](docs/workshop-hub.md#首次准备)安装机器人资源后，启动器会同步四个型号的控制器和模型。独立演示入口：`--mode cockpit_patrol`、`--mode sai_cockpit`、`--mode sai_board`、`--mode sai_board_002`、`--mode deck_patrol`。母车交互预览使用 60 Hz；MicroDuck 演示先以 60 Hz 停车准备，出生后恢复已验证的 200 Hz；Sai 演示以 100 Hz 停车准备，出生后保持 1000 Hz。直接把机器人降到约 50 Hz 的试验分别出现跌倒和非有限刚体位姿，Sai 001 在 60 Hz 停车准备的完整登车测试也失败，因此不能用单一 60 Hz 物理频率替代现有控制。旧 Leviathan 001 仍可从 03 场景的车型选择框进入，说明见[原版集成文档](docs/leviathan-integration.md)。
+新车采用独立的 [Sainiverse 设计交付包](https://github.com/sgyli7/Sai_Art)和游戏运行目录。启动器优先使用同级 `Sai_Art` 检出目录，缺失时回退到原来的 `/home/ethan/Projects/RobotDesign/delivery/Sai_Design`；其他路径可设置 `SAINIVERSE_RELEASE_ROOT`。Sai 002 模型来自 [Sai_Rotbots](https://github.com/sgyli7/Sai_Rotbots)，可用 `SAI_ROBOTS_ROOT` 指定其检出目录。按[首次准备](docs/workshop-hub.md#首次准备)安装机器人资源后，启动器会同步四个型号的控制器和模型。独立演示入口：`--mode cockpit_patrol`、`--mode sai_cockpit`、`--mode sai_board`、`--mode sai_board_002`、`--mode deck_patrol`。母车交互预览使用 60 Hz；MicroDuck 演示先以 60 Hz 停车准备，出生后恢复已验证的 200 Hz；Sai 演示以 100 Hz 停车准备，出生后保持 1000 Hz。直接把机器人降到约 50 Hz 的试验分别出现跌倒和非有限刚体位姿，Sai 001 在 60 Hz 停车准备的完整登车测试也失败，因此不能用单一 60 Hz 物理频率替代现有控制。旧 Leviathan 001 仍可从 03 场景的车型选择框进入，说明见[原版集成文档](docs/leviathan-integration.md)。
 
 将 MuJoCo 训练的机器人控制策略迁移到 **Godot / Jolt**，运行真实刚体物理与策略控制。03 场景支持 MicroDuck、MD 轮滑版、Sai Robot 001 和 Sai Robot 002，在同一游戏窗口中动态切换。
 
