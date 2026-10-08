@@ -8,9 +8,11 @@
 
 **新接口候选`goose_host_public_history_autonomous_v1`：** 每帧公共65维与原18轴目标请求保持；同一ONNX增加显式`history[1,5,65]`输入和`next_history[1,5,65]`输出，只缓存前五帧公共观测、冷启动为零。每Tick一个完整图、一次原20ms物理/驱动；无私人参考、出生标签、Teacher或样本目录。具名接口候选尚未接入Bevy或晋升。16份新出生由站立推倒、实际重力/驱动积分及自然停止得到；12训练/4留出，目前真实姿态分布偏侧倒，尚未覆盖四向正式验收。
 
-**最新冻结检查点008：自主ONNX仍未通过完全倒地起身，原基线完整保留。** 已完成累计2816873个CPU积分、3712原生HoST PPO、75960 CUDA Adam；GPU物理0，旧原型PPO另列，不混充新成果。H5真实参考课程、H6公共前次请求残差Actor、H7仅合法物理前缀课程均完成独立测试，四个未见真实倒地案例仍0通过；最长课程保持不超过0.34秒，不再追加同配置更新。六个实际Teacher末段直接保持均能达3秒，原HoST奖励也偏好实际保持；但σ=.002小探索仅35/60保持，未达到预冻结80%准入，当前末段容错不足，不能作为基础课程。原9基线和3最佳Teacher哈希全部匹配。[检查点008报告和资源账本](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_curriculum_checkpoint_008/report.md)。
+**最新冻结检查点009：PPO更新过冲已实测定位，完全倒地恢复仍未通过。** 已完成累计3375862 CPU积分、4224原生HoST PPO、64原生TRPO、91320 CUDA Adam，GPU物理0；原9基线及3最佳Teacher全部哈希匹配。新名义目标sigma=.002探索90/90保持3秒，但512PPO后目标保持退至0.82–0.90秒。首个保存迭代在768个真实输入上平均联合KL=323.963，配置desired_KL=.01；学习率已降至1e-5却没有阻止过冲，停止追加该配置。[检查点009完整报告与实际账本](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_trust_region_checkpoint_009/report.md)。
 
-**现行派工：具名v8名义目标附近探索准入，随后按实际反馈展开反向课程。** 同一原生模型/驱动下名义站姿实际70秒连续合法，最长保持69.98秒；保存其中9个完整世界状态。名义状态只作训练目标，不冒充完全倒地出生或恢复成绩。保留作者Runner/PPO/四Critic/25适用原奖励；公共65加五帧历史、18原动作目标域、零辅助、单20ms积分不变。先检查原零头神经Actor叠加σ=.002是否在这些状态达到预冻结80%三秒保持，再开始32世界有界PPO；初期声明固定小探索，目标附近达标后扩展真实过渡及完全倒地训练。独立留出仍4个真实完全倒地；不凭准备好的站姿授予恢复资格。
+**具名v9受控改用原生SB3-Contrib2.7.1 TRPO，未手写优化器。** 采用原共轭梯度/回溯/失败回退；sigma=.002固定，逐坐标KL目标=.01/18，全部64更新的实际平均联合KL≤.009908059。25个原HoST奖励函数体/形态映射不改，四组回报按原权重标量化给原生单Critic，不能声称与HoST四Critic优势归一化等价。131072 CPU样本、5120 CUDA Critic Adam，ONNX误差2.98e-8；独立神经ONNX9个训练目标全部保持3秒。真正完全倒地4留出仍0成功，恢复Actor仍null，不把准备好的站姿计作起身。
+
+**现行派工：`goose_public_history_native_trpo_frontier_v10`32世界1024更新，正在执行。** 同一原模型/驱动/奖励和v9检查点，70%9个实际稳定目标＋30%6个实际单Tick推扰后的合法过渡状态。15个完整快照0积分身份通过；前倾开发状态已有10秒合法保持训练回合，强后倾尚失败，完成后独立ONNX检验再扩大课程。完全倒地较大sigma=.03探索60例只有2例合法保持24Tick，失败29关节/33地面、0自碰撞；它是随机探索准入诊断，不要求随机动作站稳或授予恢复资格。正在用同出生同种子的小sigma=.002作受控对照，接着加入真实倒地和已验证路径中途状态；不继续大探索/限位/接触/奖励网格。65公共观测＋5帧历史、18原目标域、50Hz单Tick单推理/驱动/积分、零辅助及原严格物理门保持。原候选全部保留不覆盖，GPU Adam与CPU物理分开计数；不联系其他聊天/Agent。
 
 **三小时窗口已有实际完全倒地起身 Teacher，学习策略仍未通过。** 原生 MuJoCo 50 Hz、21机器人刚体（另有world）、18主动轴＋2被动轴、11实际凸/box子形状、10.430690821kg；18轴动作及65维公共观测保留。出生只能是站立推倒后自然停止的原 bank 225/250/275；未预折腿，选定动作另进程从原出生连续重放，无运行中摆姿、分支拼接或站立 Actor 接管。五条重放全部17字段逐位一致，每Tick一次20ms积分/驱动，无非有限状态或求解警告。[独立重放收据](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/independent_001/receipt.json)。
 
@@ -51,7 +53,7 @@
 
 **最新参考reset检查点006：真实世界课程已接通，PPO未形成恢复Actor。** 原自然完全倒地Teacher生成25个完整世界快照，独立恢复后续8Tick全17字段逐位一致；缺驱动/实际暖启动的4个负例改变真实下一步。训练适配另25×8／200积分通过物理身份与原生tracking奖励检查；原contact history轴正确，没有改造奖励。原长保持只读取1480Tick合法训练前缀，失败尾段与最佳录像未删。参考中途reset明确仅用于训练，正式仍原自然完全倒地出生。实际8世界两批各32次原生PPO／640CPU Adam／6144CPU样本，仅初始lr1e-3→1e-5对照；GPU有真实pilot占用，未竞争/联系/停止。独立ONNX高lr右/后/左0.02/0.08/0.02秒越门；低lr0.24/0.14/0.10秒仍失败，均0站起、不晋升。原网络课程reset仅4/25能连续合法8Tick，高lr0/25、低lr2/25；降lr减轻退步、未超原完整倒地基线，停止该课程网格。全轮15055 CPU积分，其中12288PPO、588实际ONNX、2179Teacher/重置/负例；50947FK另算，64PPO、1280CPU Adam约4.56秒，0GPU Adam/物理。原9基线和3最佳Teacher哈希保留，恢复Actor仍null。[报告、连续失败视频及完整收据](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_reference_reset_checkpoint_006/report.md)。
 
-**继续执行以顶部v8探索准入和实际反向课程为准。** 未见完全倒地独立ONNX失败仍全部保留，不以中途reset、辅助力、离线MSE、几何直立或最长回合授予资格。主进程运行时不启动重复训练，不复用过期/已完成目录。GPU只看真实占用，不联系/停止其他任务；CUDA优化器与CPU/GPU物理分别计数。原9基线和3最佳Teacher保护，窗口截止19:21:03北京时间，目标未完成。
+**继续执行以顶部v10实际TRPO课程及完全倒地准入为准。** 未见完全倒地独立ONNX失败仍全部保留，不以中途reset、辅助力、离线MSE、几何直立或最长回合授予资格。主进程运行时不启动重复训练，不复用过期/已完成目录。GPU只看真实占用，不联系/停止其他任务；CUDA优化器与CPU/GPU物理分别计数。原9基线和3最佳Teacher保护，窗口截止19:21:03北京时间，目标未完成。
 
 **本轮连续录像与冻结产物：** [最佳右侧完整29.62秒录像（含失败尾段）](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/right_full_getup_and_long_hold_with_failure_continuous.mp4) · [左侧5秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/left_complete_getup_moment_continuous.mp4) · [后倒3.3秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/back_complete_getup_moment_continuous.mp4) · [右侧直接2.1秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/right_direct_complete_getup_moment_continuous.mp4) · [阶段报告/资格与复现](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/report.md)。物理50Hz、录像25fps，两视角同一世界同时刻；原始轨迹、废分支、完整失败和资源账本全部保留项目备份目录。
 
