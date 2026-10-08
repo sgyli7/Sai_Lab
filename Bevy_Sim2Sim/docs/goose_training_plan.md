@@ -8,13 +8,15 @@
 
 **新接口候选`goose_host_public_history_autonomous_v1`：** 每帧公共65维与原18轴目标请求保持；同一ONNX增加显式`history[1,5,65]`输入和`next_history[1,5,65]`输出，只缓存前五帧公共观测、冷启动为零。每Tick一个完整图、一次原20ms物理/驱动；无私人参考、出生标签、Teacher或样本目录。具名接口候选尚未接入Bevy或晋升。16份新出生由站立推倒、实际重力/驱动积分及自然停止得到；12训练/4留出，目前真实姿态分布偏侧倒，尚未覆盖四向正式验收。
 
-**最新冻结检查点010：完全倒地恢复仍未通过。** 累计8409388 CPU积分、4224原生HoST PPO、2506原生TRPO、286680 CUDA Adam，本窗口GPU物理0；原9基线及3最佳Teacher全部哈希匹配。v12固定世界配额真实达25%近目标／37.5%过渡／37.5%倒地；独立名义站立9/9保持3秒，四个真正完全倒地仍0成功，分别在39／151／38／29Tick首次失败。旧v11曾保持3秒的三个Teacher末段状态在v12回退，旧文件保留，不能把新轮数当作晋升。两条侧倒13秒连续失败录像已生成，未发现任何完整起身瞬间；失败后继续运行只作诊断，绝不重获资格。[检查点010、账本与保留清单](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_trust_region_checkpoint_010/report.md)。
+**最新冻结检查点011：完全倒地恢复仍未通过。** 累计10,643,391 CPU积分、4224原生HoST PPO、3530原生TRPO、368600 CUDA Adam；检查点011截至当时GPU物理0。原9基线及3最佳Teacher全部哈希匹配；v13独立完全倒地留出0/4，v14绝对目标候选同样0/4，旧成果保持原文件身份。[检查点011](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_absolute_admission_checkpoint_011/report.md)。
+
+**当前GPU链路已实际跑通，能力仍未通过。** 原生mjlab/Warp同合同v15，64世界完成32次原生TRPO、131072次GPU物理、5120次CUDA Adam，约39秒；每Tick仍一次20ms。另有2600单世界GPU对照与1536批量GPU检查；52姿态CPU/GPU奖励差小于1e-6。独立CPU ONNX四个完全倒地留出均合法运行13秒但0次起身，9个名义站立状态全部保持3秒，不能计作恢复。源GPU开发小批可推进，不继承旧CPU Teacher跨后端资格。[GPU收据](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_native_gpu_host_pilot_015/pilot_receipt.json)。
 
 **检查点009已定位PPO更新过冲。** 新名义目标sigma=.002探索90/90保持3秒，512PPO后只0.82–0.90秒。首保存迭代768真实输入的平均联合KL323.963，desired_KL=.01，学习率已降1e-5仍未阻止过冲，该配置已关闭。[检查点009证据](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_trust_region_checkpoint_009/report.md)。
 
 **具名v9受控改用原生SB3-Contrib2.7.1 TRPO，未手写优化器。** 采用原共轭梯度/回溯/失败回退；sigma=.002固定，逐坐标KL目标=.01/18，全部64更新的实际平均联合KL≤.009908059。25个原HoST奖励函数体/形态映射不改，四组回报按原权重标量化给原生单Critic，不能声称与HoST四Critic优势归一化等价。131072 CPU样本、5120 CUDA Critic Adam，ONNX误差2.98e-8；独立神经ONNX9个训练目标全部保持3秒。真正完全倒地4留出仍0成功，恢复Actor仍null，不把准备好的站姿计作起身。
 
-**现行派工：`goose_public_history_native_trpo_humanup_tracking_v13`32世界1024更新，正在执行。** 在v12保存文件上，采用HumanUP作者的参考关节误差及终止奖励函数体（AST逐位一致），权重8／-50、tracking_sigma=.2来自原作者配置。参考仅使用Goose自己三条真实合法Teacher运动，右侧在首次真实保持150Tick后冻结目标，不用后续失败尾段；它只进入训练奖励，不进入Actor输入或ONNX，不播放参考动作。原25个HoST奖励／TRPO优化器／模型／驱动／50Hz／动作和公共观测不改；52状态×2Tick配对回归208 CPU／316 FK，原物理、驱动、力矩、观测、奖励和计数一致。原全动作域、sigma=.002、固定世界配额保持；完成后先做独立52状态和4真实倒地留出，未改善不重复同配置长训。私有训练参考不授予恢复资格，完整恢复Actor仍null。
+**现行派工：完整身体模仿基线，GPU有界训练。** v13关节跟踪与v14/v15小幅绝对目标已收口；两次受控实验仍0完整倒地起身，不重复同配置长训。新增基线学习DeepMimic作者的姿态、速度、末端、root及COM速度奖励与参考状态初始化；参考只用Goose自己三条实际合法动作，神经ONNX不含参考或Teacher。先以原生RSL做绝对动作初始化，再用原生GPU/TRPO闭环训练，独立检验真正倒地出生；原本体、驱动、50Hz、碰撞、门槛不改，完整恢复Actor仍null。待改进后才开启未用于调参的63个封存倒地出生测试。
 
 **已关闭的探索与阻尼诊断：** sigma=.03真实倒地探索仅2/60合法存活24Tick；同出生同种子sigma=.002为60/60，随机探索不强加3秒保持。一次17个位置轴MuJoCo原生dampratio=1具名候选仅改善到11/60，未过冻结80%准入，已关闭，主本体与驱动未替换，不继续阻尼／求解器网格。v10、v11、v12全部模型和证据保留；GPU Adam与CPU物理分开计数，不联系其他聊天/Agent。
 
