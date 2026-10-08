@@ -8,9 +8,9 @@
 
 **新接口候选`goose_host_public_history_autonomous_v1`：** 每帧公共65维与原18轴目标请求保持；同一ONNX增加显式`history[1,5,65]`输入和`next_history[1,5,65]`输出，只缓存前五帧公共观测、冷启动为零。每Tick一个完整图、一次原20ms物理/驱动；无私人参考、出生标签、Teacher或样本目录。具名接口候选尚未接入Bevy或晋升。16份新出生由站立推倒、实际重力/驱动积分及自然停止得到；12训练/4留出，目前真实姿态分布偏侧倒，尚未覆盖四向正式验收。
 
-**最新检查点007：自主ONNX尚未起身，原基线完整保留。** HoST四批实际1664 PPO／32000 CUDA Adam／1280 CPU Adam，相关已完成实验共1224129个CPU积分，GPU物理0。初批训练终止错误导致平均1.81Tick，改回作者终止后继续运行；严格物理门与独立测试不变。512更新阶段虽躯干接近直立，COM仍过低且物理前缀非法；1024更新、恢复原完整18轴动作域后四个未见出生均首Tick踝越限。原生限位激活/阻抗两次诊断均未改善，路线关闭，未改变模型/驱动/硬件。原9基线和3最佳Teacher仍匹配。[完整报告、实际资源与连续失败录像](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_mature_pipeline_checkpoint_007/report.md)。
+**最新冻结检查点008：自主ONNX仍未通过完全倒地起身，原基线完整保留。** 已完成累计2816873个CPU积分、3712原生HoST PPO、75960 CUDA Adam；GPU物理0，旧原型PPO另列，不混充新成果。H5真实参考课程、H6公共前次请求残差Actor、H7仅合法物理前缀课程均完成独立测试，四个未见真实倒地案例仍0通过；最长课程保持不超过0.34秒，不再追加同配置更新。六个实际Teacher末段直接保持均能达3秒，原HoST奖励也偏好实际保持；但σ=.002小探索仅35/60保持，未达到预冻结80%准入，当前末段容错不足，不能作为基础课程。原9基线和3最佳Teacher哈希全部匹配。[检查点008报告和资源账本](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_curriculum_checkpoint_008/report.md)。
 
-**现行唯一派工：`goose_host_reference_reset_corrected_morphology_v5`课程小试，正在执行。** 保留作者Runner/PPO/四Critic和原奖励函数体；删除不能直接适用于镜像膝关节的G1膝角风格项，活动25项，机械软限位采用作者95%零中心范围。恢复原18轴动作域；额外q相对beta=.25限制无法表达部分已验证路径，已移除。37个训练全状态快照独立0积分恢复身份检查通过：12自然完全倒地＋25真实Teacher轨迹中途状态，暂以近目标/转换/完全倒地70/20/10%起步，随后按实际反馈扩大完全倒地课程。32世界512PPO，CUDA优化器、CPU原生50Hz物理，0GPU物理。未见完全倒地四例只用于独立评估，同一ONNX从冷公共历史连续执行、零辅助、无重置/Teacher/站立Actor；中途站立训练或几何直立不能替代恢复资格。下一步由这一批实际结果决定，不继续beta/lr/限位参数网格。
+**现行派工：具名v8名义目标附近探索准入，随后按实际反馈展开反向课程。** 同一原生模型/驱动下名义站姿实际70秒连续合法，最长保持69.98秒；保存其中9个完整世界状态。名义状态只作训练目标，不冒充完全倒地出生或恢复成绩。保留作者Runner/PPO/四Critic/25适用原奖励；公共65加五帧历史、18原动作目标域、零辅助、单20ms积分不变。先检查原零头神经Actor叠加σ=.002是否在这些状态达到预冻结80%三秒保持，再开始32世界有界PPO；初期声明固定小探索，目标附近达标后扩展真实过渡及完全倒地训练。独立留出仍4个真实完全倒地；不凭准备好的站姿授予恢复资格。
 
 **三小时窗口已有实际完全倒地起身 Teacher，学习策略仍未通过。** 原生 MuJoCo 50 Hz、21机器人刚体（另有world）、18主动轴＋2被动轴、11实际凸/box子形状、10.430690821kg；18轴动作及65维公共观测保留。出生只能是站立推倒后自然停止的原 bank 225/250/275；未预折腿，选定动作另进程从原出生连续重放，无运行中摆姿、分支拼接或站立 Actor 接管。五条重放全部17字段逐位一致，每Tick一次20ms积分/驱动，无非有限状态或求解警告。[独立重放收据](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/independent_001/receipt.json)。
 
@@ -51,7 +51,7 @@
 
 **最新参考reset检查点006：真实世界课程已接通，PPO未形成恢复Actor。** 原自然完全倒地Teacher生成25个完整世界快照，独立恢复后续8Tick全17字段逐位一致；缺驱动/实际暖启动的4个负例改变真实下一步。训练适配另25×8／200积分通过物理身份与原生tracking奖励检查；原contact history轴正确，没有改造奖励。原长保持只读取1480Tick合法训练前缀，失败尾段与最佳录像未删。参考中途reset明确仅用于训练，正式仍原自然完全倒地出生。实际8世界两批各32次原生PPO／640CPU Adam／6144CPU样本，仅初始lr1e-3→1e-5对照；GPU有真实pilot占用，未竞争/联系/停止。独立ONNX高lr右/后/左0.02/0.08/0.02秒越门；低lr0.24/0.14/0.10秒仍失败，均0站起、不晋升。原网络课程reset仅4/25能连续合法8Tick，高lr0/25、低lr2/25；降lr减轻退步、未超原完整倒地基线，停止该课程网格。全轮15055 CPU积分，其中12288PPO、588实际ONNX、2179Teacher/重置/负例；50947FK另算，64PPO、1280CPU Adam约4.56秒，0GPU Adam/物理。原9基线和3最佳Teacher哈希保留，恢复Actor仍null。[报告、连续失败视频及完整收据](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_reference_reset_checkpoint_006/report.md)。
 
-**继续执行以顶部v5课程批次为准。** 未见完全倒地独立ONNX失败仍全部保留，不以中途reset、辅助力、离线MSE、几何直立或最长回合授予资格。主进程运行时不启动重复训练，不复用过期/已完成目录。GPU只看真实占用，不联系/停止其他任务；CUDA优化器与CPU/GPU物理分别计数。原9基线和3最佳Teacher保护，窗口截止19:21:03北京时间，目标未完成。
+**继续执行以顶部v8探索准入和实际反向课程为准。** 未见完全倒地独立ONNX失败仍全部保留，不以中途reset、辅助力、离线MSE、几何直立或最长回合授予资格。主进程运行时不启动重复训练，不复用过期/已完成目录。GPU只看真实占用，不联系/停止其他任务；CUDA优化器与CPU/GPU物理分别计数。原9基线和3最佳Teacher保护，窗口截止19:21:03北京时间，目标未完成。
 
 **本轮连续录像与冻结产物：** [最佳右侧完整29.62秒录像（含失败尾段）](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/right_full_getup_and_long_hold_with_failure_continuous.mp4) · [左侧5秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/left_complete_getup_moment_continuous.mp4) · [后倒3.3秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/back_complete_getup_moment_continuous.mp4) · [右侧直接2.1秒录像](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/right_direct_complete_getup_moment_continuous.mp4) · [阶段报告/资格与复现](/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_standup_continuous_delivery_001/report.md)。物理50Hz、录像25fps，两视角同一世界同时刻；原始轨迹、废分支、完整失败和资源账本全部保留项目备份目录。
 
