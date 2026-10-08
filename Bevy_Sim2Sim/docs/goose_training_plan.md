@@ -4,11 +4,11 @@
 
 **唯一现行入口：本聊天独立负责 Standup 完全倒地起身。** Move已由用户拆分，本聊天不实施移动/转向、不覆盖原策略、不联系其负责人。电脑训练不考虑软底。当前21机器人刚体（另有world）、18主动轴＋2被动轴、11实际凸/box叶、10.430690821kg。没有在本十小时窗口修改硬件、本体、碰撞、关节限制、驱动或物理合同；不主动联系硬件/G1/其他聊天，不新建聊天/PM/Agent。原9基线与3最佳Teacher均受哈希保护。
 
-**窗口后现行检查点017：** 无本聊天GPU批运行，合格恢复Actor仍null。023原CPU可行的三条真倒地参考，在GPU后/左/右13/136/150Tick提前穿地；不能继承CPU资格。024 CPU回放qpos逐位匹配，右参考从原346统一延长至实际500Tick，包含首次150Tick站姿完成392Tick。序列MLP/GRU分别独立0/7，均已关闭。发现离线适配32槽每Tick只有3个不同样本；026保持原生MLP、种子、911实际标签、2000CUDA Adam及其余配置，仅修正批次采样，完整参考动作RMS降低约8–14倍，但自主倒地仍0/7，不晋升。025开环Teacher叠σ=.002的24例均在站起前失效，提示反馈纠偏需求，不据此判硬件无解。实际安装RSL5.0.1，更新AST与作者5.4.2一致、GRU源码逐字节相同，旧笼统版本名已留勘误。[完整因果诊断与下一项有界工作](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_causal_checkpoint_017/report.md)。不再追加同静态拟合或同GPU参考长训。
+**窗口后现行检查点018：目标仍未达成，合格恢复Actor仍null。** 原17Tick神经合法前缀经私有反馈专家延续到177Tick；优先完整合法预看后到175Tick，均未完整起身。207个实际float32纠偏标签已准入；032同预算原生MLP对照与纠偏组均自主0/7。036只修正GRU连续序列槽位采样，使每Tick32个不同样本，参考动作RMS降至0.0085–0.0099，自主仍0/7；新独立进程所有轨迹字段逐位复现。7例为3训练倒地＋4已暴露开发倒地，不能称正式新验收。033确认最早失效中3例新地面接触在20ms步进前没有有效约束、4例膝越限。关闭RefSafe及地面/膝margin的具名原生对照全部未解锁起身，均未采用；15mm地面margin使站立COM升15.009mm，不能冒充CCD或继承旧资格。实际安装RSL5.0.1，更新AST与作者5.4.2一致、GRU源码逐字节相同，勘误保留。[完整报告、录像与下一项有界工作](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_causal_checkpoint_018/report.md)。无本聊天GPU批仍运行，未动外部批。14份受保护文件全部哈希匹配；本轮196333 CPU真实积分、6000 CUDA Adam、0 GPU物理积分；累计CPU13072310、GPU物理11166356、CUDA Adam903720、TRPO7274、HoST PPO4224。FK、离线示范和渲染另算。不追加同静态拟合或未准入GPU参考长训。
 
 **十小时窗口结论：未达到自主鲁棒起身目标。** 窗口为2026-10-08 09:21:03至19:21:03北京时间。最终512更新神经ONNX预先冻结后，63个未参与训练/调参的真实完全倒地新出生独立验收 **0/63成功、0/63完整站起瞬间**：右23、左26均合法运行13秒但停在地面；前12和后2触发穿地/关节越限。4个开发倒地也是0/4。9个名义站立初态保持3秒仅算站立。最终候选标记FAILED_UNQUALIFIED，合格恢复Actor仍为null、长期目标未完成。该63集四向覆盖不平衡，尤其后倒仅2例，不能宣称正式四向资格。
 
-**现行冻结检查点016，无本聊天GPU批仍运行。** 最终一批512原生TRPO／2097152实际GPU积分／81920 CUDA Adam，耗584.44秒，其中真正倒地训练帧530912，网络参数确实更新；ONNX对网络最大误差5.96e-8。窗口累计11166057实际GPU积分、12868123 CPU积分、4224原生HoST PPO、7274原生TRPO、891720 CUDA Adam；CPU含规划分支/诊断/回放，不能全部称作训练样本；FK/优化器/渲染与物理计数分开。12份保护文件全部哈希匹配。[完整结案与资源账本](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_gpu_chain_checkpoint_016/report.md)。
+**十小时窗口冻结检查点016（历史结案）：** 最终一批512原生TRPO／2097152实际GPU积分／81920 CUDA Adam，耗584.44秒，其中真正倒地训练帧530912，网络参数确实更新；ONNX对网络最大误差5.96e-8。窗口累计11166057实际GPU积分、12868123 CPU积分、4224原生HoST PPO、7274原生TRPO、891720 CUDA Adam；CPU含规划分支/诊断/回放，不能全部称作训练样本；FK/优化器/渲染与物理计数分开。12份保护文件全部哈希匹配。[完整结案与资源账本](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_gpu_chain_checkpoint_016/report.md)。现行累计以018为准。
 
 **公共ONNX具名候选：** `obs[1,65]`＋前五帧公共`history[1,5,65]`→原18轴目标请求`actions[1,18]`与`next_history[1,5,65]`，冷历史为零。每Tick一个完整神经图、一次20ms真实积分/驱动，decimation=1；没有出生身份、参考/Teacher目录或站立Actor接管。最终网络使用对公共上次请求的残差，属于明确Goose适配，不声称与作者原Actor完全相同。[最终ONNX（未合格）](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_sealed_ONNX_evaluation_001/actor.onnx)，SHA256 `b2044557c2ced00f239016e5dea2c764ee33f9ad993c6ac9475acdbd033a52ab`。[冻结候选清单](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_gpu_chain_checkpoint_016/final_candidate_manifest.json)。未接入Bevy、未晋升、没有latest自动替换。
 
@@ -16,7 +16,7 @@
 
 作者DeepMimic失败回报为0，本适配曾额外叠加HumanUP−50，已修正。相同初始Actor/Critic逐位一致、同种子的两批32更新对照均零倒地恢复，因此不能认定此项不一致是全部根因。上游部分reset清空未选世界ctrl的适配问题已用完整积分/驱动状态逐位回归修复。原反向课程v18在右294/后161/左250停滞且真正倒地训练帧0，已关闭；均匀RSI残差020/021完成后仍没有真倒地成功，不继续相同配置长训。所有中间ONNX各自保留，最终候选参考294Tick的保持1.68秒低于中间384更新的3秒，没有覆盖旧较优行为。
 
-**当前瓶颈与下一项：** 最终窗口神经策略停在地面；新候选拟合改善仍很快超门。已确认CPU/GPU参考可行性不一致、离线采样适配影响学习、开环示范对请求误差敏感；尚未锁定全部失败因果，不归咎DOF必然不足。固定同模型三个方向有合法Teacher。先用可信CPU真实积分与CUDA原生学习更新：从026神经Actor自主执行的原右完全倒地17Tick合法前缀，检查已有反馈Teacher在第18Tick前能否产生合法纠正并延续起身；训练可以确定性快照回滚，独立测试只有冷启动神经ONNX。使用成熟DAgger的学生访问状态纠正原则，先有界专家可行性pilot，不重造求解器、不继续重复静态拟合。63测试集已开封仅作回归；未来资格须另建未见验收集。M0-S/M0-T、源GPU接触与恢复资格仍分别false，不凭样本数或拟合误差晋升。
+**当前瓶颈与下一项H14：** 最早物理失效机制已复现，但尚未证明全部根因；不归咎DOF必然不足。固定同模型三个方向仍有合法Teacher。先最小化原生20ms新接触/关节限位失败，量化合法速度/动作范围以及软约束的实际响应，回到成熟物理接入；不再给相同标签拟合或未准入GPU参考追加长训。改变margin会改变生效表面/软限位，必须另名、重新准入，不能继承旧资格；本轮所有此类对照未采用。训练可确定性快照回滚，独立测试只有冷启动神经ONNX。63测试集已开封仅作回归；未来资格须另建未见封存集。M0-S/M0-T、源GPU接触与恢复资格仍分别false，不凭样本数或拟合误差晋升。
 
 **实际连续录像：** [最终ONNX左侧完全倒地13秒](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_final_continuous_delivery_001/left_fallen_final_neural_13s_continuous.mp4)、[63例收据及全部轨迹](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_sealed_ONNX_evaluation_001/independent_001/receipt.json)、[方向统计](/home/ethan/ProjectBackups/2026-10-08/Sai_Lab/goose_standup_sealed_ONNX_evaluation_001/direction_summary.json)。物理50Hz/录像25fps、双视角同一世界、无剪切/重置/接管。最佳Teacher与原学习基线均保留，Teacher仅作动力可行证据。
 
