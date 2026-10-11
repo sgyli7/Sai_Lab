@@ -4,9 +4,15 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点036：确定性动作表达缺口已修正，新反馈pilot仍未改善能力。** 068查得065 currentq/Tanh/beta=.25均值无法逐点表达2157/3900既有示范；训练Gaussian样本仍无界，不据此归因全部历史失败。070同初态原Teacher保持8.42秒，支持投影从.14秒偏离并在3.51秒颈越限；071独立43项复核通过。072原18绝对Gaussian均值／047公开基础＋无界390反馈、无beta/settle，零反馈新ONNX真正倒地13秒保持8.42秒且共享实际字段逐位复现。原生PPO首轮冷测0/5；073相同首轮逐位重现后按原生调度有界16轮，51200CPU积分/320CUDA Adam，7完整真倒地episode0成功、0共同up/COM达标内步，最终冷测仍0/5。原.02 KL准入失败未改成通过，不覆盖047、不授鲁棒或Bevy资格。[036报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_036/report.md)、[真实连续失败录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_failure_media_075/actual_ONNX073_fullfall_to_first_failure.mp4)。
+**唯一现行检查点037：早交接奖励已完成具名单世界候选接线与真实负例验证，尚未用于正式PPO。** 080在原完全倒地、全prefix合法、原同Actor连续3秒保持且开始≤10秒后立即交给冻结Move，没有固定13秒或额外Idle。保留同一世界/驱动，实际后缀决定0/1并返回源switch转移，done=true/timeouts=0；后缀动作不混源采样，原γ仅按50Hz源决策折扣一次。原模仿正奖励仅作诊断，不让等待持续赚task分。5纯测试通过；最终047真正bank275在7.58秒接管，7.64秒beak_hinge越限1.4668mrad（原门.1mrad），奖励0，身体up仍.9997。这不是提前交接阳性，也不等于身体仍未站起。[080代码/实际收据](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_source_switch_reward_env_080/README.md)、[037报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_037/report.md)。
 
-**现行下一项：能纠正偏离状态的Teacher／成熟示范约束反馈学习。** 停止本配置长训与奖励/LR/std网格；开环轨迹不是任意状态专家，不能仅堆同数据拟合或喊DAgger。新候选须先保留名义成功并改善固定邻域，才扩方向。066早交接指标与一次终奖接口保留，原控制共同模型完整交接正例仍无，未接入本PPO，不造成功标签。主线仍200Hz物理／50Hz策略与驱动、原18语义、公开输入及原正式门。Goal active、鲁棒Actor null、M0-S GPU/M0-T/Move14/Bevy false；heartbeat暂停，不联系其他聊天。临时产物均ProjectBackups，生产只此计划。
+**现行下一项：最新名义Teacher的共同邻域可执行性。** 076只读证据确认旧boundary是各自优化的±1e−4中心，不是当前046固定请求的原点六邻域。先冻结一个有界真实对照，区分共同轨迹物理可执行性与047映射偏离，再选择局部反馈专家或完整示范约束学习；077已锁定DAPG作者完整工作流，不把PPO加BC或单组件导入称复现。停止本配置长训与奖励/LR/std网格，不重复旧中心矩阵、同数据RBF拟合或无证据扩训。080当前单世界/冻结Actor，在线版本与批量需另接；最终已显式记录源Actor版本，不能把在线动作统一归047。原13秒独立恢复验收、邻域与共同模型完整Move资格不变。三次080含首保存失败共4584CPU积分/5766FK/1146神经调用，PPO/Adam/GPU物理0；两次有效源14字段同字节，较优047/Teacher保留。Goal active、鲁棒Actor null、M0-S GPU/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
+
+以下036及更早为历史记录，不作当前派工。
+
+**历史检查点036：确定性动作表达缺口已修正，新反馈pilot仍未改善能力。** 068查得065 currentq/Tanh/beta=.25均值无法逐点表达2157/3900既有示范；训练Gaussian样本仍无界，不据此归因全部历史失败。070同初态原Teacher保持8.42秒，支持投影从.14秒偏离并在3.51秒颈越限；071独立43项复核通过。072原18绝对Gaussian均值／047公开基础＋无界390反馈、无beta/settle，零反馈新ONNX真正倒地13秒保持8.42秒且共享实际字段逐位复现。原生PPO首轮冷测0/5；073相同首轮逐位重现后按原生调度有界16轮，51200CPU积分/320CUDA Adam，7完整真倒地episode0成功、0共同up/COM达标内步，最终冷测仍0/5。原.02 KL准入失败未改成通过，不覆盖047、不授鲁棒或Bevy资格。[036报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_036/report.md)、[真实连续失败录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_failure_media_075/actual_ONNX073_fullfall_to_first_failure.mp4)。
+
+**036当时下一项（已由037取代）：能纠正偏离状态的Teacher／成熟示范约束反馈学习。** 停止本配置长训与奖励/LR/std网格；开环轨迹不是任意状态专家，不能仅堆同数据拟合或喊DAgger。新候选须先保留名义成功并改善固定邻域，才扩方向。066早交接指标与一次终奖接口保留，原控制共同模型完整交接正例仍无，未接入本PPO，不造成功标签。主线仍200Hz物理／50Hz策略与驱动、原18语义、公开输入及原正式门。Goal active、鲁棒Actor null、M0-S GPU/M0-T/Move14/Bevy false；heartbeat暂停，不联系其他聊天。临时产物均ProjectBackups，生产只此计划。
 
 以下035及更早为历史记录，不作当前派工。
 
