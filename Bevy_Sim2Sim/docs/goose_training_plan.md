@@ -4,9 +4,15 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点039：原生200Hz GPU接线和一次真实PPO更新已运行，尚无新增鲁棒起身。** 原模型/原50Hz驱动保留；089故障停批、093二十次输入恢复与mask隔离通过。091未来逐位回放未通过（qpos最大差3.73e−9），不授予确定性Teacher搜索。094启动错误已保留，096另具名修正后实际128 GPU世界积分／32决策／1 RSL PPO／20 CUDA Adam；ONNX误差1.49e−8，但原KL门0.070506>0.02失败，不扩大该学习配置，不覆盖047。[039报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_039/report.md)、[独立保存数据复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_native200_gpu_chain_review_095/report.md)。
+**唯一现行检查点040：同状态GPU几何判据通过，修复足底支撑力分量接线错误。** 098在51独立实际保存状态（52行含1重复）上，原越限/穿透/up/COM/离地分类零分歧，包含实际失败与站立状态。官方source315返回force3＋torque3；旧027把index5的z扭矩当支撑力，新接口用index2。100由实际096完整保存solver Data提取，与独立旋转contact力的1N分类16/16一致，旧口径漏报4例；101独立复核通过。没有新step或用query力冒充live支撑，不据此归因全部学习失败或追授旧技能。[040报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_040/report.md)、[独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_gpu_query_independent_review_101/report.md)。
 
-**现行下一项：当前模型GPU独立post-state查询与原终止/奖励几何的同状态对照。** 复用027官方kinematics/com/collision/velocity查询，098有界实现准备中；根节点冻结实际保存状态后query-only验证，不改物理/驱动/门槛，不重复失败学习配置。合计本周期355 GPU世界积分／182native calls、531 CPU FK、0 CPU积分、1 PPO／20 CUDA Adam。096仅0.32秒链路，无13秒冷验收或技能资格；原协议陈旧字段另具名posthoc澄清而不改历史。原早交接奖励080保留，未混入本次接线验证。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
+**现行下一项：102把已验收GPU postquery与正确live足底力接入当前逐5ms packet。** 有界实现准备中、未运行；根节点将冻结同初态/请求对照public obs、驱动目标、实际力矩、接触和4×5ms计数，原50Hz状态更新及门槛不改。此周期0积分/NN/PPO/Adam，56 CPU位置查询含初始化＋52 Jacobian、52 GPU query world、8保存solver力读取。原039一次PPO的KL失败不重写、不扩同配置；较优047、早交接080保留。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
+
+以下039及更早为历史记录，不作当前派工。
+
+**历史检查点039：原生200Hz GPU接线和一次真实PPO更新已运行，尚无新增鲁棒起身。** 原模型/原50Hz驱动保留；089故障停批、093二十次输入恢复与mask隔离通过。091未来逐位回放未通过（qpos最大差3.73e−9），不授予确定性Teacher搜索。094启动错误已保留，096另具名修正后实际128 GPU世界积分／32决策／1 RSL PPO／20 CUDA Adam；ONNX误差1.49e−8，但原KL门0.070506>0.02失败，不扩大该学习配置，不覆盖047。[039报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_039/report.md)、[独立保存数据复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_native200_gpu_chain_review_095/report.md)。
+
+**039当时下一项（已由040取代）：当前模型GPU独立post-state查询与原终止/奖励几何的同状态对照。** 复用027官方kinematics/com/collision/velocity查询，098有界实现准备中；根节点冻结实际保存状态后query-only验证，不改物理/驱动/门槛，不重复失败学习配置。合计本周期355 GPU世界积分／182native calls、531 CPU FK、0 CPU积分、1 PPO／20 CUDA Adam。096仅0.32秒链路，无13秒冷验收或技能资格；原协议陈旧字段另具名posthoc澄清而不改历史。原早交接奖励080保留，未混入本次接线验证。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
 
 以下038及更早为历史记录，不作当前派工。
 
