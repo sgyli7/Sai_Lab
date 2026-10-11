@@ -4,11 +4,17 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点038：共同成功路径的邻域脆弱性已实测，反馈候选仍未新增能力。** 078同真实bank275倒地快照/原驱动、只改颈q或qd，Teacher与Actor两臂35初态字段逐字节相同；当前046固定请求名义通过、六微扰均失败，047四个已有训练点通过/三个邻域失败。083保存证据显示名义踝最小余量0.8056mrad；q+1e−6在首5ms改变接触多重集，随后分岔，3.04秒髋yaw越限。这排除“共同路径邻域仍能执行，仅学生拟合导致失败”的单一解释，不证明硬件不可起身或接触算法缺陷。[038报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_038/report.md)、[同请求连续失败对照](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_nominal_neighborhood_continuous_media_087/identical046_Teacher_nominal_vs_neck_p1e6_to_failure3040ms.mp4)。
+**唯一现行检查点039：原生200Hz GPU接线和一次真实PPO更新已运行，尚无新增鲁棒起身。** 原模型/原50Hz驱动保留；089故障停批、093二十次输入恢复与mask隔离通过。091未来逐位回放未通过（qpos最大差3.73e−9），不授予确定性Teacher搜索。094启动错误已保留，096另具名修正后实际128 GPU世界积分／32决策／1 RSL PPO／20 CUDA Adam；ONNX误差1.49e−8，但原KL门0.070506>0.02失败，不扩大该学习配置，不覆盖047。[039报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_039/report.md)、[独立保存数据复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_native200_gpu_chain_review_095/report.md)。
+
+**现行下一项：当前模型GPU独立post-state查询与原终止/奖励几何的同状态对照。** 复用027官方kinematics/com/collision/velocity查询，098有界实现准备中；根节点冻结实际保存状态后query-only验证，不改物理/驱动/门槛，不重复失败学习配置。合计本周期355 GPU世界积分／182native calls、531 CPU FK、0 CPU积分、1 PPO／20 CUDA Adam。096仅0.32秒链路，无13秒冷验收或技能资格；原协议陈旧字段另具名posthoc澄清而不改历史。原早交接奖励080保留，未混入本次接线验证。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
+
+以下038及更早为历史记录，不作当前派工。
+
+**历史检查点038：共同成功路径的邻域脆弱性已实测，反馈候选仍未新增能力。** 078同真实bank275倒地快照/原驱动、只改颈q或qd，Teacher与Actor两臂35初态字段逐字节相同；当前046固定请求名义通过、六微扰均失败，047四个已有训练点通过/三个邻域失败。083保存证据显示名义踝最小余量0.8056mrad；q+1e−6在首5ms改变接触多重集，随后分岔，3.04秒髋yaw越限。这排除“共同路径邻域仍能执行，仅学生拟合导致失败”的单一解释，不证明硬件不可起身或接触算法缺陷。[038报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_038/report.md)、[同请求连续失败对照](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_nominal_neighborhood_continuous_media_087/identical046_Teacher_nominal_vs_neck_p1e6_to_failure3040ms.mp4)。
 
 **真实成熟学习准入：** 084调用作者锁定sampler→GAE→DAPG/Fisher/CG→baseline完整RL顺序，1更新KL .00500144合格但冷测0/7，停止；不冒充作者从零BC或平台整体复现。086另具名公开状态距离门在既有3900示范中心强制保留原动作；2更新KL均合格、仍4/7，三个邻域失败，没有新起身。四点是结构保留，不是学习泛化；示范均值反馈梯度为0。085独立八条GAE/returns逐字节复算、四个成功冷轨迹24字段和35初态与078逐字节相同。新候选不覆盖较优047、不扩大此配置预算。[084](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_dapg_seeded_workflow_admission_084/README.md)、[086](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_dapg_anchored_feedback_admission_086/README.md)、[独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_dapg_independent_review_085/actual086_review.md)。
 
-**现行下一项：当前原生200Hz模型与原50Hz驱动的GPU接线。** 先核已安装官方实现和真实旧AUTORESET/积分支持边界，形成具名最小短准入候选；仅XML可加载/旧GPU计数不继承当前模型资格，计算提速不自动证明学习收益。禁止删flag凑准入、重复奖励/LR/std网格或同数据RBF拟合。当前周期72,318 CPU积分/78,698运行FK/24,281 base或ONNX调用，3 DAPG/92 baseline CPU Adam；PPO/CUDA Adam/GPU物理0，087另960图形FK且新积分/训练0。原早交接奖励037保留，未混入本DAPG。Goal active、鲁棒Actor null、M0-S GPU/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
+**038当时下一项（已由039取代）：当前原生200Hz模型与原50Hz驱动的GPU接线。** 先核已安装官方实现和真实旧AUTORESET/积分支持边界，形成具名最小短准入候选；仅XML可加载/旧GPU计数不继承当前模型资格，计算提速不自动证明学习收益。禁止删flag凑准入、重复奖励/LR/std网格或同数据RBF拟合。当前周期72,318 CPU积分/78,698运行FK/24,281 base或ONNX调用，3 DAPG/92 baseline CPU Adam；PPO/CUDA Adam/GPU物理0，087另960图形FK且新积分/训练0。原早交接奖励037保留，未混入本DAPG。Goal active、鲁棒Actor null、M0-S GPU/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
 
 以下037及更早为历史记录，不作当前派工。
 
