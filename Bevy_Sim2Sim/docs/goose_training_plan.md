@@ -2,9 +2,19 @@
 
 版本：2026-10-11（北京时间）。实施分支：`codex/goose50_training`。
 
-**执行状态：按用户新指令恢复本聊天Standup实施，默认源端物理200Hz、策略50Hz。** 独立原生MuJoCo `implicitfast200`候选每Tick推理一次、执行4次5ms真实积分；20ms一次驱动prepare/commit、目标限速、延迟、热代理、功率预算和动作历史，原生隐式伺服实际力矩每5ms求解。Bevy50Hz及旧discrete／50Hz模型保持各自身份；源成功不等于目标资格。当前有界测试及复现已结束，没有训练运行；每两小时唤醒仍暂停。不派工其他Agent／聊天。
+**执行状态：本聊天只推进Standup，物理200Hz、策略50Hz；完整鲁棒起身目标保持active。** 原生MuJoCo `implicitfast200`每Tick一次推理、4次5ms真实积分；驱动prepare/commit、目标限速、延迟、热代理、功率预算和历史每20ms更新。Bevy50Hz及旧discrete模型保留独立身份。每两小时唤醒仍暂停；本轮三名已授权Teacher子Agent完成后闲置，不新建聊天、不联系硬件/G1/Move。用户最新纠正已落实：起身结束必须抬头整理为可接移动的姿态，接续测试保留同一世界和驱动状态。
 
-**唯一现行检查点031：真正右侧bank275的同Actor神经单例已通过，邻域鲁棒性仍未通过。** 冻结022 ONNX（SHA256 `64e43c1a1ae0a01af52f8f067fa7af91c5c886b3961275b0790ad4e0bd3a36ac`）从原完全倒地连续13秒运行、保持合格站立8.42秒，第379Tick／7.58秒完成连续3秒保持。原始冷启动、独立进程重测、原生ORT1.30.0 CPU及新目录复现均成功，19字段逐位一致；所有内步无越限／自碰撞，最大穿地2.518mm，驱动力矩和时钟遵守合同。无Teacher／MPC在神经执行中、无辅助力／位置写回／重置／站立Actor接管。[连续神经成功录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/continuous_evidence/neural200_full_fall_success_continuous.mp4)、[031报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/report.md)、[冻结候选](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/candidate_manifest.json)。
+**唯一现行检查点032：自然终姿的多Teacher神经原型，衔接仍未合格。** 新具名035 ONNX（SHA256 `403cf72e370e8db4c0229e76be102c2dfa85ae847ead7408012e12d69a847a45`）接受6条真正倒地／微扰Teacher、3900实际公开65维状态及18维F32请求，单次监督求解，部署只用当前65＋前5帧公开历史。同一个Actor从原右275、左250、真实背倒111及右颈−1e−6／±1e−4rad连续13秒起身、保持、抬头到自然终姿；这6个训练出生通过，另外7个邻近测试失败。13条独立ORT冷测试的保存状态／实际力矩／接触／时钟由17418次离线FK重新核对一致，6条成功路径与对应实际Teacher逐位一致。正式鲁棒Actor仍null，不将开发点统计当未见分布成功率。[新ONNX](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_natural_terminal_six_teacher_actor_035/multiteacher_history_actor.onnx)、[实际连续抬头录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_natural_terminal_six_teacher_actor_035/continuous_evidence/right275_natural_terminal_neural_continuous.mp4)、[独立13例](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_natural_terminal_six_teacher_actor_035/independent_natural_terminal_001/receipt.json)。
+
+**Move接续的实际边界：** 已只读核对用户引用的Move聊天与冻结278 Actor，没有跨聊天发消息。质量／惯量／18驱动和轴序一致，但Move采用14碰撞叶／discrete200，Standup采用11叶／implicitfast200，不能继承资格。自然终姿从原完整倒地连续运行后直接调用原Move，在13.105秒嘴部被动轴越限。034具名对照仅将Move嘴请求固定F32 .04、其余17轴保持原输出，保留同一世界走出1.0029m／2.6秒；随后停止3秒漂移.0438m，但末速度.176m/s高于.04门槛，完整程序仍失败。嘴保持是明确动作适配，原Move资格未继承。[真实起身→接续→走1m录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_beak_hold_handoff_diagnostic_034/continuous_evidence/natural_recovery_to_adapted_move_1m_continuous.mp4)、[原请求／嘴保持配对](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_beak_hold_handoff_diagnostic_034/pair_receipt.json)。
+
+**本轮学习与Teacher范围：** 027实际原生RSL PPO64更新、32768控制决策、131072GPU训练积分、1280CUDA Adam；8和64更新各0/5冷启动，停止扩大该配置并保留022。三分支交付左侧、右侧具名微扰及真实背倒Teacher，新的固定反馈邻域仍0/4，未取得一般反馈专家资格。028→030→033→035只因接收不同合格实际数据而各做一次拟合，没有继续同一数据堆轮数。Move原物理模型的独立Teacher合法前缀只到2.76秒；036修正已定位的TRF极小初始半径后，76种不同F32候选仍未通过完整240ms预测，保留失败证据，不宣称硬件不可行或MPC路线被否决。[本轮报告及保护](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_032/report.md)。
+
+**下一项：统一全程物理合同与接续资格。** 保留035自然终姿原型、较优旧Actor和Teacher；先在Move冻结物理模型中取得从真倒地到自然站姿并接上原Move的完整合法Teacher，再训练相同公共Actor。不得途中切换积分器／碰撞、重置世界／驱动或用嘴保持诊断授原Move资格。邻域扩展须有已验证的反馈能力；已有精确点成功不支持继续同轨迹无限拟合。M0-S-GPU完整物理／M0-T／四方向／Bevy资格仍false，原越限、穿透、3秒保持与停止门槛保持。
+
+以下031及更早记录为已冻结历史，旧“下一项”不作当前派工。
+
+**历史检查点031：真正右侧bank275的同Actor神经单例已通过，邻域鲁棒性仍未通过。** 冻结022 ONNX（SHA256 `64e43c1a1ae0a01af52f8f067fa7af91c5c886b3961275b0790ad4e0bd3a36ac`）从原完全倒地连续13秒运行、保持合格站立8.42秒，第379Tick／7.58秒完成连续3秒保持。原始冷启动、独立进程重测、原生ORT1.30.0 CPU及新目录复现均成功，19字段逐位一致；所有内步无越限／自碰撞，最大穿地2.518mm，驱动力矩和时钟遵守合同。无Teacher／MPC在神经执行中、无辅助力／位置写回／重置／站立Actor接管。[连续神经成功录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/continuous_evidence/neural200_full_fall_success_continuous.mp4)、[031报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/report.md)、[冻结候选](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/candidate_manifest.json)。
 
 **031资格边界：这是RBF单轨迹监督回归开发原型，不是鲁棒PPO恢复策略。** 650个公开状态径向基单元和线性动作头，65输入／18输出float32，使用当前公开前63维，内部double计算；无时钟／phase／私有Actor量／运行时轨迹索引。8个颈pitch小角度／速度扰动均失败，最小±0.000001rad；额外200Hz forward的零扰动对照通过，不能把刷新当这组失败原因。[近邻失败连续录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_031/continuous_evidence/neural200_neck_p1e6_boundary_failure_continuous.mp4)。只授予原始右侧开发单例，四方向／任意初态资格仍false，正式合格恢复Actor仍null，M0-S/GPU／M0-T／Bevy未授予。
 
@@ -115,9 +125,9 @@ MD 经验落实为：先核本体、实际驱动和观测时效，再调奖励�
 
 原包物理 0.1 ms、力矩 5 ms、策略 20 ms，必须建立新合同，不覆写原模型身份。
 
-1. 当前源端为独立具名 `goose_task_proxy_11_discrete_mjlab160_v1`，从已核验004及后续刚性诊断派生，21体／18主动轴／11叶（9原凸网格＋2内接原生足box）；总质量、COM、完整惯量、轴位和自碰撞过滤保持。足box的遗漏上部形状与有界制动修正保存在历史版本与合同，不继承原完整形状或控制资格。
+1. 当前Standup源端为独立 `implicitfast200` 具名候选（本体入口见031），从已核验004及后续 `goose_task_proxy_11_discrete_mjlab160_v1` 父模型派生，21体／18主动轴／11叶（9原凸网格＋2内接原生足box）；总质量、COM、完整惯量、轴位和自碰撞过滤保持。足box的遗漏上部形状与有界制动修正保存在历史版本与合同，不继承原完整形状或控制资格。
 2. 足底使用普通原生刚体接触，不使用软底弹簧、压缩曲线或四点替换。软底静载与行程资格不再阻挡电脑能力训练；本期不要求仿真实物软底。
-3. 当前上游 MuJoCo 3.15 `discrete` 积分及位置驱动采用独立合同：17轴原生隐式位置驱动，嘴部仍驱动真实输入转子；原动作目标、限速、力矩限额、名义颈部前馈、延迟、热代理与350W功率预算显式保留。它不继承旧显式PD的实际力矩身份。
+3. 当前上游 MuJoCo 3.15使用原生 `implicitfast` 5ms积分，旧 `discrete` 保持父模型与历史身份；位置驱动采用独立合同：17轴原生隐式位置驱动，嘴部仍驱动真实输入转子；原动作目标、限速、力矩限额、名义颈部前馈、延迟、热代理与350W功率预算显式保留。它不继承旧显式PD的实际力矩身份。
 4. 原33体微脚垫、凝聚软底、自定义BE／discrete和材料诊断路线只保留历史失败，不作为当前训练派工；源与目标资格分别验收。
 
 Rapier 每 Tick 只进行一次 20 ms 积分，CCD 不引入额外时间步。内层约束迭代与物理积分分别计数；历史 PGS 参数诊断不作为新网格派工。弹簧采用 ForceBased SI 单位，碰撞体不重复增加质量。
