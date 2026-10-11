@@ -4,9 +4,19 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点041：原生GPU查询和N32紧凑采样接线通过短实测，尚无新增鲁棒起身。** 103在同完整输入/请求的原CPU查询与新GPU查询两臂实际运行：目标、ctrl、驱动力界及held驱动逐位一致，观察最大差1.19e−7；独立104复核实际支撑力误差0N、16组接触多重集合一致。未来状态非逐位，最大qpos差5.96e−8m/rad，不把静态隔离或短结果当作无因果扰动证明。105另具名泛化N32及audit/rollout存档开关；107两模式238项完整预步输入逐位匹配，原判据/更新计数一致、逐packet CPU FK为0。两臂各世界只累计0.08秒，不授技能、吞吐或完整GPU训练资格。[041报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_041/report.md)。
+**唯一现行检查点042：真实GPU短学习完成，更新与终止接线通过，鲁棒起身仍未完成。** 130原生SB3-Contrib TRPO八更新，32768控制决策／131072 GPU世界积分／1280 CUDA Adam，183.33秒；原200/50Hz、模型、控制与正式门不改，一个世界始终真正完全倒地，31个原uniform RSI，没有半秒截断。8次GAE／KL与ONNX对照通过；新1/4/8版独立冷测均0/7。第8版6/7全13秒合法，但0站立瞬间／0保持，不把生存当技能。原047四个已知点通过及046 Teacher完整保留。[042实际学习与边界](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_042/report.md)。
 
-**现行下一项：108完整参考状态的GPU RSI/reset及私有双时钟，随后有界成熟课程pilot。** 106核清096缺RSI/episode/reset和作者时长课程；072/073曾有CPU RSI但不能自动授给新GPU链。保留原65＋5×65/原18、cadence phase及既有5项reward，reference clock不暗入Actor，不称完整作者phase/optimizer复现。108仅在备份目录准备接线；先冻结不同phase和selected-mask的真实首次step/隔离准入，再接RSL/明确terminal bootstrap；不扩大旧096失败配置。原047、080早交接奖励保留，080尚未正式PPO。本轮1088 GPU世界积分/64native calls、218CPU FK、0CPU积分/NN/PPO/Adam；104/106只读另为0。首次103独占资源preflight延期0执行；两个另具名短诊断记录同机原有进程，只运行64/1024积分且0优化，未停止作业、不声称GPU空闲，源端长训仍排队。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
+**已定位的接线问题与因果边界：** 122查出旧半秒任务有非法非done正奖励、已失败prefix尾值及没有phase0实际训练动作，126/130另具名正式ET／cold1+RSI31已修正。SB3原KL按18轴平均，root漏做joint→per-axis单位换算；127同保存rollout/RNG控制完全逐位重现126，修正后联合KL.007281通过，129独立复核成立。但128两版仍0/7，因此修正只证明更新幅度，不证明起身。118/126实际失败与旧结果不改，不称完整DeepMimic平台复现。
+
+**早交接目标保留：** 080已移除固定13秒和额外Idle，原站立保持完成立即交给冻结Move；只有同世界真实Move后缀成功才支付1，失败0，gamma=.998按50Hz源决策折扣一次，同样成功越早回报越高。实际047在7.58秒接管、7.64秒嘴轴越限，仍奖励0；第6秒外观不能代替实际接管。080尚未接入130这批模仿学习，不宣称已按早交接目标训练。[080实现／实测](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_source_switch_reward_env_080/README.md)。
+
+**模型诊断已收口，现行下一项为真实首失败内步重放。** 131同CAD/BREP确认一处原下肢出口空域被凸包填实；135具名11→15叶局部候选已静态构建，138独立接收通过。root137真实连续冷对照：原Teacher和047仍13秒通过、站立8.42秒，新局部候选两臂分别3.08／2.08秒失败；首公开观测／请求／target相同，首5ms状态已因接触分岔。135不晋升，不继续逐点补孔。[137连续对照](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_torso_exit_local5_cold_dynamic_receive_137/README.md)。136证实嘴部范围来源为未认证机械止挡的操作候选；合法目标仍可伴随被动越限，但保存inner3位姿不足，不能判定全部根因或删限位凑分。[136来源／时间对齐](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_beak_passive_limit_source_audit_136/report.md)。139已冻结实际phase0八包失败请求；root140真实1024 GPU积分（0NN／优化）在.155秒复现jaw越限，目标+.02953rad、实际力矩+.39838Nm已刹车而jaw仍负速，Teacher控制32内步全合法。141独立比较40共有字段全体NOT_MATCHED（17项非逐位、10项超预定包络）；仅首失败事件、原请求／target及absolute F32时钟匹配，缺历史现场fullData，不认证整段严格复现或完整根因。当前只据此选择一个具名驱动／完整成熟课程候选，不追加原模仿配方长训或reward／LR／std网格，不删限位凑分。[140实测](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_phase0_beak_actual_inner_gpu_replay_140/README.md)。新8版[真实13秒失败录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_joint_trpo_learning_continuous_media_134/update0008_nominal_actual13s_standup_failed.mp4)已查看。Goal active、robustActor null、M0-S完整物理／M0-T／Move14／Bevy false；heartbeat仍暂停，不联系其他聊天。
+
+以下041及更早为历史记录，不作当前派工。
+
+**历史检查点041：原生GPU查询和N32紧凑采样接线通过短实测，尚无新增鲁棒起身。** 103在同完整输入/请求的原CPU查询与新GPU查询两臂实际运行：目标、ctrl、驱动力界及held驱动逐位一致，观察最大差1.19e−7；独立104复核实际支撑力误差0N、16组接触多重集合一致。未来状态非逐位，最大qpos差5.96e−8m/rad，不把静态隔离或短结果当作无因果扰动证明。105另具名泛化N32及audit/rollout存档开关；107两模式238项完整预步输入逐位匹配，原判据/更新计数一致、逐packet CPU FK为0。两臂各世界只累计0.08秒，不授技能、吞吐或完整GPU训练资格。[041报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_041/report.md)。
+
+**041当时下一项（已由042取代）：108完整参考状态的GPU RSI/reset及私有双时钟，随后有界成熟课程pilot。** 106核清096缺RSI/episode/reset和作者时长课程；072/073曾有CPU RSI但不能自动授给新GPU链。保留原65＋5×65/原18、cadence phase及既有5项reward，reference clock不暗入Actor，不称完整作者phase/optimizer复现。108仅在备份目录准备接线；先冻结不同phase和selected-mask的真实首次step/隔离准入，再接RSL/明确terminal bootstrap；不扩大旧096失败配置。原047、080早交接奖励保留，080尚未正式PPO。本轮1088 GPU世界积分/64native calls、218CPU FK、0CPU积分/NN/PPO/Adam；104/106只读另为0。首次103独占资源preflight延期0执行；两个另具名短诊断记录同机原有进程，只运行64/1024积分且0优化，未停止作业、不声称GPU空闲，源端长训仍排队。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
 
 以下040及更早为历史记录，不作当前派工。
 
