@@ -4,13 +4,21 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点034：原成功终姿保留，反馈学习仍未合格；新增真实早交接计时。** 原047同Actor原倒地13秒开发点、自然抬头终姿和旧Teacher保护未变，正式鲁棒Actor仍null。新原生CPU MuJoCo／CUDA RSL PPO链路的零残差650控制与047逐位一致；054／056各8更新、057128更新确实完成优化，合计144原生PPO／2880CUDA Adam／147422 CPU训练积分，GPU物理0。05732／64／128三个导出候选严格冷测各0/5、保持0秒，关闭当前小残差配置继续长训，不覆盖成功基线。[034报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_034/report.md)、[057独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_native057_independent_audit_001/README.md)。
+**唯一现行检查点035：早交接指标/终奖接口已实现，新的探索pilot仍未取得合格策略。** 066隔离适配器17测试与父进程重测通过：真实058四条早接失败均0，051走1m开发事件1、完整停止事件0；接管/非零指令/真实验证时间分开，奖励不重复折扣，尚未接入PPO，现无共同模型原控制完整交接正例。[奖励接口](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_handoff_terminal_bonus_066/README.md)。
+
+**本轮真实学习与边界：** 作者HoST PPO/storage和四组奖励函数保持，声明Goose模型、原轴缩放、公开390输入及beta未入Actor等适配。065完成20 PPO/400 CUDA Adam/128000决策/512000 CPU积分，GPU物理0；175 episode中75真倒地、合格0，force/beta课程递减未触发，不能称完整成熟课程已跑通或被否定。8/20版冷测各0/5，保持0，未覆盖047。原KL准入失败保留，继续只属锁定作者调度诊断。064第4轮保存因磁盘满失败，账本PPO4/CPU102400、完整轨迹只前3轮；有效和partial均无损压缩保留。065以磁盘余量保护结束。[035报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_035/report.md)。
+
+**现行下一项：真正倒地的启动控制接入及训练/部署动作路径。** 训练首31控制/.62秒屏蔽增量，导出从Tick1直接输出，课程beta仍1而最终导出.25；不能忽略这些未完成迁移条件。067只对照首31请求public-F32 currentq hold，原臂.095秒右膝越限，hold臂.220秒双胫自穿透.825mm，均未起身；屏蔽也不是已证明有效的启动方案，不把其当前适配继续扩大长训。先冻结一个实际可执行的启动/反馈候选，再推进早交接时间奖励和邻域能力。保留较优047/Teacher，正式鲁棒Actor null、目标active、M0-S GPU/M0-T/Move14/Bevy false；heartbeat仍暂停，临时产物遵守备份路径，不联系其他聊天。
+
+以下034及更早为冻结历史，不作当前派工。
+
+**历史检查点034：原成功终姿保留，反馈学习仍未合格；新增真实早交接计时。** 原047同Actor原倒地13秒开发点、自然抬头终姿和旧Teacher保护未变，正式鲁棒Actor仍null。新原生CPU MuJoCo／CUDA RSL PPO链路的零残差650控制与047逐位一致；054／056各8更新、057128更新确实完成优化，合计144原生PPO／2880CUDA Adam／147422 CPU训练积分，GPU物理0。05732／64／128三个导出候选严格冷测各0/5、保持0秒，关闭当前小残差配置继续长训，不覆盖成功基线。[034报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_034/report.md)、[057独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_native057_independent_audit_001/README.md)。
 
 **用户最新要求：越早稳定交接到其他ONNX，表现越好。** 旧051固定Standup13秒后已调用Move，再额外Idle3秒，16秒才发非零移动指令，不能当最早可用时间。058实际从原bank275完全倒地分别在6.00／7.58／10.12秒直接接原Move385，无额外Idle；三条guard候选及6秒原控制均失败，嘴部关节在接管后.060–.120秒越过原.1mrad门。7.58秒此前已真实连续站立3秒，10.12秒身体速度仅.00037m/s，仍无法据此授予交接成功；也不证明更早交接不可行。[真实连续倒地→10.12秒接管→首失败录像](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_early_move_handoff_058/continuous_evidence/cold_fall_10120ms_rawMove_first_failure.mp4)、[四例收据](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_early_move_handoff_058/physical_receipt.json)。
 
 **时间目标与本轮接线结论：** 已实现实际收据评价，分开记录首次站立、Move Actor接管、非零指令和后续合法1m／完整停止成功；早切失败为0，成功越早时间分越高，复用原50Hz gamma=.998，尚未注入PPO。原051只保留16秒指令后的走1m开发阶段，完整停止仍失败；没有成功就不填造handoff奖励标签，不重复折扣。[计时指标](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_034/handoff_latency_metrics.json)、[目标合同](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_034/handoff_objective_contract.json)。作者奖励根角速度已正确从MuJoCo body-local转world；训练探索可继续正式微量违规但前缀永远false、冷验收门不变。057所有32768决策/60个完成episode审计未误计成功，末198合法状态奖励复算误差0；语义修正未取得能力，不把它认定为历史失败的全部原因。
 
-**现行下一项：取得实际可交接终态并缩短到达时间，同时回完整成熟探索／轨迹学习建立反馈能力。** 保留047与最佳Teacher，停止同数据堆拟合、当前残差预算扩张和奖励/LR/std网格。恢复终态必须包含头嘴与原驱动目标／速度相容，接续正例由同世界真实Move执行见证；不能仅凭upright、静止或等待3秒标成功。正式同Actor3秒保持与未见倒地资格独立保留，运行时取消人为固定13+3秒等待要求。058只作为失败负例；下一新奖励／课程候选在实际正例接线核验后冻结，不以import作者PPO或精确点RBF冒充完整成熟流程。共同模型、GPU物理、原控制、四向鲁棒、Move14／Bevy仍false。原每两小时唤醒继续暂停，不联系其他聊天、不新建PM；生产仅此计划，临时产物全部在ProjectBackups。
+**034当时下一项（由035取代）：取得实际可交接终态并缩短到达时间，同时回完整成熟探索／轨迹学习建立反馈能力。** 保留047与最佳Teacher，停止同数据堆拟合、当前残差预算扩张和奖励/LR/std网格。恢复终态必须包含头嘴与原驱动目标／速度相容，接续正例由同世界真实Move执行见证；不能仅凭upright、静止或等待3秒标成功。正式同Actor3秒保持与未见倒地资格独立保留，运行时取消人为固定13+3秒等待要求。058只作为失败负例；下一新奖励／课程候选在实际正例接线核验后冻结，不以import作者PPO或精确点RBF冒充完整成熟流程。共同模型、GPU物理、原控制、四向鲁棒、Move14／Bevy仍false。原每两小时唤醒继续暂停，不联系其他聊天、不新建PM；生产仅此计划，临时产物全部在ProjectBackups。
 
 以下033及更早记录为已冻结历史，旧“下一项”不作当前派工。
 
