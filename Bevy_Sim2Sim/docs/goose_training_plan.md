@@ -4,9 +4,15 @@
 
 **执行状态：本聊天只推进Standup，物理200Hz、策略／驱动50Hz；完整鲁棒目标active。** 原生MuJoCo每Tick一次推理、4次5ms真实积分，prepare/commit、目标限速、延迟、热、功率和公开历史每20ms更新。原50Hz及Bevy资格独立。每两小时唤醒仍暂停，不联系硬件/G1/Move、不新建聊天或PM。用户指出的折颈终姿已改为实际抬头整理，接续始终保留同一世界和驱动状态。
 
-**唯一现行检查点040：同状态GPU几何判据通过，修复足底支撑力分量接线错误。** 098在51独立实际保存状态（52行含1重复）上，原越限/穿透/up/COM/离地分类零分歧，包含实际失败与站立状态。官方source315返回force3＋torque3；旧027把index5的z扭矩当支撑力，新接口用index2。100由实际096完整保存solver Data提取，与独立旋转contact力的1N分类16/16一致，旧口径漏报4例；101独立复核通过。没有新step或用query力冒充live支撑，不据此归因全部学习失败或追授旧技能。[040报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_040/report.md)、[独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_gpu_query_independent_review_101/report.md)。
+**唯一现行检查点041：原生GPU查询和N32紧凑采样接线通过短实测，尚无新增鲁棒起身。** 103在同完整输入/请求的原CPU查询与新GPU查询两臂实际运行：目标、ctrl、驱动力界及held驱动逐位一致，观察最大差1.19e−7；独立104复核实际支撑力误差0N、16组接触多重集合一致。未来状态非逐位，最大qpos差5.96e−8m/rad，不把静态隔离或短结果当作无因果扰动证明。105另具名泛化N32及audit/rollout存档开关；107两模式238项完整预步输入逐位匹配，原判据/更新计数一致、逐packet CPU FK为0。两臂各世界只累计0.08秒，不授技能、吞吐或完整GPU训练资格。[041报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_041/report.md)。
 
-**现行下一项：102把已验收GPU postquery与正确live足底力接入当前逐5ms packet。** 有界实现准备中、未运行；根节点将冻结同初态/请求对照public obs、驱动目标、实际力矩、接触和4×5ms计数，原50Hz状态更新及门槛不改。此周期0积分/NN/PPO/Adam，56 CPU位置查询含初始化＋52 Jacobian、52 GPU query world、8保存solver力读取。原039一次PPO的KL失败不重写、不扩同配置；较优047、早交接080保留。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
+**现行下一项：108完整参考状态的GPU RSI/reset及私有双时钟，随后有界成熟课程pilot。** 106核清096缺RSI/episode/reset和作者时长课程；072/073曾有CPU RSI但不能自动授给新GPU链。保留原65＋5×65/原18、cadence phase及既有5项reward，reference clock不暗入Actor，不称完整作者phase/optimizer复现。108仅在备份目录准备接线；先冻结不同phase和selected-mask的真实首次step/隔离准入，再接RSL/明确terminal bootstrap；不扩大旧096失败配置。原047、080早交接奖励保留，080尚未正式PPO。本轮1088 GPU世界积分/64native calls、218CPU FK、0CPU积分/NN/PPO/Adam；104/106只读另为0。首次103独占资源preflight延期0执行；两个另具名短诊断记录同机原有进程，只运行64/1024积分且0优化，未停止作业、不声称GPU空闲，源端长训仍排队。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat仍暂停，不联系其他聊天。
+
+以下040及更早为历史记录，不作当前派工。
+
+**历史检查点040：同状态GPU几何判据通过，修复足底支撑力分量接线错误。** 098在51独立实际保存状态（52行含1重复）上，原越限/穿透/up/COM/离地分类零分歧，包含实际失败与站立状态。官方source315返回force3＋torque3；旧027把index5的z扭矩当支撑力，新接口用index2。100由实际096完整保存solver Data提取，与独立旋转contact力的1N分类16/16一致，旧口径漏报4例；101独立复核通过。没有新step或用query力冒充live支撑，不据此归因全部学习失败或追授旧技能。[040报告](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_standup_checkpoint_040/report.md)、[独立复核](/home/ethan/ProjectBackups/2026-10-11/Sai_Lab/goose_gpu_query_independent_review_101/report.md)。
+
+**040当时下一项（已由041取代）：102把已验收GPU postquery与正确live足底力接入当前逐5ms packet。** 有界实现准备中、未运行；根节点将冻结同初态/请求对照public obs、驱动目标、实际力矩、接触和4×5ms计数，原50Hz状态更新及门槛不改。此周期0积分/NN/PPO/Adam，56 CPU位置查询含初始化＋52 Jacobian、52 GPU query world、8保存solver力读取。原039一次PPO的KL失败不重写、不扩同配置；较优047、早交接080保留。Goal active、鲁棒Actor null、M0-S完整GPU训练/M0-T/Move14/Bevy false；heartbeat暂停、不联系其他聊天。
 
 以下039及更早为历史记录，不作当前派工。
 
