@@ -1,0 +1,189 @@
+{
+  "schema": "goose_named_runtime_index_and_frame_mapping_v1",
+  "model_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "public_joint_order": [
+    "neck_yaw",
+    "neck_pitch",
+    "neck_mid_pitch",
+    "head_pitch",
+    "head_roll",
+    "beak_hinge",
+    "right_hip_yaw",
+    "right_hip_roll",
+    "right_hip_pitch",
+    "right_knee_pitch",
+    "right_ankle_pitch",
+    "right_ankle_roll",
+    "left_hip_yaw",
+    "left_hip_roll",
+    "left_hip_pitch",
+    "left_knee_pitch",
+    "left_ankle_pitch",
+    "left_ankle_roll"
+  ],
+  "public_axes": [
+    {
+      "name": "neck_yaw",
+      "logical_qpos_index": 7,
+      "logical_qvel_index": 6,
+      "actuator_index": 0,
+      "actual_drive_joint": "neck_yaw",
+      "actual_drive_qvel_index": 6
+    },
+    {
+      "name": "neck_pitch",
+      "logical_qpos_index": 8,
+      "logical_qvel_index": 7,
+      "actuator_index": 1,
+      "actual_drive_joint": "neck_pitch",
+      "actual_drive_qvel_index": 7
+    },
+    {
+      "name": "neck_mid_pitch",
+      "logical_qpos_index": 9,
+      "logical_qvel_index": 8,
+      "actuator_index": 2,
+      "actual_drive_joint": "neck_mid_pitch",
+      "actual_drive_qvel_index": 8
+    },
+    {
+      "name": "head_pitch",
+      "logical_qpos_index": 10,
+      "logical_qvel_index": 9,
+      "actuator_index": 3,
+      "actual_drive_joint": "head_pitch",
+      "actual_drive_qvel_index": 9
+    },
+    {
+      "name": "head_roll",
+      "logical_qpos_index": 11,
+      "logical_qvel_index": 10,
+      "actuator_index": 4,
+      "actual_drive_joint": "head_roll",
+      "actual_drive_qvel_index": 10
+    },
+    {
+      "name": "beak_hinge",
+      "logical_qpos_index": 12,
+      "logical_qvel_index": 11,
+      "actuator_index": 5,
+      "actual_drive_joint": "beak_input_rotor",
+      "actual_drive_qvel_index": 12
+    },
+    {
+      "name": "right_hip_yaw",
+      "logical_qpos_index": 15,
+      "logical_qvel_index": 14,
+      "actuator_index": 6,
+      "actual_drive_joint": "right_yaw_input_rotor",
+      "actual_drive_qvel_index": 27
+    },
+    {
+      "name": "right_hip_roll",
+      "logical_qpos_index": 16,
+      "logical_qvel_index": 15,
+      "actuator_index": 7,
+      "actual_drive_joint": "right_hip_roll",
+      "actual_drive_qvel_index": 15
+    },
+    {
+      "name": "right_hip_pitch",
+      "logical_qpos_index": 17,
+      "logical_qvel_index": 16,
+      "actuator_index": 8,
+      "actual_drive_joint": "right_hip_pitch",
+      "actual_drive_qvel_index": 16
+    },
+    {
+      "name": "right_knee_pitch",
+      "logical_qpos_index": 18,
+      "logical_qvel_index": 17,
+      "actuator_index": 9,
+      "actual_drive_joint": "right_knee_pitch",
+      "actual_drive_qvel_index": 17
+    },
+    {
+      "name": "right_ankle_pitch",
+      "logical_qpos_index": 19,
+      "logical_qvel_index": 18,
+      "actuator_index": 10,
+      "actual_drive_joint": "right_ankle_pitch",
+      "actual_drive_qvel_index": 18
+    },
+    {
+      "name": "right_ankle_roll",
+      "logical_qpos_index": 20,
+      "logical_qvel_index": 19,
+      "actuator_index": 11,
+      "actual_drive_joint": "right_ankle_roll",
+      "actual_drive_qvel_index": 19
+    },
+    {
+      "name": "left_hip_yaw",
+      "logical_qpos_index": 21,
+      "logical_qvel_index": 20,
+      "actuator_index": 12,
+      "actual_drive_joint": "left_yaw_input_rotor",
+      "actual_drive_qvel_index": 26
+    },
+    {
+      "name": "left_hip_roll",
+      "logical_qpos_index": 22,
+      "logical_qvel_index": 21,
+      "actuator_index": 13,
+      "actual_drive_joint": "left_hip_roll",
+      "actual_drive_qvel_index": 21
+    },
+    {
+      "name": "left_hip_pitch",
+      "logical_qpos_index": 23,
+      "logical_qvel_index": 22,
+      "actuator_index": 14,
+      "actual_drive_joint": "left_hip_pitch",
+      "actual_drive_qvel_index": 22
+    },
+    {
+      "name": "left_knee_pitch",
+      "logical_qpos_index": 24,
+      "logical_qvel_index": 23,
+      "actuator_index": 15,
+      "actual_drive_joint": "left_knee_pitch",
+      "actual_drive_qvel_index": 23
+    },
+    {
+      "name": "left_ankle_pitch",
+      "logical_qpos_index": 25,
+      "logical_qvel_index": 24,
+      "actuator_index": 16,
+      "actual_drive_joint": "left_ankle_pitch",
+      "actual_drive_qvel_index": 24
+    },
+    {
+      "name": "left_ankle_roll",
+      "logical_qpos_index": 26,
+      "logical_qvel_index": 25,
+      "actuator_index": 17,
+      "actual_drive_joint": "left_ankle_roll",
+      "actual_drive_qvel_index": 25
+    }
+  ],
+  "internal_joint_names": [
+    "beak_input_rotor",
+    "beak_coupler_link",
+    "left_yaw_input_rotor",
+    "right_yaw_input_rotor"
+  ],
+  "born_root_xyz_quat_wxyz": [
+    0.0,
+    0.0,
+    0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "root_frame": "Worldzero CAD reference atgrounddatum; torso COM andvisual geometry are offset from the root origin. qpos[2] is not torsoCOMheight.",
+  "height_measurement": "Use data.subtree_com[model.body(\"torso\").id,2] for physical wholebodyCOM; taskdefinitions andterminations belong to training consumer.",
+  "handedness": "Right handed; +X forward, +Y robotleft, +Z up; angle rad, lengthm, masskg, forceN, torqueNm.",
+  "backend": "MuJoCo3.10.0; no V0.1 runtime identity compatibility is claimed"
+}

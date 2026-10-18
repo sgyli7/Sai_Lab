@@ -1,0 +1,1016 @@
+{
+  "known_fork_axle_plate_brake_parts_without_individual_collision_leaf_count": 36,
+  "mass_retained_kg": 1.7222909331512934,
+  "volume_mm3": 303216.0179102023,
+  "bounds_cart_mm": [
+    [
+      -7.5,
+      -230.0,
+      57.5
+    ],
+    [
+      632.5,
+      230.0,
+      150.0
+    ]
+  ],
+  "parts": [
+    {
+      "name": "axle_d10_570_-190",
+      "mass_retained_kg": 0.03205995302988389,
+      "volume_mm3": 4084.070449666737,
+      "bounds_cart_mm": {
+        "min": [
+          565.0,
+          -216.0,
+          57.5
+        ],
+        "max": [
+          575.0,
+          -164.0,
+          67.5
+        ]
+      }
+    },
+    {
+      "name": "axle_d10_570_190",
+      "mass_retained_kg": 0.03205995302988389,
+      "volume_mm3": 4084.070449666737,
+      "bounds_cart_mm": {
+        "min": [
+          565.0,
+          164.0,
+          57.5
+        ],
+        "max": [
+          575.0,
+          216.0,
+          67.5
+        ]
+      }
+    },
+    {
+      "name": "axle_d10_80_-190",
+      "mass_retained_kg": 0.03205995302988385,
+      "volume_mm3": 4084.0704496667317,
+      "bounds_cart_mm": {
+        "min": [
+          75.0,
+          -216.0,
+          57.5
+        ],
+        "max": [
+          85.0,
+          -164.0,
+          67.5
+        ]
+      }
+    },
+    {
+      "name": "axle_d10_80_190",
+      "mass_retained_kg": 0.03205995302988385,
+      "volume_mm3": 4084.0704496667317,
+      "bounds_cart_mm": {
+        "min": [
+          75.0,
+          164.0,
+          57.5
+        ],
+        "max": [
+          85.0,
+          216.0,
+          67.5
+        ]
+      }
+    },
+    {
+      "name": "caster_kingpin_80_-190",
+      "mass_retained_kg": 0.01864409576199399,
+      "volume_mm3": 2375.044046113884,
+      "bounds_cart_mm": {
+        "min": [
+          49.0,
+          -196.0,
+          125.5
+        ],
+        "max": [
+          61.0,
+          -184.0,
+          146.5
+        ]
+      }
+    },
+    {
+      "name": "caster_kingpin_80_190",
+      "mass_retained_kg": 0.01864409576199399,
+      "volume_mm3": 2375.044046113884,
+      "bounds_cart_mm": {
+        "min": [
+          49.0,
+          184.0,
+          125.5
+        ],
+        "max": [
+          61.0,
+          196.0,
+          146.5
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_bearing_80_-190",
+      "mass_retained_kg": 0.03728819152398798,
+      "volume_mm3": 4750.088092227768,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          131.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          139.0
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_bearing_80_190",
+      "mass_retained_kg": 0.03728819152398798,
+      "volume_mm3": 4750.088092227768,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          131.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          139.0
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_seat_80_-190_129.5",
+      "mass_retained_kg": 0.01380254962443492,
+      "volume_mm3": 1758.2865763611362,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          128.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          131.0
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_seat_80_-190_141.5",
+      "mass_retained_kg": 0.023004249374058195,
+      "volume_mm3": 2930.4776272685594,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          139.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          144.0
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_seat_80_190_129.5",
+      "mass_retained_kg": 0.01380254962443492,
+      "volume_mm3": 1758.2865763611362,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          128.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          131.0
+        ]
+      }
+    },
+    {
+      "name": "caster_thrust_seat_80_190_141.5",
+      "mass_retained_kg": 0.023004249374058195,
+      "volume_mm3": 2930.4776272685594,
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          139.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          144.0
+        ]
+      }
+    },
+    {
+      "name": "fork_bridge_570_-190",
+      "mass_retained_kg": 0.046158000000000005,
+      "volume_mm3": 5880.0,
+      "bounds_cart_mm": {
+        "min": [
+          540.0,
+          -214.5,
+          126.0
+        ],
+        "max": [
+          600.0,
+          -165.5,
+          128.0
+        ]
+      }
+    },
+    {
+      "name": "fork_bridge_570_190",
+      "mass_retained_kg": 0.046158000000000005,
+      "volume_mm3": 5880.0,
+      "bounds_cart_mm": {
+        "min": [
+          540.0,
+          165.5,
+          126.0
+        ],
+        "max": [
+          600.0,
+          214.5,
+          128.0
+        ]
+      }
+    },
+    {
+      "name": "fork_bridge_80_-190",
+      "mass_retained_kg": 0.046158000000000005,
+      "volume_mm3": 5880.0,
+      "bounds_cart_mm": {
+        "min": [
+          25.0,
+          -214.5,
+          126.0
+        ],
+        "max": [
+          85.0,
+          -165.5,
+          128.0
+        ]
+      }
+    },
+    {
+      "name": "fork_bridge_80_190",
+      "mass_retained_kg": 0.046158000000000005,
+      "volume_mm3": 5880.0,
+      "bounds_cart_mm": {
+        "min": [
+          25.0,
+          165.5,
+          126.0
+        ],
+        "max": [
+          85.0,
+          214.5,
+          128.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_570_-190_-1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420201,
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          -214.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          -212.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_570_-190_1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420201,
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          -168.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          -166.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_570_190_-1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420201,
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          166.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          168.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_570_190_1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420201,
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          212.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          214.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_80_-190_-1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420202,
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          -214.0,
+          58.0
+        ],
+        "max": [
+          93.5,
+          -212.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_80_-190_1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420202,
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          -168.0,
+          58.0
+        ],
+        "max": [
+          93.5,
+          -166.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_80_190_-1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420202,
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          166.0,
+          57.99999999999992
+        ],
+        "max": [
+          93.5,
+          168.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "fork_plate_80_190_1",
+      "mass_retained_kg": 0.054220234612898585,
+      "volume_mm3": 6907.036256420202,
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          212.0,
+          57.99999999999992
+        ],
+        "max": [
+          93.5,
+          214.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "load_spreader_3mm_570_-190",
+      "mass_retained_kg": 0.079891533014478,
+      "volume_mm3": 29589.45667202889,
+      "bounds_cart_mm": {
+        "min": [
+          507.5,
+          -230.0,
+          147.0
+        ],
+        "max": [
+          632.5,
+          -150.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "load_spreader_3mm_570_190",
+      "mass_retained_kg": 0.079891533014478,
+      "volume_mm3": 29589.45667202889,
+      "bounds_cart_mm": {
+        "min": [
+          507.5,
+          150.0,
+          147.0
+        ],
+        "max": [
+          632.5,
+          230.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "load_spreader_3mm_80_-190",
+      "mass_retained_kg": 0.079891533014478,
+      "volume_mm3": 29589.45667202889,
+      "bounds_cart_mm": {
+        "min": [
+          -7.5,
+          -230.0,
+          147.0
+        ],
+        "max": [
+          117.5,
+          -150.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "load_spreader_3mm_80_190",
+      "mass_retained_kg": 0.079891533014478,
+      "volume_mm3": 29589.45667202889,
+      "bounds_cart_mm": {
+        "min": [
+          -7.5,
+          150.0,
+          147.0
+        ],
+        "max": [
+          117.5,
+          230.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "mount_plate_570_-190",
+      "mass_retained_kg": 0.09286123487542675,
+      "volume_mm3": 11829.456672028884,
+      "bounds_cart_mm": {
+        "min": [
+          536.0,
+          -220.0,
+          144.0
+        ],
+        "max": [
+          604.0,
+          -160.0,
+          147.0
+        ]
+      }
+    },
+    {
+      "name": "mount_plate_570_190",
+      "mass_retained_kg": 0.09286123487542675,
+      "volume_mm3": 11829.456672028884,
+      "bounds_cart_mm": {
+        "min": [
+          536.0,
+          160.0,
+          144.0
+        ],
+        "max": [
+          604.0,
+          220.0,
+          147.0
+        ]
+      }
+    },
+    {
+      "name": "mount_plate_80_-190",
+      "mass_retained_kg": 0.09286123487542676,
+      "volume_mm3": 11829.456672028886,
+      "bounds_cart_mm": {
+        "min": [
+          21.0,
+          -220.0,
+          144.0
+        ],
+        "max": [
+          89.0,
+          -160.0,
+          147.0
+        ]
+      }
+    },
+    {
+      "name": "mount_plate_80_190",
+      "mass_retained_kg": 0.09286123487542676,
+      "volume_mm3": 11829.456672028886,
+      "bounds_cart_mm": {
+        "min": [
+          21.0,
+          160.0,
+          144.0
+        ],
+        "max": [
+          89.0,
+          220.0,
+          147.0
+        ]
+      }
+    },
+    {
+      "name": "parking_friction_pad_570_-190",
+      "mass_retained_kg": 0.0043679999999999995,
+      "volume_mm3": 3639.9999999999995,
+      "bounds_cart_mm": {
+        "min": [
+          568.0,
+          -203.0,
+          121.0
+        ],
+        "max": [
+          596.0,
+          -177.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "parking_friction_pad_570_190",
+      "mass_retained_kg": 0.0043679999999999995,
+      "volume_mm3": 3639.9999999999995,
+      "bounds_cart_mm": {
+        "min": [
+          568.0,
+          177.0,
+          121.0
+        ],
+        "max": [
+          596.0,
+          203.0,
+          126.0
+        ]
+      }
+    },
+    {
+      "name": "parking_pedal_570_-190",
+      "mass_retained_kg": 0.045216000000000006,
+      "volume_mm3": 5760.0,
+      "bounds_cart_mm": {
+        "min": [
+          558.0,
+          -205.0,
+          131.0
+        ],
+        "max": [
+          606.0,
+          -175.0,
+          135.0
+        ]
+      }
+    },
+    {
+      "name": "parking_pedal_570_190",
+      "mass_retained_kg": 0.045216000000000006,
+      "volume_mm3": 5760.0,
+      "bounds_cart_mm": {
+        "min": [
+          558.0,
+          175.0,
+          131.0
+        ],
+        "max": [
+          606.0,
+          205.0,
+          135.0
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "file": "meshes/cart_bite_yoke_left.obj",
+      "sha256": "c0beda17127bdf4ba9e4ee239db1c10ca4237e315ad3b192ba5608757fa91376",
+      "is_convex": true,
+      "watertight": true,
+      "faces": 72,
+      "vertices": 38
+    },
+    {
+      "file": "meshes/cart_bite_yoke_right.obj",
+      "sha256": "7af69b25f2102250133bc1590be1ca9af485587791d5851c3651d3eb9a6045fd",
+      "is_convex": true,
+      "watertight": true,
+      "faces": 72,
+      "vertices": 38
+    },
+    {
+      "file": "meshes/cart_drawbar.obj",
+      "sha256": "f5b8f845416771c07173ad502638c27f949f4f7e377ed44f2494972a8b5cb2d3",
+      "is_convex": true,
+      "watertight": true,
+      "faces": 92,
+      "vertices": 48
+    },
+    {
+      "file": "meshes/cart_rotating_shaft.obj",
+      "sha256": "dd055d82249beaeed7d951a961f36af05758185f32b88580516782af52819363",
+      "is_convex": true,
+      "watertight": true,
+      "faces": 124,
+      "vertices": 64
+    }
+  ],
+  "baseline_53_files_exact": true,
+  "baseline_files": 53,
+  "metadata_single_field_reverse_SHA256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+  "metadata_expected_old_SHA256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+  "native_density_source": "parameters.json materials[].density_kg_m3, independently applied to saved STEP volumes and complete inertia",
+  "compiled_full_tote_AABB_separation": [
+    {
+      "geom": "cart_deck_frame",
+      "AABB_min_world_m": [
+        0.6500000000000001,
+        -0.225,
+        0.15000000000000002
+      ],
+      "AABB_max_world_m": [
+        1.3,
+        0.225,
+        0.1815
+      ],
+      "overlap_lengths_m": [
+        0.5999999999999999,
+        0.4,
+        0.0
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_side_right",
+      "AABB_min_world_m": [
+        0.6500000000000001,
+        -0.225,
+        0.1815
+      ],
+      "AABB_max_world_m": [
+        1.3,
+        -0.209,
+        0.29
+      ],
+      "overlap_lengths_m": [
+        0.5999999999999999,
+        -0.00899999999999998,
+        0.10849999999999999
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_side_left",
+      "AABB_min_world_m": [
+        0.6500000000000001,
+        0.209,
+        0.1815
+      ],
+      "AABB_max_world_m": [
+        1.3,
+        0.225,
+        0.29
+      ],
+      "overlap_lengths_m": [
+        0.5999999999999999,
+        -0.00899999999999998,
+        0.10849999999999999
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_end_front",
+      "AABB_min_world_m": [
+        0.65,
+        -0.209,
+        0.1815
+      ],
+      "AABB_max_world_m": [
+        0.666,
+        0.209,
+        0.29
+      ],
+      "overlap_lengths_m": [
+        -0.009000000000000008,
+        0.4,
+        0.10849999999999999
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_end_rear",
+      "AABB_min_world_m": [
+        1.284,
+        -0.209,
+        0.1815
+      ],
+      "AABB_max_world_m": [
+        1.3,
+        0.209,
+        0.29
+      ],
+      "overlap_lengths_m": [
+        -0.009000000000000119,
+        0.4,
+        0.10849999999999999
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_mast",
+      "AABB_min_world_m": [
+        0.609,
+        -0.016,
+        0.14999999999999997
+      ],
+      "AABB_max_world_m": [
+        0.641,
+        0.016,
+        0.55
+      ],
+      "overlap_lengths_m": [
+        -0.03400000000000003,
+        0.032,
+        0.15000000000000002
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_yaw_housing",
+      "AABB_min_world_m": [
+        0.5730000000000001,
+        -0.015,
+        0.45799999999999996
+      ],
+      "AABB_max_world_m": [
+        0.6030000000000001,
+        0.015,
+        0.502
+      ],
+      "overlap_lengths_m": [
+        -0.07199999999999995,
+        0.03,
+        -0.12649999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_80_-190",
+      "AABB_min_world_m": [
+        0.6675000000000001,
+        -0.2025,
+        0.0
+      ],
+      "AABB_max_world_m": [
+        0.7925000000000001,
+        -0.1775,
+        0.125
+      ],
+      "overlap_lengths_m": [
+        0.11750000000000005,
+        0.02250000000000002,
+        -0.056499999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_80_190",
+      "AABB_min_world_m": [
+        0.6675000000000001,
+        0.1775,
+        0.0
+      ],
+      "AABB_max_world_m": [
+        0.7925000000000001,
+        0.2025,
+        0.125
+      ],
+      "overlap_lengths_m": [
+        0.11750000000000005,
+        0.02250000000000002,
+        -0.056499999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_570_-190",
+      "AABB_min_world_m": [
+        1.1575000000000002,
+        -0.2025,
+        0.0
+      ],
+      "AABB_max_world_m": [
+        1.2825000000000002,
+        -0.1775,
+        0.125
+      ],
+      "overlap_lengths_m": [
+        0.11749999999999972,
+        0.02250000000000002,
+        -0.056499999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_570_190",
+      "AABB_min_world_m": [
+        1.1575000000000002,
+        0.1775,
+        0.0
+      ],
+      "AABB_max_world_m": [
+        1.2825000000000002,
+        0.2025,
+        0.125
+      ],
+      "overlap_lengths_m": [
+        0.11749999999999972,
+        0.02250000000000002,
+        -0.056499999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_clevis_right",
+      "AABB_min_world_m": [
+        0.539,
+        -0.019000000000000003,
+        0.46249999999999997
+      ],
+      "AABB_max_world_m": [
+        0.5810000000000001,
+        -0.015000000000000001,
+        0.4975
+      ],
+      "overlap_lengths_m": [
+        -0.09399999999999997,
+        0.004000000000000002,
+        -0.13099999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_clevis_left",
+      "AABB_min_world_m": [
+        0.539,
+        0.015000000000000001,
+        0.46249999999999997
+      ],
+      "AABB_max_world_m": [
+        0.5810000000000001,
+        0.019000000000000003,
+        0.4975
+      ],
+      "overlap_lengths_m": [
+        -0.09399999999999997,
+        0.004000000000000002,
+        -0.13099999999999995
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_drawbar",
+      "AABB_min_world_m": [
+        0.4049999977931936,
+        -0.017000000920421546,
+        0.46300000007610165
+      ],
+      "AABB_max_world_m": [
+        0.5550000037536584,
+        0.017000000927322532,
+        0.49700000937442634
+      ],
+      "overlap_lengths_m": [
+        -0.11999999624634161,
+        0.03400000184774408,
+        -0.13150000007610163
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_rotating_shaft",
+      "AABB_min_world_m": [
+        0.34499999270698195,
+        -0.007000000199679766,
+        0.472999989975645
+      ],
+      "AABB_max_world_m": [
+        0.40499999695381306,
+        0.007000000232453947,
+        0.48699998854513354
+      ],
+      "overlap_lengths_m": [
+        -0.270000003046187,
+        0.014000000432133713,
+        -0.141499989975645
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_bite_yoke_right",
+      "AABB_min_world_m": [
+        0.2889999975152925,
+        -0.08916816830072619,
+        0.4690000115520012
+      ],
+      "AABB_max_world_m": [
+        0.368623725396664,
+        0.004168170734743244,
+        0.49099999653163073
+      ],
+      "overlap_lengths_m": [
+        -0.30637627460333605,
+        0.09333633903546942,
+        -0.1375000115520012
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_bite_yoke_left",
+      "AABB_min_world_m": [
+        0.2889999977243344,
+        -0.0041681699709957415,
+        0.4690000115540279
+      ],
+      "AABB_max_world_m": [
+        0.3686237294456983,
+        0.08916816898474236,
+        0.4909999965336574
+      ],
+      "overlap_lengths_m": [
+        -0.3063762705543017,
+        0.0933363389557381,
+        -0.13750001155402786
+      ],
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_bite_bar",
+      "AABB_min_world_m": [
+        0.29400000000000004,
+        -0.08,
+        0.474
+      ],
+      "AABB_max_world_m": [
+        0.30600000000000005,
+        0.08,
+        0.486
+      ],
+      "overlap_lengths_m": [
+        -0.369,
+        0.16,
+        -0.14249999999999996
+      ],
+      "positive_volume_overlap_possible": false
+    }
+  ],
+  "full_tote_no_positive_proxy_overlap": true,
+  "scope": "Parts without separate leaves; some volumes already lie within coarse wheel/frame hulls. Flat unobstructed floor only; no fork-near-obstacle/foot or turning-sweep qualification."
+}

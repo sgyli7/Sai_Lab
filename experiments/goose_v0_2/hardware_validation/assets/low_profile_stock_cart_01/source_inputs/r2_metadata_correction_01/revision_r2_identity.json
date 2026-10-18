@@ -1,0 +1,37 @@
+{
+  "revision": "r2_tote_gusset_clearance",
+  "files": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.step",
+      "SHA256": "34163bb2ef9e547c4a479968d57344c38fb78511bd35122ffe203ff275a281b4",
+      "bytes": 2659441
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.glb",
+      "SHA256": "c6e86afd51a5cbdf9f1132cec3825f232a21b52a86b179197ed8644fbf59867a",
+      "bytes": 2480320
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_01/parameters.json",
+      "SHA256": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600",
+      "bytes": 2826
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/geometry_mass_screen.json",
+      "SHA256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+      "bytes": 114849
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/goose_cart_context.json",
+      "SHA256": "ec651c2ed30bf2f6728a3b9ef329426451b6b2b12009c9a4bb89c73968db4d3a",
+      "bytes": 5855
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/tote_clearance.json",
+      "SHA256": "26149f2a08ac5da92bd6f509d318fdf840f3c7f41d5c16e1eb543e81588d5ba6",
+      "bytes": 15256
+    }
+  ],
+  "previous_r1_archive": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_profile_stock_cart_01/locked_r1/manifest.json",
+  "analysis_metadata_correction": "Single support rectangle x bound corrected30 to80; mass/COM/fullI identical. See mass_metadata_correction_receipt.json."
+}

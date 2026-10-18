@@ -1,0 +1,44 @@
+{
+  "input_verified": true,
+  "human_authorization_verified": true,
+  "human_authorization_turn": "01a14e8e-b604-7350-89b2-c2a1d261c862",
+  "package_SHA256": "1dd11b212697f2b0005c045e4874c9ae1657e0f97863ae0cfde57b09c2d2a9ba",
+  "isolated_model_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04",
+  "key_files": [
+    {
+      "name": "robot.xml",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+      "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+    },
+    {
+      "name": "physical_contract.json",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json",
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "name": "actuator_contract.json",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json",
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "name": "runtime_adapter.py",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/runtime_adapter.py",
+      "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+    },
+    {
+      "name": "mass_ledger.json",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/mass_ledger.json",
+      "sha256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879"
+    },
+    {
+      "name": "collision_manifest.json",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/collision_manifest.json",
+      "sha256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6"
+    },
+    {
+      "name": "source_snapshot.json",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/source_snapshot.json",
+      "sha256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593"
+    }
+  ]
+}

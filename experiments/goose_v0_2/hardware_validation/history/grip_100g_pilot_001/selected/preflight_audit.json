@@ -1,0 +1,508 @@
+{
+  "audit_passed": true,
+  "human_authorization_verified": true,
+  "engine": "3.10.0",
+  "engine_path": "/home/ethan/ProjectBackups/2026-10-03/Sai_Lab/goose_warp_replay_admission_001/environments/mjlab_cuda_py312/lib/python3.12/site-packages/mujoco/__init__.py",
+  "active_solver": "unmodified sealed04",
+  "base_robot_mass_kg": 16.970203928833527,
+  "base_robot_bodies_excluding_world": 23,
+  "robot_collision_leaves": 14,
+  "hull_vertices": 547,
+  "hull_triangles": 1038,
+  "hulls": [
+    {
+      "geom": "torso_central_keel",
+      "hull_vertices": 40,
+      "hull_triangles": 76
+    },
+    {
+      "geom": "torso_upper_envelope",
+      "hull_vertices": 39,
+      "hull_triangles": 74
+    },
+    {
+      "geom": "neck_pitch_envelope",
+      "hull_vertices": 39,
+      "hull_triangles": 74
+    },
+    {
+      "geom": "neck_mid_pitch_envelope",
+      "hull_vertices": 35,
+      "hull_triangles": 66
+    },
+    {
+      "geom": "upper_bill_envelope",
+      "hull_vertices": 45,
+      "hull_triangles": 86
+    },
+    {
+      "geom": "lower_bill_envelope",
+      "hull_vertices": 44,
+      "hull_triangles": 84
+    },
+    {
+      "geom": "right_hip_envelope",
+      "hull_vertices": 28,
+      "hull_triangles": 52
+    },
+    {
+      "geom": "right_thigh_envelope",
+      "hull_vertices": 34,
+      "hull_triangles": 64
+    },
+    {
+      "geom": "right_shin_envelope",
+      "hull_vertices": 27,
+      "hull_triangles": 50
+    },
+    {
+      "geom": "right_actual_sole",
+      "hull_vertices": 63,
+      "hull_triangles": 122
+    },
+    {
+      "geom": "left_hip_envelope",
+      "hull_vertices": 28,
+      "hull_triangles": 52
+    },
+    {
+      "geom": "left_thigh_envelope",
+      "hull_vertices": 34,
+      "hull_triangles": 64
+    },
+    {
+      "geom": "left_shin_envelope",
+      "hull_vertices": 28,
+      "hull_triangles": 52
+    },
+    {
+      "geom": "left_actual_sole",
+      "hull_vertices": 63,
+      "hull_triangles": 122
+    }
+  ],
+  "MCI_body_readback_errors": [
+    {
+      "name": "torso",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.3877787807814457e-17
+    },
+    {
+      "name": "neck_yaw",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 3.2526065174565133e-19
+    },
+    {
+      "name": "neck_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.734723475976807e-18
+    },
+    {
+      "name": "neck_mid_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 4.336808689942018e-19
+    },
+    {
+      "name": "head_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 5.421010862427522e-20
+    },
+    {
+      "name": "head_roll",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 6.505213034913027e-19
+    },
+    {
+      "name": "beak_hinge",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 2.710505431213761e-20
+    },
+    {
+      "name": "right_hip_yaw",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 6.505213034913027e-19
+    },
+    {
+      "name": "right_hip_roll",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 2.168404344971009e-19
+    },
+    {
+      "name": "right_hip_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 8.673617379884035e-19
+    },
+    {
+      "name": "right_knee_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.6195269951502222e-18
+    },
+    {
+      "name": "right_ankle_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 2.168404344971009e-19
+    },
+    {
+      "name": "right_ankle_roll",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 6.505213034913027e-19
+    },
+    {
+      "name": "left_hip_yaw",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.5178830414797062e-18
+    },
+    {
+      "name": "left_hip_roll",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 4.336808689942018e-19
+    },
+    {
+      "name": "left_hip_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.734723475976807e-18
+    },
+    {
+      "name": "left_knee_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.734723475976807e-18
+    },
+    {
+      "name": "left_ankle_pitch",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 2.168404344971009e-19
+    },
+    {
+      "name": "left_ankle_roll",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 4.336808689942018e-19
+    },
+    {
+      "name": "beak_input_rotor",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 8.470329472543003e-22
+    },
+    {
+      "name": "beak_coupler_link",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 6.352747104407253e-22
+    },
+    {
+      "name": "left_yaw_input_rotor",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 1.1858461261560205e-20
+    },
+    {
+      "name": "right_yaw_input_rotor",
+      "mass_error": 0.0,
+      "COM_error_m": 0.0,
+      "fullI_error_kgm2": 3.3881317890172014e-21
+    }
+  ],
+  "named_mapping": [
+    {
+      "name": "neck_yaw",
+      "logical_q_index": 7,
+      "logical_v_index": 6,
+      "actual_motor_dof": 6,
+      "actuator_joint": "neck_yaw"
+    },
+    {
+      "name": "neck_pitch",
+      "logical_q_index": 8,
+      "logical_v_index": 7,
+      "actual_motor_dof": 7,
+      "actuator_joint": "neck_pitch"
+    },
+    {
+      "name": "neck_mid_pitch",
+      "logical_q_index": 9,
+      "logical_v_index": 8,
+      "actual_motor_dof": 8,
+      "actuator_joint": "neck_mid_pitch"
+    },
+    {
+      "name": "head_pitch",
+      "logical_q_index": 10,
+      "logical_v_index": 9,
+      "actual_motor_dof": 9,
+      "actuator_joint": "head_pitch"
+    },
+    {
+      "name": "head_roll",
+      "logical_q_index": 11,
+      "logical_v_index": 10,
+      "actual_motor_dof": 10,
+      "actuator_joint": "head_roll"
+    },
+    {
+      "name": "beak_hinge",
+      "logical_q_index": 12,
+      "logical_v_index": 11,
+      "actual_motor_dof": 12,
+      "actuator_joint": "beak_input_rotor"
+    },
+    {
+      "name": "right_hip_yaw",
+      "logical_q_index": 15,
+      "logical_v_index": 14,
+      "actual_motor_dof": 27,
+      "actuator_joint": "right_yaw_input_rotor"
+    },
+    {
+      "name": "right_hip_roll",
+      "logical_q_index": 16,
+      "logical_v_index": 15,
+      "actual_motor_dof": 15,
+      "actuator_joint": "right_hip_roll"
+    },
+    {
+      "name": "right_hip_pitch",
+      "logical_q_index": 17,
+      "logical_v_index": 16,
+      "actual_motor_dof": 16,
+      "actuator_joint": "right_hip_pitch"
+    },
+    {
+      "name": "right_knee_pitch",
+      "logical_q_index": 18,
+      "logical_v_index": 17,
+      "actual_motor_dof": 17,
+      "actuator_joint": "right_knee_pitch"
+    },
+    {
+      "name": "right_ankle_pitch",
+      "logical_q_index": 19,
+      "logical_v_index": 18,
+      "actual_motor_dof": 18,
+      "actuator_joint": "right_ankle_pitch"
+    },
+    {
+      "name": "right_ankle_roll",
+      "logical_q_index": 20,
+      "logical_v_index": 19,
+      "actual_motor_dof": 19,
+      "actuator_joint": "right_ankle_roll"
+    },
+    {
+      "name": "left_hip_yaw",
+      "logical_q_index": 21,
+      "logical_v_index": 20,
+      "actual_motor_dof": 26,
+      "actuator_joint": "left_yaw_input_rotor"
+    },
+    {
+      "name": "left_hip_roll",
+      "logical_q_index": 22,
+      "logical_v_index": 21,
+      "actual_motor_dof": 21,
+      "actuator_joint": "left_hip_roll"
+    },
+    {
+      "name": "left_hip_pitch",
+      "logical_q_index": 23,
+      "logical_v_index": 22,
+      "actual_motor_dof": 22,
+      "actuator_joint": "left_hip_pitch"
+    },
+    {
+      "name": "left_knee_pitch",
+      "logical_q_index": 24,
+      "logical_v_index": 23,
+      "actual_motor_dof": 23,
+      "actuator_joint": "left_knee_pitch"
+    },
+    {
+      "name": "left_ankle_pitch",
+      "logical_q_index": 25,
+      "logical_v_index": 24,
+      "actual_motor_dof": 24,
+      "actuator_joint": "left_ankle_pitch"
+    },
+    {
+      "name": "left_ankle_roll",
+      "logical_q_index": 26,
+      "logical_v_index": 25,
+      "actual_motor_dof": 25,
+      "actuator_joint": "left_ankle_roll"
+    }
+  ],
+  "same_robot_scene": {
+    "named_robot_fields_exact_count": 796,
+    "all_named_robot_fields_and_original_internal_equalities_exact": true,
+    "options_exact": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "cone": 1,
+      "density": 0.0,
+      "disableactuator": 0,
+      "disableflags": 65536,
+      "enableflags": 0,
+      "gravity": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": 3,
+      "iterations": 100,
+      "jacobian": 0,
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_friction": [
+        1.0,
+        1.0,
+        0.005,
+        0.0001,
+        0.0001
+      ],
+      "o_margin": 0.0,
+      "o_solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "o_solref": [
+        0.02,
+        1.0
+      ],
+      "sdf_initpoints": 40,
+      "sdf_iterations": 10,
+      "sleep_tolerance": 0.0001,
+      "solver": 2,
+      "timestep": 0.005,
+      "tolerance": 1e-08,
+      "viscosity": 0.0,
+      "wind": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "extra_constraints_declared": 2
+  },
+  "full_object_MCI_check": {
+    "mass_kg": 1.3877787807814457e-17,
+    "COM_m": 5.963111948670275e-20,
+    "fullI_kg_m2": 2.710505431213761e-19
+  },
+  "local_fixture_only": true,
+  "fixture": "torso and head_roll external welds; no payload equality; originalmechanism3 constraints retained",
+  "robot_body_inertia_or_mesh_modifications": false,
+  "real_open_gaps": [
+    {
+      "name": "upper_bill_envelope",
+      "open_025_real_gap_m": 0.0009999985812276825,
+      "closest_segment": [
+        0.2049500197323493,
+        0.00450000001188933,
+        0.590805033695516,
+        0.20495001973018748,
+        0.00450000001188933,
+        0.5898050351142883
+      ],
+      "frozen_condim": 3,
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "geom_bbox_size": [
+        0.0493457480773989,
+        0.05619749219200023,
+        0.1624963988541052
+      ]
+    },
+    {
+      "name": "lower_bill_envelope",
+      "open_025_real_gap_m": 0.002405762556752046,
+      "closest_segment": [
+        0.20287040080533567,
+        0.0034707876882003035,
+        0.5756605873526631,
+        0.20346559597968633,
+        0.0034707876882003005,
+        0.577991560579429
+      ],
+      "frozen_condim": 3,
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "geom_bbox_size": [
+        0.005614038118668852,
+        0.02616216848771834,
+        0.06560314975115304
+      ]
+    }
+  ],
+  "initial_payload_contacts": [],
+  "active_contact_condim": 3,
+  "no_condim6_or_oldribs_or_custom_collision_callback": true,
+  "bus_voltage_v": 22.2,
+  "torque_dt_s": 0.005,
+  "physics_dt_s": 0.005,
+  "command_dt_s": 0.02,
+  "torque_updates_per_command": 4,
+  "peak_output_enabled": false,
+  "mechanical_positive_budget_w": 350.0,
+  "object_ground_and_foot_ground_effective_sliding_friction": 0.65,
+  "material_coefficients_are_unmeasured_design_assumptions": true,
+  "actual_integrations": 0,
+  "NN": 0,
+  "training_updates": 0
+}

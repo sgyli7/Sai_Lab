@@ -1,0 +1,273 @@
+{
+  "schema": "goose_frozen_physical_release_file_manifest_v1",
+  "release_id": "physics_v0_2_20261018_04",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10212,
+      "sha256": "0f91d14515be5ccbfb67ab7487a8ef7daa1c522138f40094fc952061fe139023"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3880,
+      "sha256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead"
+    },
+    {
+      "path": "actuator_contract.json",
+      "bytes": 31658,
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "actuator_source_facts.json",
+      "bytes": 5170,
+      "sha256": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79"
+    },
+    {
+      "path": "benchmark_collision_cost.py",
+      "bytes": 16851,
+      "sha256": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064"
+    },
+    {
+      "path": "collision_manifest.json",
+      "bytes": 129708,
+      "sha256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6"
+    },
+    {
+      "path": "engineering_mass_patch.json",
+      "bytes": 44495,
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5"
+    },
+    {
+      "path": "freeze_summary.json",
+      "bytes": 1297,
+      "sha256": "0df7a9ef46af649bc9076f0e20150f52f801df9f66a5c24c194b0e5027f5081d"
+    },
+    {
+      "path": "legacy_move14_reference.json",
+      "bytes": 388,
+      "sha256": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a"
+    },
+    {
+      "path": "mass_ledger.json",
+      "bytes": 2106403,
+      "sha256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879"
+    },
+    {
+      "path": "material_change_receipt.json",
+      "bytes": 285442,
+      "sha256": "5c49eafd92e35697e348fb0e31d41d4049dd5fb77dc752917394156ef05a0287"
+    },
+    {
+      "path": "material_mass_patch.json",
+      "bytes": 51558,
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0"
+    },
+    {
+      "path": "meshes/left_actual_sole.obj",
+      "bytes": 4410,
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    {
+      "path": "meshes/left_hip_envelope.obj",
+      "bytes": 1894,
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    {
+      "path": "meshes/left_shin_envelope.obj",
+      "bytes": 1912,
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    {
+      "path": "meshes/left_thigh_envelope.obj",
+      "bytes": 2345,
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    {
+      "path": "meshes/lower_bill_envelope.obj",
+      "bytes": 3128,
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    {
+      "path": "meshes/neck_mid_pitch_envelope.obj",
+      "bytes": 2399,
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    {
+      "path": "meshes/neck_pitch_envelope.obj",
+      "bytes": 2686,
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    {
+      "path": "meshes/right_actual_sole.obj",
+      "bytes": 4410,
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    },
+    {
+      "path": "meshes/right_hip_envelope.obj",
+      "bytes": 1922,
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    {
+      "path": "meshes/right_shin_envelope.obj",
+      "bytes": 1835,
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    {
+      "path": "meshes/right_thigh_envelope.obj",
+      "bytes": 2344,
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    {
+      "path": "meshes/torso_central_keel.obj",
+      "bytes": 2737,
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    {
+      "path": "meshes/torso_upper_envelope.obj",
+      "bytes": 2666,
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    {
+      "path": "meshes/upper_bill_envelope.obj",
+      "bytes": 3130,
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    {
+      "path": "physical_contract.json",
+      "bytes": 150030,
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "preview/runtime_contact_preview_manifest.json",
+      "bytes": 12989,
+      "sha256": "8812e0fd784d8a9cdcfef00d34be6095a0b94792ef0e0f3391ca0119c0b8d92b"
+    },
+    {
+      "path": "preview/runtime_contacts.glb",
+      "bytes": 30844,
+      "sha256": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239"
+    },
+    {
+      "path": "preview/runtime_contacts.obj",
+      "bytes": 51758,
+      "sha256": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb"
+    },
+    {
+      "path": "preview/runtime_contacts_three_views.png",
+      "bytes": 156948,
+      "sha256": "18b7a05dc4911e0ba5bdf91c619b37891f75ad8e7424129392f9ad9f892cea34"
+    },
+    {
+      "path": "rebuild_contacts.py",
+      "bytes": 5303,
+      "sha256": "a02f5a51187bcb1cce141a3096be3660b52cd293e8649342e7820b6fafc2fc70"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 29,
+      "sha256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c"
+    },
+    {
+      "path": "requirements_rebuild.txt",
+      "bytes": 42,
+      "sha256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09"
+    },
+    {
+      "path": "reset_pose_seeds.json",
+      "bytes": 2292,
+      "sha256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9"
+    },
+    {
+      "path": "robot.xml",
+      "bytes": 23593,
+      "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+    },
+    {
+      "path": "runtime_adapter.py",
+      "bytes": 9449,
+      "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+    },
+    {
+      "path": "runtime_interface.json",
+      "bytes": 5244,
+      "sha256": "6283bcdf32427704882e5fd18a87bc1c8b524a1fa220aa9f342cdb32c1a5aa51"
+    },
+    {
+      "path": "source_inputs/conditional_mass_ledger.json",
+      "bytes": 2070140,
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_bill_parent03.obj",
+      "bytes": 2842,
+      "sha256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_grip_cassette_pad.brep",
+      "bytes": 23866,
+      "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_pad_contact_face.json",
+      "bytes": 1576,
+      "sha256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082"
+    },
+    {
+      "path": "source_inputs/native_contact/upper_grip_cassette_pad.brep",
+      "bytes": 24350,
+      "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2"
+    },
+    {
+      "path": "source_inputs/whole05_full_SI_contract.json",
+      "bytes": 143836,
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 6025,
+      "sha256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593"
+    },
+    {
+      "path": "validation/actual_complexity.json",
+      "bytes": 11735,
+      "sha256": "311c5221b7a77fed2450cb0773734ed318939f4c5968d6543ea83f40020c9799"
+    },
+    {
+      "path": "validation/independent_critical_contact_sealed_source.json",
+      "bytes": 138762,
+      "sha256": "d93878073724c7216afd2d95d815512e16193891c1c8a50d3add4d3f0a6dc0e1"
+    },
+    {
+      "path": "validation/independent_native_grip_contour_sealed_source.json",
+      "bytes": 10960,
+      "sha256": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353"
+    },
+    {
+      "path": "verify_contacts.py",
+      "bytes": 20176,
+      "sha256": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1025,
+      "sha256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef"
+    },
+    {
+      "path": "verify_physics.py",
+      "bytes": 28050,
+      "sha256": "bab83cfa8fb5ea2a3fdd5bcd98ac52588606edefc812f335baa7f7428e29ecbb"
+    }
+  ],
+  "manifest_self_digest": "ZIP sha256 is stored separately; this manifest intentionally doesnot recursively hash itself",
+  "runtime_entry": "robot.xml + physical_contract.json + actuator_contract.json; reference runtime_adapter.py",
+  "canonical_runtime_source": {
+    "repository_path": "src/sai_agent/goose/frozen_physics_runtime.py",
+    "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+  },
+  "runtime_dependencies": "Only package-relative files and declared Python requirements; provenance paths are historical data, never dereferenced by the runtime"
+}

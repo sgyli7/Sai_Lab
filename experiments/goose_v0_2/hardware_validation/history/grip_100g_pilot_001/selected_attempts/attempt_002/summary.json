@@ -1,0 +1,108 @@
+{
+  "attempt": 2,
+  "scope": "LOCAL_FIXED_HEAD_AND_TORSO_ONLY",
+  "admission_passed": true,
+  "config": {
+    "label": "near_contact_birth_same_defaultdrive",
+    "qstart": 0.19682523003160665,
+    "upper_gap_m": 0.0,
+    "birth_calibration": "near_contact_birth_calibration.json"
+  },
+  "initial_qjaw_rad": 0.19682523003160665,
+  "first_positive_bilateral_pose": {
+    "time_s": 0.10500000000000002,
+    "relative_m": [
+      0.15055571395632628,
+      7.92619362879705e-06,
+      -0.038095204058953384
+    ],
+    "relative_R": [
+      [
+        0.9603951561964303,
+        -3.608412134231939e-05,
+        0.2786416025154351
+      ],
+      [
+        4.460619697592677e-05,
+        0.9999999987112517,
+        -2.424424118732836e-05
+      ],
+      [
+        -0.2786416012815042,
+        3.5713194009459555e-05,
+        0.9603951565682983
+      ]
+    ]
+  },
+  "hold_start_s": 0.2150000000000001,
+  "hold_reference_policy": "first bilateral step after canonical jaw target reached0, no hold-reference reset, no future reclassification after failure",
+  "cold_to_final_relative_translation_m": 0.025050581474006475,
+  "cold_to_final_relative_rotation_deg": 34.43536815562992,
+  "cold_acquisition_max_translation_m": 0.025050581474006475,
+  "cold_acquisition_max_rotation_deg": 34.43536815562992,
+  "hold5s": {
+    "passed": false,
+    "time_s": 5.214999999999911,
+    "hold_start_s": 0.2150000000000001,
+    "max_relative_translation_m": 0.011655763661377997,
+    "max_relative_rotation_deg": 6.3028106810132805,
+    "failure": {
+      "time_s": 0.27000000000000013,
+      "hold_elapsed_s": 0.05500000000000002,
+      "reasons": [
+        "relative_rotation_over_2deg"
+      ],
+      "relative_drift_m": 0.00016020662289794647,
+      "relative_angle_deg": 2.042033055721146,
+      "jaw_normal_N": [
+        20.62227966173736,
+        21.858822050806243
+      ]
+    }
+  },
+  "hold30s": null,
+  "first_physical_failure": null,
+  "hold_first_failure": {
+    "time_s": 0.27000000000000013,
+    "hold_elapsed_s": 0.05500000000000002,
+    "reasons": [
+      "relative_rotation_over_2deg"
+    ],
+    "relative_drift_m": 0.00016020662289794647,
+    "relative_angle_deg": 2.042033055721146,
+    "jaw_normal_N": [
+      20.62227966173736,
+      21.858822050806243
+    ]
+  },
+  "runtime_exception": null,
+  "actual_steps": 1044,
+  "actual_50Hz_commands": 261,
+  "actual_200Hz_drive_updates": 1044,
+  "sim_duration_s": 5.219999999999911,
+  "max_payload_penetration_m": 0.0007714223878851146,
+  "min_full_object_clearance_m": 0.3966363476523206,
+  "max_drive_recomputation_error_Nm": 0.0,
+  "max_total_positive_mechanical_power_after_w": 0.5391312553257248,
+  "max_total_positive_mechanical_power_incoming_w": 0.525800342051398,
+  "max_selected_voltage_derated_speed_ratio": 1.1348290976001267,
+  "selected_speed_exceeded_substeps": 3,
+  "extra_support_any": false,
+  "mechanism_max_position_error_m_or_rad": 0.0007165011684604483,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "scene_SHA256": "4d88818080c86af93294557b02fe8ded6b4de19207d2acf8d206fb891cf2e2c5",
+  "model_MJB_SHA256": "d104d8db1a937200934f83fa17a62c7a05f62ea6689b54105a5e04577baa5a36",
+  "trajectory_SHA256": "cf85e4c438e5fcbfa2ddf4305bf2ce8072b051ddf7cf1c7b8b5bb496c9f2f93b",
+  "raw_substeps_SHA256": "3805d11f84dfa4afbc0cdca6e063f928d798f8cb35cc29677865b2c4caade2b7",
+  "NN": 0,
+  "GPU": 0,
+  "training_updates": 0
+}

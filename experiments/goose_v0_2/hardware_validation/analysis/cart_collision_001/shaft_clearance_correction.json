@@ -1,0 +1,22 @@
+{
+  "collision_candidate_id": "low_profile_stock_cart_01_collision_002",
+  "engine": "3.10.0",
+  "source_collision_001_distance_m": 0.00107332286897842,
+  "new_shaft_upper_bill_distance_m": 0.0037701245466747954,
+  "nearest_points_world_m": [
+    [
+      0.3461815159607429,
+      -5.356839159857938e-19,
+      0.48459075605916263
+    ],
+    [
+      0.3444999932207583,
+      0.0002759223004825216,
+      0.4879538182436086
+    ]
+  ],
+  "real_CAD_shaft_upper_bill_distance_m_from_G": 0.003854477,
+  "classification": "FINITE_SAVED_FK_CONTACT_PROXY_CHECK_NOT_SWEPT",
+  "physics_integrations": 0,
+  "additional_forward_calls": 1
+}

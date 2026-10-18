@@ -1,0 +1,562 @@
+{
+  "status": "PASS",
+  "source_patch": {
+    "source_inputs": [
+      {
+        "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/conditional_mass_ledger.json",
+        "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+      },
+      {
+        "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/engineering_mass_patch.json",
+        "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5"
+      }
+    ],
+    "baseline_mass_kg": 17.365577243273115,
+    "once_delta_kg": 0.045695761845315985,
+    "selected_material_revision": {
+      "source": {
+        "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/material_mass_patch.json",
+        "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0"
+      },
+      "parts": [
+        {
+          "name": "left_hip_roll_carrier_arm",
+          "old_mass_kg": 0.3438354610556503,
+          "new_mass_kg": 0.12307995484922005,
+          "delta_kg": -0.22075550620643028,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_left_B03/left_hip_roll_carrier_arm.brep",
+            "sha256": "bb379bde7f5640d37cdee259d86860d117a8b080e88cc1d868d3fba003cf99ba"
+          }
+        },
+        {
+          "name": "right_hip_roll_carrier_arm",
+          "old_mass_kg": 0.34507009212904444,
+          "new_mass_kg": 0.12352190559014202,
+          "delta_kg": -0.2215481865389024,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_right_B04/right_hip_roll_carrier_arm.brep",
+            "sha256": "c69874bf807ca041bcd466e6d3e360044a37627c4e563b47b8253d5894c3454c"
+          }
+        },
+        {
+          "name": "left_thigh_shaft_end_washer",
+          "old_mass_kg": 0.00045010324441282135,
+          "new_mass_kg": 0.0010674114746276517,
+          "delta_kg": 0.0006173082302148304,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/left_thigh_shaft_end_washer.brep",
+            "sha256": "eaa99bc6199271918824262c70ce34bb66a6a6c6800976f3c7aeec983e477dfe"
+          }
+        },
+        {
+          "name": "left_visible_thigh_shaft_stop_M3x6",
+          "old_mass_kg": 0.00040461499082607307,
+          "new_mass_kg": 0.00040461499082607307,
+          "delta_kg": 0.0,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/left_visible_thigh_shaft_stop_M3x6.brep",
+            "sha256": "77a646af410d8a1e91f86dea11cd3d47b6c849487b4cb74d5c946f7409af4f3e"
+          }
+        },
+        {
+          "name": "right_thigh_shaft_end_washer",
+          "old_mass_kg": 0.00045010324441282135,
+          "new_mass_kg": 0.0010674114746276517,
+          "delta_kg": 0.0006173082302148304,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/right_thigh_shaft_end_washer.brep",
+            "sha256": "67e080998621da68c06176b12aa5642278ed6035acc3e435a53786dfdd460443"
+          }
+        },
+        {
+          "name": "right_visible_thigh_shaft_stop_M3x6",
+          "old_mass_kg": 0.000404614990826073,
+          "new_mass_kg": 0.000404614990826073,
+          "delta_kg": 0.0,
+          "actual_native": {
+            "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/right_visible_thigh_shaft_stop_M3x6.brep",
+            "sha256": "6275225885f9f44977b7471d8b05e0619fd21b03e664ba4682363f0ec43dd85d"
+          }
+        }
+      ],
+      "baseline_with_E_kg": 17.41127300511843,
+      "net_delta_kg": -0.4410690762849043,
+      "carrier_same_native_density_and_full_tensor_scaling": true,
+      "washer_and_bolt_geometry_or_location_changes_from_actual_source": true,
+      "body_and_source_name_changes": false
+    },
+    "maximum_unchanged_or_selected_item_error": {
+      "mass_kg": 0.0,
+      "com_m": 0.0,
+      "fullI_kg_m2": 0.0
+    },
+    "original_axis_limit_drive_source": {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/whole05_full_SI_contract.json",
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47"
+    }
+  },
+  "total_mass_kg": 16.970203928833527,
+  "COM_zero_m": [
+    -0.0046366953984154965,
+    0.00037756759231995343,
+    0.31543937952885764
+  ],
+  "fullI_at_whole_COM_zero": [
+    [
+      0.5858031967936665,
+      -0.0003550115929387911,
+      0.004620848142464095
+    ],
+    [
+      -0.0003550115929387911,
+      0.5363580901698566,
+      -0.0015650487557486736
+    ],
+    [
+      0.004620848142464095,
+      -0.0015650487557486736,
+      0.20231538412158226
+    ]
+  ],
+  "bodies": [
+    {
+      "body": "torso",
+      "mass_kg": 5.492411109685246,
+      "COM_zero_m": [
+        -0.05522033540115691,
+        0.00042513186296662327,
+        0.36146867934836946
+      ],
+      "inertia_eigenvalues": [
+        0.023564679870517125,
+        0.04357131686624894,
+        0.0439281679936646
+      ],
+      "error": {
+        "mass_kg": 8.881784197001252e-16,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 6.938893903907228e-18
+      }
+    },
+    {
+      "body": "neck_yaw",
+      "mass_kg": 0.5393896678635881,
+      "COM_zero_m": [
+        0.02473820949872883,
+        -0.0005116951632101442,
+        0.4285516302006741
+      ],
+      "inertia_eigenvalues": [
+        0.0003348626531451231,
+        0.0006649997387919127,
+        0.0006933796414825298
+      ],
+      "error": {
+        "mass_kg": 1.1102230246251565e-16,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 3.2526065174565133e-19
+      }
+    },
+    {
+      "body": "neck_pitch",
+      "mass_kg": 0.7616998700551401,
+      "COM_zero_m": [
+        -0.025000535052002882,
+        -0.001478290201953875,
+        0.520189830207066
+      ],
+      "inertia_eigenvalues": [
+        0.000744433014654719,
+        0.0018293315171768808,
+        0.002058214566688697
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 6.938893903907228e-18,
+        "fullI_kg_m2": 2.168404344971009e-19
+      }
+    },
+    {
+      "body": "neck_mid_pitch",
+      "mass_kg": 0.543362146702074,
+      "COM_zero_m": [
+        0.00509225194083739,
+        0.002015155263587006,
+        0.6083893998747636
+      ],
+      "inertia_eigenvalues": [
+        0.00045983231792499495,
+        0.0013633166942629135,
+        0.0016415844502661496
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 1.1102230246251565e-16,
+        "fullI_kg_m2": 4.336808689942018e-19
+      }
+    },
+    {
+      "body": "head_pitch",
+      "mass_kg": 0.32460598555868014,
+      "COM_zero_m": [
+        0.04831561715169916,
+        0.013552493370887014,
+        0.6273211651880439
+      ],
+      "inertia_eigenvalues": [
+        0.0002491653781874131,
+        0.00037698998528786637,
+        0.0004118397626785977
+      ],
+      "error": {
+        "mass_kg": 5.551115123125783e-17,
+        "COM_m": 1.1102230246251565e-16,
+        "fullI_kg_m2": 5.421010862427522e-20
+      }
+    },
+    {
+      "body": "head_roll",
+      "mass_kg": 0.6740421096762734,
+      "COM_zero_m": [
+        0.12774444180790084,
+        -0.0013230568559439119,
+        0.6267747555074049
+      ],
+      "inertia_eigenvalues": [
+        0.0004038805344845599,
+        0.0008132008117222464,
+        0.0008277846857823459
+      ],
+      "error": {
+        "mass_kg": 2.220446049250313e-16,
+        "COM_m": 3.3306690738754696e-16,
+        "fullI_kg_m2": 1.6263032587282567e-19
+      }
+    },
+    {
+      "body": "beak_hinge",
+      "mass_kg": 0.12444184333803009,
+      "COM_zero_m": [
+        0.16855534973860287,
+        0.0021783860398677996,
+        0.5924762181600223
+      ],
+      "inertia_eigenvalues": [
+        4.4472339521799087e-05,
+        0.00010239339563972665,
+        0.0001304252867090254
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 2.7755575615628914e-17,
+        "fullI_kg_m2": 1.3552527156068805e-20
+      }
+    },
+    {
+      "body": "right_hip_yaw",
+      "mass_kg": 0.7281842325889367,
+      "COM_zero_m": [
+        0.017851897678977418,
+        -0.05459879231301331,
+        0.32274760598806557
+      ],
+      "inertia_eigenvalues": [
+        0.0004119694507910005,
+        0.001294338848893898,
+        0.0014571632614059137
+      ],
+      "error": {
+        "mass_kg": 1.1102230246251565e-16,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 2.168404344971009e-19
+      }
+    },
+    {
+      "body": "right_hip_roll",
+      "mass_kg": 0.5299199923876452,
+      "COM_zero_m": [
+        0.0009273573417362249,
+        -0.09894535446626411,
+        0.32807490477387063
+      ],
+      "inertia_eigenvalues": [
+        0.000225286193401221,
+        0.0007341104401910126,
+        0.0007588591153179314
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 1.3877787807814457e-17,
+        "fullI_kg_m2": 0.0
+      }
+    },
+    {
+      "body": "right_hip_pitch",
+      "mass_kg": 0.9224645762705136,
+      "COM_zero_m": [
+        -0.007364962650271119,
+        -0.12633585621314805,
+        0.25903744495317815
+      ],
+      "inertia_eigenvalues": [
+        0.0007128048203643028,
+        0.0024174531812487868,
+        0.002606345151187766
+      ],
+      "error": {
+        "mass_kg": 1.1102230246251565e-16,
+        "COM_m": 3.469446951953614e-18,
+        "fullI_kg_m2": 2.168404344971009e-19
+      }
+    },
+    {
+      "body": "right_knee_pitch",
+      "mass_kg": 0.8776014572273548,
+      "COM_zero_m": [
+        -0.00031861137907851077,
+        -0.12144489552076095,
+        0.1412147691845447
+      ],
+      "inertia_eigenvalues": [
+        0.0008572938954800122,
+        0.003223011102209273,
+        0.003710039455938248
+      ],
+      "error": {
+        "mass_kg": 1.1102230246251565e-16,
+        "COM_m": 2.7755575615628914e-17,
+        "fullI_kg_m2": 1.0842021724855044e-19
+      }
+    },
+    {
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.7494253780541333,
+      "COM_zero_m": [
+        0.03802852287906624,
+        -0.13157293979457188,
+        0.06045340420822867
+      ],
+      "inertia_eigenvalues": [
+        0.0005492063253060823,
+        0.0008796654147034874,
+        0.0011130792862659592
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 2.7755575615628914e-17,
+        "fullI_kg_m2": 2.168404344971009e-19
+      }
+    },
+    {
+      "body": "right_ankle_roll",
+      "mass_kg": 0.37455803075943583,
+      "COM_zero_m": [
+        0.04907863557940606,
+        -0.12455654801923581,
+        0.013976766137110746
+      ],
+      "inertia_eigenvalues": [
+        0.00023663352538209366,
+        0.0006858858139527561,
+        0.000704094669991798
+      ],
+      "error": {
+        "mass_kg": 5.551115123125783e-17,
+        "COM_m": 1.3877787807814457e-17,
+        "fullI_kg_m2": 2.710505431213761e-20
+      }
+    },
+    {
+      "body": "left_hip_yaw",
+      "mass_kg": 0.7281897695388784,
+      "COM_zero_m": [
+        0.017851782917231263,
+        0.05459874219663386,
+        0.3227475790159045
+      ],
+      "inertia_eigenvalues": [
+        0.00041197078120667975,
+        0.001294340017484521,
+        0.0014571652713178881
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 6.938893903907228e-18,
+        "fullI_kg_m2": 6.776263578034403e-21
+      }
+    },
+    {
+      "body": "left_hip_roll",
+      "mass_kg": 0.5294860413985729,
+      "COM_zero_m": [
+        0.000979403762756547,
+        0.09895277985188387,
+        0.32807851259605597
+      ],
+      "inertia_eigenvalues": [
+        0.00022530344905763656,
+        0.0007332677204955921,
+        0.0007581861453091381
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 1.734723475976807e-18,
+        "fullI_kg_m2": 1.0842021724855044e-19
+      }
+    },
+    {
+      "body": "left_hip_pitch",
+      "mass_kg": 0.9220472585751144,
+      "COM_zero_m": [
+        -0.0073765467126083225,
+        0.12632979454264529,
+        0.2589917730988146
+      ],
+      "inertia_eigenvalues": [
+        0.0007126809185494558,
+        0.0024129080019445396,
+        0.002601788492630013
+      ],
+      "error": {
+        "mass_kg": 1.1102230246251565e-16,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 4.336808689942018e-19
+      }
+    },
+    {
+      "body": "left_knee_pitch",
+      "mass_kg": 0.877705890856404,
+      "COM_zero_m": [
+        -0.0003262789396444076,
+        0.12143307163216999,
+        0.14124788512798742
+      ],
+      "inertia_eigenvalues": [
+        0.0008576893423745935,
+        0.003225231498418809,
+        0.003712806030985406
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 2.7755575615628914e-17,
+        "fullI_kg_m2": 4.336808689942018e-19
+      }
+    },
+    {
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.7494262890463917,
+      "COM_zero_m": [
+        0.0380285251268527,
+        0.13157295883730594,
+        0.06045341684132355
+      ],
+      "inertia_eigenvalues": [
+        0.0005492065336962562,
+        0.000879665984874409,
+        0.0011130799548817987
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 1.3877787807814457e-17,
+        "fullI_kg_m2": 1.0842021724855044e-19
+      }
+    },
+    {
+      "body": "left_ankle_roll",
+      "mass_kg": 0.37455803024689355,
+      "COM_zero_m": [
+        0.0490786357215487,
+        0.12455655369073812,
+        0.013976766233510752
+      ],
+      "inertia_eigenvalues": [
+        0.00023663352690912496,
+        0.0006858858350375043,
+        0.0007040946497327106
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 6.938893903907228e-18,
+        "fullI_kg_m2": 3.3881317890172014e-21
+      }
+    },
+    {
+      "body": "beak_input_rotor",
+      "mass_kg": 0.01713015122738488,
+      "COM_zero_m": [
+        0.1147270879629855,
+        0.030037179254881457,
+        0.6320528796224877
+      ],
+      "inertia_eigenvalues": [
+        1.3524621844595908e-06,
+        1.6288249556469822e-06,
+        2.720738842283577e-06
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 6.938893903907228e-18,
+        "fullI_kg_m2": 2.117582368135751e-22
+      }
+    },
+    {
+      "body": "beak_coupler_link",
+      "mass_kg": 0.005177307249452544,
+      "COM_zero_m": [
+        0.1249499998884873,
+        0.034964001297447034,
+        0.610412694785926
+      ],
+      "inertia_eigenvalues": [
+        5.6481035861826486e-08,
+        1.052897261811084e-06,
+        1.094964309143226e-06
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 0.0,
+        "fullI_kg_m2": 0.0
+      }
+    },
+    {
+      "body": "left_yaw_input_rotor",
+      "mass_kg": 0.062188395263692,
+      "COM_zero_m": [
+        -0.0357695123376343,
+        0.05999999999446203,
+        0.4149154050517395
+      ],
+      "inertia_eigenvalues": [
+        4.10252927565872e-06,
+        1.3031549932731166e-05,
+        1.3036802033596809e-05
+      ],
+      "error": {
+        "mass_kg": 6.938893903907228e-18,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 3.3881317890172014e-21
+      }
+    },
+    {
+      "body": "right_yaw_input_rotor",
+      "mass_kg": 0.062188395263692,
+      "COM_zero_m": [
+        -0.0357695123376343,
+        -0.060000000005537985,
+        0.41491540505173957
+      ],
+      "inertia_eigenvalues": [
+        4.102529275658761e-06,
+        1.3031549932729535e-05,
+        1.3036802033595433e-05
+      ],
+      "error": {
+        "mass_kg": 0.0,
+        "COM_m": 5.551115123125783e-17,
+        "fullI_kg_m2": 1.6940658945086007e-21
+      }
+    }
+  ],
+  "engineering_allocations_not_weighed_or_installed": true
+}

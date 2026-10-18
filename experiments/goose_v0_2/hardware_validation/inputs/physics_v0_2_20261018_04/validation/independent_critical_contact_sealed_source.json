@@ -1,0 +1,5444 @@
+{
+  "schema": "goose_independent_low_leaf_finite_contact_review_v1",
+  "candidate": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+    "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+  },
+  "baseline": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_02/robot.xml",
+    "sha256": "3d52cbff0db121a0a25e30eba80d22502b1f306266b6f32b11c38e7b2a57434d"
+  },
+  "status": "PASS_FINITE_CONTACT_FIXTURES",
+  "failures": [],
+  "candidate_mesh_assets": [
+    {
+      "asset_name": "torso_central_keel",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    {
+      "asset_name": "torso_upper_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    {
+      "asset_name": "neck_pitch_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    {
+      "asset_name": "neck_mid_pitch_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    {
+      "asset_name": "upper_bill_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    {
+      "asset_name": "lower_bill_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    {
+      "asset_name": "left_hip_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    {
+      "asset_name": "left_thigh_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    {
+      "asset_name": "left_shin_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    {
+      "asset_name": "left_actual_sole",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    {
+      "asset_name": "right_hip_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    {
+      "asset_name": "right_thigh_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    {
+      "asset_name": "right_shin_envelope",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    {
+      "asset_name": "right_actual_sole",
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    }
+  ],
+  "hardware_contract_identities": [
+    {
+      "file": "physical_contract.json",
+      "candidate": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json",
+        "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+      },
+      "baseline": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_02/physical_contract.json",
+        "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "actuator_contract.json",
+      "candidate": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json",
+        "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+      },
+      "baseline": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_02/actuator_contract.json",
+        "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+      },
+      "byte_identical": true
+    }
+  ],
+  "candidate_collision_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/collision_manifest.json",
+    "sha256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6"
+  },
+  "compiled_hardware_checks": [
+    {
+      "field": "body_mass",
+      "candidate_shape": [
+        24
+      ],
+      "baseline_shape": [
+        24
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "body_ipos",
+      "candidate_shape": [
+        24,
+        3
+      ],
+      "baseline_shape": [
+        24,
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "body_inertia",
+      "candidate_shape": [
+        24,
+        3
+      ],
+      "baseline_shape": [
+        24,
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "body_iquat",
+      "candidate_shape": [
+        24,
+        4
+      ],
+      "baseline_shape": [
+        24,
+        4
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "body_pos",
+      "candidate_shape": [
+        24,
+        3
+      ],
+      "baseline_shape": [
+        24,
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "body_quat",
+      "candidate_shape": [
+        24,
+        4
+      ],
+      "baseline_shape": [
+        24,
+        4
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "jnt_axis",
+      "candidate_shape": [
+        23,
+        3
+      ],
+      "baseline_shape": [
+        23,
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "jnt_pos",
+      "candidate_shape": [
+        23,
+        3
+      ],
+      "baseline_shape": [
+        23,
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "jnt_range",
+      "candidate_shape": [
+        23,
+        2
+      ],
+      "baseline_shape": [
+        23,
+        2
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "jnt_type",
+      "candidate_shape": [
+        23
+      ],
+      "baseline_shape": [
+        23
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "dof_frictionloss",
+      "candidate_shape": [
+        28
+      ],
+      "baseline_shape": [
+        28
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "dof_armature",
+      "candidate_shape": [
+        28
+      ],
+      "baseline_shape": [
+        28
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "dof_damping",
+      "candidate_shape": [
+        28
+      ],
+      "baseline_shape": [
+        28
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_gear",
+      "candidate_shape": [
+        18,
+        6
+      ],
+      "baseline_shape": [
+        18,
+        6
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_ctrlrange",
+      "candidate_shape": [
+        18,
+        2
+      ],
+      "baseline_shape": [
+        18,
+        2
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_forcerange",
+      "candidate_shape": [
+        18,
+        2
+      ],
+      "baseline_shape": [
+        18,
+        2
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_gainprm",
+      "candidate_shape": [
+        18,
+        10
+      ],
+      "baseline_shape": [
+        18,
+        10
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_biasprm",
+      "candidate_shape": [
+        18,
+        10
+      ],
+      "baseline_shape": [
+        18,
+        10
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "actuator_trnid",
+      "candidate_shape": [
+        18,
+        2
+      ],
+      "baseline_shape": [
+        18,
+        2
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "eq_data",
+      "candidate_shape": [
+        3,
+        11
+      ],
+      "baseline_shape": [
+        3,
+        11
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "eq_obj1id",
+      "candidate_shape": [
+        3
+      ],
+      "baseline_shape": [
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "eq_obj2id",
+      "candidate_shape": [
+        3
+      ],
+      "baseline_shape": [
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    },
+    {
+      "field": "eq_type",
+      "candidate_shape": [
+        3
+      ],
+      "baseline_shape": [
+        3
+      ],
+      "max_abs_delta": 0.0,
+      "passed": true
+    }
+  ],
+  "actual_active_collision_leaves": 14,
+  "leaves": [
+    {
+      "name": "torso_central_keel",
+      "owner": "torso",
+      "type": 7,
+      "raw_vertices": 40,
+      "true_convex_support_vertices": 40
+    },
+    {
+      "name": "torso_upper_envelope",
+      "owner": "torso",
+      "type": 7,
+      "raw_vertices": 39,
+      "true_convex_support_vertices": 39
+    },
+    {
+      "name": "neck_pitch_envelope",
+      "owner": "neck_pitch",
+      "type": 7,
+      "raw_vertices": 39,
+      "true_convex_support_vertices": 39
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "owner": "neck_mid_pitch",
+      "type": 7,
+      "raw_vertices": 35,
+      "true_convex_support_vertices": 35
+    },
+    {
+      "name": "upper_bill_envelope",
+      "owner": "head_roll",
+      "type": 7,
+      "raw_vertices": 45,
+      "true_convex_support_vertices": 45
+    },
+    {
+      "name": "lower_bill_envelope",
+      "owner": "beak_hinge",
+      "type": 7,
+      "raw_vertices": 45,
+      "true_convex_support_vertices": 44
+    },
+    {
+      "name": "right_hip_envelope",
+      "owner": "right_hip_roll",
+      "type": 7,
+      "raw_vertices": 28,
+      "true_convex_support_vertices": 28
+    },
+    {
+      "name": "right_thigh_envelope",
+      "owner": "right_hip_pitch",
+      "type": 7,
+      "raw_vertices": 34,
+      "true_convex_support_vertices": 34
+    },
+    {
+      "name": "right_shin_envelope",
+      "owner": "right_knee_pitch",
+      "type": 7,
+      "raw_vertices": 27,
+      "true_convex_support_vertices": 27
+    },
+    {
+      "name": "right_actual_sole",
+      "owner": "right_ankle_roll",
+      "type": 7,
+      "raw_vertices": 63,
+      "true_convex_support_vertices": 63
+    },
+    {
+      "name": "left_hip_envelope",
+      "owner": "left_hip_roll",
+      "type": 7,
+      "raw_vertices": 28,
+      "true_convex_support_vertices": 28
+    },
+    {
+      "name": "left_thigh_envelope",
+      "owner": "left_hip_pitch",
+      "type": 7,
+      "raw_vertices": 34,
+      "true_convex_support_vertices": 34
+    },
+    {
+      "name": "left_shin_envelope",
+      "owner": "left_knee_pitch",
+      "type": 7,
+      "raw_vertices": 28,
+      "true_convex_support_vertices": 28
+    },
+    {
+      "name": "left_actual_sole",
+      "owner": "left_ankle_roll",
+      "type": 7,
+      "raw_vertices": 63,
+      "true_convex_support_vertices": 63
+    }
+  ],
+  "total_mesh_convex_support_vertices": 547,
+  "explicit_body_exclusions": [
+    [
+      "torso",
+      "neck_pitch"
+    ],
+    [
+      "torso",
+      "right_hip_roll"
+    ],
+    [
+      "torso",
+      "left_hip_roll"
+    ],
+    [
+      "neck_mid_pitch",
+      "head_roll"
+    ],
+    [
+      "right_knee_pitch",
+      "right_ankle_roll"
+    ],
+    [
+      "left_knee_pitch",
+      "left_ankle_roll"
+    ]
+  ],
+  "critical_nonadjacent_pair_policy": [
+    {
+      "owners": [
+        "torso",
+        "neck_mid_pitch"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "torso",
+        "head_roll"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "torso",
+        "left_hip_pitch"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "torso",
+        "left_knee_pitch"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "torso",
+        "right_hip_pitch"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "torso",
+        "right_knee_pitch"
+      ],
+      "pairs": 2,
+      "enabled": 2,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ],
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "left_hip_pitch",
+        "right_hip_pitch"
+      ],
+      "pairs": 1,
+      "enabled": 1,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "left_knee_pitch",
+        "right_knee_pitch"
+      ],
+      "pairs": 1,
+      "enabled": 1,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    },
+    {
+      "owners": [
+        "left_ankle_roll",
+        "right_ankle_roll"
+      ],
+      "pairs": 1,
+      "enabled": 1,
+      "details": [
+        [
+          true,
+          "ordinary_collision_enabled"
+        ]
+      ]
+    }
+  ],
+  "finite_contact_fixtures": [
+    {
+      "name": "zero",
+      "q": {},
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.16575000673704127,
+            -0.011699999619533257,
+            1.0853050345778419
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.24415002524716534,
+            0.002700000495476919,
+            1.0853050344222703
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.18422443250460283,
+            0.011699999726377535,
+            1.0853050344673898
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.2014500001435803,
+            -0.011699999494700618,
+            1.0853050343323098
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "neck_015",
+      "q": {
+        "neck_pitch": 0.15,
+        "neck_mid_pitch": -0.15
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901103864176e-09,
+          "position_m": [
+            0.18211128382496458,
+            -0.01169999961953326,
+            1.0950462103537626
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901103864176e-09,
+          "position_m": [
+            0.2605113023350887,
+            0.0027000004954769205,
+            1.095046210198191
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901103864176e-09,
+          "position_m": [
+            0.20058570954887905,
+            0.01169999972637754,
+            1.0950462102433107
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901103864176e-09,
+          "position_m": [
+            0.21781127723150365,
+            -0.011699999494700622,
+            1.0950462101082308
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "neck_030",
+      "q": {
+        "neck_pitch": 0.3,
+        "neck_mid_pitch": -0.3
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533855e-09,
+          "position_m": [
+            0.19974454452365134,
+            -0.011699999619533255,
+            1.1022330045331827
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533855e-09,
+          "position_m": [
+            0.2781445630337753,
+            0.0027000004954769183,
+            1.1022330043776112
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533855e-09,
+          "position_m": [
+            0.21821897029437734,
+            0.011699999726377534,
+            1.1022330044227309
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533855e-09,
+          "position_m": [
+            0.23544453793019038,
+            -0.011699999494700616,
+            1.102233004287651
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "neck_050",
+      "q": {
+        "neck_pitch": 0.5,
+        "neck_mid_pitch": -0.5
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533858e-09,
+          "position_m": [
+            0.2245467357338812,
+            -0.011699999619533255,
+            1.1075716853325475
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533858e-09,
+          "position_m": [
+            0.30294675424400513,
+            0.0027000004954769296,
+            1.107571685176976
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533858e-09,
+          "position_m": [
+            0.24302116141414853,
+            0.011699999726377534,
+            1.1075716852220956
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.7949015479533858e-09,
+          "position_m": [
+            0.26024672914042024,
+            -0.011699999494700616,
+            1.1075716850870156
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "crossed_feet",
+      "q": {
+        "left_hip_roll": -0.5,
+        "right_hip_roll": 0.5
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.16575000673704127,
+            -0.011699999619533257,
+            1.0853050345778419
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.24415002524716534,
+            0.002700000495476919,
+            1.0853050344222703
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.18422443250460283,
+            0.011699999726377535,
+            1.0853050344673898
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.2014500001435803,
+            -0.011699999494700618,
+            1.0853050343323098
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "right_shin_envelope",
+          "b": "left_shin_envelope",
+          "owner_a": "right_knee_pitch",
+          "owner_b": "left_knee_pitch",
+          "distance_m": -0.08005147894192666,
+          "position_m": [
+            -0.0008496616523437639,
+            -0.006387221983396894,
+            0.562523003978656
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "right_shin_envelope",
+          "b": "left_actual_sole",
+          "owner_a": "right_knee_pitch",
+          "owner_b": "left_ankle_roll",
+          "distance_m": -0.04868813111078446,
+          "position_m": [
+            0.0807709662200406,
+            -0.01369105240593627,
+            0.543724430671548
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "right_actual_sole",
+          "b": "left_shin_envelope",
+          "owner_a": "right_ankle_roll",
+          "owner_b": "left_knee_pitch",
+          "distance_m": -0.048689472137079165,
+          "position_m": [
+            0.08078485858880613,
+            0.013699215614143884,
+            0.5437212378863232
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "right_actual_sole",
+          "b": "left_actual_sole",
+          "owner_a": "right_ankle_roll",
+          "owner_b": "left_ankle_roll",
+          "distance_m": -0.04811001885601027,
+          "position_m": [
+            0.08200319166741292,
+            0.0012901633563751711,
+            0.5427027969837492
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right_HP_070",
+      "q": {
+        "right_hip_pitch": 0.7
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "torso_central_keel",
+          "b": "right_shin_envelope",
+          "owner_a": "torso",
+          "owner_b": "right_knee_pitch",
+          "distance_m": -0.0012049239712784408,
+          "position_m": [
+            0.05225835116666021,
+            -0.07580136611674598,
+            0.7636996122753991
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.16575000673704127,
+            -0.011699999619533257,
+            1.0853050345778419
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.24415002524716534,
+            0.002700000495476919,
+            1.0853050344222703
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.18422443250460283,
+            0.011699999726377535,
+            1.0853050344673898
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.2014500001435803,
+            -0.011699999494700618,
+            1.0853050343323098
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "left_HP_070",
+      "q": {
+        "left_hip_pitch": 0.7
+      },
+      "passed": true,
+      "unexpected_nonadjacent_contacts": [],
+      "contacts": [
+        {
+          "a": "torso_upper_envelope",
+          "b": "left_shin_envelope",
+          "owner_a": "torso",
+          "owner_b": "left_knee_pitch",
+          "distance_m": -0.002765142017133974,
+          "position_m": [
+            -0.07239121563065512,
+            0.07550000148026742,
+            0.8013825815108095
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "torso_upper_envelope",
+          "b": "left_shin_envelope",
+          "owner_a": "torso",
+          "owner_b": "left_knee_pitch",
+          "distance_m": -0.002765142017133974,
+          "position_m": [
+            -0.07295138491071115,
+            0.08442680842479441,
+            0.801375554044353
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.16575000673704127,
+            -0.011699999619533257,
+            1.0853050345778419
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.24415002524716534,
+            0.002700000495476919,
+            1.0853050344222703
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.18422443250460283,
+            0.011699999726377535,
+            1.0853050344673898
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        },
+        {
+          "a": "upper_bill_envelope",
+          "b": "lower_bill_envelope",
+          "owner_a": "head_roll",
+          "owner_b": "beak_hinge",
+          "distance_m": -1.794901325908781e-09,
+          "position_m": [
+            0.2014500001435803,
+            -0.011699999494700618,
+            1.0853050343323098
+          ],
+          "pair_policy": [
+            true,
+            "explicit_geom_pair"
+          ]
+        }
+      ]
+    }
+  ],
+  "exact_role_counts": {
+    "left_ankle_roll": 1,
+    "right_hip_pitch": 1,
+    "right_ankle_roll": 1,
+    "left_knee_pitch": 1,
+    "left_hip_roll": 1,
+    "right_hip_roll": 1,
+    "beak_hinge": 1,
+    "neck_pitch": 1,
+    "torso": 2,
+    "head_roll": 1,
+    "right_knee_pitch": 1,
+    "left_hip_pitch": 1,
+    "neck_mid_pitch": 1
+  },
+  "exhaustive_role_pair_participation": [
+    {
+      "geoms": [
+        "torso_central_keel",
+        "neck_pitch_envelope"
+      ],
+      "owners": [
+        "neck_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "neck_mid_pitch_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "upper_bill_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "lower_bill_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "right_hip_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "right_hip_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "right_knee_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "right_ankle_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_central_keel",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "neck_pitch_envelope"
+      ],
+      "owners": [
+        "neck_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "neck_mid_pitch_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "upper_bill_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "lower_bill_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "right_hip_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "right_hip_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "right_knee_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "right_ankle_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "torso_upper_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "torso"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "neck_mid_pitch_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "simulator_parent_filter"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "upper_bill_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "lower_bill_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "neck_pitch",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "neck_pitch",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "neck_pitch",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "neck_pitch",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_pitch_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "neck_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "upper_bill_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "lower_bill_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "neck_mid_pitch",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "neck_mid_pitch_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "neck_mid_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "lower_bill_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "head_roll"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": true,
+      "reason": "explicit_geom_pair"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "head_roll",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "left_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "left_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "head_roll",
+        "left_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "upper_bill_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "head_roll",
+        "left_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "right_hip_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "beak_hinge",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "left_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "left_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "beak_hinge",
+        "left_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "lower_bill_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "beak_hinge",
+        "left_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "right_thigh_envelope"
+      ],
+      "owners": [
+        "right_hip_pitch",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "simulator_parent_filter"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "right_hip_roll",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "right_ankle_roll",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_hip_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "right_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "right_shin_envelope"
+      ],
+      "owners": [
+        "right_hip_pitch",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "simulator_parent_filter"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "right_ankle_roll",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_thigh_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "right_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_shin_envelope",
+        "right_actual_sole"
+      ],
+      "owners": [
+        "right_ankle_roll",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    },
+    {
+      "geoms": [
+        "right_shin_envelope",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_shin_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_shin_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_shin_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "right_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_actual_sole",
+        "left_hip_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_actual_sole",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_actual_sole",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_knee_pitch",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "right_actual_sole",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "right_ankle_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "left_hip_envelope",
+        "left_thigh_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "left_hip_roll"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "simulator_parent_filter"
+    },
+    {
+      "geoms": [
+        "left_hip_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_hip_roll",
+        "left_knee_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "left_hip_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "left_hip_roll"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "left_thigh_envelope",
+        "left_shin_envelope"
+      ],
+      "owners": [
+        "left_hip_pitch",
+        "left_knee_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "simulator_parent_filter"
+    },
+    {
+      "geoms": [
+        "left_thigh_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "left_hip_pitch"
+      ],
+      "mechanical_adjacent": false,
+      "enabled": true,
+      "reason": "ordinary_collision_enabled"
+    },
+    {
+      "geoms": [
+        "left_shin_envelope",
+        "left_actual_sole"
+      ],
+      "owners": [
+        "left_ankle_roll",
+        "left_knee_pitch"
+      ],
+      "mechanical_adjacent": true,
+      "enabled": false,
+      "reason": "explicit_entire_body_exclusion"
+    }
+  ],
+  "actual_mouth_object_fixtures": [
+    {
+      "name": "open_mouth_real_box_clear",
+      "beak_q_rad": 0.55,
+      "box_mass_kg": 0.05,
+      "box_dimensions_m": [
+        0.02,
+        0.02,
+        0.016
+      ],
+      "box_position_m": [
+        0.21,
+        0.0,
+        1.0763050351142884
+      ],
+      "source_pad_contact_plane_zero_m": 0.5853050351142883,
+      "actual_object_contacts": [],
+      "expected": "clear",
+      "passed": true,
+      "object_dynamic_but_no_policy_or_lift_inferred": true
+    },
+    {
+      "name": "upper_contact_plane_positive",
+      "beak_q_rad": 0.55,
+      "box_mass_kg": 0.05,
+      "box_dimensions_m": [
+        0.02,
+        0.02,
+        0.016
+      ],
+      "box_position_m": [
+        0.21,
+        0.0,
+        1.0783050351142882
+      ],
+      "source_pad_contact_plane_zero_m": 0.5853050351142883,
+      "actual_object_contacts": [
+        {
+          "a": "g_fixture_object_geom",
+          "b": "upper_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "head_roll",
+          "distance_m": -0.001000001567777255,
+          "position_m": [
+            0.19999999999999998,
+            0.01,
+            1.0858050355210302
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "g_fixture_object_geom",
+          "b": "upper_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "head_roll",
+          "distance_m": -0.001000001567777255,
+          "position_m": [
+            0.22,
+            -0.007790166733197871,
+            1.0858050358644884
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "g_fixture_object_geom",
+          "b": "upper_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "head_roll",
+          "distance_m": -0.001000001567777255,
+          "position_m": [
+            0.20951556273690594,
+            -0.01,
+            1.085805036502596
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "g_fixture_object_geom",
+          "b": "upper_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "head_roll",
+          "distance_m": -0.001000001567777255,
+          "position_m": [
+            0.22,
+            0.007790166773646089,
+            1.0858050351848763
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        }
+      ],
+      "expected": "upper",
+      "passed": true,
+      "object_dynamic_but_no_policy_or_lift_inferred": true
+    },
+    {
+      "name": "lower_contact_plane_positive",
+      "beak_q_rad": 0.24,
+      "box_mass_kg": 0.05,
+      "box_dimensions_m": [
+        0.02,
+        0.02,
+        0.016
+      ],
+      "box_position_m": [
+        0.21,
+        0.0,
+        1.0763050351142884
+      ],
+      "source_pad_contact_plane_zero_m": 0.5853050351142883,
+      "actual_object_contacts": [
+        {
+          "a": "g_fixture_object_geom",
+          "b": "lower_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "beak_hinge",
+          "distance_m": -0.003124544766876174,
+          "position_m": [
+            0.2003713562487378,
+            0.01,
+            1.0698225296073844
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        },
+        {
+          "a": "g_fixture_object_geom",
+          "b": "lower_bill_envelope",
+          "owner_a": "g_fixture_object",
+          "owner_b": "beak_hinge",
+          "distance_m": -0.003124544766876174,
+          "position_m": [
+            0.2003713562487378,
+            -0.01,
+            1.0698225296073844
+          ],
+          "pair_policy": [
+            true,
+            "ordinary_collision_enabled"
+          ]
+        }
+      ],
+      "expected": "lower",
+      "passed": true,
+      "object_dynamic_but_no_policy_or_lift_inferred": true
+    }
+  ],
+  "actual_sole_support_comparison": [
+    {
+      "side": "left",
+      "ground_plane_m": -0.005000002805734566,
+      "true_ground_plane_m": -0.005000000954866472,
+      "plane_delta_m": -1.8508680942053157e-09,
+      "bottom_vertices": 40,
+      "max_support_loss_m": 0.0005224189113935684,
+      "max_support_excess_m": 5.884012915791104e-09,
+      "max_abs_support_error_m": 0.0005224189113935684,
+      "bottom_world_zero_m": [
+        [
+          -0.02990000217394189,
+          0.12500000000606634,
+          -0.005000001381463254
+        ],
+        [
+          -0.02932146103517822,
+          0.1185719529533185,
+          -0.005000000026751349
+        ],
+        [
+          -0.029321462754070653,
+          0.13142805482752493,
+          -0.0049999996132938165
+        ],
+        [
+          -0.027003003208842462,
+          0.11085109737657087,
+          -0.005000001682561199
+        ],
+        [
+          -0.027002997864069338,
+          0.13914889594175942,
+          -0.005000000557453942
+        ],
+        [
+          -0.023944634098720392,
+          0.10516770887808483,
+          -0.0050000020766976655
+        ],
+        [
+          -0.023944636241305696,
+          0.1448322911200067,
+          -0.00499999967224285
+        ],
+        [
+          -0.019920610258244785,
+          0.10012174299141008,
+          -0.0050000014710060645
+        ],
+        [
+          -0.018778251218853785,
+          0.15102061466044986,
+          -0.005000000051968087
+        ],
+        [
+          -0.013732294493888686,
+          0.0949553599710143,
+          -0.005000000582578386
+        ],
+        [
+          -0.01373229628585558,
+          0.15504463258181286,
+          -0.0050000018649771424
+        ],
+        [
+          -0.008048903378012492,
+          0.09189700165430903,
+          -0.0049999990479666565
+        ],
+        [
+          -0.008048902303416636,
+          0.15810299850418624,
+          -0.00500000162345729
+        ],
+        [
+          -0.000328051968855797,
+          0.08957853634212695,
+          -0.004999999394099813
+        ],
+        [
+          -0.0003280512751574344,
+          0.16042146545894653,
+          -0.004999999959500907
+        ],
+        [
+          0.006100004145646196,
+          0.08900000320850794,
+          -0.005000002805734566
+        ],
+        [
+          0.006100004078439435,
+          0.16099999907082954,
+          -0.00500000020485649
+        ],
+        [
+          0.09696160275878848,
+          0.08957853374024519,
+          -0.005000000232087028
+        ],
+        [
+          0.09696160345248685,
+          0.16042146285706477,
+          -0.005000000797488122
+        ],
+        [
+          0.10468244997140637,
+          0.09189700442893653,
+          -0.005000000218482938
+        ],
+        [
+          0.10468245114097574,
+          0.15810299754144946,
+          -0.005000000958129629
+        ],
+        [
+          0.11036584768005922,
+          0.09495536104171964,
+          -0.005000000223581186
+        ],
+        [
+          0.11036584960986934,
+          0.15504463179334674,
+          -0.0050000017036968755
+        ],
+        [
+          0.11655416996917722,
+          0.10012174211183783,
+          -0.005000001725286661
+        ],
+        [
+          0.11655416537311622,
+          0.14987825063555565,
+          -0.005000000803043907
+        ],
+        [
+          0.12057818400315973,
+          0.10516770993835649,
+          -0.005000000321628152
+        ],
+        [
+          0.12057818911750909,
+          0.1448322903488499,
+          -0.0050000020209709575
+        ],
+        [
+          0.12363655297949538,
+          0.11085109675390396,
+          -0.005000001722708675
+        ],
+        [
+          0.1236365508829329,
+          0.13914889531222607,
+          -0.0050000002266181245
+        ],
+        [
+          0.12595501795337802,
+          0.11857195275682116,
+          -0.005000000708771962
+        ],
+        [
+          0.12595501623420827,
+          0.13142805509667876,
+          -0.005000000292258111
+        ],
+        [
+          0.12653354984368212,
+          0.12499999998763342,
+          -0.005000000479770013
+        ],
+        [
+          -0.006549495687967269,
+          0.09129554678421115,
+          -0.005000001943728294
+        ],
+        [
+          0.10318304425588816,
+          0.09129554814413865,
+          -0.005000001690314268
+        ],
+        [
+          -0.006549496585679979,
+          0.15870445106377473,
+          -0.005000000176076547
+        ],
+        [
+          0.10318304326542037,
+          0.15870445243585712,
+          -0.0050000017829570365
+        ],
+        [
+          0.12143770566700879,
+          0.14346437091240594,
+          -0.005000000920354963
+        ],
+        [
+          0.12143770483533975,
+          0.10653562862376592,
+          -0.005000001750222055
+        ],
+        [
+          -0.024804157258995867,
+          0.14346437245890706,
+          -0.005000001964237985
+        ],
+        [
+          -0.024804157904045533,
+          0.10653562828335256,
+          -0.004999999085741322
+        ]
+      ]
+    },
+    {
+      "side": "right",
+      "ground_plane_m": -0.005000002793634821,
+      "true_ground_plane_m": -0.00500000095486643,
+      "plane_delta_m": -1.8387683910214836e-09,
+      "bottom_vertices": 40,
+      "max_support_loss_m": 0.0005224163074548094,
+      "max_support_excess_m": 2.991762199089365e-09,
+      "max_abs_support_error_m": 0.0005224163074548094,
+      "bottom_world_zero_m": [
+        [
+          -0.0298999990050691,
+          -0.12499999998704649,
+          -0.004999999333895257
+        ],
+        [
+          -0.02932146464521377,
+          -0.1314280550791593,
+          -0.005000000854453519
+        ],
+        [
+          -0.029321465332994075,
+          -0.1185719530431702,
+          -0.005000002761717477
+        ],
+        [
+          -0.027002997284190124,
+          -0.13914889608673983,
+          -0.0050000025011799065
+        ],
+        [
+          -0.027002998687444275,
+          -0.1108510964857086,
+          -0.005000002221119439
+        ],
+        [
+          -0.023944634020537113,
+          -0.1448322915708818,
+          -0.005000000602729725
+        ],
+        [
+          -0.023944631308576318,
+          -0.10516770926215903,
+          -0.005000002766724514
+        ],
+        [
+          -0.019920614441177494,
+          -0.10012174235790477,
+          -0.004999999907051876
+        ],
+        [
+          -0.01877825184023068,
+          -0.15102061481518012,
+          -0.005000000018246159
+        ],
+        [
+          -0.01373229464562345,
+          -0.15504463215076353,
+          -0.005000001325085872
+        ],
+        [
+          -0.013732293953936825,
+          -0.09495536125973444,
+          -0.005000002696770721
+        ],
+        [
+          -0.00804890203047591,
+          -0.15810299660161853,
+          -0.005000002165256499
+        ],
+        [
+          -0.008048903785104589,
+          -0.09189700148843825,
+          -0.004999999283553838
+        ],
+        [
+          -0.00032805171753085005,
+          -0.16042146416879505,
+          -0.005000002141599735
+        ],
+        [
+          -0.00032805186533967773,
+          -0.08957853698322885,
+          -0.005000002793634821
+        ],
+        [
+          0.006100005234548941,
+          -0.1609999998219284,
+          -0.005000002787431526
+        ],
+        [
+          0.006100004214628717,
+          -0.08900000217238807,
+          -0.0049999994017690536
+        ],
+        [
+          0.09696160339778329,
+          -0.16042146546158007,
+          -0.0050000001290039925
+        ],
+        [
+          0.09696160325281154,
+          -0.08957853455082825,
+          -0.00500000080882413
+        ],
+        [
+          0.10468245169256751,
+          -0.15810299721316207,
+          -0.005000001620935474
+        ],
+        [
+          0.10468244984509781,
+          -0.09189700211378635,
+          -0.005000000599511542
+        ],
+        [
+          0.11036584921413198,
+          -0.15504463187632886,
+          -0.00500000048098654
+        ],
+        [
+          0.1103658461851598,
+          -0.09495536098108137,
+          -0.005000001667015565
+        ],
+        [
+          0.11655416607355487,
+          -0.14987825076013556,
+          -0.005000001224770831
+        ],
+        [
+          0.11655416749579364,
+          -0.10012174288082706,
+          -0.005000000865447815
+        ],
+        [
+          0.12057818284243846,
+          -0.14483229132005707,
+          -0.005000000169806826
+        ],
+        [
+          0.1205781856472403,
+          -0.10516770899752975,
+          -0.005000000473522892
+        ],
+        [
+          0.1236365502276899,
+          -0.1391488957148399,
+          -0.005000000777928254
+        ],
+        [
+          0.12363654882372646,
+          -0.11085109704510505,
+          -0.005000000490921523
+        ],
+        [
+          0.12595501686118202,
+          -0.1314280549894171,
+          -0.005000000119243779
+        ],
+        [
+          0.12595501626624275,
+          -0.11857195293962343,
+          -0.005000000166229014
+        ],
+        [
+          0.1265335431908869,
+          -0.12500000000541953,
+          -0.00500000137527859
+        ],
+        [
+          -0.006549496450488863,
+          -0.1587044524003588,
+          -0.0049999991369502825
+        ],
+        [
+          0.10318304391707259,
+          -0.1587044527992465,
+          -0.005000000335105899
+        ],
+        [
+          -0.006549496012446761,
+          -0.09129554962753944,
+          -0.005000000541598368
+        ],
+        [
+          0.1031830443579518,
+          -0.09129554630124154,
+          -0.005000001767539029
+        ],
+        [
+          0.1214377033759047,
+          -0.10653562828284856,
+          -0.0050000015057905245
+        ],
+        [
+          0.12143770658638528,
+          -0.14346437179056756,
+          -0.005000000769460389
+        ],
+        [
+          -0.024804154959682086,
+          -0.10653562877784398,
+          -0.005000000306792228
+        ],
+        [
+          -0.024804151842042564,
+          -0.14346437229936754,
+          -0.005000001430740815
+        ]
+      ]
+    }
+  ],
+  "ground_contact_fixture": [
+    {
+      "a": "ground",
+      "b": "right_actual_sole",
+      "owner_a": "world",
+      "owner_b": "right_ankle_roll",
+      "distance_m": -0.0009999987000559318,
+      "position_m": [
+        0.1214377033759047,
+        -0.10653562828284856,
+        -0.0004999993500279659
+      ],
+      "pair_policy": [
+        true,
+        "ordinary_collision_enabled"
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "right_actual_sole",
+      "owner_a": "world",
+      "owner_b": "right_ankle_roll",
+      "distance_m": -0.000999997963725796,
+      "position_m": [
+        0.12143770658638528,
+        -0.14346437179056756,
+        -0.000499998981862898
+      ],
+      "pair_policy": [
+        true,
+        "ordinary_collision_enabled"
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "left_actual_sole",
+      "owner_a": "world",
+      "owner_b": "left_ankle_roll",
+      "distance_m": -0.0009999999999999731,
+      "position_m": [
+        0.006100004145646196,
+        0.08900000320850796,
+        -0.0004999999999999866
+      ],
+      "pair_policy": [
+        true,
+        "ordinary_collision_enabled"
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "left_actual_sole",
+      "owner_a": "world",
+      "owner_b": "left_ankle_roll",
+      "distance_m": -0.000999997426352435,
+      "position_m": [
+        0.09696160275878848,
+        0.0895785337402452,
+        -0.0004999987131762175
+      ],
+      "pair_policy": [
+        true,
+        "ordinary_collision_enabled"
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "left_actual_sole",
+      "owner_a": "world",
+      "owner_b": "left_ankle_roll",
+      "distance_m": -0.0009999981146203707,
+      "position_m": [
+        0.12143770566700879,
+        0.14346437091240594,
+        -0.0004999990573101853
+      ],
+      "pair_policy": [
+        true,
+        "ordinary_collision_enabled"
+      ]
+    }
+  ],
+  "cheap_front_back_side_lying_support_extent_probes": [
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "source_support_m": 0.24945001471966902,
+      "candidate_support_m": 0.24945001518307974,
+      "extent_delta_m": 4.63410726458946e-10,
+      "source_witness_world_zero_m": [
+        0.24945001471966902,
+        0.0011599659006695747,
+        0.5893315666083565
+      ],
+      "candidate_witness_world_zero_m": [
+        0.24945001518307974,
+        -0.0014766036445574607,
+        0.5874026404005052
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "source_support_m": 0.24218654435292186,
+      "candidate_support_m": 0.2421865422578005,
+      "extent_delta_m": -2.095121354184215e-09,
+      "source_witness_world_zero_m": [
+        -0.24218654435292186,
+        0.028206744183145636,
+        0.39461350421179997
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.2421865422578005,
+        0.02820674251407765,
+        0.3946135038506722
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "source_support_m": 0.17149999824360146,
+      "candidate_support_m": 0.17149999722816395,
+      "extent_delta_m": -1.0154375118531789e-09,
+      "source_witness_world_zero_m": [
+        0.00626496302803508,
+        0.17149999824360146,
+        0.2024167330099113
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.029754005731480813,
+        0.17149999722816395,
+        0.19529603621088895
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "source_support_m": 0.1714999986192558,
+      "candidate_support_m": 0.1714999986724685,
+      "extent_delta_m": 5.3212712014527597e-11,
+      "source_witness_world_zero_m": [
+        -0.002552952787639205,
+        -0.1714999986192558,
+        0.25367990495014925
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.01913347461311321,
+        -0.1714999986724685,
+        0.25447946681385414
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "source_support_m": 0.6711599224908613,
+      "candidate_support_m": 0.6711599216260198,
+      "extent_delta_m": -8.648415317225044e-10,
+      "source_witness_world_zero_m": [
+        0.08720522529516736,
+        -0.006085202588375052,
+        0.6711599224908613
+      ],
+      "candidate_witness_world_zero_m": [
+        0.08720522377262516,
+        -0.006085202318527046,
+        0.6711599216260198
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "source_support_m": 0.005000000954866472,
+      "candidate_support_m": 0.005000002805734566,
+      "extent_delta_m": 1.8508680942053157e-09,
+      "source_witness_world_zero_m": [
+        0.006100004807523318,
+        0.08900000157258917,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100004145646196,
+        0.08900000320850794,
+        -0.005000002805734566
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.8944271909999159,
+        0.0,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.11541111069564035,
+      "candidate_support_m": 0.1154111157459919,
+      "extent_delta_m": 5.050351553625987e-09,
+      "source_witness_world_zero_m": [
+        0.1265335439596692,
+        0.125,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.12653354984368212,
+        0.12499999998763342,
+        -0.005000000479770013
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.09300826156257348,
+      "candidate_support_m": 0.093008265387255,
+      "extent_delta_m": 3.824681515940398e-09,
+      "source_witness_world_zero_m": [
+        0.1265335439596692,
+        0.125,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.12653354984368212,
+        0.12499999998763342,
+        -0.005000000479770013
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.4472135954999579,
+        0.0,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.06105965795461376,
+      "candidate_support_m": 0.06105966016108515,
+      "extent_delta_m": 2.206471387544706e-09,
+      "source_witness_world_zero_m": [
+        0.1265335439596692,
+        0.125,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.12653354984368212,
+        0.12499999998763342,
+        -0.005000000479770013
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.48670221467268404,
+      "candidate_support_m": 0.4867022149697779,
+      "extent_delta_m": 2.9709384952170126e-10,
+      "source_witness_world_zero_m": [
+        0.24945000923756733,
+        -0.0005741451511846366,
+        0.5893992183326825
+      ],
+      "candidate_witness_world_zero_m": [
+        0.24945000928397176,
+        -0.000574145209149185,
+        0.5893992189041957
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.7071067811865475,
+        0.0,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.597028957010827,
+      "candidate_support_m": 0.5958843440862855,
+      "extent_delta_m": -0.0011446129245414882,
+      "source_witness_world_zero_m": [
+        0.18505288343983783,
+        0.004344447727667763,
+        0.6592735646943373
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153327469264,
+        -0.019781153621298123,
+        0.6576961877379285
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.4472135954999579,
+        0.0,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.6724303679308219,
+      "candidate_support_m": 0.6710010267345241,
+      "extent_delta_m": -0.0014293411962977842,
+      "source_witness_world_zero_m": [
+        0.18505288343983783,
+        0.004344447727667763,
+        0.6592735646943373
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153327469264,
+        -0.019781153621298123,
+        0.6576961877379285
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.6324555320336759,
+        0.6324555320336758,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.17074272616373468,
+      "candidate_support_m": 0.17074272375441416,
+      "extent_delta_m": -2.4093205208686186e-09,
+      "source_witness_world_zero_m": [
+        0.116554169252924,
+        0.14987825045786335,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416537311622,
+        0.14987825063555565,
+        -0.005000000803043907
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.5,
+        0.49999999999999994,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.13675174443651894,
+      "candidate_support_m": 0.13675174247810645,
+      "extent_delta_m": -1.958412487734762e-09,
+      "source_witness_world_zero_m": [
+        0.116554169252924,
+        0.14987825045786335,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416537311622,
+        0.14987825063555565,
+        -0.005000000803043907
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.31622776601683794,
+        0.3162277660168379,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.08872546568866092,
+      "candidate_support_m": 0.08872546438215499,
+      "extent_delta_m": -1.3065059312200589e-09,
+      "source_witness_world_zero_m": [
+        0.116554169252924,
+        0.14987825045786335,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416537311622,
+        0.14987825063555565,
+        -0.005000000803043907
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.6324555320336759,
+        0.6324555320336758,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.4245213119204379,
+      "candidate_support_m": 0.42441781388681155,
+      "extent_delta_m": -0.00010349803362635912,
+      "source_witness_world_zero_m": [
+        0.18426060657480492,
+        0.023363960825222675,
+        0.6556330322525252
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18389331762248604,
+        0.024281151986053393,
+        0.6546239244525428
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.5,
+        0.49999999999999994,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.567678435820464,
+      "candidate_support_m": 0.5674577775097487,
+      "extent_delta_m": -0.00022065831071527153,
+      "source_witness_world_zero_m": [
+        0.1847085936005694,
+        0.021702487500072302,
+        0.6568638678457347
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153379694196,
+        0.019781154312351657,
+        0.6576961865288777
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.31622776601683794,
+        0.3162277660168379,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.653666368829753,
+      "candidate_support_m": 0.6530224869057658,
+      "extent_delta_m": -0.0006438819239872329,
+      "source_witness_world_zero_m": [
+        0.16008534797631807,
+        0.01776228572778685,
+        0.6679425837493119
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153379694196,
+        0.019781154312351657,
+        0.6576961865288777
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        5.476786982642026e-17,
+        0.8944271909999159,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.1462388447898575,
+      "candidate_support_m": 0.1462388449890255,
+      "extent_delta_m": 1.991680154134201e-10,
+      "source_witness_world_zero_m": [
+        0.006100004807523311,
+        0.16099999847314792,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100004078439435,
+        0.16099999907082954,
+        -0.00500000020485649
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        4.3297802811774664e-17,
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.11737972527251198,
+      "candidate_support_m": 0.11737972516479955,
+      "extent_delta_m": -1.0771242231477629e-10,
+      "source_witness_world_zero_m": [
+        0.006100004807523311,
+        0.16099999847314792,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100004078439435,
+        0.16099999907082954,
+        -0.00500000020485649
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        2.738393491321013e-17,
+        0.4472135954999579,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.07647352500172233,
+      "candidate_support_m": 0.07647352459818435,
+      "extent_delta_m": -4.035379808087214e-10,
+      "source_witness_world_zero_m": [
+        0.006100004807523311,
+        0.16099999847314792,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100004078439435,
+        0.16099999907082954,
+        -0.00500000020485649
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        5.476786982642026e-17,
+        0.8944271909999159,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.3328858885604564,
+      "candidate_support_m": 0.33202735511296066,
+      "extent_delta_m": -0.0008585334474957573,
+      "source_witness_world_zero_m": [
+        0.019083334472681956,
+        0.04000808685377486,
+        0.6643393018640504
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0094277790870224,
+        0.04186319516340999,
+        0.6587093460952225
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        4.3297802811774664e-17,
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.4987244424178288,
+      "candidate_support_m": 0.4984885156980719,
+      "extent_delta_m": -0.00023592671975691815,
+      "source_witness_world_zero_m": [
+        0.0280000011315739,
+        0.03770223965388661,
+        0.6676006307003667
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0400000003720649,
+        0.03619980073387771,
+        0.6687694188535691
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        2.738393491321013e-17,
+        0.4472135954999579,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.614373620519826,
+      "candidate_support_m": 0.6143545957744235,
+      "extent_delta_m": -1.90247454024961e-05,
+      "source_witness_world_zero_m": [
+        0.039999998049541866,
+        0.03573843831586307,
+        0.6690213703745639
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0400000003720649,
+        0.03619980073387771,
+        0.6687694188535691
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.6324555320336758,
+        0.6324555320336759,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.10962630032966796,
+      "candidate_support_m": 0.10962630005915039,
+      "extent_delta_m": -2.70517566680617e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406924,
+        0.151020614453177,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.018778251218853785,
+        0.15102061466044986,
+        -0.005000000051968087
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.49999999999999994,
+        0.5,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.08843496741541726,
+      "candidate_support_m": 0.08843496688233154,
+      "extent_delta_m": -5.330857144603129e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406924,
+        0.151020614453177,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.018778251218853785,
+        0.15102061466044986,
+        -0.005000000051968087
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.3162277660168379,
+        0.31622776601683794,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.05816725277162756,
+      "candidate_support_m": 0.05816725203068613,
+      "extent_delta_m": -7.40941433208242e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406924,
+        0.151020614453177,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.018778251218853785,
+        0.15102061466044986,
+        -0.005000000051968087
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.6324555320336758,
+        0.6324555320336759,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.35153877093713537,
+      "candidate_support_m": 0.3491072801826035,
+      "extent_delta_m": -0.002431490754531862,
+      "source_witness_world_zero_m": [
+        -0.2245794967966595,
+        0.04515097235904015,
+        0.40460810087691396
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23999815030405366,
+        0.029982001998634,
+        0.398818016970352
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.49999999999999994,
+        0.5,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.48276260658429737,
+      "candidate_support_m": 0.4824411785641313,
+      "extent_delta_m": -0.000321428020166048,
+      "source_witness_world_zero_m": [
+        0.009427777126620598,
+        0.03901115836079219,
+        0.6618108161569907
+      ],
+      "candidate_witness_world_zero_m": [
+        0.009999996547111464,
+        0.03663618578205368,
+        0.6634402277396589
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.3162277660168379,
+        0.31622776601683794,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.6028863879325098,
+      "candidate_support_m": 0.6018220819104951,
+      "extent_delta_m": -0.0010643060220146827,
+      "source_witness_world_zero_m": [
+        0.019083334062929967,
+        0.03603160428980532,
+        0.6680553546597977
+      ],
+      "candidate_witness_world_zero_m": [
+        0.009999996547111464,
+        0.03663618578205368,
+        0.6634402277396589
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.8944271909999159,
+        1.0953573965284052e-16,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.051291396366378965,
+      "candidate_support_m": 0.050476218922610824,
+      "extent_delta_m": -0.0008151774437681406,
+      "source_witness_world_zero_m": [
+        -0.23494551990329027,
+        -1.244620767559823e-09,
+        0.35519999087047144
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23012198842990017,
+        1.841130810058733e-12,
+        0.34737572010168133
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.7071067811865475,
+        8.659560562354933e-17,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.024678028111708845,
+      "candidate_support_m": 0.024678029177461605,
+      "extent_delta_m": 1.0657527603485928e-09,
+      "source_witness_world_zero_m": [
+        -0.029900001093336667,
+        0.125,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.02990000217394189,
+        0.12500000000606634,
+        -0.005000001381463254
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.4472135954999579,
+        5.476786982642026e-17,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.017843823803461886,
+      "candidate_support_m": 0.017843824668282996,
+      "extent_delta_m": 8.648211105577452e-10,
+      "source_witness_world_zero_m": [
+        -0.029900001093336667,
+        0.125,
+        -0.005000000954866472
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.02990000217394189,
+        0.12500000000606634,
+        -0.005000001381463254
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.8944271909999159,
+        1.0953573965284052e-16,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.3974489463206619,
+      "candidate_support_m": 0.3973259831508849,
+      "extent_delta_m": -0.00012296316977700172,
+      "source_witness_world_zero_m": [
+        -0.23847385977348823,
+        0.013081749588343322,
+        0.4117751420116885
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23717796668565605,
+        -0.006457351356840433,
+        0.4140919741810027
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.7071067811865475,
+        8.659560562354933e-17,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.46485200566773516,
+      "candidate_support_m": 0.46484781331211206,
+      "extent_delta_m": -4.192355623100497e-06,
+      "source_witness_world_zero_m": [
+        1.0216065493562354e-09,
+        1.4562498342612917e-12,
+        0.6574000119332525
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.00022777960093958716,
+        -6.150650735253782e-12,
+        0.6571663024245259
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.4472135954999579,
+        5.476786982642026e-17,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.5903219655948351,
+      "candidate_support_m": 0.5889268448827067,
+      "extent_delta_m": -0.0013951207121283282,
+      "source_witness_world_zero_m": [
+        0.01000000019541383,
+        -9.925050364900656e-12,
+        0.6650000219383786
+      ],
+      "candidate_witness_world_zero_m": [
+        0.009999996547111464,
+        0.03663618578205368,
+        0.6634402277396589
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.632455532033676,
+        -0.6324555320336758,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.10962630032966794,
+      "candidate_support_m": 0.10962630053492273,
+      "extent_delta_m": 2.052547853903519e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406938,
+        -0.151020614453177,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.01877825184023068,
+        -0.15102061481518012,
+        -0.005000000018246159
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.5000000000000001,
+        -0.49999999999999994,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.08843496741541722,
+      "candidate_support_m": 0.08843496724654011,
+      "extent_delta_m": -1.6887710674318157e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406938,
+        -0.151020614453177,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.01877825184023068,
+        -0.15102061481518012,
+        -0.005000000018246159
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.316227766016838,
+        -0.3162277660168379,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.05816725277162753,
+      "candidate_support_m": 0.05816725224595094,
+      "extent_delta_m": -5.256765855943257e-10,
+      "source_witness_world_zero_m": [
+        -0.018778251215406938,
+        -0.151020614453177,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.01877825184023068,
+        -0.15102061481518012,
+        -0.005000000018246159
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.632455532033676,
+        -0.6324555320336758,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.3515461221117303,
+      "candidate_support_m": 0.3491173089027489,
+      "extent_delta_m": -0.0024288132089814174,
+      "source_witness_world_zero_m": [
+        -0.2248559169120255,
+        -0.04487998022412851,
+        0.40461686227944765
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23998375443290668,
+        -0.029969223388255077,
+        0.3988788723906487
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.5000000000000001,
+        -0.49999999999999994,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.48126880267894534,
+      "candidate_support_m": 0.48096521946393567,
+      "extent_delta_m": -0.0003035832150096729,
+      "source_witness_world_zero_m": [
+        0.009427777204500394,
+        -0.036007197427038264,
+        0.6618223796162621
+      ],
+      "candidate_witness_world_zero_m": [
+        0.009427780038093525,
+        -0.033637621665561224,
+        0.6630685932094152
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -0.316227766016838,
+        -0.3162277660168379,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.6016239135108349,
+      "candidate_support_m": 0.6007224033980387,
+      "extent_delta_m": -0.0009015101127961556,
+      "source_witness_world_zero_m": [
+        0.01425555562715259,
+        -0.032904732330942515,
+        0.6660425040944425
+      ],
+      "candidate_witness_world_zero_m": [
+        0.009427780038093525,
+        -0.033637621665561224,
+        0.6630685932094152
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -1.6430360947926078e-16,
+        -0.8944271909999159,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.14623884478985746,
+      "candidate_support_m": 0.14623884681579144,
+      "extent_delta_m": 2.0259339761352635e-09,
+      "source_witness_world_zero_m": [
+        0.006100004807523304,
+        -0.16099999847314792,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100005234548941,
+        -0.1609999998219284,
+        -0.005000002787431526
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -1.2989340843532398e-16,
+        -0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.11737972527251195,
+      "candidate_support_m": 0.11737972752206297,
+      "extent_delta_m": 2.249551017685647e-09,
+      "source_witness_world_zero_m": [
+        0.006100004807523304,
+        -0.16099999847314792,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100005234548941,
+        -0.1609999998219284,
+        -0.005000002787431526
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -8.215180473963039e-17,
+        -0.4472135954999579,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.07647352500172229,
+      "candidate_support_m": 0.07647352724401131,
+      "extent_delta_m": 2.2422890211259983e-09,
+      "source_witness_world_zero_m": [
+        0.006100004807523304,
+        -0.16099999847314792,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.006100005234548941,
+        -0.1609999998219284,
+        -0.005000002787431526
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -1.6430360947926078e-16,
+        -0.8944271909999159,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.3297856253422128,
+      "candidate_support_m": 0.3288322367908424,
+      "extent_delta_m": -0.0009533885513703932,
+      "source_witness_world_zero_m": [
+        0.014255555641306712,
+        -0.03796438208790111,
+        0.661494312091663
+      ],
+      "candidate_witness_world_zero_m": [
+        0.004600000622345599,
+        -0.04113176179792473,
+        0.6530277110617814
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -1.2989340843532398e-16,
+        -0.7071067811865475,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.4955608275880843,
+      "candidate_support_m": 0.4950403270917356,
+      "extent_delta_m": -0.0005205004963486637,
+      "source_witness_world_zero_m": [
+        0.019083334387260842,
+        -0.03463458516675647,
+        0.6661942581891475
+      ],
+      "candidate_witness_world_zero_m": [
+        0.023911110071073355,
+        -0.03178329361052614,
+        0.6683094508842196
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        -8.215180473963039e-17,
+        -0.4472135954999579,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.6120454546430557,
+      "candidate_support_m": 0.611968065885463,
+      "extent_delta_m": -7.738875759266683e-05,
+      "source_witness_world_zero_m": [
+        0.03999999923836555,
+        -0.030420443494324115,
+        0.6690773992036564
+      ],
+      "candidate_witness_world_zero_m": [
+        0.023911110071073355,
+        -0.03178329361052614,
+        0.6683094508842196
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.6324555320336757,
+        -0.632455532033676,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.17074272616373468,
+      "candidate_support_m": 0.17074272446480374,
+      "extent_delta_m": -1.6989309403747654e-09,
+      "source_witness_world_zero_m": [
+        0.11655416925292399,
+        -0.14987825045786335,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416607355487,
+        -0.14987825076013556,
+        -0.005000001224770831
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.49999999999999983,
+        -0.5000000000000001,
+        -0.7071067811865475
+      ],
+      "source_support_m": 0.13675174443651894,
+      "candidate_support_m": 0.13675174318882172,
+      "extent_delta_m": -1.247697223316635e-09,
+      "source_witness_world_zero_m": [
+        0.11655416925292399,
+        -0.14987825045786335,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416607355487,
+        -0.14987825076013556,
+        -0.005000001224770831
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.31622776601683783,
+        -0.316227766016838,
+        -0.8944271909999159
+      ],
+      "source_support_m": 0.0887254656886609,
+      "candidate_support_m": 0.0887254650202528,
+      "extent_delta_m": -6.684080927632507e-10,
+      "source_witness_world_zero_m": [
+        0.11655416925292399,
+        -0.14987825045786335,
+        -0.00500000095486643
+      ],
+      "candidate_witness_world_zero_m": [
+        0.11655416607355487,
+        -0.14987825076013556,
+        -0.005000001224770831
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.6324555320336757,
+        -0.632455532033676,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.42452131212605226,
+      "candidate_support_m": 0.42441781470622975,
+      "extent_delta_m": -0.00010349741982251803,
+      "source_witness_world_zero_m": [
+        0.18426060630091848,
+        -0.023363961597764427,
+        0.6556330320070878
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18389331791211963,
+        -0.024281153073897898,
+        0.6546239243367693
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.49999999999999983,
+        -0.5000000000000001,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.56767843675082,
+      "candidate_support_m": 0.5674577777580252,
+      "extent_delta_m": -0.00022065899279477552,
+      "source_witness_world_zero_m": [
+        0.18470859489419675,
+        -0.021702486843808613,
+        0.6568638687107725
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153327469264,
+        -0.019781153621298123,
+        0.6576961877379285
+      ]
+    },
+    {
+      "scope": "whole_robot",
+      "outward_support_direction_zero": [
+        0.31622776601683783,
+        -0.316227766016838,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.6536641314408552,
+      "candidate_support_m": 0.6530224876034936,
+      "extent_delta_m": -0.0006416438373616495,
+      "source_witness_world_zero_m": [
+        0.16010527200547017,
+        -0.017291057852068394,
+        0.6680996422776194
+      ],
+      "candidate_witness_world_zero_m": [
+        0.18501153327469264,
+        -0.019781153621298123,
+        0.6576961877379285
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "source_support_m": 0.10000000267811282,
+      "candidate_support_m": 0.1000000082275851,
+      "extent_delta_m": 5.5494722844828814e-09,
+      "source_witness_world_zero_m": [
+        0.10000000267811282,
+        1.1455180831676515e-09,
+        0.3379999988836646
+      ],
+      "candidate_witness_world_zero_m": [
+        0.1000000082275851,
+        2.9931318594762627e-12,
+        0.33799999958248556
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "source_support_m": 0.24218654435292186,
+      "candidate_support_m": 0.2421865422578005,
+      "extent_delta_m": -2.095121354184215e-09,
+      "source_witness_world_zero_m": [
+        -0.24218654435292186,
+        0.028206744183145636,
+        0.39461350421179997
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.2421865422578005,
+        0.02820674251407765,
+        0.3946135038506722
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "source_support_m": 0.11155256625227279,
+      "candidate_support_m": 0.11155256453069877,
+      "extent_delta_m": -1.7215740222287224e-09,
+      "source_witness_world_zero_m": [
+        -0.01997834809709047,
+        0.11155256625227279,
+        0.36224696027161685
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.01997834655398073,
+        0.11155256453069877,
+        0.36224696029527137
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "source_support_m": 0.11155256634865332,
+      "candidate_support_m": 0.11155256418327776,
+      "extent_delta_m": -2.1653755594153168e-09,
+      "source_witness_world_zero_m": [
+        -0.019978348102453518,
+        -0.11155256634865332,
+        0.36224696022709063
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.019978349065264953,
+        -0.11155256418327776,
+        0.36224696044101756
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "source_support_m": 0.4539999968814721,
+      "candidate_support_m": 0.4539999974660013,
+      "extent_delta_m": 5.845292028183735e-10,
+      "source_witness_world_zero_m": [
+        -0.1000000004910867,
+        -1.6469591315737553e-10,
+        0.4539999968814721
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.10000000061445379,
+        -1.6948130758239009e-12,
+        0.4539999974660013
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "source_support_m": -0.23700000219867848,
+      "candidate_support_m": -0.23699999971484026,
+      "extent_delta_m": 2.4838382184366736e-09,
+      "source_witness_world_zero_m": [
+        0.008906504669426718,
+        0.0009983131926817879,
+        0.23700000219867848
+      ],
+      "candidate_witness_world_zero_m": [
+        0.010000002706309657,
+        -1.3480778874517792e-12,
+        0.23699999971484026
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.894427190999916,
+        0.0,
+        -0.447213595499958
+      ],
+      "source_support_m": -0.03920067061444696,
+      "candidate_support_m": -0.03937657986495328,
+      "extent_delta_m": -0.00017590925050631895,
+      "source_witness_world_zero_m": [
+        0.08852231477954049,
+        2.2648147246506767e-10,
+        0.26469999381656284
+      ],
+      "candidate_witness_world_zero_m": [
+        0.08606597134172148,
+        6.185608150058167e-12,
+        0.26018065198292795
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.12171465633448683,
+      "candidate_support_m": -0.12311767138552719,
+      "extent_delta_m": -0.00140301505104036,
+      "source_witness_world_zero_m": [
+        0.0801894740258003,
+        4.7034147410141e-12,
+        0.2523199917536119
+      ],
+      "candidate_witness_world_zero_m": [
+        0.08606597134172148,
+        6.185608150058167e-12,
+        0.26018065198292795
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.447213595499958,
+        0.0,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.18726759218114297,
+      "candidate_support_m": -0.19370995412300665,
+      "extent_delta_m": -0.006442361941863678,
+      "source_witness_world_zero_m": [
+        0.06904122973962638,
+        8.766012880856433e-10,
+        0.24389214791968505
+      ],
+      "candidate_witness_world_zero_m": [
+        0.06656395968808906,
+        0.04666187214946162,
+        0.24985629251274877
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.894427190999916,
+        0.0,
+        0.447213595499958
+      ],
+      "source_support_m": 0.26100350362894104,
+      "candidate_support_m": 0.26085319391957285,
+      "extent_delta_m": -0.00015030970936819044,
+      "source_witness_world_zero_m": [
+        0.08973697575255726,
+        0.009647385957498467,
+        0.40414762497481066
+      ],
+      "candidate_witness_world_zero_m": [
+        0.08817261019400624,
+        -0.014109163243141367,
+        0.4069402533640871
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.35190663431028585,
+      "candidate_support_m": 0.3500976632746177,
+      "extent_delta_m": -0.0018089710356681277,
+      "source_witness_world_zero_m": [
+        0.07770524169065555,
+        0.02959004786342801,
+        0.4199658932400198
+      ],
+      "candidate_witness_world_zero_m": [
+        0.08817261019400624,
+        -0.014109163243141367,
+        0.4069402533640871
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.447213595499958,
+        0.0,
+        0.894427190999916
+      ],
+      "source_support_m": 0.4132335032669549,
+      "candidate_support_m": 0.4090448368092489,
+      "extent_delta_m": -0.004188666457705992,
+      "source_witness_world_zero_m": [
+        0.056565642353607434,
+        -0.043105397498251666,
+        0.4337262807658425
+      ],
+      "candidate_witness_world_zero_m": [
+        0.056330992868402735,
+        -0.05925851778590253,
+        0.429160534041193
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.632455532033676,
+        0.6324555320336759,
+        -0.447213595499958
+      ],
+      "source_support_m": -0.03301886342183001,
+      "candidate_support_m": -0.035441505526004426,
+      "extent_delta_m": -0.0024226421041744148,
+      "source_witness_world_zero_m": [
+        0.06879556165131377,
+        0.07144285006838959,
+        0.2721594869706597
+      ],
+      "candidate_witness_world_zero_m": [
+        0.07971698419018006,
+        0.06186309241586128,
+        0.27947408007916574
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.5000000000000001,
+        0.5,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.11856902100965125,
+      "candidate_support_m": -0.12006216283911894,
+      "extent_delta_m": -0.0014931418294676924,
+      "source_witness_world_zero_m": [
+        0.060400813801358776,
+        0.06124234545561498,
+        0.2536966203847105
+      ],
+      "candidate_witness_world_zero_m": [
+        0.06656395968808906,
+        0.04666187214946162,
+        0.24985629251274877
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.316227766016838,
+        0.31622776601683794,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.18631686149844362,
+      "candidate_support_m": -0.18767311000844442,
+      "extent_delta_m": -0.001356248510000796,
+      "source_witness_world_zero_m": [
+        0.05518129856408604,
+        0.04843232741373746,
+        0.24494153260858945
+      ],
+      "candidate_witness_world_zero_m": [
+        0.06656395968808906,
+        0.04666187214946162,
+        0.24985629251274877
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.632455532033676,
+        0.6324555320336759,
+        0.447213595499958
+      ],
+      "source_support_m": 0.27226631564394416,
+      "candidate_support_m": 0.26978272835505906,
+      "extent_delta_m": -0.002483587288885092,
+      "source_witness_world_zero_m": [
+        0.06219326413302835,
+        0.08044785977122937,
+        0.4070809777857312
+      ],
+      "candidate_witness_world_zero_m": [
+        0.04961591055413827,
+        0.07793854824618653,
+        0.42286327418069247
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.5000000000000001,
+        0.5,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.36291446980035863,
+      "candidate_support_m": 0.3627867180880764,
+      "extent_delta_m": -0.00012775171228224247,
+      "source_witness_world_zero_m": [
+        0.05223501486943506,
+        0.07550856490753274,
+        0.4229102136597695
+      ],
+      "candidate_witness_world_zero_m": [
+        0.04961591055413827,
+        0.07793854824618653,
+        0.42286327418069247
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.316227766016838,
+        0.31622776601683794,
+        0.894427190999916
+      ],
+      "source_support_m": 0.4224649640688129,
+      "candidate_support_m": 0.420405462900507,
+      "extent_delta_m": -0.0020595011683058884,
+      "source_witness_world_zero_m": [
+        0.03899017663662205,
+        0.0634742229973528,
+        0.43610355297923986
+      ],
+      "candidate_witness_world_zero_m": [
+        0.05633098938892085,
+        0.05925851833382736,
+        0.42916053420651473
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        5.476786982642027e-17,
+        0.894427190999916,
+        -0.447213595499958
+      ],
+      "source_support_m": -0.03888444436177009,
+      "candidate_support_m": -0.04587987128762917,
+      "extent_delta_m": -0.006995426925859083,
+      "source_witness_world_zero_m": [
+        0.013244291529543518,
+        0.09502799045284287,
+        0.2770042417659121
+      ],
+      "candidate_witness_world_zero_m": [
+        0.04285161484233861,
+        0.09870475103726227,
+        0.30000001307260415
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        4.329780281177467e-17,
+        0.7071067811865476,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.12527137083818268,
+      "candidate_support_m": -0.1264514641957294,
+      "extent_delta_m": -0.0011800933575467076,
+      "source_witness_world_zero_m": [
+        0.018292285505656182,
+        0.08242672684952267,
+        0.25958719846595
+      ],
+      "candidate_witness_world_zero_m": [
+        0.020469104541967348,
+        0.07150000078127995,
+        0.25032937642881625
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        2.7383934913210134e-17,
+        0.447213595499958,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.19137186760823657,
+      "candidate_support_m": -0.19192562855634068,
+      "extent_delta_m": -0.0005537609481041095,
+      "source_witness_world_zero_m": [
+        0.018676839364025935,
+        0.06350000155910113,
+        0.24571025325610407
+      ],
+      "candidate_witness_world_zero_m": [
+        0.020469104541967348,
+        0.07150000078127995,
+        0.25032937642881625
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        5.476786982642027e-17,
+        0.894427190999916,
+        0.447213595499958
+      ],
+      "source_support_m": 0.27762262424879103,
+      "candidate_support_m": 0.2711538362038357,
+      "extent_delta_m": -0.00646878804495532,
+      "source_witness_world_zero_m": [
+        -0.013443115390053665,
+        0.10204601256333778,
+        0.4166910347855026
+      ],
+      "candidate_witness_world_zero_m": [
+        0.03069917008156456,
+        0.09493793390203771,
+        0.41644254230754474
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        4.329780281177467e-17,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.36949174834883647,
+      "candidate_support_m": 0.36816329969217515,
+      "extent_delta_m": -0.0013284486566613185,
+      "source_witness_world_zero_m": [
+        -0.01690314348424616,
+        0.09102338566662568,
+        0.4315168560332454
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.021543660931015583,
+        0.08297666711593236,
+        0.437684864476772
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        2.7383934913210134e-17,
+        0.447213595499958,
+        0.894427190999916
+      ],
+      "source_support_m": 0.42890288797944215,
+      "candidate_support_m": 0.42858553752065737,
+      "extent_delta_m": -0.00031735045878478196,
+      "source_witness_world_zero_m": [
+        -0.02738008470874504,
+        0.07680397480108106,
+        0.4411260192334645
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.021543660931015583,
+        0.08297666711593236,
+        0.437684864476772
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.6324555320336759,
+        0.632455532033676,
+        -0.447213595499958
+      ],
+      "source_support_m": 0.006994830029203505,
+      "candidate_support_m": 0.0014653971180457158,
+      "extent_delta_m": -0.005529432911157789,
+      "source_witness_world_zero_m": [
+        -0.20499742001328564,
+        0.0485999993974925,
+        0.34299999447718454
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23766948156758416,
+        0.03281044186902213,
+        0.37923964850370245
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.5,
+        0.5000000000000001,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.10386149838434139,
+      "candidate_support_m": -0.10596646030789302,
+      "extent_delta_m": -0.0021049619235516265,
+      "source_witness_world_zero_m": [
+        -0.13924664208559556,
+        0.04512717119467464,
+        0.27725431326722827
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.183281671808167,
+        0.029049490223171093,
+        0.3000000098536713
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.31622776601683794,
+        0.316227766016838,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.18335182072592604,
+      "candidate_support_m": -0.18562567187178503,
+      "extent_delta_m": -0.002273851145858985,
+      "source_witness_world_zero_m": [
+        -0.10616137899219635,
+        0.02868124595440348,
+        0.2526676347171303
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.13770821488526352,
+        0.02350909812515466,
+        0.2645347379743614
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.6324555320336759,
+        0.632455532033676,
+        0.447213595499958
+      ],
+      "source_support_m": 0.3515387709371354,
+      "candidate_support_m": 0.34910728018260356,
+      "extent_delta_m": -0.002431490754531862,
+      "source_witness_world_zero_m": [
+        -0.2245794967966595,
+        0.04515097235904015,
+        0.40460810087691396
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23999815030405366,
+        0.029982001998634,
+        0.398818016970352
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.5,
+        0.5000000000000001,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.4232332393575314,
+      "candidate_support_m": 0.42162298937043363,
+      "extent_delta_m": -0.001610249987097745,
+      "source_witness_world_zero_m": [
+        -0.21559665880925954,
+        0.04060076151679223,
+        0.4173832539114678
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.22076912256775422,
+        0.027615307956944692,
+        0.42063063461078104
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.31622776601683794,
+        0.316227766016838,
+        0.894427190999916
+      ],
+      "source_support_m": 0.458041337012575,
+      "candidate_support_m": 0.45757003679111746,
+      "extent_delta_m": -0.0004713002214575268,
+      "source_witness_world_zero_m": [
+        -0.18679946737095535,
+        0.0354029052514301,
+        0.43354538079398963
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.19767995461368595,
+        0.03837120854982243,
+        0.42812216427606464
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.894427190999916,
+        1.0953573965284054e-16,
+        -0.447213595499958
+      ],
+      "source_support_m": 0.05129139636637897,
+      "candidate_support_m": 0.05047621892261084,
+      "extent_delta_m": -0.0008151774437681336,
+      "source_witness_world_zero_m": [
+        -0.23494551990329027,
+        -1.244620767559823e-09,
+        0.35519999087047144
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23012198842990017,
+        1.841130810058733e-12,
+        0.34737572010168133
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.7071067811865476,
+        8.659560562354934e-17,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.07659035818215813,
+      "candidate_support_m": -0.08253232832079989,
+      "extent_delta_m": -0.005941970138641756,
+      "source_witness_world_zero_m": [
+        -0.1960834428331088,
+        -1.217459355551398e-09,
+        0.30439856612133
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.183281671808167,
+        0.029049490223171093,
+        0.3000000098536713
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.447213595499958,
+        5.476786982642027e-17,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.17171275066114514,
+      "candidate_support_m": -0.17502207669958733,
+      "extent_delta_m": -0.003309326038442195,
+      "source_witness_world_zero_m": [
+        -0.140442191409972,
+        1.7305442565063167e-09,
+        0.2622017872458822
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.13770821488526352,
+        0.02350909812515466,
+        0.2645347379743614
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.894427190999916,
+        1.0953573965284054e-16,
+        0.447213595499958
+      ],
+      "source_support_m": 0.39744894632066197,
+      "candidate_support_m": 0.39732598315088496,
+      "extent_delta_m": -0.00012296316977700172,
+      "source_witness_world_zero_m": [
+        -0.23847385977348823,
+        0.013081749588343322,
+        0.4117751420116885
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23717796668565605,
+        -0.006457351356840433,
+        0.4140919741810027
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.7071067811865476,
+        8.659560562354934e-17,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.4607010687609816,
+      "candidate_support_m": 0.4605173915697762,
+      "extent_delta_m": -0.00018367719120537807,
+      "source_witness_world_zero_m": [
+        -0.23672971082258215,
+        1.530312487840746e-09,
+        0.4147999888189778
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23717796668565605,
+        -0.006457351356840433,
+        0.4140919741810027
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.447213595499958,
+        5.476786982642027e-17,
+        0.894427190999916
+      ],
+      "source_support_m": 0.4791688111017514,
+      "candidate_support_m": 0.47644433253718543,
+      "extent_delta_m": -0.0027244785645659797,
+      "source_witness_world_zero_m": [
+        -0.21496491398996848,
+        -1.5395955239860815e-09,
+        0.42824456016565177
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23717796668565605,
+        -0.006457351356840433,
+        0.4140919741810027
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.632455532033676,
+        -0.6324555320336758,
+        -0.4472135954999579
+      ],
+      "source_support_m": 0.006443806727085177,
+      "candidate_support_m": 0.0013621251960301527,
+      "extent_delta_m": -0.005081681531055024,
+      "source_witness_world_zero_m": [
+        -0.21487402904915084,
+        -0.04845875875509735,
+        0.3580000100546513
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23778382719283253,
+        -0.033088641371852176,
+        0.3800257141854684
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.5000000000000001,
+        -0.49999999999999994,
+        -0.7071067811865475
+      ],
+      "source_support_m": -0.10322639443260953,
+      "candidate_support_m": -0.10521960142427861,
+      "extent_delta_m": -0.0019932069916690776,
+      "source_witness_world_zero_m": [
+        -0.15379966822741492,
+        -0.037936383961766525,
+        0.281562029702379
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.14832637985783245,
+        -0.024344973989600113,
+        0.2709000725838877
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.316227766016838,
+        -0.3162277660168379,
+        -0.8944271909999159
+      ],
+      "source_support_m": -0.1833518207607803,
+      "candidate_support_m": -0.18769691448060344,
+      "extent_delta_m": -0.00434509371982314,
+      "source_witness_world_zero_m": [
+        -0.1061613773342055,
+        -0.028681246562632434,
+        0.25266763438495166
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.14832637985783245,
+        -0.024344973989600113,
+        0.2709000725838877
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.632455532033676,
+        -0.6324555320336758,
+        0.4472135954999579
+      ],
+      "source_support_m": 0.3515461221117303,
+      "candidate_support_m": 0.3491173089027489,
+      "extent_delta_m": -0.0024288132089814174,
+      "source_witness_world_zero_m": [
+        -0.2248559169120255,
+        -0.04487998022412851,
+        0.40461686227944765
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.23998375443290668,
+        -0.029969223388255077,
+        0.3988788723906487
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.5000000000000001,
+        -0.49999999999999994,
+        0.7071067811865475
+      ],
+      "source_support_m": 0.42323311160535054,
+      "candidate_support_m": 0.42161814632884653,
+      "extent_delta_m": -0.0016149652765040101,
+      "source_witness_world_zero_m": [
+        -0.21559809474768377,
+        -0.040596373685841056,
+        0.41738516054582425
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.21981443808599965,
+        -0.027871208078067672,
+        0.42111790067567517
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -0.316227766016838,
+        -0.3162277660168379,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.4580318120688524,
+      "candidate_support_m": 0.4575279806551494,
+      "extent_delta_m": -0.0005038314137030264,
+      "source_witness_world_zero_m": [
+        -0.1879999942732011,
+        -0.03599999842198707,
+        0.432899176911429
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.1976790859215876,
+        -0.03837134834876737,
+        0.42807540178926273
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -1.643036094792608e-16,
+        -0.894427190999916,
+        -0.447213595499958
+      ],
+      "source_support_m": -0.03888490414168666,
+      "candidate_support_m": -0.045879870091852085,
+      "extent_delta_m": -0.006994965950165424,
+      "source_witness_world_zero_m": [
+        0.013412024283688996,
+        -0.09502920495761615,
+        0.27700769887460674
+      ],
+      "candidate_witness_world_zero_m": [
+        0.042860798505289927,
+        -0.09870475151195185,
+        0.30000001134814447
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -1.29893408435324e-16,
+        -0.7071067811865476,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.12526497510716944,
+      "candidate_support_m": -0.12645378279729658,
+      "extent_delta_m": -0.001188807690127136,
+      "source_witness_world_zero_m": [
+        0.017173163579232,
+        -0.08235578238242744,
+        0.25950720906931457
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0207412467857156,
+        -0.07150000005732374,
+        0.2503326547026421
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -8.21518047396304e-17,
+        -0.447213595499958,
+        -0.894427190999916
+      ],
+      "source_support_m": -0.19137069487215608,
+      "candidate_support_m": -0.19192856105735315,
+      "extent_delta_m": -0.0005578661851970701,
+      "source_witness_world_zero_m": [
+        0.018883699457442338,
+        -0.06350000237088366,
+        0.2457089425031975
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0207412467857156,
+        -0.07150000005732374,
+        0.2503326547026421
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -1.643036094792608e-16,
+        -0.894427190999916,
+        0.447213595499958
+      ],
+      "source_support_m": 0.27762262474132793,
+      "candidate_support_m": 0.2711538370369416,
+      "extent_delta_m": -0.006468787704386303,
+      "source_witness_world_zero_m": [
+        -0.013443114634580698,
+        -0.10204601283117558,
+        0.416691035351173
+      ],
+      "candidate_witness_world_zero_m": [
+        0.0306991678321413,
+        -0.09493793501919558,
+        0.41644254193611047
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -1.29893408435324e-16,
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.3694917479206292,
+      "candidate_support_m": 0.36816329936833214,
+      "extent_delta_m": -0.001328448552297079,
+      "source_witness_world_zero_m": [
+        -0.016903143539770127,
+        -0.09102338550132852,
+        0.43151685559296615
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.021543661926324793,
+        -0.08297666914704835,
+        0.43768486198767287
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        -8.21518047396304e-17,
+        -0.447213595499958,
+        0.894427190999916
+      ],
+      "source_support_m": 0.4289028877130402,
+      "candidate_support_m": 0.4285855362026821,
+      "extent_delta_m": -0.0003173515103581104,
+      "source_witness_world_zero_m": [
+        -0.02738008405334901,
+        -0.0768039754975852,
+        0.44112601858736594
+      ],
+      "candidate_witness_world_zero_m": [
+        -0.021543661926324793,
+        -0.08297666914704835,
+        0.43768486198767287
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.6324555320336758,
+        -0.6324555320336761,
+        -0.447213595499958
+      ],
+      "source_support_m": -0.03301886322374485,
+      "candidate_support_m": -0.03544150519279043,
+      "extent_delta_m": -0.002422641969045576,
+      "source_witness_world_zero_m": [
+        0.06879556166605595,
+        -0.07144285060620552,
+        0.272159487309163
+      ],
+      "candidate_witness_world_zero_m": [
+        0.07971698717578413,
+        -0.061863089742284806,
+        0.27947407977535027
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.4999999999999999,
+        -0.5000000000000002,
+        -0.7071067811865476
+      ],
+      "source_support_m": -0.11856902083659066,
+      "candidate_support_m": -0.120062169403781,
+      "extent_delta_m": -0.00149314856719035,
+      "source_witness_world_zero_m": [
+        0.06040081384063362,
+        -0.061242345611744034,
+        0.25369662027813733
+      ],
+      "candidate_witness_world_zero_m": [
+        0.06656395038130389,
+        -0.04666187098686086,
+        0.24985629439360912
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.31622776601683783,
+        -0.316227766016838,
+        -0.8944271909999159
+      ],
+      "source_support_m": -0.18631686135604392,
+      "candidate_support_m": -0.18767311500144757,
+      "extent_delta_m": -0.001356253645403649,
+      "source_witness_world_zero_m": [
+        0.05518129860731811,
+        -0.04843232763625715,
+        0.2449415325433392
+      ],
+      "candidate_witness_world_zero_m": [
+        0.06656395038130389,
+        -0.04666187098686086,
+        0.24985629439360912
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.6324555320336758,
+        -0.6324555320336761,
+        0.447213595499958
+      ],
+      "source_support_m": 0.27226631522193573,
+      "candidate_support_m": 0.269782731809709,
+      "extent_delta_m": -0.0024835834122267086,
+      "source_witness_world_zero_m": [
+        0.0621932627120418,
+        -0.08044786023164874,
+        0.40708097820053873
+      ],
+      "candidate_witness_world_zero_m": [
+        0.049615915323067326,
+        -0.07793854962593613,
+        0.4228632732099799
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.4999999999999999,
+        -0.5000000000000002,
+        0.7071067811865476
+      ],
+      "source_support_m": 0.36291446903914454,
+      "candidate_support_m": 0.3627867204760183,
+      "extent_delta_m": -0.00012774856312625094,
+      "source_witness_world_zero_m": [
+        0.05223501451628,
+        -0.07550856443513439,
+        0.4229102131670046
+      ],
+      "candidate_witness_world_zero_m": [
+        0.049615915323067326,
+        -0.07793854962593613,
+        0.4228632732099799
+      ]
+    },
+    {
+      "scope": "torso_only",
+      "outward_support_direction_zero": [
+        0.31622776601683783,
+        -0.316227766016838,
+        0.8944271909999159
+      ],
+      "source_support_m": 0.42246496370465253,
+      "candidate_support_m": 0.4204054636796784,
+      "extent_delta_m": -0.0020595000249741258,
+      "source_witness_world_zero_m": [
+        0.03899017712258784,
+        -0.06347422296797414,
+        0.4361035524106683
+      ],
+      "candidate_witness_world_zero_m": [
+        0.056330992868402735,
+        -0.05925851778590253,
+        0.429160534041193
+      ]
+    }
+  ],
+  "limitations": [
+    "Finite contact fixtures do not establish learned task success or whole-ROM clearance.",
+    "Footprint errors are1440 directional samples, not a continuous Hausdorff certificate.",
+    "Mechanical adjacent-role proxy exceptions are explicit; CAD interference remains a separate test."
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "schema": "goose_independent_collision_cost_gate_v1",
+  "script": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/benchmark_goose_collision_cost.py",
+    "sha256": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064"
+  },
+  "graph_layout": {
+    "mujoco_version": "3.10.0",
+    "header": "mesh_graph[mesh_graphadr: +2] = hull vertices, triangulated hull faces",
+    "fixtures": [
+      {
+        "name": "cube",
+        "expected": [
+          8,
+          12
+        ],
+        "actual": [
+          8,
+          12
+        ]
+      },
+      {
+        "name": "octahedron",
+        "expected": [
+          6,
+          8
+        ],
+        "actual": [
+          6,
+          8
+        ]
+      }
+    ]
+  },
+  "candidate": {
+    "model": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+      "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+    },
+    "referenced_mesh_assets": {
+      "files": [
+        {
+          "name": "torso_central_keel",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+          "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+          "file_vertices": 40,
+          "file_face_records": 76,
+          "file_triangulated_faces": 76
+        },
+        {
+          "name": "torso_upper_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+          "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+          "file_vertices": 39,
+          "file_face_records": 74,
+          "file_triangulated_faces": 74
+        },
+        {
+          "name": "neck_pitch_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+          "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+          "file_vertices": 39,
+          "file_face_records": 74,
+          "file_triangulated_faces": 74
+        },
+        {
+          "name": "neck_mid_pitch_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+          "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+          "file_vertices": 35,
+          "file_face_records": 66,
+          "file_triangulated_faces": 66
+        },
+        {
+          "name": "upper_bill_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+          "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+          "file_vertices": 45,
+          "file_face_records": 86,
+          "file_triangulated_faces": 86
+        },
+        {
+          "name": "lower_bill_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+          "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+          "file_vertices": 45,
+          "file_face_records": 86,
+          "file_triangulated_faces": 86
+        },
+        {
+          "name": "left_hip_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+          "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+          "file_vertices": 28,
+          "file_face_records": 52,
+          "file_triangulated_faces": 52
+        },
+        {
+          "name": "left_thigh_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+          "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+          "file_vertices": 34,
+          "file_face_records": 64,
+          "file_triangulated_faces": 64
+        },
+        {
+          "name": "left_shin_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+          "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+          "file_vertices": 28,
+          "file_face_records": 52,
+          "file_triangulated_faces": 52
+        },
+        {
+          "name": "left_actual_sole",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+          "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+          "file_vertices": 63,
+          "file_face_records": 122,
+          "file_triangulated_faces": 122
+        },
+        {
+          "name": "right_hip_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+          "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+          "file_vertices": 28,
+          "file_face_records": 52,
+          "file_triangulated_faces": 52
+        },
+        {
+          "name": "right_thigh_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+          "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+          "file_vertices": 34,
+          "file_face_records": 64,
+          "file_triangulated_faces": 64
+        },
+        {
+          "name": "right_shin_envelope",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+          "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+          "file_vertices": 27,
+          "file_face_records": 50,
+          "file_triangulated_faces": 50
+        },
+        {
+          "name": "right_actual_sole",
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+          "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+          "file_vertices": 63,
+          "file_face_records": 122,
+          "file_triangulated_faces": 122
+        }
+      ],
+      "ordered_names_and_sha256": "fdd6671068d571418bf104d0f2d10a5c6c939e3750089e0d0923116251685614"
+    },
+    "actual_collision_leaves": 14,
+    "actual_hull_vertices": 547,
+    "actual_maximum_hull_vertices": 63,
+    "actual_hull_triangles": 1038,
+    "loaded_mesh_vertices": 548,
+    "loaded_mesh_faces": 1040,
+    "rows": [
+      {
+        "geom": "torso_central_keel",
+        "body": "torso",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "torso_central_keel",
+        "loaded_vertices": 40,
+        "loaded_faces": 76,
+        "hull_vertices": 40,
+        "hull_faces": 76
+      },
+      {
+        "geom": "torso_upper_envelope",
+        "body": "torso",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "torso_upper_envelope",
+        "loaded_vertices": 39,
+        "loaded_faces": 74,
+        "hull_vertices": 39,
+        "hull_faces": 74
+      },
+      {
+        "geom": "neck_pitch_envelope",
+        "body": "neck_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "neck_pitch_envelope",
+        "loaded_vertices": 39,
+        "loaded_faces": 74,
+        "hull_vertices": 39,
+        "hull_faces": 74
+      },
+      {
+        "geom": "neck_mid_pitch_envelope",
+        "body": "neck_mid_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "neck_mid_pitch_envelope",
+        "loaded_vertices": 35,
+        "loaded_faces": 66,
+        "hull_vertices": 35,
+        "hull_faces": 66
+      },
+      {
+        "geom": "upper_bill_envelope",
+        "body": "head_roll",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "upper_bill_envelope",
+        "loaded_vertices": 45,
+        "loaded_faces": 86,
+        "hull_vertices": 45,
+        "hull_faces": 86
+      },
+      {
+        "geom": "lower_bill_envelope",
+        "body": "beak_hinge",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "lower_bill_envelope",
+        "loaded_vertices": 45,
+        "loaded_faces": 86,
+        "hull_vertices": 44,
+        "hull_faces": 84
+      },
+      {
+        "geom": "right_hip_envelope",
+        "body": "right_hip_roll",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "right_hip_envelope",
+        "loaded_vertices": 28,
+        "loaded_faces": 52,
+        "hull_vertices": 28,
+        "hull_faces": 52
+      },
+      {
+        "geom": "right_thigh_envelope",
+        "body": "right_hip_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "right_thigh_envelope",
+        "loaded_vertices": 34,
+        "loaded_faces": 64,
+        "hull_vertices": 34,
+        "hull_faces": 64
+      },
+      {
+        "geom": "right_shin_envelope",
+        "body": "right_knee_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "right_shin_envelope",
+        "loaded_vertices": 27,
+        "loaded_faces": 50,
+        "hull_vertices": 27,
+        "hull_faces": 50
+      },
+      {
+        "geom": "right_actual_sole",
+        "body": "right_ankle_roll",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "right_actual_sole",
+        "loaded_vertices": 63,
+        "loaded_faces": 122,
+        "hull_vertices": 63,
+        "hull_faces": 122
+      },
+      {
+        "geom": "left_hip_envelope",
+        "body": "left_hip_roll",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "left_hip_envelope",
+        "loaded_vertices": 28,
+        "loaded_faces": 52,
+        "hull_vertices": 28,
+        "hull_faces": 52
+      },
+      {
+        "geom": "left_thigh_envelope",
+        "body": "left_hip_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "left_thigh_envelope",
+        "loaded_vertices": 34,
+        "loaded_faces": 64,
+        "hull_vertices": 34,
+        "hull_faces": 64
+      },
+      {
+        "geom": "left_shin_envelope",
+        "body": "left_knee_pitch",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "left_shin_envelope",
+        "loaded_vertices": 28,
+        "loaded_faces": 52,
+        "hull_vertices": 28,
+        "hull_faces": 52
+      },
+      {
+        "geom": "left_actual_sole",
+        "body": "left_ankle_roll",
+        "type": 7,
+        "contype": 2,
+        "conaffinity": 3,
+        "mesh": "left_actual_sole",
+        "loaded_vertices": 63,
+        "loaded_faces": 122,
+        "hull_vertices": 63,
+        "hull_faces": 122
+      }
+    ],
+    "complexity_gate": "PASS",
+    "failures": []
+  }
+}

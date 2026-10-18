@@ -1,0 +1,23 @@
+{
+  "status": "STATIC_ONLY_ARCHIVAL_NO_NEW_EXECUTION",
+  "files": {
+    "README.md": {
+      "bytes": 1403,
+      "sha256": "ec515a1025308ac7bdce966b7d4bbd04594ef669256b504fb41e0711498a8097"
+    },
+    "recorded_static_results.json": {
+      "bytes": 6846,
+      "sha256": "9e218d4731c71f47fcab60fa420fd8b6124ffd6b180ebc606689ddb0eb78c549"
+    },
+    "executed_stdin_static_screen.py": {
+      "bytes": 3444,
+      "sha256": "456e34a6595b338f87c5b5aeb0cca152e4a53498304c06f6b3f1c0c897baade4"
+    },
+    "input_and_method.json": {
+      "bytes": 8284,
+      "sha256": "d8815dfca8b783fa5fed75a410bbd2789308f9ecec16fcd198bafc074ec02d08"
+    }
+  },
+  "physics_integrations_during_archival": 0,
+  "solver_executions_during_archival": 0
+}

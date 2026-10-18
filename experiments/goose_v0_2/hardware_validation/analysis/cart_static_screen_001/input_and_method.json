@@ -1,0 +1,242 @@
+{
+  "status": "STATIC_ONLY_ARCHIVED_EXECUTED_SOURCE",
+  "physics_integrations": 0,
+  "new_dynamics_order": false,
+  "new_solver_execution_during_archival": false,
+  "source_files": [
+    {
+      "name": "robot.xml",
+      "original_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+      "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "existing_lab_input_path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/robot.xml",
+      "lab_bytes_identical": true
+    },
+    {
+      "name": "physical_contract.json",
+      "original_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json",
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "existing_lab_input_path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/physical_contract.json",
+      "lab_bytes_identical": true
+    },
+    {
+      "name": "actuator_contract.json",
+      "original_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json",
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "existing_lab_input_path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/actuator_contract.json",
+      "lab_bytes_identical": true
+    },
+    {
+      "name": "verify_contacts.py",
+      "original_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/verify_contacts.py",
+      "sha256": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d",
+      "existing_lab_input_path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/verify_contacts.py",
+      "lab_bytes_identical": true
+    },
+    {
+      "name": "collision_manifest.json",
+      "original_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/collision_manifest.json",
+      "sha256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+      "existing_lab_input_path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/collision_manifest.json",
+      "lab_bytes_identical": true
+    }
+  ],
+  "original_cwd": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots",
+  "original_python": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/.venv/bin/python",
+  "archived_code_sha256": "456e34a6595b338f87c5b5aeb0cca152e4a53498304c06f6b3f1c0c897baade4",
+  "reproduce_command": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/.venv/bin/python /home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_static_screen_001/executed_stdin_static_screen.py",
+  "reproduce_requires_original_cwd": true,
+  "lab_input_equivalence_note": "The supplied unchanged Lab input can replace the single p assignment for portable reproduction; archived source intentionally retains the exact executed relative p assignment. No replay was run during archival.",
+  "full_input_pose": {
+    "root_xyz_quat_wxyz": [
+      0.0,
+      0.0,
+      0.005000003,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "public_named_q_rad": {
+      "neck_yaw": 0.0,
+      "neck_pitch": 0.464336,
+      "neck_mid_pitch": 0.73635,
+      "head_pitch": -1.200687,
+      "head_roll": 0.0,
+      "beak_hinge": 0.19682523003160665,
+      "right_hip_yaw": 0.0,
+      "right_hip_roll": 0.0,
+      "right_hip_pitch": 0.0,
+      "right_knee_pitch": 0.0,
+      "right_ankle_pitch": 0.0,
+      "right_ankle_roll": 0.0,
+      "left_hip_yaw": 0.0,
+      "left_hip_roll": 0.0,
+      "left_hip_pitch": 0.0,
+      "left_knee_pitch": 0.0,
+      "left_ankle_pitch": 0.0,
+      "left_ankle_roll": 0.0
+    },
+    "internal_named_q_rad": {
+      "beak_input_rotor": 0.19682523003160665,
+      "beak_coupler_link": -0.19682523003160665,
+      "left_yaw_input_rotor": 0.0,
+      "right_yaw_input_rotor": 0.0
+    },
+    "XML_hinge_order": [
+      "neck_yaw",
+      "neck_pitch",
+      "neck_mid_pitch",
+      "head_pitch",
+      "head_roll",
+      "beak_hinge",
+      "beak_input_rotor",
+      "beak_coupler_link",
+      "right_hip_yaw",
+      "right_hip_roll",
+      "right_hip_pitch",
+      "right_knee_pitch",
+      "right_ankle_pitch",
+      "right_ankle_roll",
+      "left_hip_yaw",
+      "left_hip_roll",
+      "left_hip_pitch",
+      "left_knee_pitch",
+      "left_ankle_pitch",
+      "left_ankle_roll",
+      "left_yaw_input_rotor",
+      "right_yaw_input_rotor"
+    ],
+    "full_ordered_qpos": [
+      0.0,
+      0.0,
+      0.005000003,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.464336,
+      0.73635,
+      -1.200687,
+      0.0,
+      0.19682523003160665,
+      0.19682523003160665,
+      -0.19682523003160665,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "all_qvel_zero": true
+  },
+  "TCP": {
+    "source_reference_zero_m": [
+      0.2049500197172165,
+      0.0,
+      0.5853050351142883
+    ],
+    "method": "At q=0/root=0 transform source world-zero grip point into actual compiled head_roll body frame; apply the same body point after setting the recorded pose.",
+    "actual_body_local_m": [
+      0.1375000197172165,
+      0.0,
+      -0.03249996488571172
+    ],
+    "actual_loaded_world_m": [
+      0.30000006240555865,
+      0.0,
+      0.4855002402409742
+    ],
+    "wrench_at_TCP_world_frame_order": [
+      "Fx",
+      "Fy",
+      "Fz",
+      "Mx",
+      "My",
+      "Mz"
+    ],
+    "positive_Fx_meaning": "Cart reaction on goose while goose backs away from the cart in front"
+  },
+  "support_definition": {
+    "type": "12 static point forces; six per true sole support polygon, z=0 ground plane; no root fixture",
+    "each_side_centre_y_m": {
+      "left": 0.125,
+      "right": -0.125
+    },
+    "XY_points_formula": [
+      [
+        "-.0299",
+        "y"
+      ],
+      [
+        ".0061",
+        "y-.036"
+      ],
+      [
+        ".09053355",
+        "y-.036"
+      ],
+      [
+        ".12653355",
+        "y"
+      ],
+      [
+        ".09053355",
+        "y+.036"
+      ],
+      [
+        ".0061",
+        "y+.036"
+      ]
+    ],
+    "mu": 0.65,
+    "friction_inequality": "abs(fx)+abs(fy)<=.65*fz; fz>=0",
+    "foot_forces_are_ideal_static_allocation_not_measured_pressure": true
+  },
+  "equilibrium": {
+    "equation": "A*tau+C*f+E*lambda = qfrc_bias-Jp.T*F",
+    "gravity_m_s2": 9.81,
+    "robot_mass_kg": 16.970203928833527,
+    "continuous_only": true,
+    "friction_budget": "abs(tau_i)+existing_actual_drive_dof_frictionloss_i<=u*continuous_cap_i",
+    "original_equality_rows_used": 5,
+    "no_invented_support": true,
+    "objective": "minimize maximum continuous utilisation u",
+    "zero_cart_body_in_robot_model": true
+  },
+  "cart_demand_snapshot": {
+    "effective_goods_kg": 20.0,
+    "vehicle_kg": 9.21,
+    "total_kg": 29.21,
+    "phase": "historical first CAD mass communicated at review; NOT final cart mass",
+    "rolling_coefficient_assumption": [
+      0.01,
+      0.03
+    ],
+    "acceleration_assumption_m_s2": 0.2,
+    "grade_assumption_fraction": 0.02,
+    "recorded_rounded_forces_N": {
+      "level_steady": [
+        2.87,
+        8.6
+      ],
+      "acceleration_addition": 5.84,
+      "grade_addition": 5.73,
+      "combined": [
+        14.44,
+        20.17
+      ]
+    },
+    "formula": "F\u2248c_rr*(20+m_cart)*g+(20+m_cart)*a+(20+m_cart)*g*grade; caster realignment/threshold terms remain unmeasured",
+    "no_cart_collision_or_dynamic_simulation": true
+  }
+}

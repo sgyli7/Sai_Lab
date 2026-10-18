@@ -1,0 +1,1388 @@
+{
+  "engine": "3.10.0",
+  "source_identity": {
+    "parameters": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_01/parameters.json",
+      "sha256": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600"
+    },
+    "mass_screen": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/geometry_mass_screen.json",
+      "sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2"
+    },
+    "context": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/goose_cart_context.json",
+      "sha256": "ec651c2ed30bf2f6728a3b9ef329426451b6b2b12009c9a4bb89c73968db4d3a"
+    },
+    "step": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.step",
+      "sha256": "34163bb2ef9e547c4a479968d57344c38fb78511bd35122ffe203ff275a281b4"
+    },
+    "glb": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.glb",
+      "sha256": "c6e86afd51a5cbdf9f1132cec3825f232a21b52a86b179197ed8644fbf59867a"
+    }
+  },
+  "current_source_hashes": {
+    "parameters": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600",
+    "mass_screen": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+    "context": "ec651c2ed30bf2f6728a3b9ef329426451b6b2b12009c9a4bb89c73968db4d3a",
+    "step": "34163bb2ef9e547c4a479968d57344c38fb78511bd35122ffe203ff275a281b4",
+    "glb": "c6e86afd51a5cbdf9f1132cec3825f232a21b52a86b179197ed8644fbf59867a"
+  },
+  "asset_hashes": {
+    "README.md": "536dbd52afe1ad9670211c042c73fce476c080f943b713516706c8ffbef48683",
+    "body_mass_map.json": "df185621e960d5c5e6517adc2ecc4f2ab8e7dd28d5a9a0c204a6a1a3c397400a",
+    "cart.xml": "14819c1b25b559b18c0beca685a8670b09ac25f418ff44af61011a7d2ec7e2c4",
+    "cart_collision.glb": "3c98330ed6aaecc34e1108f7e66838c0f35eb5592b7547b72f9170b1e366038d",
+    "collision_source_map.json": "191946d15487a7ab116cb3c4e9a84368a145c70c7b3fea457ef5fbcf24047147",
+    "goose_cart_scene.xml": "53b5c2f412b4a5dc76024ddcdbe2d49193cc71bd210a94dd20e6fd87f4bd14ad",
+    "history/collision_001_identity.json": "15f1739a976249cfc2e2bd8e1db31f00b471b7a7bbb1c01a7c20649c121f4aa4",
+    "history/collision_001_snapshot.zip": "9466513592c30cd450a4970f3e8b9cc0df7461c3bc68e4932fe5837051049c34",
+    "meshes/cart_bite_yoke_left.obj": "c0beda17127bdf4ba9e4ee239db1c10ca4237e315ad3b192ba5608757fa91376",
+    "meshes/cart_bite_yoke_right.obj": "7af69b25f2102250133bc1590be1ca9af485587791d5851c3651d3eb9a6045fd",
+    "meshes/cart_drawbar.obj": "f5b8f845416771c07173ad502638c27f949f4f7e377ed44f2494972a8b5cb2d3",
+    "meshes/cart_rotating_shaft.obj": "dd055d82249beaeed7d951a961f36af05758185f32b88580516782af52819363",
+    "source_identity.json": "c257200a063a84cce7321b9c7df7d831466c17daa2f9e1c132992e7e26b57dc4"
+  },
+  "active_cart_leaves": 18,
+  "active_robot_leaves": 14,
+  "ground_geoms": [
+    "ground"
+  ],
+  "cart_types": {
+    "mjGEOM_BOX": 8,
+    "mjGEOM_CYLINDER": 6,
+    "mjGEOM_MESH": 4
+  },
+  "mesh_graph": [
+    {
+      "geom": "cart_drawbar",
+      "loaded_vertices": 48,
+      "actual_support_vertices": 48,
+      "actual_hull_triangles": 92
+    },
+    {
+      "geom": "cart_rotating_shaft",
+      "loaded_vertices": 64,
+      "actual_support_vertices": 64,
+      "actual_hull_triangles": 124
+    },
+    {
+      "geom": "cart_bite_yoke_right",
+      "loaded_vertices": 38,
+      "actual_support_vertices": 38,
+      "actual_hull_triangles": 72
+    },
+    {
+      "geom": "cart_bite_yoke_left",
+      "loaded_vertices": 38,
+      "actual_support_vertices": 38,
+      "actual_hull_triangles": 72
+    }
+  ],
+  "cart_body_count": 10,
+  "cart_hinges": [
+    {
+      "name": "cart_root",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_swivel_80_-190",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_wheel_spin_80_-190",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_swivel_80_190",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_wheel_spin_80_190",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_wheel_spin_570_-190",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_wheel_spin_570_190",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_yaw_hinge",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limited": true,
+      "range": [
+        -1.0471975511965976,
+        1.0471975511965976
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_pitch_hinge",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limited": true,
+      "range": [
+        -0.4363323129985824,
+        0.4363323129985824
+      ],
+      "stiffness": 0.0
+    },
+    {
+      "name": "cart_roll_hinge",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ],
+      "stiffness": 0.0
+    }
+  ],
+  "cart_MCI_checks": [
+    {
+      "body": "cart_base",
+      "mass_kg": 5.643332696100431,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 4.440892098500626e-15,
+      "source_count": 75
+    },
+    {
+      "body": "cart_yaw",
+      "mass_kg": 0.1218388834431199,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 3.605841408438775e-19,
+      "source_count": 5
+    },
+    {
+      "body": "cart_pitch",
+      "mass_kg": 0.14208144260680222,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 7.935846893517183e-18,
+      "source_count": 4
+    },
+    {
+      "body": "cart_roll",
+      "mass_kg": 0.18451776965444816,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 4.119968255444917e-18,
+      "source_count": 10
+    },
+    {
+      "body": "wheel_80_-190",
+      "mass_kg": 0.3083987232596326,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 1.5178830414797062e-18,
+      "source_count": 4
+    },
+    {
+      "body": "caster_80_-190",
+      "mass_kg": 0.23774916340410393,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 1.3214865780582648e-19,
+      "source_count": 6
+    },
+    {
+      "body": "wheel_80_190",
+      "mass_kg": 0.3083987232596326,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 1.5178830414797062e-18,
+      "source_count": 4
+    },
+    {
+      "body": "caster_80_190",
+      "mass_kg": 0.23774916340410393,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 3.6762381714252192e-19,
+      "source_count": 6
+    },
+    {
+      "body": "wheel_570_-190",
+      "mass_kg": 0.3083987232596326,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 1.4659762382507325e-17,
+      "source_count": 4
+    },
+    {
+      "body": "wheel_570_190",
+      "mass_kg": 0.3083987232596326,
+      "mass_error_kg": 0.0,
+      "ledger_COM_error_m": 0.0,
+      "engine_local_COM_error_m": 0.0,
+      "fullI_error_kg_m2": 1.3914704322814942e-17,
+      "source_count": 4
+    }
+  ],
+  "parts_covered_once": true,
+  "cart_mass_kg": 7.800864011651539,
+  "compiled_robot_arrays_unchanged": {
+    "body_mass": true,
+    "body_ipos": true,
+    "body_inertia": true,
+    "body_iquat": true,
+    "body_pos": true,
+    "body_quat": true,
+    "body_parentid": true,
+    "jnt_type": true,
+    "jnt_axis": true,
+    "jnt_pos": true,
+    "jnt_range": true,
+    "jnt_limited": true,
+    "jnt_stiffness": true,
+    "dof_damping": true,
+    "dof_frictionloss": true,
+    "actuator_gear": true,
+    "actuator_ctrlrange": true,
+    "actuator_forcerange": true,
+    "actuator_trntype": true,
+    "actuator_gainprm": true,
+    "actuator_biasprm": true,
+    "actuator_dynprm": true,
+    "eq_data": true,
+    "eq_type": true,
+    "eq_active0": true
+  },
+  "robot_actuators": 18,
+  "baseline_robot_actuators": 18,
+  "equality_count": 3,
+  "baseline_equality_count": 3,
+  "timestep": 0.005,
+  "baseline_timestep": 0.005,
+  "cart_root_free": true,
+  "near_mouth_distances": [
+    {
+      "cart": "cart_mast",
+      "robot": "torso_central_keel",
+      "distance_m": 0.5090000023295675
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.508999991772415
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.5427497780750061
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.5239609194270796
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.2645000045341393
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.2731238911705488
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.5729443409360907
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.5707501807713172
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.5424149023004535
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "right_actual_sole",
+      "distance_m": 0.5133619697992533
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.5729443410944965
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.5707501815475869
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.5419620224192107
+    },
+    {
+      "cart": "cart_mast",
+      "robot": "left_actual_sole",
+      "distance_m": 0.5133619662354076
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "torso_central_keel",
+      "distance_m": 0.48559211456971785
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.48559210879316
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.5068186539148327
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.49310792351907606
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.22850000458217049
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.23712391147408765
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.5525801990588229
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.5512602398566743
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.6034694715895886
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "right_actual_sole",
+      "distance_m": 0.6259971374424994
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.5525801992555602
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.5512602405408353
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.6034694722626083
+    },
+    {
+      "cart": "cart_yaw_housing",
+      "robot": "left_actual_sole",
+      "distance_m": 0.6259971390114305
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "torso_central_keel",
+      "distance_m": 0.45284267954315816
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.4528426755826535
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.4731623509847831
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.4605547800899912
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495394873023522
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.20361376163191292
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.5181734574270463
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.5162515147088953
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.5717679345651548
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "right_actual_sole",
+      "distance_m": 0.6006325908467474
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.5236074218983026
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.5235758083471894
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.5760334815071984
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "left_actual_sole",
+      "distance_m": 0.6072233726586898
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "torso_central_keel",
+      "distance_m": 0.4533952062022414
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.4533952014318425
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.47316235098744513
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.460554780139039
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495596697100806
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.20361372481013235
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.5236074216473786
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.523575807736242
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.5760334807498321
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "right_actual_sole",
+      "distance_m": 0.6072233724184789
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.518173457594608
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.5162515153892988
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.5717679352260233
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "left_actual_sole",
+      "distance_m": 0.6006325915954814
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "torso_central_keel",
+      "distance_m": 0.3210772653158464
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.3210772642573165
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.3390129402160897
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.32933590105077926
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.06050000232733293
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.06912388896374243
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.39314112423109154
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.3932700372852337
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.4540976090178556
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "right_actual_sole",
+      "distance_m": 0.5121316965373808
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.39314112449221256
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.3932700377822353
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.4540976110447087
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "left_actual_sole",
+      "distance_m": 0.5121316963799215
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "torso_central_keel",
+      "distance_m": 0.2649474380589894
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.2649474379452516
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.2799929196263695
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.27532018977369205
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.0037701245466747954
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.013678017662974317
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.3434805124115248
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.34536792199673644
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.41090983523463825
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "right_actual_sole",
+      "distance_m": 0.48843192380345823
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.34348051272297475
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.34536792232103636
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.41070249652884344
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "left_actual_sole",
+      "distance_m": 0.48843192339244634
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "torso_central_keel",
+      "distance_m": 0.22148872056689475
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.22148872087387986
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.23577983244431996
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.22953794716656253
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008647816784548722
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.01775895841603649
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.28294627159130675
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.2774371391651437
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.35903783527986743
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "right_actual_sole",
+      "distance_m": 0.44495286687220137
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.32809822073963013
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.3381883565259098
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.3916187880158062
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "left_actual_sole",
+      "distance_m": 0.48622484132802546
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "torso_central_keel",
+      "distance_m": 0.2248127837296795
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.22481278405120322
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.2358715031638937
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.22988356849692615
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008639213209713862
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.017766115444627535
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.3281822776363274
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.33818835922069435
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.3917647572749415
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "right_actual_sole",
+      "distance_m": 0.4862248417469721
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.2828592926869376
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.2774371356014316
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.3590310227272764
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "left_actual_sole",
+      "distance_m": 0.44496456493939907
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "torso_central_keel",
+      "distance_m": 0.2163401952811478
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "torso_upper_envelope",
+      "distance_m": 0.21634019529680254
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "neck_pitch_envelope",
+      "distance_m": 0.2297125380329469
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "neck_mid_pitch_envelope",
+      "distance_m": 0.22738980190868036
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "upper_bill_envelope",
+      "distance_m": -5.793674682270047e-10
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "lower_bill_envelope",
+      "distance_m": -1.689539005225769e-07
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "right_hip_envelope",
+      "distance_m": 0.2879667960286264
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "right_thigh_envelope",
+      "distance_m": 0.2833303270224008
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "right_shin_envelope",
+      "distance_m": 0.3639449162206536
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "right_actual_sole",
+      "distance_m": 0.4506195020704232
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "left_hip_envelope",
+      "distance_m": 0.2878832993315431
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "left_thigh_envelope",
+      "distance_m": 0.2833303240227371
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "left_shin_envelope",
+      "distance_m": 0.36391743936509535
+    },
+    {
+      "cart": "cart_bite_bar",
+      "robot": "left_actual_sole",
+      "distance_m": 0.4506240131929676
+    }
+  ],
+  "nearest_unintended_contacts": [
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.0037701245466747954
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008639213209713862
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008647816784548722
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.013678017662974317
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.01775895841603649
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.017766115444627535
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.06050000232733293
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.06912388896374243
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495394873023522
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495596697100806
+    }
+  ],
+  "saved_pose_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    }
+  ],
+  "cavity_probes": [
+    {
+      "p_cart_m": [
+        0.025,
+        -0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        -0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        -0.2,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.025,
+        0.2,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        -0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        -0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        -0.2,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.325,
+        0.2,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        -0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        -0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        -0.2,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0,
+        0.3315
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0.2,
+        0.1815001
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0.2,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_cart_m": [
+        0.625,
+        0.2,
+        0.3315
+      ],
+      "hits": []
+    }
+  ],
+  "input_file_hashes": {
+    "runtime_adapter.py": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "actuator_source_facts.json": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79",
+    "verify_physics.py": "bab83cfa8fb5ea2a3fdd5bcd98ac52588606edefc812f335baa7f7428e29ecbb",
+    "reset_pose_seeds.json": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9",
+    "rebuild_contacts.py": "a02f5a51187bcb1cce141a3096be3660b52cd293e8649342e7820b6fafc2fc70",
+    "manifest.json": "de92f9557e6d63406e7b2cb84ba82431e6f54a829f5ca9362d6aafd6f62a68bc",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "robot.xml": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "verify_contacts.py": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d",
+    "verify_package.py": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef",
+    "requirements_rebuild.txt": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09",
+    "mass_ledger.json": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+    "engineering_mass_patch.json": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+    "THIRD_PARTY_NOTICES.md": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead",
+    "runtime_interface.json": "6283bcdf32427704882e5fd18a87bc1c8b524a1fa220aa9f342cdb32c1a5aa51",
+    "benchmark_collision_cost.py": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064",
+    "source_snapshot.json": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+    "requirements.txt": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c",
+    "material_mass_patch.json": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+    "collision_manifest.json": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+    "freeze_summary.json": "0df7a9ef46af649bc9076f0e20150f52f801df9f66a5c24c194b0e5027f5081d",
+    "actuator_contract.json": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "material_change_receipt.json": "5c49eafd92e35697e348fb0e31d41d4049dd5fb77dc752917394156ef05a0287",
+    "README.md": "0f91d14515be5ccbfb67ab7487a8ef7daa1c522138f40094fc952061fe139023",
+    "physical_contract.json": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "legacy_move14_reference.json": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a",
+    "source_inputs/whole05_full_SI_contract.json": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+    "source_inputs/conditional_mass_ledger.json": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+    "preview/runtime_contact_preview_manifest.json": "8812e0fd784d8a9cdcfef00d34be6095a0b94792ef0e0f3391ca0119c0b8d92b",
+    "preview/runtime_contacts.obj": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb",
+    "preview/runtime_contacts_three_views.png": "18b7a05dc4911e0ba5bdf91c619b37891f75ad8e7424129392f9ad9f892cea34",
+    "preview/runtime_contacts.glb": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239",
+    "validation/independent_critical_contact_sealed_source.json": "d93878073724c7216afd2d95d815512e16193891c1c8a50d3add4d3f0a6dc0e1",
+    "validation/independent_native_grip_contour_sealed_source.json": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353",
+    "validation/actual_complexity.json": "311c5221b7a77fed2450cb0773734ed318939f4c5968d6543ea83f40020c9799",
+    "meshes/upper_bill_envelope.obj": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+    "meshes/left_hip_envelope.obj": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+    "meshes/right_thigh_envelope.obj": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+    "meshes/right_shin_envelope.obj": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+    "meshes/torso_central_keel.obj": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+    "meshes/left_thigh_envelope.obj": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+    "meshes/right_hip_envelope.obj": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+    "meshes/neck_pitch_envelope.obj": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+    "meshes/torso_upper_envelope.obj": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+    "meshes/right_actual_sole.obj": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+    "meshes/lower_bill_envelope.obj": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+    "meshes/neck_mid_pitch_envelope.obj": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+    "meshes/left_actual_sole.obj": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+    "meshes/left_shin_envelope.obj": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+    "source_inputs/native_contact/lower_bill_parent03.obj": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab",
+    "source_inputs/native_contact/upper_grip_cassette_pad.brep": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2",
+    "source_inputs/native_contact/lower_grip_cassette_pad.brep": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69",
+    "source_inputs/native_contact/lower_pad_contact_face.json": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082"
+  },
+  "forward_calls": 1,
+  "physics_steps": 0,
+  "training_updates": 0,
+  "GPU": 0,
+  "wall_seconds": 1.0912078410037793
+}

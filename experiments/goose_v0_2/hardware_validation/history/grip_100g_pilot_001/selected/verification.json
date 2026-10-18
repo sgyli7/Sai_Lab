@@ -1,0 +1,158 @@
+{
+  "status": "PASS_RECORDED_DATA_CONSISTENCY_ONLY",
+  "engine": "3.10.0",
+  "physics_integrations": 0,
+  "training": 0,
+  "GPU": 0,
+  "rows_checked": 1540,
+  "max_independent_reconstruction_errors": {
+    "source_state_continuity": 0.0,
+    "post_pose_translation_m": 0.0,
+    "post_pose_rotation_matrix": 0.0,
+    "requested_torque_Nm": 0.0,
+    "limited_and_actual_torque_Nm": 0.0,
+    "target_slew_rad": 0.0,
+    "payload_wrench": 0.0,
+    "positive_normal_N": 0.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "rows": 140,
+      "commands": 35,
+      "hashes_match": true,
+      "hold5s_recomputed_from_actual_pose": null,
+      "hold_first_failure_recomputed": null,
+      "true_cold_reference_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 0.7000000000000005,
+          "translation_m": 0.5976645736128184,
+          "rotation_deg": 142.71132541102068
+        },
+        "correct_true_cold_max_translation_m": 0.5988267556874735,
+        "correct_true_cold_max_rotation_deg": 143.3987178833869,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.09500000000000001,
+          "translation_m": 0.03246694303189413,
+          "rotation_deg": 19.99962954714159
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      }
+    },
+    {
+      "attempt": 2,
+      "rows": 1044,
+      "commands": 261,
+      "hashes_match": true,
+      "hold5s_recomputed_from_actual_pose": {
+        "passed": false,
+        "time_s": 5.214999999999911,
+        "hold_start_s": 0.2150000000000001,
+        "max_relative_translation_m": 0.011655763661377997,
+        "max_relative_rotation_deg": 6.3028106810132805,
+        "failure": {
+          "time_s": 0.27000000000000013,
+          "hold_elapsed_s": 0.05500000000000002,
+          "reasons": [
+            "relative_rotation_over_2deg"
+          ],
+          "relative_drift_m": 0.00016020662289794647,
+          "relative_angle_deg": 2.042033055721146,
+          "jaw_normal_N": [
+            20.62227966173736,
+            21.858822050806243
+          ]
+        }
+      },
+      "hold_first_failure_recomputed": {
+        "time_s": 0.27000000000000013,
+        "elapsed_s": 0.05500000000000002,
+        "drift_m": 0.00016020662289794647,
+        "angle_deg": 2.042033055721146,
+        "failed": true
+      },
+      "true_cold_reference_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 5.219999999999911,
+          "translation_m": 0.02504595103217545,
+          "rotation_deg": 34.435543131730576
+        },
+        "correct_true_cold_max_translation_m": 0.02504595103217545,
+        "correct_true_cold_max_rotation_deg": 34.435543131730576,
+        "true_cold_first_30mm_crossing": null,
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      }
+    },
+    {
+      "attempt": 3,
+      "rows": 220,
+      "commands": 55,
+      "hashes_match": true,
+      "hold5s_recomputed_from_actual_pose": null,
+      "hold_first_failure_recomputed": {
+        "time_s": 0.4350000000000003,
+        "elapsed_s": 0.15500000000000014,
+        "drift_m": 0.00044324842303059074,
+        "angle_deg": 2.0570024468232204,
+        "failed": true
+      },
+      "true_cold_reference_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 1.0999999999999985,
+          "translation_m": 0.03156163251871392,
+          "rotation_deg": 34.5502659711458
+        },
+        "correct_true_cold_max_translation_m": 0.03156163251871392,
+        "correct_true_cold_max_rotation_deg": 40.43490409929967,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.49500000000000033,
+          "translation_m": 0.03001214123462079,
+          "rotation_deg": 37.55130115689473
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      }
+    },
+    {
+      "attempt": 4,
+      "rows": 136,
+      "commands": 34,
+      "hashes_match": true,
+      "hold5s_recomputed_from_actual_pose": null,
+      "hold_first_failure_recomputed": null,
+      "true_cold_reference_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 0.6800000000000005,
+          "translation_m": 0.4348624552342164,
+          "rotation_deg": 0.0023623376572264516
+        },
+        "correct_true_cold_max_translation_m": 0.4414579538317143,
+        "correct_true_cold_max_rotation_deg": 1.1544702448281234,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.08,
+          "translation_m": 0.03140390332833896,
+          "rotation_deg": 0.006403331694305557
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      }
+    }
+  ],
+  "limitations": "No new dynamics or causal A/B. Solved contact forces are actual recorded values, not independently rerun. A detected5ms cold-reference label issue is explicitly corrected separately; hold references and fail results are unchanged.",
+  "resources": {
+    "process_wall_s": 8.039536714553833,
+    "CPU_affinity": [
+      0
+    ],
+    "max_memory_bytes": 8589934592,
+    "maxRSS_KiB": 2848416,
+    "CPU_user_s": 7.82202,
+    "CPU_system_s": 0.218
+  }
+}

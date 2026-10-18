@@ -1,0 +1,54 @@
+{
+  "schema": "cart_R2_exact_source_copy_map_v1",
+  "files": [
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_01/parameters.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/parameters.json",
+      "bytes": 2826,
+      "sha256": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/geometry_mass_screen.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/geometry_mass_screen_corrected.json",
+      "bytes": 114849,
+      "sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/revision_r2_identity.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/revision_r2_identity.json",
+      "bytes": 2085,
+      "sha256": "498159c9a3489bb997aa3cbce7b1e4d50da1a501aac2621b5a1c5f0d34d36002"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/mass_metadata_correction_receipt.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/mass_metadata_correction_receipt.json",
+      "bytes": 551,
+      "sha256": "d323e0072e72adb66f5dcc00c136ed1f4667ee4346ddff5156c73b41514b2946"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/support_stability_review_r2.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/support_stability_review_r2.json",
+      "bytes": 8812,
+      "sha256": "ac4ce0e1877cddaa80d8a99d176c56a49529ec1ab698c11a18867fa36f334a8a"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/goose_cart_context.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/goose_cart_context.json",
+      "bytes": 5855,
+      "sha256": "ec651c2ed30bf2f6728a3b9ef329426451b6b2b12009c9a4bb89c73968db4d3a"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/tote_clearance.json",
+      "destination": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/tote_clearance.json",
+      "bytes": 15256,
+      "sha256": "26149f2a08ac5da92bd6f509d318fdf840f3c7f41d5c16e1eb543e81588d5ba6"
+    }
+  ],
+  "verbatim_source_copies": 7,
+  "reconstructed_metadata": {
+    "path": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/geometry_mass_screen_r2_original_reconstructed.json",
+    "sha256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+    "method": "one field reversal with original JSON serialization; not a silently replaced producer file"
+  },
+  "original_176_copy_manifest_unmodified_sha256": "62323d1a1ba3ecc80d7e363331ab369d343a66282d3253c3ed173991f2e72c89"
+}

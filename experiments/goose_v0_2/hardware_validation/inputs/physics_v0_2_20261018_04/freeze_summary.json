@@ -1,0 +1,31 @@
+{
+  "total_mass_kg": 16.970203928833527,
+  "baseline_unpublished_mass_kg": 17.41127300511843,
+  "material_delta_kg": -0.4410690762849043,
+  "body_count": 23,
+  "public_axes": 18,
+  "internal_coordinates": 4,
+  "E_delta_kg": 0.045695761845315985,
+  "native_internal_helper_joint_damping_nm_s_rad": {
+    "beak_input_rotor": 0.01,
+    "beak_coupler_link": 0.01,
+    "left_yaw_input_rotor": 0.01,
+    "right_yaw_input_rotor": 0.01
+  },
+  "physical_contract_sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+  "actuator_contract_sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+  "mass_ledger_sha256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+  "collision_revision": {
+    "package_id": "physics_v0_2_20261018_04",
+    "hardware_parent": "physics_v0_2_20261018_02",
+    "actual_leaves": 14,
+    "actual_convex_support_vertices": 547,
+    "maximum_convex_support_vertices": 63,
+    "actual_convex_hull_triangles": 1038,
+    "historical_old_move_relative_1p5_performance_gate": "REJECT",
+    "manager_acceptance": "Accepted bounded low-complexity training reference; GPU and batch performance untested",
+    "loaded_mesh_vertices": 548,
+    "loaded_mesh_faces": 1040,
+    "native_lower_face_outline_restored": true
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "schema": "goose_lab_validation_result_v1",
+  "experiment_id": "grip_100g_pilot_001",
+  "state": "RESULT_RETURNED_EXECUTION_STOPPED",
+  "main_objective": "通过物理证据优化硬件与夹持设计；本单不训练、不发布机体改型",
+  "result": "TESTED_LOCAL_STATIC_HOLD_NOT_PASSED_HARDWARE_ROOT_UNDETERMINED",
+  "accepted_UTC": "2026-10-18T10:33:40.949999+00:00",
+  "finished_UTC": "2026-10-18T11:16:29.699369+00:00",
+  "finished_Asia_Shanghai": "2026-10-18T19:16:29.699369+08:00",
+  "absolute_deadline_UTC": "2026-10-18T11:33:40.949999+00:00",
+  "actual_wall_from_acceptance_s": 2568.7493698596954,
+  "within3600s": true,
+  "stop_reason": "Scoped frozen04 exploratory question answered;4 attempts sufficient; fifth slot intentionally unused. Return for Rotbots review.",
+  "input_release": "physics_v0_2_20261018_04",
+  "ZIP_SHA256": "1dd11b212697f2b0005c045e4874c9ae1657e0f97863ae0cfde57b09c2d2a9ba",
+  "source_HEAD": "8d5b32f9a238cf588cf2e9b7758665d155418b45",
+  "Lab_worktree_clean": true,
+  "result_package_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001",
+  "report_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/SUMMARY.md",
+  "reproduction_document": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/REPRODUCE.md",
+  "read_only_verification_entry": "env PYTHONPATH='' CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 /home/ethan/ProjectBackups/2026-10-03/Sai_Lab/goose_warp_replay_admission_001/environments/mjlab_cuda_py312/bin/python /home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/verify_results.py /home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001",
+  "original_dynamics_entry": "PYTHONPATH='' CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 /home/ethan/ProjectBackups/2026-10-03/Sai_Lab/goose_warp_replay_admission_001/environments/mjlab_cuda_py312/bin/python /home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/pilot.py serve",
+  "original_request_stream": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/executed_requests.jsonl",
+  "original_harness_SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d",
+  "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+  "engine": "MuJoCo3.10.0 native CPU",
+  "historical_engine_usage": "3.15.0 read-only object/oldmodel identity only, zero integrations; not active experiment",
+  "scope": {
+    "local_fixture": "two declared soft welds: torso and head_roll to world",
+    "payload": "full100g four-component free body; no attachment, adhesion, online pose writes or applied forces",
+    "qualifies_free_robot": false,
+    "fixture_reactions_recorded_every5ms": true
+  },
+  "counts": {
+    "all_dynamic_attempts": 4,
+    "normal_contact_attempts": 3,
+    "negative_control_attempts": 1,
+    "max_authorized_attempts": 5,
+    "fifth_attempt": "NOT_EXECUTED",
+    "physics_integrations": 1540,
+    "command50Hz_updates": 385,
+    "drive200Hz_updates": 1540,
+    "NN_forwards": 0,
+    "training_updates": 0,
+    "GPU": 0,
+    "simulated_seconds_total": 7.7
+  },
+  "resources": {
+    "dynamic_executor_processes": 1,
+    "dynamic_executor_PID": 3246499,
+    "dynamic_executor_exited": true,
+    "dynamics_max_observed_threads": 1,
+    "dynamics_CPU_affinity": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "address_space_cap_GiB": 8,
+    "dynamics_maxRSS_GiB": 2.5010108947753906,
+    "dynamics_CPU_user_s": 3.493179,
+    "dynamics_CPU_system_s": 0.057116999999999994,
+    "CPU_video_postprocessing_after_executor_exit": true,
+    "postprocess_maxRSS_GiB": 2.716461181640625,
+    "video_encoder_child_maxRSS_GiB": 0.295501708984375,
+    "receipt_scope_note": "Per-process receipts are retained. MaxRSS values are not a sampled simultaneous total. Preparatory shell and initial historical-object read-only export CPU times are not exhaustively metered.",
+    "absolute_deadline_and_closeout_reserve_honored": true,
+    "automatic_continuation": false
+  },
+  "pass": [
+    "sealed ZIP/key source and all archived isolated files unchanged",
+    "796 named robot/drive fields and original3 equalities exactly matched",
+    "full100g object COM/inertia reconstructed from4+3+3+90g primitives",
+    "actual200Hz drive and350W continuous envelope reconstructed exactly from1540 recorded incoming states",
+    "expected negative-control free fall with zero jaw-payload contacts",
+    "four videos decoded with exact frame counts and1x durations",
+    "recorded relative poses/wrenches and drive timing independent consistency check passed"
+  ],
+  "failed": [
+    "attempt1 acquisition, then fall",
+    "attempt2 full5s static hold:11.6558mm and6.30281deg",
+    "attempt3 stability criterion exceeded before5s observation completion"
+  ],
+  "unexecuted": [
+    "fifth attempt",
+    "all30s holds",
+    "formal repeat/statistical acceptance",
+    "free-standing robot grasp",
+    "100g full pickup/lift/place/release",
+    "backward locomotion or dragging",
+    "heavier than100g",
+    "original16s whole-body Teacher shaking replay or speed optimization",
+    "hardware modification/release",
+    "training"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "classification": "ACQUISITION_FAILED_AND_FELL",
+      "is_negative_control": false,
+      "admission": "PASS_COLD_CONTACT_ADMISSION",
+      "sim_duration_s": 0.7000000000000005,
+      "actual_steps": 140,
+      "commands50Hz": 35,
+      "drive_updates200Hz": 140,
+      "first_bilateral_completed_step_time_s": null,
+      "hold_start_s": null,
+      "hold5s_status": "NOT_STARTED_NO_CAPTURE",
+      "hold5s": null,
+      "hold_first_failure": null,
+      "physical_latch_original": {
+        "time_s": 0.09500000000000001,
+        "reasons": [
+          "grip_center_departed_30mm"
+        ],
+        "relative_from_cold_m": 0.03245407315918072,
+        "relative_from_cold_deg": 19.999453110989215,
+        "extra_payload_contact": [],
+        "payload_lowest_z_m": 0.4005841818159156
+      },
+      "hold30s": "NOT_EXECUTED",
+      "drop_observed": true,
+      "min_full_object_clearance_m": -0.013488547841528538,
+      "max_jaw_penetration_m": 0.0005925144525155118,
+      "max_ground_penetration_m": 0.013488547841528545,
+      "mechanism_max_coordinate_residual_m": 0.0009981075521577898,
+      "selected_speed_excursion": {
+        "axis": "beak_hinge",
+        "time_s": 0.15000000000000005,
+        "actual_drive_velocity_after_rad_s": -1.4778213146280477,
+        "selected_slew_speed_rad_s": 0.9249999999999999,
+        "ratio": 1.5976446644627544
+      },
+      "selected_speed_exceeded_substeps": 28,
+      "worst_soft_joint_limit_violation": {
+        "violation_rad": 0.0018020628173233877,
+        "time_s": 0.29000000000000015,
+        "joint": "beak_hinge",
+        "actual_q_rad": -0.0018020628173233877,
+        "range_rad": [
+          0.0,
+          0.55
+        ]
+      },
+      "positive_mechanical_power_max_w": 0.5553860286220964,
+      "true_cold_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 0.7000000000000005,
+          "translation_m": 0.5976645736128184,
+          "rotation_deg": 142.71132541102068
+        },
+        "correct_true_cold_max_translation_m": 0.5988267556874735,
+        "correct_true_cold_max_rotation_deg": 143.3987178833869,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.09500000000000001,
+          "translation_m": 0.03246694303189413,
+          "rotation_deg": 19.99962954714159
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      },
+      "summary_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/summary.json",
+      "raw_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_substeps.jsonl.gz",
+      "trajectory_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_trajectory.npz",
+      "actual_scene_MJB": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_scene.mjb",
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 2,
+      "classification": "BILATERAL_RETAINED_BUT_STATIC_HOLD_FAILED",
+      "is_negative_control": false,
+      "admission": "PASS_COLD_CONTACT_ADMISSION",
+      "sim_duration_s": 5.219999999999911,
+      "actual_steps": 1044,
+      "commands50Hz": 261,
+      "drive_updates200Hz": 1044,
+      "first_bilateral_completed_step_time_s": 0.10500000000000002,
+      "hold_start_s": 0.2150000000000001,
+      "hold5s_status": "FAIL_FULL_5S_OBSERVED",
+      "hold5s": {
+        "passed": false,
+        "time_s": 5.214999999999911,
+        "hold_start_s": 0.2150000000000001,
+        "max_relative_translation_m": 0.011655763661377997,
+        "max_relative_rotation_deg": 6.3028106810132805,
+        "failure": {
+          "time_s": 0.27000000000000013,
+          "hold_elapsed_s": 0.05500000000000002,
+          "reasons": [
+            "relative_rotation_over_2deg"
+          ],
+          "relative_drift_m": 0.00016020662289794647,
+          "relative_angle_deg": 2.042033055721146,
+          "jaw_normal_N": [
+            20.62227966173736,
+            21.858822050806243
+          ]
+        }
+      },
+      "hold_first_failure": {
+        "time_s": 0.27000000000000013,
+        "hold_elapsed_s": 0.05500000000000002,
+        "reasons": [
+          "relative_rotation_over_2deg"
+        ],
+        "relative_drift_m": 0.00016020662289794647,
+        "relative_angle_deg": 2.042033055721146,
+        "jaw_normal_N": [
+          20.62227966173736,
+          21.858822050806243
+        ]
+      },
+      "physical_latch_original": null,
+      "hold30s": "NOT_EXECUTED",
+      "drop_observed": false,
+      "min_full_object_clearance_m": 0.3966363476523206,
+      "max_jaw_penetration_m": 0.0007714223878851146,
+      "max_ground_penetration_m": 0.0,
+      "mechanism_max_coordinate_residual_m": 0.0007165011684604483,
+      "selected_speed_excursion": {
+        "axis": "beak_hinge",
+        "time_s": 0.10000000000000002,
+        "actual_drive_velocity_after_rad_s": -1.0497169152801171,
+        "selected_slew_speed_rad_s": 0.9249999999999999,
+        "ratio": 1.1348290976001267
+      },
+      "selected_speed_exceeded_substeps": 3,
+      "worst_soft_joint_limit_violation": {
+        "violation_rad": 0.0
+      },
+      "positive_mechanical_power_max_w": 0.5391312553257248,
+      "true_cold_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 5.219999999999911,
+          "translation_m": 0.02504595103217545,
+          "rotation_deg": 34.435543131730576
+        },
+        "correct_true_cold_max_translation_m": 0.02504595103217545,
+        "correct_true_cold_max_rotation_deg": 34.435543131730576,
+        "true_cold_first_30mm_crossing": null,
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      },
+      "summary_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/summary.json",
+      "raw_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_substeps.jsonl.gz",
+      "trajectory_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_trajectory.npz",
+      "actual_scene_MJB": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_scene.mjb",
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 3,
+      "classification": "BILATERAL_HOLD_CRITERION_FAILED_OBSERVATION_CENSORED_NO_DROP",
+      "is_negative_control": false,
+      "admission": "PASS_COLD_CONTACT_ADMISSION",
+      "sim_duration_s": 1.0999999999999985,
+      "actual_steps": 220,
+      "commands50Hz": 55,
+      "drive_updates200Hz": 220,
+      "first_bilateral_completed_step_time_s": 0.15000000000000005,
+      "hold_start_s": 0.28000000000000014,
+      "hold5s_status": "NOT_COMPLETED_CRITERION_ALREADY_FAILED",
+      "hold5s": null,
+      "hold_first_failure": {
+        "time_s": 0.4350000000000003,
+        "hold_elapsed_s": 0.15500000000000014,
+        "reasons": [
+          "relative_rotation_over_2deg"
+        ],
+        "relative_drift_m": 0.00044324842303059074,
+        "relative_angle_deg": 2.0570024468232204,
+        "jaw_normal_N": [
+          21.05150215749056,
+          21.92317209193255
+        ]
+      },
+      "physical_latch_original": {
+        "time_s": 0.4900000000000003,
+        "reasons": [
+          "grip_center_departed_30mm"
+        ],
+        "relative_from_cold_m": 0.0300031055859306,
+        "relative_from_cold_deg": 37.61579487884615,
+        "extra_payload_contact": [],
+        "payload_lowest_z_m": 0.39645527594358215
+      },
+      "hold30s": "NOT_EXECUTED",
+      "drop_observed": false,
+      "min_full_object_clearance_m": 0.39621848156190587,
+      "max_jaw_penetration_m": 0.0007914085878286967,
+      "max_ground_penetration_m": 0.0,
+      "mechanism_max_coordinate_residual_m": 0.0013176869025920412,
+      "selected_speed_excursion": {
+        "axis": "beak_hinge",
+        "time_s": 0.14500000000000005,
+        "actual_drive_velocity_after_rad_s": -1.3373333609304041,
+        "selected_slew_speed_rad_s": 0.9249999999999999,
+        "ratio": 1.445765795600437
+      },
+      "selected_speed_exceeded_substeps": 12,
+      "worst_soft_joint_limit_violation": {
+        "violation_rad": 0.0
+      },
+      "positive_mechanical_power_max_w": 0.5408085555403299,
+      "true_cold_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 1.0999999999999985,
+          "translation_m": 0.03156163251871392,
+          "rotation_deg": 34.5502659711458
+        },
+        "correct_true_cold_max_translation_m": 0.03156163251871392,
+        "correct_true_cold_max_rotation_deg": 40.43490409929967,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.49500000000000033,
+          "translation_m": 0.03001214123462079,
+          "rotation_deg": 37.55130115689473
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      },
+      "summary_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/summary.json",
+      "raw_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_substeps.jsonl.gz",
+      "trajectory_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_trajectory.npz",
+      "actual_scene_MJB": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_scene.mjb",
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 4,
+      "classification": "EXPECTED_FREE_FALL_NEGATIVE_CONTROL",
+      "is_negative_control": true,
+      "admission": "PASS_COLD_CONTACT_ADMISSION",
+      "sim_duration_s": 0.6800000000000005,
+      "actual_steps": 136,
+      "commands50Hz": 34,
+      "drive_updates200Hz": 136,
+      "first_bilateral_completed_step_time_s": null,
+      "hold_start_s": null,
+      "hold5s_status": "NOT_STARTED_NO_CAPTURE",
+      "hold5s": null,
+      "hold_first_failure": null,
+      "physical_latch_original": {
+        "time_s": 0.08,
+        "reasons": [
+          "grip_center_departed_30mm"
+        ],
+        "relative_from_cold_m": 0.031283919134503214,
+        "relative_from_cold_deg": 0.006256064915101144,
+        "extra_payload_contact": [],
+        "payload_lowest_z_m": 0.40341303511428817
+      },
+      "hold30s": "NOT_EXECUTED",
+      "drop_observed": true,
+      "min_full_object_clearance_m": -0.006644964885712243,
+      "max_jaw_penetration_m": 0.0,
+      "max_ground_penetration_m": 0.006644964885712243,
+      "mechanism_max_coordinate_residual_m": 0.001697480578989996,
+      "selected_speed_excursion": {
+        "axis": "beak_hinge",
+        "time_s": 0.14500000000000005,
+        "actual_drive_velocity_after_rad_s": -1.4357297769340172,
+        "selected_slew_speed_rad_s": 0.9249999999999999,
+        "ratio": 1.5521402993881268
+      },
+      "selected_speed_exceeded_substeps": 28,
+      "worst_soft_joint_limit_violation": {
+        "violation_rad": 0.005678141131889649,
+        "time_s": 0.22500000000000012,
+        "joint": "beak_input_rotor",
+        "actual_q_rad": -0.005678141131889649,
+        "range_rad": [
+          0.0,
+          0.55
+        ]
+      },
+      "positive_mechanical_power_max_w": 0.5222846816293151,
+      "true_cold_correction": {
+        "original_label_issue": "relative_from_cold fields in original raw/summary used the first completed step at5ms as reference, not the saved t0 birth; original files retained",
+        "correct_true_cold_final": {
+          "time_s": 0.6800000000000005,
+          "translation_m": 0.4348624552342164,
+          "rotation_deg": 0.0023623376572264516
+        },
+        "correct_true_cold_max_translation_m": 0.4414579538317143,
+        "correct_true_cold_max_rotation_deg": 1.1544702448281234,
+        "true_cold_first_30mm_crossing": {
+          "time_s": 0.08,
+          "translation_m": 0.03140390332833896,
+          "rotation_deg": 0.006403331694305557
+        },
+        "original_safety_latch_reference_time_s": 0.005,
+        "hold_reference_affected": false
+      },
+      "summary_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/summary.json",
+      "raw_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_substeps.jsonl.gz",
+      "trajectory_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_trajectory.npz",
+      "actual_scene_MJB": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_scene.mjb",
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_continuous_1x_50fps.mp4"
+    }
+  ],
+  "metadata_corrections": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/metadata_corrections.json",
+  "independent_verification": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/verification.json",
+  "video_validation": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/video_validation.json",
+  "interpretation": {
+    "direct_evidence": [
+      "bilateral contact does not meet stability thresholds",
+      "case2 slow slip occurs inside the sliding friction cone",
+      "case2 normal directions oppose at7..8deg and drift mainly along mouth X",
+      "complete object carries approximately0.07196Nm initial gravity moment about handle axis",
+      "old/new geometry, solver, integrator, body mass and drive differ together"
+    ],
+    "not_excluded": [
+      "cold free-release acquisition transient and fixed-target closure choice",
+      "uncalibrated contact softness/material parameters and persistent tangential regularization",
+      "beak4bar constraint compliance and soft joint stops",
+      "real torque-speed and pad deformation calibration"
+    ],
+    "not_supported": [
+      "hardware incapable of100g",
+      "motor saturated or too small",
+      "a particular rib/groove is proven necessary",
+      "original16s shake is fixed",
+      "whole-robot or hardware qualification"
+    ]
+  },
+  "next_smallest_discriminating_test": {
+    "status": "PROPOSED_ONLY_REQUIRES_NEW_PM_ORDER_NOT_EXECUTED",
+    "proposal": "Keep04 geometry/material/solver/drive and the same full100g assembly; change only initial payload rotation about its12mm handle Y axis to approximately34.7078deg so its COM starts below the handle. Repeat the near-contact birth with no support/attachment, then observe5s and log contact-relative velocity, force-cone utilization and constraint regularizer. This removes the initial gravity-moment/acquisition-swing factor; it does not itself calibrate contact softness or prove a hardware redesign.",
+    "hardware_decision_owner": "Sai_Rotbots PM; no geometry or torque change selected by this pilot"
+  }
+}

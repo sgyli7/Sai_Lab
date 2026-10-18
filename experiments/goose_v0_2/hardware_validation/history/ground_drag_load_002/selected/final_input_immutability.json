@@ -1,0 +1,324 @@
+{
+  "status": "PASS",
+  "checked_UTC": "2026-10-18T12:13:20.186039+00:00",
+  "package": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/packages/physics_v0_2_20261018_04_native_reference.zip",
+    "sha256": "1dd11b212697f2b0005c045e4874c9ae1657e0f97863ae0cfde57b09c2d2a9ba"
+  },
+  "seven_core_files": {
+    "robot.xml": {
+      "expected_SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "source_SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "isolated_SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "unchanged": true
+    },
+    "physical_contract.json": {
+      "expected_SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "source_SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "isolated_SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "unchanged": true
+    },
+    "actuator_contract.json": {
+      "expected_SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "source_SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "isolated_SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "unchanged": true
+    },
+    "runtime_adapter.py": {
+      "expected_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "source_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "isolated_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "unchanged": true
+    },
+    "mass_ledger.json": {
+      "expected_SHA256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+      "source_SHA256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+      "isolated_SHA256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+      "unchanged": true
+    },
+    "collision_manifest.json": {
+      "expected_SHA256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+      "source_SHA256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+      "isolated_SHA256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+      "unchanged": true
+    },
+    "source_snapshot.json": {
+      "expected_SHA256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+      "source_SHA256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+      "isolated_SHA256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+      "unchanged": true
+    }
+  },
+  "archive_files_checked": 53,
+  "archive_members": [
+    {
+      "member": "physics_v0_2_20261018_04/LICENSE",
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/README.md",
+      "SHA256": "0f91d14515be5ccbfb67ab7487a8ef7daa1c522138f40094fc952061fe139023",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/THIRD_PARTY_NOTICES.md",
+      "SHA256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/actuator_contract.json",
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/actuator_source_facts.json",
+      "SHA256": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/benchmark_collision_cost.py",
+      "SHA256": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/collision_manifest.json",
+      "SHA256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/engineering_mass_patch.json",
+      "SHA256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/freeze_summary.json",
+      "SHA256": "0df7a9ef46af649bc9076f0e20150f52f801df9f66a5c24c194b0e5027f5081d",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/legacy_move14_reference.json",
+      "SHA256": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/mass_ledger.json",
+      "SHA256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/material_change_receipt.json",
+      "SHA256": "5c49eafd92e35697e348fb0e31d41d4049dd5fb77dc752917394156ef05a0287",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/material_mass_patch.json",
+      "SHA256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "SHA256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "SHA256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "SHA256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "SHA256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "SHA256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "SHA256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "SHA256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "SHA256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "SHA256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "SHA256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "SHA256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "SHA256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "SHA256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "SHA256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/physical_contract.json",
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/preview/runtime_contact_preview_manifest.json",
+      "SHA256": "8812e0fd784d8a9cdcfef00d34be6095a0b94792ef0e0f3391ca0119c0b8d92b",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/preview/runtime_contacts.glb",
+      "SHA256": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/preview/runtime_contacts.obj",
+      "SHA256": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/preview/runtime_contacts_three_views.png",
+      "SHA256": "18b7a05dc4911e0ba5bdf91c619b37891f75ad8e7424129392f9ad9f892cea34",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/rebuild_contacts.py",
+      "SHA256": "a02f5a51187bcb1cce141a3096be3660b52cd293e8649342e7820b6fafc2fc70",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/requirements.txt",
+      "SHA256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/requirements_rebuild.txt",
+      "SHA256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/reset_pose_seeds.json",
+      "SHA256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/robot.xml",
+      "SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/runtime_adapter.py",
+      "SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/runtime_interface.json",
+      "SHA256": "6283bcdf32427704882e5fd18a87bc1c8b524a1fa220aa9f342cdb32c1a5aa51",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/conditional_mass_ledger.json",
+      "SHA256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/native_contact/lower_bill_parent03.obj",
+      "SHA256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/native_contact/lower_grip_cassette_pad.brep",
+      "SHA256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/native_contact/lower_pad_contact_face.json",
+      "SHA256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/native_contact/upper_grip_cassette_pad.brep",
+      "SHA256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_inputs/whole05_full_SI_contract.json",
+      "SHA256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/source_snapshot.json",
+      "SHA256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/validation/actual_complexity.json",
+      "SHA256": "311c5221b7a77fed2450cb0773734ed318939f4c5968d6543ea83f40020c9799",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/validation/independent_critical_contact_sealed_source.json",
+      "SHA256": "d93878073724c7216afd2d95d815512e16193891c1c8a50d3add4d3f0a6dc0e1",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/validation/independent_native_grip_contour_sealed_source.json",
+      "SHA256": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/verify_contacts.py",
+      "SHA256": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/verify_package.py",
+      "SHA256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/verify_physics.py",
+      "SHA256": "bab83cfa8fb5ea2a3fdd5bcd98ac52588606edefc812f335baa7f7428e29ecbb",
+      "identical": true
+    },
+    {
+      "member": "physics_v0_2_20261018_04/manifest.json",
+      "SHA256": "de92f9557e6d63406e7b2cb84ba82431e6f54a829f5ca9362d6aafd6f62a68bc",
+      "identical": true
+    }
+  ],
+  "isolated_extra_generated_cache_files": [
+    "physics_v0_2_20261018_04/__pycache__/runtime_adapter.cpython-312.pyc"
+  ],
+  "note": "All archived members are byte-identical. Generated Python caches are not package members."
+}

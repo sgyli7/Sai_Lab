@@ -1,0 +1,28 @@
+{
+  "experiment_id": "ground_drag_load_002",
+  "status": "dynamics_stopped_five_attempts_completed_postprocessing",
+  "received_at_UTC": "2026-10-18T11:29:31+00:00",
+  "received_at_Asia_Shanghai": "2026-10-18T19:29:31+08:00",
+  "absolute_deadline_UTC": "2026-10-18T12:29:31+00:00",
+  "stop_new_experiments_UTC": "2026-10-18T12:24:31+00:00",
+  "order_path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/ground_drag_load_002/order.json",
+  "order_SHA256": "1d2e169d9af12795f6c13f6b3bbc0d8337ce8c157f5228aee8a4c270c2c5085c",
+  "output_dir": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002",
+  "worktree": "/home/ethan/.codex/worktrees/goose-picking/Sai_Lab",
+  "resources": {
+    "max_experiment_processes": 1,
+    "CPU_threads": 4,
+    "memory_GiB": 8,
+    "max_dynamic_attempts": 5,
+    "GPU": 0,
+    "training_updates": 0,
+    "automatic_continuation": false
+  },
+  "previous_order_closed_not_resumed": true,
+  "human_new_feedback_verified": true,
+  "source_authorization_turn": "01a14e8e-b604-7350-89b2-c2a1d261c862",
+  "input_identity_verified": true,
+  "actual_attempts": 5,
+  "actual_integrations": 5548,
+  "automatic_continuation": false
+}

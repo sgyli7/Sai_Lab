@@ -1,0 +1,46 @@
+{
+  "all_four_decoded_successfully": true,
+  "all_duration_and_frame_counts_match_1x_receipts": true,
+  "videos": [
+    {
+      "attempt": 1,
+      "decoded_frames": 35,
+      "decoded_duration_s": 0.7,
+      "expected_trajectory_duration_s": 0.7000000000000005,
+      "actual_video_SHA256": "8dc5097e85a23305dea028a1fd7e4c768826f9b063984b2844bb86c3a870ed9a",
+      "decode_returncode": 0,
+      "CPU_threads_flag": 1,
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 2,
+      "decoded_frames": 261,
+      "decoded_duration_s": 5.22,
+      "expected_trajectory_duration_s": 5.219999999999911,
+      "actual_video_SHA256": "f7fa8c65a286622850b3549c001046dad79ec6981c1fcd969ef4106315ff1eaa",
+      "decode_returncode": 0,
+      "CPU_threads_flag": 1,
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 3,
+      "decoded_frames": 55,
+      "decoded_duration_s": 1.1,
+      "expected_trajectory_duration_s": 1.0999999999999985,
+      "actual_video_SHA256": "a71cb0dd06add44ba741ecb8bcf123c64652cf8beb8c6acec744b44116e25bb5",
+      "decode_returncode": 0,
+      "CPU_threads_flag": 1,
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_continuous_1x_50fps.mp4"
+    },
+    {
+      "attempt": 4,
+      "decoded_frames": 34,
+      "decoded_duration_s": 0.68,
+      "expected_trajectory_duration_s": 0.6800000000000005,
+      "actual_video_SHA256": "6280a76c72626e78d3d96fd3f6d685d94878b17b7008ecb7edd40feafa63ebf1",
+      "decode_returncode": 0,
+      "CPU_threads_flag": 1,
+      "video_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_continuous_1x_50fps.mp4"
+    }
+  ]
+}

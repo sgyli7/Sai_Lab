@@ -1,0 +1,88 @@
+{
+  "schema": "goose_lab_validation_order_v1",
+  "experiment_id": "grip_100g_pilot_001",
+  "created_at_utc": "2026-10-18T10:32:30.372383+00:00",
+  "pm": {
+    "repository": "Sai_Rotbots",
+    "host_id": "local",
+    "thread_id": "01a13821-bf47-7383-a4f9-0f41d91f6654"
+  },
+  "executor": {
+    "repository": "Sai_Lab",
+    "host_id": "local",
+    "thread_id": "01a13301-ba51-73f2-85df-1389413ca758",
+    "thread_title": "Goose Sim2Sim 训练任务 Picking",
+    "expected_worktree": "/home/ethan/.codex/worktrees/goose-picking/Sai_Lab",
+    "baseline_git_commit": "8d5b32f9a238cf588cf2e9b7758665d155418b45"
+  },
+  "master_plan": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/design/grasp_lift_drag_validation.md",
+  "input_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/grip_100g_pilot_001/inputs.json",
+    "sha256": "01d9df917c49f2837087f87562630e0e6ae994ac2966f130a2403c183e2a8856"
+  },
+  "question": "Can the sealed04 physical beak make and retain a100g pure-contact grasp, and which observed gap relative to the old Pickup setup explains any failure?",
+  "comparison_baseline": {
+    "type": "historical_reference_only_not_causal_AB",
+    "teacher_record": "/home/ethan/ProjectBackups/2026-10-13/Sai_Lab/goose_picking_001/current_teacher.json",
+    "receipt": "/home/ethan/ProjectBackups/2026-10-13/Sai_Lab/goose_picking_001/physics_repair_20261015/final_crown_ribs209_213_audit/cohort_summary.json",
+    "qualification_transfer": false
+  },
+  "preflight": [
+    "Verify archive checksum and isolated source identity; do not edit sealed inputs.",
+    "Audit full physical object geometry/COM/inertia and the12mm handle baseline, not only the grasp stem.",
+    "Report old/new jaw geometry, effective contact parameters/condim, solver options, MCI, named axis mapping, passive linkage, force application and50Hz command/200Hz torque/physics timing.",
+    "Read actual drive torques and enforce continuous torque-speed/voltage/350W positive mechanical envelope, peak disabled.",
+    "Save control source/version, actual object/robot initial poses, contact admission and scene hashes before attempts. If unadmitted, return the reason instead of silently substituting old ribs or friction."
+  ],
+  "pilot": {
+    "max_attempts": 5,
+    "payload_mass_kg": 0.1,
+    "observation_hold_s": [
+      5,
+      30
+    ],
+    "preferred_minimum_hold_s": 5,
+    "static_relative_translation_limit_m": 0.002,
+    "static_relative_rotation_limit_deg": 2,
+    "require_no_drop": true,
+    "cold_resets_only_between_attempts": true,
+    "claim": "exploratory local grip only; no robust success rate, full pickup, backdrag or hardware qualification",
+    "fixture_boundary": "Explicitly label fixed-head/body rigs, their changed constraints and reactions; retain free payload. Such data do not qualify a free robot."
+  },
+  "allowed_changes": [
+    "Lab-owned experimental scene and logging/replay harness",
+    "Declared bounded control requests through the frozen drive envelope",
+    "Explicitly labelled fixture and negative-control scenes; record their differences from the free robot"
+  ],
+  "prohibited_changes": [
+    "Robot CAD/mesh/collision/material/physical or actuator contract changes",
+    "Old crowned ribs,condim6,friction or solver tuning silently imported into04",
+    "Payload attachment/adhesion, online object position edits, unreported root support",
+    "GPU use, training updates, additional concurrent experiment executors",
+    "Restoring prior long-term training or automated wakeups"
+  ],
+  "resources": {
+    "max_experiment_processes": 1,
+    "max_cpu_threads": 4,
+    "max_memory_gib": 8,
+    "max_wall_s_from_acceptance": 3600,
+    "gpu": 0,
+    "training_updates": 0,
+    "closeout_reserve_s": 300,
+    "stop_on_budget": true,
+    "automatic_continuation": false
+  },
+  "required_return": [
+    "Acceptance time/deadline and actual resource usage/exit receipt",
+    "Input/engine/controller/scene/object/source hashes, read-back hardware invariants and reproducible entry command",
+    "Preflight differences and admission decisions, actual attempt counts including failures",
+    "Per-physics-step state, grip relative pose, contacts/6D wrench/penetration, applied torque/speed/power/limits, drift and warnings",
+    "Raw continuous1x video bound to actual trajectory; if rendering unavailable, retain actual data and state the missing video explicitly",
+    "Structured summary of pass/fail/unexecuted, precise first failure, diagnostic versus whole-robot scope and next smallest discriminating test"
+  ],
+  "return_to": {
+    "method": "Write self-contained result package in Lab compliant outputs and final response with absolute paths; PM reads/waits this same chat.",
+    "do_not_modify_rotbots_sources": true
+  },
+  "stop": "Return at3600s or sooner when the scoped question is answered/admission fails; preserve evidence and stop. No automatic extra batch."
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "attempt": 1,
+    "status": "returned",
+    "config": {
+      "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+      "mass_kg": 0.5,
+      "duration_s": 6.0,
+      "label": "floor_supported_0p5kg_real_neck_60mm"
+    },
+    "scene_SHA256": "981314b3b74091401e1638396f0f919a9c21f23722b38954babb97154b013a9a",
+    "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+    "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "initial_contacts": [
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      }
+    ],
+    "UTC": "2026-10-18T11:40:35.006103+00:00",
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_001/summary.json",
+    "actual_integrations": 1200
+  },
+  {
+    "attempt": 2,
+    "status": "returned",
+    "config": {
+      "mode": "FREE_BASE_BACKDRAG",
+      "mass_kg": 0.5,
+      "duration_s": 6.0,
+      "label": "free_root_0p5kg_short_double_stance_retreat_60mm"
+    },
+    "scene_SHA256": "3ba3403ab0fdd07c962fae11e4bb2b28c726622f1c2c0805583b3db8cf8920d7",
+    "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+    "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "initial_contacts": [
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      }
+    ],
+    "UTC": "2026-10-18T11:41:06.432062+00:00",
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_002/summary.json",
+    "actual_integrations": 748
+  },
+  {
+    "attempt": 3,
+    "status": "returned",
+    "config": {
+      "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+      "mass_kg": 1.0,
+      "duration_s": 6.0,
+      "label": "floor_supported_1kg_real_neck_60mm_same_path"
+    },
+    "scene_SHA256": "9b3dc543287b93fb04d36793f0d7b7f6ab6fcf63a325aa821026e983dde4a9a6",
+    "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+    "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "initial_contacts": [
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      }
+    ],
+    "UTC": "2026-10-18T11:42:34.686993+00:00",
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_003/summary.json",
+    "actual_integrations": 1200
+  },
+  {
+    "attempt": 4,
+    "status": "returned",
+    "config": {
+      "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+      "mass_kg": 2.0,
+      "duration_s": 6.0,
+      "label": "floor_supported_2kg_real_neck_60mm_same_path"
+    },
+    "scene_SHA256": "386ac3eaa7a912c7d9fb6e89abcd2321a26e39a1c505c54f48134659d4a25d1d",
+    "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+    "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "initial_contacts": [
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      }
+    ],
+    "UTC": "2026-10-18T11:43:43.151277+00:00",
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_004/summary.json",
+    "actual_integrations": 1200
+  },
+  {
+    "attempt": 5,
+    "status": "returned",
+    "config": {
+      "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+      "mass_kg": 4.0,
+      "duration_s": 6.0,
+      "label": "floor_supported_4kg_real_neck_60mm_same_path_final_allowed_attempt"
+    },
+    "scene_SHA256": "c5f528172d40b84c49e0ddaadd1745cee03a395b6dc54452b325d2750e9277ec",
+    "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+    "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "initial_contacts": [
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      },
+      {
+        "a": "pilot_grip",
+        "b": "upper_bill_envelope",
+        "dist_m": -1.4187722541941783e-09,
+        "effective_mu5": [
+          0.65,
+          0.65,
+          0.01,
+          0.002,
+          0.002
+        ],
+        "dim": 3
+      }
+    ],
+    "UTC": "2026-10-18T11:44:16.893598+00:00",
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_005/summary.json",
+    "actual_integrations": 1200
+  }
+]

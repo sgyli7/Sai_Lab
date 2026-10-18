@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "analysis/cart_independent_review_001/README.md",
+      "bytes": 2413,
+      "sha256": "57239e1962722b58957da02b21fd2b487bca34c992dda5f07e863bfe0317a245"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_compiled_cart.json",
+      "bytes": 36788,
+      "sha256": "6803af4d21201373de429edb8e392f9fe4b89f8756b1f1d6c3da573db7054408"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_compiled_cart_collision001.json",
+      "bytes": 36303,
+      "sha256": "d9b5cd83ac2b15d303b816717ce4c820ca2ec766286bfa1e33c1180d981a91fe"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_native_geometry.json",
+      "bytes": 41859,
+      "sha256": "bb8655d2289b9e81283e20104491ac00a30f0b4adea370e55b0054c35a892e89"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_release_gate.json",
+      "bytes": 6258,
+      "sha256": "e87e7dbba7b56cb2715f3b182e7fd7a79512d33dbfb18530f553e9ceb4644ba8"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_scope_and_identity.json",
+      "bytes": 21207,
+      "sha256": "6e1d05162214bace129803d348e05257c3ad078defe2612533d061f9ab89c702"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_static_review.py",
+      "bytes": 9351,
+      "sha256": "fcab72b6cb215373d05c59ec6dcbb6c8d9b93333aeabc9a77223c7a1d33458e3"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/independent_visual_identity.json",
+      "bytes": 11951,
+      "sha256": "7259c794e3bd4810689866ac91e7914e3dd9d89e4e79aac28bb568f362597f72"
+    },
+    {
+      "path": "analysis/cart_independent_review_001/review_stdout.txt",
+      "bytes": 4404,
+      "sha256": "6254c09bc2b5824f018c6829e5b14061161803329190a5db9534864086602778"
+    }
+  ],
+  "physics_integrations": 0,
+  "training_updates": 0,
+  "GPU": 0
+}

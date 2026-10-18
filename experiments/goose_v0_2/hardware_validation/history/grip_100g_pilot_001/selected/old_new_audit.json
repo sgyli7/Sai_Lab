@@ -1,0 +1,88 @@
+{
+  "comparison_type": "HISTORICAL_ONLY_NOT_CAUSAL_AB",
+  "qualification_transfer": false,
+  "old": {
+    "robot_mass_kg": 10.43069082136313,
+    "collision_leaves": 22,
+    "jaw_geometry": "V3 paired crowned ribs,3 per side plus core/rear leaves",
+    "engine": "3.15.0",
+    "integrator_enum": 4,
+    "integrator_name": "mjINT_DISCRETE",
+    "impratio": 1000.0,
+    "jaw_condim": 6,
+    "jaw_solimp": [
+      0.95,
+      0.99,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "jaw_friction": [
+      0.65,
+      0.01,
+      0.002
+    ],
+    "jaw_solref": [
+      0.005,
+      1.0
+    ],
+    "commands_Hz": 50,
+    "physics_Hz": 200,
+    "drive_timing": "digital prepare/held ctrl and bounds across4 substeps; actuator-specific interpretation remains in archived source",
+    "original_internal_equalities": [
+      "robot/beak_distal_pin"
+    ],
+    "NN": 0
+  },
+  "sealed04_active": {
+    "robot_mass_kg": 16.970203928833527,
+    "collision_leaves": 14,
+    "jaw_geometry": "one convex upper envelope plus one convex lower envelope, no oldribs imported",
+    "engine": "3.10.0",
+    "integrator_enum": 3,
+    "integrator_name": "mjINT_IMPLICITFAST",
+    "impratio": 1.0,
+    "jaw_condim": 3,
+    "jaw_payload_effective_solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "jaw_friction": [
+      0.65,
+      0.01,
+      0.002
+    ],
+    "configured_jaw_solref": [
+      0.005,
+      1.0
+    ],
+    "refsafe_enabled": true,
+    "refsafe_used_standard_timeconst_s": 0.01,
+    "commands_Hz": 50,
+    "drive_Hz": 200,
+    "physics_Hz": 200,
+    "drive_timing": "target slew, logical PD, actual motor speed cap and350W power envelope recomputed every5ms",
+    "original_internal_equalities": [
+      "beak_distal_pin",
+      "left_yaw_input_rotor_belt_relation",
+      "right_yaw_input_rotor_belt_relation"
+    ],
+    "autoreset_disabled": true,
+    "NN": 0
+  },
+  "multiccd_correction": "Both versions use disable-bit flags. NativeCCD/MULTICCD are enabled by default here; 04 disableflags65536 disables only AUTORESET. enableflags0 is NOT evidence of single-contact collision. Actual case2 has2 contact points per jaw.",
+  "enum_sources": {
+    "3.10.0": "/home/ethan/ProjectBackups/2026-10-03/Sai_Lab/goose_warp_replay_admission_001/environments/mjlab_cuda_py312/lib/python3.12/site-packages/mujoco/include/mujoco/mjtype.h",
+    "3.15.0": "/home/ethan/ProjectBackups/2026-10-07/Sai_Lab/goose_native_discrete_admission_001/upstream315/mujoco/include/mujoco/mjtype.h"
+  },
+  "refsafe_primary_source": "https://raw.githubusercontent.com/google-deepmind/mujoco/3.10.0/src/engine/engine_core_constraint.c",
+  "unsupported_causal_claims": [
+    "ribs alone explain old success",
+    "larger motor required",
+    "mu=.65 is physically calibrated",
+    "selected speed is a measured absolute motor hard speed limit"
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "purpose": "READ-ONLY historical binary identity; not the active pilot engine.",
+  "engine": "3.15.0",
+  "physics_integrations": 0,
+  "NN": 0,
+  "training": 0,
+  "source_model": "/home/ethan/ProjectBackups/2026-10-13/Sai_Lab/goose_picking_001/crown_ribs_final100g_210/model.mjb",
+  "source_model_SHA256": "cbe127adfbf1a3db2390fefd88eab51ee3ef8aa18da01fcaa7a6c271d796635f",
+  "robot_body_mass_kg": 10.43069082136313,
+  "robot_collision_leaves": 22,
+  "robot_nu": 18,
+  "robot_njnt": 21,
+  "robot_body_names": [
+    "robot/torso",
+    "robot/neck_yaw",
+    "robot/neck_pitch",
+    "robot/neck_mid_pitch",
+    "robot/head_pitch",
+    "robot/head_roll",
+    "robot/beak_hinge",
+    "robot/beak_input_rotor",
+    "robot/beak_coupler_link",
+    "robot/right_hip_yaw",
+    "robot/right_hip_roll",
+    "robot/right_hip_pitch",
+    "robot/right_knee_pitch",
+    "robot/right_ankle_pitch",
+    "robot/right_ankle_roll",
+    "robot/left_hip_yaw",
+    "robot/left_hip_roll",
+    "robot/left_hip_pitch",
+    "robot/left_knee_pitch",
+    "robot/left_ankle_pitch",
+    "robot/left_ankle_roll"
+  ],
+  "equalities": [
+    "robot/beak_distal_pin"
+  ],
+  "options": {
+    "timestep": 0.005,
+    "impratio": 1000.0,
+    "iterations": 100,
+    "noslip_iterations": 0,
+    "solver": 2,
+    "integrator": 4,
+    "cone": 1,
+    "enableflags": 0,
+    "disableflags": 0
+  },
+  "jaw_related_geoms": [
+    {
+      "name": "robot/head_upper_bill_envelope",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/head_upper_bill_envelope_rear",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/head_upper_bill_envelope_rib1",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/head_upper_bill_envelope_rib2",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/head_upper_bill_envelope_rib3",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/lower_bill_envelope",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/lower_bill_envelope_rear",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/lower_bill_envelope_rib1",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/lower_bill_envelope_rib2",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "robot/lower_bill_envelope_rib3",
+      "condim": 6,
+      "friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "solref": [
+        0.005,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "actuation_mapping": [
+    {
+      "name": "robot/neck_yaw_motor",
+      "joint": "robot/neck_yaw",
+      "joint_qposadr": 7,
+      "joint_dofadr": 6
+    },
+    {
+      "name": "robot/neck_pitch_motor",
+      "joint": "robot/neck_pitch",
+      "joint_qposadr": 8,
+      "joint_dofadr": 7
+    },
+    {
+      "name": "robot/neck_mid_pitch_motor",
+      "joint": "robot/neck_mid_pitch",
+      "joint_qposadr": 9,
+      "joint_dofadr": 8
+    },
+    {
+      "name": "robot/head_pitch_motor",
+      "joint": "robot/head_pitch",
+      "joint_qposadr": 10,
+      "joint_dofadr": 9
+    },
+    {
+      "name": "robot/head_roll_motor",
+      "joint": "robot/head_roll",
+      "joint_qposadr": 11,
+      "joint_dofadr": 10
+    },
+    {
+      "name": "robot/beak_hinge_motor",
+      "joint": "robot/beak_input_rotor",
+      "joint_qposadr": 13,
+      "joint_dofadr": 12
+    },
+    {
+      "name": "robot/right_hip_yaw_motor",
+      "joint": "robot/right_hip_yaw",
+      "joint_qposadr": 15,
+      "joint_dofadr": 14
+    },
+    {
+      "name": "robot/right_hip_roll_motor",
+      "joint": "robot/right_hip_roll",
+      "joint_qposadr": 16,
+      "joint_dofadr": 15
+    },
+    {
+      "name": "robot/right_hip_pitch_motor",
+      "joint": "robot/right_hip_pitch",
+      "joint_qposadr": 17,
+      "joint_dofadr": 16
+    },
+    {
+      "name": "robot/right_knee_pitch_motor",
+      "joint": "robot/right_knee_pitch",
+      "joint_qposadr": 18,
+      "joint_dofadr": 17
+    },
+    {
+      "name": "robot/right_ankle_pitch_motor",
+      "joint": "robot/right_ankle_pitch",
+      "joint_qposadr": 19,
+      "joint_dofadr": 18
+    },
+    {
+      "name": "robot/right_ankle_roll_motor",
+      "joint": "robot/right_ankle_roll",
+      "joint_qposadr": 20,
+      "joint_dofadr": 19
+    },
+    {
+      "name": "robot/left_hip_yaw_motor",
+      "joint": "robot/left_hip_yaw",
+      "joint_qposadr": 21,
+      "joint_dofadr": 20
+    },
+    {
+      "name": "robot/left_hip_roll_motor",
+      "joint": "robot/left_hip_roll",
+      "joint_qposadr": 22,
+      "joint_dofadr": 21
+    },
+    {
+      "name": "robot/left_hip_pitch_motor",
+      "joint": "robot/left_hip_pitch",
+      "joint_qposadr": 23,
+      "joint_dofadr": 22
+    },
+    {
+      "name": "robot/left_knee_pitch_motor",
+      "joint": "robot/left_knee_pitch",
+      "joint_qposadr": 24,
+      "joint_dofadr": 23
+    },
+    {
+      "name": "robot/left_ankle_pitch_motor",
+      "joint": "robot/left_ankle_pitch",
+      "joint_qposadr": 25,
+      "joint_dofadr": 24
+    },
+    {
+      "name": "robot/left_ankle_roll_motor",
+      "joint": "robot/left_ankle_roll",
+      "joint_qposadr": 26,
+      "joint_dofadr": 25
+    }
+  ],
+  "interpretation": "Historical only: coupled geometry/engine/solver/drive/scene changes; not a causal A/B and no qualification transfer"
+}

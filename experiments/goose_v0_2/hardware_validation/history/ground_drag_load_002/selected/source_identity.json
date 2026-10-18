@@ -1,0 +1,49 @@
+{
+  "source_files": {
+    "drag_pilot.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/drag_pilot.py",
+      "SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/drag_pilot.py"
+    },
+    "frozen_helpers.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/frozen_helpers.py",
+      "SHA256": "6076e38cb1b3bbc62c276e25c06750fc4810e49726ce1509f7ff3fa420b2c1b0",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/frozen_helpers.py"
+    },
+    "prepare_kinematics.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/prepare_kinematics.py",
+      "SHA256": "14796ee43ef34a0ce519f480106a2600e9a4b4ef9916b0644ca555f2de6b06e3",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/prepare_kinematics.py"
+    },
+    "prepare_kinematics_flat_rejected.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/prepare_kinematics_flat_rejected.py",
+      "SHA256": "294f0efa511670dfec2a28e34f68e2d15da0f74606be8eec8051175cdef6dd4b",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/prepare_kinematics_flat_rejected.py"
+    },
+    "analyze_and_render.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/analyze_and_render.py",
+      "SHA256": "d952e161c7e8dde17e6109e05f49e5bbad619d93b41cbb9d300bec53888e52f4",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/analyze_and_render.py"
+    },
+    "read_only_verify.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/read_only_verify.py",
+      "SHA256": "b0a83475431fb26b967886dcdc67d6855028689bc0243b62fd7beb5ba125065b",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/read_only_verify.py"
+    },
+    "closeout.py": {
+      "source_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/closeout.py",
+      "SHA256": "104f86593563e47ce6771aa1750761b96507c6cd0a39fc3a8a7adfb6f661f338",
+      "snapshot_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/source_snapshot/closeout.py"
+    }
+  },
+  "dynamics_harness_all5_declarations_match": true,
+  "engine": "native MuJoCo3.10.0",
+  "no_policy_inference_or_training": true,
+  "executed_requests": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/executed_requests.jsonl",
+  "original_adapter": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/runtime_adapter.py",
+    "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+  },
+  "earlier_analysis_failure_preserved": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/postprocess_first_failure",
+  "earlier_analysis_failure_note": "TypeError abs(list), corrected to numpy array before successful analysis. Both calls contained zero physics integrations."
+}

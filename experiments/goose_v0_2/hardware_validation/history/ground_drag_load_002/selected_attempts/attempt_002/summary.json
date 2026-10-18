@@ -1,0 +1,64 @@
+{
+  "attempt": 2,
+  "mode": "FREE_BASE_BACKDRAG",
+  "config": {
+    "mode": "FREE_BASE_BACKDRAG",
+    "mass_kg": 0.5,
+    "duration_s": 6.0,
+    "label": "free_root_0p5kg_short_double_stance_retreat_60mm"
+  },
+  "admission_passed": true,
+  "mass_kg": 0.5,
+  "actual_steps": 748,
+  "actual_command_updates": 187,
+  "actual_drive_updates": 748,
+  "sim_duration_s": 3.7399999999999425,
+  "bilateral_capture_ever": true,
+  "bilateral_loaded_duty": 1.0,
+  "first_failure": {
+    "time_s": 3.534999999999947,
+    "reasons": [
+      "body_tilt_over50deg"
+    ],
+    "object_backwards_m": 0.2786242025800827,
+    "torso_backwards_m": 0.04229191690593171,
+    "margin_m": 0.027004670100664506,
+    "jaw_positive_normal_N": [
+      19.50697477639024,
+      25.691463709028138
+    ],
+    "ground_N": 0.0
+  },
+  "runtime_error": null,
+  "startup20mm_time_s": 1.3299999999999936,
+  "startup20mm_within5s": true,
+  "final_object_backwards_m": 0.2812519602036109,
+  "max_object_backwards_m": 0.28465302041018153,
+  "final_object_backwards_from_pull_entry_m": 0.26679159774543126,
+  "final_torso_backwards_m": 0.04418148527482762,
+  "max_torso_backwards_m": 0.06060033014651874,
+  "loaded_mean_ground_normal_N": 5.020294406608177,
+  "weight_N": 4.905,
+  "loaded_ground_contact_duty": 0.7067395264116576,
+  "ground_support_classification": "FLAT_NOMINAL",
+  "min_grasp_margin_m": 0.02520923994891252,
+  "max_jaw_payload_penetration_m": 0.0011307330132542537,
+  "max_object_floor_penetration_m": 0.0005010719790459195,
+  "foot_contact_slip_integral_m": [
+    0.012368880751554697,
+    0.01225994377664094
+  ],
+  "foot_max_stance_center_excursion_m": [
+    0.055462474791470845,
+    0.05560932451968275
+  ],
+  "max_positive_mechanical_power_w": 25.505296578898054,
+  "continuous60s": "NOT_EXECUTED",
+  "formal_0p5m_whole_robot": "NOT_QUALIFIED_SHORT_PILOT",
+  "actual_trajectory_SHA256": "83f1a3d58b238506fffadc44c5f4e7aa6aa95ca1e955bf6a5476e25ba805b075",
+  "actual_raw_SHA256": "9b8730270b733a4da2dd60e29d3bcde08301627ee305b94507b6fb6ba3f5a83f",
+  "model_MJB_SHA256": "46ec3ba0bc494207b73509a50c78410dd590fefe9a443b2b89cf3bb3df26d3da",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0
+}

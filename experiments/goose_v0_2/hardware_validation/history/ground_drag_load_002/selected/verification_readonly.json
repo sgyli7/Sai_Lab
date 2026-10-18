@@ -1,0 +1,27 @@
+{
+  "status": "PASS_READ_ONLY_RECOMPUTATION",
+  "engine": "3.10.0",
+  "rows_checked": 5548,
+  "counts": {
+    "JSON_results_compared": 10,
+    "NPZ_arrays_compared": 10,
+    "physics_integrations": 0
+  },
+  "physics_integrations": 0,
+  "NN": 0,
+  "GPU": 0,
+  "training": 0,
+  "evidence_files_written": 0,
+  "source_audit_SHA256": "d952e161c7e8dde17e6109e05f49e5bbad619d93b41cbb9d300bec53888e52f4",
+  "resources": {
+    "process_wall_s": 40.62603044509888,
+    "CPU_affinity": [
+      0
+    ],
+    "maxRSS_KiB": 2848416,
+    "CPU_user_s": 39.637181,
+    "CPU_system_s": 1.001903,
+    "address_space_cap_bytes": 8589934592
+  },
+  "limits": "Checks recorded state/drive/contact-wrench consistency and prior derived outputs. Does not regenerate solved contact forces or prove hardware capability."
+}

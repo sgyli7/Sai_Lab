@@ -1,0 +1,16 @@
+{
+  "repository": "/home/ethan/Projects/Sai_Lab",
+  "dedicated_worktree": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation",
+  "branch": "codex/goose-v02-hardware-validation",
+  "base_commit": "05b3a38a8d8ec1988cfbd21850f373ae98052a24",
+  "base_selection": "Committed source only; no uncommitted files copied from main or V0.1 worktrees",
+  "data_root_relative": "experiments/goose_v0_2/hardware_validation",
+  "directory_scope": "Repository-level engine-independent validation data under experiments; Bevy/Unity/Godot runtime assets and defaults unchanged",
+  "rules_read": [
+    "/home/ethan/Projects/Sai_Lab/README.md",
+    "/home/ethan/Projects/Sai_Lab/Bevy_Sim2Sim/AGENTS.md",
+    "/home/ethan/Projects/Sai_Lab/Bevy_Sim2Sim/bevy_engineering_rules.md"
+  ],
+  "committed": false,
+  "pushed": false
+}

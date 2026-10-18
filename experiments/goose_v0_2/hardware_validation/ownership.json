@@ -1,0 +1,16 @@
+{
+  "schema": "goose_v02_hardware_validation_ownership_v1",
+  "robot": "Goose V0.2",
+  "current_scope": "DATA_HANDOFF_ONLY_NO_NEW_EXECUTION",
+  "current_owner": "Sai_Rotbots Goose V0.2 hardware optimization chat",
+  "current_executor": null,
+  "picking_scope": "Goose V0.1 only",
+  "picking_is_V02_executor": false,
+  "active_experiment_orders": [],
+  "automatic_continuation": false,
+  "simulations_started_by_handoff": 0,
+  "training_started_by_handoff": 0,
+  "GPU_started_by_handoff": 0,
+  "no_sends_to_other_chats": true,
+  "no_changes_to_V01_Picking_Move_Standup": true
+}

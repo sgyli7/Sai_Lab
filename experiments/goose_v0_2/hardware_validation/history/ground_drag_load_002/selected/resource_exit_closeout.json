@@ -1,0 +1,46 @@
+{
+  "status": "CLOSED_NO_AUTOMATIC_CONTINUATION",
+  "finished_UTC": "2026-10-18T12:13:21.216698+00:00",
+  "acceptance_UTC": "2026-10-18T11:29:31+00:00",
+  "absolute_deadline_UTC": "2026-10-18T12:29:31+00:00",
+  "wall_s_from_acceptance": 2630.2166979312897,
+  "within3600s": true,
+  "closeout_process_wall_s": 1.116365909576416,
+  "closeout_CPU_user_s": 0.107794,
+  "closeout_CPU_system_s": 0.037274,
+  "closeout_maxRSS_KiB": 2848416,
+  "closeout_CPU_affinity": [
+    0
+  ],
+  "address_space_cap_bytes": 8589934592,
+  "total_counts": {
+    "dynamic_attempts": 5,
+    "physics_integrations": 5548,
+    "drive_updates": 5548,
+    "command_updates": 1387,
+    "sim_seconds": 27.74,
+    "NN": 0,
+    "GPU": 0,
+    "training": 0
+  },
+  "closeout_physics_integrations": 0,
+  "known_worker_PIDs": [
+    3361307,
+    3375615
+  ],
+  "known_workers_still_present": [],
+  "dynamics_peakRSS_KiB": 2848416,
+  "dynamics_max_observed_threads": 1,
+  "per_phase_receipts": [
+    "resource_exit_prepare.json",
+    "resource_exit_dynamics.json",
+    "postprocess_first_failure/resource_exit_postprocess.json",
+    "resource_exit_postprocess.json",
+    "verification_readonly.json"
+  ],
+  "accounting_boundary": "Acceptance wall covers all preparation, waits, failures, dynamics, rendering and reporting. Preparation retry CPU was not exhaustively accumulated; per-process receipts are not claimed as an exact total CPU time.",
+  "lab_worktree": "/home/ethan/.codex/worktrees/goose-picking/Sai_Lab",
+  "HEAD": "8d5b32f9a238cf588cf2e9b7758665d155418b45",
+  "git_status_porcelain": "",
+  "no_further_dynamic_attempts": true
+}

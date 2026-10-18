@@ -1,0 +1,9 @@
+{
+  "old_expected_SHA256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+  "old_reconstructed_SHA256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+  "new_SHA256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+  "only_change": "support_screen.caster_all_headings_conservative_support_rectangle_mm.x: [30,570] to [80,570] mm",
+  "all_remaining_bytes_identical_after_single_field_reversal": true,
+  "mass_COM_and_full_inertia_fields_unchanged": true,
+  "STEP_and_GLB_unchanged": true
+}

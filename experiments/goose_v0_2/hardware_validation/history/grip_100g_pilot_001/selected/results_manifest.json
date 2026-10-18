@@ -1,0 +1,1076 @@
+{
+  "purpose": "sealed result file inventory; self excluded, generated Python caches excluded",
+  "files": [
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/REPRODUCE.md",
+      "relative_path": "REPRODUCE.md",
+      "bytes": 3075,
+      "SHA256": "1f4db22ed6f7264be750fa5340df9f921ed0b510d68e90481c73d86e23a9109e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/SUMMARY.md",
+      "relative_path": "SUMMARY.md",
+      "bytes": 11301,
+      "SHA256": "4ad9f98a9e876fcee1c0af095fccf7c2d3918b0d8b9aea6608abfbedacb0363d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/acceptance.json",
+      "relative_path": "acceptance.json",
+      "bytes": 2132,
+      "SHA256": "2f9e97df9d4fd97734421005690efc4ad126b27919b99c77a49d77530b2543a8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_continuous_1x_50fps.mp4",
+      "relative_path": "attempt_001/actual_continuous_1x_50fps.mp4",
+      "bytes": 99781,
+      "SHA256": "8dc5097e85a23305dea028a1fd7e4c768826f9b063984b2844bb86c3a870ed9a"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_scene.mjb",
+      "relative_path": "attempt_001/actual_scene.mjb",
+      "bytes": 317479,
+      "SHA256": "857bbf58419fc3e93e0ea4a8e46726be1deb5bee1b31a7797683c2339be0055b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_substeps.jsonl.gz",
+      "relative_path": "attempt_001/actual_substeps.jsonl.gz",
+      "bytes": 341034,
+      "SHA256": "e5265dba1e2f2facb74fa0e9f230a7a5a2145b75e33a8e226653560e8020bdd3"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_trajectory.npz",
+      "relative_path": "attempt_001/actual_trajectory.npz",
+      "bytes": 75969,
+      "SHA256": "9d3b46e5c7821aa9a508896b7aaa5de41ecb8d617305493ec1fb4b9bc14c6104"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/cold_state.npz",
+      "relative_path": "attempt_001/cold_state.npz",
+      "bytes": 1062,
+      "SHA256": "73e4fa9023cf361d111e4c8d64bccc30baa1f42f438858b46da0d4f335ec4102"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/commands50Hz.json",
+      "relative_path": "attempt_001/commands50Hz.json",
+      "bytes": 11042,
+      "SHA256": "c7b4c526fc9b4df60047970c3fc7e157264ec6280106109ce4759f2626ecae17"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/compact_metrics.json",
+      "relative_path": "attempt_001/compact_metrics.json",
+      "bytes": 112443,
+      "SHA256": "042a62d0f58a23fc4ccc3a38bd44466144a131759c89fa784e64edd24d7c34eb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/declaration.json",
+      "relative_path": "attempt_001/declaration.json",
+      "bytes": 6737,
+      "SHA256": "f798f6b3727fbd8ccdbf067fe406ab6a011ecd9fa4acb26433f86e702f7a52a2"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/hardware_evidence.json",
+      "relative_path": "attempt_001/hardware_evidence.json",
+      "bytes": 55779,
+      "SHA256": "b2c942896bfcf781494f53ec7ea2e529b2169c4736209577ce28f3904d6c6155"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/kinematic_evidence.json",
+      "relative_path": "attempt_001/kinematic_evidence.json",
+      "bytes": 3471,
+      "SHA256": "d8a063f573f933a7f822dd5e03095a963afd4f54aa72fa66ab2d1c4beca75d60"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/preview_0p5s.png",
+      "relative_path": "attempt_001/preview_0p5s.png",
+      "bytes": 53824,
+      "SHA256": "01814d3cdd9711c3455c80a2d668fa06a82ac129be0185d3c9ca800abb912c11"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/preview_cold.png",
+      "relative_path": "attempt_001/preview_cold.png",
+      "bytes": 62558,
+      "SHA256": "5b13b1cdf71ba75e2632139f52490537fa829ae86b817e4a4b909c3c06d188ef"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/preview_final.png",
+      "relative_path": "attempt_001/preview_final.png",
+      "bytes": 53829,
+      "SHA256": "2be8de2687ef27fb60ace6af7d3f9c4fefcc532d6c95e51df47a4652d18b7385"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/summary.json",
+      "relative_path": "attempt_001/summary.json",
+      "bytes": 2205,
+      "SHA256": "e0fefeaee614f235143e0384f5bab4f2c8d5e21e7bf50b814ff2e587bc18a8cb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/true_cold_reference_correction.json",
+      "relative_path": "attempt_001/true_cold_reference_correction.json",
+      "bytes": 694,
+      "SHA256": "1b714c168b42f1a8edf683184cc01a897ede323ee99e5efe907f43bc9268401b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/video_receipt.json",
+      "relative_path": "attempt_001/video_receipt.json",
+      "bytes": 832,
+      "SHA256": "f7bd2bddaeb32ef27794953bb58199d084a377eb8941c58116f648c42b228cc9"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_continuous_1x_50fps.mp4",
+      "relative_path": "attempt_002/actual_continuous_1x_50fps.mp4",
+      "bytes": 317212,
+      "SHA256": "f7fa8c65a286622850b3549c001046dad79ec6981c1fcd969ef4106315ff1eaa"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_scene.mjb",
+      "relative_path": "attempt_002/actual_scene.mjb",
+      "bytes": 317479,
+      "SHA256": "d104d8db1a937200934f83fa17a62c7a05f62ea6689b54105a5e04577baa5a36"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_substeps.jsonl.gz",
+      "relative_path": "attempt_002/actual_substeps.jsonl.gz",
+      "bytes": 3615949,
+      "SHA256": "3805d11f84dfa4afbc0cdca6e063f928d798f8cb35cc29677865b2c4caade2b7"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_trajectory.npz",
+      "relative_path": "attempt_002/actual_trajectory.npz",
+      "bytes": 558829,
+      "SHA256": "cf85e4c438e5fcbfa2ddf4305bf2ce8072b051ddf7cf1c7b8b5bb496c9f2f93b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/cold_state.npz",
+      "relative_path": "attempt_002/cold_state.npz",
+      "bytes": 1062,
+      "SHA256": "38d1566db1f644735995b945cac87c51f58586c18d51785db1928c88a1966561"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/commands50Hz.json",
+      "relative_path": "attempt_002/commands50Hz.json",
+      "bytes": 82728,
+      "SHA256": "61312ec6aeeec95eb86ca88d727a14836200e67fb6062875824c07a24814b2b8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/compact_metrics.json",
+      "relative_path": "attempt_002/compact_metrics.json",
+      "bytes": 882444,
+      "SHA256": "8b0a5e2fe377ee76ba0e606105480def08d1b5c24b3f94f49f4959c80c506f95"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/declaration.json",
+      "relative_path": "attempt_002/declaration.json",
+      "bytes": 7168,
+      "SHA256": "27c2c7e75366e157e280f987a664ceb5b961ff9ec0bfbfce0985efa611d04079"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/hardware_evidence.json",
+      "relative_path": "attempt_002/hardware_evidence.json",
+      "bytes": 118674,
+      "SHA256": "4909022ad8bb0111b53d5f3cc2a070abc858dc9b97295f78ed0ae410c859e2b1"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/kinematic_evidence.json",
+      "relative_path": "attempt_002/kinematic_evidence.json",
+      "bytes": 21224,
+      "SHA256": "8182f97ccf30563762d623bd8bd253ab543d2e1a1f0e79ff9f9e21e8f382e168"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/preview_0p5s.png",
+      "relative_path": "attempt_002/preview_0p5s.png",
+      "bytes": 60733,
+      "SHA256": "f26431f1b8fd6cbef1621515c6592c746ce01b36c68d30cbb099d8f6e9d4ceb0"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/preview_cold.png",
+      "relative_path": "attempt_002/preview_cold.png",
+      "bytes": 62373,
+      "SHA256": "03c00f7dc08d875af1b85c51dff3a2862ba90b82393a3dcc08b7bc767185c26b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/preview_final.png",
+      "relative_path": "attempt_002/preview_final.png",
+      "bytes": 60823,
+      "SHA256": "251f78a7fd7d99bb86cdf78fd07a78062d2fe2d4f52bc1290d7d85ce410401c3"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/progress.json",
+      "relative_path": "attempt_002/progress.json",
+      "bytes": 469,
+      "SHA256": "babfb3539b815c60e55d88fcd69010fee16bc0a6e295e7a3507cd07b97a7bfe3"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/summary.json",
+      "relative_path": "attempt_002/summary.json",
+      "bytes": 3394,
+      "SHA256": "3cd43d33cc8a94a131308203f09f255f4cf70806930ae505bb20a4763e5b1959"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/true_cold_reference_correction.json",
+      "relative_path": "attempt_002/true_cold_reference_correction.json",
+      "bytes": 580,
+      "SHA256": "13db71efe73b7327a5bb1f8a32d7f1d0d8b2783f7fff074e6597204b829feb79"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/video_receipt.json",
+      "relative_path": "attempt_002/video_receipt.json",
+      "bytes": 832,
+      "SHA256": "4c6e2e3d1feb07e15e99aa5f43934898b4b6132141f76079fde047427930cb3e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_continuous_1x_50fps.mp4",
+      "relative_path": "attempt_003/actual_continuous_1x_50fps.mp4",
+      "bytes": 113825,
+      "SHA256": "a71cb0dd06add44ba741ecb8bcf123c64652cf8beb8c6acec744b44116e25bb5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_scene.mjb",
+      "relative_path": "attempt_003/actual_scene.mjb",
+      "bytes": 317479,
+      "SHA256": "f5460f5d1bf4c7bf5e022b35d72e6a753ff62c6d2d932820deda699ade9fd6b2"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_substeps.jsonl.gz",
+      "relative_path": "attempt_003/actual_substeps.jsonl.gz",
+      "bytes": 741969,
+      "SHA256": "0a01ba940f052c952bf9a36924af4f7c3d83a34a8d480768c1a0e88e5bc6aaed"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_trajectory.npz",
+      "relative_path": "attempt_003/actual_trajectory.npz",
+      "bytes": 119158,
+      "SHA256": "03967078ab67ace40ca587b18ecb0540ebc9ca884f4f06caaa4b63f51a0ccef5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/cold_state.npz",
+      "relative_path": "attempt_003/cold_state.npz",
+      "bytes": 1062,
+      "SHA256": "80bf13e8dfbe23e1bbf749bdbbc94842756807e997becb674c7bdbd53ec629c4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/commands50Hz.json",
+      "relative_path": "attempt_003/commands50Hz.json",
+      "bytes": 17381,
+      "SHA256": "5b760d272aba808e30aa4e5e953340172621552444b3942d0dbd62fec98ab7a1"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/compact_metrics.json",
+      "relative_path": "attempt_003/compact_metrics.json",
+      "bytes": 183994,
+      "SHA256": "7620dc80896aa06097ba8196123146e3752a5d6b2691cc7b3a32c34841f4c155"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/declaration.json",
+      "relative_path": "attempt_003/declaration.json",
+      "bytes": 7196,
+      "SHA256": "8a4eda6c6bd83e4d5acf43c49623a6b223192d22ea48889e8f65399b64ca083f"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/hardware_evidence.json",
+      "relative_path": "attempt_003/hardware_evidence.json",
+      "bytes": 93806,
+      "SHA256": "422c4e9191df3a4ac0a7e4c0e3f420bd55bc7856cc3640076996484306cc39c4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/kinematic_evidence.json",
+      "relative_path": "attempt_003/kinematic_evidence.json",
+      "bytes": 12108,
+      "SHA256": "b4edbf7086645a9269eba5a62fe7bd39204d91965142070bacc52e9834262765"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/preview_0p5s.png",
+      "relative_path": "attempt_003/preview_0p5s.png",
+      "bytes": 60234,
+      "SHA256": "91192836148bb869b9b6a0450c6fc432cf135f62563ac18247aaf5b957d090ae"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/preview_cold.png",
+      "relative_path": "attempt_003/preview_cold.png",
+      "bytes": 63196,
+      "SHA256": "6e60c43a19486e76b2d570a948834fc930c30a98881775f45acf1e9f1443e541"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/preview_final.png",
+      "relative_path": "attempt_003/preview_final.png",
+      "bytes": 61131,
+      "SHA256": "e5c840bd52c875ba09ee765b9740da892b3bcd44f30ce06cf171f8cc6ba552d8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/progress.json",
+      "relative_path": "attempt_003/progress.json",
+      "bytes": 738,
+      "SHA256": "8cad2253e2b5d0623c1beac54fcaf7f8ffba6da1f3ebcbd552d88858da6167db"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/summary.json",
+      "relative_path": "attempt_003/summary.json",
+      "bytes": 3131,
+      "SHA256": "1384f98f6a98df7b60f8382c932510ec76cb674275637b3781adbec6976c9184"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/true_cold_reference_correction.json",
+      "relative_path": "attempt_003/true_cold_reference_correction.json",
+      "bytes": 694,
+      "SHA256": "f0da0b2e53b2163b3d8715a83012146ce1c44539a33eb74dffcab2c3a3ad0324"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/video_receipt.json",
+      "relative_path": "attempt_003/video_receipt.json",
+      "bytes": 831,
+      "SHA256": "d6bd88797784bab606b4c88e9563975a2706789f2fb1e1c8479baebc885b7061"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_continuous_1x_50fps.mp4",
+      "relative_path": "attempt_004/actual_continuous_1x_50fps.mp4",
+      "bytes": 79885,
+      "SHA256": "6280a76c72626e78d3d96fd3f6d685d94878b17b7008ecb7edd40feafa63ebf1"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_scene.mjb",
+      "relative_path": "attempt_004/actual_scene.mjb",
+      "bytes": 317513,
+      "SHA256": "037fc744fb87a05070fd2bcd674ceaa0a17595c086b95f4421168517dac10211"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_substeps.jsonl.gz",
+      "relative_path": "attempt_004/actual_substeps.jsonl.gz",
+      "bytes": 330804,
+      "SHA256": "7b404fc0d1a8946d02cbd7e9cf53befdfb8b696050b1a33a9f9a50ff9789abdb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_trajectory.npz",
+      "relative_path": "attempt_004/actual_trajectory.npz",
+      "bytes": 69384,
+      "SHA256": "c471516fb65838ce7422d7efd3c8bd987127cc300a08c1a1eddc71dce80e7364"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/cold_state.npz",
+      "relative_path": "attempt_004/cold_state.npz",
+      "bytes": 1062,
+      "SHA256": "38d1566db1f644735995b945cac87c51f58586c18d51785db1928c88a1966561"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/commands50Hz.json",
+      "relative_path": "attempt_004/commands50Hz.json",
+      "bytes": 10725,
+      "SHA256": "3d01049134eb750a3c0aa7816f4fbeebd2b190b07f54bf068a2b5c5a0b2c19c3"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/compact_metrics.json",
+      "relative_path": "attempt_004/compact_metrics.json",
+      "bytes": 111419,
+      "SHA256": "82ce80bcf63903c6b78722e4475a15f7ee327136a9df3705e6bb41acd68e140d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/declaration.json",
+      "relative_path": "attempt_004/declaration.json",
+      "bytes": 6844,
+      "SHA256": "202df9ebd8e90df8ad9204a573f834da147eec5daf8b28e15243bb467b1aa8a0"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/hardware_evidence.json",
+      "relative_path": "attempt_004/hardware_evidence.json",
+      "bytes": 53307,
+      "SHA256": "9b356060e545271a8ce546536cc0cf0690275cb9f841c700412b08da0f026902"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/kinematic_evidence.json",
+      "relative_path": "attempt_004/kinematic_evidence.json",
+      "bytes": 2058,
+      "SHA256": "0c4fcd714b3e508e2a4e1644db9507bbc29b4271a89b90bc93d391152ef7a0eb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/preview_0p5s.png",
+      "relative_path": "attempt_004/preview_0p5s.png",
+      "bytes": 52089,
+      "SHA256": "a51281ba7a14c51b7bbfa40a035c7f2191df8e4aa2016f8aeae54ff87a2526ee"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/preview_cold.png",
+      "relative_path": "attempt_004/preview_cold.png",
+      "bytes": 62194,
+      "SHA256": "80b14ebc82ee9e5643ec840fb3e0cf0d15a651d8751b6f60668840133095b8de"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/preview_final.png",
+      "relative_path": "attempt_004/preview_final.png",
+      "bytes": 52614,
+      "SHA256": "9893e033ba14c83eec3ed3e0f052fa1dfa0b19e5611e87ac8b53cfbf46c74de8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/summary.json",
+      "relative_path": "attempt_004/summary.json",
+      "bytes": 2303,
+      "SHA256": "665eb869fdbef408f1244072ed780876e3a3c47e8ef8399983e8b5b962569238"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/true_cold_reference_correction.json",
+      "relative_path": "attempt_004/true_cold_reference_correction.json",
+      "bytes": 686,
+      "SHA256": "fb2b560aa698bcfb6e2dce011354cf0f3383a6167ab511099fee6ea5abda76d2"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/video_receipt.json",
+      "relative_path": "attempt_004/video_receipt.json",
+      "bytes": 833,
+      "SHA256": "c9e670299f92d3e4290cb55ffd42ba7589f2617b4e3e8aa76dead6126dbabcb4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_registry.json",
+      "relative_path": "attempt_registry.json",
+      "bytes": 4383,
+      "SHA256": "e3003a405a0c30b21773f0fa7eef0d9c2b56e83b0dc01d34b856ab08f85ca491"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/closeout.py",
+      "relative_path": "closeout.py",
+      "bytes": 30141,
+      "SHA256": "76a39bf27f8639a56621efbd80e156445a049f62c62f05e4c1777021519b75c9"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/contact_kinematics.py",
+      "relative_path": "contact_kinematics.py",
+      "bytes": 6858,
+      "SHA256": "38122b4856133e387aeeba3ae0d1cb7f56946868ac7f973e9cd4033aca255b44"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/executed_requests.jsonl",
+      "relative_path": "executed_requests.jsonl",
+      "bytes": 1053,
+      "SHA256": "d8425a21a1af280a6e37ed224b19a3b179263854f453190180c064bf402c94a5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/experiment_process.json",
+      "relative_path": "experiment_process.json",
+      "bytes": 205,
+      "SHA256": "a13215b362458b2ea784e271f7350eba7a928dc00e56156289fde28d2d49f671"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/final_input_immutability.json",
+      "relative_path": "final_input_immutability.json",
+      "bytes": 15726,
+      "SHA256": "7b3f65cd4def8739584635eb48731d108df163c1e86780d6f9e807560b22e7e6"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/hardware_diagnostics.png",
+      "relative_path": "hardware_diagnostics.png",
+      "bytes": 180175,
+      "SHA256": "dc8f309142870b5d81f38b3a1dc940e21eba19671415ed11c2c86e883ea98c94"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/historical_full_object.json",
+      "relative_path": "historical_full_object.json",
+      "bytes": 3102,
+      "SHA256": "d653a34baed3b7e7aa44757101cd85357c5440579ff5aa41fb09169c85778e49"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/historical_readback.json",
+      "relative_path": "historical_readback.json",
+      "bytes": 7189,
+      "SHA256": "98c16fd2cb80877764e4a71700bfc521e839e6925d05e23976c9d3cc63009fd4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/historical_readback.py",
+      "relative_path": "historical_readback.py",
+      "bytes": 2968,
+      "SHA256": "7961fa7076ec0c029a3c2aa231991f7795882a89e18db75f922ae1667a2829a2"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/input_identity.json",
+      "relative_path": "input_identity.json",
+      "bytes": 2379,
+      "SHA256": "043198079cb740b43bb5c318852262cda85cf50d3be6af1566038c93d8792ad6"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/inputs/inputs.json",
+      "relative_path": "inputs/inputs.json",
+      "bytes": 2905,
+      "SHA256": "01d9df917c49f2837087f87562630e0e6ae994ac2966f130a2403c183e2a8856"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/inputs/master_plan.md",
+      "relative_path": "inputs/master_plan.md",
+      "bytes": 10227,
+      "SHA256": "5639121e11f2058b031df3c14d78ceeb0e4b5a4cee2598903c27dfa8d3b91111"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/inputs/order.json",
+      "relative_path": "inputs/order.json",
+      "bytes": 4996,
+      "SHA256": "276cc7d169df364d66224b258b6cfeff938cec3f817f100290da557773317983"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/isolated_model_root.txt",
+      "relative_path": "isolated_model_root.txt",
+      "bytes": 100,
+      "SHA256": "dd2737d656bc0eee2f9abaccb7970fc28423caec2527c4536163370fff202651"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/mass_ledger_source_audit.json",
+      "relative_path": "mass_ledger_source_audit.json",
+      "bytes": 16467,
+      "SHA256": "9eed88f9522813fd7e835554c8241064b545433effc26c9d97a35f124eef5a35"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/metadata_corrections.json",
+      "relative_path": "metadata_corrections.json",
+      "bytes": 947,
+      "SHA256": "7b2f354565824b25a7fa67e25b6a1ac0f157fe68511064a4dea99b98536cf17e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/near_contact_birth_calibration.json",
+      "relative_path": "near_contact_birth_calibration.json",
+      "bytes": 4459,
+      "SHA256": "0ad53f4d925344937cfca984d2c2faf7243a991aaa10f44fa8215a26b8719d34"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/object_MCI_audit.json",
+      "relative_path": "object_MCI_audit.json",
+      "bytes": 4226,
+      "SHA256": "85e1124696a2cb356a27f127053e17eb9d50da52548ab00bfc13a8fcec04dd6e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/old_new_audit.json",
+      "relative_path": "old_new_audit.json",
+      "bytes": 2836,
+      "SHA256": "e3a69b2e0199684a04b2e0002503537392a20cb0886f82151f76c6efb36a387d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/pilot.py",
+      "relative_path": "pilot.py",
+      "bytes": 32078,
+      "SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/posterior_birth_calibration.json",
+      "relative_path": "posterior_birth_calibration.json",
+      "bytes": 5154,
+      "SHA256": "98c5cf6ece40a69cec73802d26037d404066e426e0cc89c08d364eeac1cb608f"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/postprocess.py",
+      "relative_path": "postprocess.py",
+      "bytes": 11292,
+      "SHA256": "80c93817fbd6c7fe284d6c48b623a027b72d308c7c6e436a60728f7d8960c393"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/postprocess_status.json",
+      "relative_path": "postprocess_status.json",
+      "bytes": 3819,
+      "SHA256": "eadb9accee2b3d49eeea43f82abda2692ea08e64446ccce4717af2bb8cadda3f"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/preflight_audit.json",
+      "relative_path": "preflight_audit.json",
+      "bytes": 11942,
+      "SHA256": "0cc0dd7f69ab26c878ff41e3e20e26c467b29fcb639950cdf0b6fa1ca2a4ca45"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_audit.json",
+      "relative_path": "resource_exit_audit.json",
+      "bytes": 701,
+      "SHA256": "b991677ea7e1d1e40245a683022f522e693d2d83f0f0759c09f1d7a29a9aa6c1"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_closeout.json",
+      "relative_path": "resource_exit_closeout.json",
+      "bytes": 510,
+      "SHA256": "a4eb345c14574ad8d0aed835c572ddaee07ddc2af482e177ee21a948eb556f17"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_contact_kinematics.json",
+      "relative_path": "resource_exit_contact_kinematics.json",
+      "bytes": 352,
+      "SHA256": "5a26b4989be4791dc4cfa136f735d4438a1f40b1faf987da253bf2e6d84d5eaa"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_contact_kinematics_firstpass.json",
+      "relative_path": "resource_exit_contact_kinematics_firstpass.json",
+      "bytes": 354,
+      "SHA256": "287d94a1f3503774aa77a6dc2cca094e7a5fadc070cf084a3bc6a6f9ca73278c"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_historical_readback.json",
+      "relative_path": "resource_exit_historical_readback.json",
+      "bytes": 362,
+      "SHA256": "92cab3b129737dc7476be8970114c1e9dc8e3868300a8623972d608716d0be2f"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_postprocess.json",
+      "relative_path": "resource_exit_postprocess.json",
+      "bytes": 4454,
+      "SHA256": "85dce6c9bd6d86066eac4174bbf284fbb60f0b4ffba330d77128c20a10b0b4dd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/resource_exit_serve.json",
+      "relative_path": "resource_exit_serve.json",
+      "bytes": 714,
+      "SHA256": "ac41ba398b8bb2d550bedebfac7f130b4901e2acc086327bfe75e802cfb30a9e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_001/actuator_contract.json",
+      "relative_path": "scenes/attempt_001/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_001/physical_contract.json",
+      "relative_path": "scenes/attempt_001/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_001/robot.xml",
+      "relative_path": "scenes/attempt_001/robot.xml",
+      "bytes": 25307,
+      "SHA256": "c8f833a623b593f1ee49be4abbd0fa4d0a4e53cba360f7b1769cc4a959f20ca4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_001/scene_declaration.json",
+      "relative_path": "scenes/attempt_001/scene_declaration.json",
+      "bytes": 3186,
+      "SHA256": "234449e86a67d45933d68b6b4dfacc25db8ca0b5eb35868680015d9df8fe1063"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_002/actuator_contract.json",
+      "relative_path": "scenes/attempt_002/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_002/physical_contract.json",
+      "relative_path": "scenes/attempt_002/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_002/robot.xml",
+      "relative_path": "scenes/attempt_002/robot.xml",
+      "bytes": 25307,
+      "SHA256": "4d88818080c86af93294557b02fe8ded6b4de19207d2acf8d206fb891cf2e2c5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_002/scene_declaration.json",
+      "relative_path": "scenes/attempt_002/scene_declaration.json",
+      "bytes": 3186,
+      "SHA256": "b7e9cf5e26dab0e7797272d92b67c4faa433a62e2b92310a6f1a68f898145340"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_003/actuator_contract.json",
+      "relative_path": "scenes/attempt_003/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_003/physical_contract.json",
+      "relative_path": "scenes/attempt_003/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_003/robot.xml",
+      "relative_path": "scenes/attempt_003/robot.xml",
+      "bytes": 25293,
+      "SHA256": "d58899486f6382898c3020c8d0541ff7b78f5132486f3fee776a29f1fe31facd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_003/scene_declaration.json",
+      "relative_path": "scenes/attempt_003/scene_declaration.json",
+      "bytes": 3172,
+      "SHA256": "7964df03c2be9c1af983a42f592b6cdbd5f97162759732e2a3eef286f7d1efad"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_004/actuator_contract.json",
+      "relative_path": "scenes/attempt_004/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_004/physical_contract.json",
+      "relative_path": "scenes/attempt_004/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_004/robot.xml",
+      "relative_path": "scenes/attempt_004/robot.xml",
+      "bytes": 25410,
+      "SHA256": "f18d13762a69b72aa39b9c3e1ecc106849a3bbe139b8aacb9212115d43a31496"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_004/scene_declaration.json",
+      "relative_path": "scenes/attempt_004/scene_declaration.json",
+      "bytes": 3185,
+      "SHA256": "a80a8894a79eda3295dd375337fd04aaca1bbd4f5185f02fc3adaa43c9a01de0"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/audit_fixture/actuator_contract.json",
+      "relative_path": "scenes/audit_fixture/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/audit_fixture/physical_contract.json",
+      "relative_path": "scenes/audit_fixture/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/audit_fixture/robot.xml",
+      "relative_path": "scenes/audit_fixture/robot.xml",
+      "bytes": 25307,
+      "SHA256": "c8f833a623b593f1ee49be4abbd0fa4d0a4e53cba360f7b1769cc4a959f20ca4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/audit_fixture/scene_declaration.json",
+      "relative_path": "scenes/audit_fixture/scene_declaration.json",
+      "bytes": 3186,
+      "SHA256": "234449e86a67d45933d68b6b4dfacc25db8ca0b5eb35868680015d9df8fe1063"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/LICENSE",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/LICENSE",
+      "bytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/README.md",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/README.md",
+      "bytes": 10212,
+      "SHA256": "0f91d14515be5ccbfb67ab7487a8ef7daa1c522138f40094fc952061fe139023"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/THIRD_PARTY_NOTICES.md",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/THIRD_PARTY_NOTICES.md",
+      "bytes": 3880,
+      "SHA256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/actuator_contract.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/actuator_contract.json",
+      "bytes": 31658,
+      "SHA256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/actuator_source_facts.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/actuator_source_facts.json",
+      "bytes": 5170,
+      "SHA256": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/benchmark_collision_cost.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/benchmark_collision_cost.py",
+      "bytes": 16851,
+      "SHA256": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/collision_manifest.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/collision_manifest.json",
+      "bytes": 129708,
+      "SHA256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/engineering_mass_patch.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/engineering_mass_patch.json",
+      "bytes": 44495,
+      "SHA256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/freeze_summary.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/freeze_summary.json",
+      "bytes": 1297,
+      "SHA256": "0df7a9ef46af649bc9076f0e20150f52f801df9f66a5c24c194b0e5027f5081d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/legacy_move14_reference.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/legacy_move14_reference.json",
+      "bytes": 388,
+      "SHA256": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/manifest.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/manifest.json",
+      "bytes": 9279,
+      "SHA256": "de92f9557e6d63406e7b2cb84ba82431e6f54a829f5ca9362d6aafd6f62a68bc"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/mass_ledger.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/mass_ledger.json",
+      "bytes": 2106403,
+      "SHA256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/material_change_receipt.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/material_change_receipt.json",
+      "bytes": 285442,
+      "SHA256": "5c49eafd92e35697e348fb0e31d41d4049dd5fb77dc752917394156ef05a0287"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/material_mass_patch.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/material_mass_patch.json",
+      "bytes": 51558,
+      "SHA256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "bytes": 4410,
+      "SHA256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "bytes": 1894,
+      "SHA256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "bytes": 1912,
+      "SHA256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "bytes": 2345,
+      "SHA256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "bytes": 3128,
+      "SHA256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "bytes": 2399,
+      "SHA256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "bytes": 2686,
+      "SHA256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "bytes": 4410,
+      "SHA256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "bytes": 1922,
+      "SHA256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "bytes": 1835,
+      "SHA256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "bytes": 2344,
+      "SHA256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "bytes": 2737,
+      "SHA256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "bytes": 2666,
+      "SHA256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "bytes": 3130,
+      "SHA256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/physical_contract.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/physical_contract.json",
+      "bytes": 150030,
+      "SHA256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/preview/runtime_contact_preview_manifest.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/preview/runtime_contact_preview_manifest.json",
+      "bytes": 12989,
+      "SHA256": "8812e0fd784d8a9cdcfef00d34be6095a0b94792ef0e0f3391ca0119c0b8d92b"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/preview/runtime_contacts.glb",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/preview/runtime_contacts.glb",
+      "bytes": 30844,
+      "SHA256": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/preview/runtime_contacts.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/preview/runtime_contacts.obj",
+      "bytes": 51758,
+      "SHA256": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/preview/runtime_contacts_three_views.png",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/preview/runtime_contacts_three_views.png",
+      "bytes": 156948,
+      "SHA256": "18b7a05dc4911e0ba5bdf91c619b37891f75ad8e7424129392f9ad9f892cea34"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/rebuild_contacts.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/rebuild_contacts.py",
+      "bytes": 5303,
+      "SHA256": "a02f5a51187bcb1cce141a3096be3660b52cd293e8649342e7820b6fafc2fc70"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/requirements.txt",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/requirements.txt",
+      "bytes": 29,
+      "SHA256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/requirements_rebuild.txt",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/requirements_rebuild.txt",
+      "bytes": 42,
+      "SHA256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/reset_pose_seeds.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/reset_pose_seeds.json",
+      "bytes": 2292,
+      "SHA256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/robot.xml",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/robot.xml",
+      "bytes": 23593,
+      "SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/runtime_adapter.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/runtime_adapter.py",
+      "bytes": 9449,
+      "SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/runtime_interface.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/runtime_interface.json",
+      "bytes": 5244,
+      "SHA256": "6283bcdf32427704882e5fd18a87bc1c8b524a1fa220aa9f342cdb32c1a5aa51"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/conditional_mass_ledger.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/conditional_mass_ledger.json",
+      "bytes": 2070140,
+      "SHA256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_bill_parent03.obj",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_bill_parent03.obj",
+      "bytes": 2842,
+      "SHA256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_grip_cassette_pad.brep",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_grip_cassette_pad.brep",
+      "bytes": 23866,
+      "SHA256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_pad_contact_face.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/lower_pad_contact_face.json",
+      "bytes": 1576,
+      "SHA256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/upper_grip_cassette_pad.brep",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/native_contact/upper_grip_cassette_pad.brep",
+      "bytes": 24350,
+      "SHA256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_inputs/whole05_full_SI_contract.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_inputs/whole05_full_SI_contract.json",
+      "bytes": 143836,
+      "SHA256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/source_snapshot.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/source_snapshot.json",
+      "bytes": 6025,
+      "SHA256": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/validation/actual_complexity.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/validation/actual_complexity.json",
+      "bytes": 11735,
+      "SHA256": "311c5221b7a77fed2450cb0773734ed318939f4c5968d6543ea83f40020c9799"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/validation/independent_critical_contact_sealed_source.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/validation/independent_critical_contact_sealed_source.json",
+      "bytes": 138762,
+      "SHA256": "d93878073724c7216afd2d95d815512e16193891c1c8a50d3add4d3f0a6dc0e1"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/validation/independent_native_grip_contour_sealed_source.json",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/validation/independent_native_grip_contour_sealed_source.json",
+      "bytes": 10960,
+      "SHA256": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/verify_contacts.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/verify_contacts.py",
+      "bytes": 20176,
+      "SHA256": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/verify_package.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/verify_package.py",
+      "bytes": 1025,
+      "SHA256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/sealed04/physics_v0_2_20261018_04/verify_physics.py",
+      "relative_path": "sealed04/physics_v0_2_20261018_04/verify_physics.py",
+      "bytes": 28050,
+      "SHA256": "bab83cfa8fb5ea2a3fdd5bcd98ac52588606edefc812f335baa7f7428e29ecbb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/summary.json",
+      "relative_path": "summary.json",
+      "bytes": 20883,
+      "SHA256": "3b815e1bb9a27c561b7e3eeabc25f18e1d3b97fb7ea8ba02877d94a424bef554"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/verification.json",
+      "relative_path": "verification.json",
+      "bytes": 5944,
+      "SHA256": "f2a5160647b605e349a613fdffabac8079dd59ddb95488476cf962aa00e5df81"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/verify_results.py",
+      "relative_path": "verify_results.py",
+      "bytes": 8732,
+      "SHA256": "c1da60c88c4df65a7dc4701bfebb9646a6312a112f45501fde212f21fa86602a"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/video_validation.json",
+      "relative_path": "video_validation.json",
+      "bytes": 1887,
+      "SHA256": "46e5d34a47dd32fef8324fb4c32adeb041561f88cfe60fce89de695f63f51053"
+    }
+  ],
+  "count": 178,
+  "total_bytes": 17417752,
+  "created_UTC": "2026-10-18T11:16:29.725035+00:00"
+}

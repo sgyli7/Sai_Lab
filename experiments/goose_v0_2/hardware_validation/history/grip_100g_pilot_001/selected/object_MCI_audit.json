@@ -1,0 +1,224 @@
+{
+  "component_masses_kg": [
+    0.004,
+    0.003,
+    0.003,
+    0.09
+  ],
+  "complete_components": [
+    "payload/grip",
+    "payload/arm_right",
+    "payload/arm_left",
+    "payload/case"
+  ],
+  "historical": {
+    "purpose": "READ_ONLY historical object identity export, zero integrations, not active pilot engine",
+    "engine": "3.15.0",
+    "source_model": "/home/ethan/ProjectBackups/2026-10-13/Sai_Lab/goose_picking_001/crown_ribs_final100g_210/model.mjb",
+    "source_model_sha256": "cbe127adfbf1a3db2390fefd88eab51ee3ef8aa18da01fcaa7a6c271d796635f",
+    "mass_kg": 0.1,
+    "com_local_m": [
+      0.07335,
+      6.891189008317866e-20,
+      -0.10590000000000001
+    ],
+    "inertia_local_kg_m2": [
+      [
+        0.0002725900042584644,
+        0.0,
+        5.8630883307291974e-05
+      ],
+      [
+        0.0,
+        0.00019770065736881618,
+        0.0
+      ],
+      [
+        5.863088330729198e-05,
+        0.0,
+        0.00023279672593363036
+      ]
+    ],
+    "geoms": [
+      {
+        "name": "payload/grip",
+        "type": 3,
+        "size_m": [
+          0.006,
+          0.06,
+          0.0
+        ],
+        "pos_body_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quat_wxyz": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0,
+          0.0
+        ],
+        "source_condim": 3,
+        "source_friction": [
+          0.65,
+          0.01,
+          0.002
+        ],
+        "source_solref": [
+          0.005,
+          1.0
+        ],
+        "source_solimp": [
+          0.95,
+          0.99,
+          0.001,
+          0.5,
+          2.0
+        ]
+      },
+      {
+        "name": "payload/arm_right",
+        "type": 3,
+        "size_m": [
+          0.004,
+          0.04589389937671455,
+          0.0
+        ],
+        "pos_body_m": [
+          0.0225,
+          -0.06,
+          -0.04
+        ],
+        "quat_wxyz": [
+          0.25340132485392686,
+          0.0,
+          0.9673612399524152,
+          0.0
+        ],
+        "source_condim": 3,
+        "source_friction": [
+          0.65,
+          0.01,
+          0.002
+        ],
+        "source_solref": [
+          0.005,
+          1.0
+        ],
+        "source_solimp": [
+          0.95,
+          0.99,
+          0.001,
+          0.5,
+          2.0
+        ]
+      },
+      {
+        "name": "payload/arm_left",
+        "type": 3,
+        "size_m": [
+          0.004,
+          0.04589389937671455,
+          0.0
+        ],
+        "pos_body_m": [
+          0.0225,
+          0.06,
+          -0.04
+        ],
+        "quat_wxyz": [
+          0.25340132485392686,
+          0.0,
+          0.9673612399524152,
+          0.0
+        ],
+        "source_condim": 3,
+        "source_friction": [
+          0.65,
+          0.01,
+          0.002
+        ],
+        "source_solref": [
+          0.005,
+          1.0
+        ],
+        "source_solimp": [
+          0.95,
+          0.99,
+          0.001,
+          0.5,
+          2.0
+        ]
+      },
+      {
+        "name": "payload/case",
+        "type": 6,
+        "size_m": [
+          0.035,
+          0.065,
+          0.035
+        ],
+        "pos_body_m": [
+          0.08,
+          0.0,
+          -0.115
+        ],
+        "quat_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_condim": 3,
+        "source_friction": [
+          0.65,
+          0.01,
+          0.002
+        ],
+        "source_solref": [
+          0.005,
+          1.0
+        ],
+        "source_solimp": [
+          0.95,
+          0.99,
+          0.001,
+          0.5,
+          2.0
+        ]
+      }
+    ],
+    "NN": 0,
+    "training": 0,
+    "integrations": 0
+  },
+  "recomputed_COM_m": [
+    0.07335,
+    1.285430095698814e-19,
+    -0.10590000000000001
+  ],
+  "recomputed_fullI": [
+    [
+      0.00027259000425846415,
+      0.0,
+      5.863088330729196e-05
+    ],
+    [
+      0.0,
+      0.00019770065736881605,
+      0.0
+    ],
+    [
+      5.863088330729196e-05,
+      0.0,
+      0.0002327967259336302
+    ]
+  ],
+  "difference": {
+    "mass_kg": 1.3877787807814457e-17,
+    "COM_m": 5.963111948670275e-20,
+    "fullI_kg_m2": 2.710505431213761e-19
+  },
+  "uniform_primitive_component_reconstruction_exact": true
+}

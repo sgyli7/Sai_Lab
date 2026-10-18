@@ -1,0 +1,178 @@
+{
+  "scene_SHA256": "4d88818080c86af93294557b02fe8ded6b4de19207d2acf8d206fb891cf2e2c5",
+  "payload_mass_kg": 0.1,
+  "full_payload_geometry": [
+    {
+      "name": "payload/grip",
+      "type": 3,
+      "size_m": [
+        0.006,
+        0.06,
+        0.0
+      ],
+      "pos_body_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quat_wxyz": [
+        0.7071067811865476,
+        -0.7071067811865476,
+        0.0,
+        0.0
+      ],
+      "source_condim": 3,
+      "source_friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "source_solref": [
+        0.005,
+        1.0
+      ],
+      "source_solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "payload/arm_right",
+      "type": 3,
+      "size_m": [
+        0.004,
+        0.04589389937671455,
+        0.0
+      ],
+      "pos_body_m": [
+        0.0225,
+        -0.06,
+        -0.04
+      ],
+      "quat_wxyz": [
+        0.25340132485392686,
+        0.0,
+        0.9673612399524152,
+        0.0
+      ],
+      "source_condim": 3,
+      "source_friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "source_solref": [
+        0.005,
+        1.0
+      ],
+      "source_solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "payload/arm_left",
+      "type": 3,
+      "size_m": [
+        0.004,
+        0.04589389937671455,
+        0.0
+      ],
+      "pos_body_m": [
+        0.0225,
+        0.06,
+        -0.04
+      ],
+      "quat_wxyz": [
+        0.25340132485392686,
+        0.0,
+        0.9673612399524152,
+        0.0
+      ],
+      "source_condim": 3,
+      "source_friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "source_solref": [
+        0.005,
+        1.0
+      ],
+      "source_solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "payload/case",
+      "type": 6,
+      "size_m": [
+        0.035,
+        0.065,
+        0.035
+      ],
+      "pos_body_m": [
+        0.08,
+        0.0,
+        -0.115
+      ],
+      "quat_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_condim": 3,
+      "source_friction": [
+        0.65,
+        0.01,
+        0.002
+      ],
+      "source_solref": [
+        0.005,
+        1.0
+      ],
+      "source_solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "payload_initial_position_m": [
+    0.2049500197172165,
+    0.0,
+    0.5848050351142883
+  ],
+  "payload_initial_quat_wxyz": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "cold_jaw_angle_rad": 0.25,
+  "robot_changes": {
+    "only_external_fixture_constraints": [
+      "pilot_fixture_torso",
+      "pilot_fixture_head_roll"
+    ],
+    "body_and_head_fixed_for_LOCAL_DIAGNOSTIC_only": true,
+    "full_robot_qualification": false,
+    "original3internal_equalities_retained": true
+  },
+  "negative_control_jaw_payload_excluded": false,
+  "no_payload_equality_or_force_or_pose_write_after_birth": true,
+  "contact_material_source": "04 upper jaw numeric friction/solref/solimp, condim3, no oldcontactparameters imported"
+}

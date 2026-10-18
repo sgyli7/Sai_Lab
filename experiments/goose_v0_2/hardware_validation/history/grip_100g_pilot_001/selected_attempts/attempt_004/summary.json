@@ -1,0 +1,63 @@
+{
+  "attempt": 4,
+  "scope": "LOCAL_FIXED_HEAD_AND_TORSO_ONLY",
+  "admission_passed": true,
+  "config": {
+    "label": "negative_no_jaw_payload_contact",
+    "qstart": 0.19682523003160665,
+    "upper_gap_m": 0.0,
+    "negative": true,
+    "birth_calibration": "near_contact_birth_calibration.json"
+  },
+  "initial_qjaw_rad": 0.19682523003160665,
+  "first_positive_bilateral_pose": null,
+  "hold_start_s": null,
+  "hold_reference_policy": "first bilateral step after canonical jaw target reached0, no hold-reference reset, no future reclassification after failure",
+  "cold_to_final_relative_translation_m": 0.43474247374152974,
+  "cold_to_final_relative_rotation_deg": 0.002503649236770007,
+  "cold_acquisition_max_translation_m": 0.4413379728165785,
+  "cold_acquisition_max_rotation_deg": 1.1546451320055073,
+  "hold5s": null,
+  "hold30s": null,
+  "first_physical_failure": {
+    "time_s": 0.08,
+    "reasons": [
+      "grip_center_departed_30mm"
+    ],
+    "relative_from_cold_m": 0.031283919134503214,
+    "relative_from_cold_deg": 0.006256064915101144,
+    "extra_payload_contact": [],
+    "payload_lowest_z_m": 0.40341303511428817
+  },
+  "hold_first_failure": null,
+  "runtime_exception": null,
+  "actual_steps": 136,
+  "actual_50Hz_commands": 34,
+  "actual_200Hz_drive_updates": 136,
+  "sim_duration_s": 0.6800000000000005,
+  "max_payload_penetration_m": 0.006644964885712243,
+  "min_full_object_clearance_m": -0.006644964885712243,
+  "max_drive_recomputation_error_Nm": 0.0,
+  "max_total_positive_mechanical_power_after_w": 0.5222846816293151,
+  "max_total_positive_mechanical_power_incoming_w": 0.4927273311791823,
+  "max_selected_voltage_derated_speed_ratio": 1.5521402993881268,
+  "selected_speed_exceeded_substeps": 28,
+  "extra_support_any": true,
+  "mechanism_max_position_error_m_or_rad": 0.001697480578989996,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "scene_SHA256": "f18d13762a69b72aa39b9c3e1ecc106849a3bbe139b8aacb9212115d43a31496",
+  "model_MJB_SHA256": "037fc744fb87a05070fd2bcd674ceaa0a17595c086b95f4421168517dac10211",
+  "trajectory_SHA256": "c471516fb65838ce7422d7efd3c8bd987127cc300a08c1a1eddc71dce80e7364",
+  "raw_substeps_SHA256": "7b404fc0d1a8946d02cbd7e9cf53befdfb8b696050b1a33a9f9a50ff9789abdb",
+  "NN": 0,
+  "GPU": 0,
+  "training_updates": 0
+}

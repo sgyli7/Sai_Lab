@@ -1,0 +1,272 @@
+{
+  "status": "STATIC_ONLY_COPIED_FROM_COMPLETED_TOOL_STDOUT",
+  "new_computation": false,
+  "physics_integrations": 0,
+  "cases": [
+    {
+      "force_TCP_world_N": [
+        0,
+        0,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.477915327471209,
+      "bottleneck": "head_pitch",
+      "left_foot_resultant_N": [
+        0.0,
+        -8.379258426977652,
+        83.49027652583595
+      ],
+      "right_foot_resultant_N": [
+        0.0,
+        8.379258426977652,
+        82.98742401602098
+      ],
+      "equilibrium_residual_max": 5.551115123125783e-16,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        5,
+        0,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.43432910979163364,
+      "bottleneck": "right_ankle_roll",
+      "left_foot_resultant_N": [
+        -2.5000000000000004,
+        -2.8054587339957084,
+        83.49027652583597
+      ],
+      "right_foot_resultant_N": [
+        -2.4999999999999996,
+        2.805458733995706,
+        82.98742401602098
+      ],
+      "equilibrium_residual_max": 2.842170943040401e-14,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        10,
+        0,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.4657316388861449,
+      "bottleneck": "neck_pitch",
+      "left_foot_resultant_N": [
+        -5.000000000000001,
+        -1.7883531626760623,
+        83.49027652583597
+      ],
+      "right_foot_resultant_N": [
+        -4.999999999999999,
+        1.7883531626760556,
+        82.987424016021
+      ],
+      "equilibrium_residual_max": 2.842170943040401e-14,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        20,
+        0,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.6405049418688888,
+      "bottleneck": "right_knee_pitch",
+      "left_foot_resultant_N": [
+        -9.999999999999996,
+        3.8724297521865974,
+        83.49027652583595
+      ],
+      "right_foot_resultant_N": [
+        -9.999999999999988,
+        -3.872429752186598,
+        82.98742401602098
+      ],
+      "equilibrium_residual_max": 2.842170943040401e-14,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        20,
+        0,
+        -3
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.7148428072514975,
+      "bottleneck": "right_knee_pitch",
+      "left_foot_resultant_N": [
+        -9.999999999999995,
+        5.834827597581376,
+        84.99027652583592
+      ],
+      "right_foot_resultant_N": [
+        -10.000000000000005,
+        -5.834827597581377,
+        84.48742401602098
+      ],
+      "equilibrium_residual_max": 2.8033131371785203e-15,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        0,
+        3,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.9483260300723093,
+      "bottleneck": "left_hip_roll",
+      "left_foot_resultant_N": [
+        5.385824769308854,
+        -1.9654463533530167,
+        88.76841937272764
+      ],
+      "right_foot_resultant_N": [
+        -5.385824769308854,
+        -1.0345536466469833,
+        77.70928116912928
+      ],
+      "equilibrium_residual_max": 1.7763568394002505e-15,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    },
+    {
+      "force_TCP_world_N": [
+        -10,
+        0,
+        0
+      ],
+      "moment_TCP_world_Nm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_maximum_continuous_utilisation": 0.7379142693995387,
+      "bottleneck": "head_pitch",
+      "left_foot_resultant_N": [
+        5.0,
+        -1.2196351927180087,
+        83.49027660920268
+      ],
+      "right_foot_resultant_N": [
+        5.000000000000001,
+        1.2196351927180087,
+        82.98742393265427
+      ],
+      "equilibrium_residual_max": 2.842170943040401e-14,
+      "maximum_internal_equality_force_scalar": 1.4598117035946623
+    }
+  ],
+  "upper_only_one_component_bounds": {
+    "positive_Fx_N": 54.9200437848252,
+    "negative_Fx_N": 20.080261429398696,
+    "positive_Fy_N": 3.222595803266766,
+    "negative_Fy_N": 3.177411111554398,
+    "positive_Fz_N": 16.18033707952225,
+    "negative_Fz_N": 5.915971222557071,
+    "positive_Mx_Nm": 0.10473425044706422,
+    "negative_Mx_Nm": 0.10326574955303981,
+    "positive_My_Nm": 1.044169345057582,
+    "negative_My_Nm": 2.8558306549424177,
+    "positive_Mz_Nm": 1.01,
+    "negative_Mz_Nm": 1.01
+  },
+  "limits": [
+    "These are one-pose static ideal force allocations, not dynamic cart/traction ratings.",
+    "One-component upper-chain limits cannot be superimposed or used as full-body maxima.",
+    "No clamp force, contact friction/compliance, foot pressure, caster rolling resistance, startup/braking stability or thermal qualification is implied.",
+    "20kg goods+9.21kg cart demand is a historical assumption snapshot; update by formula for final CAD mass, do not relabel the old case.",
+    "No torque-speed peak profile or350W sufficiency claim; all selected continuous limits remain fixed."
+  ],
+  "upper_chain_copied_gravity_and_jacobian_rows": [
+    {
+      "name": "neck_yaw",
+      "gravity_Nm": 0.0,
+      "Jp_m_and_Jr": [
+        0.0,
+        0.2705500624055586,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "neck_pitch",
+      "gravity_Nm": -2.1787301164615838,
+      "Jp_m_and_Jr": [
+        0.040195237240974346,
+        0.0,
+        -0.2705500624055586,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "neck_mid_pitch",
+      "gravity_Nm": -2.5849401674526065,
+      "Jp_m_and_Jr": [
+        -0.08548468334599596,
+        0.0,
+        -0.28924652092723746,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "head_pitch",
+      "gravity_Nm": -0.905830654942418,
+      "Jp_m_and_Jr": [
+        -0.051999788385665935,
+        0.0,
+        -0.1765000717170931,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "head_roll",
+      "gravity_Nm": 0.0007342504470118365,
+      "Jp_m_and_Jr": [
+        0.0,
+        0.03249996488571172,
+        0.0,
+        0.9999999999995,
+        0.0,
+        1.0000000000979549e-06
+      ]
+    }
+  ]
+}

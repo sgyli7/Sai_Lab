@@ -1,0 +1,44 @@
+{
+  "schema": "goose_v02_data_handoff_static_check_v1",
+  "status": "PASS_STATIC_DATA_ONLY",
+  "copied_files_checked": 176,
+  "archive_members_checked": 53,
+  "frozen_manifest_entries": 52,
+  "mesh_references_resolved": 14,
+  "rigid_bodies": 23,
+  "public_axes": 18,
+  "internal_coordinates": 4,
+  "collision_geoms": 14,
+  "mass_kg": 16.970203928833527,
+  "embedded_contract_release_id": "physics_v0_2_20261018_02",
+  "cart_static": {
+    "status": "STATIC_FILE_STRUCTURE_ONLY",
+    "producer_indexed_files": {
+      "collision_artifact_manifest": 22,
+      "historical_static_archive_manifest": 4
+    },
+    "XML_collision_geoms": {
+      "cart": 18,
+      "combined": 32
+    },
+    "passive_axes": 9,
+    "empty_mass_kg": 7.800864011651539,
+    "independent_review": "FINAL_LOCKED",
+    "metadata_correction_chain_verified": true,
+    "cargo_instances": 0,
+    "integration_or_forward_executed_by_this_check": false
+  },
+  "native_simulator_compiled_or_imported": false,
+  "historical_python_sources_parsed_not_imported": 30,
+  "original_sources_requested": true,
+  "raw_files_checked_this_invocation": 382,
+  "original_raw_manifest_files": 382,
+  "physical_steps": 0,
+  "forward_calls": 0,
+  "contact_replays": 0,
+  "training_updates": 0,
+  "GPU_use": 0,
+  "new_experiment_orders": 0,
+  "failures": [],
+  "scope": "Byte identity, archive and static structure only; no new physical, contact, task or manufacturing validation"
+}

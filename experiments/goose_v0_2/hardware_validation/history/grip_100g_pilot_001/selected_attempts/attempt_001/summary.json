@@ -1,0 +1,61 @@
+{
+  "attempt": 1,
+  "scope": "LOCAL_FIXED_HEAD_AND_TORSO_ONLY",
+  "admission_passed": true,
+  "config": {
+    "label": "nominal_open025_close0_04_defaultdrive",
+    "qstart": 0.25,
+    "upper_gap_m": 0.001
+  },
+  "initial_qjaw_rad": 0.25,
+  "first_positive_bilateral_pose": null,
+  "hold_start_s": null,
+  "hold_reference_policy": "first bilateral step after canonical jaw target reached0, no hold-reference reset, no future reclassification after failure",
+  "cold_to_final_relative_translation_m": 0.5975479896488326,
+  "cold_to_final_relative_rotation_deg": 142.71114897956159,
+  "cold_acquisition_max_translation_m": 0.5987100666635861,
+  "cold_acquisition_max_rotation_deg": 143.39854145234216,
+  "hold5s": null,
+  "hold30s": null,
+  "first_physical_failure": {
+    "time_s": 0.09500000000000001,
+    "reasons": [
+      "grip_center_departed_30mm"
+    ],
+    "relative_from_cold_m": 0.03245407315918072,
+    "relative_from_cold_deg": 19.999453110989215,
+    "extra_payload_contact": [],
+    "payload_lowest_z_m": 0.4005841818159156
+  },
+  "hold_first_failure": null,
+  "runtime_exception": null,
+  "actual_steps": 140,
+  "actual_50Hz_commands": 35,
+  "actual_200Hz_drive_updates": 140,
+  "sim_duration_s": 0.7000000000000005,
+  "max_payload_penetration_m": 0.013488547841528545,
+  "min_full_object_clearance_m": -0.013488547841528538,
+  "max_drive_recomputation_error_Nm": 0.0,
+  "max_total_positive_mechanical_power_after_w": 0.5553860286220964,
+  "max_total_positive_mechanical_power_incoming_w": 0.5267311959098614,
+  "max_selected_voltage_derated_speed_ratio": 1.5976446644627544,
+  "selected_speed_exceeded_substeps": 28,
+  "extra_support_any": true,
+  "mechanism_max_position_error_m_or_rad": 0.0009981075521577898,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "scene_SHA256": "c8f833a623b593f1ee49be4abbd0fa4d0a4e53cba360f7b1769cc4a959f20ca4",
+  "model_MJB_SHA256": "857bbf58419fc3e93e0ea4a8e46726be1deb5bee1b31a7797683c2339be0055b",
+  "trajectory_SHA256": "9d3b46e5c7821aa9a508896b7aaa5de41ecb8d617305493ec1fb4b9bc14c6104",
+  "raw_substeps_SHA256": "e5265dba1e2f2facb74fa0e9f230a7a5a2145b75e33a8e226653560e8020bdd3",
+  "NN": 0,
+  "GPU": 0,
+  "training_updates": 0
+}

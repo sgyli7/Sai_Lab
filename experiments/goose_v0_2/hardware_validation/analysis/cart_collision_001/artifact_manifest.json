@@ -1,0 +1,115 @@
+{
+  "collision_candidate_id": "low_profile_stock_cart_01_collision_002",
+  "files": [
+    {
+      "path": "assets/low_profile_stock_cart_01/README.md",
+      "bytes": 3264,
+      "sha256": "10f31420db0e4a74134b260068ae9c5465e39092e07fd1c37ba0edf7a98f1388"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/body_mass_map.json",
+      "bytes": 12940,
+      "sha256": "df185621e960d5c5e6517adc2ecc4f2ab8e7dd28d5a9a0c204a6a1a3c397400a"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/cart.xml",
+      "bytes": 11639,
+      "sha256": "14819c1b25b559b18c0beca685a8670b09ac25f418ff44af61011a7d2ec7e2c4"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/cart_collision.glb",
+      "bytes": 30004,
+      "sha256": "3c98330ed6aaecc34e1108f7e66838c0f35eb5592b7547b72f9170b1e366038d"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/collision_source_map.json",
+      "bytes": 10137,
+      "sha256": "191946d15487a7ab116cb3c4e9a84368a145c70c7b3fea457ef5fbcf24047147"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/goose_cart_scene.xml",
+      "bytes": 35354,
+      "sha256": "53b5c2f412b4a5dc76024ddcdbe2d49193cc71bd210a94dd20e6fd87f4bd14ad"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/history/collision_001_identity.json",
+      "bytes": 366,
+      "sha256": "15f1739a976249cfc2e2bd8e1db31f00b471b7a7bbb1c01a7c20649c121f4aa4"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/history/collision_001_snapshot.zip",
+      "bytes": 136739,
+      "sha256": "9466513592c30cd450a4970f3e8b9cc0df7461c3bc68e4932fe5837051049c34"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/meshes/cart_bite_yoke_left.obj",
+      "bytes": 2147,
+      "sha256": "c0beda17127bdf4ba9e4ee239db1c10ca4237e315ad3b192ba5608757fa91376"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/meshes/cart_bite_yoke_right.obj",
+      "bytes": 2174,
+      "sha256": "7af69b25f2102250133bc1590be1ca9af485587791d5851c3651d3eb9a6045fd"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/meshes/cart_drawbar.obj",
+      "bytes": 2747,
+      "sha256": "f5b8f845416771c07173ad502638c27f949f4f7e377ed44f2494972a8b5cb2d3"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/meshes/cart_rotating_shaft.obj",
+      "bytes": 3692,
+      "sha256": "dd055d82249beaeed7d951a961f36af05758185f32b88580516782af52819363"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_01/source_identity.json",
+      "bytes": 1330,
+      "sha256": "c257200a063a84cce7321b9c7df7d831466c17daa2f9e1c132992e7e26b57dc4"
+    },
+    {
+      "path": "analysis/cart_collision_001/README.md",
+      "bytes": 3036,
+      "sha256": "f88d2a137bf8fadc03cedac0d5a4aa0af87bbb57d9370e3a871b14061932157f"
+    },
+    {
+      "path": "analysis/cart_collision_001/build_collision.py",
+      "bytes": 24115,
+      "sha256": "00e354a604cf1e4d3b84a6d3e8cc897b3f511a090c03bb29bb05dbe90b572baa"
+    },
+    {
+      "path": "analysis/cart_collision_001/cart_collision.png",
+      "bytes": 39865,
+      "sha256": "45c58985f7f5127f46f251a8bdfbd18621fc9628cf183f721b86dae2c759c8a4"
+    },
+    {
+      "path": "analysis/cart_collision_001/functional_checks.json",
+      "bytes": 17486,
+      "sha256": "46b80c0c335e311b7a789b7728596371d90b007d803555caed94c37c2f989b87"
+    },
+    {
+      "path": "analysis/cart_collision_001/goose_cart_collision.png",
+      "bytes": 58016,
+      "sha256": "ced41555806b97e1a4f3da736e2cfd9fe71ec23c2be3c7d17ebb7b74c122f13b"
+    },
+    {
+      "path": "analysis/cart_collision_001/loaded_collision_stats.json",
+      "bytes": 10121,
+      "sha256": "c39f91d4bd21edc5deb732c398d4bc8982a44f70ed44d4697783a415b41619d1"
+    },
+    {
+      "path": "analysis/cart_collision_001/resource_receipt.json",
+      "bytes": 387,
+      "sha256": "ba98a3502d2851636cea2725f3a8d3621a7e366e4b3862d348a315bca307c6d5"
+    },
+    {
+      "path": "analysis/cart_collision_001/shaft_clearance_correction.json",
+      "bytes": 629,
+      "sha256": "8c4084386b66b108953f2e6d0132eeefb2b6b69aaf404e5d2f383e27052928dd"
+    },
+    {
+      "path": "analysis/cart_collision_001/source_input_immutability.json",
+      "bytes": 7038,
+      "sha256": "0601bcd3d82254aceb9ee2ff7ab41f04dc1241b277d449e6d3b60b6b8819b7bd"
+    }
+  ]
+}

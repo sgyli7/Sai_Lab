@@ -1,0 +1,518 @@
+{
+  "schema": "goose_actual_compiled_contact_preview_v1",
+  "runtime_model_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "physical_contract_sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+  "geometry_source": "Compiled MuJoCo mesh convex support at packaged reset; no visual CAD, AI image or painted repair",
+  "leaf_count": 14,
+  "loaded_mesh_vertices": 548,
+  "actual_convex_support_vertices": 547,
+  "actual_maximum_convex_support_vertices": 63,
+  "actual_convex_hull_triangles": 1038,
+  "support_measurement": "MuJoCo3.10 mesh_graph header, independently calibrated on cube/octahedron by benchmark_goose_collision_cost.py",
+  "units": "metres",
+  "axes": "right-handed +X forward, +Y robot-left, +Z up",
+  "ground_excluded": true,
+  "per_body_COM": [
+    {
+      "name": "torso",
+      "mass_kg": 5.492411109685247,
+      "centre_of_mass_world_m": [
+        -0.0552203354011569,
+        0.00042513186296662257,
+        0.3669686793483694
+      ]
+    },
+    {
+      "name": "neck_yaw",
+      "mass_kg": 0.539389667863588,
+      "centre_of_mass_world_m": [
+        0.024738209498728837,
+        -0.0005116951632101441,
+        0.43405163020067417
+      ]
+    },
+    {
+      "name": "neck_pitch",
+      "mass_kg": 0.7616998700551401,
+      "centre_of_mass_world_m": [
+        -0.02500053505200288,
+        -0.0014782902019538748,
+        0.5256898302070661
+      ]
+    },
+    {
+      "name": "neck_mid_pitch",
+      "mass_kg": 0.543362146702074,
+      "centre_of_mass_world_m": [
+        0.005092251940837379,
+        0.0020151552635870058,
+        0.6138893998747638
+      ]
+    },
+    {
+      "name": "head_pitch",
+      "mass_kg": 0.3246059855586802,
+      "centre_of_mass_world_m": [
+        0.04831561715169915,
+        0.013552493370887013,
+        0.6328211651880439
+      ]
+    },
+    {
+      "name": "head_roll",
+      "mass_kg": 0.6740421096762732,
+      "centre_of_mass_world_m": [
+        0.1277444418079009,
+        -0.0013230568559439123,
+        0.6322747555074053
+      ]
+    },
+    {
+      "name": "beak_hinge",
+      "mass_kg": 0.12444184333803009,
+      "centre_of_mass_world_m": [
+        0.1685553497386029,
+        0.0021783860398677996,
+        0.5979762181600223
+      ]
+    },
+    {
+      "name": "beak_input_rotor",
+      "mass_kg": 0.01713015122738488,
+      "centre_of_mass_world_m": [
+        0.1147270879629855,
+        0.03003717925488145,
+        0.6375528796224877
+      ]
+    },
+    {
+      "name": "beak_coupler_link",
+      "mass_kg": 0.005177307249452544,
+      "centre_of_mass_world_m": [
+        0.1249499998884873,
+        0.034964001297447034,
+        0.615912694785926
+      ]
+    },
+    {
+      "name": "right_hip_yaw",
+      "mass_kg": 0.7281842325889366,
+      "centre_of_mass_world_m": [
+        0.017851897678977425,
+        -0.05459879231301332,
+        0.3282476059880656
+      ]
+    },
+    {
+      "name": "right_hip_roll",
+      "mass_kg": 0.5299199923876452,
+      "centre_of_mass_world_m": [
+        0.0009273573417362228,
+        -0.09894535446626412,
+        0.33357490477387064
+      ]
+    },
+    {
+      "name": "right_hip_pitch",
+      "mass_kg": 0.9224645762705135,
+      "centre_of_mass_world_m": [
+        -0.007364962650271121,
+        -0.12633585621314805,
+        0.26453744495317816
+      ]
+    },
+    {
+      "name": "right_knee_pitch",
+      "mass_kg": 0.8776014572273547,
+      "centre_of_mass_world_m": [
+        -0.00031861137907851153,
+        -0.12144489552076096,
+        0.14671476918454474
+      ]
+    },
+    {
+      "name": "right_ankle_pitch",
+      "mass_kg": 0.7494253780541333,
+      "centre_of_mass_world_m": [
+        0.03802852287906624,
+        -0.1315729397945719,
+        0.06595340420822868
+      ]
+    },
+    {
+      "name": "right_ankle_roll",
+      "mass_kg": 0.3745580307594358,
+      "centre_of_mass_world_m": [
+        0.04907863557940607,
+        -0.12455654801923582,
+        0.019476766137110753
+      ]
+    },
+    {
+      "name": "left_hip_yaw",
+      "mass_kg": 0.7281897695388784,
+      "centre_of_mass_world_m": [
+        0.017851782917231263,
+        0.054598742196633854,
+        0.3282475790159045
+      ]
+    },
+    {
+      "name": "left_hip_roll",
+      "mass_kg": 0.5294860413985729,
+      "centre_of_mass_world_m": [
+        0.0009794037627565456,
+        0.09895277985188387,
+        0.333578512596056
+      ]
+    },
+    {
+      "name": "left_hip_pitch",
+      "mass_kg": 0.9220472585751143,
+      "centre_of_mass_world_m": [
+        -0.007376546712608324,
+        0.12632979454264529,
+        0.26449177309881466
+      ]
+    },
+    {
+      "name": "left_knee_pitch",
+      "mass_kg": 0.877705890856404,
+      "centre_of_mass_world_m": [
+        -0.0003262789396444067,
+        0.12143307163216999,
+        0.1467478851279874
+      ]
+    },
+    {
+      "name": "left_ankle_pitch",
+      "mass_kg": 0.7494262890463917,
+      "centre_of_mass_world_m": [
+        0.0380285251268527,
+        0.13157295883730594,
+        0.06595341684132357
+      ]
+    },
+    {
+      "name": "left_ankle_roll",
+      "mass_kg": 0.37455803024689355,
+      "centre_of_mass_world_m": [
+        0.049078635721548705,
+        0.12455655369073812,
+        0.019476766233510755
+      ]
+    },
+    {
+      "name": "left_yaw_input_rotor",
+      "mass_kg": 0.062188395263692006,
+      "centre_of_mass_world_m": [
+        -0.0357695123376343,
+        0.059999999994462025,
+        0.42041540505173947
+      ]
+    },
+    {
+      "name": "right_yaw_input_rotor",
+      "mass_kg": 0.062188395263692,
+      "centre_of_mass_world_m": [
+        -0.0357695123376343,
+        -0.060000000005537985,
+        0.4204154050517395
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "name": "torso_central_keel",
+      "owner": "torso",
+      "loaded_mesh_vertices": 40,
+      "actual_convex_support_vertices": 40,
+      "actual_convex_hull_triangles": 76,
+      "exported_hull_vertices": 40,
+      "world_bounds_m": [
+        [
+          -0.24218654025703779,
+          -0.08198712873248896,
+          0.24249999971484026
+        ],
+        [
+          0.09999999767043238,
+          0.08198859305065183,
+          0.45949999660309837
+        ]
+      ]
+    },
+    {
+      "name": "torso_upper_envelope",
+      "owner": "torso",
+      "loaded_mesh_vertices": 39,
+      "actual_convex_support_vertices": 39,
+      "actual_convex_hull_triangles": 74,
+      "exported_hull_vertices": 39,
+      "world_bounds_m": [
+        [
+          -0.2421865422578005,
+          -0.11155256418327776,
+          0.3055000098536713
+        ],
+        [
+          0.1000000082275851,
+          0.11155256453069877,
+          0.4594999974660013
+        ]
+      ]
+    },
+    {
+      "name": "neck_pitch_envelope",
+      "owner": "neck_pitch",
+      "loaded_mesh_vertices": 39,
+      "actual_convex_support_vertices": 39,
+      "actual_convex_hull_triangles": 74,
+      "exported_hull_vertices": 39,
+      "world_bounds_m": [
+        [
+          -0.07804541200278428,
+          -0.056000000830424765,
+          0.44079826475494716
+        ],
+        [
+          0.06645000060574036,
+          0.05219999990968708,
+          0.5843004475209517
+        ]
+      ]
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "owner": "neck_mid_pitch",
+      "loaded_mesh_vertices": 35,
+      "actual_convex_support_vertices": 35,
+      "actual_convex_hull_triangles": 66,
+      "exported_hull_vertices": 35,
+      "world_bounds_m": [
+        [
+          -0.07933120522038337,
+          -0.058500000778036396,
+          0.5312332690223927
+        ],
+        [
+          0.020754499615481474,
+          0.054700001334322595,
+          0.6221301783739
+        ]
+      ]
+    },
+    {
+      "name": "upper_bill_envelope",
+      "owner": "head_roll",
+      "loaded_mesh_vertices": 45,
+      "actual_convex_support_vertices": 45,
+      "actual_convex_hull_triangles": 86,
+      "exported_hull_vertices": 45,
+      "world_bounds_m": [
+        [
+          -0.019551231727860233,
+          -0.05187241967151635,
+          0.590805033039562
+        ],
+        [
+          0.24945001518307974,
+          0.05311653374962398,
+          0.6766599216260198
+        ]
+      ]
+    },
+    {
+      "name": "lower_bill_envelope",
+      "owner": "beak_hinge",
+      "loaded_mesh_vertices": 45,
+      "actual_convex_support_vertices": 44,
+      "actual_convex_hull_triangles": 84,
+      "exported_hull_vertices": 44,
+      "world_bounds_m": [
+        [
+          0.14644999628308852,
+          -0.026000036006082305,
+          0.5788404758437664
+        ],
+        [
+          0.2474500142089881,
+          0.02600002240864909,
+          0.5908050355461313
+        ]
+      ]
+    },
+    {
+      "name": "right_hip_envelope",
+      "owner": "right_hip_roll",
+      "loaded_mesh_vertices": 28,
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_triangles": 52,
+      "exported_hull_vertices": 28,
+      "world_bounds_m": [
+        [
+          -0.014743925512619235,
+          -0.13875000071561677,
+          0.3086454773799015
+        ],
+        [
+          0.040256072326712536,
+          -0.08525000032818643,
+          0.36364547894452354
+        ]
+      ]
+    },
+    {
+      "name": "right_thigh_envelope",
+      "owner": "right_hip_pitch",
+      "loaded_mesh_vertices": 34,
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_triangles": 64,
+      "exported_hull_vertices": 34,
+      "world_bounds_m": [
+        [
+          -0.05013183392827268,
+          -0.16599997878189215,
+          0.19900687554918806
+        ],
+        [
+          0.046726250984327145,
+          -0.1139999991940071,
+          0.3697167716642638
+        ]
+      ]
+    },
+    {
+      "name": "right_shin_envelope",
+      "owner": "right_knee_pitch",
+      "loaded_mesh_vertices": 27,
+      "actual_convex_support_vertices": 27,
+      "actual_convex_hull_triangles": 50,
+      "exported_hull_vertices": 27,
+      "world_bounds_m": [
+        [
+          -0.0501748299115303,
+          -0.1714999986724685,
+          0.03981684495514527
+        ],
+        [
+          0.08155000697839852,
+          -0.07399999923329442,
+          0.26482472839439297
+        ]
+      ]
+    },
+    {
+      "name": "right_actual_sole",
+      "owner": "right_ankle_roll",
+      "loaded_mesh_vertices": 63,
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_triangles": 122,
+      "exported_hull_vertices": 63,
+      "world_bounds_m": [
+        [
+          -0.0299000054750033,
+          -0.1609999998219284,
+          0.0004999972063651839
+        ],
+        [
+          0.12653354425512242,
+          -0.08900000217238807,
+          0.08106065291412198
+        ]
+      ]
+    },
+    {
+      "name": "left_hip_envelope",
+      "owner": "left_hip_roll",
+      "loaded_mesh_vertices": 28,
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_triangles": 52,
+      "exported_hull_vertices": 28,
+      "world_bounds_m": [
+        [
+          -0.014743925512619235,
+          0.08525000163876667,
+          0.3086454773799015
+        ],
+        [
+          0.040256072326712536,
+          0.138750002026197,
+          0.36364547894452354
+        ]
+      ]
+    },
+    {
+      "name": "left_thigh_envelope",
+      "owner": "left_hip_pitch",
+      "loaded_mesh_vertices": 34,
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_triangles": 64,
+      "exported_hull_vertices": 34,
+      "world_bounds_m": [
+        [
+          -0.05013183293406556,
+          0.1139999991862557,
+          0.1990068785015658
+        ],
+        [
+          0.04672625011087675,
+          0.1659999788168611,
+          0.36971447601753904
+        ]
+      ]
+    },
+    {
+      "name": "left_shin_envelope",
+      "owner": "left_knee_pitch",
+      "loaded_mesh_vertices": 28,
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_triangles": 52,
+      "exported_hull_vertices": 28,
+      "world_bounds_m": [
+        [
+          -0.050174746109810334,
+          0.07400000095108636,
+          0.03981684550490616
+        ],
+        [
+          0.08155000669683371,
+          0.17149999722816395,
+          0.26481998627006637
+        ]
+      ]
+    },
+    {
+      "name": "left_actual_sole",
+      "owner": "left_ankle_roll",
+      "loaded_mesh_vertices": 63,
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_triangles": 122,
+      "exported_hull_vertices": 63,
+      "world_bounds_m": [
+        [
+          -0.029900004279996444,
+          0.08900000320850794,
+          0.0004999971942654391
+        ],
+        [
+          0.12653354984368212,
+          0.16099999907082954,
+          0.08106065176416898
+        ]
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "file": "runtime_contacts.glb",
+      "sha256": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239",
+      "bytes": 30844
+    },
+    {
+      "file": "runtime_contacts.obj",
+      "sha256": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb",
+      "bytes": 51758
+    }
+  ]
+}

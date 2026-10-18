@@ -1,0 +1,478 @@
+{
+  "status": "CAD_MCI_PLUS_DECLARED_RESERVE_NOT_MEASURED",
+  "body_map": {
+    "cart_base": {
+      "mass_kg": 5.643332696100431,
+      "COM_cart_m": [
+        0.2963557364680957,
+        -6.127111619356105e-18,
+        0.19690189979480913
+      ],
+      "COM_body_m": [
+        0.2963557364680957,
+        -6.127111619356105e-18,
+        0.19690189979480913
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.18215125377258357,
+          -3.4526560567240206e-18,
+          0.051380697348975275
+        ],
+        [
+          -3.4526560567240206e-18,
+          0.38503482687189344,
+          1.276742093449029e-18
+        ],
+        [
+          0.051380697348975275,
+          1.276742093449029e-18,
+          0.4768561637661691
+        ]
+      ],
+      "source_parts": [
+        "longitudinal_rail_y-205",
+        "longitudinal_rail_y205",
+        "crossmember_x10",
+        "crossmember_x215",
+        "crossmember_x435",
+        "crossmember_x640",
+        "deck_1p5mm_aluminium",
+        "basket_top_rail_y-217",
+        "perforated_side_y-217",
+        "basket_top_rail_y217",
+        "perforated_side_y217",
+        "basket_top_rail_x8",
+        "perforated_end_x8",
+        "basket_top_rail_x642",
+        "perforated_end_x642",
+        "corner_post_8_-217",
+        "corner_post_8_217",
+        "corner_post_642_-217",
+        "corner_post_642_217",
+        "mount_plate_80_-190",
+        "load_spreader_3mm_80_-190",
+        "M6_wheel_mount_80_-190_-24_-20",
+        "M6_wheel_mount_80_-190_-24_20",
+        "M6_wheel_mount_80_-190_24_-20",
+        "M6_wheel_mount_80_-190_24_20",
+        "caster_thrust_seat_80_-190_141.5",
+        "caster_kingpin_80_-190",
+        "mount_plate_80_190",
+        "load_spreader_3mm_80_190",
+        "M6_wheel_mount_80_190_-24_-20",
+        "M6_wheel_mount_80_190_-24_20",
+        "M6_wheel_mount_80_190_24_-20",
+        "M6_wheel_mount_80_190_24_20",
+        "caster_thrust_seat_80_190_141.5",
+        "caster_kingpin_80_190",
+        "axle_d10_570_-190",
+        "fork_plate_570_-190_-1",
+        "fork_plate_570_-190_1",
+        "fork_bridge_570_-190",
+        "mount_plate_570_-190",
+        "load_spreader_3mm_570_-190",
+        "M6_wheel_mount_570_-190_-24_-20",
+        "M6_wheel_mount_570_-190_-24_20",
+        "M6_wheel_mount_570_-190_24_-20",
+        "M6_wheel_mount_570_-190_24_20",
+        "fixed_fork_spacer_570_-190",
+        "parking_pedal_570_-190",
+        "parking_friction_pad_570_-190",
+        "axle_d10_570_190",
+        "fork_plate_570_190_-1",
+        "fork_plate_570_190_1",
+        "fork_bridge_570_190",
+        "mount_plate_570_190",
+        "load_spreader_3mm_570_190",
+        "M6_wheel_mount_570_190_-24_-20",
+        "M6_wheel_mount_570_190_-24_20",
+        "M6_wheel_mount_570_190_24_-20",
+        "M6_wheel_mount_570_190_24_20",
+        "fixed_fork_spacer_570_190",
+        "parking_pedal_570_190",
+        "parking_friction_pad_570_190",
+        "mast_base_plate_5mm",
+        "height_adjust_mast_32x32x2",
+        "mast_base_gusset_-16",
+        "mast_base_gusset_19",
+        "M6_mast_foot_-20_-35",
+        "M6_mast_foot_-20_35",
+        "M6_mast_foot_60_-35",
+        "M6_mast_foot_60_35",
+        "height_lock_carriage",
+        "height_lock_pin_M6",
+        "yaw_housing",
+        "yaw_lower_arm",
+        "yaw_upper_arm",
+        "yaw_pin_d10"
+      ],
+      "reserve_kg": 0.35,
+      "minimum_principal_inertia": 0.1734501216473597
+    },
+    "cart_yaw": {
+      "mass_kg": 0.1218388834431199,
+      "COM_cart_m": [
+        -0.08591600342417206,
+        0.004326530229279195,
+        0.48000000000000004
+      ],
+      "COM_body_m": [
+        -0.023916003424172064,
+        0.004326530229279195,
+        5.551115123125783e-17
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          3.841200432417904e-05,
+          4.788534433282543e-06,
+          3.579444394276481e-19
+        ],
+        [
+          4.788534433282543e-06,
+          2.677803248524953e-05,
+          6.506128766997212e-20
+        ],
+        [
+          3.579444394276481e-19,
+          6.506128766997212e-20,
+          4.7552633258001024e-05
+        ]
+      ],
+      "source_parts": [
+        "pitch_clevis_-17",
+        "pitch_clevis_17",
+        "yaw_rotor_to_pitch_fork_bridge",
+        "pitch_pin_d10",
+        "pitch_balance_spring_envelope"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 2.506060487704116e-05
+    },
+    "cart_pitch": {
+      "mass_kg": 0.14208144260680222,
+      "COM_cart_m": [
+        -0.20465711325182753,
+        1.3927750648238143e-18,
+        0.48000000000000015
+      ],
+      "COM_body_m": [
+        -0.10965711325182753,
+        1.3927750648238143e-18,
+        1.6653345369377348e-16
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          1.9393827988407355e-05,
+          2.8284310708862877e-21,
+          -7.935846893517183e-18
+        ],
+        [
+          2.8284310708862877e-21,
+          0.00021782688460733696,
+          1.727553129005571e-21
+        ],
+        [
+          -7.935846893517183e-18,
+          1.727553129005571e-21,
+          0.0002178268846073436
+        ]
+      ],
+      "source_parts": [
+        "drawbar_main_22x2",
+        "roll_bearing_housing",
+        "roll_bearing_608_interface_-240.5",
+        "roll_bearing_608_interface_-207.5"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 1.9393827988407355e-05
+    },
+    "cart_roll": {
+      "mass_kg": 0.18451776965444816,
+      "COM_cart_m": [
+        -0.31641709739576906,
+        -8.271695530687129e-18,
+        0.48
+      ],
+      "COM_body_m": [
+        -0.09241709739576906,
+        -8.271695530687129e-18,
+        0.0
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.00040049137535545776,
+          1.31124090744765e-19,
+          5.761409307332884e-20
+        ],
+        [
+          1.31124090744765e-19,
+          0.00039284993599985566,
+          -3.55219227627077e-19
+        ],
+        [
+          5.761409307332884e-20,
+          -3.55219227627077e-19,
+          0.0007895046360234893
+        ]
+      ],
+      "source_parts": [
+        "rotating_forward_shaft_d8",
+        "shaft_axial_retaining_collar_-245.5",
+        "shaft_axial_retaining_collar_-202.5",
+        "bite_yoke_shaft_socket",
+        "bite_yoke_tube_-85",
+        "bite_core_support_-85",
+        "bite_yoke_tube_85",
+        "bite_core_support_85",
+        "bite_304_core_d8",
+        "replaceable_bite_sleeve_d12"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00039284993599985593
+    },
+    "wheel_80_-190": {
+      "mass_kg": 0.3083987232596326,
+      "COM_cart_m": [
+        0.08,
+        -0.19,
+        0.06250000000000001
+      ],
+      "COM_body_m": [
+        0.0,
+        0.0,
+        1.3877787807814457e-17
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.0003142879123403287,
+          5.256384611129763e-19,
+          -2.015382051467896e-19
+        ],
+        [
+          5.256384611129763e-19,
+          0.0005976624745538654,
+          -7.987022399902341e-19
+        ],
+        [
+          -2.015382051467896e-19,
+          -7.987022399902341e-19,
+          0.00031428791234031984
+        ]
+      ],
+      "source_parts": [
+        "PU_tread_80_-190",
+        "nylon_spoked_hub_80_-190",
+        "wheel_6000_interface_80_-190_-1",
+        "wheel_6000_interface_80_-190_1"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00031428791234031984
+    },
+    "caster_80_-190": {
+      "mass_kg": 0.23774916340410393,
+      "COM_cart_m": [
+        0.06393643757131029,
+        -0.19000000000000003,
+        0.10405801010054679
+      ],
+      "COM_body_m": [
+        0.00893643757131029,
+        -2.7755575615628914e-17,
+        -0.030941989899453223
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.0002563950137698441,
+          -1.1225111878797613e-19,
+          4.7362217527019256e-05
+        ],
+        [
+          -1.1225111878797613e-19,
+          0.0002383635719586248,
+          -1.3214865780582648e-19
+        ],
+        [
+          4.7362217527019256e-05,
+          -1.3214865780582648e-19,
+          0.00013637429427170293
+        ]
+      ],
+      "source_parts": [
+        "axle_d10_80_-190",
+        "fork_plate_80_-190_-1",
+        "fork_plate_80_-190_1",
+        "fork_bridge_80_-190",
+        "caster_thrust_bearing_80_-190",
+        "caster_thrust_seat_80_-190_129.5"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00011993582848179247
+    },
+    "wheel_80_190": {
+      "mass_kg": 0.3083987232596326,
+      "COM_cart_m": [
+        0.08,
+        0.19000000000000006,
+        0.06250000000000001
+      ],
+      "COM_body_m": [
+        0.0,
+        5.551115123125783e-17,
+        1.3877787807814457e-17
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.00031428791234032553,
+          -7.040798664093023e-20,
+          -2.015382051467896e-19
+        ],
+        [
+          -7.040798664093023e-20,
+          0.0005976624745538654,
+          7.402151823043822e-19
+        ],
+        [
+          -2.015382051467896e-19,
+          7.402151823043822e-19,
+          0.00031428791234031555
+        ]
+      ],
+      "source_parts": [
+        "PU_tread_80_190",
+        "nylon_spoked_hub_80_190",
+        "wheel_6000_interface_80_190_-1",
+        "wheel_6000_interface_80_190_1"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00031428791234031555
+    },
+    "caster_80_190": {
+      "mass_kg": 0.23774916340410393,
+      "COM_cart_m": [
+        0.06393643757131029,
+        0.19000000000000003,
+        0.10405801010054679
+      ],
+      "COM_body_m": [
+        0.00893643757131029,
+        2.7755575615628914e-17,
+        -0.030941989899453223
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.00025639501376984293,
+          1.1225111878797613e-19,
+          4.7362217527019256e-05
+        ],
+        [
+          1.1225111878797613e-19,
+          0.00023836357195862508,
+          3.6762381714252192e-19
+        ],
+        [
+          4.7362217527019256e-05,
+          3.6762381714252192e-19,
+          0.00013637429427170318
+        ]
+      ],
+      "source_parts": [
+        "axle_d10_80_190",
+        "fork_plate_80_190_-1",
+        "fork_plate_80_190_1",
+        "fork_bridge_80_190",
+        "caster_thrust_bearing_80_190",
+        "caster_thrust_seat_80_190_129.5"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00011993582848179258
+    },
+    "wheel_570_-190": {
+      "mass_kg": 0.3083987232596326,
+      "COM_cart_m": [
+        0.5700000000000002,
+        -0.19,
+        0.06250000000000001
+      ],
+      "COM_body_m": [
+        1.1102230246251565e-16,
+        0.0,
+        1.3877787807814457e-17
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.0003142879123403251,
+          -1.4659762382507325e-17,
+          4.144012928009033e-18
+        ],
+        [
+          -1.4659762382507325e-17,
+          0.0005976624745537946,
+          -5.245208740234376e-19
+        ],
+        [
+          4.144012928009033e-18,
+          -5.245208740234376e-19,
+          0.0003142879123402622
+        ]
+      ],
+      "source_parts": [
+        "PU_tread_570_-190",
+        "nylon_spoked_hub_570_-190",
+        "wheel_6000_interface_570_-190_-1",
+        "wheel_6000_interface_570_-190_1"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00031428791234026194
+    },
+    "wheel_570_190": {
+      "mass_kg": 0.3083987232596326,
+      "COM_cart_m": [
+        0.5700000000000002,
+        0.19,
+        0.06250000000000001
+      ],
+      "COM_body_m": [
+        1.1102230246251565e-16,
+        0.0,
+        1.3877787807814457e-17
+      ],
+      "full_inertia_about_COM_kg_m2": [
+        [
+          0.0003142879123403271,
+          1.3914704322814942e-17,
+          4.144012928009033e-18
+        ],
+        [
+          1.3914704322814942e-17,
+          0.0005976624745537946,
+          -3.6843121051788336e-19
+        ],
+        [
+          4.144012928009033e-18,
+          -3.6843121051788336e-19,
+          0.00031428791234026037
+        ]
+      ],
+      "source_parts": [
+        "PU_tread_570_190",
+        "nylon_spoked_hub_570_190",
+        "wheel_6000_interface_570_190_-1",
+        "wheel_6000_interface_570_190_1"
+      ],
+      "reserve_kg": 0,
+      "minimum_principal_inertia": 0.00031428791234026015
+    }
+  },
+  "reserve_assumption": {
+    "mass_kg": 0.35,
+    "COM_cart_m": [
+      0.26,
+      0,
+      0.18
+    ],
+    "inertia_model": "uniform 650x450x30mm distribution of unresolved fasteners and locks on frame"
+  },
+  "bearing_partition_assumption": "Entire wheel bearing envelopes assigned to wheel spin; actual inner/outer ring mass partition and caster bearing inertia require procurement readback.",
+  "spring_partition_assumption": "Pitch balance spring envelope mass assigned to yaw fork. No stiffness/preload is invented."
+}

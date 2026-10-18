@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="low_profile_stock_cart_01_collision_first">
+  <compiler angle="radian" inertiafromgeom="false" balanceinertia="false" />
+  <option timestep=".005" gravity="0 0 -9.81" integrator="implicitfast" />
+  <asset>
+    <texture name="cart_white_sky" type="skybox" builtin="gradient" rgb1="1 1 1" rgb2="1 1 1" width="512" height="512" />
+    <mesh name="cart_drawbar" file="meshes/cart_drawbar.obj" maxhullvert="64" />
+    <mesh name="cart_rotating_shaft" file="meshes/cart_rotating_shaft.obj" maxhullvert="64" />
+    <mesh name="cart_bite_yoke_right" file="meshes/cart_bite_yoke_right.obj" maxhullvert="64" />
+    <mesh name="cart_bite_yoke_left" file="meshes/cart_bite_yoke_left.obj" maxhullvert="64" />
+  </asset>
+  <worldbody>
+    <geom name="ground" type="plane" size="3 3 .01" contype="1" conaffinity="4" rgba=".96 .97 .98 1" />
+    <light pos="0 -1 2" dir="0 0 -1" directional="true" castshadow="false" diffuse=".35 .35 .35" ambient=".1 .1 .1" />
+    <light pos="1 1 1.8" dir="0 0 -1" directional="true" castshadow="false" diffuse=".25 .25 .25" ambient=".05 .05 .05" />
+    <body name="cart_base" pos="0 0 0">
+      <freejoint name="cart_root" />
+      <body name="caster_80_-190" pos="0.055 -0.19 0.13500000000000001">
+        <joint name="cart_swivel_80_-190" type="hinge" axis="0 0 1" limited="false" damping="0" frictionloss="0" />
+        <body name="wheel_80_-190" pos="0.025000000000000001 0 -0.072500000000000009">
+          <joint name="cart_wheel_spin_80_-190" type="hinge" axis="0 1 0" limited="false" damping="0" frictionloss="0" />
+          <inertial mass="0.3083987232596326" pos="0 0 1.3877787807814457e-17" fullinertia="0.00031428791234032873 0.00059766247455386539 0.00031428791234031984 5.256384611129763e-19 -2.015382051467896e-19 -7.987022399902341e-19" />
+          <geom name="cart_wheel_80_-190" type="cylinder" rgba="0.17999999999999999 0.23000000000000001 0.28000000000000003 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0 0 0" size="0.0625 0.012500000000000001" quat="0.70710678118654757 -0.70710678118654746 0 0" />
+        </body>
+        <inertial mass="0.23774916340410393" pos="0.0089364375713102892 -2.7755575615628914e-17 -0.030941989899453223" fullinertia="0.00025639501376984413 0.00023836357195862481 0.00013637429427170293 -1.1225111878797613e-19 4.7362217527019256e-05 -1.3214865780582648e-19" />
+      </body>
+      <body name="caster_80_190" pos="0.055 0.19 0.13500000000000001">
+        <joint name="cart_swivel_80_190" type="hinge" axis="0 0 1" limited="false" damping="0" frictionloss="0" />
+        <body name="wheel_80_190" pos="0.025000000000000001 0 -0.072500000000000009">
+          <joint name="cart_wheel_spin_80_190" type="hinge" axis="0 1 0" limited="false" damping="0" frictionloss="0" />
+          <inertial mass="0.3083987232596326" pos="0 5.5511151231257827e-17 1.3877787807814457e-17" fullinertia="0.00031428791234032553 0.00059766247455386539 0.00031428791234031555 -7.0407986640930226e-20 -2.015382051467896e-19 7.4021518230438221e-19" />
+          <geom name="cart_wheel_80_190" type="cylinder" rgba="0.17999999999999999 0.23000000000000001 0.28000000000000003 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0 0 0" size="0.0625 0.012500000000000001" quat="0.70710678118654757 -0.70710678118654746 0 0" />
+        </body>
+        <inertial mass="0.23774916340410393" pos="0.0089364375713102892 2.7755575615628914e-17 -0.030941989899453223" fullinertia="0.00025639501376984293 0.00023836357195862508 0.00013637429427170318 1.1225111878797613e-19 4.7362217527019256e-05 3.6762381714252192e-19" />
+      </body>
+      <body name="wheel_570_-190" pos="0.57000000000000006 -0.19 0.0625">
+        <joint name="cart_wheel_spin_570_-190" type="hinge" axis="0 1 0" limited="false" damping="0" frictionloss="0" />
+        <inertial mass="0.3083987232596326" pos="1.1102230246251565e-16 0 1.3877787807814457e-17" fullinertia="0.00031428791234032509 0.00059766247455379459 0.00031428791234026221 -1.4659762382507325e-17 4.1440129280090332e-18 -5.2452087402343758e-19" />
+        <geom name="cart_wheel_570_-190" type="cylinder" rgba="0.17999999999999999 0.23000000000000001 0.28000000000000003 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0 0 0" size="0.0625 0.012500000000000001" quat="0.70710678118654757 -0.70710678118654746 0 0" />
+      </body>
+      <body name="wheel_570_190" pos="0.57000000000000006 0.19 0.0625">
+        <joint name="cart_wheel_spin_570_190" type="hinge" axis="0 1 0" limited="false" damping="0" frictionloss="0" />
+        <inertial mass="0.3083987232596326" pos="1.1102230246251565e-16 0 1.3877787807814457e-17" fullinertia="0.0003142879123403271 0.00059766247455379459 0.00031428791234026037 1.3914704322814942e-17 4.1440129280090332e-18 -3.6843121051788336e-19" />
+        <geom name="cart_wheel_570_190" type="cylinder" rgba="0.17999999999999999 0.23000000000000001 0.28000000000000003 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0 0 0" size="0.0625 0.012500000000000001" quat="0.70710678118654757 -0.70710678118654746 0 0" />
+      </body>
+      <body name="cart_yaw" pos="-0.062 0 0.47999999999999998">
+        <joint name="cart_yaw_hinge" type="hinge" axis="0 0 1" damping="0" frictionloss="0" limited="true" range="-1.0471975511965976 1.0471975511965976" />
+        <body name="cart_pitch" pos="-0.033000000000000002 0 0">
+          <joint name="cart_pitch_hinge" type="hinge" axis="0 1 0" damping="0" frictionloss="0" limited="true" range="-0.43633231299858238 0.43633231299858238" />
+          <body name="cart_roll" pos="-0.129 0 0">
+            <joint name="cart_roll_hinge" type="hinge" axis="1 0 0" damping="0" frictionloss="0" limited="false" />
+            <inertial mass="0.18451776965444816" pos="-0.09241709739576906 -8.2716955306871287e-18 0" fullinertia="0.00040049137535545776 0.00039284993599985566 0.00078950463602348931 1.31124090744765e-19 5.7614093073328838e-20 -3.55219227627077e-19" />
+            <geom name="cart_rotating_shaft" type="mesh" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" mesh="cart_rotating_shaft" pos="0.224 -0 -0.47999999999999998" />
+            <geom name="cart_bite_yoke_right" type="mesh" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" mesh="cart_bite_yoke_right" pos="0.224 -0 -0.47999999999999998" />
+            <geom name="cart_bite_yoke_left" type="mesh" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" mesh="cart_bite_yoke_left" pos="0.224 -0 -0.47999999999999998" />
+            <geom name="cart_bite_bar" type="cylinder" rgba="0.97999999999999998 0.73999999999999999 0.17000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="-0.12599999999999997 0 0" size="0.0060000000000000001 0.080000000000000002" quat="0.70710678118654757 -0.70710678118654746 0 0" />
+          </body>
+          <inertial mass="0.14208144260680222" pos="-0.10965711325182753 1.3927750648238143e-18 1.6653345369377348e-16" fullinertia="1.9393827988407355e-05 0.00021782688460733696 0.00021782688460734361 2.8284310708862877e-21 -7.935846893517183e-18 1.7275531290055711e-21" />
+          <geom name="cart_drawbar" type="mesh" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" mesh="cart_drawbar" pos="0.095000000000000001 -0 -0.47999999999999998" />
+        </body>
+        <inertial mass="0.1218388834431199" pos="-0.023916003424172064 0.0043265302292791949 5.5511151231257827e-17" fullinertia="3.841200432417904e-05 2.677803248524953e-05 4.7552633258001024e-05 4.7885344332825429e-06 3.5794443942764808e-19 6.5061287669972117e-20" />
+        <geom name="cart_pitch_clevis_right" type="box" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="-0.027999999999999997 -0.017000000000000001 0" size="0.021000000000000001 0.002 0.017500000000000002" />
+        <geom name="cart_pitch_clevis_left" type="box" rgba="0.93999999999999995 0.5 0.20000000000000001 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="-0.027999999999999997 0.017000000000000001 0" size="0.021000000000000001 0.002 0.017500000000000002" />
+      </body>
+      <inertial mass="5.643332696100431" pos="0.29635573646809571 -6.1271116193561049e-18 0.19690189979480913" fullinertia="0.18215125377258357 0.38503482687189344 0.47685616376616913 -3.4526560567240206e-18 0.051380697348975275 1.2767420934490291e-18" />
+      <geom name="cart_deck_frame" type="box" rgba="0.32000000000000001 0.69999999999999996 0.48999999999999999 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0.32500000000000001 0 0.16575000000000001" size="0.32500000000000001 0.22500000000000001 0.01575" />
+      <geom name="cart_side_right" type="box" rgba="0.20999999999999999 0.56000000000000005 0.83999999999999997 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0.32500000000000001 -0.217 0.23574999999999999" size="0.32500000000000001 0.0080000000000000002 0.05425" />
+      <geom name="cart_side_left" type="box" rgba="0.20999999999999999 0.56000000000000005 0.83999999999999997 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0.32500000000000001 0.217 0.23574999999999999" size="0.32500000000000001 0.0080000000000000002 0.05425" />
+      <geom name="cart_end_front" type="box" rgba="0.20999999999999999 0.56000000000000005 0.83999999999999997 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0.0080000000000000002 0 0.23574999999999999" size="0.0080000000000000002 0.20899999999999999 0.05425" />
+      <geom name="cart_end_rear" type="box" rgba="0.20999999999999999 0.56000000000000005 0.83999999999999997 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="0.64200000000000002 0 0.23574999999999999" size="0.0080000000000000002 0.20899999999999999 0.05425" />
+      <geom name="cart_mast" type="box" rgba="0.47999999999999998 0.56000000000000005 0.60999999999999999 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="-0.025000000000000001 0 0.34999999999999998" size="0.016 0.016 0.20000000000000001" />
+      <geom name="cart_yaw_housing" type="cylinder" rgba="0.47999999999999998 0.56000000000000005 0.60999999999999999 1" density="0" contype="4" conaffinity="7" condim="3" friction=".65 .01 .002" solref=".005 1" margin="0" pos="-0.062 0 0.47999999999999998" size="0.014999999999999999 0.021999999999999999" quat="1 0 0 0" />
+    </body>
+  </worldbody>
+  <visual>
+    <global offwidth="1600" offheight="1200" />
+    <quality shadowsize="0" />
+    <headlight ambient=".3 .3 .3" diffuse=".4 .4 .4" specular=".05 .05 .05" />
+  </visual>
+</mujoco>

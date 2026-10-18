@@ -1,0 +1,51 @@
+{
+  "attempt": 1,
+  "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+  "config": {
+    "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+    "mass_kg": 0.5,
+    "duration_s": 6.0,
+    "label": "floor_supported_0p5kg_real_neck_60mm"
+  },
+  "admission_passed": true,
+  "mass_kg": 0.5,
+  "actual_steps": 1200,
+  "actual_command_updates": 300,
+  "actual_drive_updates": 1200,
+  "sim_duration_s": 5.999999999999894,
+  "bilateral_capture_ever": true,
+  "bilateral_loaded_duty": 1.0,
+  "first_failure": null,
+  "runtime_error": null,
+  "startup20mm_time_s": 1.314999999999994,
+  "startup20mm_within5s": true,
+  "final_object_backwards_m": 0.07333955051008462,
+  "max_object_backwards_m": 0.07334392964021394,
+  "final_object_backwards_from_pull_entry_m": 0.061373572883653416,
+  "final_torso_backwards_m": 1.0225865272678747e-07,
+  "max_torso_backwards_m": 1.0219331538279203e-06,
+  "loaded_mean_ground_normal_N": 7.507531052016729,
+  "weight_N": 4.905,
+  "loaded_ground_contact_duty": 0.978021978021978,
+  "ground_support_classification": "FLAT_NOMINAL",
+  "min_grasp_margin_m": 0.02973620292125958,
+  "max_jaw_payload_penetration_m": 0.0006219367072452086,
+  "max_object_floor_penetration_m": 0.0002400614273301363,
+  "foot_contact_slip_integral_m": [
+    0.0015443169189516427,
+    0.0015466928662306067
+  ],
+  "foot_max_stance_center_excursion_m": [
+    0.0007007234484621331,
+    0.000699330270141768
+  ],
+  "max_positive_mechanical_power_w": 0.8488584019585036,
+  "continuous60s": "NOT_EXECUTED",
+  "formal_0p5m_whole_robot": "NOT_QUALIFIED_SHORT_PILOT",
+  "actual_trajectory_SHA256": "2ccaf4d0f6a60d6bb880f9ffb891e9346e6684942dba3868db1960289001fff8",
+  "actual_raw_SHA256": "a1bdf14b0afc79ffb03896605dd725e306858ef73742c098edd7be072858193e",
+  "model_MJB_SHA256": "4f708d87e953ec4c608684cc0e29c5f77e03ff0142453d9e18c31f18440e826d",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0
+}

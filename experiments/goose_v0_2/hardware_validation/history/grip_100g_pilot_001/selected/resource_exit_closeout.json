@@ -1,0 +1,20 @@
+{
+  "pid": 3290515,
+  "purpose": "input/hash audit, video decode, reports; no dynamics",
+  "finished_UTC": "2026-10-18T11:16:29.700410+00:00",
+  "process_wall_s": 0.39653587341308594,
+  "CPU_affinity": [
+    0
+  ],
+  "max_address_space_bytes": 8589934592,
+  "self_maxRSS_KiB": 2848416,
+  "child_maxRSS_KiB": 27504,
+  "CPU_user_s": 0.05416,
+  "CPU_system_s": 0.023632999999999998,
+  "children_CPU_s": 0.335796,
+  "physics_integrations": 0,
+  "GPU": 0,
+  "NN": 0,
+  "training": 0,
+  "ffmpeg_decode_threads": 1
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "cart_source_metadata_correction_chain_v1",
+  "status": "source_metadata_changed_physics_unchanged",
+  "old_R2_identity_mass_sha256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+  "current_corrected_mass_sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+  "frozen_collision_source_identity_mass_sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+  "identity_records_kept_verbatim": true,
+  "only_change": "support_screen.caster_all_headings_conservative_support_rectangle_mm.x [30,570] -> [80,570] mm",
+  "old_bytes_reconstructed_by_reversing_only_that_field": true,
+  "old_reconstructed_file": "geometry_mass_screen_r2_original_reconstructed.json",
+  "original_reconstructed_support_is_historical_not_current_authority": true,
+  "mass_COM_fullI_all_parts_unchanged": true,
+  "all_other_bytes_verified_by_exact_original_SHA": true,
+  "parameters_unchanged_sha256": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600",
+  "native_STEP_GLB_unchanged": [
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.step",
+      "sha256": "34163bb2ef9e547c4a479968d57344c38fb78511bd35122ffe203ff275a281b4",
+      "verified": true,
+      "copied": false
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.glb",
+      "sha256": "c6e86afd51a5cbdf9f1132cec3825f232a21b52a86b179197ed8644fbf59867a",
+      "verified": true,
+      "copied": false
+    }
+  ],
+  "corrected_interpretation": "support_stability_review_r2.json is the final analytical interpretation: rail actual1.5mm not historical2mm label; hypothetical300mm-high box COM is distinct from150mm tote envelope; no dynamic qualification",
+  "rebuild_or_simulation_performed": false
+}

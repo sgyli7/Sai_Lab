@@ -1,0 +1,44 @@
+{
+  "schema": "goose_v02_independent_raw_dataset_index_v1",
+  "datasets": [
+    {
+      "experiment_id": "grip_100g_pilot_001",
+      "state": "CLOSED_HISTORY_NOT_AN_ACTIVE_EXECUTION_ORDER",
+      "raw_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001",
+      "manifest_source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/results_manifest.json",
+      "manifest_sha256": "91b5a61a65e2a3eeba0724017f07d75d76844d63892eeeb9ee029304be16223f",
+      "manifest_entries": 178,
+      "manifest_all_bytes_verified": true,
+      "total_manifest_bytes": 17417752,
+      "source_input_release": "physics_v0_2_20261018_04",
+      "input_zip_sha256": "1dd11b212697f2b0005c045e4874c9ae1657e0f97863ae0cfde57b09c2d2a9ba",
+      "raw_data_moved_or_modified": false,
+      "raw_logs_trajectories_videos_and_MJB_not_copied_to_Git": true,
+      "source_execution_owner_at_time": "Historical V0.2 work was collected in the V0.1 Picking worktree; this is provenance only, not current ownership",
+      "current_execution_owner": "Sai_Rotbots Goose V0.2 hardware optimization chat only",
+      "picking_current_scope": "V0.1 only; no V0.2 experiments assigned",
+      "historical_result": "TESTED_LOCAL_STATIC_HOLD_NOT_PASSED_HARDWARE_ROOT_UNDETERMINED",
+      "archived_commands_have_no_current_authorization": true
+    },
+    {
+      "experiment_id": "ground_drag_load_002",
+      "state": "CLOSED_HISTORY_NOT_AN_ACTIVE_EXECUTION_ORDER",
+      "raw_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002",
+      "manifest_source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/results_manifest.json",
+      "manifest_sha256": "13b53f113b1a7186c532924396dd1dd642508686da85f9e2555744d7484bbf5c",
+      "manifest_entries": 204,
+      "manifest_all_bytes_verified": true,
+      "total_manifest_bytes": 43067975,
+      "source_input_release": "physics_v0_2_20261018_04",
+      "input_zip_sha256": "1dd11b212697f2b0005c045e4874c9ae1657e0f97863ae0cfde57b09c2d2a9ba",
+      "raw_data_moved_or_modified": false,
+      "raw_logs_trajectories_videos_and_MJB_not_copied_to_Git": true,
+      "source_execution_owner_at_time": "Historical V0.2 work was collected in the V0.1 Picking worktree; this is provenance only, not current ownership",
+      "current_execution_owner": "Sai_Rotbots Goose V0.2 hardware optimization chat only",
+      "picking_current_scope": "V0.1 only; no V0.2 experiments assigned",
+      "historical_result": "LAB_RETURNED_CLOSED_PENDING_PM_REVIEW",
+      "archived_commands_have_no_current_authorization": true
+    }
+  ],
+  "large_raw_data_policy": "Remain read-only at original ProjectBackups roots; never overwritten, moved, or ingested as bulk Git content"
+}

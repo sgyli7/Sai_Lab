@@ -1,0 +1,181 @@
+{
+  "schema": "goose_v0_2_actuator_facts_v1",
+  "robot": "goose_v0_2",
+  "retrieved_at_utc": "2026-10-07",
+  "source_kind": "manufacturer_catalog_and_conservative_interpolation",
+  "bench_verified": false,
+  "curves": {
+    "ak45_36_v3": {
+      "model": "AK45-36 V3.0 KV80",
+      "mass_kg": 0.349,
+      "diameter_m": 0.055,
+      "length_m": 0.0565,
+      "rated_torque_nm": 8.0,
+      "rated_speed_rpm": 40.0,
+      "peak_torque_nm": 24.0,
+      "no_load_speed_rpm": 52.0,
+      "backdrive_nm": 0.8,
+      "url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "plot": "83ad78b004bb983c9e0afa1b5e87797dd8f94588b755a9402d36d81dfd2a5c4f",
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20.0,
+        25.2
+      ],
+      "speed_rad_s_torque_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ]
+    },
+    "ak45_10_v3": {
+      "model": "AK45-10 V3.0 KV75",
+      "mass_kg": 0.262,
+      "diameter_m": 0.053,
+      "length_m": 0.0452,
+      "rated_torque_nm": 2.5,
+      "rated_speed_rpm": 120.0,
+      "peak_torque_nm": 7.0,
+      "no_load_speed_rpm": 180.0,
+      "backdrive_nm": 0.1,
+      "url": "https://www.cubemars.com/product/ak45-10-v3-0-kv75-robotic-actuator.html",
+      "basis": "Conservative chord from manufacturer rated2.5Nm/120rpm to no-load180rpm; chart is higher. Peak remains separately capped.",
+      "plot": "0ed79e76e35388c1e3698c0d7e71c67cfebcda5588ff3bf16e4876e1c4366e5b",
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20.0,
+        25.2
+      ],
+      "speed_rad_s_torque_nm": [
+        [
+          0.0,
+          7
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0
+        ]
+      ]
+    },
+    "ak40_10_v3": {
+      "model": "AK40-10 V3.0 KV170",
+      "mass_kg": 0.19,
+      "diameter_m": 0.053,
+      "length_m": 0.0402,
+      "rated_torque_nm": 1.3,
+      "rated_speed_rpm": 370.0,
+      "peak_torque_nm": 4.1,
+      "no_load_speed_rpm": 435.0,
+      "backdrive_nm": 0.1,
+      "url": "https://www.cubemars.com/product/ak40-10-v3-0-kv170-robotic-actuator.html",
+      "basis": "Manufacturer rated workpoint and no-load endpoint; interpolated conservative simulation envelope, not a measured bench curve.",
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20.0,
+        25.2
+      ],
+      "speed_rad_s_torque_nm": [
+        [
+          0.0,
+          4.1
+        ],
+        [
+          38.746309394274114,
+          1.3
+        ],
+        [
+          45.553093477052,
+          0
+        ]
+      ]
+    },
+    "ak70_10_kv100": {
+      "model": "AK70-10 KV100",
+      "mass_kg": 0.621,
+      "diameter_m": 0.089,
+      "length_m": 0.05025,
+      "rated_torque_nm": 8.3,
+      "rated_speed_rpm": 148.0,
+      "peak_torque_nm": 24.8,
+      "no_load_speed_rpm": 240.0,
+      "backdrive_nm": 0.48,
+      "url": "https://www.cubemars.com/product/ak70-10-kv100-robotic-actuator.html",
+      "basis": "24V column only; 48V numbers are excluded. Selection requires measured load trajectory and CAD interface verification.",
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20.0,
+        25.2
+      ],
+      "speed_rad_s_torque_nm": [
+        [
+          0.0,
+          24.8
+        ],
+        [
+          15.498523757709647,
+          8.3
+        ],
+        [
+          25.13274122871834,
+          0
+        ]
+      ]
+    },
+    "xc330_preserved_design": {
+      "model": "XC330 preserved V0.1 design cap",
+      "mass_kg": 0.023,
+      "diameter_m": null,
+      "length_m": null,
+      "rated_torque_nm": null,
+      "rated_speed_rpm": null,
+      "peak_torque_nm": 0.18,
+      "no_load_speed_rpm": null,
+      "url": "https://emanual.robotis.com/docs/en/dxl/x/xc330-t288/",
+      "basis": "Unchanged V0.1 conservative0.18Nm and3rad/s proxy. No new manufacturer torque calibration claimed; regulated5V branch remains required.",
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20.0,
+        25.2
+      ],
+      "speed_rad_s_torque_nm": [
+        [
+          0.0,
+          0.18
+        ],
+        [
+          3.9000000000000004,
+          0
+        ]
+      ]
+    }
+  },
+  "enclosed_thermal_rule": "Keep V0.1 continuous design deratings and2s squared-force proxy; no automatic promotion to catalog continuous rating.",
+  "voltage_rule": "24V nominal simulation; lower-voltage sensitivity20V,22.2V; no credit above24V. Actual6S bus/regeneration hardware acceptance separate.",
+  "price_rule": "Procurement comparison is incremental; no order placed and no undocumented seller assumed."
+}

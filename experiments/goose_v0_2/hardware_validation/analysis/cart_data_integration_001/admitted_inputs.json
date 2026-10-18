@@ -1,0 +1,77 @@
+{
+  "schema": "cart_static_data_admission_v1",
+  "status": "collision_candidate_static_only",
+  "collision_candidate_id": "low_profile_stock_cart_01_collision_002",
+  "collision_artifact_manifest": {
+    "path": "analysis/cart_collision_001/artifact_manifest.json",
+    "sha256": "2ce3faf0f64ea4312bc640bdf3042108934fd3909e16aff5dcf729bf43a32af4",
+    "declared_files": 22,
+    "declared_bytes": 413226
+  },
+  "historical_static_archive_manifest": {
+    "path": "analysis/cart_static_screen_001/archive_manifest.json",
+    "sha256": "bb81bb367bd30f2ab2c2d16b5ee4093c1f9fe7fc04775658611498c760f4ab7a",
+    "indexed_files": 4,
+    "files_including_manifest": 5,
+    "cart_empty_mass_at_old_screen_kg": 9.211947562225651
+  },
+  "source_metadata_correction": {
+    "path": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01/source_metadata_changed_physics_unchanged.json",
+    "sha256": "a81285f9081c134415f3458457a57d1da4ee939853dcd84c22238668b9e83afd"
+  },
+  "current_cart": {
+    "empty_mass_kg": 7.800864011651539,
+    "unresolved_reserve_mass_kg": 0.35,
+    "reserve_COM_and_I_are_experimental_allocation_not_real_hardware": true,
+    "bodies": 10,
+    "passive_axes": 9,
+    "collision_leaves": 18,
+    "types": {
+      "box": 8,
+      "cylinder": 6,
+      "mesh": 4
+    },
+    "mesh_support_vertices": 188,
+    "mesh_convex_faces": 360,
+    "maximum_mesh_support_vertices": 64,
+    "combined_goose_cart_leaves": 32,
+    "ground_planes": 1,
+    "cargo_instances": 0
+  },
+  "limits": [
+    "Flat ground only; fork/axle/plate/brake contact omissions retain full mass, but do not support curb, threshold, close-obstacle or full swept-volume claims",
+    "36 omitted-contact CAD parts total1.7222909331512934kg remain in MCI",
+    "Passive-axis friction, rolling resistance and spring parameters are zero placeholders, not measured20kg training physics",
+    "No20kg loaded model instance, dynamic/backdrag/control/endurance task admission"
+  ],
+  "historical_TCP_applicability": {
+    "old_actual_TCP_mm": [
+      300.0000624,
+      0,
+      485.5002402
+    ],
+    "old_root_z_m": 0.005000003,
+    "current_bite_center_mm": [
+      300,
+      0,
+      480
+    ],
+    "current_context_root_z_m": 0.0055,
+    "approximate_force_point_delta_mm": 5.5,
+    "approximate20N_moment_delta_Nm": 0.11,
+    "old_u_approximately": 0.6405,
+    "current_cart_static_admission": "NOT_PROVEN_BY_OLD_SCREEN",
+    "new_LP_or_dynamics_run": false,
+    "independent_source": "analysis/cart_independent_review_001/independent_release_gate.json"
+  },
+  "independent_review": {
+    "root": "analysis/cart_independent_review_001",
+    "status": "FINAL_LOCKED",
+    "manifest": "analysis/cart_independent_review_001/independent_manifest.json",
+    "manifest_sha256": "74fac22e1f4bb635058506ea73a7db2dc0b560ff655004e5a4e156bafdd111c2",
+    "gate": "analysis/cart_independent_review_001/independent_release_gate.json",
+    "gate_sha256": "e87e7dbba7b56cb2715f3b182e7fd7a79512d33dbfb18530f553e9ceb4644ba8",
+    "admission": "STATIC_COLLISION_FIRST_VERSION_ACCEPTED_WITH_RESTRICTIONS"
+  },
+  "simulator_imported_or_run_by_integrator": false
+}

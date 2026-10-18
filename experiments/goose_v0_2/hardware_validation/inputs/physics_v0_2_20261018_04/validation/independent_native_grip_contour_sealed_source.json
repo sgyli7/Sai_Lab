@@ -1,0 +1,332 @@
+{
+  "schema": "goose_native_grip_eight_edge_contour_gate_v1",
+  "candidate": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+    "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5"
+  },
+  "collision_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/collision_manifest.json",
+    "sha256": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6"
+  },
+  "script": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/audit_goose_native_grip_contour.py",
+    "sha256": "9af542a479101d03d12360cc82002ba0f2c1965f887872e2b8ba073e1f004a60"
+  },
+  "actual_assets": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    }
+  ],
+  "status": "PASS_NATIVE_EIGHT_EDGE_FINITE_SUPPORT",
+  "failures": [],
+  "pads": [
+    {
+      "name": "upper_grip_cassette_pad",
+      "owner": "head_roll",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/functional_contact_reference_20261018/upper_grip_cassette_pad.brep",
+        "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2"
+      },
+      "native_face_index": 1,
+      "native_strict_valid": true,
+      "actual_face_area_mm2": 1452.7599999999989,
+      "all8_boundary_edges_straight": true,
+      "native_wire_count": 1,
+      "native_face_is_convex_without_holes": true,
+      "native_planar_polygon_area_mm2": 1452.7599999999993,
+      "proxy_planar_polygon_area_mm2": 1450.2602237619567,
+      "proxy_to_native_contact_area_ratio": 0.9982792916668671,
+      "maximum_proxy_vertex_outside_native_polygon_mm": 2.872092815664473e-05,
+      "native_original_vertices_mm": [
+        [
+          179.3,
+          -11.7,
+          553.0
+        ],
+        [
+          215.0,
+          -11.7,
+          553.0
+        ],
+        [
+          239.0,
+          -6.7,
+          553.0
+        ],
+        [
+          257.7,
+          -2.7,
+          553.0
+        ],
+        [
+          257.7,
+          2.7,
+          553.0
+        ],
+        [
+          239.0,
+          6.7,
+          553.0
+        ],
+        [
+          215.0,
+          11.7,
+          553.0
+        ],
+        [
+          179.3,
+          11.7,
+          553.0
+        ]
+      ],
+      "native_to_current_translation_mm": [
+        -13.55,
+        0.0,
+        32.305
+      ],
+      "actual_face_world_zero_vertices_mm": [
+        [
+          165.75,
+          -11.7,
+          585.305
+        ],
+        [
+          201.45,
+          -11.7,
+          585.305
+        ],
+        [
+          225.45,
+          -6.7,
+          585.305
+        ],
+        [
+          244.14999999999998,
+          -2.7,
+          585.305
+        ],
+        [
+          244.14999999999998,
+          2.7,
+          585.305
+        ],
+        [
+          225.45,
+          6.7,
+          585.305
+        ],
+        [
+          201.45,
+          11.7,
+          585.305
+        ],
+        [
+          165.75,
+          11.7,
+          585.305
+        ]
+      ],
+      "native_plane_world_zero_mm": 585.305,
+      "proxy_plane_world_zero_mm": 585.305033039562,
+      "plane_error_mm": 3.303956202671543e-05,
+      "source_mass_at1100_kg_m3": 0.002017699658760548,
+      "native_mass_delta_to_frozen_item_kg": 2.168404344971009e-18,
+      "native_COM_delta_to_frozen_item_max_mm": 5.684341886080801e-13,
+      "maximum1440_direction_contact_edge_support_loss_mm": 0.02463610139961503,
+      "maximum_support_excess_mm": 2.872092815664473e-05,
+      "worst_loss_direction_xy": [
+        0.20791169081775857,
+        -0.9781476007338058
+      ],
+      "limits": {
+        "plane_error_mm": 0.001,
+        "finite_support_abs_error_mm": 0.05
+      },
+      "passed": true
+    },
+    {
+      "name": "lower_grip_cassette_pad",
+      "owner": "beak_hinge",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/functional_contact_reference_20261018/lower_grip_cassette_pad.brep",
+        "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69"
+      },
+      "native_face_index": 3,
+      "native_strict_valid": true,
+      "actual_face_area_mm2": 1452.7599999999989,
+      "all8_boundary_edges_straight": true,
+      "native_wire_count": 1,
+      "native_face_is_convex_without_holes": true,
+      "native_planar_polygon_area_mm2": 1452.7599999999993,
+      "proxy_planar_polygon_area_mm2": 1452.7602844648156,
+      "proxy_to_native_contact_area_ratio": 1.0000001958099183,
+      "maximum_proxy_vertex_outside_native_polygon_mm": 3.068015624307918e-05,
+      "native_original_vertices_mm": [
+        [
+          179.3,
+          -11.7,
+          553.0
+        ],
+        [
+          215.0,
+          -11.7,
+          553.0
+        ],
+        [
+          239.0,
+          -6.7,
+          553.0
+        ],
+        [
+          257.7,
+          -2.7,
+          553.0
+        ],
+        [
+          257.7,
+          2.7,
+          553.0
+        ],
+        [
+          239.0,
+          6.7,
+          553.0
+        ],
+        [
+          215.0,
+          11.7,
+          553.0
+        ],
+        [
+          179.3,
+          11.7,
+          553.0
+        ]
+      ],
+      "native_to_current_translation_mm": [
+        -13.55,
+        0.0,
+        32.305
+      ],
+      "actual_face_world_zero_vertices_mm": [
+        [
+          165.75,
+          -11.7,
+          585.305
+        ],
+        [
+          201.45,
+          -11.7,
+          585.305
+        ],
+        [
+          225.45,
+          -6.7,
+          585.305
+        ],
+        [
+          244.14999999999998,
+          -2.7,
+          585.305
+        ],
+        [
+          244.14999999999998,
+          2.7,
+          585.305
+        ],
+        [
+          225.45,
+          6.7,
+          585.305
+        ],
+        [
+          201.45,
+          11.7,
+          585.305
+        ],
+        [
+          165.75,
+          11.7,
+          585.305
+        ]
+      ],
+      "native_plane_world_zero_mm": 585.305,
+      "proxy_plane_world_zero_mm": 585.3050355461312,
+      "plane_error_mm": 3.5546131243791024e-05,
+      "source_mass_at1100_kg_m3": 0.0021575981277072586,
+      "native_mass_delta_to_frozen_item_kg": 4.336808689942018e-19,
+      "native_COM_delta_to_frozen_item_max_mm": 1.1368683772161603e-13,
+      "maximum1440_direction_contact_edge_support_loss_mm": 8.288245965104579e-07,
+      "maximum_support_excess_mm": 3.068015624307918e-05,
+      "worst_loss_direction_xy": [
+        -0.8890171414857364,
+        -0.4578739151169568
+      ],
+      "limits": {
+        "plane_error_mm": 0.001,
+        "finite_support_abs_error_mm": 0.05
+      },
+      "passed": true
+    }
+  ],
+  "reference_scope": "Two actual planar native contact faces, all eight straight boundary vertices, zero articulation and1440 directions; original body ownership retained.",
+  "limitations": [
+    "No whole-body native surface or whole-ROM certification.",
+    "Source nominal TPU85A/material density is not measured friction or compliance.",
+    "Mass/COM matches corroborate adopted identity; saved whole05 surface placement proof is separate."
+  ],
+  "owned_running_jobs": []
+}

@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_01/parameters.json",
+    "sha256": "c1c124e8d34a9a5dba970aedeb934602fb6f40fb9a5f5b95dd628abe8bb1d600"
+  },
+  "mass_screen": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/geometry_mass_screen.json",
+    "sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2"
+  },
+  "context": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/goose_cart_context.json",
+    "sha256": "ec651c2ed30bf2f6728a3b9ef329426451b6b2b12009c9a4bb89c73968db4d3a"
+  },
+  "step": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.step",
+    "sha256": "34163bb2ef9e547c4a479968d57344c38fb78511bd35122ffe203ff275a281b4"
+  },
+  "glb": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_01/goose_low_profile_stock_cart_01.glb",
+    "sha256": "c6e86afd51a5cbdf9f1132cec3825f232a21b52a86b179197ed8644fbf59867a"
+  }
+}

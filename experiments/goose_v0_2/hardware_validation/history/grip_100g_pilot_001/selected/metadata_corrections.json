@@ -1,0 +1,20 @@
+{
+  "raw_originals_preserved": true,
+  "issue_1": {
+    "description": "Original relative_from_cold fields use first post-step t=5ms pose, not true t0 birth. Corrected values saved separately from actual t0 state.",
+    "affects_hold_reference_or_5s_failure": false,
+    "attempt3_30mm_crossing_original_s": 0.49,
+    "attempt3_true_t0_reference_crossing_s": 0.495
+  },
+  "issue_2": {
+    "description": "scene_declaration.json has a nominal cold_jaw_angle_rad=.25 for every scene. Per-attempt declaration.json, summary.json and cold_state.npz contain the actual qstart.",
+    "actual_qstart_rad_by_attempt": [
+      0.25,
+      0.19682523003160665,
+      0.25655547382008037,
+      0.19682523003160665
+    ],
+    "physics_affected": false
+  },
+  "contact_time_alignment": "Recorded contact geometry and solved forces belong to incoming state t-5ms; stored completed qpos/relative pose belong to t. Both are retained and independently checked."
+}

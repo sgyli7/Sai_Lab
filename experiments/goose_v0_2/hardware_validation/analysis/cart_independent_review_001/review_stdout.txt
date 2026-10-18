@@ -1,0 +1,192 @@
+native imported
+native checks complete
+{
+  "engine": "3.10.0",
+  "active_cart_leaves": 18,
+  "active_robot_leaves": 14,
+  "cart_types": {
+    "mjGEOM_BOX": 8,
+    "mjGEOM_CYLINDER": 6,
+    "mjGEOM_MESH": 4
+  },
+  "mesh_graph": [
+    {
+      "geom": "cart_drawbar",
+      "loaded_vertices": 48,
+      "actual_support_vertices": 48,
+      "actual_hull_triangles": 92
+    },
+    {
+      "geom": "cart_rotating_shaft",
+      "loaded_vertices": 64,
+      "actual_support_vertices": 64,
+      "actual_hull_triangles": 124
+    },
+    {
+      "geom": "cart_bite_yoke_right",
+      "loaded_vertices": 38,
+      "actual_support_vertices": 38,
+      "actual_hull_triangles": 72
+    },
+    {
+      "geom": "cart_bite_yoke_left",
+      "loaded_vertices": 38,
+      "actual_support_vertices": 38,
+      "actual_hull_triangles": 72
+    }
+  ],
+  "cart_mass_kg": 7.800864011651539,
+  "parts_covered_once": true,
+  "compiled_robot_arrays_unchanged": {
+    "body_mass": true,
+    "body_ipos": true,
+    "body_inertia": true,
+    "body_iquat": true,
+    "body_pos": true,
+    "body_quat": true,
+    "body_parentid": true,
+    "jnt_type": true,
+    "jnt_axis": true,
+    "jnt_pos": true,
+    "jnt_range": true,
+    "jnt_limited": true,
+    "jnt_stiffness": true,
+    "dof_damping": true,
+    "dof_frictionloss": true,
+    "actuator_gear": true,
+    "actuator_ctrlrange": true,
+    "actuator_forcerange": true,
+    "actuator_trntype": true,
+    "actuator_gainprm": true,
+    "actuator_biasprm": true,
+    "actuator_dynprm": true,
+    "eq_data": true,
+    "eq_type": true,
+    "eq_active0": true
+  },
+  "nearest_unintended_contacts": [
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.0037701245466747954
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008639213209713862
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.008647816784548722
+    },
+    {
+      "cart": "cart_rotating_shaft",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.013678017662974317
+    },
+    {
+      "cart": "cart_bite_yoke_right",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.01775895841603649
+    },
+    {
+      "cart": "cart_bite_yoke_left",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.017766115444627535
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.06050000232733293
+    },
+    {
+      "cart": "cart_drawbar",
+      "robot": "lower_bill_envelope",
+      "distance_m": 0.06912388896374243
+    },
+    {
+      "cart": "cart_pitch_clevis_right",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495394873023522
+    },
+    {
+      "cart": "cart_pitch_clevis_left",
+      "robot": "upper_bill_envelope",
+      "distance_m": 0.19495596697100806
+    }
+  ],
+  "saved_pose_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "distance_m": -5.793674704045997e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "distance_m": -8.236977590251604e-11
+    }
+  ],
+  "wall_seconds": 1.0912078410037793
+}

@@ -1,0 +1,104 @@
+{
+  "release_id": "physics_v0_2_20261018_04",
+  "whole05": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+    "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860",
+    "required_at_runtime": false
+  },
+  "source_tuple": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole05_selected_source_packet_04/ordered_geometry_metadata.json",
+    "sha256": "0069e497c32da0d1c9b79d6a7b0c2779e7f9da30f4a66b271113e951b040be52",
+    "required_at_runtime": false
+  },
+  "source_SI": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole05_complete_counterbalance_readback_01/whole05_full_SI_contract.json",
+    "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+    "required_at_runtime": false
+  },
+  "E": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/simulation_mass_contract_0519_01/E_simulation_mass_contract.json",
+    "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+    "required_at_runtime": false
+  },
+  "correct_six_foot_source": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/foot_physics_priority_checkpoint_01/foot_physics_priority_checkpoint.json",
+    "sha256": "859e0daf4f7fe9d3f498934ca2c95b16e38432a001ef94a8eb467a47d956aa72",
+    "required_at_runtime": false
+  },
+  "head10_actual_not_head17": true,
+  "source_paths_are_provenance_not_runtime_dependencies": true,
+  "local_engineering_checkpoint": {
+    "assembly": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+    "native": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integrated_native.brep",
+    "native_parts": 1824,
+    "runtime_dependency": false
+  },
+  "unadopted_head17_stage": {
+    "handoff": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/radial_head_phase_handoff_05_10_01.json",
+    "sha256": "5f79d90402403c98dcb593d5038983fa9a83e73d6477b2f2bcb663ef683a8c68",
+    "adopted": false
+  },
+  "selected_source_archive_scope": "Runtime meshes, complete design massledger and physics/drive contracts are portable. Historical engineering absolute/relative locations are provenance only and are not read while loading.",
+  "material_revision": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_material_adoption_01/hip_carrier_light_material_patch.json",
+    "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+    "required_at_runtime": false
+  },
+  "previous_unpublished_baseline": {
+    "release_id": "physics_v0_2_20261018_01",
+    "physical_contract_sha256": "56c46c494973b6bd75fe5342d7cfe37e2b56f95f71bd251faf6b96fc7690c285",
+    "mass_kg": 17.41127300511843
+  },
+  "embedded_source_contracts": [
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05_mass/conditional_mass_ledger.json",
+      "package_path": "source_inputs/conditional_mass_ledger.json",
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole05_complete_counterbalance_readback_01/whole05_full_SI_contract.json",
+      "package_path": "source_inputs/whole05_full_SI_contract.json",
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/simulation_mass_contract_0519_01/E_simulation_mass_contract.json",
+      "package_path": "engineering_mass_patch.json",
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_material_adoption_01/hip_carrier_light_material_patch.json",
+      "package_path": "material_mass_patch.json",
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+      "required_at_runtime": false
+    }
+  ],
+  "portable_whole05_engineering_checkpoint": {
+    "repository_path": "robots/goose_v0_2/cad/source/engineering_checkpoint_20261018/checkpoint_manifest.json",
+    "sha256": "25f8d86a0cbd95b2fcc27db005811e4aaa2bd47c98399fd464399c0171e0d314",
+    "required_at_runtime": false,
+    "scope": "1824-part native hardware checkpoint before final design mass/material changes; apply selected material patch separately, not a manufacturing release"
+  },
+  "collision_hardware_parent": "physics_v0_2_20261018_02",
+  "physical_contract_bytes_unchanged_from_parent": true,
+  "actuator_contract_bytes_unchanged_from_parent": true,
+  "previous_291_contact_pass_not_inherited": true,
+  "parent_collision_reference": {
+    "repository_path": "robots/goose_v0_2/models/physics_v0_2_20261018_02/collision_manifest.json",
+    "sha256": "9efe1bc0e684ee976acb07eccb232ce54fc85c7d72d63597f63a356450bbe649",
+    "required_at_runtime": false
+  },
+  "collision_parent": "physics_v0_2_20261018_03",
+  "supersedes_lower_contact_outline_approximation": true,
+  "previous_03_functional_pass_did_not_cover_complete_native_lower_contact_boundary": true,
+  "contact_native_source": {
+    "native_brep": "source_inputs/native_contact/lower_grip_cassette_pad.brep",
+    "upper_brep": "source_inputs/native_contact/upper_grip_cassette_pad.brep",
+    "contact_face": "source_inputs/native_contact/lower_pad_contact_face.json",
+    "rebuild_seed": "source_inputs/native_contact/lower_bill_parent03.obj",
+    "builder": "rebuild_contacts.py",
+    "all_are_runtime_independent_provenance_or_rebuild_inputs": true
+  }
+}

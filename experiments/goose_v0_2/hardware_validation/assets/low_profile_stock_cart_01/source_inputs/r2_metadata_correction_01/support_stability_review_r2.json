@@ -1,0 +1,249 @@
+{
+  "design_id": "low_profile_stock_cart_01",
+  "before_estimated_empty_mass_kg": 9.211947562225651,
+  "after_estimated_empty_mass_kg": 7.800864011651539,
+  "reduction_kg": 1.4110835505741122,
+  "reduction_percent": 15.317972025376873,
+  "before_mass_record_SHA256": "ed0dc1cdcbe8d613b6af3fae58f31801377898b61e17df6e36c179d4fd1e4533",
+  "material_weight_change": [
+    {
+      "material": "aluminium_frame",
+      "before_CAD_mass_kg": 3.4757221816176034,
+      "after_CAD_mass_kg": 2.9493132850474395,
+      "delta_kg": -0.5264088965701639
+    },
+    {
+      "material": "aluminium_sheet",
+      "before_CAD_mass_kg": 1.4548736867861662,
+      "after_CAD_mass_kg": 1.4548736867861662,
+      "delta_kg": 0.0
+    },
+    {
+      "material": "nylon",
+      "before_CAD_mass_kg": 0.7748439828777135,
+      "after_CAD_mass_kg": 0.5727747013635929,
+      "delta_kg": -0.20206928151412062
+    },
+    {
+      "material": "polyurethane",
+      "before_CAD_mass_kg": 0.8170049579155819,
+      "after_CAD_mass_kg": 0.4543395019851765,
+      "delta_kg": -0.36266545593040544
+    },
+    {
+      "material": "stainless",
+      "before_CAD_mass_kg": 0.0715780470193899,
+      "after_CAD_mass_kg": 0.0715780470193899,
+      "delta_kg": 0.0
+    },
+    {
+      "material": "steel",
+      "before_CAD_mass_kg": 2.267924706009197,
+      "after_CAD_mass_kg": 1.9479847894497744,
+      "delta_kg": -0.3199399165594228
+    }
+  ],
+  "changes": [
+    "Longitudinal and cross rails: 2 to 1.5 mm wall; unchanged outer section and aluminium density.",
+    "PU tread 32 to 25 mm width and 15 to 10 mm radial tread; wheel diameter remains125.",
+    "Nylon wheel hub three small to six larger windows; real removed volume.",
+    "Fork plate3 to2 mm, fork bridge3 to2, mounting plate4 to3, aluminium load spreader5 to3.",
+    "Roll release remade as solid8mm steel shaft and explicit outer bearing envelopes; all steel remains counted.",
+    "Added actual thrust seats and proper mast top edge room; these small masses offset some saving."
+  ],
+  "beam_screen": {
+    "load_assumption": "2g gross cart+cargo entirely split between two rails, one central load each. No empty-wheel mass subtraction.",
+    "rail_outer_width_height_wall_mm": [
+      20,
+      30,
+      1.5
+    ],
+    "span_mm": 490,
+    "I_mm4": 17115.75,
+    "per_rail_center_load_N": 272.72647595430163,
+    "nominal_bending_MPa": 29.279166823891988,
+    "deflection_mm": 0.5660167435117928,
+    "comparison_allowable_assumed_MPa": 70,
+    "limit": "No net-hole, local buckling, joint/slip or fatigue qualification."
+  },
+  "wheel_and_handle_screen": {
+    "2g_gross_divided_by_three_min_wheel_load_N": 181.81765063620108,
+    "axle_d10_46mm_simply_supported_sigma_MPa": 21.297762890318527,
+    "spreader3mm_68mm_strip_25mm_overhang_sigma_MPa": 22.281574832867783,
+    "bite_d8_170mm_span_30N_centerload_sigma_MPa": 25.36531905527082,
+    "limits": "Nominal analytical stress only, not caster/bearing/brake rating or impact endurance."
+  },
+  "cargo_COM_allowed_cart_mm": {
+    "x": [
+      225,
+      425
+    ],
+    "y": [
+      -75,
+      75
+    ],
+    "z_max": 400
+  },
+  "all_caster_headings_support_assumption": {
+    "rectangle_x_mm": [
+      80,
+      570
+    ],
+    "rectangle_y_mm": [
+      -165,
+      165
+    ],
+    "qualifier": "Conservative inner rectangle for arbitrary independent front caster yaw; use the most rearward front contact x80, not the forward sweep envelope x30. Three-wheel support requires actual hull."
+  },
+  "cargo_extreme_static_screen": [
+    {
+      "cargo_COM_mm": [
+        225,
+        -75,
+        400
+      ],
+      "gross_COM_mm": [
+        234.01515718992715,
+        -53.93619636279081,
+        340.0258460140418
+      ],
+      "gravity_front_rear_axle_groups_N": [
+        187.0040043952064,
+        85.72247155909521
+      ],
+      "gravity_left_right_groups_N": [
+        180.93847664503917,
+        91.78799930926246
+      ],
+      "pull_minusX_tip_threshold_N": 87.50835638324303,
+      "lateral_tip_threshold_N": 63.104249525117936,
+      "static_grade_tip_tangent_fore_aft": 0.45295132412836314
+    },
+    {
+      "cargo_COM_mm": [
+        225,
+        75,
+        400
+      ],
+      "gross_COM_mm": [
+        234.01515718992715,
+        53.9741188972917,
+        340.0258460140418
+      ],
+      "gravity_front_rear_axle_groups_N": [
+        187.0040043952064,
+        85.72247155909521
+      ],
+      "gravity_left_right_groups_N": [
+        91.75665846322099,
+        180.96981749108065
+      ],
+      "pull_minusX_tip_threshold_N": 87.50835638324303,
+      "lateral_tip_threshold_N": 63.08270269346443,
+      "static_grade_tip_tangent_fore_aft": 0.45295132412836314
+    },
+    {
+      "cargo_COM_mm": [
+        425,
+        -75,
+        400
+      ],
+      "gross_COM_mm": [
+        377.89557753670385,
+        -53.93619636279081,
+        340.0258460140418
+      ],
+      "gravity_front_rear_axle_groups_N": [
+        106.92237174214519,
+        165.80410421215643
+      ],
+      "gravity_left_right_groups_N": [
+        180.93847664503917,
+        91.78799930926246
+      ],
+      "pull_minusX_tip_threshold_N": 169.25835638324304,
+      "lateral_tip_threshold_N": 63.104249525117936,
+      "static_grade_tip_tangent_fore_aft": 0.5649700595270718
+    },
+    {
+      "cargo_COM_mm": [
+        425,
+        75,
+        400
+      ],
+      "gross_COM_mm": [
+        377.89557753670385,
+        53.9741188972917,
+        340.0258460140418
+      ],
+      "gravity_front_rear_axle_groups_N": [
+        106.92237174214519,
+        165.80410421215643
+      ],
+      "gravity_left_right_groups_N": [
+        91.75665846322099,
+        180.96981749108065
+      ],
+      "pull_minusX_tip_threshold_N": 169.25835638324304,
+      "lateral_tip_threshold_N": 63.08270269346443,
+      "static_grade_tip_tangent_fore_aft": 0.5649700595270718
+    }
+  ],
+  "force_scenarios": [
+    {
+      "c_rr_assumption": 0.01,
+      "gross_mass_kg": 27.80086401165154,
+      "flat_constant_speed_N": 2.7272647595430164,
+      "flat_start_accel_0p2_N_without_caster_start": 8.287437561873325,
+      "2pct_grade_plus_accel_0p2_N_without_caster_start": 13.741967080959359
+    },
+    {
+      "c_rr_assumption": 0.02,
+      "gross_mass_kg": 27.80086401165154,
+      "flat_constant_speed_N": 5.454529519086033,
+      "flat_start_accel_0p2_N_without_caster_start": 11.01470232141634,
+      "2pct_grade_plus_accel_0p2_N_without_caster_start": 16.469231840502374
+    },
+    {
+      "c_rr_assumption": 0.03,
+      "gross_mass_kg": 27.80086401165154,
+      "flat_constant_speed_N": 8.181794278629049,
+      "flat_start_accel_0p2_N_without_caster_start": 13.741967080959357,
+      "2pct_grade_plus_accel_0p2_N_without_caster_start": 19.19649660004539
+    }
+  ],
+  "upper_chain_independent_D_screen": {
+    "source": "structural_topology specialist read-only sealed04 analysis, transmitted toPM in this session",
+    "posture_neck_pitch_mid_head_rad": [
+      0.4643360635489449,
+      0.7363504857282215,
+      -1.2006865492770507
+    ],
+    "single_axis_upper_chain_bounds_with_gravity_and_original_friction_reserve": {
+      "forwardFx_N": 54.9,
+      "lateralFy_abs_N": 3.2,
+      "downwardFz_N": 5.92,
+      "residualMx_abs_Nm": 0.104
+    },
+    "whole_robot_ideal_support_and_continuous_caps_max_utilization": {
+      "forwardFx10N": 0.466,
+      "forwardFx20N": 0.641,
+      "forwardFx20N_and_downFz3N": 0.715,
+      "Fy3N": 0.948
+    },
+    "scope": "Static ideal force allocation only. Components not simultaneous independent capacities, not rated drag force; no grasp, gait, turning, stopping or endurance proof."
+  },
+  "critical_remaining": [
+    "Real caster swivel-start resistance, floor seam and rolling losses need force measurements.",
+    "At nominal15N pull, Fy3.2N corresponds only about12deg load misalignment, despite larger mechanical yaw travel.",
+    "Pitch spring/bearing sealing must not silently assume zero tongue weight; CAD unbalanced estimate is recorded.",
+    "Plate/fork fixing, crush spacers, locking, brake cam and hard stops not fabrication released.",
+    "Full plate/bolt, load path and no-interference assembly not certified by a valid STEP."
+  ],
+  "physics_integrations": 0,
+  "training": 0,
+  "revision": "r2_tote_gusset_clearance",
+  "geometry_mass_ledger_SHA256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+  "authority": "Final R2 support/structure analytical screen; geometry_mass_screen rail_section_mm label [20,30,2] is a legacy label error. Actual frame is20x30x1.5; nominal prototype [2mm] comparison is historical only.",
+  "loaded_COM_scope": "The centered 20kg COM Z331.5 in the mass screen is a hypothetical300mm high uniform box with bottom181.5; it is not the150mm tote-envelope uniform COM. The worst-case support check uses declared cargoCOM Z400 independent of tote envelope."
+}

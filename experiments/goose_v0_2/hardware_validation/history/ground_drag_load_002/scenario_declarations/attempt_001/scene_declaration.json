@@ -1,0 +1,118 @@
+{
+  "config": {
+    "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+    "mass_kg": 0.5,
+    "duration_s": 6.0,
+    "label": "floor_supported_0p5kg_real_neck_60mm"
+  },
+  "payload": {
+    "mass_kg": 0.5,
+    "com_local_m": [
+      0.07867,
+      2.570860191397628e-20,
+      -0.11318000000000002
+    ],
+    "inertia_local_kg_m2": [
+      [
+        0.0009794814709251339,
+        0.0,
+        6.347208330729211e-05
+      ],
+      [
+        0.0,
+        0.0005161299240354842,
+        0.0
+      ],
+      [
+        6.347208330729217e-05,
+        0.0,
+        0.0009366011926002998
+      ]
+    ],
+    "component_ledger": [
+      {
+        "name": "payload/grip",
+        "mass_kg": 0.004,
+        "pos_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_m": [
+          0.006,
+          0.06
+        ]
+      },
+      {
+        "name": "payload/arm_right",
+        "mass_kg": 0.003,
+        "pos_m": [
+          0.0225,
+          -0.06,
+          -0.04
+        ],
+        "size_m": [
+          0.004,
+          0.04589389937671455
+        ]
+      },
+      {
+        "name": "payload/arm_left",
+        "mass_kg": 0.003,
+        "pos_m": [
+          0.0225,
+          0.06,
+          -0.04
+        ],
+        "size_m": [
+          0.004,
+          0.04589389937671455
+        ]
+      },
+      {
+        "name": "payload/case",
+        "mass_kg": 0.09,
+        "pos_m": [
+          0.08,
+          0.0,
+          -0.115
+        ],
+        "size_m": [
+          0.035,
+          0.065,
+          0.035
+        ]
+      },
+      {
+        "name": "physical_internal_uniform_ballast",
+        "mass_kg": 0.4,
+        "pos_m": [
+          0.08,
+          0,
+          -0.115
+        ],
+        "half_size_m": [
+          0.034,
+          0.064,
+          0.034
+        ],
+        "equivalent_density_kg_m3": 675.8217993079584
+      }
+    ],
+    "outer_contact_geometry_unchanged": true
+  },
+  "payload_initial_pose": [
+    0.3,
+    0.0,
+    0.15005,
+    1,
+    0,
+    0,
+    0
+  ],
+  "fixture": "stationary torso-only external soft weld; head and neck are NEVER fixed",
+  "object_ground_pairs": "explicit declared material mu=.3; no robot material or solver changes",
+  "source_robot_XML_SHA256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "scene_XML_SHA256": "981314b3b74091401e1638396f0f919a9c21f23722b38954babb97154b013a9a",
+  "kinematic_plan_SHA256": "cf5b0c8d0adf76ac735a28ca0993b5c88fb6b7966c71467c058c6317c24d6b18"
+}

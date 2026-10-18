@@ -1,0 +1,84 @@
+{
+  "status": "STATIC_COLLISION_FIRST_VERSION_ACCEPTED_WITH_RESTRICTIONS",
+  "candidate": "low_profile_stock_cart_01_collision_002",
+  "review_utc": "2026-10-18T12:48:47.639138+00:00",
+  "reviewer": "independent_whole_audit_G",
+  "not_a_dynamic_or_20kg_qualification": true,
+  "identity": {
+    "assets/low_profile_stock_cart_01/cart.xml": "14819c1b25b559b18c0beca685a8670b09ac25f418ff44af61011a7d2ec7e2c4",
+    "assets/low_profile_stock_cart_01/goose_cart_scene.xml": "53b5c2f412b4a5dc76024ddcdbe2d49193cc71bd210a94dd20e6fd87f4bd14ad",
+    "assets/low_profile_stock_cart_01/cart_collision.glb": "3c98330ed6aaecc34e1108f7e66838c0f35eb5592b7547b72f9170b1e366038d",
+    "assets/low_profile_stock_cart_01/body_mass_map.json": "df185621e960d5c5e6517adc2ecc4f2ab8e7dd28d5a9a0c204a6a1a3c397400a",
+    "assets/low_profile_stock_cart_01/collision_source_map.json": "191946d15487a7ab116cb3c4e9a84368a145c70c7b3fea457ef5fbcf24047147",
+    "assets/low_profile_stock_cart_01/source_identity.json": "c257200a063a84cce7321b9c7df7d831466c17daa2f9e1c132992e7e26b57dc4",
+    "analysis/cart_collision_001/artifact_manifest.json": "2ce3faf0f64ea4312bc640bdf3042108934fd3909e16aff5dcf729bf43a32af4",
+    "assets/low_profile_stock_cart_01/meshes/cart_bite_yoke_left.obj": "c0beda17127bdf4ba9e4ee239db1c10ca4237e315ad3b192ba5608757fa91376",
+    "assets/low_profile_stock_cart_01/meshes/cart_bite_yoke_right.obj": "7af69b25f2102250133bc1590be1ca9af485587791d5851c3651d3eb9a6045fd",
+    "assets/low_profile_stock_cart_01/meshes/cart_drawbar.obj": "f5b8f845416771c07173ad502638c27f949f4f7e377ed44f2494972a8b5cb2d3",
+    "assets/low_profile_stock_cart_01/meshes/cart_rotating_shaft.obj": "dd055d82249beaeed7d951a961f36af05758185f32b88580516782af52819363"
+  },
+  "gates": [
+    {
+      "gate": "R2_saved_native_geometry",
+      "result": "ACCEPT",
+      "evidence": "122 positive valid native solids, geometry/COM/fullI matched independently by volume+worldCOM because STEP instance labels repeat; centered 600x400x150mm tote has no >0.001mm3 overlap. Both mast gussets xmax=-3mm."
+    },
+    {
+      "gate": "mass_source_and_full_inertia",
+      "result": "ACCEPT_AS_DECLARED_ESTIMATE",
+      "evidence": "CAD 7.450864011651539kg +0.35kg unmodeled reserve =7.800864011651539kg; 10-body full tensor recomputation error <=4.45e-15kgm2. Densities are assumed materials, not measured products. Reserve fullI is explicitly modeled as uniform650x450x30mm about(260,0,180)mm, not extracted CAD."
+    },
+    {
+      "gate": "robot04_contract_identity",
+      "result": "ACCEPT",
+      "evidence": "53 input files exact; 26 compiled body/joint/drive/equality arrays exact, dt0.005. No new robot actuator or robot-cart equality, free robot root and separate cart free root. Original runtime adapter use requirement remains; standalone MJCF does not itself enforce350W/speed-power envelope."
+    },
+    {
+      "gate": "actual_collision_complexity",
+      "result": "ACCEPT",
+      "evidence": "Cart18=8box+6analytic cylinder+4convexmesh. Actual engine mesh graph188 support vertices/360 triangles,max64. Robot14, combined32, ground1 separately, instantiated cargo0. Analytic shapes have no runtime mesh-triangle count."
+    },
+    {
+      "gate": "functional_cavity_and_single_FK_clearance",
+      "result": "ACCEPT_FOR_SAVED_POSE_ONLY",
+      "evidence": "Full tote AABB has no positive overlap with any compiled cart proxy, independent native122 check also clear. Bite cylinder makes intended near-zero jaw contacts; other near-mouth minimum shaft/upper3.7701245467mm. Old001 overthick shaft1.07332286898mm superseded, old ZIP preserved. No sweep or grip-force qualification."
+    },
+    {
+      "gate": "visual_and_collision_same_source",
+      "result": "ACCEPT",
+      "evidence": "R2 STEP/GLB source hashes exact; cart GLB18named geometry agrees with actual compiled geometry bounds <=2.575e-8m. Final producer22file manifest exact."
+    },
+    {
+      "gate": "omitted_forks_axles_and_underframe_spaces",
+      "result": "ACCEPT_ONLY_FOR_FLAT_UNOBSTRUCTED_FLOOR_FIRST_VERSION",
+      "evidence": "36 fork/plate/axle/brake items,1.7222909331512934kg retained in MCI, no separate leaves; some volume lies inside coarse proxies. Bounds cart[-7.5,-230,57.5]..[632.5,230,150]mm; plates extend27.5mm beyond wheel side. No curb, narrow obstacle, foot-near-fork, underframe contact or caster/turn swept qualification."
+    },
+    {
+      "gate": "current_cart_full_static_wrench",
+      "result": "UNPROVEN",
+      "evidence": "Existing seven-case static report uses historical9.21kg cart-demand assumption and actual force point z0.4855002402m, current rod centerz0.480m. 20N Fx point shift corresponds~0.110Nm My; do not copy old utilization0.6405 as present exact qualification. Fy~3.2N,Fz-down~5.9N,Mx~0.104Nm are one-component old bounds, not simultaneous ratings."
+    },
+    {
+      "gate": "loaded_drag_distance_duration_and_capacity",
+      "result": "NOT_QUALIFIED",
+      "evidence": "No20kg cargo body instantiated. Rolling/swivel resistance, pitch balance spring stiffness/preload, contact material/softness, loaded cargoMCI and free-robot backward/stop behavior unqualified. No20kg drag,0.5m,60s,maximum load or grasp success claim accepted."
+    }
+  ],
+  "metadata_correction": {
+    "current_mass_screen_sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+    "old_reconstructed_sha256": "eb430f5485f59531d00050c118b82bde32581e1b6d7aaa9ada4e9b4cda909279",
+    "change": "only conservative support rectangle x30..570 changed to80..570mm; mass/COM/fullI bytes otherwise unchanged",
+    "authoritative_screen_sha256": "ac4ce0e1877cddaa80d8a99d176c56a49529ec1ab698c11a18867fa36f334a8a",
+    "known_old_label": "rail_section_mm[20,30,2] in earlier summary is a label error; native wall1.5 and I17115.75 correct",
+    "payload_height_scope": "Z331.5mm centered payload estimate is300mm-high goods assumption;150mm-high tote interference envelopeCOM256.5mm is separate"
+  },
+  "unchanged_runtime_assets_since_compilation": true,
+  "resource_scope": {
+    "physics_integrations": 0,
+    "training_updates": 0,
+    "GPU": 0,
+    "successful_forward_calls_this_review": 7,
+    "no_dynamics_integrator_or_controller_executed": true
+  },
+  "jobs": "FINAL_NO_JOBS"
+}

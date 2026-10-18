@@ -1,0 +1,111 @@
+[
+  {
+    "attempt": 1,
+    "status": "returned",
+    "config": {
+      "label": "nominal_open025_close0_04_defaultdrive",
+      "qstart": 0.25,
+      "upper_gap_m": 0.001
+    },
+    "cold_qjaw_rad": 0.25,
+    "scene": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_001/robot.xml",
+    "scene_SHA256": "c8f833a623b593f1ee49be4abbd0fa4d0a4e53cba360f7b1769cc4a959f20ca4",
+    "controller_source_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "harness_source_SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d",
+    "UTC": "2026-10-18T10:47:52.311669+00:00",
+    "initial_object_contacts": [],
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/summary.json",
+    "actual_integrations": 140
+  },
+  {
+    "attempt": 2,
+    "status": "returned",
+    "config": {
+      "label": "near_contact_birth_same_defaultdrive",
+      "qstart": 0.19682523003160665,
+      "upper_gap_m": 0.0,
+      "birth_calibration": "near_contact_birth_calibration.json"
+    },
+    "cold_qjaw_rad": 0.19682523003160665,
+    "scene": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_002/robot.xml",
+    "scene_SHA256": "4d88818080c86af93294557b02fe8ded6b4de19207d2acf8d206fb891cf2e2c5",
+    "controller_source_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "harness_source_SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d",
+    "UTC": "2026-10-18T10:50:45.421537+00:00",
+    "initial_object_contacts": [
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.418772318378947e-09
+      },
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.418772318378947e-09
+      },
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.418772318378947e-09
+      }
+    ],
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/summary.json",
+    "actual_integrations": 1044
+  },
+  {
+    "attempt": 3,
+    "status": "returned",
+    "config": {
+      "label": "posterior_contact_location_same_defaultdrive",
+      "grip_x": 0.19,
+      "qstart": 0.25655547382008037,
+      "upper_gap_m": 0.0,
+      "birth_calibration": "posterior_birth_calibration.json"
+    },
+    "cold_qjaw_rad": 0.25655547382008037,
+    "scene": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_003/robot.xml",
+    "scene_SHA256": "d58899486f6382898c3020c8d0541ff7b78f5132486f3fee776a29f1fe31facd",
+    "controller_source_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "harness_source_SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d",
+    "UTC": "2026-10-18T10:57:50.502136+00:00",
+    "initial_object_contacts": [
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.3864529559148853e-09
+      },
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.3864529559148853e-09
+      },
+      {
+        "g1": "pilot_grip",
+        "g2": "upper_bill_envelope",
+        "dist_m": -1.3864529559148853e-09
+      }
+    ],
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/summary.json",
+    "actual_integrations": 220
+  },
+  {
+    "attempt": 4,
+    "status": "returned",
+    "config": {
+      "label": "negative_no_jaw_payload_contact",
+      "qstart": 0.19682523003160665,
+      "upper_gap_m": 0.0,
+      "negative": true,
+      "birth_calibration": "near_contact_birth_calibration.json"
+    },
+    "cold_qjaw_rad": 0.19682523003160665,
+    "scene": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/scenes/attempt_004/robot.xml",
+    "scene_SHA256": "f18d13762a69b72aa39b9c3e1ecc106849a3bbe139b8aacb9212115d43a31496",
+    "controller_source_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "harness_source_SHA256": "fe5e1f6982caed05957790fa131190a8f4d411c38c2482b524440b8e1314ce4d",
+    "UTC": "2026-10-18T10:58:08.334712+00:00",
+    "initial_object_contacts": [],
+    "summary": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/summary.json",
+    "actual_integrations": 136
+  }
+]

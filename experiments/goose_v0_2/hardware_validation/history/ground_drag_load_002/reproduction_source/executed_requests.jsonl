@@ -1,0 +1,6 @@
+{"UTC": "2026-10-18T11:40:34.991116+00:00", "request": {"operation": "attempt", "config": {"mode": "LOCAL_TORSO_FIXED_NECK_PULL", "mass_kg": 0.5, "duration_s": 6.0, "label": "floor_supported_0p5kg_real_neck_60mm"}}}
+{"UTC": "2026-10-18T11:41:06.418538+00:00", "request": {"operation": "attempt", "config": {"mode": "FREE_BASE_BACKDRAG", "mass_kg": 0.5, "duration_s": 6.0, "label": "free_root_0p5kg_short_double_stance_retreat_60mm"}}}
+{"UTC": "2026-10-18T11:42:34.673295+00:00", "request": {"operation": "attempt", "config": {"mode": "LOCAL_TORSO_FIXED_NECK_PULL", "mass_kg": 1.0, "duration_s": 6.0, "label": "floor_supported_1kg_real_neck_60mm_same_path"}}}
+{"UTC": "2026-10-18T11:43:43.136964+00:00", "request": {"operation": "attempt", "config": {"mode": "LOCAL_TORSO_FIXED_NECK_PULL", "mass_kg": 2.0, "duration_s": 6.0, "label": "floor_supported_2kg_real_neck_60mm_same_path"}}}
+{"UTC": "2026-10-18T11:44:16.879742+00:00", "request": {"operation": "attempt", "config": {"mode": "LOCAL_TORSO_FIXED_NECK_PULL", "mass_kg": 4.0, "duration_s": 6.0, "label": "floor_supported_4kg_real_neck_60mm_same_path_final_allowed_attempt"}}}
+{"UTC": "2026-10-18T11:46:00.753784+00:00", "request": {"operation": "stop"}}

@@ -1,0 +1,644 @@
+{
+  "revision": "r2_tote_gusset_clearance",
+  "tote_envelope_mm": {
+    "center": [
+      325,
+      0,
+      256.5
+    ],
+    "size": [
+      600,
+      400,
+      150
+    ],
+    "bottom_z": 181.5
+  },
+  "scope": "Native positive-volume envelope test at intended centered load pose only. Deck support face touch allowed. No insertion sweep, loose-goods or dynamic retention qualification.",
+  "old_r1_STEP_SHA256": "b04ee757a76346f11d73ca445b694baafed2f216abe34acc92ef4b8fa9a485b7",
+  "old_r1_tote_overlap_volume_mm3": 1186.1456896577474,
+  "new_positive_overlaps_above_0p001mm3": [],
+  "new_mast_gusset_clearances": [
+    {
+      "part": "mast_base_gusset_-16",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 36.20317100769449
+    },
+    {
+      "part": "mast_base_gusset_19",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 36.20317100769449
+    }
+  ],
+  "part_checks": [
+    {
+      "part": "longitudinal_rail_y-205",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 1.5
+    },
+    {
+      "part": "longitudinal_rail_y205",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 1.5
+    },
+    {
+      "part": "crossmember_x10",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 5.220153254455275
+    },
+    {
+      "part": "crossmember_x215",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 1.5
+    },
+    {
+      "part": "crossmember_x435",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 1.5
+    },
+    {
+      "part": "crossmember_x640",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 5.220153254455275
+    },
+    {
+      "part": "deck_1p5mm_aluminium",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "part": "basket_top_rail_y-217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 9.0
+    },
+    {
+      "part": "perforated_side_y-217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 16.5
+    },
+    {
+      "part": "basket_top_rail_y217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 9.0
+    },
+    {
+      "part": "perforated_side_y217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 16.5
+    },
+    {
+      "part": "basket_top_rail_x8",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 9.0
+    },
+    {
+      "part": "perforated_end_x8",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 16.5
+    },
+    {
+      "part": "basket_top_rail_x642",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 9.0
+    },
+    {
+      "part": "perforated_end_x642",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 16.5
+    },
+    {
+      "part": "corner_post_8_-217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.727922061357855
+    },
+    {
+      "part": "corner_post_8_217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.727922061357855
+    },
+    {
+      "part": "corner_post_642_-217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.727922061357855
+    },
+    {
+      "part": "corner_post_642_217",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.727922061357855
+    },
+    {
+      "part": "PU_tread_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.5
+    },
+    {
+      "part": "nylon_spoked_hub_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 66.5
+    },
+    {
+      "part": "wheel_6000_interface_80_-190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "wheel_6000_interface_80_-190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "axle_d10_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 114.0
+    },
+    {
+      "part": "fork_plate_80_-190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.7824796922431
+    },
+    {
+      "part": "fork_plate_80_-190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "fork_bridge_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 53.5
+    },
+    {
+      "part": "mount_plate_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 34.5
+    },
+    {
+      "part": "load_spreader_3mm_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 31.5
+    },
+    {
+      "part": "M6_wheel_mount_80_-190_-24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_80_-190_-24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_80_-190_24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_80_-190_24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "caster_thrust_bearing_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 42.5
+    },
+    {
+      "part": "caster_thrust_seat_80_-190_129.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 50.5
+    },
+    {
+      "part": "caster_thrust_seat_80_-190_141.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 37.5
+    },
+    {
+      "part": "caster_kingpin_80_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 35.0
+    },
+    {
+      "part": "PU_tread_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.5
+    },
+    {
+      "part": "nylon_spoked_hub_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 66.5
+    },
+    {
+      "part": "wheel_6000_interface_80_190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "wheel_6000_interface_80_190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "axle_d10_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 114.0
+    },
+    {
+      "part": "fork_plate_80_190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "fork_plate_80_190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.7824796922431
+    },
+    {
+      "part": "fork_bridge_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 53.5
+    },
+    {
+      "part": "mount_plate_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 34.5
+    },
+    {
+      "part": "load_spreader_3mm_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 31.5
+    },
+    {
+      "part": "M6_wheel_mount_80_190_-24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_80_190_-24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_80_190_24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_80_190_24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "caster_thrust_bearing_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 42.5
+    },
+    {
+      "part": "caster_thrust_seat_80_190_129.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 50.5
+    },
+    {
+      "part": "caster_thrust_seat_80_190_141.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 37.5
+    },
+    {
+      "part": "caster_kingpin_80_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 35.0
+    },
+    {
+      "part": "PU_tread_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.5
+    },
+    {
+      "part": "nylon_spoked_hub_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 66.5
+    },
+    {
+      "part": "wheel_6000_interface_570_-190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "wheel_6000_interface_570_-190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "axle_d10_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 114.0
+    },
+    {
+      "part": "fork_plate_570_-190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.7824796922431
+    },
+    {
+      "part": "fork_plate_570_-190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "fork_bridge_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 53.5
+    },
+    {
+      "part": "mount_plate_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 34.5
+    },
+    {
+      "part": "load_spreader_3mm_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 31.5
+    },
+    {
+      "part": "M6_wheel_mount_570_-190_-24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_570_-190_-24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_570_-190_24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_570_-190_24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "fixed_fork_spacer_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 37.5
+    },
+    {
+      "part": "parking_pedal_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 46.5
+    },
+    {
+      "part": "parking_friction_pad_570_-190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "PU_tread_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.5
+    },
+    {
+      "part": "nylon_spoked_hub_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 66.5
+    },
+    {
+      "part": "wheel_6000_interface_570_190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "wheel_6000_interface_570_190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 106.0
+    },
+    {
+      "part": "axle_d10_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 114.0
+    },
+    {
+      "part": "fork_plate_570_190_-1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "fork_plate_570_190_1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 56.7824796922431
+    },
+    {
+      "part": "fork_bridge_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 53.5
+    },
+    {
+      "part": "mount_plate_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 34.5
+    },
+    {
+      "part": "load_spreader_3mm_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 31.5
+    },
+    {
+      "part": "M6_wheel_mount_570_190_-24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_570_190_-24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "M6_wheel_mount_570_190_24_-20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 20.5
+    },
+    {
+      "part": "M6_wheel_mount_570_190_24_20",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 21.10094784600919
+    },
+    {
+      "part": "fixed_fork_spacer_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 37.5
+    },
+    {
+      "part": "parking_pedal_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 46.5
+    },
+    {
+      "part": "parking_friction_pad_570_190",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 55.5
+    },
+    {
+      "part": "mast_base_plate_5mm",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 31.5
+    },
+    {
+      "part": "height_adjust_mast_32x32x2",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 34.0
+    },
+    {
+      "part": "mast_base_gusset_-16",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 36.20317100769449
+    },
+    {
+      "part": "mast_base_gusset_19",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 36.20317100769449
+    },
+    {
+      "part": "M6_mast_foot_-20_-35",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 41.907636535600524
+    },
+    {
+      "part": "M6_mast_foot_-20_35",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 41.907636535600524
+    },
+    {
+      "part": "M6_mast_foot_60_-35",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.5
+    },
+    {
+      "part": "M6_mast_foot_60_35",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 12.5
+    },
+    {
+      "part": "height_lock_carriage",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 126.85917388979009
+    },
+    {
+      "part": "height_lock_pin_M6",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 153.69157603393998
+    },
+    {
+      "part": "yaw_housing",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 145.55497243309827
+    },
+    {
+      "part": "yaw_lower_arm",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 135.0675756797315
+    },
+    {
+      "part": "yaw_upper_arm",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 179.474928611213
+    },
+    {
+      "part": "yaw_pin_d10",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 145.75407369950247
+    },
+    {
+      "part": "pitch_clevis_-17",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 161.23585209251695
+    },
+    {
+      "part": "pitch_clevis_17",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 161.23585209251695
+    },
+    {
+      "part": "yaw_rotor_to_pitch_fork_bridge",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 160.0781059358212
+    },
+    {
+      "part": "pitch_pin_d10",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 185.924723385946
+    },
+    {
+      "part": "drawbar_main_22x2",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 182.5
+    },
+    {
+      "part": "roll_bearing_housing",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 263.2038183613604
+    },
+    {
+      "part": "roll_bearing_608_interface_-240.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 295.888914966411
+    },
+    {
+      "part": "roll_bearing_608_interface_-207.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 267.10906012338853
+    },
+    {
+      "part": "rotating_forward_shaft_d8",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 263.2114169256341
+    },
+    {
+      "part": "shaft_axial_retaining_collar_-245.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 304.41295964528183
+    },
+    {
+      "part": "shaft_axial_retaining_collar_-202.5",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 267.17456840051227
+    },
+    {
+      "part": "bite_yoke_shaft_socket",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 331.6960204765803
+    },
+    {
+      "part": "bite_yoke_tube_-85",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 339.6373683393443
+    },
+    {
+      "part": "bite_core_support_-85",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 392.33267906283015
+    },
+    {
+      "part": "bite_yoke_tube_85",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 339.6373683393443
+    },
+    {
+      "part": "bite_core_support_85",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 392.33267906283015
+    },
+    {
+      "part": "bite_304_core_d8",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 399.33267906283015
+    },
+    {
+      "part": "replaceable_bite_sleeve_d12",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 397.3326790628302
+    },
+    {
+      "part": "pitch_balance_spring_envelope",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 178.924723385946
+    }
+  ]
+}

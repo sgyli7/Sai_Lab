@@ -1,0 +1,5 @@
+{"UTC": "2026-10-18T10:47:52.290423+00:00", "request": {"operation": "attempt", "config": {"label": "nominal_open025_close0_04_defaultdrive", "qstart": 0.25, "upper_gap_m": 0.001}}}
+{"UTC": "2026-10-18T10:50:45.403355+00:00", "request": {"operation": "attempt", "config": {"label": "near_contact_birth_same_defaultdrive", "qstart": 0.19682523003160665, "upper_gap_m": 0.0, "birth_calibration": "near_contact_birth_calibration.json"}}}
+{"UTC": "2026-10-18T10:57:50.484811+00:00", "request": {"operation": "attempt", "config": {"label": "posterior_contact_location_same_defaultdrive", "grip_x": 0.19, "qstart": 0.25655547382008037, "upper_gap_m": 0.0, "birth_calibration": "posterior_birth_calibration.json"}}}
+{"UTC": "2026-10-18T10:58:08.316758+00:00", "request": {"operation": "attempt", "config": {"label": "negative_no_jaw_payload_contact", "qstart": 0.19682523003160665, "upper_gap_m": 0.0, "negative": true, "birth_calibration": "near_contact_birth_calibration.json"}}}
+{"UTC": "2026-10-18T10:58:12.113459+00:00", "request": {"operation": "stop"}}

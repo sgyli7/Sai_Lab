@@ -1,0 +1,68 @@
+{
+  "status": "PASS_ALL5_FULL_DECODE",
+  "threads": 1,
+  "GPU": 0,
+  "videos": [
+    {
+      "attempt": 1,
+      "file": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_001/actual_continuous_1x_50fps.mp4",
+      "SHA256": "efaa122268b307107f3455f39ef91c3693989778fc9d908d0a112076edf19b07",
+      "decoded_frames": 300,
+      "decoded_duration_s": 6.0,
+      "expected_fps": 50,
+      "decode_exit_code": 0,
+      "error_output": "",
+      "trajectory_SHA256": "2ccaf4d0f6a60d6bb880f9ffb891e9346e6684942dba3868db1960289001fff8",
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 2,
+      "file": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_002/actual_continuous_1x_50fps.mp4",
+      "SHA256": "f68889baafd9a09c0864585d9729a5ffef71da83af2a24ec76cb9c07b28a64f3",
+      "decoded_frames": 187,
+      "decoded_duration_s": 3.74,
+      "expected_fps": 50,
+      "decode_exit_code": 0,
+      "error_output": "",
+      "trajectory_SHA256": "83f1a3d58b238506fffadc44c5f4e7aa6aa95ca1e955bf6a5476e25ba805b075",
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 3,
+      "file": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_003/actual_continuous_1x_50fps.mp4",
+      "SHA256": "ed97dfbb337f2bc155fbf528543b9faa64b9224977f42d56aa93e40bba30e915",
+      "decoded_frames": 300,
+      "decoded_duration_s": 6.0,
+      "expected_fps": 50,
+      "decode_exit_code": 0,
+      "error_output": "",
+      "trajectory_SHA256": "3617e54d49d2293dea2142ab478e4bee2c60aa5376457fa1ab883cd84c1ca71a",
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 4,
+      "file": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_004/actual_continuous_1x_50fps.mp4",
+      "SHA256": "83f804cdbba82c7df6df3cd888c569f1ba27416d5c4f66e4260a216b7340325a",
+      "decoded_frames": 300,
+      "decoded_duration_s": 6.0,
+      "expected_fps": 50,
+      "decode_exit_code": 0,
+      "error_output": "",
+      "trajectory_SHA256": "f68c3a948cb27cf1d5ce12d06ab3b7976574061727e298f24894bf06929818db",
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 5,
+      "file": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/ground_drag_load_002/attempt_005/actual_continuous_1x_50fps.mp4",
+      "SHA256": "52f5d876e40d1dbab6dda9dd308059d39e0e17697c704a746483ec9790a07a88",
+      "decoded_frames": 300,
+      "decoded_duration_s": 6.0,
+      "expected_fps": 50,
+      "decode_exit_code": 0,
+      "error_output": "",
+      "trajectory_SHA256": "e70951fc80439a30865054694cfa53338b11537c1c119e55fdd9f75883221bec",
+      "physics_integrations": 0
+    }
+  ],
+  "total_frames": 1387
+}

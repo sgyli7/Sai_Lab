@@ -1,0 +1,99 @@
+{
+  "schema": "goose_lab_validation_order_v1",
+  "experiment_id": "ground_drag_load_002",
+  "created_at_utc": "2026-10-18T11:28:06.824138+00:00",
+  "pm": {
+    "repository": "Sai_Rotbots",
+    "host_id": "local",
+    "thread_id": "01a13821-bf47-7383-a4f9-0f41d91f6654"
+  },
+  "executor": {
+    "repository": "Sai_Lab",
+    "host_id": "local",
+    "thread_id": "01a13301-ba51-73f2-85df-1389413ca758",
+    "thread_title": "Goose Sim2Sim 训练任务 Picking",
+    "worktree": "/home/ethan/.codex/worktrees/goose-picking/Sai_Lab"
+  },
+  "master_plan": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/design/grasp_lift_drag_validation.md",
+  "input_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/ground_drag_load_002/inputs.json",
+    "sha256": "a8e38f3967b8205244eff4aba7f5663969a022c995eddedcbd4d137c3172c654"
+  },
+  "predecessor": {
+    "experiment_id": "grip_100g_pilot_001",
+    "state": "PM_REVIEWED_CLOSED",
+    "result": "Local suspended hold not qualified; hardware root not determined; no inference of dragging failure.",
+    "pm_review": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/grip_100g_pilot_001/pm_review.md"
+  },
+  "user_priority": "Preserve goose-like biomimetic appearance while maximizing practical sustainable payload and backward ground-drag capacity. Prioritize heavy ground dragging; retain100g lift as regression, not a prerequisite or drag upper limit.",
+  "question": "With sealed04 hardware, which ground-supported loads can the beak retain and transmit useful backward pull to, and what fails first: acquisition/escape, neck/drive, stance/feet/body control, or unresolved contact numerics?",
+  "primary_conditions": {
+    "payload": "Same complete handle/arms/box family as first pilot; physical ballast in unchanged box; update payload mass/COM/fullI from component allocations. Robot unchanged.",
+    "initial_payload_mass_kg": 0.5,
+    "adaptive_mass_levels_kg": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "mass_limit_claim": "exploratory tested range only; do not claim a maximum without a successful/failed bracket or exceed plausible ballast density",
+    "object_ground_effective_sliding_friction": 0.3,
+    "foot_ground_effective_sliding_friction": 0.65,
+    "jaw_object_sliding_friction": 0.65,
+    "friction_rule": "Read back actual mixed contacts. Explicit scene object-ground pairs may implement declared ground material; robot/jaw material and model solver stay sealed04. No arbitrary friction reduction.",
+    "target_backward_speed_m_s": 0.05,
+    "target_start_accel_m_s2": 0.1,
+    "payload_start": "Initially supported by floor, no deep overlap; cold near-grasp pose may isolate loaded-contact behavior but does not qualify full autonomous pickup."
+  },
+  "sequence": [
+    "Read first PM review/returned data; reuse verified interfaces rather than repeat the same full audit. Verify new scene robot fields, name mapping, ground contacts and complete payload MCI.",
+    "At most one initial LOCAL_TORSO_FIXED_NECK_PULL pilot is preferred if needed for admission. Torso fixture must be stationary and declared; head/neck/jaw must move only through actual joint actuators. No moving head/world fixture.",
+    "Prioritize FREE_BASE_BACKDRAG pilot once an admitted physical posture/control path exists. Robot root must be free; no support/pose writes/world weld during this mode. Use bounded named existing control or teacher logic, record source; no training.",
+    "Use remaining attempts for heavier mass or a single purposeful posture/grasp-location comparison based on observed failure, keeping hardware/material/solver identical. Include an explicit free-base feasibility attempt if valid birth/control admission permits.",
+    "If no usable free-base controller/posture is available, return precise control/mechanical/numerical prerequisites promptly; remaining useful true-neck local pulls must be explicitly local. Do not expand into controller/framework development or long training."
+  ],
+  "metrics": {
+    "startup": "Within5s, positive backward object displacement>=20mm; record if not met.",
+    "local_neck_pull": "Aim50–100mm actual object ground displacement using real neck actuation; report achieved stroke, force, posture and fixture reactions. It never qualifies whole-body backward dragging.",
+    "whole_robot_gate": "Both torso reference and complete object backward>=0.5m, duration>=max(10s,0.5/target speed), mean speed within20%, stop<=0.1m, retain3s after stop. Short pilot is labelled partial, not complete.",
+    "sustained": "Record observed duration and loaded force; if a viable case supports a60s check within the same attempt/budget, do so; untested60s is unqualified. Separate startup/short stroke/sustained limits.",
+    "grip": "Stay in real jaw grasp domain, transmit actual backward contact load, no rolling out/drop or non-mouth robot pushing. Report slip rate/position, rotation, margin to escape and contact wrenches. Do not mechanically apply suspended static2mm/2deg gate to adaptive drag posture.",
+    "flat_vs_partial": "Report separately. Flat nominal average ground normal>=90%mg without deliberate lifting. Partial: contact>=95%time, no full flight>0.1s; ground normal<10%mg is near-suspension and excluded from main drag claim.",
+    "stability": "Record actual torso/root displacement/orientation, foot stance slip and ground reaction, support changes, falls/self collisions, joint ROM, pin residuals and penetration. Reference stance slip<=5mm/stance and<=20mm/m for whole-body qualification.",
+    "drives": "Actual applied torque/velocity/torque-speed/voltage/positive power and limiting duty; continuous mode only, peak disabled. Distinguish target slew from motor physical curve; record actual speed and limits rather than projecting velocities."
+  },
+  "allowed_changes": [
+    "Lab isolated scene, payload ballast/initial pose/ground material conditions exactly declared",
+    "Bounded control requests through the same frozen actuator envelope, with source and behavior scope declared",
+    "Stationary torso-only fixture in clearly labelled local neck-pull mode; no head fixation that supplies the pull",
+    "CPU inference using a named existing policy only if useful; count inference separately, never inherit old-body qualification"
+  ],
+  "prohibited_changes": [
+    "Robot CAD/collision/MCI/axis/transmission/drive/material changes or overwriting sealed04",
+    "Payload adhesion/attachment/online repositioning, root pose or velocity writes, moving fixture/mocap propulsion",
+    "Unreported external pulling/holding forces or classifying equivalent applied-force loads as real robot dragging",
+    "Solver/condim/friction changes to obtain passing04 numbers, fabricated low-friction or airborne drag success",
+    "GPU use, training updates, automatic continuation or a second concurrent experiment executor"
+  ],
+  "resources": {
+    "max_experiment_processes": 1,
+    "max_cpu_threads": 4,
+    "max_memory_gib": 8,
+    "max_dynamic_attempts_total_including_negative_controls": 5,
+    "max_wall_s_from_acceptance": 3600,
+    "gpu": 0,
+    "training_updates": 0,
+    "closeout_reserve_s": 300,
+    "stop_on_budget": true,
+    "automatic_continuation": false
+  },
+  "required_return": [
+    "Acceptance/deadline and actual resource/exit receipts; immutable input, payload, scene, controller and engine identities",
+    "All actual attempts and per-substep states/forces/ground normals/foot slip/relative grasp poses/actual drives/closed-loop residuals and penetration",
+    "Separate LOCAL_TORSO_FIXED_NECK_PULL and FREE_BASE_BACKDRAG results; actual mass/friction/start/sustain/distance/escape boundary and failure cause certainty",
+    "Original1x continuous representative success/failure videos bound to actual trajectory; no appearance redraw, hidden resets or cuts",
+    "Self-contained summary, source snapshots/reproduction and raw data paths; no claim of formal repeat reliability or global mass maximum from exploratory cases",
+    "Minimal evidence-backed design implications under goose appearance constraint; leave geometry/controller/training implementation open until justified"
+  ],
+  "stop": "Return when scoped evidence is available, admission is blocked or deadline reaches3600s. Max5 cases, fifth not mandatory. Preserve failures; no automatic additional batch."
+}

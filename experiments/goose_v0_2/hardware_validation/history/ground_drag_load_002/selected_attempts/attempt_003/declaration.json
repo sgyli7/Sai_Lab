@@ -1,0 +1,230 @@
+{
+  "attempt": 3,
+  "status": "admitted_before_dynamics",
+  "config": {
+    "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+    "mass_kg": 1.0,
+    "duration_s": 6.0,
+    "label": "floor_supported_1kg_real_neck_60mm_same_path"
+  },
+  "scene_SHA256": "9b3dc543287b93fb04d36793f0d7b7f6ab6fcf63a325aa821026e983dde4a9a6",
+  "harness_SHA256": "aa753cd0dedec683ecdd6fba407138fd7ac548b34d9c0c1ae69ac7f89b6af025",
+  "controller_SHA256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+  "initial_contacts": [
+    {
+      "a": "pilot_grip",
+      "b": "upper_bill_envelope",
+      "dist_m": -1.4187722541941783e-09,
+      "effective_mu5": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ],
+      "dim": 3
+    },
+    {
+      "a": "pilot_grip",
+      "b": "upper_bill_envelope",
+      "dist_m": -1.4187722541941783e-09,
+      "effective_mu5": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ],
+      "dim": 3
+    },
+    {
+      "a": "pilot_grip",
+      "b": "upper_bill_envelope",
+      "dist_m": -1.4187722541941783e-09,
+      "effective_mu5": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ],
+      "dim": 3
+    }
+  ],
+  "UTC": "2026-10-18T11:42:34.686993+00:00",
+  "frozen_scene_readback": {
+    "named_robot_fields_exact_count": 796,
+    "all_named_robot_fields_and_original_internal_equalities_exact": true,
+    "options_exact": {
+      "ccd_iterations": 35,
+      "ccd_tolerance": 1e-06,
+      "cone": 1,
+      "density": 0.0,
+      "disableactuator": 0,
+      "disableflags": 65536,
+      "enableflags": 0,
+      "gravity": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "impratio": 1.0,
+      "integrator": 3,
+      "iterations": 100,
+      "jacobian": 0,
+      "ls_iterations": 50,
+      "ls_tolerance": 0.01,
+      "magnetic": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "o_friction": [
+        1.0,
+        1.0,
+        0.005,
+        0.0001,
+        0.0001
+      ],
+      "o_margin": 0.0,
+      "o_solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "o_solref": [
+        0.02,
+        1.0
+      ],
+      "sdf_initpoints": 40,
+      "sdf_iterations": 10,
+      "sleep_tolerance": 0.0001,
+      "solver": 2,
+      "timestep": 0.005,
+      "tolerance": 1e-08,
+      "viscosity": 0.0,
+      "wind": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "extra_constraints_declared": 1
+  },
+  "payload_MCI": {
+    "mass_kg": 1.0,
+    "com_local_m": [
+      0.079335,
+      1.285430095698814e-20,
+      -0.11409000000000001
+    ],
+    "inertia_local_kg_m2": [
+      [
+        0.0018556429042584695,
+        0.0,
+        6.407723330729215e-05
+      ],
+      [
+        0.0,
+        0.0009027335823688185,
+        0.0
+      ],
+      [
+        6.407723330729212e-05,
+        0.0,
+        0.0018123767509336352
+      ]
+    ],
+    "component_ledger": [
+      {
+        "name": "payload/grip",
+        "mass_kg": 0.004,
+        "pos_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_m": [
+          0.006,
+          0.06
+        ]
+      },
+      {
+        "name": "payload/arm_right",
+        "mass_kg": 0.003,
+        "pos_m": [
+          0.0225,
+          -0.06,
+          -0.04
+        ],
+        "size_m": [
+          0.004,
+          0.04589389937671455
+        ]
+      },
+      {
+        "name": "payload/arm_left",
+        "mass_kg": 0.003,
+        "pos_m": [
+          0.0225,
+          0.06,
+          -0.04
+        ],
+        "size_m": [
+          0.004,
+          0.04589389937671455
+        ]
+      },
+      {
+        "name": "payload/case",
+        "mass_kg": 0.09,
+        "pos_m": [
+          0.08,
+          0.0,
+          -0.115
+        ],
+        "size_m": [
+          0.035,
+          0.065,
+          0.035
+        ]
+      },
+      {
+        "name": "physical_internal_uniform_ballast",
+        "mass_kg": 0.9,
+        "pos_m": [
+          0.08,
+          0,
+          -0.115
+        ],
+        "half_size_m": [
+          0.034,
+          0.064,
+          0.034
+        ],
+        "equivalent_density_kg_m3": 1520.5990484429062
+      }
+    ],
+    "outer_contact_geometry_unchanged": true
+  },
+  "actual_cold_named_q_rad": {
+    "neck_pitch": 2.432789985973807,
+    "neck_mid_pitch": -0.546551878604456,
+    "head_pitch": -1.0862381073693512,
+    "beak_hinge": 0.19682523003160665
+  },
+  "mode": "LOCAL_TORSO_FIXED_NECK_PULL",
+  "control": "bounded offline FK/IK joint path;50Hz requests through unchanged200Hz frozen adapter; no learned policy or root writes",
+  "no_head_fixture": true,
+  "initial_pose_source": "cold_state.npz",
+  "cold_relative_head_position_m": [
+    0.13750001971721645,
+    0.0,
+    -0.038499964885711876
+  ],
+  "escape_margin_definition": "conservative head-X projection of rod radius6mm within shared78.4mm zero-angle CAD working-face interval; not a force closure test"
+}

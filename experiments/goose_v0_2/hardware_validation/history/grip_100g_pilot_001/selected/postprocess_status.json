@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "renders": [
+    {
+      "attempt": 2,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_002/actual_continuous_1x_50fps.mp4",
+      "SHA256": "f7fa8c65a286622850b3549c001046dad79ec6981c1fcd969ef4106315ff1eaa",
+      "actual_trajectory_SHA256": "cf85e4c438e5fcbfa2ddf4305bf2ce8072b051ddf7cf1c7b8b5bb496c9f2f93b",
+      "model_MJB_SHA256": "d104d8db1a937200934f83fa17a62c7a05f62ea6689b54105a5e04577baa5a36",
+      "fps": 50,
+      "video_frames": 261,
+      "video_duration_s": 5.22,
+      "actual_trajectory_duration_s": 5.219999999999911,
+      "first_sample_time_s": 0.0,
+      "last_sample_time_s": 5.199999999999911,
+      "sampling": "exact recorded states every 4 physics steps, start included, end exclusive; last frame spans final20ms; no interpolation/time scaling/cuts",
+      "CPU_software_OSMesa_only": true,
+      "GPU": 0,
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 1,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_001/actual_continuous_1x_50fps.mp4",
+      "SHA256": "8dc5097e85a23305dea028a1fd7e4c768826f9b063984b2844bb86c3a870ed9a",
+      "actual_trajectory_SHA256": "9d3b46e5c7821aa9a508896b7aaa5de41ecb8d617305493ec1fb4b9bc14c6104",
+      "model_MJB_SHA256": "857bbf58419fc3e93e0ea4a8e46726be1deb5bee1b31a7797683c2339be0055b",
+      "fps": 50,
+      "video_frames": 35,
+      "video_duration_s": 0.7,
+      "actual_trajectory_duration_s": 0.7000000000000005,
+      "first_sample_time_s": 0.0,
+      "last_sample_time_s": 0.6800000000000005,
+      "sampling": "exact recorded states every 4 physics steps, start included, end exclusive; last frame spans final20ms; no interpolation/time scaling/cuts",
+      "CPU_software_OSMesa_only": true,
+      "GPU": 0,
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 3,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_003/actual_continuous_1x_50fps.mp4",
+      "SHA256": "a71cb0dd06add44ba741ecb8bcf123c64652cf8beb8c6acec744b44116e25bb5",
+      "actual_trajectory_SHA256": "03967078ab67ace40ca587b18ecb0540ebc9ca884f4f06caaa4b63f51a0ccef5",
+      "model_MJB_SHA256": "f5460f5d1bf4c7bf5e022b35d72e6a753ff62c6d2d932820deda699ade9fd6b2",
+      "fps": 50,
+      "video_frames": 55,
+      "video_duration_s": 1.1,
+      "actual_trajectory_duration_s": 1.0999999999999985,
+      "first_sample_time_s": 0.0,
+      "last_sample_time_s": 1.079999999999999,
+      "sampling": "exact recorded states every 4 physics steps, start included, end exclusive; last frame spans final20ms; no interpolation/time scaling/cuts",
+      "CPU_software_OSMesa_only": true,
+      "GPU": 0,
+      "physics_integrations": 0
+    },
+    {
+      "attempt": 4,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/grip_100g_pilot_001/attempt_004/actual_continuous_1x_50fps.mp4",
+      "SHA256": "6280a76c72626e78d3d96fd3f6d685d94878b17b7008ecb7edd40feafa63ebf1",
+      "actual_trajectory_SHA256": "c471516fb65838ce7422d7efd3c8bd987127cc300a08c1a1eddc71dce80e7364",
+      "model_MJB_SHA256": "037fc744fb87a05070fd2bcd674ceaa0a17595c086b95f4421168517dac10211",
+      "fps": 50,
+      "video_frames": 34,
+      "video_duration_s": 0.68,
+      "actual_trajectory_duration_s": 0.6800000000000005,
+      "first_sample_time_s": 0.0,
+      "last_sample_time_s": 0.6600000000000005,
+      "sampling": "exact recorded states every 4 physics steps, start included, end exclusive; last frame spans final20ms; no interpolation/time scaling/cuts",
+      "CPU_software_OSMesa_only": true,
+      "GPU": 0,
+      "physics_integrations": 0
+    }
+  ],
+  "counts": {
+    "physics_integrations": 0,
+    "replay_mj_forward_calls": 389,
+    "rendered_views": 770,
+    "video_frames": 385,
+    "max_observed_threads": 1
+  }
+}

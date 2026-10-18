@@ -1,0 +1,8 @@
+{
+  "path": "/home/ethan/ProjectBackups/2026-10-09/Sai_Lab/goose_move_200hz_fast_001/native_lateral_skill_106/model/robot.xml",
+  "sha256": "ea4fbce17add6c2cfa0fcaf1fe061b4f9c3bd46ef91cd3a3557c6b4d9790dbc6",
+  "actual_roles": "4torso+2neck+head_upper+lower_jaw+2thigh+2shin+2box_soles",
+  "actual_leaves": 14,
+  "filters_and_mass_not_copied": true,
+  "reference_only_not_runtime": true
+}

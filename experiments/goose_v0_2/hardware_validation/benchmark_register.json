@@ -1,0 +1,57 @@
+{
+  "schema": "goose_v02_next_hardware_benchmarks_v1",
+  "state": "CART_COLLISION_STATIC_INPUT_READY_DYNAMIC_ORDER_NOT_ADMITTED",
+  "robot_input": "physics_v0_2_20261018_04",
+  "robot_mass_kg": 16.970203928833527,
+  "historical_grip_100g": "Fixed torso/head local capture/hold exploration; not passed free-robot grasp/lift/place",
+  "historical_drag_kg": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "historical_free_robot_half_kg": "FAILED_BODY_TILT; airborne displacement excluded from success",
+  "formal_whole_robot_0p5m": "NOT_PASSED",
+  "continuous60s": "NOT_EXECUTED",
+  "payload20kg": "NOT_EXECUTED",
+  "leaderboards": [
+    {
+      "id": "low_cart_payload_20kg",
+      "condition": "20 kg effective goods on a low stock cart; cart tare is additional",
+      "effective_payload_kg": 20,
+      "cart_geometry_and_tare": {
+        "revision": "r2_tote_gusset_clearance",
+        "estimated_empty_mass_kg": 7.800864011651539,
+        "reserve_included_kg": 0.35,
+        "source": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01"
+      },
+      "cart_source": "Rotbots hardware chat R2 CAD; collision_002 static proxy candidate",
+      "cart_asset_created": true,
+      "rank": "NO_RESULT",
+      "static_collision_input_created": true,
+      "dynamic_trial_executed": false,
+      "cargo_instance_created": false,
+      "passive_parameters_calibrated": false
+    },
+    {
+      "id": "sliding_payload_20kg",
+      "condition": "Separate unwheeled 20 kg sliding-load condition; never combined with cart results",
+      "effective_payload_kg": 20,
+      "geometry_and_material": null,
+      "simulation_created": false,
+      "rank": "NO_RESULT"
+    }
+  ],
+  "required_measurements": [
+    "startup and sustained pull force",
+    "actual cargo and cart tare masses",
+    "wheels/casters rolling behavior for cart board",
+    "true supported displacement and speed",
+    "grip retention",
+    "body and foot stability",
+    "declared ground/contact friction and compliance"
+  ],
+  "new_order_owner": "Sai_Rotbots Goose V0.2 hardware optimization chat; not Picking",
+  "no_hardware_or_actuator_parameters_changed": true,
+  "old_static_screen_current_cart_applicability": "Historical9.2119kg cart and TCP+5.5mm context; old utilisation is approximate history, not current force-point admission"
+}

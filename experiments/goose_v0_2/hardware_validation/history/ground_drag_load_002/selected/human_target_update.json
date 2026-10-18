@@ -1,0 +1,21 @@
+{
+  "human_message": "你的拖拽重物太轻了 至少比自己体重要重吧，比如超市拖车啥的",
+  "source": "direct human message in Lab chat",
+  "robot_mass_kg": 16.97020392883353,
+  "next_benchmark_minimum_gross_mass_kg": 20,
+  "separate_conditions": [
+    "wheeled_cart",
+    "unwheeled_sliding_load"
+  ],
+  "required_metrics": [
+    "actual startup pull force",
+    "actual sustained pull force",
+    "real displacement and speed",
+    "wheel rolling/caster behavior",
+    "ground support",
+    "grasp retention",
+    "body/foot stability"
+  ],
+  "current_order_not_extended_or_reset": true,
+  "cart_CAD_request_in_Lab": "Human immediately withdrew the misdirected request; design subagent interrupted. No cart design is part of002."
+}
