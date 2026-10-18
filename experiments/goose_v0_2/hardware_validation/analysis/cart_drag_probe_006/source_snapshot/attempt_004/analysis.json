@@ -1,0 +1,312 @@
+{
+  "directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_004",
+  "summary": {
+    "attempt": 4,
+    "negative": true,
+    "actual_steps": 2400,
+    "sim_time": 12.000000000000476,
+    "error": null,
+    "failure": null,
+    "ever_bilateral": true,
+    "first_rod_contact": {
+      "time": 2.0399999999999787,
+      "phase": "close"
+    },
+    "pull_hold_min_limit_margin": 0.49904215148086434,
+    "max_ik_error": 4.6296242934308776e-07,
+    "max_power_W": 2.5132416247261906,
+    "max_observed_threads": 1,
+    "maxRSS_KiB": 2848416,
+    "source53_unchanged": true,
+    "physics_GPU": 0,
+    "training": 0,
+    "scope": "LOCAL_FIXED_TORSO"
+  },
+  "phases": {
+    "open": {
+      "duration_s": 0.6,
+      "cart_back_delta_m": -2.9665211365825783e-05,
+      "cart_back_start_m": 0.0,
+      "cart_back_end_m": -2.9665211365825783e-05,
+      "jaw_normal_mean_N": [
+        0.0,
+        0.0
+      ],
+      "tow_mean_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        -7.825950092941406e-05,
+        -4.407741827239938e-06,
+        272.8677269804747
+      ],
+      "wheel_friction_abs_over_R_mean_N": 0.1390769651223647,
+      "bilateral_duty": 0.0,
+      "rod_z_min_max_m": [
+        0.41929775905856337,
+        0.4201078828522291
+      ],
+      "center_migration_end_m": null,
+      "head_neck_min_limit_margin": 0.4999989220317015,
+      "beak_pin_max_abs_residual_m": 7.927542401717225e-05,
+      "mouth_rod_max_penetration_m": 0,
+      "native_contact_impulse_bins_Ns": {},
+      "native_contact_counts": {}
+    },
+    "approach": {
+      "duration_s": 1.22,
+      "cart_back_delta_m": -0.003288497330583451,
+      "cart_back_start_m": -2.9665211365825783e-05,
+      "cart_back_end_m": -0.0033181625419492766,
+      "jaw_normal_mean_N": [
+        0.0,
+        0.0
+      ],
+      "tow_mean_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        -1.6064880024354715,
+        -9.752757818916376e-05,
+        274.1014134713608
+      ],
+      "wheel_friction_abs_over_R_mean_N": 1.598083669685081,
+      "bilateral_duty": 0.0,
+      "rod_z_min_max_m": [
+        0.4018410798226557,
+        0.42010062443076585
+      ],
+      "center_migration_end_m": null,
+      "head_neck_min_limit_margin": 0.4999986289208097,
+      "beak_pin_max_abs_residual_m": 6.196487791459981e-06,
+      "mouth_rod_max_penetration_m": 0,
+      "native_contact_impulse_bins_Ns": {},
+      "native_contact_counts": {}
+    },
+    "close": {
+      "duration_s": 1.2,
+      "cart_back_delta_m": -0.015640965896123182,
+      "cart_back_start_m": -0.0033181625419492766,
+      "cart_back_end_m": -0.01895912843807246,
+      "jaw_normal_mean_N": [
+        0.21308318827368516,
+        0.020232859342914834
+      ],
+      "tow_mean_world_N": [
+        -0.08569740039628804,
+        -0.03349540358169864,
+        -0.18668622531766746
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        -4.161422377403087,
+        -0.021234753039422564,
+        275.405393386876
+      ],
+      "wheel_friction_abs_over_R_mean_N": 4.162791195218721,
+      "bilateral_duty": 0.004166666666666667,
+      "rod_z_min_max_m": [
+        0.39687235666658655,
+        0.4196265510240281
+      ],
+      "center_migration_end_m": 0.003034285265881457,
+      "head_neck_min_limit_margin": 0.4984048955225358,
+      "beak_pin_max_abs_residual_m": 3.453481898008093e-06,
+      "mouth_rod_max_penetration_m": 0.0002901936501728766,
+      "native_contact_impulse_bins_Ns": {
+        "lower:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 0.0242794312114978,
+        "lower:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 0.0242794312114978,
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 0.2556998259284223,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 0.2556998259284223
+      },
+      "native_contact_counts": {
+        "lower:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 5,
+        "lower:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 5,
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 55,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 55
+      }
+    },
+    "pull": {
+      "duration_s": 2.5,
+      "cart_back_delta_m": 0.0062308161438655585,
+      "cart_back_start_m": -0.01895912843807246,
+      "cart_back_end_m": -0.0127283122942069,
+      "jaw_normal_mean_N": [
+        1.669222444625038,
+        0.0
+      ],
+      "tow_mean_world_N": [
+        -1.561032890064884,
+        -0.005246032983765103,
+        -1.2144169886635336
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        1.4359910682436559,
+        -0.0016702168174083762,
+        274.13160373126857
+      ],
+      "wheel_friction_abs_over_R_mean_N": 1.5876068419772886,
+      "bilateral_duty": 0.0,
+      "rod_z_min_max_m": [
+        0.4126846164871601,
+        0.418704276911429
+      ],
+      "center_migration_end_m": 0.039301537446160904,
+      "head_neck_min_limit_margin": 0.49904215148086434,
+      "beak_pin_max_abs_residual_m": 3.5955136473697635e-07,
+      "mouth_rod_max_penetration_m": 0.0005453914082516629,
+      "native_contact_impulse_bins_Ns": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 4.0123852053974955,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 3.880983546546084,
+        "upper:0.0005:NATIVE_PAD_FACE_INTERIOR": 0.16067090616510407,
+        "upper:0.0001:NATIVE_PAD_FACE_INTERIOR": 0.2920725650165146
+      },
+      "native_contact_counts": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 635,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 614,
+        "upper:0.0005:NATIVE_PAD_FACE_INTERIOR": 31,
+        "upper:0.0001:NATIVE_PAD_FACE_INTERIOR": 52
+      }
+    },
+    "hold": {
+      "duration_s": 5.18,
+      "cart_back_delta_m": 0.0024673163675374976,
+      "cart_back_start_m": -0.0127283122942069,
+      "cart_back_end_m": -0.010260995926669403,
+      "jaw_normal_mean_N": [
+        2.64350756318992,
+        0.0
+      ],
+      "tow_mean_world_N": [
+        -0.25581982049108576,
+        0.00014763992498954877,
+        -2.6456765960519193
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        0.26938758464531865,
+        -0.00014840202791471278,
+        275.51441449506257
+      ],
+      "wheel_friction_abs_over_R_mean_N": 0.2693369820295078,
+      "bilateral_duty": 0.0,
+      "rod_z_min_max_m": [
+        0.4112752921669527,
+        0.41265898750406765
+      ],
+      "center_migration_end_m": 0.038320594211423545,
+      "head_neck_min_limit_margin": 0.49986568552462785,
+      "beak_pin_max_abs_residual_m": 3.3196284854319913e-07,
+      "mouth_rod_max_penetration_m": 7.358190444609064e-05,
+      "native_contact_impulse_bins_Ns": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 13.691842555186312,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 13.691842555186312,
+        "upper:0.0005:OUTSIDE_NATIVE_PAD_FOOTPRINT": 0.001526622137479993,
+        "upper:0.0001:OFF_PAD_WORKING_PLANE": 0.001526622137479993
+      },
+      "native_contact_counts": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 2026,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 2026,
+        "upper:0.0005:OUTSIDE_NATIVE_PAD_FOOTPRINT": 1,
+        "upper:0.0001:OFF_PAD_WORKING_PLANE": 1
+      }
+    },
+    "release": {
+      "duration_s": 1.3,
+      "cart_back_delta_m": 0.0007462133498452594,
+      "cart_back_start_m": -0.010260995926669403,
+      "cart_back_end_m": -0.009514782576824143,
+      "jaw_normal_mean_N": [
+        2.5387532225195857,
+        0.0
+      ],
+      "tow_mean_world_N": [
+        -0.3305134956740243,
+        0.00012882679336301742,
+        -2.5842112283734857
+      ],
+      "wheel_ground_resultant_mean_world_N": [
+        0.3285805155721802,
+        -0.00018138825767437662,
+        275.45273478374867
+      ],
+      "wheel_friction_abs_over_R_mean_N": 0.3281172688293546,
+      "bilateral_duty": 0.0,
+      "rod_z_min_max_m": [
+        0.41154762141344675,
+        0.4117215372793422
+      ],
+      "center_migration_end_m": 0.03756052559436674,
+      "head_neck_min_limit_margin": 0.4999903156508757,
+      "beak_pin_max_abs_residual_m": 3.244856424111653e-07,
+      "mouth_rod_max_penetration_m": 6.393205935854833e-05,
+      "native_contact_impulse_bins_Ns": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 3.287638703210622,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 3.2685265640678165,
+        "upper:0.0001:NATIVE_PAD_FACE_INTERIOR": 0.03185262520764403,
+        "upper:0.0005:NATIVE_PAD_FACE_INTERIOR": 0.01274048606483813
+      },
+      "native_contact_counts": {
+        "upper:0.0005:PAD_EDGE_BAND_AMBIGUOUS": 504,
+        "upper:0.0001:PAD_EDGE_BAND_AMBIGUOUS": 501,
+        "upper:0.0001:NATIVE_PAD_FACE_INTERIOR": 5,
+        "upper:0.0005:NATIVE_PAD_FACE_INTERIOR": 2
+      }
+    }
+  },
+  "first_bilateral_time_s": 2.079999999999978,
+  "cart_back_before_bilateral_m": -0.010403337856499384,
+  "classifier": "native BRep8 body-local footprint/plane/normal,0.5mm and0.1mm sensitivity; not material friction certification",
+  "center_migration_is_not_material_tangential_slip": true,
+  "positive_robot_cart_contact_pairs": {
+    "approach:upper_bill_envelope:cart_rotating_shaft": {
+      "normal_impulse_Ns": 2.771118433355321,
+      "peak_normal_N": 11.454581853513401,
+      "first_time_s": 1.0250000000000001
+    },
+    "close:upper_bill_envelope:cart_rotating_shaft": {
+      "normal_impulse_Ns": 5.003479818757719,
+      "peak_normal_N": 12.00987432785339,
+      "first_time_s": 1.8199999999999832
+    },
+    "close:cart_bite_bar:lower_bill_envelope": {
+      "normal_impulse_Ns": 0.0242794312114978,
+      "peak_normal_N": 1.8590033054494204,
+      "first_time_s": 2.0399999999999787
+    },
+    "close:cart_bite_bar:upper_bill_envelope": {
+      "normal_impulse_Ns": 0.2556998259284223,
+      "peak_normal_N": 10.581107048807,
+      "first_time_s": 2.079999999999978
+    },
+    "pull:upper_bill_envelope:cart_rotating_shaft": {
+      "normal_impulse_Ns": 0.20132982497080812,
+      "peak_normal_N": 1.1352822900338355,
+      "first_time_s": 3.019999999999958
+    },
+    "pull:cart_bite_bar:upper_bill_envelope": {
+      "normal_impulse_Ns": 4.1730561115626035,
+      "peak_normal_N": 4.749372600674947,
+      "first_time_s": 3.019999999999958
+    },
+    "hold:cart_bite_bar:upper_bill_envelope": {
+      "normal_impulse_Ns": 13.693369177323792,
+      "peak_normal_N": 2.772189816207592,
+      "first_time_s": 5.5199999999999045
+    },
+    "release:cart_bite_bar:upper_bill_envelope": {
+      "normal_impulse_Ns": 3.30037918927546,
+      "peak_normal_N": 2.482757899236152,
+      "first_time_s": 10.700000000000273
+    }
+  },
+  "cargo_deck_support_mean_world_Z_N": 196.2000000332257,
+  "video": {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_004/continuous_original_speed.mp4",
+    "sha256": "da2df53d63d8c4115cb4db2c13e519d8f6fd27116b4e4477ea0e024e122156f8",
+    "decode_returncode": 0,
+    "decode_readback": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_004/continuous_original_speed.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:12.05, start: 0.000000, bitrate: 46 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x480, 43 kb/s, 20 fps, 20 tbr, 10240 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 640x480, q=2-31, 200 kb/s, 20 fps, 20 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 wrapped_avframe\n[out#0/null @ 0x764a1d0] video:104KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  241 fps=0.0 q=-0.0 Lsize=N/A time=00:00:12.05 bitrate=N/A speed= 577x    \n"
+  }
+}

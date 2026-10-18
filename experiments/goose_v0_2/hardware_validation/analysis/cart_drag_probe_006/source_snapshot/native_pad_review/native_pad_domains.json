@@ -1,0 +1,323 @@
+{
+  "schema": "native_tpu_working_face_domains_04_v1",
+  "pads": [
+    {
+      "side": "upper",
+      "part_name": "upper_grip_cassette_pad",
+      "owner_body": "head_roll",
+      "runtime_geom": "upper_bill_envelope",
+      "surface_polygon_body_m": [
+        [
+          0.09830000000000003,
+          -0.0117,
+          -0.032500000000000084
+        ],
+        [
+          0.134,
+          -0.0117,
+          -0.032500000000000084
+        ],
+        [
+          0.158,
+          -0.0067,
+          -0.032500000000000084
+        ],
+        [
+          0.1767,
+          -0.0027,
+          -0.032500000000000084
+        ],
+        [
+          0.1767,
+          0.0027,
+          -0.032500000000000084
+        ],
+        [
+          0.158,
+          0.0067,
+          -0.032500000000000084
+        ],
+        [
+          0.134,
+          0.0117,
+          -0.032500000000000084
+        ],
+        [
+          0.09830000000000003,
+          0.0117,
+          -0.032500000000000084
+        ]
+      ],
+      "surface_polygon_uv_m": [
+        [
+          0.09830000000000003,
+          -0.0117
+        ],
+        [
+          0.134,
+          -0.0117
+        ],
+        [
+          0.158,
+          -0.0067
+        ],
+        [
+          0.1767,
+          -0.0027
+        ],
+        [
+          0.1767,
+          0.0027
+        ],
+        [
+          0.158,
+          0.0067
+        ],
+        [
+          0.134,
+          0.0117
+        ],
+        [
+          0.09830000000000003,
+          0.0117
+        ]
+      ],
+      "plane_point_body_m": [
+        0.09830000000000003,
+        -0.0117,
+        -0.032500000000000084
+      ],
+      "outward_normal_body": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "uv_axes_body": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "plane_body_z_m": -0.032500000000000084,
+      "sheet_thickness_m": 0.0012,
+      "sheet_thickness_source": "Actual adopted tip-grip constructor pad_lo/pad_hi; sheet excludes retention mushroom plugs. Not compressed/measured thickness.",
+      "material_inside_direction_body": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "native_source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/source_inputs/native_contact/upper_grip_cassette_pad.brep",
+        "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2"
+      },
+      "boundary_reference": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/physics_v0_2_20261018_04/independent_native_grip_contour_sealed_source.json",
+        "sha256": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353",
+        "native_face_index": 1,
+        "eight_straight_edges": true,
+        "native_face_area_m2": 0.0014527599999999987
+      },
+      "zero_root_definition": "Runtime root XYZ=(0,0,0), quaternion1/0/0/0, all public joints0 and passive mimic. No extra5.5mm translation.",
+      "zero_owner_pos_world_m": [
+        0.06744999999999998,
+        0.0,
+        0.617805
+      ],
+      "zero_owner_R_world_from_body": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "side": "lower",
+      "part_name": "lower_grip_cassette_pad",
+      "owner_body": "beak_hinge",
+      "runtime_geom": "lower_bill_envelope",
+      "surface_polygon_body_m": [
+        [
+          0.01930000000000001,
+          -0.0117,
+          -0.02300000000000013
+        ],
+        [
+          0.05499999999999999,
+          -0.0117,
+          -0.02300000000000013
+        ],
+        [
+          0.07899999999999999,
+          -0.0067,
+          -0.02300000000000013
+        ],
+        [
+          0.09769999999999998,
+          -0.0027,
+          -0.02300000000000013
+        ],
+        [
+          0.09769999999999998,
+          0.0027,
+          -0.02300000000000013
+        ],
+        [
+          0.07899999999999999,
+          0.0067,
+          -0.02300000000000013
+        ],
+        [
+          0.05499999999999999,
+          0.0117,
+          -0.02300000000000013
+        ],
+        [
+          0.01930000000000001,
+          0.0117,
+          -0.02300000000000013
+        ]
+      ],
+      "surface_polygon_uv_m": [
+        [
+          0.01930000000000001,
+          -0.0117
+        ],
+        [
+          0.05499999999999999,
+          -0.0117
+        ],
+        [
+          0.07899999999999999,
+          -0.0067
+        ],
+        [
+          0.09769999999999998,
+          -0.0027
+        ],
+        [
+          0.09769999999999998,
+          0.0027
+        ],
+        [
+          0.07899999999999999,
+          0.0067
+        ],
+        [
+          0.05499999999999999,
+          0.0117
+        ],
+        [
+          0.01930000000000001,
+          0.0117
+        ]
+      ],
+      "plane_point_body_m": [
+        0.01930000000000001,
+        -0.0117,
+        -0.02300000000000013
+      ],
+      "outward_normal_body": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "uv_axes_body": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "plane_body_z_m": -0.02300000000000013,
+      "sheet_thickness_m": 0.0013,
+      "sheet_thickness_source": "Actual adopted tip-grip constructor pad_lo/pad_hi; sheet excludes retention mushroom plugs. Not compressed/measured thickness.",
+      "material_inside_direction_body": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "native_source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/source_inputs/native_contact/lower_grip_cassette_pad.brep",
+        "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69"
+      },
+      "boundary_reference": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/physics_v0_2_20261018_04/independent_native_grip_contour_sealed_source.json",
+        "sha256": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353",
+        "native_face_index": 3,
+        "eight_straight_edges": true,
+        "native_face_area_m2": 0.0014527599999999987
+      },
+      "zero_root_definition": "Runtime root XYZ=(0,0,0), quaternion1/0/0/0, all public joints0 and passive mimic. No extra5.5mm translation.",
+      "zero_owner_pos_world_m": [
+        0.14645,
+        0.0,
+        0.6083050000000001
+      ],
+      "zero_owner_R_world_from_body": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "transform": "p_body=R_world_from_body.T@(p_world-body_xpos), using same-time actual owner xmat/xpos, then polygon/plane test. Never use geom_xpos principal mesh frame as body origin.",
+  "classification_scope": "Geometry of true adopted TPU working faces only, not a measured contact-force or friction pass. Whole-jaw shell/edge contacts must remain separate.",
+  "default_diagnostic_tolerances_m": {
+    "plane": 0.0005,
+    "edge_band": 0.0005
+  },
+  "tolerance_note": "User-visible diagnostic bands, not CAD/manufacturing tolerances. Report actual signed distances and sensitivity; penetration/closure validity remains independent.",
+  "mujoco_contact_semantics": {
+    "source_header": "/home/ethan/ProjectBackups/2026-10-03/Sai_Lab/goose_warp_replay_admission_001/environments/mjlab_cuda_py312/lib/python3.12/site-packages/mujoco/include/mujoco/mjdata.h",
+    "source_header_sha256": "e2c7ac8a6011372eb1df4e9a53d63f8ddbc3fb940fd68d906480fe85ad0931d7",
+    "pos": "Midpoint between nearest geom surfaces",
+    "normal": "frame0:3 points geom0 to geom1",
+    "surface_point_geom0": "pos-0.5*dist*normal",
+    "surface_point_geom1": "pos+0.5*dist*normal"
+  },
+  "source_robot_all53_unchanged": true,
+  "physics_integrations": 0,
+  "forward_calls": 0,
+  "kinematic_calls": 1,
+  "training_updates": 0,
+  "GPU": 0,
+  "adopted_sheet_constructor": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/build_goose_tip_grip_candidate.py",
+    "sha256": "2ed5e74a1a8419b913d56b8f1ac156670fee1d3d9d5540c6773e33e371fdf78c",
+    "section": "upper pad553..554.2mm; lower551.7..553mm, then adopted translation; no runtime TCP used"
+  }
+}

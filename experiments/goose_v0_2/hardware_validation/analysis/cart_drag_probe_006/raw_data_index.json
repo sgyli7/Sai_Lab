@@ -1,0 +1,11 @@
+{
+  "raw_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006",
+  "original_manifest_sha256": "0b1d26b08ba2a08d8c78e23de2ef71a824f07c9e7321b1e2bf0dcce331cffc72",
+  "original_indexed_records": 85,
+  "large_MJB_trajectory_substeps_classified_logs_cache_remain_Backups": true,
+  "video_index": "analysis/cart_drag_probe_006/reproduction_contract.json",
+  "excluded_unclosed_helpers": [
+    "ingress_geometry_review",
+    "full_body_readiness"
+  ]
+}

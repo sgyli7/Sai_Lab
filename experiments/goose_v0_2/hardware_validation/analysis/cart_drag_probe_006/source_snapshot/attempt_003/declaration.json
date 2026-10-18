@@ -1,0 +1,145 @@
+{
+  "attempt": 3,
+  "negative_open_jaw": false,
+  "selected_plan": {
+    "jaw": 0.28,
+    "pitch": 0.4,
+    "off": [
+      0,
+      0,
+      0.006
+    ],
+    "pre_q": [
+      0.7325982556382915,
+      0.37874347991210805,
+      -0.7113417363267978
+    ],
+    "pre_error": 6.81235969233764e-11,
+    "minimum_mouth_cart_distance": 0.0006307652091846567,
+    "bad": [],
+    "active_cart_contacts": [],
+    "pull_path": [
+      {
+        "u": 0,
+        "q": [
+          0.7431752909999404,
+          0.4190313605605332,
+          -0.7622066515522566
+        ],
+        "error": 7.684094376424894e-13,
+        "margin": 0.8377933484477434
+      },
+      {
+        "u": 0.25,
+        "q": [
+          0.6465111312172941,
+          0.5246198818883043,
+          -0.771131012100991
+        ],
+        "error": 1.0405119137367615e-10,
+        "margin": 0.8288689878990091
+      },
+      {
+        "u": 0.5,
+        "q": [
+          0.5476943431740121,
+          0.6217907477967224,
+          -0.769485090418416
+        ],
+        "error": 5.786879722155303e-11,
+        "margin": 0.7782092522032775
+      },
+      {
+        "u": 0.75,
+        "q": [
+          0.4455828924887802,
+          0.7107975753579259,
+          -0.7563804675772986
+        ],
+        "error": 2.8758617058616596e-11,
+        "margin": 0.689202424642074
+      },
+      {
+        "u": 1.0,
+        "q": [
+          0.33913413866525055,
+          0.791512732506829,
+          -0.7306468710604357
+        ],
+        "error": 1.224869945787734e-11,
+        "margin": 0.608487267493171
+      }
+    ],
+    "pathmaxerror": 1.0405119137367615e-10
+  },
+  "initial_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0
+    }
+  ],
+  "initial_mouth_cart_contacts": [],
+  "spring_initial_bias_Nm": 0.5538609501195539,
+  "spring_initial_passive_Nm": 0.55386095,
+  "scope": "LOCAL_FIXED_TORSO",
+  "source_count": 53,
+  "control": "DECLARED GRAVITY POSITION TARGET BIAS(qfrc_bias/kp), 3 pitch IK at selected fixed world pitch; original yaw/roll neutral; actual rod translation followed before pull; closed-jaw target force feedback20N mean; original immutable drive",
+  "jaw_open_target": 0.29,
+  "jaw_cold_angle": 0.28
+}

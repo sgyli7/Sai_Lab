@@ -1,0 +1,17 @@
+{
+  "state": "closed_pm_reviewed_limited_local_evidence",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "issued_utc": "2026-10-18 13:52:03 UTC",
+  "hard_deadline_utc": "2026-10-18 14:07:03 UTC",
+  "parent005": "closed_exploration_insufficient_fair_mouth_decision",
+  "executor_finished_utc": "2026-10-18 14:03:31 UTC",
+  "independent_finished_utc": "2026-10-18 14:07:57 UTC",
+  "dynamic_attempts": 4,
+  "physics_steps": 6424,
+  "GPU": 0,
+  "training_updates": 0,
+  "approved_scope": "Declared fixed-torso fixture only: short bilateral retention and pure-contact traction. Not a clean hardware comparison or whole-body drag qualification.",
+  "decision": "Keep frozen mouth/hardware. Review complete ingress clearance and prepare true free-root backward Teacher in parallel; no further dynamics under this order.",
+  "independent_review_json_sha256": "361fe197ccacf2b31f788ef35507be090844fd538da9bd8d816ef576e36d2925",
+  "next_auxiliary_work": "Read-only finite ingress geometry review and full-body readiness are separate from these four closed trials; any new dynamics require a new bounded PM order."
+}

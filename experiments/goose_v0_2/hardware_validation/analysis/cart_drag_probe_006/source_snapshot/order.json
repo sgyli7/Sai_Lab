@@ -1,0 +1,59 @@
+{
+  "id": "cart_drag_probe_006",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "model": "gpt-6.1-sol",
+  "parent_experiment": "cart_drag_probe_005",
+  "purpose": "Establish a fair Teacher+IK grasp/traction baseline with handle in reachable domain and actual native-pad contact classification, then expose mouth hardware traction boundary. Do not redesign exterior or train PPO.",
+  "why_new_round": "005 is closed5/5. Independent evidence shows handle420→316mm and persistent head_pitch limit saturation; it cannot fairly decide mouth hardware. This round tests experimental validity rather than claiming the cart fixture improves Goose mouth.",
+  "issued_utc": "2026-10-18 13:52:03 UTC",
+  "hard_deadline_utc": "2026-10-18 14:07:03 UTC",
+  "stop_new_trials_utc": "2026-10-18 14:03:03 UTC",
+  "budget": {
+    "wall_minutes": 15,
+    "dynamic_attempts_max": 4,
+    "CPU_experiment_processes": 1,
+    "CPU_threads_max": 4,
+    "memory_GiB_max": 8,
+    "GPU": 0,
+    "training_updates": 0
+  },
+  "source_robot": "physics_v0_2_20261018_04 all53 immutable",
+  "source_cart": "low_profile_stock_cart_03_collision_004 all37 immutable",
+  "payload": "same real free20kg box on cart, full tensor, no bindings",
+  "teacher": "Joint targets through original200Hz physical drive adapter/50Hz commands, original torque-speed/voltage/350W/disabled peaks/slew/closedloop. No online state writes. Local fixed-torso bench clearly labelled, head/neck live.",
+  "fixture_probe": {
+    "variant": "counterbalance_stiffness_probe_not_frozen_cart",
+    "cart_passive_pitch_stiffness_Nm_rad": 20.0,
+    "preload_torque_at_zero_Nm": 0.55386095,
+    "spring_reference_rad": 0.0276930475,
+    "scope": "Explicit passive mechanical test-fixture hypothesis, no pose servo/lock/extra robot-object constraint. Existing assets stay untouched; spring source/OEM not qualified. If physical handle still leaves reachable domain, stop invalid baseline rather than push head to limit."
+  },
+  "trajectory_gate": [
+    "Find a genuinely collision-free open-jaw pregrasp through finite IK planning; do not start already touching the rod and label it approach.",
+    "Use actual cold-rod-defined TCP, native-pad working regions and explicit clearances. Actual pose follows true drive dynamics.",
+    "For the meaningful pull/hold interval aim each head/neck joint at least0.10rad away from hard limit; do not project unreachable target and call it fair hardware test.",
+    "Jaw-closing force may be regulated using Teacher contact feedback within original drive caps to avoid needless overcompression; this is a declared controller variant, not mouth hardware improvement.",
+    "Rod approach/closing path must not simply push the handle down or move the cart before capture."
+  ],
+  "trial_priority": [
+    "One positive R4+20kg+8Nnominal resistance Teacher grasp/pull/hold/release under corrected validity protocol.",
+    "One matched open-jaw/no-clamp countercheck with same fixture/path/parameters. Do not reuse005 negative for this new fixture.",
+    "If capture validity passes, same hardware/cart with20N nominal resistance to locate traction/slip/actuator boundary; otherwise a single targeted validity correction.",
+    "Optional last trial only for a justified numerical time-step check or a bounded free-base body-backward start using existing control, never new gait development. No total displacement claim from a local neck motion."
+  ],
+  "measurement_requirements": [
+    "Record actual per-contact world position/frame, geom names,6D force and matching pre/post-step states so nativeTPU-pad forces can be distinguished from whole-beak shell/pushing.",
+    "Force and contact timestamps aligned; relative rod-center migration is not itself a material tangential-slip integral.",
+    "True signed pull/hold cart and cargo displacement, genuine capture/no-release, rod pose, limits and measured continuous drive outputs.",
+    "Actual wheel bearing/friction reaction if available;8/20N mapped frictionloss is only a nominal cap, not automatically achieved sustained traction.",
+    "Closure residual and penetration remain visible. If hold residual/penetration exceed0.5mm, preserve as numerical validity limitation; do not present as high-precision hardware pass. A smaller dt probe must preserve200Hz drive/50Hz commands and be separately identified."
+  ],
+  "contact_classifier": "A separate read-only geometry specialist may provide native pad domains; no second dynamics executor or source edits.",
+  "invariants": "All original005 pure contact/no suction/no object teleport/no hardware mutation/qualified-success scope remain. No adoption of grooves,pads or actuator changes before fair evidence.",
+  "data": {
+    "raw": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006",
+    "selected": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_006"
+  },
+  "exit": "Return at hard deadline with evidence and exact blockers; no automatic further round. A fair baseline+countercheck and a condition-specific hardware question answered are the goal, not all skills or reliability."
+}

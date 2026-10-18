@@ -1,0 +1,80 @@
+{
+  "scope": "LOCAL_FIXED_TORSO_ONLY",
+  "verdict": "FAIR_MOUTH_BASELINE_NOT_ESTABLISHED",
+  "dynamic_attempts": 4,
+  "physics_steps": 6424,
+  "table": [
+    {
+      "attempt": 1,
+      "steps": 804,
+      "positive": true,
+      "pull_back_mm": 5.284342355292848,
+      "hold_back_mm": null,
+      "hold_s": 0,
+      "hold_bilateral_duty": null,
+      "head_neck_min_margin_rad": 0.0996261611342264,
+      "failure": "invalid_head_neck_limit_margin_under0p10",
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_001/continuous_original_speed.mp4"
+    },
+    {
+      "attempt": 2,
+      "steps": 820,
+      "positive": false,
+      "pull_back_mm": 5.2303839105578565,
+      "hold_back_mm": null,
+      "hold_s": 0,
+      "hold_bilateral_duty": null,
+      "head_neck_min_margin_rad": 0.09968960831627283,
+      "failure": "invalid_head_neck_limit_margin_under0p10",
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_002/continuous_original_speed.mp4"
+    },
+    {
+      "attempt": 3,
+      "steps": 2400,
+      "positive": true,
+      "pull_back_mm": 35.761692450947734,
+      "hold_back_mm": -1.8651755381265955,
+      "hold_s": 5.18,
+      "hold_bilateral_duty": 1.0,
+      "head_neck_min_margin_rad": 0.49848101697524144,
+      "failure": null,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_003/continuous_original_speed.mp4"
+    },
+    {
+      "attempt": 4,
+      "steps": 2400,
+      "positive": false,
+      "pull_back_mm": 6.2308161438655585,
+      "hold_back_mm": 2.4673163675374976,
+      "hold_s": 5.18,
+      "hold_bilateral_duty": 0.0,
+      "head_neck_min_margin_rad": 0.49904215148086434,
+      "failure": null,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_004/continuous_original_speed.mp4"
+    }
+  ],
+  "no_further_trials": true,
+  "no_PPO_no_training_no_GPU": true,
+  "source_robot53_and_cart37_unchanged": true,
+  "primary_blocker": "Corrected Teacher avoids initial rod contact and head limits, but upper beak strikes rotating shaft during approach at1.025s, peak11.45N, pushes cart before bilateral capture; hold contacts are native-pad edge-band representations rather than verified interior patch forces.",
+  "matched_countercheck": "3 versus4 uses identical fixture, initial state, selected posture, IK and gravity-target/force feedback rules; only actual jaw target is kept open in4. Rod-following targets before pull and pull origins depend on each actual rod state, so post-close world TCP paths are not identical replay.",
+  "numerical_limit": "Trial3 pull/hold pin and rod penetration below0.5mm; release pin residual1.78mm. Trials1/2 stop on<0.10rad actual limit margin.",
+  "resources": {
+    "single_dynamic_process": true,
+    "CPU_affinity_cores": 4,
+    "sampled_max_threads_each": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "maxRSS_KiB": 2848416,
+    "address_space_limit_GiB": 8,
+    "physics_dt_s": 0.005,
+    "drive_hz": 200,
+    "command_hz": 50,
+    "GPU": 0,
+    "training": 0
+  },
+  "finished_utc": "2026-10-18T14:03:29.319267+00:00"
+}

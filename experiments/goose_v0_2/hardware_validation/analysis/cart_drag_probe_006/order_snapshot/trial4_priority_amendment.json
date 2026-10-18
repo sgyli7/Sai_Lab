@@ -1,0 +1,8 @@
+{
+  "id": "cart_drag_probe_006_trial4_amendment",
+  "parent_order_sha256": "f2000e352fd38e0a761825db212a4e5a7015180fc977d7449e7eb9b56bc8e6a0",
+  "authority": "PM approval within existing user-authorized bounded hardware-diagnostic experiment",
+  "change": "Use fourth and final attempt for matched open-jaw countercheck of trial3 corrected Teacher gravitybias/pitch0.4/passive k20 fixture, instead of optional numerical/free-base attempt.",
+  "reason": "Earlier negative trial2 matches the failed controller, not trial3. Fair causal grasp evidence requires an identical corrected setup with only clamping removed.",
+  "invariants": "No fifth attempt, no budget increase, no source or physical drive changes. Existing stop-new14:03:03/hardstop14:07:03 UTC remain."
+}

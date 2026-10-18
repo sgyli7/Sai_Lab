@@ -1,0 +1,3020 @@
+{
+  "verdict": "LIMITED_LOCAL_SHORT_RETENTION_AND_CONTACT_TRACTION_SUPPORTED",
+  "attempts": [
+    {
+      "attempt": 1,
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_delta_m": 0.00033505922977250524,
+          "cargo_back_delta_m": 0.00039074863803023607,
+          "jaw_normal_mean_N": [
+            2.8923498342454534,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.40602369063447846,
+            0.4200712430978219
+          ],
+          "mean_tow_on_rod_N": [
+            -0.3732232148935176,
+            1.3332127432008e-05,
+            -2.9160756364952003
+          ],
+          "mean_ground_wheel_N": [
+            0.3519755222960752,
+            -2.343343904063933e-05,
+            275.784632196269
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.550662062957725,
+          "minimum_head_neck_limit_margin_rad": 0.4999961628489117,
+          "center_migration_end_m": null
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_delta_m": -0.0033459394502751705,
+          "cargo_back_delta_m": -0.0033352760360844114,
+          "jaw_normal_mean_N": [
+            7.342682440006573,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.390912537879478,
+            0.4135986902032903
+          ],
+          "mean_tow_on_rod_N": [
+            -1.1110678100190248,
+            0.008180680598376133,
+            -7.301633224467835
+          ],
+          "mean_ground_wheel_N": [
+            -1.6031830578412853,
+            -0.005618837481863669,
+            280.4639056257012
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 1.7253692370880587,
+          "minimum_head_neck_limit_margin_rad": 0.20673759775197942,
+          "center_migration_end_m": null
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_delta_m": -0.009019522348537645,
+          "cargo_back_delta_m": -0.009016420498112354,
+          "jaw_normal_mean_N": [
+            11.25883542329172,
+            2.0672927316646317
+          ],
+          "bilateral_fraction": 0.5625,
+          "longest_bilateral_s": 0.675,
+          "rod_z_min_max_m": [
+            0.3869727789778851,
+            0.3908299853513124
+          ],
+          "mean_tow_on_rod_N": [
+            -1.7283489156443834,
+            0.019310402745447614,
+            -9.089309776263075
+          ],
+          "mean_ground_wheel_N": [
+            -4.32200543729427,
+            -0.01331504127500771,
+            282.58762554974226
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 4.315492258204108,
+          "minimum_head_neck_limit_margin_rad": 0.18253258182920562,
+          "center_migration_end_m": 9.36235326088534e-05
+        },
+        "pull": {
+          "duration_s": 1.0,
+          "cart_back_delta_m": 0.005326783526725332,
+          "cargo_back_delta_m": 0.005319666931745015,
+          "jaw_normal_mean_N": [
+            17.750860182287546,
+            7.7865138852393905
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 1.0,
+          "rod_z_min_max_m": [
+            0.3869426474592835,
+            0.3989595385498059
+          ],
+          "mean_tow_on_rod_N": [
+            -5.020649258741372,
+            0.0017373770652458218,
+            -9.141485875510684
+          ],
+          "mean_ground_wheel_N": [
+            2.557559828372293,
+            -0.0021028510928809193,
+            281.4953967898559
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 4.246914448036213,
+          "minimum_head_neck_limit_margin_rad": 0.0996261611342264,
+          "center_migration_end_m": 0.002189511180136249
+        }
+      },
+      "first_shaft_contact": {
+        "time": 0.6300000000000004,
+        "phase": "approach",
+        "Fn_N": 3.483051194511751
+      },
+      "peak_shaft_contact_N": 6.473420150539455,
+      "first_rod_contact": {
+        "time": 0.025,
+        "phase": "open"
+      },
+      "first_bilateral_s": 2.344999999999972,
+      "cart_back_at_first_bilateral_m": -0.006668673258326541,
+      "actual_peak_positive_power_W": 5.929756651042908,
+      "drive_torque_speed_violating_steps": 0,
+      "pull_hold_pair_normal_impulse_Ns": {
+        "upper_bill_envelope|cart_rotating_shaft": 1.4881317550004194,
+        "cart_bite_bar|upper_bill_envelope": 17.75086018228754,
+        "cart_bite_bar|lower_bill_envelope": 7.786513885239394
+      },
+      "max_eq_residual": {
+        "beak_distal_pin": 0.0002536782768461643,
+        "left_yaw_input_rotor_belt_relation": 1.894007031779315e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8930081104993988e-05,
+        "stationary_local_torso_fixture": 4.137929287983285e-05
+      },
+      "pitch_stiffness": 20.0,
+      "source_before_after_equal": true,
+      "files_sha256": {
+        "summary.json": "e3eb4eb207590272be69165012824bed0db74bc328cbe81b0d2bedeb37f72fe4",
+        "trajectory.npz": "93869d5bdc81e3a87bf9112b8be704bba5cc3de8dce32e2f8978c8fc07822b24",
+        "substeps.jsonl.gz": "c6cffe671330155dd67ddf43cc9d985a9b82e6638ca1c2260609cd8f0a364dcc",
+        "commands50hz.json": "89dddf9b46dba5f64b38b495f6d5d6079a19c850d81d43e537c79a3ad034a2f5",
+        "declaration.json": "bfb813858d392124b52cf424369b17a33263ef95ccf73cb5ae6f3ae29e55df96"
+      }
+    },
+    {
+      "attempt": 2,
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_delta_m": 0.00033505922977250524,
+          "cargo_back_delta_m": 0.00039074863803023607,
+          "jaw_normal_mean_N": [
+            2.8923498342454534,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.40602369063447846,
+            0.4200712430978219
+          ],
+          "mean_tow_on_rod_N": [
+            -0.3732232148935176,
+            1.3332127432008e-05,
+            -2.9160756364952003
+          ],
+          "mean_ground_wheel_N": [
+            0.3519755222960752,
+            -2.343343904063933e-05,
+            275.784632196269
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.550662062957725,
+          "minimum_head_neck_limit_margin_rad": 0.4999961628489117,
+          "center_migration_end_m": null
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_delta_m": -0.0033459394502751705,
+          "cargo_back_delta_m": -0.0033352760360844114,
+          "jaw_normal_mean_N": [
+            7.342682440006573,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.390912537879478,
+            0.4135986902032903
+          ],
+          "mean_tow_on_rod_N": [
+            -1.1110678100190248,
+            0.008180680598376133,
+            -7.301633224467835
+          ],
+          "mean_ground_wheel_N": [
+            -1.6031830578412853,
+            -0.005618837481863669,
+            280.4639056257012
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 1.7253692370880587,
+          "minimum_head_neck_limit_margin_rad": 0.20673759775197942,
+          "center_migration_end_m": null
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_delta_m": -0.008987134460053281,
+          "cargo_back_delta_m": -0.008984015270347978,
+          "jaw_normal_mean_N": [
+            9.362734275087755,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.38694313788571616,
+            0.3908299853513124
+          ],
+          "mean_tow_on_rod_N": [
+            -2.16255845203442,
+            0.01740499937424035,
+            -9.110314450517285
+          ],
+          "mean_ground_wheel_N": [
+            -4.306386594378266,
+            -0.014996903659841236,
+            282.58742196604845
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 4.299912258484444,
+          "minimum_head_neck_limit_margin_rad": 0.182599320446569,
+          "center_migration_end_m": null
+        },
+        "pull": {
+          "duration_s": 1.08,
+          "cart_back_delta_m": 0.005272637091713772,
+          "cargo_back_delta_m": 0.005271263166173101,
+          "jaw_normal_mean_N": [
+            10.197368098723917,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.3869089026195255,
+            0.3969566101734106
+          ],
+          "mean_tow_on_rod_N": [
+            -5.424100963689899,
+            -0.0023686292507757454,
+            -9.31381146230233
+          ],
+          "mean_ground_wheel_N": [
+            2.889377894720716,
+            -0.0022362475427040594,
+            281.5349260205791
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 4.420096464646309,
+          "minimum_head_neck_limit_margin_rad": 0.09968960831627283,
+          "center_migration_end_m": null
+        }
+      },
+      "first_shaft_contact": {
+        "time": 0.6300000000000004,
+        "phase": "approach",
+        "Fn_N": 3.483051194511751
+      },
+      "peak_shaft_contact_N": 7.274037733375711,
+      "first_rod_contact": {
+        "time": 0.025,
+        "phase": "open"
+      },
+      "first_bilateral_s": null,
+      "cart_back_at_first_bilateral_m": null,
+      "actual_peak_positive_power_W": 5.929756651042908,
+      "drive_torque_speed_violating_steps": 0,
+      "pull_hold_pair_normal_impulse_Ns": {
+        "upper_bill_envelope|cart_rotating_shaft": 2.0956270184026504,
+        "cart_bite_bar|upper_bill_envelope": 11.01315754662182
+      },
+      "max_eq_residual": {
+        "beak_distal_pin": 8.691567230625918e-05,
+        "left_yaw_input_rotor_belt_relation": 1.894007031779315e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8930081104993988e-05,
+        "stationary_local_torso_fixture": 4.134473602866435e-05
+      },
+      "pitch_stiffness": 20.0,
+      "source_before_after_equal": true,
+      "files_sha256": {
+        "summary.json": "2f2fd8cff59540fe080dfcdb656d1390c98babe6294d97199e3aee468f83c974",
+        "trajectory.npz": "fcf8b29b2d8154815a0c2221f843fb64da05e95344241dda41316053bb7019c4",
+        "substeps.jsonl.gz": "a68d6a2dd3d34c902354876d1f4612ee07486e7f049a96c14c8cbe1f3497a9fa",
+        "commands50hz.json": "1ce503fe01ed772ea869c254501f53aeb23c7bc8cf8ed295a928a403885b1ffc",
+        "declaration.json": "5911617f30f749e11c26f0dbdf5207947165fc82eacc3b59eefd3908f0435582"
+      }
+    },
+    {
+      "attempt": 3,
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_delta_m": -2.9665211365825783e-05,
+          "cargo_back_delta_m": 2.095385371492231e-05,
+          "jaw_normal_mean_N": [
+            0.0,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.41929775905856337,
+            0.4201078828522291
+          ],
+          "mean_tow_on_rod_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_ground_wheel_N": [
+            -7.825950092941406e-05,
+            -4.407741827239938e-06,
+            272.8677269804747
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.1390769651223647,
+          "minimum_head_neck_limit_margin_rad": 0.4999989220317015,
+          "center_migration_end_m": null
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_delta_m": -0.0032885346548459093,
+          "cargo_back_delta_m": -0.0032789566654310986,
+          "jaw_normal_mean_N": [
+            0.0,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.4018410798226557,
+            0.42010062443076585
+          ],
+          "mean_tow_on_rod_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_ground_wheel_N": [
+            -1.6064880024354715,
+            -9.752757818916376e-05,
+            274.1014134713608
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 1.598083669685081,
+          "minimum_head_neck_limit_margin_rad": 0.4999986289208097,
+          "center_migration_end_m": null
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_delta_m": -0.012569259929618881,
+          "cargo_back_delta_m": -0.012576149599702102,
+          "jaw_normal_mean_N": [
+            2.694070902692372,
+            2.5351710792355613
+          ],
+          "bilateral_fraction": 0.5708333333333333,
+          "longest_bilateral_s": 0.675,
+          "rod_z_min_max_m": [
+            0.39705720579488635,
+            0.41933636197787105
+          ],
+          "mean_tow_on_rod_N": [
+            0.2132083569169775,
+            -0.05656954646682758,
+            -0.33473322192196486
+          ],
+          "mean_ground_wheel_N": [
+            -3.5069641742246973,
+            -0.028061081388267847,
+            274.9066708901559
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 3.5092914378485514,
+          "minimum_head_neck_limit_margin_rad": 0.49587643952368937,
+          "center_migration_end_m": 0.002135681146476576
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_delta_m": 0.035768584206180676,
+          "cargo_back_delta_m": 0.035771058688486734,
+          "jaw_normal_mean_N": [
+            12.721736883107077,
+            11.122377007942916
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 2.5,
+          "rod_z_min_max_m": [
+            0.4185854566016788,
+            0.4247380516486173
+          ],
+          "mean_tow_on_rod_N": [
+            -6.023839213997657,
+            -0.0001761219849548315,
+            0.9390319521733596
+          ],
+          "mean_ground_wheel_N": [
+            5.936801321141132,
+            0.0001580888168682652,
+            271.92859600789745
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 6.050109704102628,
+          "minimum_head_neck_limit_margin_rad": 0.49848101697524144,
+          "center_migration_end_m": 0.010398445644314415
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_delta_m": -0.0018974360921549804,
+          "cargo_back_delta_m": -0.0018903777418115553,
+          "jaw_normal_mean_N": [
+            16.926580729644435,
+            16.060084565861654
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 5.18,
+          "rod_z_min_max_m": [
+            0.4154761269526035,
+            0.41944634527309266
+          ],
+          "mean_tow_on_rod_N": [
+            0.2535415132769058,
+            -0.00015855678435078643,
+            -1.1166453873106619
+          ],
+          "mean_ground_wheel_N": [
+            -0.21430026487624373,
+            0.00014998377961996114,
+            273.9856284622556
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.5052052993678926,
+          "minimum_head_neck_limit_margin_rad": 0.4998982088488934,
+          "center_migration_end_m": 0.015095786934575032
+        },
+        "release": {
+          "duration_s": 1.3,
+          "cart_back_delta_m": 3.660059500687485e-05,
+          "cargo_back_delta_m": 3.77258849986184e-05,
+          "jaw_normal_mean_N": [
+            2.260937203617129,
+            1.0890819911257734
+          ],
+          "bilateral_fraction": 0.11153846153846154,
+          "longest_bilateral_s": 0.145,
+          "rod_z_min_max_m": [
+            0.4154710778555679,
+            0.41602375064414143
+          ],
+          "mean_tow_on_rod_N": [
+            -0.04301175284352423,
+            -2.399452587786243e-05,
+            -1.2411733768998547
+          ],
+          "mean_ground_wheel_N": [
+            0.01929705998274761,
+            3.019677109070388e-05,
+            274.10974291370815
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.11457365222752186,
+          "minimum_head_neck_limit_margin_rad": 0.49998614923695583,
+          "center_migration_end_m": 0.014601642446539333
+        }
+      },
+      "first_shaft_contact": {
+        "time": 1.0250000000000001,
+        "phase": "approach",
+        "Fn_N": 0.4592867972673856
+      },
+      "peak_shaft_contact_N": 11.999325882111073,
+      "first_rod_contact": {
+        "time": 1.924999999999981,
+        "phase": "close"
+      },
+      "first_bilateral_s": 2.074999999999978,
+      "cart_back_at_first_bilateral_m": -0.010133657969012111,
+      "actual_peak_positive_power_W": 2.4499057661759074,
+      "drive_torque_speed_violating_steps": 0,
+      "pull_hold_pair_normal_impulse_Ns": {
+        "cart_bite_bar|upper_bill_envelope": 119.48403038732596,
+        "cart_bite_bar|lower_bill_envelope": 110.99718057102048
+      },
+      "max_eq_residual": {
+        "beak_distal_pin": 0.0017776122677279904,
+        "left_yaw_input_rotor_belt_relation": 1.9384729682664825e-05,
+        "right_yaw_input_rotor_belt_relation": 1.9373737477098045e-05,
+        "stationary_local_torso_fixture": 4.890468711634814e-05
+      },
+      "pitch_stiffness": 20.0,
+      "source_before_after_equal": true,
+      "files_sha256": {
+        "summary.json": "4d3769fa596fd3272f5d752ce82fea704a7d837a8245a7c51b932746cd4454b2",
+        "trajectory.npz": "5e5ddf325e622ffa86d4a888c06b0577cc2c2e766a2ddc7a5b4c04e28a973922",
+        "substeps.jsonl.gz": "ea0cf43de3da9dccf62a21f9ee67777247778eacb8e77929a610786deddd0a44",
+        "commands50hz.json": "b7f010e1998a6782f373a2cee1b2a10e089b371c765bfd0e412e3198d636a58c",
+        "declaration.json": "8076c92454348e972f3ed4a299b120a2f0bc275e8795b82a4bff1a464f1b2ca2"
+      }
+    },
+    {
+      "attempt": 4,
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_delta_m": -2.9665211365825783e-05,
+          "cargo_back_delta_m": 2.095385371492231e-05,
+          "jaw_normal_mean_N": [
+            0.0,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.41929775905856337,
+            0.4201078828522291
+          ],
+          "mean_tow_on_rod_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_ground_wheel_N": [
+            -7.825950092941406e-05,
+            -4.407741827239938e-06,
+            272.8677269804747
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.1390769651223647,
+          "minimum_head_neck_limit_margin_rad": 0.4999989220317015,
+          "center_migration_end_m": null
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_delta_m": -0.0032885346548459093,
+          "cargo_back_delta_m": -0.0032789566654310986,
+          "jaw_normal_mean_N": [
+            0.0,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.4018410798226557,
+            0.42010062443076585
+          ],
+          "mean_tow_on_rod_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_ground_wheel_N": [
+            -1.6064880024354715,
+            -9.752757818916376e-05,
+            274.1014134713608
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 1.598083669685081,
+          "minimum_head_neck_limit_margin_rad": 0.4999986289208097,
+          "center_migration_end_m": null
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_delta_m": -0.015566042872729113,
+          "cargo_back_delta_m": -0.015572342465156042,
+          "jaw_normal_mean_N": [
+            0.21308318827368516,
+            0.020232859342914834
+          ],
+          "bilateral_fraction": 0.004166666666666667,
+          "longest_bilateral_s": 0.005,
+          "rod_z_min_max_m": [
+            0.39687235666658655,
+            0.4196265510240281
+          ],
+          "mean_tow_on_rod_N": [
+            -0.08569740039628804,
+            -0.03349540358169864,
+            -0.18668622531766746
+          ],
+          "mean_ground_wheel_N": [
+            -4.161422377403087,
+            -0.021234753039422564,
+            275.405393386876
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 4.162791195218721,
+          "minimum_head_neck_limit_margin_rad": 0.4984048955225358,
+          "center_migration_end_m": 0.003034285265881457
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_delta_m": 0.00623891496413298,
+          "cargo_back_delta_m": 0.006244244940846855,
+          "jaw_normal_mean_N": [
+            1.669222444625038,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.4126846164871601,
+            0.418704276911429
+          ],
+          "mean_tow_on_rod_N": [
+            -1.561032890064884,
+            -0.005246032983765103,
+            -1.2144169886635336
+          ],
+          "mean_ground_wheel_N": [
+            1.4359910682436559,
+            -0.0016702168174083762,
+            274.13160373126857
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 1.5876068419772886,
+          "minimum_head_neck_limit_margin_rad": 0.49904215148086434,
+          "center_migration_end_m": 0.039301537446160904
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_delta_m": 0.002452168486825279,
+          "cargo_back_delta_m": 0.002458185649800715,
+          "jaw_normal_mean_N": [
+            2.64350756318992,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.4112752921669527,
+            0.41265898750406765
+          ],
+          "mean_tow_on_rod_N": [
+            -0.25581982049108576,
+            0.00014763992498954877,
+            -2.6456765960519193
+          ],
+          "mean_ground_wheel_N": [
+            0.26938758464531865,
+            -0.00014840202791471278,
+            275.51441449506257
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.2693369820295078,
+          "minimum_head_neck_limit_margin_rad": 0.49986568552462785,
+          "center_migration_end_m": 0.038320594211423545
+        },
+        "release": {
+          "duration_s": 1.3,
+          "cart_back_delta_m": 0.0007437226090458715,
+          "cargo_back_delta_m": 0.0007450129861549248,
+          "jaw_normal_mean_N": [
+            2.5387532225195857,
+            0.0
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "rod_z_min_max_m": [
+            0.41154762141344675,
+            0.4117215372793422
+          ],
+          "mean_tow_on_rod_N": [
+            -0.3305134956740243,
+            0.00012882679336301742,
+            -2.5842112283734857
+          ],
+          "mean_ground_wheel_N": [
+            0.3285805155721802,
+            -0.00018138825767437662,
+            275.45273478374867
+          ],
+          "actual_bearing_abs_over_radius_mean_N": 0.3281172688293546,
+          "minimum_head_neck_limit_margin_rad": 0.4999903156508757,
+          "center_migration_end_m": 0.03756052559436674
+        }
+      },
+      "first_shaft_contact": {
+        "time": 1.0250000000000001,
+        "phase": "approach",
+        "Fn_N": 0.4592867972673856
+      },
+      "peak_shaft_contact_N": 12.00987432785339,
+      "first_rod_contact": {
+        "time": 2.0399999999999787,
+        "phase": "close"
+      },
+      "first_bilateral_s": 2.079999999999978,
+      "cart_back_at_first_bilateral_m": -0.010403337856499384,
+      "actual_peak_positive_power_W": 2.5132416247261906,
+      "drive_torque_speed_violating_steps": 0,
+      "pull_hold_pair_normal_impulse_Ns": {
+        "upper_bill_envelope|cart_rotating_shaft": 0.20132982497080812,
+        "cart_bite_bar|upper_bill_envelope": 17.866425288886358
+      },
+      "max_eq_residual": {
+        "beak_distal_pin": 7.927542401717225e-05,
+        "left_yaw_input_rotor_belt_relation": 1.9384729682664825e-05,
+        "right_yaw_input_rotor_belt_relation": 1.9373737477098045e-05,
+        "stationary_local_torso_fixture": 4.865876491487143e-05
+      },
+      "pitch_stiffness": 20.0,
+      "source_before_after_equal": true,
+      "files_sha256": {
+        "summary.json": "e85aca473e9edd7e1a3c17b8c002a132f2eb6feae434fa56a186a593b3fc6297",
+        "trajectory.npz": "47a1dc2647c14b934ab3dccd5e88000cafe5cf888686a25adfaa42fa2446998c",
+        "substeps.jsonl.gz": "875330b5fd45dddaa0bca6d6b7795203698fc37d7b2518873d83dfd973a40d59",
+        "commands50hz.json": "3773235d14e272300d352422d0f44e795fc441829768ced4bea456c7c4bd07e4",
+        "declaration.json": "eed2c21f5ecfe2545cdfbe06d617367c16538dbf73527d1afc9e96d76f97d2f0"
+      }
+    }
+  ],
+  "independent_54_native_prestate_contact_samples": [
+    {
+      "pre_time_s": 3.019999999999958,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1382826360082412,
+            -0.010797337722674412,
+            -0.03249996405105503
+          ],
+          "signed_distance_outward_plane_m": -3.594894505687396e-08,
+          "inward_edge_margin_m": 1.0226862443476576e-05,
+          "normal_alignment_cos": 0.9999999373725342,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1382826360082412,
+            -0.010797337722674412,
+            -0.03249996405105503
+          ],
+          "signed_distance_outward_plane_m": -3.594894505687396e-08,
+          "inward_edge_margin_m": 1.0226862443476576e-05,
+          "normal_alignment_cos": 0.9999999373725342,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.1649999999999547,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.13827736253058293,
+            0.010798345622650557,
+            -0.03250328709209969
+          ],
+          "signed_distance_outward_plane_m": 3.2870920996033726e-06,
+          "inward_edge_margin_m": 1.0315696304146742e-05,
+          "normal_alignment_cos": 0.9999996956048934,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.13827736253058293,
+            0.010798345622650557,
+            -0.03250328709209969
+          ],
+          "signed_distance_outward_plane_m": 3.2870920996033726e-06,
+          "inward_edge_margin_m": 1.0315696304146742e-05,
+          "normal_alignment_cos": 0.9999996956048934,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.3099999999999516,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06375171732841725,
+            0.00985537735960017,
+            -0.02299996450027337
+          ],
+          "signed_distance_outward_plane_m": 3.54997267623669e-08,
+          "inward_edge_margin_m": 2.0899466839699057e-05,
+          "normal_alignment_cos": 0.9999996598395791,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06375171732841725,
+            0.00985537735960017,
+            -0.02299996450027337
+          ],
+          "signed_distance_outward_plane_m": 3.54997267623669e-08,
+          "inward_edge_margin_m": 2.0899466839699057e-05,
+          "normal_alignment_cos": 0.9999996598395791,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.4549999999999486,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06407193709450336,
+            -0.009787739196415395,
+            -0.022992899178742445
+          ],
+          "signed_distance_outward_plane_m": 7.100821257686324e-06,
+          "inward_edge_margin_m": 2.1805720680598852e-05,
+          "normal_alignment_cos": 0.9999999253750381,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06407193709450336,
+            -0.009787739196415395,
+            -0.022992899178742445
+          ],
+          "signed_distance_outward_plane_m": 7.100821257686324e-06,
+          "inward_edge_margin_m": 2.1805720680598852e-05,
+          "normal_alignment_cos": 0.9999999253750381,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.579999999999946,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06442241466489707,
+            -0.009736845796713075,
+            -0.02299757123899472
+          ],
+          "signed_distance_outward_plane_m": 2.4287610054102293e-06,
+          "inward_edge_margin_m": 1.479710304147964e-07,
+          "normal_alignment_cos": 0.9999996651831011,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06442241466489707,
+            -0.009736845796713075,
+            -0.02299757123899472
+          ],
+          "signed_distance_outward_plane_m": 2.4287610054102293e-06,
+          "inward_edge_margin_m": 1.479710304147964e-07,
+          "normal_alignment_cos": 0.9999996651831011,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.6849999999999437,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "NATIVE_PAD_FACE_INTERIOR",
+          "geometry_verified_native_tpu_face": true,
+          "point_body_m": [
+            0.1394236494898103,
+            0.008799565733310295,
+            -0.03249996571821857
+          ],
+          "signed_distance_outward_plane_m": -3.4281781517708776e-08,
+          "inward_edge_margin_m": 0.0017332919695660298,
+          "normal_alignment_cos": 0.9999999861876447,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "NATIVE_PAD_FACE_INTERIOR",
+          "geometry_verified_native_tpu_face": true,
+          "point_body_m": [
+            0.1394236494898103,
+            0.008799565733310295,
+            -0.03249996571821857
+          ],
+          "signed_distance_outward_plane_m": -3.4281781517708776e-08,
+          "inward_edge_margin_m": 0.0017332919695660298,
+          "normal_alignment_cos": 0.9999999861876447,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.8249999999999407,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1401811379573102,
+            0.010397185351252624,
+            -0.0324999649017344
+          ],
+          "signed_distance_outward_plane_m": -3.509826568270924e-08,
+          "inward_edge_margin_m": 1.476065002443119e-05,
+          "normal_alignment_cos": 0.9999993714547998,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1401811379573102,
+            0.010397185351252624,
+            -0.0324999649017344
+          ],
+          "signed_distance_outward_plane_m": -3.509826568270924e-08,
+          "inward_edge_margin_m": 1.476065002443119e-05,
+          "normal_alignment_cos": 0.9999993714547998,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 3.9699999999999376,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14111135340759595,
+            -0.010200987138144024,
+            -0.032511997077778985
+          ],
+          "signed_distance_outward_plane_m": 1.1997077778901077e-05,
+          "inward_edge_margin_m": 1.7113460718764253e-05,
+          "normal_alignment_cos": 0.9999999690827183,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14111135340759595,
+            -0.010200987138144024,
+            -0.032511997077778985
+          ],
+          "signed_distance_outward_plane_m": 1.1997077778901077e-05,
+          "inward_edge_margin_m": 1.7113460718764253e-05,
+          "normal_alignment_cos": 0.9999999690827183,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.1149999999999345,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06704923103346169,
+            -0.009160350923956253,
+            -0.022999964718500944
+          ],
+          "signed_distance_outward_plane_m": 3.528149918746726e-08,
+          "inward_edge_margin_m": 2.877479039867139e-05,
+          "normal_alignment_cos": 0.999999650105827,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06704923103346169,
+            -0.009160350923956253,
+            -0.022999964718500944
+          ],
+          "signed_distance_outward_plane_m": 3.528149918746726e-08,
+          "inward_edge_margin_m": 2.877479039867139e-05,
+          "normal_alignment_cos": 0.999999650105827,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.259999999999931,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06775871866715152,
+            0.009010652544898,
+            -0.02299249427755339
+          ],
+          "signed_distance_outward_plane_m": 7.505722446742719e-06,
+          "inward_edge_margin_m": 3.062355123226153e-05,
+          "normal_alignment_cos": 0.9999999547876608,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06775871866715152,
+            0.009010652544898,
+            -0.02299249427755339
+          ],
+          "signed_distance_outward_plane_m": 7.505722446742719e-06,
+          "inward_edge_margin_m": 3.062355123226153e-05,
+          "normal_alignment_cos": 0.9999999547876608,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.409999999999928,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1434925424203718,
+            0.009699231657260747,
+            -0.03249996508841059
+          ],
+          "signed_distance_outward_plane_m": -3.4911589494313056e-08,
+          "inward_edge_margin_m": 2.266862299912942e-05,
+          "normal_alignment_cos": 0.999999357610422,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1434925424203718,
+            0.009699231657260747,
+            -0.03249996508841059
+          ],
+          "signed_distance_outward_plane_m": -3.4911589494313056e-08,
+          "inward_edge_margin_m": 2.266862299912942e-05,
+          "normal_alignment_cos": 0.999999357610422,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.554999999999925,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14423589488619298,
+            -0.009542419583201196,
+            -0.03251009825500433
+          ],
+          "signed_distance_outward_plane_m": 1.0098255004246937e-05,
+          "inward_edge_margin_m": 2.457467537299595e-05,
+          "normal_alignment_cos": 0.9999999786139991,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14423589488619298,
+            -0.009542419583201196,
+            -0.03251009825500433
+          ],
+          "signed_distance_outward_plane_m": 1.0098255004246937e-05,
+          "inward_edge_margin_m": 2.457467537299595e-05,
+          "normal_alignment_cos": 0.9999999786139991,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.699999999999922,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06986230828470054,
+            -0.008567431119713727,
+            -0.02299996470642175
+          ],
+          "signed_distance_outward_plane_m": 3.529357838275016e-08,
+          "inward_edge_margin_m": 3.5492596690900945e-05,
+          "normal_alignment_cos": 0.9999996758162616,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.06986230828470054,
+            -0.008567431119713727,
+            -0.02299996470642175
+          ],
+          "signed_distance_outward_plane_m": 3.529357838275016e-08,
+          "inward_edge_margin_m": 3.5492596690900945e-05,
+          "normal_alignment_cos": 0.9999996758162616,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.844999999999919,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07054567432872927,
+            0.008423233959790137,
+            -0.02299358375737363
+          ],
+          "signed_distance_outward_plane_m": 6.416242626500895e-06,
+          "inward_edge_margin_m": 3.728338104251943e-05,
+          "normal_alignment_cos": 0.9999999362048255,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07054567432872927,
+            0.008423233959790137,
+            -0.02299358375737363
+          ],
+          "signed_distance_outward_plane_m": 6.416242626500895e-06,
+          "inward_edge_margin_m": 3.728338104251943e-05,
+          "normal_alignment_cos": 0.9999999362048255,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 4.994999999999916,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14644589804480854,
+            0.00907674488745018,
+            -0.03249996525490191
+          ],
+          "signed_distance_outward_plane_m": -3.4745098173583067e-08,
+          "inward_edge_margin_m": 2.9721538679904426e-05,
+          "normal_alignment_cos": 0.9999995690578587,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14644589804480854,
+            0.00907674488745018,
+            -0.03249996525490191
+          ],
+          "signed_distance_outward_plane_m": -3.4745098173583067e-08,
+          "inward_edge_margin_m": 2.9721538679904426e-05,
+          "normal_alignment_cos": 0.9999995690578587,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.139999999999913,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1471507319724359,
+            -0.008928046652035436,
+            -0.03250761195158912
+          ],
+          "signed_distance_outward_plane_m": 7.6119515890343825e-06,
+          "inward_edge_margin_m": 3.154032161840327e-05,
+          "normal_alignment_cos": 0.9999999607242283,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1471507319724359,
+            -0.008928046652035436,
+            -0.03250761195158912
+          ],
+          "signed_distance_outward_plane_m": 7.6119515890343825e-06,
+          "inward_edge_margin_m": 3.154032161840327e-05,
+          "normal_alignment_cos": 0.9999999607242283,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.2849999999999095,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07252013570914734,
+            -0.008007233736040877,
+            -0.022999964695009225
+          ],
+          "signed_distance_outward_plane_m": 3.5304990906454004e-08,
+          "inward_edge_margin_m": 4.1839656583388655e-05,
+          "normal_alignment_cos": 0.9999997835755701,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07252013570914734,
+            -0.008007233736040877,
+            -0.022999964695009225
+          ],
+          "signed_distance_outward_plane_m": 3.5304990906454004e-08,
+          "inward_edge_margin_m": 4.1839656583388655e-05,
+          "normal_alignment_cos": 0.9999997835755701,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.4299999999999065,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07301305829680171,
+            0.007903171320291088,
+            -0.02299526076291612
+          ],
+          "signed_distance_outward_plane_m": 4.739237084012277e-06,
+          "inward_edge_margin_m": 4.3181065333020154e-05,
+          "normal_alignment_cos": 0.9999998740970613,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07301305829680171,
+            0.007903171320291088,
+            -0.02299526076291612
+          ],
+          "signed_distance_outward_plane_m": 4.739237084012277e-06,
+          "inward_edge_margin_m": 4.3181065333020154e-05,
+          "normal_alignment_cos": 0.9999998740970613,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.579999999999903,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14871185553787353,
+            0.008599142884929795,
+            -0.03249996538264217
+          ],
+          "signed_distance_outward_plane_m": -3.4617357917710034e-08,
+          "inward_edge_margin_m": 3.513287722726203e-05,
+          "normal_alignment_cos": 0.9999997606197131,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14871185553787353,
+            0.008599142884929795,
+            -0.03249996538264217
+          ],
+          "signed_distance_outward_plane_m": -3.4617357917710034e-08,
+          "inward_edge_margin_m": 3.513287722726203e-05,
+          "normal_alignment_cos": 0.9999997606197131,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.7249999999999,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1489857689280102,
+            -0.008541272400081984,
+            -0.03250539467189012
+          ],
+          "signed_distance_outward_plane_m": 5.394671890035507e-06,
+          "inward_edge_margin_m": 3.592114759737907e-05,
+          "normal_alignment_cos": 0.9999998923813964,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1489857689280102,
+            -0.008541272400081984,
+            -0.03250539467189012
+          ],
+          "signed_distance_outward_plane_m": 5.394671890035507e-06,
+          "inward_edge_margin_m": 3.592114759737907e-05,
+          "normal_alignment_cos": 0.9999998923813964,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 5.869999999999897,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0738418744253478,
+            -0.007728647337276217,
+            -0.022999964689333754
+          ],
+          "signed_distance_outward_plane_m": 3.531066637696423e-08,
+          "inward_edge_margin_m": 4.4996052185582814e-05,
+          "normal_alignment_cos": 0.9999998721447944,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0738418744253478,
+            -0.007728647337276217,
+            -0.022999964689333754
+          ],
+          "signed_distance_outward_plane_m": 3.531066637696423e-08,
+          "inward_edge_margin_m": 4.4996052185582814e-05,
+          "normal_alignment_cos": 0.9999998721447944,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.014999999999894,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07397906330306621,
+            0.00769955466988898,
+            -0.022996204476750815
+          ],
+          "signed_distance_outward_plane_m": 3.795523249316285e-06,
+          "inward_edge_margin_m": 4.5496948688106526e-05,
+          "normal_alignment_cos": 0.9999998182034697,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07397906330306621,
+            0.00769955466988898,
+            -0.022996204476750815
+          ],
+          "signed_distance_outward_plane_m": 3.795523249316285e-06,
+          "inward_edge_margin_m": 4.5496948688106526e-05,
+          "normal_alignment_cos": 0.9999998182034697,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.164999999999891,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14948314990681918,
+            0.008436575080251855,
+            -0.03249996542612288
+          ],
+          "signed_distance_outward_plane_m": -3.457387720562366e-08,
+          "inward_edge_margin_m": 3.697480716759405e-05,
+          "normal_alignment_cos": 0.9999998082792237,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14948314990681918,
+            0.008436575080251855,
+            -0.03249996542612288
+          ],
+          "signed_distance_outward_plane_m": -3.457387720562366e-08,
+          "inward_edge_margin_m": 3.697480716759405e-05,
+          "normal_alignment_cos": 0.9999998082792237,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.309999999999888,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14963195112381597,
+            -0.008405066118145038,
+            -0.032504996748166405
+          ],
+          "signed_distance_outward_plane_m": 4.99674816632073e-06,
+          "inward_edge_margin_m": 3.747282289288469e-05,
+          "normal_alignment_cos": 0.9999998759174424,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.14963195112381597,
+            -0.008405066118145038,
+            -0.032504996748166405
+          ],
+          "signed_distance_outward_plane_m": 4.99674816632073e-06,
+          "inward_edge_margin_m": 3.747282289288469e-05,
+          "normal_alignment_cos": 0.9999998759174424,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.454999999999885,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0743813657558452,
+            -0.0076149373088977654,
+            -0.022999964687017177
+          ],
+          "signed_distance_outward_plane_m": 3.531298295444962e-08,
+          "inward_edge_margin_m": 4.6284391584407396e-05,
+          "normal_alignment_cos": 0.9999998828759068,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0743813657558452,
+            -0.0076149373088977654,
+            -0.022999964687017177
+          ],
+          "signed_distance_outward_plane_m": 3.531298295444962e-08,
+          "inward_edge_margin_m": 4.6284391584407396e-05,
+          "normal_alignment_cos": 0.9999998828759068,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.5999999999998815,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07448629758497255,
+            0.007592630833983887,
+            -0.02299640422328613
+          ],
+          "signed_distance_outward_plane_m": 3.5957767140007424e-06,
+          "inward_edge_margin_m": 4.672070081618552e-05,
+          "normal_alignment_cos": 0.9999998067662051,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07448629758497255,
+            0.007592630833983887,
+            -0.02299640422328613
+          ],
+          "signed_distance_outward_plane_m": 3.5957767140007424e-06,
+          "inward_edge_margin_m": 4.672070081618552e-05,
+          "normal_alignment_cos": 0.9999998067662051,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.749999999999878,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15000801605434194,
+            0.008325947619728425,
+            -0.03249996545571156
+          ],
+          "signed_distance_outward_plane_m": -3.4544288526894285e-08,
+          "inward_edge_margin_m": 3.82282412786841e-05,
+          "normal_alignment_cos": 0.9999998269429293,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15000801605434194,
+            0.008325947619728425,
+            -0.03249996545571156
+          ],
+          "signed_distance_outward_plane_m": -3.4544288526894285e-08,
+          "inward_edge_margin_m": 3.82282412786841e-05,
+          "normal_alignment_cos": 0.9999998269429293,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 6.894999999999875,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15014097942515667,
+            -0.008297767076869503,
+            -0.03250469506392889
+          ],
+          "signed_distance_outward_plane_m": 4.695063928805698e-06,
+          "inward_edge_margin_m": 3.869799583641058e-05,
+          "normal_alignment_cos": 0.9999998622183727,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15014097942515667,
+            -0.008297767076869503,
+            -0.03250469506392889
+          ],
+          "signed_distance_outward_plane_m": 4.695063928805698e-06,
+          "inward_edge_margin_m": 3.869799583641058e-05,
+          "normal_alignment_cos": 0.9999998622183727,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.039999999999872,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07484451322256441,
+            -0.007517318480555369,
+            -0.022999964685028407
+          ],
+          "signed_distance_outward_plane_m": 3.531497172470921e-08,
+          "inward_edge_margin_m": 4.7390417010758754e-05,
+          "normal_alignment_cos": 0.9999998919847028,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07484451322256441,
+            -0.007517318480555369,
+            -0.022999964685028407
+          ],
+          "signed_distance_outward_plane_m": 3.531497172470921e-08,
+          "inward_edge_margin_m": 4.7390417010758754e-05,
+          "normal_alignment_cos": 0.9999998919847028,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.184999999999869,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07494501208725995,
+            0.007528005507955803,
+            -0.022996594901736514
+          ],
+          "signed_distance_outward_plane_m": 3.4050982636174565e-06,
+          "inward_edge_margin_m": 1.6430855452452643e-05,
+          "normal_alignment_cos": 0.9999997940087851,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07494501208725995,
+            0.007528005507955803,
+            -0.022996594901736514
+          ],
+          "signed_distance_outward_plane_m": 3.4050982636174565e-06,
+          "inward_edge_margin_m": 1.6430855452452643e-05,
+          "normal_alignment_cos": 0.9999997940087851,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.334999999999866,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15049847046052062,
+            0.008222573215198446,
+            -0.032499965483360434
+          ],
+          "signed_distance_outward_plane_m": -3.4516639650650216e-08,
+          "inward_edge_margin_m": 3.9399496627451524e-05,
+          "normal_alignment_cos": 0.9999998417914507,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15049847046052062,
+            0.008222573215198446,
+            -0.032499965483360434
+          ],
+          "signed_distance_outward_plane_m": -3.4516639650650216e-08,
+          "inward_edge_margin_m": 3.9399496627451524e-05,
+          "normal_alignment_cos": 0.9999998417914507,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.479999999999863,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15062835568381902,
+            -0.00819503397263658,
+            -0.03250445276738538
+          ],
+          "signed_distance_outward_plane_m": 4.452767385296208e-06,
+          "inward_edge_margin_m": 3.986923203192672e-05,
+          "normal_alignment_cos": 0.9999998508885942,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15062835568381902,
+            -0.00819503397263658,
+            -0.03250445276738538
+          ],
+          "signed_distance_outward_plane_m": 4.452767385296208e-06,
+          "inward_edge_margin_m": 3.986923203192672e-05,
+          "normal_alignment_cos": 0.9999998508885942,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.62499999999986,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07529899618877747,
+            -0.0074215258921222745,
+            -0.02299996468307709
+          ],
+          "signed_distance_outward_plane_m": 3.531692304228895e-08,
+          "inward_edge_margin_m": 4.847575106214715e-05,
+          "normal_alignment_cos": 0.9999999000617246,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07529899618877747,
+            -0.0074215258921222745,
+            -0.02299996468307709
+          ],
+          "signed_distance_outward_plane_m": 3.531692304228895e-08,
+          "inward_edge_margin_m": 4.847575106214715e-05,
+          "normal_alignment_cos": 0.9999999000617246,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.769999999999857,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07540095408147275,
+            0.007399828643242636,
+            -0.02299675420022587
+          ],
+          "signed_distance_outward_plane_m": 3.2457997742631195e-06,
+          "inward_edge_margin_m": 4.892218692199006e-05,
+          "normal_alignment_cos": 0.9999997851108461,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07540095408147275,
+            0.007399828643242636,
+            -0.02299675420022587
+          ],
+          "signed_distance_outward_plane_m": 3.2457997742631195e-06,
+          "inward_edge_margin_m": 4.892218692199006e-05,
+          "normal_alignment_cos": 0.9999997851108461,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 7.919999999999853,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15098568204689325,
+            0.008119882308588481,
+            -0.032499965510826324
+          ],
+          "signed_distance_outward_plane_m": -3.448917375997729e-08,
+          "inward_edge_margin_m": 4.0563007790355164e-05,
+          "normal_alignment_cos": 0.9999998541527978,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15098568204689325,
+            0.008119882308588481,
+            -0.032499965510826324
+          ],
+          "signed_distance_outward_plane_m": -3.448917375997729e-08,
+          "inward_edge_margin_m": 4.0563007790355164e-05,
+          "normal_alignment_cos": 0.9999998541527978,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.064999999999861,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15111565302698915,
+            -0.008092319500780022,
+            -0.03250420483879057
+          ],
+          "signed_distance_outward_plane_m": 4.204838790482224e-06,
+          "inward_edge_margin_m": 4.103832264616206e-05,
+          "normal_alignment_cos": 0.9999998383506056,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15111565302698915,
+            -0.008092319500780022,
+            -0.03250420483879057
+          ],
+          "signed_distance_outward_plane_m": 4.204838790482224e-06,
+          "inward_edge_margin_m": 4.103832264616206e-05,
+          "normal_alignment_cos": 0.9999998383506056,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.209999999999884,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07575790692908832,
+            -0.00732480004991867,
+            -0.022999964681106447
+          ],
+          "signed_distance_outward_plane_m": 3.531889368468821e-08,
+          "inward_edge_margin_m": 4.957165891801999e-05,
+          "normal_alignment_cos": 0.9999999074030621,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07575790692908832,
+            -0.00732480004991867,
+            -0.022999964681106447
+          ],
+          "signed_distance_outward_plane_m": 3.531889368468821e-08,
+          "inward_edge_margin_m": 4.957165891801999e-05,
+          "normal_alignment_cos": 0.9999999074030621,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.354999999999906,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07586175937538585,
+            0.007302698325614753,
+            -0.02299691490800777
+          ],
+          "signed_distance_outward_plane_m": 3.0850919923615383e-06,
+          "inward_edge_margin_m": 5.0027666031674786e-05,
+          "normal_alignment_cos": 0.9999997746493672,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07586175937538585,
+            0.007302698325614753,
+            -0.02299691490800777
+          ],
+          "signed_distance_outward_plane_m": 3.0850919923615383e-06,
+          "inward_edge_margin_m": 5.0027666031674786e-05,
+          "normal_alignment_cos": 0.9999997746493672,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.50499999999993,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1514760999515215,
+            0.008016515597589109,
+            -0.032499965538473057
+          ],
+          "signed_distance_outward_plane_m": -3.4461527027851435e-08,
+          "inward_edge_margin_m": 4.173417596979075e-05,
+          "normal_alignment_cos": 0.9999998638250426,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1514760999515215,
+            0.008016515597589109,
+            -0.032499965538473057
+          ],
+          "signed_distance_outward_plane_m": -3.4461527027851435e-08,
+          "inward_edge_margin_m": 4.173417596979075e-05,
+          "normal_alignment_cos": 0.9999998638250426,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.649999999999952,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15160649697767692,
+            -0.007988859052888226,
+            -0.032504029272642065
+          ],
+          "signed_distance_outward_plane_m": 4.029272641981052e-06,
+          "inward_edge_margin_m": 4.221436350160173e-05,
+          "normal_alignment_cos": 0.9999998300000614,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15160649697767692,
+            -0.007988859052888226,
+            -0.032504029272642065
+          ],
+          "signed_distance_outward_plane_m": 4.029272641981052e-06,
+          "inward_edge_margin_m": 4.221436350160173e-05,
+          "normal_alignment_cos": 0.9999998300000614,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.794999999999975,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07622230551373528,
+            -0.007226917520109592,
+            -0.022999964679112327
+          ],
+          "signed_distance_outward_plane_m": 3.5320887804835e-08,
+          "inward_edge_margin_m": 5.068067209315047e-05,
+          "normal_alignment_cos": 0.9999999138314425,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07622230551373528,
+            -0.007226917520109592,
+            -0.022999964679112327
+          ],
+          "signed_distance_outward_plane_m": 3.5320887804835e-08,
+          "inward_edge_margin_m": 5.068067209315047e-05,
+          "normal_alignment_cos": 0.9999999138314425,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 8.939999999999998,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07632725493346368,
+            0.007236543384383989,
+            -0.02299707511985379
+          ],
+          "signed_distance_outward_plane_m": 2.9248801463425955e-06,
+          "inward_edge_margin_m": 1.985225882527122e-05,
+          "normal_alignment_cos": 0.9999997627121172,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07632725493346368,
+            0.007236543384383989,
+            -0.02299707511985379
+          ],
+          "signed_distance_outward_plane_m": 2.9248801463425955e-06,
+          "inward_edge_margin_m": 1.985225882527122e-05,
+          "normal_alignment_cos": 0.9999997627121172,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.090000000000021,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15196943200079807,
+            0.00791253466442372,
+            -0.032499965566283824
+          ],
+          "signed_distance_outward_plane_m": -3.4433716260273695e-08,
+          "inward_edge_margin_m": 4.291230342500348e-05,
+          "normal_alignment_cos": 0.9999998737864519,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15196943200079807,
+            0.00791253466442372,
+            -0.032499965566283824
+          ],
+          "signed_distance_outward_plane_m": -3.4433716260273695e-08,
+          "inward_edge_margin_m": 4.291230342500348e-05,
+          "normal_alignment_cos": 0.9999998737864519,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.235000000000044,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15209990348170863,
+            -0.00788485946431006,
+            -0.032503832232390756
+          ],
+          "signed_distance_outward_plane_m": 3.832232390671431e-06,
+          "inward_edge_margin_m": 4.33955688765957e-05,
+          "normal_alignment_cos": 0.9999998196336481,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15209990348170863,
+            -0.00788485946431006,
+            -0.032503832232390756
+          ],
+          "signed_distance_outward_plane_m": 3.832232390671431e-06,
+          "inward_edge_margin_m": 4.33955688765957e-05,
+          "normal_alignment_cos": 0.9999998196336481,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.380000000000067,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0766902482368261,
+            -0.007128287982776623,
+            -0.02299996467710305
+          ],
+          "signed_distance_outward_plane_m": 3.532289708299552e-08,
+          "inward_edge_margin_m": 5.179814889477909e-05,
+          "normal_alignment_cos": 0.9999999200944417,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0766902482368261,
+            -0.007128287982776623,
+            -0.02299996467710305
+          ],
+          "signed_distance_outward_plane_m": 3.532289708299552e-08,
+          "inward_edge_margin_m": 5.179814889477909e-05,
+          "normal_alignment_cos": 0.9999999200944417,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.52500000000009,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07679634711899015,
+            0.0071057064101201,
+            -0.022997210231307186
+          ],
+          "signed_distance_outward_plane_m": 2.789768692945671e-06,
+          "inward_edge_margin_m": 5.2265747998510945e-05,
+          "normal_alignment_cos": 0.9999997546034785,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07679634711899015,
+            0.0071057064101201,
+            -0.022997210231307186
+          ],
+          "signed_distance_outward_plane_m": 2.789768692945671e-06,
+          "inward_edge_margin_m": 5.2265747998510945e-05,
+          "normal_alignment_cos": 0.9999997546034785,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.675000000000113,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15246386171020251,
+            0.007808322374458066,
+            -0.03249996559415657
+          ],
+          "signed_distance_outward_plane_m": -3.4405843514495604e-08,
+          "inward_edge_margin_m": 4.40930522050001e-05,
+          "normal_alignment_cos": 0.9999998836870537,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15246386171020251,
+            0.007808322374458066,
+            -0.03249996559415657
+          ],
+          "signed_distance_outward_plane_m": -3.4405843514495604e-08,
+          "inward_edge_margin_m": 4.40930522050001e-05,
+          "normal_alignment_cos": 0.9999998836870537,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.820000000000135,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15259406397595757,
+            -0.007780701674916199,
+            -0.03250364078572904
+          ],
+          "signed_distance_outward_plane_m": 3.640785728953322e-06,
+          "inward_edge_margin_m": 4.457787024017825e-05,
+          "normal_alignment_cos": 0.9999998090617069,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15259406397595757,
+            -0.007780701674916199,
+            -0.03250364078572904
+          ],
+          "signed_distance_outward_plane_m": 3.640785728953322e-06,
+          "inward_edge_margin_m": 4.457787024017825e-05,
+          "normal_alignment_cos": 0.9999998090617069,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 9.965000000000158,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0771596483236082,
+            -0.007029351273006695,
+            -0.02299996467508754
+          ],
+          "signed_distance_outward_plane_m": 3.5324912592282764e-08,
+          "inward_edge_margin_m": 5.291910597305064e-05,
+          "normal_alignment_cos": 0.999999926177771,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0771596483236082,
+            -0.007029351273006695,
+            -0.02299996467508754
+          ],
+          "signed_distance_outward_plane_m": 3.5324912592282764e-08,
+          "inward_edge_margin_m": 5.291910597305064e-05,
+          "normal_alignment_cos": 0.999999926177771,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 10.11000000000018,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07726607299295146,
+            0.007006699082858131,
+            -0.02299735289757748
+          ],
+          "signed_distance_outward_plane_m": 2.647102422651676e-06,
+          "inward_edge_margin_m": 5.33893925376451e-05,
+          "normal_alignment_cos": 0.9999997443029072,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07726607299295146,
+            0.007006699082858131,
+            -0.02299735289757748
+          ],
+          "signed_distance_outward_plane_m": 2.647102422651676e-06,
+          "inward_edge_margin_m": 5.33893925376451e-05,
+          "normal_alignment_cos": 0.9999997443029072,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 10.260000000000204,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1529577022091163,
+            0.007704234273984525,
+            -0.03249996562199625
+          ],
+          "signed_distance_outward_plane_m": -3.4378003832546966e-08,
+          "inward_edge_margin_m": 4.5272393890015225e-05,
+          "normal_alignment_cos": 0.999999891008103,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.1529577022091163,
+            0.007704234273984525,
+            -0.03249996562199625
+          ],
+          "signed_distance_outward_plane_m": -3.4378003832546966e-08,
+          "inward_edge_margin_m": 4.5272393890015225e-05,
+          "normal_alignment_cos": 0.999999891008103,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 10.405000000000227,
+      "side": "upper",
+      "classification": [
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15308723782629483,
+            -0.007676752346791419,
+            -0.032503443875423386
+          ],
+          "signed_distance_outward_plane_m": 3.4438754233021007e-06,
+          "inward_edge_margin_m": 4.57573223261387e-05,
+          "normal_alignment_cos": 0.9999997974036627,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "upper",
+          "owner_body": "head_roll",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.15308723782629483,
+            -0.007676752346791419,
+            -0.032503443875423386
+          ],
+          "signed_distance_outward_plane_m": 3.4438754233021007e-06,
+          "inward_edge_margin_m": 4.57573223261387e-05,
+          "normal_alignment_cos": 0.9999997974036627,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 10.55000000000025,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0776286335633732,
+            -0.006930502001650269,
+            -0.022999964673073657
+          ],
+          "signed_distance_outward_plane_m": 3.532692647439939e-08,
+          "inward_edge_margin_m": 5.4039072370511394e-05,
+          "normal_alignment_cos": 0.9999999322469202,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.0776286335633732,
+            -0.006930502001650269,
+            -0.022999964673073657
+          ],
+          "signed_distance_outward_plane_m": 3.532692647439939e-08,
+          "inward_edge_margin_m": 5.4039072370511394e-05,
+          "normal_alignment_cos": 0.9999999322469202,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    },
+    {
+      "pre_time_s": 10.695000000000272,
+      "side": "lower",
+      "classification": [
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07773463112695883,
+            0.006939791990275771,
+            -0.022997501601826616
+          ],
+          "signed_distance_outward_plane_m": 2.498398173515076e-06,
+          "inward_edge_margin_m": 2.3325701387762714e-05,
+          "normal_alignment_cos": 0.9999997318089181,
+          "plane_tolerance_m": 0.0005,
+          "edge_band_m": 0.0005,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        },
+        {
+          "side": "lower",
+          "owner_body": "beak_hinge",
+          "classification": "PAD_EDGE_BAND_AMBIGUOUS",
+          "geometry_verified_native_tpu_face": false,
+          "point_body_m": [
+            0.07773463112695883,
+            0.006939791990275771,
+            -0.022997501601826616
+          ],
+          "signed_distance_outward_plane_m": 2.498398173515076e-06,
+          "inward_edge_margin_m": 2.3325701387762714e-05,
+          "normal_alignment_cos": 0.9999997318089181,
+          "plane_tolerance_m": 0.0001,
+          "edge_band_m": 0.0001,
+          "scope": "working-face geometry only; not a friction/force/holding/numerical-validity pass"
+        }
+      ]
+    }
+  ],
+  "physics_integrations": 0,
+  "new_LP_runs": 0,
+  "new_forward_calls": 0,
+  "scope": "Saved binary models, exact prestate force logs, and pure native geometry classification only.",
+  "cart004_original37_mismatches": [],
+  "native_helper7_mismatches": [],
+  "native_helper_manifest_sha256": "eccaaf4319d72940ec068ba7f26a5e4fcf392da6a6ef9d96fec8592a3c02cd3a",
+  "attempt003_shaft_peak_by_phase_N": {
+    "approach": 11.454581853513401,
+    "close": 11.999325882111073
+  },
+  "attempt003_shaft_peak_times_s": {
+    "approach": 1.8049999999999835,
+    "close": 1.8999999999999815
+  },
+  "sample54_labels_identical_at_0p5_and_0p1mm": true,
+  "final_teacher_summary_sha256": "bdaae9b7cbf66247cd39dc3862c97b04fa71876d803fde83b7165919b62fa183",
+  "conclusion": {
+    "supported": "In this fixed-torso,gravity-biased Teacher/passivek20 spring fixture and simulated20kg free cargo+7.815kg cart, unchanged mouth provides5.18s bilateral retention and ordinary contact-mediated short pull. No magnetic/pose binding needed.",
+    "not_supported": [
+      "Maximum sustainable traction or payload",
+      "Stable no-slip material grip",
+      "8N sustained resistance",
+      "Free whole-robot backward/stop or20kg task qualification",
+      "TPUinterior-clamping force equal to whole-bill normal-force sum",
+      "Mouth hardware upgrade or groove requirement"
+    ],
+    "path_issue": "Current executed approach is demonstrably not collision-free: upper-bill/shaft contact before rod capture, followed by~20mm rod depression and~10.13mm cart push before bilateral capture. Initial clear pose and sampledIK alone cannot clear the path. This proves the executed route is deficient; it does not prove every reachable route is blocked or that mouth/shaft geometry must change.",
+    "counterfactual_limit": "Trials3/4 use same adaptive rules with different jaw intervention. Their worldpaths/state distributions differ, so do not subtract displacement to claim a pure fixed-trajectory hardware effect. Independent observed rod traction plus reduced/no lower contact in4 still provides useful local evidence.",
+    "minimum_next_question": "Keep mouth shape. First resolve the already observed shaft approach collision using the existing geometry full-path clearance check ordered byPM. If a clear ingress is available, test that bounded ingress/close/pull under matched declared fixture and retain the open-jaw comparison; only persistent geometry conflict or demonstrated grip-limited failure can motivate a specific hardware alteration.",
+    "timing": "Forces/contact midpoints and owner body transforms all come from exact same prestate before integration; native pad proxy surface points reconstructed using midpoint\u00b1signed_distance*normal/2. This corrects005poststate mismatch.",
+    "numerical_limit": "Trial3meaningful hold beak pin residual46.1um and penetration415.4um; release pin residual1.778mm is separately not qualified. Centre migration15.1mm is not integrated material tangential slip.",
+    "frozen_scope": "Original04 and004unchanged; scene explicitly adds localtorso weld,free20kg cargo,wheel frictionloss and passive spring. Gravitybias changes commanded target only within original torque-speed/350Wlimits; no online realqpos overwrite is found."
+  },
+  "independent_immutable_readback": [
+    {
+      "attempt": 1,
+      "compiled_robot_arrays": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "body_inertia": true,
+        "body_pos": true,
+        "body_quat": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_type": true,
+        "jnt_limited": true,
+        "dof_armature": true,
+        "dof_frictionloss": true,
+        "dof_damping": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "eq_type": true,
+        "eq_data": true
+      },
+      "original_source53_current_match": true
+    },
+    {
+      "attempt": 2,
+      "compiled_robot_arrays": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "body_inertia": true,
+        "body_pos": true,
+        "body_quat": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_type": true,
+        "jnt_limited": true,
+        "dof_armature": true,
+        "dof_frictionloss": true,
+        "dof_damping": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "eq_type": true,
+        "eq_data": true
+      },
+      "original_source53_current_match": true
+    },
+    {
+      "attempt": 3,
+      "compiled_robot_arrays": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "body_inertia": true,
+        "body_pos": true,
+        "body_quat": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_type": true,
+        "jnt_limited": true,
+        "dof_armature": true,
+        "dof_frictionloss": true,
+        "dof_damping": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "eq_type": true,
+        "eq_data": true
+      },
+      "original_source53_current_match": true
+    },
+    {
+      "attempt": 4,
+      "compiled_robot_arrays": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "body_inertia": true,
+        "body_pos": true,
+        "body_quat": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_type": true,
+        "jnt_limited": true,
+        "dof_armature": true,
+        "dof_frictionloss": true,
+        "dof_damping": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "eq_type": true,
+        "eq_data": true
+      },
+      "original_source53_current_match": true
+    }
+  ]
+}

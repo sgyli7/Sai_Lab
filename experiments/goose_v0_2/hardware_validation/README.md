@@ -45,7 +45,17 @@
 
 [试5原速MP4](analysis/cart_drag_probe_005/selected_videos/attempt_005_original_speed.mp4)、[未配平试2](analysis/cart_drag_probe_005/selected_videos/attempt_002_original_speed.mp4)和[只匹配试2的开嘴负3](analysis/cart_drag_probe_005/selected_videos/attempt_003_original_speed.mp4)合计280605B。负3不能反证配平试5。全部5视频、MJB、完整轨迹和逐步日志仍留ProjectBackups，由[原始索引](analysis/cart_drag_probe_005/raw_data_index.json)关联，未搬走或改写。
 
-[复现说明](analysis/cart_drag_probe_005/REPRODUCTION.md)包含5种原始harness、真实XML变体、cold_state及I/O路径派生的fresh源码；旧程序不能原地运行，fresh输出必须为新目录。这次仅哈希/AST/XML检查，未执行仿真、forward、LP或渲染。006在进行中，未纳入本提交；004静态接受及既有FAIL边界保持。
+[复现说明](analysis/cart_drag_probe_005/REPRODUCTION.md)包含5种原始harness、真实XML变体、cold_state及I/O路径派生的fresh源码；旧程序不能原地运行，fresh输出必须为新目录。这次仅哈希/AST/XML检查，未执行仿真、forward、LP或渲染。006四次动态现已单独归档，见下节；后续进场路径辅助与整机准备不在本次包内。004静态接受及既有FAIL边界保持。
+
+## 已关闭006：有限局部留嘴与牵引证据
+
+[006独立审核](analysis/cart_drag_probe_006/independent_review.md)支持有限的纯接触牵引与短时留嘴，嘴形保持，尚不能建立公平硬件升级结论。4/4次、6424步均为固定躯干台架；前两次近限位停止，3/4修正Teacher目标后头颈余量≥.498rad。试3后拉35.76mm、双侧接触保持5.18s、杆X力均约−6.024N，保持期间反向约1.9mm。**不是自由整机0.5m或20kg任务通过。**
+
+[试3原速视频](analysis/cart_drag_probe_006/selected_videos/attempt_003_original_speed.mp4)与[对应开嘴试4](analysis/cart_drag_probe_006/selected_videos/attempt_004_original_speed.mp4)合计148111B。二者同自适应规则但不是共同世界轨迹重放；负4仍移动约6.23mm，不能把差值全部归因硬件。进场1.025s上嘴先撞shaft，首次双侧捕获前已推车10.13mm；路径仍不干净，却也不能据此抹去后续实际传力。
+
+原生TPU分类多数落边带，不把整嘴Fn全算内部有效夹力，也不将边带判作无物理接触；中心迁移不是材料切向滑移积分。试3pull/hold闭环与侵入低于.5mm，release闭环仍1.778mm。轮轴反力换算约6.05N，8N只是名义上限。k20被动弹簧和gravitybias为声明夹具/控制假设，不是采购标定或硬件改动。
+
+[复现输入与边界](analysis/cart_drag_probe_006/REPRODUCTION.md)保留原85项producer索引、harness/声明/冷态/命令/场景和独立作者报告。大轨迹、MJB、逐步分类日志及全部4视频留Backups；本次只复制必要小源和代表视频。原04的53文件、004的37项以及005封存源不变。本次只有哈希/AST/XML检查，未执行动态或复现入口；raw006的ingress_geometry_review和full_body_readiness尚未收口，明确排除。
 
 ## 当前低把手候选：03/R4与碰撞004
 

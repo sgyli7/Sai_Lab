@@ -1,0 +1,462 @@
+{
+  "per_trial": [
+    {
+      "attempt": "attempt_001",
+      "compiled_robot_exact_checks": 831,
+      "source53_unchanged": true,
+      "actual_voltage_v": 22.2,
+      "caps_verified": true,
+      "max_torque18": [
+        0.006128905622427267,
+        2.7324150299202934,
+        2.236613994111483,
+        1.7219342519577254,
+        0.0012674472487474561,
+        0.6181788113266504,
+        0.029082141475203913,
+        0.19624724355919387,
+        0.031098574071502086,
+        0.1668866587344114,
+        0.14764550928325143,
+        0.13793829858968576,
+        0.02904366729099849,
+        0.19585721796849118,
+        0.031128823120476302,
+        0.1671513824477161,
+        0.14765193798643045,
+        0.13794952929373672
+      ],
+      "max_actual_drive_speed18": [
+        0.0008385238849808739,
+        0.8216393323841843,
+        1.7223392892713032,
+        4.7201495757940926,
+        0.010369226906681113,
+        0.3145000583876851,
+        0.08086615139696031,
+        0.11300098892415072,
+        0.021513091140812266,
+        0.019766376622943522,
+        0.019809849453805015,
+        0.49774980301959953,
+        0.08091238479880143,
+        0.11296833481559497,
+        0.021535043678271647,
+        0.019749975029314682,
+        0.019939741164995032,
+        0.4977914737721124
+      ],
+      "cap_saturation_duty18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "attempt": "attempt_002",
+      "compiled_robot_exact_checks": 831,
+      "source53_unchanged": true,
+      "actual_voltage_v": 22.2,
+      "caps_verified": true,
+      "max_torque18": [
+        0.007164784549085476,
+        2.7324150299202934,
+        2.236613994111483,
+        1.7219342519577254,
+        0.0012867590822781545,
+        0.11930674168477368,
+        0.029082141475203913,
+        0.1962352886367728,
+        0.031098574071502086,
+        0.1670834590863357,
+        0.1474707492186016,
+        0.13793829858968576,
+        0.02904366729099849,
+        0.1958515079195295,
+        0.031128823120476302,
+        0.1671498090744472,
+        0.1475322640548468,
+        0.13794952929373672
+      ],
+      "max_actual_drive_speed18": [
+        0.0009120688656846941,
+        0.8216393323841843,
+        1.7223392892713032,
+        4.7201495757940926,
+        0.007792316280962919,
+        0.08286742388190707,
+        0.08086615139696031,
+        0.11300098892415072,
+        0.021513091140812266,
+        0.019766376622943522,
+        0.019809849453805015,
+        0.49774980301959953,
+        0.08091238479880143,
+        0.11296833481559497,
+        0.021535043678271647,
+        0.019749975029314682,
+        0.019939741164995032,
+        0.4977914737721124
+      ],
+      "cap_saturation_duty18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "attempt": "attempt_003",
+      "compiled_robot_exact_checks": 831,
+      "source53_unchanged": true,
+      "actual_voltage_v": 22.2,
+      "caps_verified": true,
+      "max_torque18": [
+        0.05046516147626187,
+        3.86270166823797,
+        3.465388707858593,
+        1.0026437069734886,
+        0.013006695425141015,
+        1.4417420388211692,
+        0.029224281821183345,
+        0.19786126691179287,
+        0.052575725804197455,
+        0.17038628392861976,
+        0.17501411965847968,
+        0.13876164742188737,
+        0.029183651882568707,
+        0.19742866243932924,
+        0.05258624475956147,
+        0.17046504130908316,
+        0.1750963407868829,
+        0.13878658679055123
+      ],
+      "max_actual_drive_speed18": [
+        0.03625138591130734,
+        0.3077444490964703,
+        0.8807704764021783,
+        0.9592923016033761,
+        0.3018991116003918,
+        1.4156990627280308,
+        0.08223890131743526,
+        0.1128854617454151,
+        0.021799412202511137,
+        0.019700519346365283,
+        0.024255254503845247,
+        0.5007523354870984,
+        0.08230078405557517,
+        0.1128503276131006,
+        0.02182819642664785,
+        0.019678509948316186,
+        0.024430131477711007,
+        0.5008437696307625
+      ],
+      "cap_saturation_duty18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "attempt": "attempt_004",
+      "compiled_robot_exact_checks": 831,
+      "source53_unchanged": true,
+      "actual_voltage_v": 22.2,
+      "caps_verified": true,
+      "max_torque18": [
+        0.019337188362234733,
+        3.7109613620610924,
+        3.5026070433972607,
+        1.0026437069734886,
+        0.024338967435491878,
+        0.11803461429975388,
+        0.029224281821183345,
+        0.19796482528489004,
+        0.05244799706002581,
+        0.170065952616459,
+        0.17547703874724782,
+        0.13876164742188737,
+        0.029183651882568707,
+        0.19734717418108275,
+        0.052461804502829404,
+        0.17010300360027653,
+        0.17546351946414668,
+        0.13878658679055123
+      ],
+      "max_actual_drive_speed18": [
+        0.01580568385622023,
+        0.30771082522385906,
+        0.8961570744456329,
+        0.9563148214474182,
+        0.5093742153860027,
+        0.07142485274372277,
+        0.08223890131743526,
+        0.1128854617454151,
+        0.021799412202511137,
+        0.019700519346365283,
+        0.024255254503845247,
+        0.5007523354870984,
+        0.08230078405557517,
+        0.1128503276131006,
+        0.02182819642664785,
+        0.019678509948316186,
+        0.024430131477711007,
+        0.5008437696307625
+      ],
+      "cap_saturation_duty18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "cart004_37_manifest": [
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/README.md",
+      "expected": "175c79278c9b9f72c8b949630b4e893f237944b707c6d97cd68556d057077987",
+      "actual": "175c79278c9b9f72c8b949630b4e893f237944b707c6d97cd68556d057077987"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/body_mass_map.json",
+      "expected": "b62ea09bf49ef50eba868bd5a319866cc7e8aff6c83a356d7f278dc27f208e9c",
+      "actual": "b62ea09bf49ef50eba868bd5a319866cc7e8aff6c83a356d7f278dc27f208e9c"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/cart.xml",
+      "expected": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd",
+      "actual": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/cart_collision.glb",
+      "expected": "33e20f12e5d7f683ebe52c6a5a50a07b004d608353cc4de000327078c1cb07e3",
+      "actual": "33e20f12e5d7f683ebe52c6a5a50a07b004d608353cc4de000327078c1cb07e3"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/collision_source_map.json",
+      "expected": "a3b68cbd5a88ae1ba75eb2a4283c7e1e6916cc4a48f758ecbebc3acdb96d0451",
+      "actual": "a3b68cbd5a88ae1ba75eb2a4283c7e1e6916cc4a48f758ecbebc3acdb96d0451"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/goose_cart_scene.xml",
+      "expected": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c",
+      "actual": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/initial_state.json",
+      "expected": "7f2e982548e349ebb8ed6cd9661c380d8e76f8a9d843c4955d4200f4798af21e",
+      "actual": "7f2e982548e349ebb8ed6cd9661c380d8e76f8a9d843c4955d4200f4798af21e"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj",
+      "expected": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8",
+      "actual": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj",
+      "expected": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e",
+      "actual": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj",
+      "expected": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833",
+      "actual": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj",
+      "expected": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532",
+      "actual": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj",
+      "expected": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688",
+      "actual": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj",
+      "expected": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1",
+      "actual": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_identity.json",
+      "expected": "3c1944239169a26a7bb6efe3fa3d1db4dc941607159d6868441ab3248cd78f1b",
+      "actual": "3c1944239169a26a7bb6efe3fa3d1db4dc941607159d6868441ab3248cd78f1b"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/connection_screen.json",
+      "expected": "ac65a1aa3e1d7b4c903477f53c38052132ba8d2d1a44564e61d4972b5f622045",
+      "actual": "ac65a1aa3e1d7b4c903477f53c38052132ba8d2d1a44564e61d4972b5f622045"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/geometry_mass_screen.json",
+      "expected": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+      "actual": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/goose_cart_context.json",
+      "expected": "93d457d9283f648b84b1f1fa7f053f594fd98d6c61bfc71bcfd16f667018c60a",
+      "actual": "93d457d9283f648b84b1f1fa7f053f594fd98d6c61bfc71bcfd16f667018c60a"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/local_mouth_clearance.json",
+      "expected": "ef138c4c07c32799e215c4030edf9541dc5669c5257bf4813fa93f95f5740eb4",
+      "actual": "ef138c4c07c32799e215c4030edf9541dc5669c5257bf4813fa93f95f5740eb4"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/locked_geometry_identity.json",
+      "expected": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129",
+      "actual": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/parameters.json",
+      "expected": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3",
+      "actual": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/pitch_subset_metadata_correction.json",
+      "expected": "1d17c8f12a42d81a4b6dbac9a4903bf9c4143c8f28e3ab7b8732e130fa254c19",
+      "actual": "1d17c8f12a42d81a4b6dbac9a4903bf9c4143c8f28e3ab7b8732e130fa254c19"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_fk_state.npz",
+      "expected": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656",
+      "actual": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_pose_input.json",
+      "expected": "be6cbfa922c7c58f92ceedfdbb00a96c469d6c53fa75e0764a9f6574e9364297",
+      "actual": "be6cbfa922c7c58f92ceedfdbb00a96c469d6c53fa75e0764a9f6574e9364297"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/tote_clearance.json",
+      "expected": "cb2781373cf0d010f25adcdd6281eb5de90b61915a6c37100c7ea439de446860",
+      "actual": "cb2781373cf0d010f25adcdd6281eb5de90b61915a6c37100c7ea439de446860"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/README.md",
+      "expected": "16a00fd66192ef114bde09edf715b0e8b3443dd118a16023661ae775a78043f1",
+      "actual": "16a00fd66192ef114bde09edf715b0e8b3443dd118a16023661ae775a78043f1"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/build_collision.py",
+      "expected": "e15ce9e986b85d0d4e5a2b15227934d9ca228ce817b498c8ba449ee99be7ca68",
+      "actual": "e15ce9e986b85d0d4e5a2b15227934d9ca228ce817b498c8ba449ee99be7ca68"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/cart_collision.png",
+      "expected": "e0540242261b8ff15def94ec8724a9e68c8d60b7d2f17c047a03ff1de643420d",
+      "actual": "e0540242261b8ff15def94ec8724a9e68c8d60b7d2f17c047a03ff1de643420d"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/coupled_static_load.json",
+      "expected": "dfa8323f3d1abe976f2cec535b5a5c053e2934b5bf4171cd7797e44d72df2122",
+      "actual": "dfa8323f3d1abe976f2cec535b5a5c053e2934b5bf4171cd7797e44d72df2122"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/coupled_static_load.py",
+      "expected": "63f8900798e020b7871f4e978250a199fd389d29239bff8520834eaaf5771f32",
+      "actual": "63f8900798e020b7871f4e978250a199fd389d29239bff8520834eaaf5771f32"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/earlier_collision_immutability.json",
+      "expected": "8ae9f8efd2e43197a72feb6279008625c047d3dbcd3b2dd5f76c14d303ea834b",
+      "actual": "8ae9f8efd2e43197a72feb6279008625c047d3dbcd3b2dd5f76c14d303ea834b"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/functional_checks.json",
+      "expected": "ce39711e62a3cc89fe7da07551d5b2099e6e2177a6db36c6745ebae3b5d628bb",
+      "actual": "ce39711e62a3cc89fe7da07551d5b2099e6e2177a6db36c6745ebae3b5d628bb"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/goose_cart_collision.png",
+      "expected": "6c8b08cf84b840cdfbf8938e1db25e7216f484eb3f57ee4110cfcbd97bc36f5e",
+      "actual": "6c8b08cf84b840cdfbf8938e1db25e7216f484eb3f57ee4110cfcbd97bc36f5e"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/loaded_collision_stats.json",
+      "expected": "fd8d0e8c77ed8f62feffd9db89f5709f5a32f71e05f37492fa6589c8d9250c5e",
+      "actual": "fd8d0e8c77ed8f62feffd9db89f5709f5a32f71e05f37492fa6589c8d9250c5e"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/mci_and_plate_gap_checks.json",
+      "expected": "2c7c4726a12af38b1669b62584cb0add1246395868b0d2596ef1570478490142",
+      "actual": "2c7c4726a12af38b1669b62584cb0add1246395868b0d2596ef1570478490142"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/metadata_correction_chain.json",
+      "expected": "5f818586952aae2b0fabf69984d8d39bfe4f079b53dd15862fdeea6141a8fde4",
+      "actual": "5f818586952aae2b0fabf69984d8d39bfe4f079b53dd15862fdeea6141a8fde4"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/resource_receipt.json",
+      "expected": "4e05d7b5a4f872e9c598481b54504b3213ac7219951c97d0be668c34fe86de43",
+      "actual": "4e05d7b5a4f872e9c598481b54504b3213ac7219951c97d0be668c34fe86de43"
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/source_input_immutability.json",
+      "expected": "18a672031311554122459b91a74f1d3bba26cf703edc1d4ee02e681858bc3785",
+      "actual": "18a672031311554122459b91a74f1d3bba26cf703edc1d4ee02e681858bc3785"
+    }
+  ],
+  "all_cart00437_match": true,
+  "order006_sha256": "f2000e352fd38e0a761825db212a4e5a7015180fc977d7449e7eb9b56bc8e6a0",
+  "zero_new_integration_in_this_verifier": true
+}

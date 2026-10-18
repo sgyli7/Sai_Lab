@@ -1,0 +1,18 @@
+{
+  "status": "LIMITED_LOCAL_CONTACT_EVIDENCE_NOT_WHOLE_ROBOT_OR_MOUTH_UPGRADE",
+  "dynamic_attempts": 4,
+  "producer_physics_steps": 6424,
+  "mouth_hardware": "KEEP_CURRENT",
+  "trial3_pull_mm": 35.761692450947734,
+  "trial3_bilateral_hold_s": 5.18,
+  "trial3_mean_world_X_tow_force_N": -6.024,
+  "not_0p5m_or20kg_whole_robot_pass": true,
+  "causal_limits": [
+    "Upper-bill/shaft approach contact1.025s; cart pre-pushed10.13mm before bilateral capture.",
+    "Matched4 uses adaptive endogenous path; difference not purehardware effect.",
+    "Native pad evidence mostly edge-band, not proven interior TPUload; center migration is not material tangential slip.",
+    "Trial3 pull/hold pin/penetration below.5mm; release pin1.778mm remains limitation."
+  ],
+  "hardware_or_04_004_change": false,
+  "new_integrator_simulation_calls": 0
+}

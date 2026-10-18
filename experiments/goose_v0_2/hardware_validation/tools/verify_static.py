@@ -245,7 +245,7 @@ def main(check_originals):
         for dep in reproduction["mesh_dependencies"].values():
             if sha(inside(root, dep["package_path"])) != dep["sha256"]:
                 failures.append("Closed probe mesh dependency changed")
-        closed_checks.append(dict(id=item["id"],exact_copies=len(rows),raw_indexed_records=54,decision=item["decision"],historical_steps=item["producer_physics_steps"],new_integrator_steps=0))
+        closed_checks.append(dict(id=item["id"],exact_copies=len(rows),raw_indexed_records=item.get("producer_manifest_entries", 54),decision=item["decision"],historical_steps=item["producer_physics_steps"],new_integrator_steps=0))
     # Parse only. Importing these archived files could execute old orders.
     python_files = list(root.rglob("*.py"))
     for source in python_files:

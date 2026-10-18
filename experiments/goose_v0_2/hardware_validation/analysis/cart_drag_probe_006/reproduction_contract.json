@@ -1,0 +1,165 @@
+{
+  "variants": [
+    {
+      "attempt": 1,
+      "harness": "run.py",
+      "negative_open_jaw": false,
+      "plan": "planning_gate_attempts_001_002.json",
+      "scope": "local fixed torso, original drive",
+      "steps": 804
+    },
+    {
+      "attempt": 2,
+      "harness": "run.py",
+      "negative_open_jaw": true,
+      "plan": "planning_gate_attempts_001_002.json",
+      "scope": "local fixed torso, original drive",
+      "steps": 820
+    },
+    {
+      "attempt": 3,
+      "harness": "run_gravity_target.py",
+      "negative_open_jaw": false,
+      "plan": "planning_gate.json",
+      "scope": "local fixed torso, original drive",
+      "steps": 2400
+    },
+    {
+      "attempt": 4,
+      "harness": "run_gravity_target.py",
+      "negative_open_jaw": true,
+      "plan": "planning_gate.json",
+      "scope": "local fixed torso, original drive",
+      "steps": 2400
+    }
+  ],
+  "mesh_dependencies": {
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/torso_central_keel.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_actual_sole.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_actual_sole.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj",
+      "sha256": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj",
+      "sha256": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj",
+      "sha256": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj",
+      "sha256": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj",
+      "sha256": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj",
+      "sha256": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532"
+    }
+  },
+  "frozen04": "inputs/physics_v0_2_20261018_04",
+  "cart004": "assets/low_profile_stock_cart_03",
+  "source_snapshot": "analysis/cart_drag_probe_006/source_snapshot",
+  "selected_videos": [
+    {
+      "attempt": 3,
+      "path": "analysis/cart_drag_probe_006/selected_videos/attempt_003_original_speed.mp4",
+      "bytes": 78159,
+      "sha256": "4e6c27c44969055ff2aa2f900332dddbd5746ad76c54536bb93ad7c710cb49dd"
+    },
+    {
+      "attempt": 4,
+      "path": "analysis/cart_drag_probe_006/selected_videos/attempt_004_original_speed.mp4",
+      "bytes": 69952,
+      "sha256": "da2df53d63d8c4115cb4db2c13e519d8f6fd27116b4e4477ea0e024e122156f8"
+    }
+  ],
+  "negative_controls": {
+    "2": 1,
+    "4": 3
+  },
+  "countercheck_limit": "Same adaptive rules and initial conditions, not identical exogenous world trajectory.",
+  "all4_raw_videos": [
+    {
+      "attempt": 1,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_001/continuous_original_speed.mp4",
+      "sha256": "be331e777a63910c8955bb10c62e8be3875fa6f0c60ce061be4d825043405920"
+    },
+    {
+      "attempt": 2,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_002/continuous_original_speed.mp4",
+      "sha256": "96deb2ce78e15676daf8e3b2f1c3acf4371e27bfeaaad9585925d901a015f6f8"
+    },
+    {
+      "attempt": 3,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_003/continuous_original_speed.mp4",
+      "sha256": "4e6c27c44969055ff2aa2f900332dddbd5746ad76c54536bb93ad7c710cb49dd"
+    },
+    {
+      "attempt": 4,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/attempt_004/continuous_original_speed.mp4",
+      "sha256": "da2df53d63d8c4115cb4db2c13e519d8f6fd27116b4e4477ea0e024e122156f8"
+    }
+  ],
+  "original_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006",
+  "fresh_preparer": "analysis/cart_drag_probe_006/reproduction/prepare_fresh_run.py",
+  "preparer_executed": false
+}

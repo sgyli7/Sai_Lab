@@ -110,6 +110,22 @@
       "producer_physics_steps": 11508,
       "free_root_or_20kg_whole_robot_qualification": false,
       "includes006": false
+    },
+    {
+      "id": "cart_drag_probe_006",
+      "entry": "analysis/cart_drag_probe_006",
+      "copy_manifest": "analysis/cart_drag_probe_006/archive_copy_manifest.json",
+      "copy_manifest_sha256": "8f211d1951fb8a3e8884bbbb197550fe9b75b801833d300197110fad23d81149",
+      "producer_manifest": "analysis/cart_drag_probe_006/artifact_manifest.json",
+      "producer_manifest_sha256": "0b1d26b08ba2a08d8c78e23de2ef71a824f07c9e7321b1e2bf0dcce331cffc72",
+      "producer_manifest_entries": 85,
+      "independent_review": "analysis/cart_drag_probe_006/independent_review.json",
+      "independent_review_sha256": "361fe197ccacf2b31f788ef35507be090844fd538da9bd8d816ef576e36d2925",
+      "decision": "FINITE_LOCAL_CONTACT_EVIDENCE_NOT_WHOLE_ROBOT_OR_HARDWARE_UPGRADE",
+      "attempts": 4,
+      "producer_physics_steps": 6424,
+      "free_root_or_20kg_whole_robot_qualification": false,
+      "unclosed_ingress_and_readiness_excluded": true
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "attempt": 2,
+  "negative": true,
+  "actual_steps": 820,
+  "sim_time": 4.099999999999935,
+  "error": null,
+  "failure": "invalid_head_neck_limit_margin_under0p10",
+  "ever_bilateral": false,
+  "first_rod_contact": {
+    "time": 0.025,
+    "phase": "open"
+  },
+  "pull_hold_min_limit_margin": 0.09968960831627283,
+  "max_ik_error": 4.081399095762778e-07,
+  "max_power_W": 5.929756651042908,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 2848416,
+  "source53_unchanged": true,
+  "physics_GPU": 0,
+  "training": 0,
+  "scope": "LOCAL_FIXED_TORSO"
+}
