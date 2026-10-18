@@ -1,0 +1,47 @@
+{
+  "schema": "pi05_mobile_archive_v5_independent_audit_CPU_preparation_v1",
+  "status": "ready_for_root_review_only",
+  "utc": "2026-10-17T01:00:27.155837+00:00",
+  "source": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5.py",
+  "source_sha256": "1690d532d6a116c3d0694d121fbc902d044cff4a80f06047f0e28f3c3fc65ff0",
+  "source_lines": 133,
+  "test_sha256": "aedb88d9bc38fc90c0953053917061260f454c591271ee94c5b5405fddea9965",
+  "tests": {
+    "run": 7,
+    "passed": 7,
+    "scope": "Newtinytemporaryarchives only; no actual130GBsource/archive scan",
+    "cases": [
+      "gzip/copy/shared-inodelink fullstored/logicalSHA andsameinodecache",
+      "storedgzip/plain damage",
+      "escape/duplicate/symlink/fileancestor",
+      "size/closure/gzipflatname/header-mtime damage",
+      "UID0 cannotbehardlink",
+      "syntheticfinal3x20+paired400 linkedtoarchivedtraining/model only lightweightfields",
+      "reportfresh/outsidearchive/not-overwritten"
+    ]
+  },
+  "guarantees": "Allinventoryrows safe/canonical/storedunique/logicalunique; allstoredSHA+size; boundedgziplogicalSHA+size; emptyfilename/mtime0metadata; originalrequired/inputbindingslogicalSHA; originalretainedplan semanticequalnormalizedcopy; hardlinkactualinode/device/UID/immutablewithsharedcopywarning; statbefore/afterandfinalboundary",
+  "CLI": [
+    "python",
+    "-m",
+    "experiments.pi05_g1_mobile.audit_archive_v5",
+    "--archive",
+    "ABS_FINAL_V5_ARCHIVE",
+    "--output",
+    "ABS_NEW_OUTSIDE_REPORT.json"
+  ],
+  "result_schema": "pi05_g1_mobile_archive_independent_audit_v5",
+  "success_status": "passed",
+  "failure_status": "failed",
+  "limitations": [
+    "ActualfullpayloadSHAisIO-heavy; sameinode stable-statcache avoidsduplicatephysicalreads but no logicalhash shortcut forcompressedtext",
+    "No originalsource pathsopened/statchecked; storedsameinodeverifiedagainstrecordedsource metadata; sharedhardlinksarenotindependentbackup",
+    "Archive final3x20/400 fieldsarecheckedonly; no physicalacceptancerecomputation or newtaskscore",
+    "Pointintime stat+byteaudit; no lock againstlaterexternalchanges",
+    "Invalid/insidearchive/existingoutputpath isrejectedwithoutwritingthere; safeoutputsreceivefreshtypedfailedreport on auditerror",
+    "No actualarchive audit authorized or executed here; Root mustreview sourcebeforeactualrun"
+  ],
+  "old_archive_v5_source_SHA_unchanged": "bf382d0bbfccc29547a248777a89aa64086f0f5404060f87ab65847e4e56d098",
+  "actual_archive_or_restore_or_preflight_used": false,
+  "GPU_queue_Docker_model_loading_testdata_used": false
+}

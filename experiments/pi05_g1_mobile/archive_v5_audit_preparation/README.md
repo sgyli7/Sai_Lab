@@ -1,0 +1,13 @@
+# Independent V5 audit candidate
+
+Source SHA256 `1690d532d6a116c3d0694d121fbc902d044cff4a80f06047f0e28f3c3fc65ff0` (133 lines),7syntheticCPUtests passed. OldV5 archiverremains`bf382d0bbfccc29547a248777a89aa64086f0f5404060f87ab65847e4e56d098`. Noactualarchive/sourcepayloadscan wasperformed.
+
+```bash
+python -m experiments.pi05_g1_mobile.audit_archive_v5 --archive /ABS/ROOT_REVIEWED_COMPLETE_V5_ARCHIVE --output /ABS/FRESH_REPORT_OUTSIDE_ARCHIVE.json
+```
+
+Receipt schema `pi05_g1_mobile_archive_independent_audit_v5`, statuspassed/failed. StoredgzipSHA andoriginaldecompressedSHA remainseparate. Requiredclosure/inputbindings matchsource_path/resolvedpath tooriginal logicalSHA. The originalretainedplan mustparseequalnormalizedarchive_plan.json. Everycopy/hardlinkfilebyteSHA isstreamed; gzipbounds capoutput byrecordedoriginalsize. Metadata/streamstatscheckedbefore/afterandatfinalboundary. Cachekeyincludesdevice,inode,size,mtime,ctime,uid,gid,mode,nlink,blocks. Hardlinks requireactualsameinodeasrecordedsource, samecurrentnonrootUID anddeclaredimmutable; thisissharedinode, notindependentbackup.
+
+Final3x20benchmark andpaired400offline data usearchivedJSONlightfields only. Offlinecompletedreport mustbindarchivedtrainingresultSHA andselectedmodelSHA; thisdoesnotrecomputephysicalaudit orreselectmodel.
+
+Onlyfreshoutsideoutputreport iswritten. Invalidoutputpathneverwritten; ordinaryauditfailurewritestypedfailedreport. Rootmustseparatelyapproveactualfullarchiveaudit, whichwillstreamlargepayloads anddecompresslogs withCPU/IOcost.

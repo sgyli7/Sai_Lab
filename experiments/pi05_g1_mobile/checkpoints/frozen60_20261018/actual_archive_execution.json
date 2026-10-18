@@ -1,0 +1,57 @@
+{
+  "schema": "pi05_mobile_actual_original_V5_archive_outer_execution_v1",
+  "status": "completed_command",
+  "authorization": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_archive_admission01.json",
+    "sha256": "273b2f13f11dca7acc4eb3630962c265ac3e535dc58589d892900afa93124a62"
+  },
+  "actual_argv": [
+    "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/venv/bin/python",
+    "-m",
+    "experiments.pi05_g1_mobile.archive_mobile_v5",
+    "--plan",
+    "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final_archive_actual60_ROOT_APPROVED01.json",
+    "--output",
+    "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+    "--phase",
+    "final"
+  ],
+  "cwd": "/home/ethan/Projects/Sai_Lab",
+  "environment_whitelist": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "NVIDIA_VISIBLE_DEVICES": "void",
+    "JAX_PLATFORMS": "cpu",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "/home/ethan/Projects/Sai_Lab"
+  },
+  "started_utc": "2026-10-18T04:54:36.622057+00:00",
+  "no_retry": true,
+  "source_writes": false,
+  "GPU_started": false,
+  "quiet_age_at_launch_seconds": 181.558425,
+  "producer_pid": 2260572,
+  "producer_startticks": "48406657",
+  "returncode": 0,
+  "ended_utc": "2026-10-18T05:01:41.961878+00:00",
+  "actual_archive_stdout01.txt": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_archive_stdout01.txt",
+    "sha256": "587ca5176a792759ebff9258e1a3e0e7db0e338301deaaa7ad31699b7663a2bc",
+    "bytes": 119
+  },
+  "actual_archive_stderr01.txt": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_archive_stderr01.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "archive_output": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+  "small_completion_candidates": {
+    "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z/archive_receipt.json": {
+      "sha256": "773e0ea5260a1aa1db6d52e5ea1c42e689d1d981c393bc1444ef2b3f894bdfdf",
+      "bytes": 3473299
+    },
+    "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z/archive_plan.json": {
+      "sha256": "f6dfd66bd0b88f6075e478076553e5971b3536db49793dd0d664ba9cd83dbc9b",
+      "bytes": 432890
+    }
+  }
+}

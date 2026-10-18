@@ -1,0 +1,61 @@
+{
+  "schema": "pi05_mobile_archive_v5_synthetic_preparation_v1",
+  "status": "candidate_not_adopted",
+  "utc": "2026-10-17T00:45:27.911671+00:00",
+  "source": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile_v5.py",
+  "source_sha256": "bf382d0bbfccc29547a248777a89aa64086f0f5404060f87ab65847e4e56d098",
+  "v4_source_sha256_preserved": "1eda0596309ce5d0d2a50bab4ab1291ed18e11e305e562e08849d3a193de9b30",
+  "tests_sha256": "0d294d00374e1a88b5c55f65ce812c8b18d27f5b46188e91d49424b566cd9505",
+  "tests": {
+    "run": 8,
+    "passed": 8,
+    "fixtures": "Temporary tiny synthetic text/media/model byte strings; noactualarchive/preflight",
+    "scope": [
+      "ASTsamev4readiness/closure/enumeration/immutablefunctions+24GiBfloor",
+      "gzip deterministic level6mtime0 plus header/footer everywrite FloorWriter",
+      "originalfoo.json.gz and nestedfoo.json.gz/directory collision separated",
+      "roundtrip logicalSHA+size and closure mappings",
+      "sameUID immutablepayload hardlink andUIDmismatch independentcopy",
+      "textsymlink copieduncompressed withresolvedprovenance",
+      "changedsource strictctime/nlinkstat rejection andtypedpartialretain",
+      "capacityfailure retainallstaging typedpartial",
+      "restore escape/duplicate/symlink/zipbomb/nooverwrite refusal"
+    ]
+  },
+  "policy": {
+    "adopted": false,
+    "actual_final_archive_requires": "plan.text_gzip_decision path/SHA; schema pi05_g1_mobile_archive_text_gzip_v5_decision_v1, root_reviewed/adoptedtrue, exacttoolSHA, reserve_bytes25769803776",
+    "new_decision_written": false
+  },
+  "storage_rules": {
+    "text_suffixes": [
+      ".json",
+      ".jsonl",
+      ".log",
+      ".txt",
+      ".md",
+      ".csv"
+    ],
+    "minimum_original_bytes": 65536,
+    "gzip_level": 6,
+    "gzip_mtime": 0,
+    "stored_path": "text_gzip/<SHA256(complete logical relativepath)>.gz",
+    "logical_path": "retained/<v4 target>",
+    "all_other_payloads": "v4plaincopy/hardlink rules; media stilldirectlyplayable",
+    "source_strict_stat": "Only compressedtext:device/inode/size/mtime/uid/gid/mode/nlink/ctime before/after; v4hardlinkedpayloads only originalv4stablefields",
+    "capacity": "No assumedratio; upfrontmandatoryplaincopy24GiB+typedreceiptcontrolreserve; everycompressedheader/body/footer/flush checks24GiB+remainingmandatoryplaincopies. Perchunkplaincopies/metadatawritesalso guarded. No partial/stagingdeletion."
+  },
+  "inventory": "Originalsource/logicalpath/bytes/SHA plus actualstoredpath/bytes/SHA andstreamedroundtriporiginalSHA; requiredclosuremapsoriginalSHA",
+  "restore": "Freshnonoverlappingrootonly; rejectduplicate/escape/symlink/fileancestorconflicts; boundexpandedbytesperoriginal; storedgzipSHAthen originalsize/SHA, allmediarestoredasindependentcopy",
+  "limitations": [
+    "Noactualcompressionratio/capacitygain measured forformaldata; no guarantee actualarchive fits",
+    "Diskfree checks pointintime; externalwrites canrace floor. Perwritechecks cannotlock wholefilesystem.",
+    "Typedpartial persistence uses reservedcontrolspace andfinallyattempt; hardwarefailure/SIGKILL/externaldiskexhaustion may prevent finalJSON, stderr fallback preservesdiagnostic while originalerror retained.",
+    "Reads may update sourceatime accordingtofilesystem; noexplicit sourcewrite/chmod/utime/delete/rename performed.",
+    "SameUIDpermanentimmutablehardlink remains sharedinode asv4; UID0/nonmatchingcopy remains independent.",
+    "OldV4 consumers mustnotinterpret gzipSHA aslogicalSHA; V5restoreutility reconstructslogicalpaths explicitly."
+  ],
+  "actual_archive_or_preflight_executed": false,
+  "GPU_queue_Docker_used": false,
+  "old_frozen_sources_modified": false
+}

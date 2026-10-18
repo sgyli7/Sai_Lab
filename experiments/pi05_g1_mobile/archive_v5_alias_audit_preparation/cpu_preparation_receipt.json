@@ -1,0 +1,35 @@
+{
+  "schema": "pi05_mobile_archive_aliases_v2_CPU_preparation_v1",
+  "status": "ready_for_root_review_only",
+  "utc": "2026-10-17T01:04:01.698799+00:00",
+  "source": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py",
+  "source_sha256": "81c20e52fe258ace20385d5e7d643a003558e32174d44f8be1d8cfdee0b2f782",
+  "source_lines": 163,
+  "v1_sha256_unchanged": "1690d532d6a116c3d0694d121fbc902d044cff4a80f06047f0e28f3c3fc65ff0",
+  "test_sha256": "870996d0bda15155be8b84b943bb5b1214faf4f50d51b8c64d131348726daff5",
+  "tests": {
+    "run": 5,
+    "passed": 5,
+    "scope": "Newtinytemporaryarchives only; all originalalias/resolved/meta sourcefiles removed beforeaudit",
+    "coverage": [
+      "Samefixture V1 rejects legitimate alias closure, V2passes",
+      "PatchedPath.resolve/stat raises on anyoriginalsource access; V2stillpasses",
+      "Similarcomponentprefix cannotmap",
+      "Wrongdestination/resolved sourcepair rejects",
+      "Duplicate/overlap/escape/noncanonical maps reject"
+    ]
+  },
+  "alias_scope": "Only archivedplan explicit_directory_alias_sources; exact pairing with sources.path/destination/original_alias_path; no originalFS resolution/stat; exact lookup first preserves ordinaryfile-symlink resolvedprovenance. Fallback uses Pathcomponents aliasprefix\u2192resolved/suffix plus exactlogical retained/destination/suffix.",
+  "unchanged_other_audit": "V1stored/logicalSHA, closure, cache, hardlink, final3x20/400 semantics copied unchanged; onlyaliasseam andreceipt schema/aliasstats added",
+  "result_schema": "pi05_g1_mobile_archive_independent_audit_aliases_v2",
+  "actual_archive_scan_or_GPU_or_queue_or_testdata": false,
+  "CLI": [
+    "python",
+    "-m",
+    "experiments.pi05_g1_mobile.audit_archive_v5_aliases_v2",
+    "--archive",
+    "ABS_ROOT_APPROVED_ARCHIVE",
+    "--output",
+    "ABS_FRESH_OUTSIDE_REPORT.json"
+  ]
+}

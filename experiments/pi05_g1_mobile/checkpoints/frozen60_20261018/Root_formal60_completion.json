@@ -1,0 +1,282 @@
+{
+  "schema": "pi05_g1_mobile_Root_actual_segment_completion_review_v1",
+  "utc": "2026-10-18T04:13:31.432931+00:00",
+  "status": "Root_qualified_actual60_after_all3_realvisual_physical_independent_protocol_and_ownedclosure",
+  "qualified_formal_trials": 60,
+  "total_required_formal_trials": 60,
+  "qualified_original_videos": 120,
+  "segment_indices": [
+    57,
+    58,
+    59
+  ],
+  "segment_GPU_token": "532fad19a17549379aff7c42fdad10d8",
+  "segment_GPU_elapsed_seconds": 1567.687299986952,
+  "segment_GPU_ended_utc": "2026-10-18T04:08:07.197249+00:00",
+  "closed_ledger_rows": 49,
+  "GPU_total_seconds": 40194.56960293202,
+  "GPU_hard_remaining_seconds": 3005.430397067983,
+  "evaluation_remaining_seconds": 3004.21812769986,
+  "actual_closed_owned_resources": true,
+  "exact_closed_current_units_and_old_PID_start": [
+    {
+      "unit": "pi05-mobile-formal-segment019-426cf97a4f614f9a81ac117630d26f5a",
+      "original_PID": 2055650,
+      "original_start": "47933971",
+      "current_start": null,
+      "old_identity_gone": true,
+      "properties": {
+        "MainPID": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "LoadState": "not-found",
+        "ActiveState": "inactive",
+        "SubState": "dead"
+      }
+    },
+    {
+      "unit": "pi05-g1-owned-532fad19a17549379aff7c42fdad10d8.service",
+      "original_PID": 2066870,
+      "original_start": "47970946",
+      "current_start": null,
+      "old_identity_gone": true,
+      "properties": {
+        "MainPID": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "LoadState": "not-found",
+        "ActiveState": "inactive",
+        "SubState": "dead"
+      }
+    }
+  ],
+  "actual_FIFO_closed_ticket": {
+    "ticket": "t000097",
+    "sequence": 97,
+    "owner": "01a13dfa-24c9-7b91-9fbe-e35505f349b6",
+    "stage": "evaluation",
+    "max_seconds": 3000,
+    "status": "completed",
+    "created_utc": "2026-10-18T03:36:04.891458+00:00",
+    "wrapper_pid": 2055650,
+    "started_utc": "2026-10-18T03:41:59.483163+00:00",
+    "ledger": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/gpu_budget.json",
+    "closed_utc": "2026-10-18T04:08:07.222158+00:00",
+    "exit_code": 0,
+    "cleanup_confirmed": true,
+    "ledger_runs_before": 48
+  },
+  "global_idle_at_closure_query": false,
+  "foreign_compute_not_stopped": true,
+  "all5_driver_stages_completed": true,
+  "recursive_chain_nodes": 20,
+  "three_independent_audits_all7_passed": true,
+  "all3_actual_expected_XY_bin_hash_verified": true,
+  "distinct_layout_count": 5,
+  "observed_physical_clusters": [
+    "center",
+    "x_minus",
+    "x_plus",
+    "y_minus",
+    "y_plus"
+  ],
+  "twenty_cases_are_not_twenty_independent_layouts": true,
+  "policy_counts": {
+    "gr00t_n16": {
+      "completed": 20,
+      "full_success": 4,
+      "qualified_carry": 20,
+      "falls": 0,
+      "drops": 0,
+      "timeouts": 16,
+      "source_physical_failures": 0
+    },
+    "pi05_mobile": {
+      "completed": 20,
+      "full_success": 1,
+      "qualified_carry": 15,
+      "falls": 0,
+      "drops": 1,
+      "timeouts": 18,
+      "source_physical_failures": 1
+    },
+    "official_pi05_base": {
+      "completed": 20,
+      "full_success": 0,
+      "qualified_carry": 0,
+      "falls": 0,
+      "drops": 0,
+      "timeouts": 20,
+      "source_physical_failures": 2
+    }
+  },
+  "full_success_final_upper_bounds": {
+    "gr00t_n16": 4,
+    "pi05_mobile": 1,
+    "official_pi05_base": 0
+  },
+  "frozen_full_success_threshold": 16,
+  "all3_current_round_cannot_reach_threshold": true,
+  "physical_summary": {
+    "pi05_mobile": {
+      "first_grasp_control_tick": 144,
+      "carry_qualified_control_tick": 1440,
+      "max_carried_box_displacement_m": 5.404288964388817,
+      "carry_turn_degrees": 115.55294934879353,
+      "max_ready_span_seconds": 0.0,
+      "fell": false,
+      "dropped": false,
+      "timeout": true,
+      "task_sim_seconds": 60.0,
+      "task_wall_seconds": 506.477272289,
+      "actual_controls": 3000,
+      "actual_physics_integrations": 12000,
+      "source_physical_failure_explicit": null,
+      "source_original_reason": null
+    },
+    "official_pi05_base": {
+      "first_grasp_control_tick": null,
+      "carry_qualified_control_tick": null,
+      "max_carried_box_displacement_m": 0.0,
+      "carry_turn_degrees": 0.0,
+      "max_ready_span_seconds": 0.0,
+      "fell": false,
+      "dropped": false,
+      "timeout": true,
+      "task_sim_seconds": 60.0,
+      "task_wall_seconds": 492.790521144,
+      "actual_controls": 3000,
+      "actual_physics_integrations": 12000,
+      "source_physical_failure_explicit": null,
+      "source_original_reason": null
+    },
+    "gr00t_n16": {
+      "first_grasp_control_tick": 139,
+      "carry_qualified_control_tick": 1348,
+      "max_carried_box_displacement_m": 5.205650143272889,
+      "carry_turn_degrees": 98.71429701301152,
+      "max_ready_span_seconds": 0.0,
+      "fell": false,
+      "dropped": false,
+      "timeout": true,
+      "task_sim_seconds": 60.0,
+      "task_wall_seconds": 465.264390038,
+      "actual_controls": 3000,
+      "actual_physics_integrations": 12000,
+      "source_physical_failure_explicit": null,
+      "source_original_reason": null
+    }
+  },
+  "all3_Root_realPNG_physical_reviews": {
+    "pi05_mobile": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/root_visual_reviews/segment019_record_extractions/Root_pi05_mobile_y_plus1043_completed_physical_review.json",
+      "sha256": "746f40386859da0046e4bbd08ae4fe482c3f2fa4581df3361d4aec542262b063"
+    },
+    "official_pi05_base": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/root_visual_reviews/segment019_record_extractions/Root_official_pi05_base_y_plus1043_completed_physical_review.json",
+      "sha256": "8e08c44116c7ecde03b4dab6af6ce8ab894cb7866e5841c6f17258e938fa17e9"
+    },
+    "gr00t_n16": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/root_visual_reviews/segment019_record_extractions/Root_gr00t_n16_y_plus1043_completed_physical_review.json",
+      "sha256": "37c66536f83ae4453ecedf4c503d5ed13a59220ed7c0a48dd99f9ef9381ae406"
+    }
+  },
+  "new_case_matched_carry_stage_speed_only": {
+    "case_id": "long5m_y_plus_s1043",
+    "both_carry_qualified": true,
+    "status": "available",
+    "native_sim_seconds": 26.96,
+    "fine_sim_seconds": 28.8,
+    "native_earlier_sim_seconds": 1.84,
+    "full_success_both": false,
+    "metric_includes_contact_lift_proxy_and_turn_gate": true,
+    "not_overall_winner_or_wall1x": true
+  },
+  "common_complete_success_speed": "Not recomputed in completion bookkeeping; final report uses actual common-success cases, no inherited or hardcoded times.",
+  "source_abort_note": "Per-policy sourcephysicalfailure/reasons and actual recorddurations are retained from genuine results above; independentdrop/fall/residualtimeout are separate frozen definitions.",
+  "remaining_formal_trials": 0,
+  "remaining_original_videos": 0,
+  "goal_performance_achieved": false,
+  "full60_reports_actual_archive_and_independent_postaudit_still_required": true,
+  "final_executed_reproduction_manifest_still_required": true,
+  "true60_bookkeeping_is_not_performance_goal_completion": true,
+  "goal_or_automation_updates_performed": false,
+  "no_next_GPU_approval_here": true,
+  "Rootstate_modified": false,
+  "approval": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_completion60_CPU_authorization01.json",
+    "sha256": "9e1a09c013a8347b9bd9f18112b9b20e581dd6c994d1e96d51268088e9bffd7f"
+  },
+  "prior_normal_completion": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_018_v3_preparation/Root_actual_completion_review.json",
+    "sha256": "04e7a4a1f3825f23a1ff39451ec0ec005a847d2c3235ac7086141666a9a9f971"
+  },
+  "Root_initial_reviews": {
+    "pi05_mobile": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_fine_actual_tick0_expected_review.json",
+      "sha256": "e89ab18aa0fa1fb533e3654019c9d6f3ff0eba5b9dd87f44a56d989facd1662e"
+    },
+    "official_pi05_base": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_base_actual_tick0_expected_review.json",
+      "sha256": "ac8a28332353251b1543b8237cdadebf5bf453acf420545a99305243faf46888"
+    },
+    "gr00t_n16": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_native_actual_tick0_expected_review.json",
+      "sha256": "ef31e93a11eaa49ee92ce4b5bca912967aeced8728a72c567b3f9056a0a6fdda"
+    }
+  },
+  "bindings": [
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/ROOT_APPROVED_V3_plan.json",
+      "sha256": "7228daaf4f058fc23fc1ee05b9d5f00921563800d1723931ceb6e70962ff0015"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/actual_coordinator_launch01.json",
+      "sha256": "81bda809d4ad85473a59b0685d6e7ab5b24cfd442c4625ebc47e7dcedbc9f9c9"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/actual_GPU_admission_root_receipt.json",
+      "sha256": "d8c54d6f35b27763b8019917c493f0a11e7091fdc43cc9020a0d680ae3bba7ca"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/segment.json",
+      "sha256": "0a88a57da4a9989b5523989c832600fafa91780a403bcb5b7465854fd21f8a33"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/completion_guard.json",
+      "sha256": "138a4092772070d23cd7e1b6e4d95ef07ca359515db0d492af6a6f57f06a7819"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/independent_audit.json",
+      "sha256": "ef7261876493a5a0e71a47fcee5a4e3534af17b783be0a9744041bbfd582e8e7"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/pointer.json",
+      "sha256": "1aa5451fee27114f93c27f6e98909cc0d0d77f5ed171bc8d58f2d0f6395734b3"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_recursive_chain60_review.json",
+      "sha256": "5241d08f8e82d841f2bf59b47d8fcf26043c71ef8485b94a5adb004ff6a47bf2"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_completed_owned_quiescence.json",
+      "sha256": "0bed9d4b73864b41ec638f515192b8b19a982ea3f2e021d90f1456d9735d6f41"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_all3_actual_tick0_expected_review.json",
+      "sha256": "1fefcb2472ecf2be12c383ec852a7cc2ba159c9d0d895d08d23c18fe53f6f7a3"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_driver/state.json",
+      "sha256": "91482b077524c4f0d99255faf4d92684be8b2351717e016d8bad2be73a5f6af0"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_complete_finite_segment019_PREPARE_ONLY.py",
+      "sha256": "3ecb362e83fcfcaa9ab28cf4136b2ebb02aeb5a1405f96ae51447aa11c69122b"
+    }
+  ],
+  "ledger_historical_at_review": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/gpu_budget.json",
+    "sha256": "76541a8a41b3c676053d76e989a8e2b06c08e62be967c2f4b168f9c918807206"
+  }
+}

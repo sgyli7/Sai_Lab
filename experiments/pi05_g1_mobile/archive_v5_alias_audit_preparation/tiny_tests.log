@@ -1,0 +1,10 @@
+test_duplicate_overlap_escape_noncanonical_rejected (experiments.pi05_g1_mobile.tests.test_audit_archive_v5_aliases_v2.AliasTests.test_duplicate_overlap_escape_noncanonical_rejected) ... ok
+test_never_resolves_or_stats_original_alias_or_frozen_source (experiments.pi05_g1_mobile.tests.test_audit_archive_v5_aliases_v2.AliasTests.test_never_resolves_or_stats_original_alias_or_frozen_source) ... ok
+test_similar_component_prefix_does_not_map (experiments.pi05_g1_mobile.tests.test_audit_archive_v5_aliases_v2.AliasTests.test_similar_component_prefix_does_not_map) ... ok
+test_v1_refuses_v2_passes_without_original_sources (experiments.pi05_g1_mobile.tests.test_audit_archive_v5_aliases_v2.AliasTests.test_v1_refuses_v2_passes_without_original_sources) ... ok
+test_wrong_destination_or_resolved_pair_rejected (experiments.pi05_g1_mobile.tests.test_audit_archive_v5_aliases_v2.AliasTests.test_wrong_destination_or_resolved_pair_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.051s
+
+OK

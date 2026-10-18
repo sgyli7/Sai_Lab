@@ -1,0 +1,88 @@
+{
+  "schema": "pi05_mobile_actual_postarchive_commands_addendum_v1",
+  "utc": "2026-10-18T05:10:25.135983+00:00",
+  "immutable_prearchive_full60_manifest": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/reproduction_executed_commands_v5_full60.json",
+    "sha256": "c7ba3a267987ddf77b440ba64107d0df207bd7e71639058563f50d6378de358c"
+  },
+  "actual_operations": [
+    {
+      "operation": "original_V5_final_archive",
+      "execution_receipt": {
+        "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_archive_execution01.json",
+        "sha256": "b9c5854951a0185d365b9f9df61e472d83b6b826dac23e9bf5c18c2faaa50037"
+      },
+      "actual_argv": [
+        "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/venv/bin/python",
+        "-m",
+        "experiments.pi05_g1_mobile.archive_mobile_v5",
+        "--plan",
+        "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final_archive_actual60_ROOT_APPROVED01.json",
+        "--output",
+        "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+        "--phase",
+        "final"
+      ],
+      "actual_cwd": "/home/ethan/Projects/Sai_Lab",
+      "actual_environment_override": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "NVIDIA_VISIBLE_DEVICES": "void",
+        "JAX_PLATFORMS": "cpu",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/home/ethan/Projects/Sai_Lab"
+      },
+      "unknown_inherited_environment": null,
+      "started_utc": "2026-10-18T04:54:36.622057+00:00",
+      "ended_utc": "2026-10-18T05:01:41.961878+00:00",
+      "returncode": 0,
+      "actual_PID": 2260572,
+      "actual_startticks": "48406657",
+      "output_receipt": {
+        "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z/archive_receipt.json",
+        "sha256": "773e0ea5260a1aa1db6d52e5ea1c42e689d1d981c393bc1444ef2b3f894bdfdf"
+      }
+    },
+    {
+      "operation": "independent_aliases_v2_archive_audit",
+      "execution_receipt": {
+        "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_independent_archive_audit_execution01.json",
+        "sha256": "759dffb3b9ff09df270f28e59f364ebab2d1b989cbe49fce3dabe36d22e36866"
+      },
+      "actual_argv": [
+        "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/venv/bin/python",
+        "-m",
+        "experiments.pi05_g1_mobile.audit_archive_v5_aliases_v2",
+        "--archive",
+        "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+        "--output",
+        "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json"
+      ],
+      "actual_cwd": "/home/ethan/Projects/Sai_Lab",
+      "actual_environment_override": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "NVIDIA_VISIBLE_DEVICES": "void",
+        "JAX_PLATFORMS": "cpu",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/home/ethan/Projects/Sai_Lab"
+      },
+      "unknown_inherited_environment": null,
+      "started_utc": "2026-10-18T05:06:42.040150+00:00",
+      "ended_utc": "2026-10-18T05:08:29.847756+00:00",
+      "returncode": 0,
+      "actual_PID": 2283167,
+      "actual_startticks": 48479198,
+      "output_receipt": {
+        "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json",
+        "sha256": "9a60edf17026754aba4590cd70a022fb668100e906d2c438c51ef1eb24958f8e"
+      }
+    }
+  ],
+  "Root_actual_adoption": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_actual_full60_archive_audit_delivery_adoption01.json",
+    "sha256": "877099813b524d2d307785c95a50a148480fb9bbc4354146f698e7333ad60835"
+  },
+  "source_and_backup_not_rewritten": true,
+  "GPU_workload_started": false,
+  "performance_goal_achieved": false,
+  "scope": "This external supplement records archive/audit commands after the frozen manifest; it is not claimed inside the completed backup."
+}

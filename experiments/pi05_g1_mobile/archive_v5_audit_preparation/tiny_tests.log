@@ -1,0 +1,12 @@
+test_escape_duplicate_symlink_fileancestor_rejected (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_escape_duplicate_symlink_fileancestor_rejected) ... ok
+test_final_light3x20_and400_only_no_physics (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_final_light3x20_and400_only_no_physics) ... ok
+test_gzip_and_plain_damage_rejected (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_gzip_and_plain_damage_rejected) ... ok
+test_gzip_copy_link_correct_and_shared_inode_cache (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_gzip_copy_link_correct_and_shared_inode_cache) ... ok
+test_report_never_inside_archive_or_overwritten (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_report_never_inside_archive_or_overwritten) ... ok
+test_root_uid_cannot_be_labeled_hardlink (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_root_uid_cannot_be_labeled_hardlink) ... ok
+test_size_closure_and_gzip_name_metadata_rejected (experiments.pi05_g1_mobile.tests.test_audit_archive_v5.AuditTests.test_size_closure_and_gzip_name_metadata_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.087s
+
+OK

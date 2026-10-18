@@ -1,0 +1,36 @@
+{
+  "schema": "pi05_g1_mobile_archive_independent_audit_aliases_v2",
+  "status": "passed",
+  "started_utc": "2026-10-18T05:06:42.072628+00:00",
+  "archive": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+  "read_only": true,
+  "restore_or_GPU_started": false,
+  "errors": [],
+  "inventory_sha256": "ead8fede3b746821fdca8e46966c9d1aa8a466b47074c6ab233fff4873d2cbb3",
+  "archive_receipt_sha256": "773e0ea5260a1aa1db6d52e5ea1c42e689d1d981c393bc1444ef2b3f894bdfdf",
+  "phase": "final",
+  "explicit_directory_alias_count": 3,
+  "component_alias_lookups": 175,
+  "original_source_FS_resolved": false,
+  "counts": {
+    "files": 57128,
+    "directories": 3448,
+    "gzip_files": 1545,
+    "shared_inode_hardlinks": 1401,
+    "logical_bytes": 95100289013,
+    "stored_file_bytes_counted_by_path": 90078889690
+  },
+  "required_closure_checked": 1443,
+  "input_bindings_checked": 15292,
+  "original_plan_semantic_equal": true,
+  "all_stored_and_logical_SHA_verified": true,
+  "shared_hardlinks_are_not_independent_copies": true,
+  "physical_inode_SHA_cache_entries": 56976,
+  "final_light_fields": {
+    "training_completed": true,
+    "benchmark_primary3x20": true,
+    "paired_offline400_complete": true,
+    "physical_acceptance_recomputed": false
+  },
+  "ended_utc": "2026-10-18T05:08:29.834927+00:00"
+}

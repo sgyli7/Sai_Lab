@@ -1,0 +1,13 @@
+test_changed_compression_source_rejected_and_partial_retained (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_changed_compression_source_rejected_and_partial_retained) ... ok
+test_floor_failure_preserves_staging_typedpartial (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_floor_failure_preserves_staging_typedpartial) ... ok
+test_gzip_every_header_footer_write_guarded_and_deterministic (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_gzip_every_header_footer_write_guarded_and_deterministic) ... ok
+test_restore_escape_duplicate_symlink_bomb_and_no_overwrite (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_restore_escape_duplicate_symlink_bomb_and_no_overwrite) ... ok
+test_roundtrip_collision_media_hardlink_and_closure (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_roundtrip_collision_media_hardlink_and_closure) ... ok
+test_same_v4_readiness_immutable_and_coverage_AST_unchanged (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_same_v4_readiness_immutable_and_coverage_AST_unchanged) ... ok
+test_symlink_text_not_compressed_preserves_resolved_copy (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_symlink_text_not_compressed_preserves_resolved_copy) ... ok
+test_uid_mismatch_payload_stays_independent_copy (experiments.pi05_g1_mobile.tests.test_archive_mobile_v5.ArchiveV5Tests.test_uid_mismatch_payload_stays_independent_copy) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.062s
+
+OK

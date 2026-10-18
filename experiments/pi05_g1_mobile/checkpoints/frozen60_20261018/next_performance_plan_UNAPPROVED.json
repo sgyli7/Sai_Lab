@@ -1,0 +1,103 @@
+{
+  "schema": "Root_G1_pi05_performance_repair_finite_budget_proposal_v1",
+  "status": "UNAPPROVED_REQUIRES_EXPLICIT_NEW_GPU_BUDGET",
+  "utc": "2026-10-18T04:57:27.034293+00:00",
+  "human_approval_received": false,
+  "old_campaign": {
+    "ledger": {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/gpu_budget.json",
+      "sha256": "76541a8a41b3c676053d76e989a8e2b06c08e62be967c2f4b168f9c918807206"
+    },
+    "actual_full_success_native_fine_base": [
+      4,
+      1,
+      0
+    ],
+    "actual_carry_native_fine_base": [
+      20,
+      15,
+      0
+    ],
+    "closed_GPU_seconds": 40194.56960293202,
+    "hard_cap_seconds": 43200,
+    "hard_remaining_seconds": 3005.430397067983,
+    "training_remaining_seconds": 0.3182566750328988,
+    "old_ledger_and_scores_frozen_no_reset_or_reallocation": true
+  },
+  "requested_additional_GPU_seconds_max": 50400,
+  "requested_additional_GPU_hours_max": 14,
+  "all_failure_startup_audit_and_cleanup_charged": true,
+  "FIFO_wait_not_GPU_charged": true,
+  "stage_caps_seconds": {
+    "preflight_and_compatibility": 1800,
+    "qualified_teacher_development_collection": 10800,
+    "new_training_and_full_development_validation": 10800,
+    "new20case_paired_old_and_new40executions": 27000
+  },
+  "existing_supervisor_stage_mapping_not_new_framework": {
+    "preflight": 1800,
+    "training": 10800,
+    "evaluation": 37800
+  },
+  "combined_actual_used_plus_requested_max_GPU_seconds": 90594.56960293202,
+  "new_campaign_separate_output_and_all_old_costs_retained": true,
+  "first_budget_gate": {
+    "maximum_first_stage_GPU_seconds": 12600,
+    "meaning": "At most3.5GPUh for bounded preflight plus real qualified fulltask teacher pilot/collection. If no genuine qualified teachers and split/coverage pass, stop without newtraining/test. No guarantee that3.5h obtains the data."
+  },
+  "data_plan_before_execution": {
+    "teacher_target": "12 genuine strict full5m qualified developmental trajectories, six physically distinct declared layout families x two seeds; 4 TRAINfamilies/8episodes,2 developmentVALfamilies/4episodes fixed beforecollection. Failedattempts also retained and charged; never replace their IDs.",
+    "teacher_type": "Explicitly labelled assisted teacher may combine native policy, existing control primitives and true object/contact feedback for data generation after approval. This is not autonomous pi05 success and cannot contribute evaluation numerator.",
+    "data_scope": "Additional to retained80originalTRAIN, never import currentformal60 test traces or their successful videos/actions into training. Original10VAL remains nontraining. New20TEST layout/seed roster frozen beforedata collection and disjoint from oldformal and newdevelopment families.",
+    "required_retention": "Actual synchronous50Hz headRGB query/input and proprioception, exact issued/applied32D actions,200Hz physics counters/contact provenance, raw object/bin/robot states and support/clearance/inside/stability window, both originalvideo streams plus lossless training inputframes, all terminal reasons/failedattempts/SHA/actualargv.",
+    "success_gate": "Unchanged4m/60deg plus originalstrict inside/bin-support/robot-separation/lowlinear-angular-speed/standing stable2s fulltask acceptance. At least3 genuine strictsuccesses in distinctdevelopmentfamilies beforeexpanding collection. Fulltarget/splitcoverage mustpass beforetraining.",
+    "normalization_gate": "Keep recorded originalTRAIN-only norm first; verify newTRAIN targets representable and temporalalignment exact. If they cannot be represented, stop beforetraining for a concrete revised norm/data decision; never silently refit on VAL/TEST or change deploymentbounds."
+  },
+  "training_plan": {
+    "initialization": "Frozen745 weights-only warmstart, freshoptimizer with ancestorSHA; baseline0 eligible; never call exactoptimizerresume.",
+    "limits": "Atmost800 complete optimizerupdates and atmost10800GPU seconds including fullVAL/save/cleanup, whichever first; no automatic extension.",
+    "recipe": "Retain32D physicalactioncontract, actualheadRGB/proprioception/promptonly atdeployment, originalBF16 fullparam FP32stability/masterAdamW BS1acc8 LR1e-5. No modelarchitecture/controller/physics/camera/acceptance threshold changes.",
+    "data_change": "Predeclare50% original80TRAIN and50% newqualifiedTRAIN trajectories; remove oldsingle1396carryprefix from this newmixture, preserve its original files. Newteacher phase coverage audited beforetraining; uniform32 loss/tailmask stays original. This changes training package, not an isolated data-cause experiment.",
+    "checkpoint_selection": "Only fixed full original10VAL plus new4family-disjoint devVAL, equal-source predeclared complete-loss scoring; evaluate step0,400,800/final complete boundary. TESTnever used to selectweights. Baselineeligible; no improvedcandidate claim if baseline selected."
+  },
+  "test_plan": {
+    "cases": 20,
+    "policy_case_executions": 40,
+    "comparator": "Frozen745 vs independentlyselectednewcandidate on exactsame prospective20case set",
+    "layout_scope": "20 distinct physically valid predeclared box-layout configurations, disjoint from teacherfamilies; keep task distance/bin/robot/controller/sensing/action limits and strict acceptance unchanged. No edgecase posthocsubstitution.",
+    "acceptance": "Newcandidate at least16of20 strictcomplete successes; carry reported separately. Honestfailure ifbelow16. Pairedstatistical improvement separately reported, not promised by16/20.",
+    "execution": "One bounded case/finitegroup at a time withfreshRoot budget/resource ownership/FIFO admission; all40videos/actiontraces/queryPNGs and independentlyauditedactualinit. Freezeweights beforeopening TEST; no tuning or retraining against testoutcomes.",
+    "budget_basis": "27000seconds/40 gives675seconds per policycase averaged including failure/cleanup. Based on thiscampaign measured severalhundredwall seconds percase; empirical provision, not a runtimeupperbound. Stop with honestpartial if remainingmax cannot admit a full finite job.",
+    "speed": "Only jointlyfullsuccessful cases forcomplete task speed, separately jointlycarryqualified for transport; emptyN/A, fastfailure neverwins."
+  },
+  "storage_and_source_guards": {
+    "new_growth_reserve_bytes": 68719476736,
+    "archive_floor_bytes": 25769803776,
+    "training_disk_floor_bytes": 34359738368,
+    "host_memory_floor_bytes": 17179869184,
+    "peer_future24GiB_not_cancelled": true,
+    "actual_expansion_fresh_root_approval_required": true,
+    "original_archive_and_immutable_hardlinked_models_not_modified": true
+  },
+  "stop_and_claim_rules": [
+    "Stop if teacher qualification/coverage fails; no synthetic success or automatic newtraining.",
+    "Stop on failed identity/CPUcontract/infra/resource gates; preserve evidence/cost, no blindGPUretry.",
+    "No guaranteed16/20 promise or predeclaredwinner. Goal onlycomplete afteractual acceptance+fulltrace/video/report/archive independentverification.",
+    "Current request is a concrete budgetproposal only; no newGPU/teacher/controller/training/test run has started."
+  ],
+  "source_evidence": [
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/Root_actual_full60_readable_scientific_assessment_adoption01.json",
+      "sha256": "249260377f903b42d7d8a0dfc7be31c6772b433e2f07da0dc263786ccaeff5ea"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/pi05_next_performance_repair_CPU_ONLY_UNAPPROVED_proposal01.json",
+      "sha256": "69f8936458625b3069cbb6ad72984f046808560deb8e6bc45564f5c739c3cb3f"
+    },
+    {
+      "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/original100_complete_semantics_CPU_source_review.json",
+      "sha256": "98e8a470a1ed8760aafb5f5bc2178c99cbf324852f4d20b3713406b187fa1461"
+    }
+  ],
+  "active_archive_untouched": true
+}

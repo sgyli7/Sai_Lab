@@ -1,0 +1,1631 @@
+{
+  "schema": "g1_pi05_github_frozen60_checkpoint_v1",
+  "created_utc": "2026-10-18T05:16:13.768827+00:00",
+  "git_base": "2128db711351b8c33fe2505e487473f35a3d2966",
+  "source_workspace": "/home/ethan/Projects/Sai_Lab",
+  "publication_scope": "pi05 experiment source dependencies and exact small measured evidence; no raw datasets, weights, videos, caches or peer experiment source",
+  "pause_requested_by_human": true,
+  "performance_goal_achieved": false,
+  "formal_cases": 60,
+  "original_video_streams": 120,
+  "actual_physical_positions": 5,
+  "seeds_per_position": 4,
+  "full_success_native_fine_base": [
+    4,
+    1,
+    0
+  ],
+  "qualified_carry_native_fine_base": [
+    20,
+    15,
+    0
+  ],
+  "full_threshold_per_policy": 16,
+  "new_gpu_budget_approved": false,
+  "new_tests_or_GPU_started_for_git_checkpoint": false,
+  "copied_files": [
+    {
+      "path": "experiments/pi05_g1/.gitignore",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/.gitignore",
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+      "bytes": 13,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/Dockerfile.pi05_g1",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/Dockerfile.pi05_g1",
+      "sha256": "fa0f7ef3646b2b8b6676fbd453285ba01c28a99fcc1fa94b2704dba7799fd939",
+      "bytes": 1994,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/README.md",
+      "sha256": "368555f5b51d95328c93df97652c6babf9719ba7326939d852037af2f9ea955a",
+      "bytes": 8382,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/apply_transformers_patch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/apply_transformers_patch.py",
+      "sha256": "29c658bcc1631bce5f3a193e6127c3891f01853dd2b595238e7f216255dae2a8",
+      "bytes": 2603,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/archive_checkpoints.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/archive_checkpoints.py",
+      "sha256": "1f4a617b6c73d573f8e7e12650e21dbb3dea80fc77392f2700b35539a56cf25a",
+      "bytes": 8789,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/archive_inputs.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/archive_inputs.py",
+      "sha256": "58bdaba52a1f2051b8249b856ad01603d875ca976e02a24919f364966485d0c8",
+      "bytes": 5189,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/audit_dataset.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/audit_dataset.py",
+      "sha256": "8039a78e72af6c823eb3df95a40a313d0da79bdeb16bdfc09616338249ce1d38",
+      "bytes": 20503,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/budget.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/budget.py",
+      "sha256": "c618eb64d9439c362f6ae2e58c2e1dbcabca5a14d1cb025f191346a834b528d8",
+      "bytes": 18531,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/compare_head_only.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/compare_head_only.py",
+      "sha256": "e0e38bb239d8a0c7a8feb5802bd904a33aa6c816265bedc07e04731fb8497996",
+      "bytes": 5230,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/contract.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/contract.py",
+      "sha256": "57561e135128dd96ff68554efcdccddb105c5544cb74a7b6361938418f7fff4d",
+      "bytes": 4397,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/convert_checkpoint.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/convert_checkpoint.py",
+      "sha256": "4ff79293fb6a9ca2595cc4717590c6040665b284f994c5cc396500dda1fd3e16",
+      "bytes": 6453,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/download_checkpoint.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/download_checkpoint.py",
+      "sha256": "f971bdc5bc5ee197e420e1e1bf66c475b7911414a9fe2b3f2bd590545108881c",
+      "bytes": 3878,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/download_dataset.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/download_dataset.py",
+      "sha256": "b6145e81ddb62ea675f5917f53e3239a93fc4d2ecc31ff7584e9db7ecde15e59",
+      "bytes": 11817,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/evaluate_offline.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/evaluate_offline.py",
+      "sha256": "c4b74166fd0e8757ebe44a411fee663efa5ddcfc7a07b1b638fe4219fb300e97",
+      "bytes": 2241,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/evaluation_round.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/evaluation_round.py",
+      "sha256": "d7d32d26a5c0ae237874172bf84b08d697b9fef6eb805ab1a04835a38561f575",
+      "bytes": 10473,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/model_runtime.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/model_runtime.py",
+      "sha256": "dfbcb5cadef48a6f4b4cd73a4b69ceb706a3de294f54ee305b8b7eea945319c3",
+      "bytes": 12374,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/placement.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/placement.py",
+      "sha256": "ba2911fec8c6d9bc4d99a11376abf2d5430cf69cbb39b5abd10ec1b0a22bc356",
+      "bytes": 8711,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/prepare_training_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/prepare_training_data.py",
+      "sha256": "75b79694f4ca0eb6c14906a274185e220c025c462d63de9dfdcf7b0a29867e7a",
+      "bytes": 12559,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/run_evaluation.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/run_evaluation.py",
+      "sha256": "3eae7ce363557f989cf8f63a853f9c5fdaf4839afb9d74f58d39232a60fd49be",
+      "bytes": 4551,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/sim_launcher.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/sim_launcher.py",
+      "sha256": "56661c882b2b255ffa4e7fa314f3c7c4e8ce7d143c8d47986d1530edd5b96436",
+      "bytes": 14112,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/simulator.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/simulator.py",
+      "sha256": "88e068993f07f8e188c7f009481b66e17a2bc763a817e1d27c6f25c432759575",
+      "bytes": 31555,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/summarize_evaluation.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/summarize_evaluation.py",
+      "sha256": "e9e919802feb477d74610c979157be972ba05725bc0db3d8ab26b36396e3992b",
+      "bytes": 20715,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_archive_checkpoints.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_archive_checkpoints.py",
+      "sha256": "c571d3f25cb4e297764ae32a11dcabc1dcb115f6eb04bffa680450aa3b14051e",
+      "bytes": 4811,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_budget.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_budget.py",
+      "sha256": "82a4f2ab335b737d6d887e0fc822c6a7b3fde23d9879b0094011f38599fd07ce",
+      "bytes": 7223,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_data_evaluation.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_data_evaluation.py",
+      "sha256": "bfa677b5a1b4ffa756ddef5480c4e9d238c0c625b0ddff91b3d906fa647784b0",
+      "bytes": 11041,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_evaluation_round.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_evaluation_round.py",
+      "sha256": "cdffe1667663fd99309cc5b9afb2b9f0a27d8c966a9c89609caa4f636e9946bc",
+      "bytes": 5830,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_simulator_contract.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_simulator_contract.py",
+      "sha256": "f044b448db436568a7a714a5345525c58dcc598c17aef51e15e8c75da12dd050",
+      "bytes": 6959,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/tests/test_training_pipeline.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/tests/test_training_pipeline.py",
+      "sha256": "af09908209bf310e299e85500b4b99381b3358916b9b41da587bbd429f8eb431",
+      "bytes": 14663,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1/training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1/training.py",
+      "sha256": "0930b24e2c0a0a4ad6b0932978c7e9de86bf2854f027c6145fd51d26c9dc6d88",
+      "bytes": 25654,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/README.md",
+      "sha256": "2791b24755e061b6998d20e2342537fb17bb603c1febefd7655f41e7862643f2",
+      "bytes": 28106,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/__init__.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/__init__.py",
+      "sha256": "95952035651421dd4d3e3189a44df7df1bb9d192359c6a424b2464ac3c5e5df0",
+      "bytes": 70,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/archive_round02.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/archive_round02.py",
+      "sha256": "d55df4703c3bb7a92cfbc2482ab960a3caa5f11237d8adbd6234744d71d5826a",
+      "bytes": 21812,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/audit_episodes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/audit_episodes.py",
+      "sha256": "08ae0d08997a223bd8b6c6b7a33faabf98504b097b25bf49322194f8fda13bc0",
+      "bytes": 14777,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/audit_recovery_training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/audit_recovery_training.py",
+      "sha256": "7ebc3820a94e907c8caf9de7731b4caeba6f7b5c2572bc8a2c5d0a649d73df3e",
+      "bytes": 16487,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/batch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/batch.py",
+      "sha256": "fdc3d8184aeb182ef4658fdbeace92ce69c69c5bba218bc16ee4af98eac85336",
+      "bytes": 6565,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/batch_video_export.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/batch_video_export.py",
+      "sha256": "7030bb8ac7c3bda9a3add8a484d5a21061f39541a2457eb7e223aaadac7e68d3",
+      "bytes": 15270,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/benchmark.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/benchmark.py",
+      "sha256": "e0ab86301443fe7c4dc31532926f2e4135019c257d3d8d80b856366bccc7c11d",
+      "bytes": 26073,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/budget.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/budget.py",
+      "sha256": "da9b12d0a3f7e1a3a7712be3c5f4722d458ab067cb94708c9294bd3054c0fb64",
+      "bytes": 800,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/checkpoint_lineage.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/checkpoint_lineage.py",
+      "sha256": "cb40d61266b200b3eb70504533fd9b589f576f65982c5c29b02c6e1b8ff18ea9",
+      "bytes": 16514,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/clone_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/clone_plan.py",
+      "sha256": "8143f2c2bcfe6468d5d8e7af9572be7e076529cbd809e210beeb53bc1274eb9b",
+      "bytes": 2603,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/datasets.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/datasets.py",
+      "sha256": "5c7e7d2866877eb2421dbc15a5b69e2e4b174200761c49e45b988548b14beb08",
+      "bytes": 10236,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/delivery_audit.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/delivery_audit.py",
+      "sha256": "7a78d74f2da2f3482f9aef393e0715681c9a3054037244c1c918fc5e8eb5bdd0",
+      "bytes": 27587,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/gr00t_service.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/gr00t_service.py",
+      "sha256": "1da8efaf78d626bfde3266ccc7c4d8bbf51643c1bbcdfce6eaa19106016875f9",
+      "bytes": 3726,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/image_condition_diagnostic.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/image_condition_diagnostic.py",
+      "sha256": "4371ae18a90721941341cd85e768454f9259e9d940e0bbec8e3136e2ece75c0a",
+      "bytes": 8223,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/make_benchmark_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/make_benchmark_plan.py",
+      "sha256": "31162fe6312e3ca0e831fb5267be48a5744153fabe9b87f377e5aba50a1fb9c2",
+      "bytes": 14898,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/make_supplementary_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/make_supplementary_plan.py",
+      "sha256": "4c560f5c0861ce38a6c2fd1f99cce76d6383bc1da3d759a213445869c0c958cf",
+      "bytes": 12327,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/offline_diagnostic.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/offline_diagnostic.py",
+      "sha256": "ea541cc86862b84732b34d3be501d3ffcb9f014b99cf7cb875d3ca91f3a07599",
+      "bytes": 14603,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/pi05_service.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/pi05_service.py",
+      "sha256": "038ee99af967736e076021584c90869edc10ac9edf985bd7a5a36f1c4cc7c175",
+      "bytes": 1322,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/plot_benchmark.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/plot_benchmark.py",
+      "sha256": "276be5f6c02c3d755bd7e017d331fd0b109019638c9773ead2e07aaee83c6b36",
+      "bytes": 12213,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/prepare_inputs.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/prepare_inputs.py",
+      "sha256": "1cbf36e942ce0424639db2f54193678e6fc1273915fdbeec584cbffca9d5231c",
+      "bytes": 7994,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/quiescence_probe.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/quiescence_probe.py",
+      "sha256": "1951bbd0b9ef472fb82f7100aa00b88ae697f21432cc7e4c9c30ecef50047043",
+      "bytes": 11719,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/recovery_training_watch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/recovery_training_watch.py",
+      "sha256": "12e9055530f214020dec31a6294bd013dba84c2cf6c8b8d6675e91b46d50287b",
+      "bytes": 7989,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/replay_limit_compare.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/replay_limit_compare.py",
+      "sha256": "92c715ffa9ca4651eb258ef56781cf125cd6dcf7706e8fd212d2ff945edbc9e3",
+      "bytes": 6004,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/sim_launcher.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/sim_launcher.py",
+      "sha256": "221646d230960132286e3e1b5c0ff928087297b966b3842da481f827f42cf011",
+      "bytes": 14183,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/simulator.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/simulator.py",
+      "sha256": "610efebbbfb9ae9c0f8792ef0353d693be56c3a196cbb2a1c25f68fac39efe01",
+      "bytes": 42896,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/teacher_dataset.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/teacher_dataset.py",
+      "sha256": "4296c598a7f734a14c8c8f8b3a3b7c4210af0488f46d028d745d7da2e72b1f4d",
+      "bytes": 9999,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_action_bounds.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_action_bounds.py",
+      "sha256": "57e8917a6ae516c2c68f5edd5ec97ec0a1c40fd466cbba2569001c2fd0913665",
+      "bytes": 1153,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_archive_round02.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_archive_round02.py",
+      "sha256": "82283238123c1d6f63e20615832bfcd05ce9cb58eeec9c586bab34e6a2310572",
+      "bytes": 12354,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_audit_recovery_training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_audit_recovery_training.py",
+      "sha256": "a3e1b19e3fb246a66b0eff112788fb34e067ea3113f1b549b05abf1df009b394",
+      "bytes": 6798,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_batch_video_export.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_batch_video_export.py",
+      "sha256": "8f1acc9aeca5b1fc93eb6835af0bb06a8614c433a01d37e5541c24e17e1b3d1a",
+      "bytes": 6279,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_benchmark_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_benchmark_plan.py",
+      "sha256": "a394c043a282f1ffcb50c680f6d80ec6e98227956d084666c4c02adcd9b9becd",
+      "bytes": 15344,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_checkpoint_lineage.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_checkpoint_lineage.py",
+      "sha256": "52aab59fc4cb3c9a2df79e1e3a58b92d42b71b290efac1e8885e405144dff849",
+      "bytes": 11265,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_delivery_audit.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_delivery_audit.py",
+      "sha256": "a3b5bf836b0fcd8d55e0687837d26d202f2c22549601feea0327a89281729227",
+      "bytes": 19196,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_make_supplementary_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_make_supplementary_plan.py",
+      "sha256": "be43aa0cf6f061de6610950ea892fece36529c9b281ed93e05ba436e1791e542",
+      "bytes": 7002,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_offline_diagnostic.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_offline_diagnostic.py",
+      "sha256": "f518961645ce16eeab2fd62e793ad3cfc34cd33a75de1f39d9804b8d6a75da6e",
+      "bytes": 6142,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_plot_benchmark.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_plot_benchmark.py",
+      "sha256": "1766be15735282576009e35e5928cad5c455ef88c2c4b50073484cb850b014bc",
+      "bytes": 4271,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_quiescence_probe.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_quiescence_probe.py",
+      "sha256": "edba21469353836205f90a3b9bae6b0d368b8869002484d8b3da96e3c4c6b55a",
+      "bytes": 7193,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_recovery_training_watch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_recovery_training_watch.py",
+      "sha256": "5ea63d5877af13612399b6e69e7355d77d9fbb272be210b434b32d3aed94f85e",
+      "bytes": 4678,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_round02_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_round02_data.py",
+      "sha256": "aa49b5eafdf1c7d2a9b382ff9ddfb50fcf496aad5d2d3364d02e788cc8873f59",
+      "bytes": 17711,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_runtime_provenance_patch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_runtime_provenance_patch.py",
+      "sha256": "0d9119dc7d952d9d81b065efbd64025766bac5968c3edfe4d5d1e9c1671ce22d",
+      "bytes": 6154,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_supplementary_video_export.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_supplementary_video_export.py",
+      "sha256": "15e3aa495185882418daab11cd28f664cbc7bcd951a30c3f2244a274548c0dd7",
+      "bytes": 10599,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_training.py",
+      "sha256": "4304ad1230f1f1334daeb5b5e038e504d518b674e3ecdd421cb8534d0905695b",
+      "bytes": 10576,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_video_caption.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_video_caption.py",
+      "sha256": "470fcb77aee512feee0bc5512f3756041a19fca742cc84cd4fc055fc5dee4ca6",
+      "bytes": 1737,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/tests/test_video_index.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/tests/test_video_index.py",
+      "sha256": "62ab0fd9b5141d04dc857fbabcb906f122c86fd7927f8f3b5e2f8040a215b5f1",
+      "bytes": 2332,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/training.py",
+      "sha256": "841ad5a8338c8475b61c4bc5a5333fddd2c7dba2c12657eae623089eda4eb97e",
+      "bytes": 23172,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/verify_plan_phase.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/verify_plan_phase.py",
+      "sha256": "a50ed05a5ab1805b08aecdb8abe7b88f50039946671b0e7c121c378f94a12522",
+      "bytes": 2867,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/video_compare.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/video_compare.py",
+      "sha256": "0d7385fdcebbaa4e5e1a0e90864d711c2b12c86b863ac8f9087bb6d3d8eb1361",
+      "bytes": 6185,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/video_export.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/video_export.py",
+      "sha256": "2a85f7a4999343b8af56889d825375e7997aa6919921309e250d224a0a19dead",
+      "bytes": 6439,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round02/video_index.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round02/video_index.py",
+      "sha256": "89712beb91a9014b7cc8bdf530090713eca03563288b07163ef277a447e39bef",
+      "bytes": 5134,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/__init__.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/__init__.py",
+      "sha256": "c186222a86e259c75a14ea3dfe1b70a34cafeb77f0ec977db40e70ec30c7293f",
+      "bytes": 65,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/acceptance.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/acceptance.py",
+      "sha256": "303cf7d1ba59ad0e055ad8dd6933638449b6533c31319a6b351d6414db1b3b7e",
+      "bytes": 12794,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/acceptance_body_ids.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/acceptance_body_ids.py",
+      "sha256": "f73f6785c925645d1309613ef2b37afe789ce5b944c9ddfc44baa6002adb5459",
+      "bytes": 5013,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/acceptance_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/acceptance_pose_speed.py",
+      "sha256": "1790afba45148e3a16506a9646575d52bf53b78f6b354e2b3744712849273815",
+      "bytes": 8614,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_mobile.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile.py",
+      "sha256": "107612bc0e6ef803aa4cce583d68a7c2e4f053dec63026b61d044937fb9b73e3",
+      "bytes": 15237,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_mobile_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile_v2.py",
+      "sha256": "b40defea951a3897be8f8d1ff6dc2ccca7b582c35c825ab39b0fb78eaaf7f38d",
+      "bytes": 15709,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_mobile_v3.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile_v3.py",
+      "sha256": "580221cee8aea77ae3a7d9440df60b40faecaaef530fe6dfae0426087dfd03a2",
+      "bytes": 18513,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_mobile_v4.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile_v4.py",
+      "sha256": "1eda0596309ce5d0d2a50bab4ab1291ed18e11e305e562e08849d3a193de9b30",
+      "bytes": 19293,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_mobile_v5.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_mobile_v5.py",
+      "sha256": "bf382d0bbfccc29547a248777a89aa64086f0f5404060f87ab65847e4e56d098",
+      "bytes": 32566,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/README.md",
+      "sha256": "e03f3764505a7d8d9638bdd53edc9b9183a38b5570304e2c2ba473b65e30f98e",
+      "bytes": 1269,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/cpu_preparation_receipt.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/cpu_preparation_receipt.json",
+      "sha256": "d75dde95f56b09eb4270987ebddc16051689ecaeed6fbb8f76244e291b05141a",
+      "bytes": 1886,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/tiny_tests.log",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/tiny_tests.log",
+      "sha256": "39781de08af937a23b00786019b0b67d2965c88347dcfd7e1e76ef492525c39b",
+      "bytes": 1040,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/v1_to_aliases_v2.diff",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_alias_audit_preparation/v1_to_aliases_v2.diff",
+      "sha256": "661639431ed8fbddddf6494f425ee0e533aa720329e78c45b376d93088c69ad1",
+      "bytes": 8276,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_audit_preparation/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_audit_preparation/README.md",
+      "sha256": "1a44481527589cfccf023e67acd08eb20336825f84404649cd88cd6192656349",
+      "bytes": 1537,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_audit_preparation/cpu_preparation_receipt.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_audit_preparation/cpu_preparation_receipt.json",
+      "sha256": "21444181cab5e09d2d28314abf25bde481f58d44e72679d5142e83807553039f",
+      "bytes": 2576,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_audit_preparation/tiny_tests.log",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_audit_preparation/tiny_tests.log",
+      "sha256": "db28757b4080edb3438bcc91ebb41c06e73eb723e07e1760e8ccae86b578d13f",
+      "bytes": 1267,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_preparation/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_preparation/README.md",
+      "sha256": "e07d729efcc0dc44f81f5a908ee94d2af2e19a4d35399654a3b6a2d917239834",
+      "bytes": 2496,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_preparation/cpu_preparation_receipt.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_preparation/cpu_preparation_receipt.json",
+      "sha256": "30fcca7d44cd95b5e3daa1ef1fbda76ad313c5e486d50c25414f78305da6b1c8",
+      "bytes": 3692,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_preparation/tiny_tests.log",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_preparation/tiny_tests.log",
+      "sha256": "3bed78af8a5f5edb89a93def4fd0bf2b3a663818bcd490139db698688468c9a9",
+      "bytes": 1642,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/archive_v5_preparation/v4_to_v5_exact.diff",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/archive_v5_preparation/v4_to_v5_exact.diff",
+      "sha256": "be482bae0a651377cc68a70f98ea0048c930747529e233df0d028ddbbb7e16d3",
+      "bytes": 24667,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_archive_v5.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5.py",
+      "sha256": "1690d532d6a116c3d0694d121fbc902d044cff4a80f06047f0e28f3c3fc65ff0",
+      "bytes": 12167,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py",
+      "sha256": "81c20e52fe258ace20385d5e7d643a003558e32174d44f8be1d8cfdee0b2f782",
+      "bytes": 15086,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_carry_prefix.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_carry_prefix.py",
+      "sha256": "9d0b083a5fb2d7bc0575b176fffe413bb6867aa861aac5707636843ea5c2434a",
+      "bytes": 8510,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_delivery_guard_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_delivery_guard_v2.py",
+      "sha256": "1bfca586769ced689df768c2aadc8adc26a55616431e7ebe1dc9b8ec0224561e",
+      "bytes": 3229,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_episodes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_episodes.py",
+      "sha256": "45a0724689bc9042dd692d703aa888cef98876aa886c459ece73828d50b7d257",
+      "bytes": 15870,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_episodes_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_episodes_v2.py",
+      "sha256": "ecde84b66c203376deaa4af223dcf25a384d1c926aa4fd13c92cf511dfff1c13",
+      "bytes": 18984,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/audit_episodes_v3.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_episodes_v3.py",
+      "sha256": "9b0f558fc16517679e1243617efeed2a03a70ea92baeaf714553f4bbd51bb78a",
+      "bytes": 19135,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/batch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/batch.py",
+      "sha256": "b2a71fc7163ebbba1a863941af0ebf19ffd0d316cd8e21e9cd0ba0feed80ce33",
+      "bytes": 16154,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/batch_acceptance_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/batch_acceptance_v2.py",
+      "sha256": "1369e0fcf21d3da6c8cc2aec8239744810ba8b7ef319efe28df034c6ceaa7055",
+      "bytes": 16168,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/batch_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/batch_pose_speed.py",
+      "sha256": "cca02f531d5f01f7d8bc74b4435a5781291abe45ebc8095edd0f767ff2567672",
+      "bytes": 16165,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/benchmark.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/benchmark.py",
+      "sha256": "c2175b151654cc63e4d00b4594e8705aff438e2629cf15311185ec9e27335384",
+      "bytes": 25596,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/benchmark_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/benchmark_v2.py",
+      "sha256": "9070558d38c51594e76b2a777c06cc71dffd0e52d69731d4604c9daec6de4a7e",
+      "bytes": 25667,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/benchmark_v3_notes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/benchmark_v3_notes.py",
+      "sha256": "7cf7b3d4dfd0a107c85ea2444e1bdf8736826db4c3e679f87a7d1d1436f96065",
+      "bytes": 25801,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/budget.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/budget.py",
+      "sha256": "f0b69737af45cd859ab80970dd51243d519d0833f642c4db18fdc2db948149f1",
+      "bytes": 6099,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/budget_allocated.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/budget_allocated.py",
+      "sha256": "3e39996eb10cd509d2766776eb00899bfb8e1c6afc21ef230432d703d9330ce5",
+      "bytes": 8829,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/carry_prefix_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/carry_prefix_data.py",
+      "sha256": "b5608947c31a5f7dd3f7a591b3629a33e195b1b1c672767f88bed275cb29e274",
+      "bytes": 15227,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/contract.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/contract.py",
+      "sha256": "aa2c4e76637b9d625d6ca24c4363a1375f5c62c3e347aba5f5976f941025a4d9",
+      "bytes": 2086,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/extract_replay_reference.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/extract_replay_reference.py",
+      "sha256": "fd4a9ac01b858541501df24228d7f741236200c89a37157b7ce4ce457ef04d0b",
+      "bytes": 8274,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/formal_audit_chain_v1.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/formal_audit_chain_v1.py",
+      "sha256": "219bf95c510d606855bc2bbfa1f1b4f43b28e30e053fcc88b70ffd0a276e01bb",
+      "bytes": 8171,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/gr00t_service.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/gr00t_service.py",
+      "sha256": "e0516183af0caccb45879a6d9b380232119a39e53567761af897be098c96214c",
+      "bytes": 6833,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/low_peak_master_adamw.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/low_peak_master_adamw.py",
+      "sha256": "913d9ee8e2be06bb0d0150eed1f7cd6a4b6d9c31b33cec5681486377a2f37bc7",
+      "bytes": 1785,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_benchmark_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_benchmark_plan.py",
+      "sha256": "1c6056418e7fbc0d623482ac07f0e63323ff40e84afb4f4a635180f254a6dbc3",
+      "bytes": 21897,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_benchmark_plan_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_benchmark_plan_pose_speed.py",
+      "sha256": "cace07ba299c7b1abd15fd42a8aed2d3d6055a1f032158f8585758cf0a6ecac0",
+      "bytes": 27419,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_benchmark_plan_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_benchmark_plan_v2.py",
+      "sha256": "16f89ccc030e174d7f99e40a40eb110413abb41f3ecaf713de8b47aa8353ccff",
+      "bytes": 22786,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_formal_segment_candidate.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_formal_segment_candidate.py",
+      "sha256": "2add21f276789251a786ad03ab1e26dc6789ed9624612eec420aeaf7a9566e20",
+      "bytes": 19653,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_formal_segment_candidate_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_formal_segment_candidate_v2.py",
+      "sha256": "2639493a2eb525447245f7f7e8a6283ae622488ae838f59db84a43d3a6ea57a9",
+      "bytes": 20874,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/make_formal_segment_candidate_v3.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/make_formal_segment_candidate_v3.py",
+      "sha256": "a8f1de1e004d0738cbc99128497e2fcc158b59ebbe6c4ab447a7d43a4ecd3ef0",
+      "bytes": 6239,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/model_runtime.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/model_runtime.py",
+      "sha256": "1e3199a76a9daccc2058536b73718a6455d6ca9d6647765cd01193f341e8f408",
+      "bytes": 13232,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/offline_assets.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/offline_assets.py",
+      "sha256": "78db588e9b079fc2a199af0eec2adaaafb995a6263bca2e972d3c0bc9f9df68f",
+      "bytes": 3842,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/offline_evaluation.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/offline_evaluation.py",
+      "sha256": "61b1f3902367d25282d248f370714525229e55158f5cfb4fcc6c132f68438e91",
+      "bytes": 14498,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/owned_model_cache_hint.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/owned_model_cache_hint.py",
+      "sha256": "2ed9a0c026e3129b85d892bd5d311794e1d1b420e96598c5b916a9cba2fe73cc",
+      "bytes": 10897,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/owned_model_cache_hint_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/owned_model_cache_hint_v2.py",
+      "sha256": "7807776c6ed5aba4e9666418b2b7a84f63d798e3c96f4bf53492bae12e1a7577",
+      "bytes": 10911,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/pi05_service.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/pi05_service.py",
+      "sha256": "293e4a6cb78862c69f8746359e1cb218c5fa97175891b8ca8a94e182158c2320",
+      "bytes": 4231,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/prepare_training_command.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/prepare_training_command.py",
+      "sha256": "4b5598e481adf00cfe746895a187ae42d3abb1b2fbf6c6e1e7980e65312b9f45",
+      "bytes": 6083,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/prepare_v4_preflight.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/prepare_v4_preflight.py",
+      "sha256": "7e22e87a6425318ca989cb75c771e810742db1cec89c88578d2eba07b6e57f66",
+      "bytes": 6715,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/qualify_placement_oracle.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/qualify_placement_oracle.py",
+      "sha256": "a67d43123dc1526d2e2b1a5b78460e2cfce71f17058d3205f937ef2b3bb55ae3",
+      "bytes": 10246,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/quiescence.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/quiescence.py",
+      "sha256": "d4029b267164a411b936fe795577c46045c3eef07e856b7e7fca4a59a9efc653",
+      "bytes": 14677,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/report.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/report.py",
+      "sha256": "0260aa2b33e8c0a1d7dff94a72dfa9506ea2c42278b3ce76e88b5be67b5a8c4f",
+      "bytes": 17738,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/report_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/report_v2.py",
+      "sha256": "9d462906804fc883b0f74ea82e0663f4312938ffd32efec827b13bf6fd13c16d",
+      "bytes": 18834,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/report_v3_notes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/report_v3_notes.py",
+      "sha256": "a6d336367972df9ce9d4d8ce62e8bad4afca89e2a0e76fb5d4d73b8f0a53f1d6",
+      "bytes": 19299,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/round03_driver.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/round03_driver.py",
+      "sha256": "72ae423f93e618cecef7db5fb3749c68a4d93ba72235715381bd1887f925888e",
+      "bytes": 16679,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/round03_driver_allocated.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/round03_driver_allocated.py",
+      "sha256": "586e5c824aff61d10131832f09a80c9c52bd95d85683a1d1724201d1b707b443",
+      "bytes": 3932,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/sim_launcher.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/sim_launcher.py",
+      "sha256": "dd29e5c40277f0c49b3fe3e6d13b0168046ed32a4d3da924b46cc9bee3cca811",
+      "bytes": 14195,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/sim_launcher_acceptance_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/sim_launcher_acceptance_v2.py",
+      "sha256": "3c112bea266953d75fd6d98df83eb277d1b2a905e222e850f9923c5ffb6ba858",
+      "bytes": 14219,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/sim_launcher_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/sim_launcher_pose_speed.py",
+      "sha256": "71a85f11589b1bc36541fbe13f87873de76f37287689f81ebc84887a687749a0",
+      "bytes": 14218,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/simulator.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/simulator.py",
+      "sha256": "ee39d23414170e602560a1f4c4dd364e03bee91623ba4fa5566d621577e4424f",
+      "bytes": 34958,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/standalone_policy_probe.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/standalone_policy_probe.py",
+      "sha256": "a5af9d527388216b03a5d2de1b3eee8996407d192332282d8389687f8e6e705f",
+      "bytes": 9488,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/supplementary_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/supplementary_data.py",
+      "sha256": "9d0d69833926e198099548fc40f2f9d74394bb2ec76d6c043cf38de1288c0d77",
+      "bytes": 20552,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_acceptance.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_acceptance.py",
+      "sha256": "d2df396ccd7048443bdbdafba1fabe0bb295a527682835f7243b36f281225ee7",
+      "bytes": 15188,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_acceptance_body_ids.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_acceptance_body_ids.py",
+      "sha256": "f5d568bb0194a9fbafc5ad9fe19e2c2dd34081883195efec56377ee26ac283ca",
+      "bytes": 3834,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_acceptance_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_acceptance_pose_speed.py",
+      "sha256": "cacb62ae35b6804a4c1b0db3b9838c9b8ef09f8f8216699134ea29ccad6bd31f",
+      "bytes": 11272,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_archive_mobile.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_archive_mobile.py",
+      "sha256": "48dce7b13bc05ddede22c88fc5b0a1b420766ff19d1d329d61ac394585c13dce",
+      "bytes": 8386,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_archive_mobile_v3.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_archive_mobile_v3.py",
+      "sha256": "28594dcbaac877bfc714203f8e47e2b5b2b130fcd0b4e1249369f8f34b80342c",
+      "bytes": 3619,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_archive_mobile_v4.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_archive_mobile_v4.py",
+      "sha256": "4620f422cfdb08c2622610de58e09681a5b0ff97d5871e739e9dc4d2bc5712d9",
+      "bytes": 5545,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_archive_mobile_v5.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_archive_mobile_v5.py",
+      "sha256": "0d294d00374e1a88b5c55f65ce812c8b18d27f5b46188e91d49424b566cd9505",
+      "bytes": 7348,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_audit_archive_v5.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_audit_archive_v5.py",
+      "sha256": "aedb88d9bc38fc90c0953053917061260f454c591271ee94c5b5405fddea9965",
+      "bytes": 6653,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_audit_archive_v5_aliases_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_audit_archive_v5_aliases_v2.py",
+      "sha256": "870996d0bda15155be8b84b943bb5b1214faf4f50d51b8c64d131348726daff5",
+      "bytes": 5266,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_audit_carry_prefix.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_audit_carry_prefix.py",
+      "sha256": "7f9e0443bb2fe1965b98813d73e0b84f24846e2a313e6f34c41397b4ff4e3261",
+      "bytes": 4541,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_audit_episodes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_audit_episodes.py",
+      "sha256": "663003ff18fbf61a15665b17efe5a293b6bb18142e265c7b39ea9f6e5303a6b6",
+      "bytes": 8635,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_audit_episodes_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_audit_episodes_v2.py",
+      "sha256": "325b2f27aed8ce4bc3adc278e91ea9ab4887037a50ebc210518c08c5239676b5",
+      "bytes": 5826,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_batch.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_batch.py",
+      "sha256": "09e591799bbac7bb05d76963a967aae9b1ecd0a72dfd97e10e5a7b00d018480a",
+      "bytes": 8740,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_batch_acceptance_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_batch_acceptance_v2.py",
+      "sha256": "15aec679721ee2c40bcb4692df5536f6afedf31dab80bdb9d44cabad666c5f63",
+      "bytes": 8867,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_batch_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_batch_pose_speed.py",
+      "sha256": "2df77802d9099909383bfd69830b3619e5551d283e14e39b82dfb83a27c502c2",
+      "bytes": 8861,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_benchmark.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_benchmark.py",
+      "sha256": "b6210fba85c7b7c2370788f4beaaf384b5388b37d00c0c7d1a91871ab0918ebe",
+      "bytes": 12752,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_budget_allocated.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_budget_allocated.py",
+      "sha256": "f126ac3e82d83fc2ce4184fb1c8023daf2fa16da1520495fe96e611bf25981d8",
+      "bytes": 5718,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_budget_launcher.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_budget_launcher.py",
+      "sha256": "f68b0b617b23f6a31e869aefd773023382aba7e3b8d1a5e5f5f3fe94e2b9229a",
+      "bytes": 11155,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_carry_prefix.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_carry_prefix.py",
+      "sha256": "ca22e437db67a35c98b481a2f96653920211a09f686a97aa1b2f1008cb124e39",
+      "bytes": 10905,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_delivery_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_delivery_v2.py",
+      "sha256": "155c721e143a16e090fc7c31485da91240560dfbd465dd2fff583ffa9224ee78",
+      "bytes": 6553,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_formal_audit_chain_v1.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_formal_audit_chain_v1.py",
+      "sha256": "d0311afcedaac503ffcec462d7e9af99ab1acd610713933701c844a23efe7be5",
+      "bytes": 6612,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_interruption_evidence.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_interruption_evidence.py",
+      "sha256": "ab5f997331dec852673099bc443b0187af953465d16275e92b58b63eebcbb590",
+      "bytes": 4717,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_launcher_acceptance_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_launcher_acceptance_v2.py",
+      "sha256": "5d8d05ce3b359bfecb249bc24afa8dc4d5f421903bff3ec89f63042d188fe459",
+      "bytes": 2639,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_launcher_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_launcher_pose_speed.py",
+      "sha256": "c621c41bd79e5f799c5d3e7b6edd9878de0f92f5a3de515a9e42d44b1339aacf",
+      "bytes": 2708,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_low_peak_master_adamw.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_low_peak_master_adamw.py",
+      "sha256": "bc0afb84d42b060f7bbbdef6b768e695203fb9221d0c528f7d031cf9abe5f81f",
+      "bytes": 3397,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_make_benchmark_plan.py",
+      "sha256": "26c56423053c07b16e43d7d46e700e7b093765d408b9bd2cd49115af043ee5bd",
+      "bytes": 11774,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_pose_speed.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_pose_speed.py",
+      "sha256": "05a4044f284d7e4e53069ac447546fab2bf605db732da59aea545b63d85f3c37",
+      "bytes": 4939,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_v2.py",
+      "sha256": "19d6830cf2e503a24275c7e455d1475add4035a5395d938dbeddbc235e85c2cf",
+      "bytes": 13768,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate.py",
+      "sha256": "61c716a0e9f476ca3335fcb347014ee4253ebed6aec51af1fda71de662b21b95",
+      "bytes": 9639,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate_v2.py",
+      "sha256": "0c1cfa73ba8995e0ae37b6b33951b161465ef4b6c08df7a80fcbd98e4c47fc6c",
+      "bytes": 10775,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_offline_assets.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_offline_assets.py",
+      "sha256": "af351ba9ec552641076eb492cdaf7431c40c9fa139c5b508dd5202adf233633f",
+      "bytes": 4086,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_offline_evaluation.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_offline_evaluation.py",
+      "sha256": "dd5e41190a54372d1435c13e9e8f2aa8947d476d6de9c5e11b13d78475cd4682",
+      "bytes": 7037,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_owned_model_cache_hint.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_owned_model_cache_hint.py",
+      "sha256": "5d33ccfd5204f9d19d02fd8ca4f5504043d6a2d69fd39441c0e4e3e4d64bb4cb",
+      "bytes": 5593,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_pose_speed_alternating_motion.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_pose_speed_alternating_motion.py",
+      "sha256": "f6de2d6de6c429d92fe3ee3ea9734dd9d0f612ac9f2e636496a6f70989b09252",
+      "bytes": 1235,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_qualify_placement_oracle.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_qualify_placement_oracle.py",
+      "sha256": "eb095c289f91e78a84a53d3c93c969b5799630d1ea11bc0094eab6a28a17c0a3",
+      "bytes": 6328,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_quiescence.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_quiescence.py",
+      "sha256": "7f10f1ad2d8f79fc82b934cdce7069568b0adbbb26f4209c5d20888f8eee8d45",
+      "bytes": 5819,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_report.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_report.py",
+      "sha256": "82ce1539096d78f26efdfa4fb3631ce15d68d2cf3bc9c120a29a6b205a63162f",
+      "bytes": 8158,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_round03_driver.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_round03_driver.py",
+      "sha256": "c60b6b024f7a338fc31c2780bdd963105f4d5659d04c6e883a29de913e3d83ba",
+      "bytes": 9275,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_round03_driver_allocated.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_round03_driver_allocated.py",
+      "sha256": "e0446aa8a079b75d6f6b76cadec4f22f5c91ec08173a3a29c479e8b31c11d021",
+      "bytes": 5512,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_runtime_service.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_runtime_service.py",
+      "sha256": "f3a1dbec640498552d3b2e7e820288da5b1e9c69d36afde1f6747647c405aa09",
+      "bytes": 10005,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_simulator.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_simulator.py",
+      "sha256": "7771989295a8ce559d8abcffc48d528d84c963638867f013ea47128645c5671b",
+      "bytes": 8137,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_standalone_policy_probe.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_standalone_policy_probe.py",
+      "sha256": "a0a8806d77d6caa5b60f2fbf0ced9d206d6aec86252bd2f1fe5b9553ec3fc020",
+      "bytes": 3877,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_supplementary_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_supplementary_data.py",
+      "sha256": "34c9570dd966a057a54c7b64e9ef44bebf212df36e8d172822782255a611b00e",
+      "bytes": 9602,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_training.py",
+      "sha256": "95e665731fefd0d63d2587243a58586453503e06c011b5394d904a9149577b52",
+      "bytes": 12270,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_training_carry_memory_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_training_carry_memory_v2.py",
+      "sha256": "118e55a792201216fae1e467dfba2fccce0cb272894bf0a489e9524dcd29cee8",
+      "bytes": 6515,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_transport_analysis.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_transport_analysis.py",
+      "sha256": "1186f7e086262b31efbfe464b99a6b84527af64cd67d65083b3b97ac60365eed",
+      "bytes": 4450,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_transport_paths.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_transport_paths.py",
+      "sha256": "464a526736ecc4cd6e0521d8cabe97f06ca384f268ff655fdae97e6406d9daff",
+      "bytes": 7466,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_transport_paths_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_transport_paths_v2.py",
+      "sha256": "b28ad62bdae52c7db38cffe9603eb43e6a4741a08ae2a8a24c1477c018c655a6",
+      "bytes": 8444,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_transport_report.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_transport_report.py",
+      "sha256": "f93a3f98d4b4d1d7744740f349f73fac79482590b8afed2e02c1daf7af3c6a47",
+      "bytes": 6490,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/tests/test_versioned_checkers.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/tests/test_versioned_checkers.py",
+      "sha256": "e7bbf172c0d5f018f8fb89676d9e944152d52db39f033e4adf4757da8cc78a2f",
+      "bytes": 2550,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/training.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/training.py",
+      "sha256": "3574b713e00572ee0592914c04ef5150d94cd0669c9b2fc4fa53814f90069c17",
+      "bytes": 19429,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/training_carry.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/training_carry.py",
+      "sha256": "3f8042220b87bf6965221412f8147584db4ad334ff2056fee0a75cc7b3a00e29",
+      "bytes": 21281,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/training_carry_memory_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/training_carry_memory_v2.py",
+      "sha256": "e92ad17b0085c05f477a14adf403f4a66a31bff95e1a9f94477b0dde4c4adf7b",
+      "bytes": 23535,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/training_carry_memory_v3.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/training_carry_memory_v3.py",
+      "sha256": "39b82e4e05a614cfd1080392e28e211d6ac402400344c6ef4b5dd0ad2724bd90",
+      "bytes": 23788,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/transport_analysis.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/transport_analysis.py",
+      "sha256": "c34a736c7e2a32cdfdf52998f6c8d273a6595591ed938a5be46c54aaa0c65046",
+      "bytes": 12489,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/transport_paths.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/transport_paths.py",
+      "sha256": "7db21bdcba5bd5717423e873bfe07a32845b1b37a6875225c217220514394296",
+      "bytes": 17371,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/transport_paths_v2.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/transport_paths_v2.py",
+      "sha256": "3d884b8dcd989c05e052daad9b0c2b8aaf3733187a0d5fbb3c712fbd9598a08f",
+      "bytes": 19154,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/transport_report.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/transport_report.py",
+      "sha256": "b8347a3685186378d3508c54a1ac2225427ae9af802d4590408e462d25fbd5d5",
+      "bytes": 21402,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/transport_report_v2_notes.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/transport_report_v2_notes.py",
+      "sha256": "c3447aac418055fbed6c9b7d6bca9af783c3b48999b82b2a11c6f67620455de1",
+      "bytes": 21768,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round03_mobile/download_dataset.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round03_mobile/download_dataset.py",
+      "sha256": "40a7ee2f1d0b112e637f8794161c5bf36d3fe03e7b277aaebb7e5002707ac9b6",
+      "bytes": 3407,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_round03_mobile/prepare_data.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_round03_mobile/prepare_data.py",
+      "sha256": "594601e969cd8e2afc2fae89ebea881c7609ba50cd30250345ce3b96547eb2f8",
+      "bytes": 9604,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/vla_resources/README.md",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/vla_resources/README.md",
+      "sha256": "abd683a638b4106727553436996bb3277d1c578b85ade3432734f96e4ef066a7",
+      "bytes": 2213,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/vla_resources/__init__.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/vla_resources/__init__.py",
+      "sha256": "1ee1c1d65f96283709eb1e8cfb75de6657958920863c801f24a62919817d2fbe",
+      "bytes": 66,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/vla_resources/gpu_queue.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/vla_resources/gpu_queue.py",
+      "sha256": "e1fec4b3ca874d5db66965373f038cb124e2282cba33f8fad821615628bfd249",
+      "bytes": 9751,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/vla_resources/tests/test_gpu_queue.py",
+      "source_path": "/home/ethan/Projects/Sai_Lab/experiments/vla_resources/tests/test_gpu_queue.py",
+      "sha256": "06fc9c2c90ec27823fb6c38619ac3f2c4d4499fa1ea68e4432703e4e030463bc",
+      "bytes": 6073,
+      "kind": "existing_source"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/executed_commands_full60.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/reproduction_executed_commands_v5_full60.json",
+      "sha256": "c7ba3a267987ddf77b440ba64107d0df207bd7e71639058563f50d6378de358c",
+      "bytes": 1743050,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/benchmark_summary.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/benchmark_summary_notes.json",
+      "sha256": "6ad1ec2bd3c17cf357a581bf049b1d531c0e7f47056abc2f470ddcefd5277db4",
+      "bytes": 502918,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/transport_statistics.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/transport_report_notes/transport_report.json",
+      "sha256": "a4c7b5fc9e7f10abcfa918540732024459031d0a3f4f15978880221669abbf62",
+      "bytes": 304685,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/source_termination60.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/source_abort_wall_table_v3/source_termination60.json",
+      "sha256": "9dd3a5f58db949097f2c71da95b146bb4557b1a87a83ea806114ef0d92cd6162",
+      "bytes": 108206,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/source_termination60.csv",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/source_abort_wall_table_v3/source_termination60.csv",
+      "sha256": "aa9710c50c8e5ace06e53489ef816996bfc3eb981297679a8eac8ac9032c20e6",
+      "bytes": 20927,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/video_index120.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/main_report_notes/video_index.json",
+      "sha256": "93e60a33af277990b3c8aa7e583eb927084ad18471ccdeb9317ceb8e2c5de7b1",
+      "bytes": 128418,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/Root_archive_delivery_adoption.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_actual_full60_archive_audit_delivery_adoption01.json",
+      "sha256": "877099813b524d2d307785c95a50a148480fb9bbc4354146f698e7333ad60835",
+      "bytes": 5760,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/independent_archive_audit.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json",
+      "sha256": "9a60edf17026754aba4590cd70a022fb668100e906d2c438c51ef1eb24958f8e",
+      "bytes": 1330,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/post_archive_executed_commands.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/post_archive_executed_commands_addendum01.json",
+      "sha256": "3cb8166d49b5663c306e65ed46cd11e4f2613cb9eea10829d80001187a8d98f2",
+      "bytes": 4146,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/actual_archive_execution.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_archive_execution01.json",
+      "sha256": "b9c5854951a0185d365b9f9df61e472d83b6b826dac23e9bf5c18c2faaa50037",
+      "bytes": 2459,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/actual_independent_archive_audit_execution.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_independent_archive_audit_execution01.json",
+      "sha256": "759dffb3b9ff09df270f28e59f364ebab2d1b989cbe49fce3dabe36d22e36866",
+      "bytes": 3399,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/next_performance_plan_UNAPPROVED.json",
+      "source_path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_next_performance_repair_budget_proposal_UNAPPROVED01.json",
+      "sha256": "83dedbfa9a1b29a66ae4aea36ac749932aac3faaaca8216ad05a95d0d76ae592",
+      "bytes": 8011,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/closed_gpu_budget.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/gpu_budget.json",
+      "sha256": "76541a8a41b3c676053d76e989a8e2b06c08e62be967c2f4b168f9c918807206",
+      "bytes": 231085,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/Root_formal60_completion.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_completion_review.json",
+      "sha256": "2d4870cccb8dde289b1e244eb6ebd418b2b0f8da639368c380c779c6c99c750d",
+      "bytes": 12154,
+      "kind": "existing_execution_evidence"
+    },
+    {
+      "path": "experiments/pi05_g1_mobile/checkpoints/frozen60_20261018/Root_recursive_chain60.json",
+      "source_path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_recursive_chain60_review.json",
+      "sha256": "5241d08f8e82d841f2bf59b47d8fcf26043c71ef8485b94a5adb004ff6a47bf2",
+      "bytes": 34266,
+      "kind": "existing_execution_evidence"
+    }
+  ],
+  "new_documentation": [
+    {
+      "path": "experiments/pi05_g1_mobile/README.md",
+      "sha256": "134f8059c686bdc873b87acd5b7e168eb0409005c76c8561566af9cddec58ec8",
+      "bytes": 6304
+    },
+    {
+      "path": "experiments/.gitignore",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "bytes": 23
+    }
+  ],
+  "local_backup": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+  "local_delivery_index": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/delivery_index_zh.html"
+}

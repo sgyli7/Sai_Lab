@@ -1,0 +1,79 @@
+{
+  "schema": "pi05_mobile_independent_archive_audit_actual_CPU_execution_v1",
+  "executor": "data_evaluation_subagent",
+  "authorization": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_unique_independent_archive_audit_CPU_authorization01.json",
+    "sha256": "2d601fca509784fb158631fbbc3ba71a5c999bee66f9785924e6336007e0470f"
+  },
+  "auditor_source": {
+    "path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py",
+    "sha256": "81c20e52fe258ace20385d5e7d643a003558e32174d44f8be1d8cfdee0b2f782"
+  },
+  "actual_argv": [
+    "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/venv/bin/python",
+    "-m",
+    "experiments.pi05_g1_mobile.audit_archive_v5_aliases_v2",
+    "--archive",
+    "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+    "--output",
+    "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json"
+  ],
+  "actual_cwd": "/home/ethan/Projects/Sai_Lab",
+  "actual_environment_override": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "NVIDIA_VISIBLE_DEVICES": "void",
+    "JAX_PLATFORMS": "cpu",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "/home/ethan/Projects/Sai_Lab"
+  },
+  "unknown_inherited_environment": null,
+  "start_utc": "2026-10-18T05:06:42.040150+00:00",
+  "end_utc": "2026-10-18T05:08:29.847756+00:00",
+  "PID": 2283167,
+  "PID_startticks": 48479198,
+  "returncode": 0,
+  "stdout": "{\"status\": \"passed\", \"output\": \"/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json\"}\n",
+  "stderr": "",
+  "stdout_log": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_independent_archive_audit_stdout01.log",
+    "sha256": "e5946eb5e9f48e3f886fc11399a4179069e853520c0fcbf31e967499b0cbb70a"
+  },
+  "stderr_log": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_independent_archive_audit_stderr01.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "status": "completed",
+  "output": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json",
+    "sha256": "9a60edf17026754aba4590cd70a022fb668100e906d2c438c51ef1eb24958f8e",
+    "bytes": 1330
+  },
+  "source_and_backup_unchanged_by_executor": true,
+  "restore_or_GPU_started": false,
+  "performance_goal_achieved": false,
+  "execution_attempts": 1,
+  "actual_audit_summary": {
+    "status": "passed",
+    "errors": [],
+    "counts": {
+      "files": 57128,
+      "directories": 3448,
+      "gzip_files": 1545,
+      "shared_inode_hardlinks": 1401,
+      "logical_bytes": 95100289013,
+      "stored_file_bytes_counted_by_path": 90078889690
+    },
+    "explicit_directory_alias_count": 3,
+    "component_alias_lookups": 175,
+    "required_closure_checked": 1443,
+    "input_bindings_checked": 15292,
+    "all_stored_and_logical_SHA_verified": true,
+    "physical_inode_SHA_cache_entries": 56976,
+    "final_light_fields": {
+      "training_completed": true,
+      "benchmark_primary3x20": true,
+      "paired_offline400_complete": true,
+      "physical_acceptance_recomputed": false
+    }
+  }
+}

@@ -1,0 +1,79 @@
+--- /home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5.py
++++ /home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py
+@@ -1,4 +1,4 @@
+-"""Read-only V5 stored/logical byte audit; no restore, physics or model loading."""
++"""Read-only V5 aliases-aware audit; V1 retained, no original source FS resolution."""
+ import argparse,gzip,hashlib,json,os,re,stat,datetime
+ from pathlib import Path
+ 
+@@ -42,13 +42,34 @@
+     value=json.loads(b''.join(logical_stream(p,row)));check(snapshot(p)==before,'Archived JSON mutated');return value
+ 
+ 
++def directory_aliases(plan):
++    """Validate only archived declarations; never resolve/stat source paths."""
++    def canonical(value,absolute):
++        check(isinstance(value,str),'Alias path must be string');p=Path(value)
++        check(p.is_absolute()==absolute and not value.startswith('//') and bool(p.parts) and str(p)==value and '..' not in p.parts and (not absolute or len(p.parts)>1),'Noncanonical alias path')
++        return p
++    table=plan.get('explicit_directory_alias_sources',[]);check(isinstance(table,list),'Explicit alias table must be list');maps=[];roots=[];destinations=[]
++    for entry in table:
++        check(isinstance(entry,dict) and set(entry)=={'alias','resolved','destination'},'Exact alias/resolved/destination fields required')
++        alias=canonical(entry['alias'],True);resolved=canonical(entry['resolved'],True);dest=canonical(entry['destination'],False)
++        check(alias!=resolved,'Alias cannot equal resolved source')
++        for path in (alias,resolved):
++            check(not any(path==prior or path.is_relative_to(prior) or prior.is_relative_to(path) for prior in roots),'Duplicate/overlapping/ambiguous source alias roots');roots.append(path)
++        check(not any(dest==prior or dest.is_relative_to(prior) or prior.is_relative_to(dest) for prior in destinations),'Duplicate/overlapping alias destinations');destinations.append(dest)
++        paired=[s for s in plan.get('sources',[]) if s.get('path')==str(resolved) and s.get('destination')==str(dest) and s.get('original_alias_path')==str(alias)]
++        check(len(paired)==1,'Alias must pair exactly with archived source path/destination/original_alias_path');maps.append((alias,resolved,dest))
++    declared=[s for s in plan.get('sources',[]) if 'original_alias_path' in s]
++    check(len(declared)==len(maps) and all(sum(s.get('path')==str(r) and s.get('destination')==str(d) and s.get('original_alias_path')==str(a) for a,r,d in maps)==1 for s in declared),'Unpaired/duplicate archived alias source')
++    return maps
++
++
+ def inspect(root):
+     cache={};receipt_path=safe(root,'archive_receipt.json');inventory=safe(root,'inventory.jsonl');plan_path=safe(root,'archive_plan.json')
+     receipt_sha=hash_file(receipt_path,cache);receipt_before=snapshot(receipt_path);receipt=json.loads(receipt_path.read_text())
+     check(receipt.get('schema')=='pi05_g1_mobile_archive_receipt_v5' and receipt.get('archive_complete') is True and receipt.get('status') in ('retained_final','retained_partial'),'Complete V5 receipt required')
+     check(receipt.get('phase') in ('final','partial') and receipt['status']=='retained_'+receipt['phase'],'Receipt phase/status differ')
+     check(hash_file(inventory,cache)==receipt.get('inventory_sha256'),'Inventory SHA differs');inventory_before=snapshot(inventory)
+-    plan_before=snapshot(plan_path);plan=json.loads(plan_path.read_text());check(plan.get('schema')=='pi05_g1_mobile_archive_plan_v1','Archived plan schema differs')
++    plan_before=snapshot(plan_path);plan=json.loads(plan_path.read_text());check(plan.get('schema')=='pi05_g1_mobile_archive_plan_v1','Archived plan schema differs');aliases=directory_aliases(plan);alias_lookups=[0]
+     logical={};stored=set();source_map={};rows=[];verified={};stats={'files':0,'directories':0,'gzip_files':0,'shared_inode_hardlinks':0,'logical_bytes':0,'stored_file_bytes_counted_by_path':0}
+     with inventory.open() as stream:
+         for line in stream:
+@@ -88,7 +109,16 @@
+         for parent in Path(name).parents:
+             check(str(parent) not in logical or logical[str(parent)]['type']=='directory','File ancestor/nested logical collision')
+     def retained(source,digest=None):
+-        matches=[r for r in source_map.get(source,[]) if digest is None or r['sha256']==digest];check(matches,'Required source absent/wrong logicalSHA:'+source);return matches[0]
++        matches=[r for r in source_map.get(source,[]) if digest is None or r['sha256']==digest]
++        if not matches:
++            check(isinstance(source,str),'Source path string required');original=Path(source)
++            check(original.is_absolute() and not source.startswith('//') and str(original)==source and '..' not in original.parts,'Noncanonical retained source lookup')
++            for alias,resolved,destination in aliases:
++                if original.is_relative_to(alias):
++                    suffix=original.relative_to(alias);expected=str(Path('retained')/destination/suffix)
++                    matches.extend(r for r in source_map.get(str(resolved/suffix),[]) if r['logical_relative_path']==expected and (digest is None or r['sha256']==digest))
++            if matches:alias_lookups[0]+=1
++        check(matches,'Required source absent/wrong logicalSHA:'+source);return matches[0]
+     for item in plan.get('required_files',[]):retained(item['path'],item['sha256'])
+     check(bool(plan.get('required_files')) and bool(receipt.get('input_bindings')),'Required closure/bindings missing')
+     for source,h in receipt['input_bindings'].items():retained(source,h)
+@@ -112,14 +142,14 @@
+     check(snapshot(receipt_path)==receipt_before and snapshot(inventory)==inventory_before and snapshot(plan_path)==plan_before,'Archive controlmetadata changed before completion')
+     for row in rows:
+         path=safe(root,row['relative_path']);check(snapshot(path)==verified[str(path)] and hash_file(path,cache)==(row['stored_sha256'] if row['type']=='gzip' else row['sha256']),'Stored file changed before completion')
+-    return {'inventory_sha256':receipt['inventory_sha256'],'archive_receipt_sha256':receipt_sha,'phase':receipt['phase'],'counts':stats,'required_closure_checked':len(plan['required_files']),'input_bindings_checked':len(receipt['input_bindings']),'original_plan_semantic_equal':True,'all_stored_and_logical_SHA_verified':True,'shared_hardlinks_are_not_independent_copies':True,'physical_inode_SHA_cache_entries':len(cache),'final_light_fields':final}
++    return {'inventory_sha256':receipt['inventory_sha256'],'archive_receipt_sha256':receipt_sha,'phase':receipt['phase'],'explicit_directory_alias_count':len(aliases),'component_alias_lookups':alias_lookups[0],'original_source_FS_resolved':False,'counts':stats,'required_closure_checked':len(plan['required_files']),'input_bindings_checked':len(receipt['input_bindings']),'original_plan_semantic_equal':True,'all_stored_and_logical_SHA_verified':True,'shared_hardlinks_are_not_independent_copies':True,'physical_inode_SHA_cache_entries':len(cache),'final_light_fields':final}
+ 
+ 
+ def audit(archive_root,output):
+     root=Path(archive_root).absolute();out=Path(output).absolute()
+     check(not out.exists() and not out.is_symlink() and not any(x.is_symlink() for x in out.parents),'Fresh nonsymlink report path required')
+     check(not out.resolve().is_relative_to(root.resolve()),'Report cannot modify archive tree');out.parent.mkdir(parents=True,exist_ok=True)
+-    report={'schema':'pi05_g1_mobile_archive_independent_audit_v5','status':'failed','started_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'archive':str(root),'read_only':True,'restore_or_GPU_started':False,'errors':[]}
++    report={'schema':'pi05_g1_mobile_archive_independent_audit_aliases_v2','status':'failed','started_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'archive':str(root),'read_only':True,'restore_or_GPU_started':False,'errors':[]}
+     try:
+         check(root.is_dir() and not any(x.is_symlink() for x in [root,*root.parents]),'Archive root symlink/missing');report.update(inspect(root));report['status']='passed'
+     except BaseException as error:report['errors'].append(type(error).__name__+': '+str(error))

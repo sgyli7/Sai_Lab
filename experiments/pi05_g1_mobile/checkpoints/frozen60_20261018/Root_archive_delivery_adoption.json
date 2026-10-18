@@ -1,0 +1,115 @@
+{
+  "schema": "Root_actual_full60_archive_audit_delivery_adoption_v1",
+  "utc": "2026-10-18T05:10:25.135983+00:00",
+  "root_reviewed": true,
+  "archive": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z",
+  "archive_receipt": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z/archive_receipt.json",
+    "sha256": "773e0ea5260a1aa1db6d52e5ea1c42e689d1d981c393bc1444ef2b3f894bdfdf"
+  },
+  "archive_plan": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_20261018T045400Z/archive_plan.json",
+    "sha256": "f6dfd66bd0b88f6075e478076553e5971b3536db49793dd0d664ba9cd83dbc9b"
+  },
+  "inventory_sha256_verified_by_independent_audit": "ead8fede3b746821fdca8e46966c9d1aa8a466b47074c6ab233fff4873d2cbb3",
+  "actual_archive_execution": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_archive_execution01.json",
+    "sha256": "b9c5854951a0185d365b9f9df61e472d83b6b826dac23e9bf5c18c2faaa50037"
+  },
+  "independent_audit": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/independent_archive_audit_aliases_v2_01.json",
+    "sha256": "9a60edf17026754aba4590cd70a022fb668100e906d2c438c51ef1eb24958f8e"
+  },
+  "actual_independent_audit_execution": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/actual_independent_archive_audit_execution01.json",
+    "sha256": "759dffb3b9ff09df270f28e59f364ebab2d1b989cbe49fce3dabe36d22e36866"
+  },
+  "auditor_source": {
+    "path": "/home/ethan/Projects/Sai_Lab/experiments/pi05_g1_mobile/audit_archive_v5_aliases_v2.py",
+    "sha256": "81c20e52fe258ace20385d5e7d643a003558e32174d44f8be1d8cfdee0b2f782"
+  },
+  "sourcefreeze_boundary": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/Root_final60_source_freeze_boundary01.json",
+    "sha256": "21b6f507e087e4d2828128d0c018710e26b2022d9cb1687b9e11df52c87625b2"
+  },
+  "Rootstate_still_exactly_frozen_before_release": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/root_work_state.json",
+    "sha256": "ac1ece107f9a2261e90881eee7c569275c0579c8b18634f8647e0a8ff989e33c"
+  },
+  "full60_executed_manifest_before_archive": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/reproduction_executed_commands_v5_full60.json",
+    "sha256": "c7ba3a267987ddf77b440ba64107d0df207bd7e71639058563f50d6378de358c"
+  },
+  "final_Root_physical_and_completion_proof": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_completion_review.json",
+    "sha256": "2d4870cccb8dde289b1e244eb6ebd418b2b0f8da639368c380c779c6c99c750d"
+  },
+  "recursive_chain60": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/formal_execution_pose_speed/segment_019_v3_preparation/Root_actual_recursive_chain60_review.json",
+    "sha256": "5241d08f8e82d841f2bf59b47d8fcf26043c71ef8485b94a5adb004ff6a47bf2"
+  },
+  "human_readable_scientific_assessment": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/official_reproduction_resume01/final60_delivery_actual01/Root_scientific_assessment_zh.html",
+    "sha256": "9e8c2201b8d711aede996a1474bc2112f5af4e139c7dae645ddfef54823ba98f"
+  },
+  "verified_archive_counts": {
+    "files": 57128,
+    "directories": 3448,
+    "gzip_files": 1545,
+    "shared_inode_hardlinks": 1401,
+    "logical_bytes": 95100289013,
+    "stored_file_bytes_counted_by_path": 90078889690
+  },
+  "explicit_directory_alias_count": 3,
+  "component_alias_lookups": 175,
+  "required_closure_checked": 1443,
+  "input_bindings_checked": 15292,
+  "all_stored_and_logical_SHA_verified": true,
+  "original_plan_semantic_equal": true,
+  "physical_acceptance_recomputed_by_archive_auditor": false,
+  "previous60_physical_audits_not_rerun": true,
+  "all_originals_retained": true,
+  "archive_writes_complete_and_no_more_archive_mutation": true,
+  "immutable_shared_inode_payloads_never_mutated": true,
+  "hardlinks_not_independent_physical_copies": true,
+  "gzip_text_requires_logical_restore_for_original_plain_paths": true,
+  "restore_executed": false,
+  "ledger": {
+    "path": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/gpu_budget.json",
+    "sha256": "76541a8a41b3c676053d76e989a8e2b06c08e62be967c2f4b168f9c918807206"
+  },
+  "closed_rows": 49,
+  "GPU_used_seconds": 40194.56960293202,
+  "hard_remaining_seconds": 3005.430397067983,
+  "stage_remaining_seconds": {
+    "preflight": 0.8940126930906445,
+    "training": 0.3182566750328988,
+    "evaluation": 3004.21812769986
+  },
+  "no_new_GPU_or_training_started": true,
+  "delivery_complete_and_independently_verified": true,
+  "qualified_formal": 60,
+  "qualified_original_video_streams": 120,
+  "actual_physical_positions": 5,
+  "seeds_per_position": 4,
+  "full_success_native_fine_base": [
+    4,
+    1,
+    0
+  ],
+  "qualified_carry_native_fine_base": [
+    20,
+    15,
+    0
+  ],
+  "frozen_full_threshold_per_policy": 16,
+  "performance_goal_achieved": false,
+  "overall_goal_complete": false,
+  "original_archiver_experiment_complete_claim_scope": "Completed experiment evidence, not robot reliability or overall user goal achievement.",
+  "external_control_files_postdate_backup_and_are_not_claimed_inside_it": true,
+  "next_budget_proposal": {
+    "path": "/home/ethan/ProjectBackups/2026-10-17/g1_pi05_mobile_full60_execution_20261018T045400Z/Root_next_performance_repair_budget_proposal_UNAPPROVED01.json",
+    "sha256": "83dedbfa9a1b29a66ae4aea36ac749932aac3faaaca8216ad05a95d0d76ae592"
+  },
+  "new_budget_approved": false
+}
