@@ -1,0 +1,75 @@
+"""Independent collector evidence audit; privileged teacher never counts as VLA."""
+import argparse
+import hashlib
+import json
+from pathlib import Path
+
+import numpy as np
+
+from experiments.pi05_g1_mobile.audit_episodes_v3 import audit_case as raw_audit
+from experiments.lingbot_vla2_g1.data import sha
+from .privileged_teacher import PlacementTeacher
+from .teacher_measurement import teacher_measurement
+
+
+def decoded_evidence(config, result):
+    declaration = config['privileged_TRAIN_teacher']
+    path = Path(config['output_dir']) / 'decoded.jsonl'
+    events = [json.loads(line) for line in path.read_text().splitlines()]
+    if (events[0].get('event') != 'privileged_TRAIN_teacher_loaded'
+            or events[0].get('counts_as_LingBot_success') is not False
+            or events[0].get('autonomous_model_policy') is not False
+            or events[0].get('declaration') != declaration
+            or events[0]['teacher_sha256'] != sha(Path(__file__).with_name('privileged_teacher.py'))):
+        raise ValueError('Actual scripted collector load identity differs')
+    for key in ('source_trace', 'source_result', 'object_geometry', 'robot_geometry'):
+        if sha(declaration[key]) != declaration[key + '_sha256']:
+            raise ValueError('Frozen collector input changed: ' + key)
+    source_rows = [json.loads(line) for line in Path(declaration['source_trace']).read_text().splitlines()]
+    rows = [json.loads(line) for line in (Path(config['output_dir']) / 'trajectory.jsonl').read_text().splitlines()]
+    teacher = PlacementTeacher(source_rows, json.loads(Path(declaration['object_geometry']).read_text()),
+                               json.loads(Path(declaration['robot_geometry']).read_text()), result['body_names'])
+    ticks = list(range(0, result['completed_control_ticks'], 50))
+    if [e['control_tick'] for e in events[1:]] != ticks:
+        raise ValueError('Actual privileged action coverage differs')
+    for tick, event in zip(ticks, events[1:]):
+        expected, diagnostics = teacher.actions(rows[tick])
+        actual = np.asarray(event['actions32'], np.float32)
+        if not np.array_equal(expected, actual) or any(event.get(k) != v for k, v in diagnostics.items()):
+            raise ValueError('Actual collector action/diagnostic is not reproducible: ' + str(tick))
+    return path, events
+
+
+def audit(config_path):
+    with teacher_measurement():
+        report = raw_audit(config_path, decoded_checker=decoded_evidence)
+    report.pop('audit_sha256', None)
+    report.update(schema='lingbot_privileged_TRAIN_teacher_CPU_audit_v1',
+                  autonomous_policy_trial=False, autonomous_model_policy=False,
+                  formal_benchmark_trial=False, counts_as_LingBot_success=False,
+                  privileged_scripted_TRAIN_collection=True,
+                  attribution_source_sha256=sha(Path(__file__).with_name('teacher_measurement.py')),
+                  collector_audit_source_sha256=sha(__file__))
+    report['audit_sha256'] = hashlib.sha256(json.dumps(report, sort_keys=True, allow_nan=False).encode()).hexdigest()
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--config', type=Path, required=True)
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    config = json.loads(args.config.read_text())
+    if args.output.absolute().is_relative_to(Path(config['output_dir']).absolute()):
+        raise ValueError('Audit belongs outside immutable raw episode')
+    report = audit(args.config)
+    with args.output.open('x') as stream:
+        json.dump(report, stream, indent=2, allow_nan=False)
+    print(json.dumps({'passed': report['passed'], 'anomalies': report['anomalies'],
+                      'physical_teacher_success': (report.get('recomputed_acceptance') or {}).get('success'),
+                      'LingBot_success_claim': False}))
+    raise SystemExit(0 if report['passed'] else 2)
+
+
+if __name__ == '__main__':
+    main()

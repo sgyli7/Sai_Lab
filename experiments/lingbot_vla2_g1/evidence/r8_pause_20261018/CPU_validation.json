@@ -1,0 +1,12 @@
+{
+  "schema": "lingbot_R8_pause_CPU_validation_v1",
+  "actual_tests_run": 40,
+  "failures": 0,
+  "errors": 0,
+  "GPU_initialized": false,
+  "command": "PYTHONDONTWRITEBYTECODE=1 .scratch/lingbot_vla2_g1/venv/bin/python -m unittest experiments.lingbot_vla2_g1.tests.test_body_preserving_training experiments.lingbot_vla2_g1.tests.test_robust_training_v8 experiments.lingbot_vla2_g1.tests.test_round08_roles experiments.lingbot_vla2_g1.formal_task_v7.tests.test_cpu_gates",
+  "scope": "CPU recipe, real CPU optimizer toy, candidate-role and formal gates. Synthetic CPU fixtures never count as robot task successes.",
+  "actual_TRAIN_probe_inputs_verified": 12,
+  "actual_GPU_probe_predictions": 24,
+  "same_physical_task_or_new_formal_run_performed_by_tests": false
+}

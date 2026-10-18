@@ -1,0 +1,255 @@
+{
+  "schema": "lingbot_R8_pause_publication_status_v1",
+  "date": "2026-10-18",
+  "status": "paused_at_user_request_after_publication",
+  "task_goal_complete": false,
+  "full_task_accepted": false,
+  "R8_formal20_run": false,
+  "R8_new_updates": 200,
+  "deployed_weight_lineage_updates": 2240,
+  "rejected_R7_in_lineage": false,
+  "weight_sha256": "973fa928d0c5096763eac47b1c9270af5d6449156b4eaf4622d79f9b8eca8d1f",
+  "metadata_sha256": "cc345406521865b8051ae32da927983a1f0e84762a92d1e567a95f8fa849014f",
+  "complete_original_validation": {
+    "total_loss": 0.164517608623613,
+    "flow_loss": 0.16306849062055737,
+    "frames": 9240,
+    "chunks": 190,
+    "episodes": 10,
+    "complete": true,
+    "noise_seed": 42
+  },
+  "R8_fresh_development": [
+    {
+      "index": 0,
+      "case_id": "round08_fresh_grasp20",
+      "original_audit": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/round08_development_preparation/execution/case_00_independent_audit.json",
+      "original_audit_sha256": "ae94b173cdd298cd4ae835deeaf8340a65da36a8701138467eedf978aa01df3d",
+      "passed": true,
+      "autonomous_policy_trial": true,
+      "checks": {
+        "physical_counter_timing": {
+          "passed": true
+        },
+        "initial_kinematic_sha": {
+          "passed": true
+        },
+        "actual_runtime_identity": {
+          "passed": true
+        },
+        "actions": {
+          "passed": true
+        },
+        "policy_feedback": {
+          "passed": true
+        },
+        "videos": {
+          "passed": true
+        },
+        "acceptance": {
+          "passed": true
+        }
+      },
+      "anomalies": [],
+      "outcome": {
+        "schema": "pi05_g1_mobile_acceptance_v1",
+        "success": false,
+        "task_family": "long5m_open_aisle",
+        "grasped": true,
+        "first_grasp_control_tick": 138,
+        "carry_qualified_control_tick": null,
+        "source_target_distance_m": 5.1369230426017225,
+        "max_carried_box_displacement_m": 1.3919995987007026,
+        "contact_qualified_carried_path_m": 3.473895491407082,
+        "carry_turn_degrees": 86.86775318854475,
+        "hand_contact_gap_events_before_arrival": 2,
+        "largest_hand_contact_gap_seconds": 0.24,
+        "contact_gap_note": "Last200Hz solve sampled at50Hz; lack of sampled hand force alone is not a proven dropped object.",
+        "stable_placement": false,
+        "qualified_stability_window": null,
+        "max_ready_span_seconds": 0.0,
+        "fell": false,
+        "dropped": false,
+        "timeout": true,
+        "termination_reasons": [
+          "carry_distance_short",
+          "no_released_stable_placement"
+        ],
+        "task_sim_seconds": 20.0,
+        "task_wall_seconds": 262.136970869,
+        "policy_external_interventions": 0,
+        "intervention_rule": "Policy-only runner admits no external navigation/actor-pose/control input; diagnostic/replay never count as autonomous trials.",
+        "actual_control_ticks": 1000,
+        "physics_integrations": 4000,
+        "placement_rule": {
+          "task_family": "long5m_open_aisle",
+          "minimum_source_target_distance_m": 5.0,
+          "minimum_carried_displacement_m": 4.0,
+          "minimum_carry_turn_degrees": 60.0,
+          "stable_seconds": 2.0,
+          "stable_position_m": 0.005,
+          "stable_angle_degrees": 5.0
+        },
+        "measurement_source": {
+          "schema": "pi05_g1_mobile_pose_difference_speed_v1",
+          "linear_speed_source": "Adjacent recorded box actor-origin world position difference divided by strict0.02s",
+          "sampling_hz": 50,
+          "first_sample_undefined_and_ineligible": true,
+          "first_sample_finite_sentinel_m_s": 1000000.0,
+          "raw_SDK_velocity6_retained_unchanged": true,
+          "angular_speed_source": "Original raw SDK box velocity[3:6], unchanged angular<0.1rad/s gate",
+          "placement_linear_speed_threshold_m_s": 0.02,
+          "all_other_acceptance_math_and_thresholds_unchanged": true,
+          "original_acceptance_sha256": "303cf7d1ba59ad0e055ad8dd6933638449b6533c31319a6b351d6414db1b3b7e",
+          "body_adapter_sha256": "f73f6785c925645d1309613ef2b37afe789ce5b944c9ddfc44baa6002adb5459",
+          "measurement_module_sha256": "1790afba45148e3a16506a9646575d52bf53b78f6b354e2b3744712849273815",
+          "scope": "Sampled pose motion, not continuous-time stillness or an explanation of SDK velocity-position discrepancy"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "case_id": "round08_fresh_full60",
+      "original_audit": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/round08_development_preparation/execution/case_01_independent_audit.json",
+      "original_audit_sha256": "5349805bea02a188c3c301c25f9441844e9051c25792c00204536758c54f7654",
+      "passed": true,
+      "autonomous_policy_trial": true,
+      "checks": {
+        "physical_counter_timing": {
+          "passed": true
+        },
+        "initial_kinematic_sha": {
+          "passed": true
+        },
+        "actual_runtime_identity": {
+          "passed": true
+        },
+        "actions": {
+          "passed": true
+        },
+        "policy_feedback": {
+          "passed": true
+        },
+        "videos": {
+          "passed": true
+        },
+        "acceptance": {
+          "passed": true
+        }
+      },
+      "anomalies": [],
+      "outcome": {
+        "schema": "pi05_g1_mobile_acceptance_v1",
+        "success": false,
+        "task_family": "long5m_open_aisle",
+        "grasped": true,
+        "first_grasp_control_tick": 165,
+        "carry_qualified_control_tick": 1953,
+        "source_target_distance_m": 5.152524933997048,
+        "max_carried_box_displacement_m": 4.947983440852739,
+        "contact_qualified_carried_path_m": 12.094816143616734,
+        "carry_turn_degrees": 107.706914783513,
+        "hand_contact_gap_events_before_arrival": 2,
+        "largest_hand_contact_gap_seconds": 0.02,
+        "contact_gap_note": "Last200Hz solve sampled at50Hz; lack of sampled hand force alone is not a proven dropped object.",
+        "stable_placement": false,
+        "qualified_stability_window": null,
+        "max_ready_span_seconds": 0.0,
+        "fell": false,
+        "dropped": false,
+        "timeout": true,
+        "termination_reasons": [
+          "no_released_stable_placement"
+        ],
+        "task_sim_seconds": 60.0,
+        "task_wall_seconds": 614.800508598,
+        "policy_external_interventions": 0,
+        "intervention_rule": "Policy-only runner admits no external navigation/actor-pose/control input; diagnostic/replay never count as autonomous trials.",
+        "actual_control_ticks": 3000,
+        "physics_integrations": 12000,
+        "placement_rule": {
+          "task_family": "long5m_open_aisle",
+          "minimum_source_target_distance_m": 5.0,
+          "minimum_carried_displacement_m": 4.0,
+          "minimum_carry_turn_degrees": 60.0,
+          "stable_seconds": 2.0,
+          "stable_position_m": 0.005,
+          "stable_angle_degrees": 5.0
+        },
+        "measurement_source": {
+          "schema": "pi05_g1_mobile_pose_difference_speed_v1",
+          "linear_speed_source": "Adjacent recorded box actor-origin world position difference divided by strict0.02s",
+          "sampling_hz": 50,
+          "first_sample_undefined_and_ineligible": true,
+          "first_sample_finite_sentinel_m_s": 1000000.0,
+          "raw_SDK_velocity6_retained_unchanged": true,
+          "angular_speed_source": "Original raw SDK box velocity[3:6], unchanged angular<0.1rad/s gate",
+          "placement_linear_speed_threshold_m_s": 0.02,
+          "all_other_acceptance_math_and_thresholds_unchanged": true,
+          "original_acceptance_sha256": "303cf7d1ba59ad0e055ad8dd6933638449b6533c31319a6b351d6414db1b3b7e",
+          "body_adapter_sha256": "f73f6785c925645d1309613ef2b37afe789ce5b944c9ddfc44baa6002adb5459",
+          "measurement_module_sha256": "1790afba45148e3a16506a9646575d52bf53b78f6b354e2b3744712849273815",
+          "scope": "Sampled pose motion, not continuous-time stillness or an explanation of SDK velocity-position discrepancy"
+        }
+      }
+    }
+  ],
+  "final_placement_sample": {
+    "tick": 3000,
+    "grasp_contact_lift_proxy": true,
+    "contacting_hand_bodies": 3,
+    "left_hand_contact": true,
+    "right_hand_contact": true,
+    "bin_floor_margin_m": -0.1491600189800813,
+    "box_inside_bin_prism": false,
+    "bin_upward_force_n": 0.0,
+    "released_separation_proved": false,
+    "minimum_robot_aabb_gap_m": null,
+    "box_speed_m_s": 0.027418694607600432,
+    "box_angular_speed_rad_s": 0.38030266428240356,
+    "standing": true,
+    "fell": false,
+    "ground_drop": false,
+    "placement_ready": false
+  },
+  "actual_TRAIN_probe_summary": {
+    "height_RMSE_mean_m": 0.015757485273449372,
+    "arms_RMSE_mean_rad": 0.05389592299858729,
+    "TRAIN_lowering_response_observed": true,
+    "conclusions": [
+      "The identical R8 checkpoint infers lower heights on the actual successful TRAIN observations; a universal inability to output lowering or a fixed-height decoder is contradicted.",
+      "Autonomous R8 still failed alignment/lowering/release on its fresh scene. The current probe does not prove a unique cause; placement-context distribution shift and XY alignment remain the next targeted hypotheses.",
+      "No new optimizer update, new teacher collection, or formal evaluation was performed by this probe."
+    ]
+  },
+  "resources": {
+    "closed_runs": 55,
+    "all_owned_GPU_runs_closed": true,
+    "owned_waiting_GPU_tickets": 0,
+    "charged_GPU_seconds": 42628.718150167144,
+    "charged_GPU_seconds_by_stage": {
+      "training": 16693.53126521001,
+      "evaluation": 25085.93993752118,
+      "preflight": 849.2469474359532
+    },
+    "active_allocation": "budget_reallocated_v7",
+    "total_limit_seconds": 57600,
+    "stage_limits_seconds": {
+      "training": 16800,
+      "evaluation": 39600,
+      "preflight": 1200
+    },
+    "R8_training_GPU_seconds": 1371.0660723920446,
+    "R8_development_GPU_seconds": 1013.5384622059646,
+    "R8_TRAIN_probe_GPU_seconds": 134.31925648095785
+  },
+  "local_storage": {
+    "working_entry": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1",
+    "dated_run_archive": "/home/ethan/ProjectBackups/2026-10-18/LingBotVLA2_G1_run_01a145c6_paused_20261018",
+    "working_entry_will_alias_dated_archive": true,
+    "checkpoint_entry": "/home/ethan/ProjectBackups/LingBotVLA2_G1_checkpoints_20261017T045028Z",
+    "dated_checkpoint_archive": "/home/ethan/ProjectBackups/2026-10-18/LingBotVLA2_G1_checkpoints_20261017T045028Z"
+  },
+  "publication": "Source, small actual results, identities and resume instructions. All unique weights, raw traces and videos retained in local dated archives; not included as Git blobs.",
+  "new_optimization_or_GPU_job_after_pause_request": false
+}

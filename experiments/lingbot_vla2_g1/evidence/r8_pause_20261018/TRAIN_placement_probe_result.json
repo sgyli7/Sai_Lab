@@ -1,0 +1,444 @@
+{
+  "schema": "lingbot_R8_TRAIN_placement_fit_execution_v1",
+  "status": "completed",
+  "UTC": "2026-10-18T05:22:03.518070+00:00",
+  "manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/diagnostics/R8_TRAIN_placement_fit_probe_manifest.json",
+  "manifest_sha256": "4f307ae2acaf0a2f54ce5119e403c04a38f5ce0e9956b6a330bd27ce319ab45e",
+  "model_weights_sha256": "973fa928d0c5096763eac47b1c9270af5d6449156b4eaf4622d79f9b8eca8d1f",
+  "model_metadata_sha256": "cc345406521865b8051ae32da927983a1f0e84762a92d1e567a95f8fa849014f",
+  "TRAIN_only": true,
+  "formal_trajectories_used": false,
+  "new_optimizer_updates": false,
+  "samples": 12,
+  "predictions_per_sample": 2,
+  "sampling_adapter": "coherent_antithetic_two_predictions_v1",
+  "payload": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/R8_TRAIN_placement_fit_probe01/execution/actual_predictions.npz",
+  "payload_sha256": "e14896275b8190abdf79f9da7b5aa93a8371729b03d48f1229cac9e0852c8b06",
+  "records": [
+    {
+      "family": "privileged_recovery_teacher04",
+      "tick": 2150,
+      "target_fit": {
+        "arms_rad": 0.03316415846347809,
+        "hands_rad": 0.0,
+        "height_m": 0.02017008140683174,
+        "base_xy_m_s": 0.01246606931090355,
+        "yaw_rad_s": 0.012915280647575855
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.044174566864967346,
+          "hands_rad": 0.0,
+          "height_m": 0.025614092126488686,
+          "base_xy_m_s": 0.01428557001054287,
+          "yaw_rad_s": 0.017145831137895584
+        },
+        {
+          "arms_rad": 0.056326061487197876,
+          "hands_rad": 0.0,
+          "height_m": 0.015114692971110344,
+          "base_xy_m_s": 0.01607995294034481,
+          "yaw_rad_s": 0.013473810628056526
+        }
+      ],
+      "target_height_chunk_mean_m": 0.7360295653343201,
+      "inferred_height_chunk_mean_m": 0.7542911767959595,
+      "native_each_height_chunk_mean_m": [
+        0.7601407766342163,
+        0.7484415173530579
+      ],
+      "elapsed_inference_seconds": 1.9778801850043237,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher04",
+      "tick": 2300,
+      "target_fit": {
+        "arms_rad": 0.04475603997707367,
+        "hands_rad": 0.0,
+        "height_m": 0.01501512248069048,
+        "base_xy_m_s": 0.006924525834619999,
+        "yaw_rad_s": 0.010813324712216854
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.03855487331748009,
+          "hands_rad": 0.0,
+          "height_m": 0.008749815635383129,
+          "base_xy_m_s": 0.009712593629956245,
+          "yaw_rad_s": 0.014043650589883327
+        },
+        {
+          "arms_rad": 0.07992038130760193,
+          "hands_rad": 0.0,
+          "height_m": 0.03735257685184479,
+          "base_xy_m_s": 0.008797128684818745,
+          "yaw_rad_s": 0.01093316450715065
+        }
+      ],
+      "target_height_chunk_mean_m": 0.6310296058654785,
+      "inferred_height_chunk_mean_m": 0.6168348789215088,
+      "native_each_height_chunk_mean_m": [
+        0.6391801238059998,
+        0.594489574432373
+      ],
+      "elapsed_inference_seconds": 1.0989771270542406,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher04",
+      "tick": 2450,
+      "target_fit": {
+        "arms_rad": 0.04189291596412659,
+        "hands_rad": 0.0,
+        "height_m": 0.011136327870190144,
+        "base_xy_m_s": 0.0057260929606854916,
+        "yaw_rad_s": 0.010597086511552334
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.06494434922933578,
+          "hands_rad": 0.0,
+          "height_m": 0.026394905522465706,
+          "base_xy_m_s": 0.008902191184461117,
+          "yaw_rad_s": 0.013266602531075478
+        },
+        {
+          "arms_rad": 0.06587419658899307,
+          "hands_rad": 0.0,
+          "height_m": 0.012084259651601315,
+          "base_xy_m_s": 0.009508486837148666,
+          "yaw_rad_s": 0.011823168024420738
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5260295271873474,
+      "inferred_height_chunk_mean_m": 0.5354350805282593,
+      "native_each_height_chunk_mean_m": [
+        0.5520495176315308,
+        0.518820583820343
+      ],
+      "elapsed_inference_seconds": 1.0944579060305841,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher04",
+      "tick": 2600,
+      "target_fit": {
+        "arms_rad": 0.03261828050017357,
+        "hands_rad": 0.0,
+        "height_m": 0.0035302445758134127,
+        "base_xy_m_s": 0.043402429670095444,
+        "yaw_rad_s": 0.013729890808463097
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.035655997693538666,
+          "hands_rad": 0.0,
+          "height_m": 0.011960226111114025,
+          "base_xy_m_s": 0.036359842866659164,
+          "yaw_rad_s": 0.019105706363916397
+        },
+        {
+          "arms_rad": 0.08138131350278854,
+          "hands_rad": 0.0,
+          "height_m": 0.017095716670155525,
+          "base_xy_m_s": 0.05408356338739395,
+          "yaw_rad_s": 0.01461748592555523
+        }
+      ],
+      "target_height_chunk_mean_m": 0.47387951612472534,
+      "inferred_height_chunk_mean_m": 0.47116619348526,
+      "native_each_height_chunk_mean_m": [
+        0.48443564772605896,
+        0.45789679884910583
+      ],
+      "elapsed_inference_seconds": 1.0928063570172526,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher08",
+      "tick": 2000,
+      "target_fit": {
+        "arms_rad": 0.04836510494351387,
+        "hands_rad": 0.0,
+        "height_m": 0.01587332971394062,
+        "base_xy_m_s": 0.012246028520166874,
+        "yaw_rad_s": 0.004784297663718462
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.046008944511413574,
+          "hands_rad": 0.0,
+          "height_m": 0.02422674186527729,
+          "base_xy_m_s": 0.013338177464902401,
+          "yaw_rad_s": 0.00875100027769804
+        },
+        {
+          "arms_rad": 0.07872956991195679,
+          "hands_rad": 0.0,
+          "height_m": 0.008410266600549221,
+          "base_xy_m_s": 0.015397801995277405,
+          "yaw_rad_s": 0.00917126052081585
+        }
+      ],
+      "target_height_chunk_mean_m": 0.7349150776863098,
+      "inferred_height_chunk_mean_m": 0.7487602829933167,
+      "native_each_height_chunk_mean_m": [
+        0.7573752403259277,
+        0.7401452660560608
+      ],
+      "elapsed_inference_seconds": 1.0903876540251076,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher08",
+      "tick": 2200,
+      "target_fit": {
+        "arms_rad": 0.03614167124032974,
+        "hands_rad": 0.0,
+        "height_m": 0.00880249310284853,
+        "base_xy_m_s": 0.008690566755831242,
+        "yaw_rad_s": 0.006396415177732706
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.06084871664643288,
+          "hands_rad": 0.0,
+          "height_m": 0.02913851849734783,
+          "base_xy_m_s": 0.010673398151993752,
+          "yaw_rad_s": 0.010248623788356781
+        },
+        {
+          "arms_rad": 0.059648577123880386,
+          "hands_rad": 0.0,
+          "height_m": 0.01583949103951454,
+          "base_xy_m_s": 0.01037691906094551,
+          "yaw_rad_s": 0.008385075256228447
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5949150323867798,
+      "inferred_height_chunk_mean_m": 0.6025815606117249,
+      "native_each_height_chunk_mean_m": [
+        0.6239184141159058,
+        0.581244707107544
+      ],
+      "elapsed_inference_seconds": 1.0739825810305774,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher08",
+      "tick": 2400,
+      "target_fit": {
+        "arms_rad": 0.0665416270494461,
+        "hands_rad": 0.0,
+        "height_m": 0.03799829259514809,
+        "base_xy_m_s": 0.006559503264725208,
+        "yaw_rad_s": 0.011683478951454163
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.06856052577495575,
+          "hands_rad": 0.0,
+          "height_m": 0.020414775237441063,
+          "base_xy_m_s": 0.010371459648013115,
+          "yaw_rad_s": 0.01420652586966753
+        },
+        {
+          "arms_rad": 0.09336622804403305,
+          "hands_rad": 0.0,
+          "height_m": 0.0569818876683712,
+          "base_xy_m_s": 0.010227025486528873,
+          "yaw_rad_s": 0.012997950427234173
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5777649879455566,
+      "inferred_height_chunk_mean_m": 0.5401082634925842,
+      "native_each_height_chunk_mean_m": [
+        0.5593052506446838,
+        0.5209112763404846
+      ],
+      "elapsed_inference_seconds": 1.0785091209691018,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher08",
+      "tick": 2600,
+      "target_fit": {
+        "arms_rad": 0.07672026753425598,
+        "hands_rad": 0.0,
+        "height_m": 0.021905526518821716,
+        "base_xy_m_s": 0.005812990479171276,
+        "yaw_rad_s": 0.01566290855407715
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.060134369879961014,
+          "hands_rad": 0.0,
+          "height_m": 0.009792987257242203,
+          "base_xy_m_s": 0.010532142594456673,
+          "yaw_rad_s": 0.018403520807623863
+        },
+        {
+          "arms_rad": 0.11452803015708923,
+          "hands_rad": 0.0,
+          "height_m": 0.03820933401584625,
+          "base_xy_m_s": 0.01044081337749958,
+          "yaw_rad_s": 0.016446080058813095
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5427650809288025,
+      "inferred_height_chunk_mean_m": 0.5213539600372314,
+      "native_each_height_chunk_mean_m": [
+        0.5379560589790344,
+        0.5047518014907837
+      ],
+      "elapsed_inference_seconds": 1.090145219990518,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher09",
+      "tick": 2100,
+      "target_fit": {
+        "arms_rad": 0.09341718256473541,
+        "hands_rad": 0.0,
+        "height_m": 0.016860708594322205,
+        "base_xy_m_s": 0.013088827021420002,
+        "yaw_rad_s": 0.0077651496976614
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.06405708193778992,
+          "hands_rad": 0.0,
+          "height_m": 0.020747506991028786,
+          "base_xy_m_s": 0.01764565519988537,
+          "yaw_rad_s": 0.013014526106417179
+        },
+        {
+          "arms_rad": 0.1312101185321808,
+          "hands_rad": 0.0,
+          "height_m": 0.01338981930166483,
+          "base_xy_m_s": 0.024358859285712242,
+          "yaw_rad_s": 0.015122164972126484
+        }
+      ],
+      "target_height_chunk_mean_m": 0.734722912311554,
+      "inferred_height_chunk_mean_m": 0.7487142086029053,
+      "native_each_height_chunk_mean_m": [
+        0.7530156970024109,
+        0.744412899017334
+      ],
+      "elapsed_inference_seconds": 1.0931234050076455,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher09",
+      "tick": 2250,
+      "target_fit": {
+        "arms_rad": 0.07050509750843048,
+        "hands_rad": 0.0,
+        "height_m": 0.023164823651313782,
+        "base_xy_m_s": 0.008571658283472061,
+        "yaw_rad_s": 0.003408147022128105
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.07216482609510422,
+          "hands_rad": 0.0,
+          "height_m": 0.05001993104815483,
+          "base_xy_m_s": 0.010090420953929424,
+          "yaw_rad_s": 0.0072174519300460815
+        },
+        {
+          "arms_rad": 0.09896355867385864,
+          "hands_rad": 0.0,
+          "height_m": 0.011719556525349617,
+          "base_xy_m_s": 0.012548360973596573,
+          "yaw_rad_s": 0.009622305631637573
+        }
+      ],
+      "target_height_chunk_mean_m": 0.6297229528427124,
+      "inferred_height_chunk_mean_m": 0.6522312760353088,
+      "native_each_height_chunk_mean_m": [
+        0.6796954870223999,
+        0.624767005443573
+      ],
+      "elapsed_inference_seconds": 1.0835875589982606,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher09",
+      "tick": 2400,
+      "target_fit": {
+        "arms_rad": 0.05682667717337608,
+        "hands_rad": 0.0,
+        "height_m": 0.010099876672029495,
+        "base_xy_m_s": 0.0060594817623496056,
+        "yaw_rad_s": 0.009248141199350357
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.0699935182929039,
+          "hands_rad": 0.0,
+          "height_m": 0.014698653481900692,
+          "base_xy_m_s": 0.008629285730421543,
+          "yaw_rad_s": 0.01340837124735117
+        },
+        {
+          "arms_rad": 0.08263814449310303,
+          "hands_rad": 0.0,
+          "height_m": 0.030731085687875748,
+          "base_xy_m_s": 0.009751683101058006,
+          "yaw_rad_s": 0.010283319279551506
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5775729417800903,
+      "inferred_height_chunk_mean_m": 0.5684487819671631,
+      "native_each_height_chunk_mean_m": [
+        0.5898655652999878,
+        0.5470319986343384
+      ],
+      "elapsed_inference_seconds": 1.099996238015592,
+      "task_success_claim": false
+    },
+    {
+      "family": "privileged_recovery_teacher09",
+      "tick": 2600,
+      "target_fit": {
+        "arms_rad": 0.045802053064107895,
+        "hands_rad": 0.0,
+        "height_m": 0.004532996099442244,
+        "base_xy_m_s": 0.005193457473069429,
+        "yaw_rad_s": 0.010662602260708809
+      },
+      "native_each_target_fit": [
+        {
+          "arms_rad": 0.046853210777044296,
+          "hands_rad": 0.0,
+          "height_m": 0.017507918179035187,
+          "base_xy_m_s": 0.00897160917520523,
+          "yaw_rad_s": 0.014153939671814442
+        },
+        {
+          "arms_rad": 0.08809029310941696,
+          "hands_rad": 0.0,
+          "height_m": 0.019942507147789,
+          "base_xy_m_s": 0.009769630618393421,
+          "yaw_rad_s": 0.01189409103244543
+        }
+      ],
+      "target_height_chunk_mean_m": 0.5425729155540466,
+      "inferred_height_chunk_mean_m": 0.5405017733573914,
+      "native_each_height_chunk_mean_m": [
+        0.558075487613678,
+        0.5229280591011047
+      ],
+      "elapsed_inference_seconds": 1.09045605402207,
+      "task_success_claim": false
+    }
+  ],
+  "elapsed_seconds": 111.67765778204193,
+  "parameter_elements": 6375906359,
+  "trainable_elements": 1938090551,
+  "actual_autonomous_task_success_established": false,
+  "overall_robot_goal_completed": false
+}

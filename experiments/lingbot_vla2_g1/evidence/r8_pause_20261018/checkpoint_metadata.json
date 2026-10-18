@@ -1,0 +1,135 @@
+{
+  "base_receipt_sha256": "935cb6f891d13ce1afdd91e32000f1eba162bf9ff6a576b96fd26febb3024ac1",
+  "norm_path": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/train_meanstd.json",
+  "norm_sha256": "d71ba7b5496b59779a2faee448b3927d3b417801e569951c44ac0cad3e2f689a",
+  "contract_sha256": "490864f63333a3424fe4f2ad2b53e335be604aca8b1cb5debe88eb07c1ca197a",
+  "split_sha256": "b5333c4e97c497518d50d637ab3f9234f1ded9c9ca3afb6a13e9e3de519b30f3",
+  "runtime_overlay_receipt_sha256": "41b1f0a566badd75723bad4df7e6078644b004a3c29dc3042773735296375440",
+  "new_source_best_permanent_path": "/home/ethan/ProjectBackups/LingBotVLA2_G1_checkpoints_20261017T045028Z/training_task_round08_source_best",
+  "prompt": "Pick up the brown box from the shelf, and place it into the blue bin on the table located at the right of the shelf.",
+  "test_opened": false,
+  "initial_delta": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/training_task_round06/final",
+  "initial_weights_sha256": "f7403098fff697a034022bbbb00369f9f3cf065fd953bbcdc9fbf0e2dbd8b8c5",
+  "initial_metadata_sha256": "b3f7e7d020dee6a3d65e7270515408cc6047d601135f0b75194e43f18790fe2b",
+  "initial_training_result_sha256": "c4a7e4ddb873dd722c819131072d10d6a0025ed706778619a38b4e82a1d6a482",
+  "initial_validation": {
+    "total_loss": 0.1719499938770548,
+    "flow_loss": 0.17052397575406802,
+    "frames": 9240,
+    "chunks": 190,
+    "episodes": 10,
+    "complete": true,
+    "noise_seed": 42
+  },
+  "initial_step": 240,
+  "initial_total_optimizer_updates": 2040,
+  "source_best_reference_delta": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/training_round02/selected",
+  "source_best_reference_validation": {
+    "total_loss": 0.16677311486625052,
+    "flow_loss": 0.16529748874083483,
+    "frames": 9240,
+    "chunks": 190,
+    "episodes": 10,
+    "complete": true,
+    "noise_seed": 42
+  },
+  "source_validation_best_reference_provenance": {
+    "origin": "inherited_R2",
+    "lineage_updates": 1000,
+    "R8_updates": 0,
+    "metadata_sha256": "941872b0a63de29dae57a25f761fa444ade8ccea07c5872c6842532e55cee0e8",
+    "weights_sha256": "460e8473ca1bee7de91326d3610a6dc942612a717b1046f07d4cd0a43c02d0bb"
+  },
+  "carry_prefix_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/prepared/carry_prefix_native201/manifest.json",
+  "carry_prefix_manifest_sha256": "3dab70a1de3b387197fabbbf73cb83af1db0eebe4e6c146f6d7577238d00b9df",
+  "new_carry_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/prepared/fresh_native2026101702_carry_prefix/manifest.json",
+  "new_carry_manifest_sha256": "c70a85f8ba6eb63a013af9f8e1d1934db43c42b0521eb9b92d098494f5c032f6",
+  "full_teacher_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/prepared/privileged_placement_teacher01/manifest.json",
+  "full_teacher_manifest_sha256": "6759d9780c006455cbc26219a22a3508a5fbde0369c0a14740e7303ebb187c35",
+  "recovery_teacher_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/prepared/privileged_recovery_teacher09/manifest.json",
+  "recovery_teacher_manifest_sha256": "63b51555c95ae222058317f9ba13b0d68de71513514df6e2e110cfe5111043f2",
+  "intermediate_recovery_teacher_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/prepared/privileged_recovery_teacher08/manifest.json",
+  "intermediate_recovery_teacher_manifest_sha256": "090a6c8efb7f0ba023ed489d96c66bce62561dc77dab01ca21ea33db3be8bc5c",
+  "training_loss_weighting": {
+    "schema": "lingbot_TRAIN_body4_weighted_native_mask_v1",
+    "effective32_body_indices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "native55_body_slots": [
+      30,
+      36,
+      37,
+      38
+    ],
+    "body4_weight": 4.0,
+    "other_valid_weight": 1.0,
+    "padded_or_unused_weight": 0.0,
+    "TRAIN_only": true,
+    "original_validation_unit_weights": true
+  },
+  "validation_loss_weighting": "original_unit_valid_mask",
+  "rejected_R7_not_in_weight_lineage": true,
+  "prior_recovery_teacher_manifest": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/prepared/privileged_recovery_teacher04/manifest.json",
+  "prior_recovery_teacher_manifest_sha256": "921b124027de8df2aa3b16a0150700470172d40d5a4632328a34d6e128f0bc16",
+  "task_success_teacher": true,
+  "teacher_is_LingBot_success": false,
+  "teacher_autonomous_model_policy": false,
+  "optimizer_resume": false,
+  "training_source_weights": {
+    "original80TRAIN": 0.1,
+    "carry_prefixes": 0.2,
+    "full_scripted_TRAIN": 0.25,
+    "recovery_scripted_TRAIN": 0.45
+  },
+  "full_teacher_phase_probabilities": {
+    "approach_grasp": 0.3,
+    "transport": 0.45,
+    "placement": 0.25
+  },
+  "recovery_teacher_phase_probabilities": {
+    "approach_grasp": 0.1,
+    "transport": 0.3,
+    "alignment": 0.3,
+    "lower_release": 0.3
+  },
+  "full_teacher_used_for_normalizer_fit": false,
+  "state_augmentation": {
+    "eligible_families": [
+      "carry_prefixes",
+      "full_scripted_TRAIN",
+      "recovery_scripted_TRAIN"
+    ],
+    "probability": 0.5,
+    "arm_raw_std_rad": 0.04,
+    "arm_clip_rad": 0.12,
+    "waist_raw_std_rad": 0.01,
+    "waist_clip_rad": 0.03,
+    "finger_state_and_padding_unchanged": true,
+    "stored_data_RGB_targets_masks_and_normalization_unchanged": true,
+    "synthetic_TRAIN_measurement_noise_only": true
+  },
+  "original80train_norm_unchanged": true,
+  "former_nonformal_development_scene_explicitly_reclassified_TRAIN": true,
+  "fresh_independent_development_cohort_required": true,
+  "formal_or_original_test_trajectories_used_for_training": false,
+  "physical_candidate_selection": "Prospectively evaluate final actual R8 optimizer boundary; original-validation best retained separately. No formal trajectory informs training.",
+  "step": 200,
+  "validation": {
+    "total_loss": 0.164517608623613,
+    "flow_loss": 0.16306849062055737,
+    "frames": 9240,
+    "chunks": 190,
+    "episodes": 10,
+    "complete": true,
+    "noise_seed": 42
+  },
+  "model_weight_lineage_optimizer_updates": 2240,
+  "selected_by": "Complete original10 validation flow_loss strictly below inherited R2 best",
+  "weights_sha256": "973fa928d0c5096763eac47b1c9270af5d6449156b4eaf4622d79f9b8eca8d1f",
+  "weights_bytes": 3876326766,
+  "tensor_count": 959,
+  "optimizer_saved": false
+}

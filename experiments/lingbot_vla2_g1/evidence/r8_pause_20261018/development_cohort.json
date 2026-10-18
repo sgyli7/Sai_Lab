@@ -1,0 +1,116 @@
+{
+  "schema": "lingbot_round08_physical_development_cohort_v1",
+  "created_utc": "2026-10-18T03:47:34.734717+00:00",
+  "cohort_frozen_before_new_training_completed": true,
+  "cases": [
+    {
+      "case_id": "round08_fresh_grasp20",
+      "cluster_id": "round08_fresh_development",
+      "seed": 2026101811,
+      "nominal_xy_offset_m": [
+        -0.0125,
+        -0.0075
+      ],
+      "scene": {
+        "bin_pose": {
+          "position_xyz": [
+            -0.245,
+            -4.9,
+            -0.2641
+          ],
+          "rotation_xyzw": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "box_pose": {
+          "position_xyz": [
+            0.565999972820282,
+            0.17250000715255737,
+            0.07069999724626541
+          ],
+          "rotation_xyzw": [
+            -4.371138828673793e-08,
+            1.0,
+            -4.371138828673793e-08,
+            1.910685465164705e-15
+          ]
+        }
+      },
+      "episode_seconds": 20.0,
+      "ticks": 1000,
+      "purpose": "Fresh independent R8 grasp regression"
+    },
+    {
+      "case_id": "round08_fresh_full60",
+      "cluster_id": "round08_fresh_development",
+      "seed": 2026101813,
+      "nominal_xy_offset_m": [
+        -0.0075,
+        0.0075
+      ],
+      "scene": {
+        "bin_pose": {
+          "position_xyz": [
+            -0.245,
+            -4.9,
+            -0.2641
+          ],
+          "rotation_xyzw": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "box_pose": {
+          "position_xyz": [
+            0.570999972820282,
+            0.18750000715255738,
+            0.07069999724626541
+          ],
+          "rotation_xyzw": [
+            -4.371138828673793e-08,
+            1.0,
+            -4.371138828673793e-08,
+            1.910685465164705e-15
+          ]
+        }
+      },
+      "episode_seconds": 60.0,
+      "ticks": 3000,
+      "purpose": "Fresh independent R8 full task development"
+    }
+  ],
+  "run_full_case_only_if_grasp_screen_passes": true,
+  "screen_predicate": "All7 independent checks; full1000 controls unless genuine fullsuccess; grasped; no fell/drop/sourcephysicalfailure or source early termination.",
+  "unrun_full_case_score": null,
+  "formal20_used_for_training": false,
+  "development_cases_used_for_training": false,
+  "frozen_formal20_reference": "/home/ethan/Projects/Sai_Lab/.scratch/pi05_g1/round03_mobile/scenarios_frozen_v3.json",
+  "full_acceptance": {
+    "task_family": "long5m_open_aisle",
+    "minimum_source_target_distance_m": 5.0,
+    "minimum_carried_displacement_m": 4.0,
+    "minimum_carry_turn_degrees": 60.0,
+    "stable_seconds": 2.0,
+    "stable_position_m": 0.005,
+    "stable_angle_degrees": 5.0
+  },
+  "policy_runtime": "Prospective R8 actual-final weights; unchanged fixed antithetic two-prediction mean, RGB/q/prompt only.",
+  "GPU_turn_max_seconds": 1800,
+  "hardware": "Same GB10 GPU-21b3808c-f26c-1b0c-c75e-7957e971606d, G1/Homie, head640x480, control50Hz/physics200Hz",
+  "candidate_role": "Actual final R8 optimizer boundary designated before new training/task evaluation; R6 initializer, rejected R7 not in weight lineage.",
+  "full_case_previously_run": false,
+  "grasp_screen_is_repeated_development_seed": false,
+  "LingBot_robot_goal_completed": false,
+  "parent_cohort": "/home/ethan/Projects/Sai_Lab/.scratch/lingbot_vla2_g1/round07_development_cohort.json",
+  "parent_cohort_sha256": "921f331b9edd44ac34ddd269007d0418109596ff32c76a7aacade0b20b4f1dd7",
+  "same_scenes_offsets_seeds_and_thresholds": false,
+  "former_R5_full_scene_explicitly_reclassified_TRAIN": true,
+  "thresholds_unchanged": true,
+  "former_R6_full_scene_explicitly_reclassified_TRAIN": true,
+  "former_R7_full_scene_explicitly_reclassified_TRAIN": true
+}

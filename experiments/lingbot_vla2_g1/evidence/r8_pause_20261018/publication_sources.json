@@ -1,0 +1,1808 @@
+{
+  "schema": "lingbot_R8_pause_publication_files_v1",
+  "source_base_commit": "2128db711351b8c33fe2505e487473f35a3d2966",
+  "all_previous_actual_sources_preserved": true,
+  "publication_file_identities": {
+    "experiments/lingbot_vla2_g1/.gitignore": {
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "bytes": 23
+    },
+    "experiments/lingbot_vla2_g1/HISTORICAL_SETUP_ROUND01.md": {
+      "sha256": "6150c1973b16892106480a67b757ad5b66922b5b5a70a823948c3cfe16e52efe",
+      "bytes": 19305
+    },
+    "experiments/lingbot_vla2_g1/PAUSED_R8_20261018.md": {
+      "sha256": "db065ab5872704b782a7eedabd1848e844a8a3201c0636ad4c0ef7598a93395f",
+      "bytes": 5582
+    },
+    "experiments/lingbot_vla2_g1/README.md": {
+      "sha256": "124f68d964e755d7bbaa2ae7d710c2e563776ff232c2e09aa9f89cf9022d0fd0",
+      "bytes": 1554
+    },
+    "experiments/lingbot_vla2_g1/ROUND02.md": {
+      "sha256": "36d6cc6ad821e9e9029a77155153217f29300fd50aedadef147fde3331b41d8f",
+      "bytes": 7418
+    },
+    "experiments/lingbot_vla2_g1/UPSTREAM_RESEARCH.md": {
+      "sha256": "81bd9aff51d56ef0552e8c4faa91e3f77a2960a6a4d0817de7427bc1599913bc",
+      "bytes": 42378
+    },
+    "experiments/lingbot_vla2_g1/__init__.py": {
+      "sha256": "36edda4d23f17e82c7804db56a79e5dae494190d3169af6fb8aaee164806f400",
+      "bytes": 73
+    },
+    "experiments/lingbot_vla2_g1/acceptance_context.py": {
+      "sha256": "1fca2ad95e7b8667f399497de8c6727df07f87d574ab89fd8d6246f43ff5c531",
+      "bytes": 4117
+    },
+    "experiments/lingbot_vla2_g1/archive_preserve.py": {
+      "sha256": "d66d47796c752c36e672a246116f64b9e557b1ff4899a47ecd02648e844ca7f4",
+      "bytes": 9052
+    },
+    "experiments/lingbot_vla2_g1/backends.py": {
+      "sha256": "a97dad50fd3d3a445f9de76763a832b895515e83b0b327022264b812fbd478a3",
+      "bytes": 1928
+    },
+    "experiments/lingbot_vla2_g1/backup_checkpoints.py": {
+      "sha256": "33faf498e1fbdd0037251eb5c308ac438fd4e22d91f963378ff2d7d4778b3b56",
+      "bytes": 6908
+    },
+    "experiments/lingbot_vla2_g1/backup_coherent_recipe.py": {
+      "sha256": "744464c0f38a97a7b1ca43b3209e53e91db28e8a9fb287d4fe68409817f86b24",
+      "bytes": 4657
+    },
+    "experiments/lingbot_vla2_g1/backup_coherent_recipe_round06.py": {
+      "sha256": "d41ebde4bf66f4f21ceddec13af91a229bc197ad24c49eb2bb7a34ce01b7e099",
+      "bytes": 4716
+    },
+    "experiments/lingbot_vla2_g1/backup_coherent_recipe_round07.py": {
+      "sha256": "f797c292bedca773da609a3c2ba3eee7aa64aeeefdae34abe538b9b5e1fcb3e9",
+      "bytes": 4716
+    },
+    "experiments/lingbot_vla2_g1/backup_coherent_recipe_round08.py": {
+      "sha256": "1456cfa192ad69e829fe1529f74d25f1524f4e2c504be013ab76a3f94806e476",
+      "bytes": 4716
+    },
+    "experiments/lingbot_vla2_g1/backup_round04.py": {
+      "sha256": "5ab118beabaf3c57fafd17ef0340463cbf50f41d47ced556831f441eb35d8b47",
+      "bytes": 8268
+    },
+    "experiments/lingbot_vla2_g1/backup_round05.py": {
+      "sha256": "53209837d6320fd640ae3507831e972de67c30a4acb3ec08359818c4a8ae2a10",
+      "bytes": 8938
+    },
+    "experiments/lingbot_vla2_g1/backup_round06.py": {
+      "sha256": "bf5af76dae56fb43a92a7495b6092a05c5be5959bed462747522808ebf12b75f",
+      "bytes": 9458
+    },
+    "experiments/lingbot_vla2_g1/backup_round07.py": {
+      "sha256": "e169ac94e4efff3f772d327fd47ee1382e399a147d391af7b0d1447db62b5f8c",
+      "bytes": 9483
+    },
+    "experiments/lingbot_vla2_g1/backup_round08.py": {
+      "sha256": "2a95f884a234cadc18e1a76ee8b761775ea6090218b3a392d9f308bd90b91ef0",
+      "bytes": 9514
+    },
+    "experiments/lingbot_vla2_g1/benchmark.py": {
+      "sha256": "7b8a794270cb64fc7960592dcccb7202b2cc96039f6fba341c3b2294b9d9472d",
+      "bytes": 14874
+    },
+    "experiments/lingbot_vla2_g1/benchmark_pose_speed.py": {
+      "sha256": "47bd202c80d2960ebf247f5cf398507aaf2d5171f82773b8ba44d3a852077a98",
+      "bytes": 15660
+    },
+    "experiments/lingbot_vla2_g1/benchmark_pose_speed_v2.py": {
+      "sha256": "f393ed57d61b9503751edb7415b0871121db14db31916c4cf87d0c5f0876840b",
+      "bytes": 16632
+    },
+    "experiments/lingbot_vla2_g1/body_preserving_training.py": {
+      "sha256": "40f1b28bcfa1d8a58e0cb02b1b65e647f3a8c8437217c24548ca34e4a7fdf613",
+      "bytes": 1978
+    },
+    "experiments/lingbot_vla2_g1/budget.py": {
+      "sha256": "99f6d3345f2fdd2e919fb3fe0a8315039870d98f0f045a5c9721b7453659f7a6",
+      "bytes": 1822
+    },
+    "experiments/lingbot_vla2_g1/budget_12h.py": {
+      "sha256": "fa8f3e4ad0d3ce25e18df0ff1f11420440f916753bdca05aaf73eb9f653fc9f9",
+      "bytes": 4091
+    },
+    "experiments/lingbot_vla2_g1/budget_allocated.py": {
+      "sha256": "37893bffbd7d5e2a94e25326b1c7ab37c29bbb01950342fb744b787240ef1a44",
+      "bytes": 2459
+    },
+    "experiments/lingbot_vla2_g1/budget_continuation.py": {
+      "sha256": "dc59cd384b284455159abef2d044ee74b174f3f09556493fcf23a430da8ad91a",
+      "bytes": 4287
+    },
+    "experiments/lingbot_vla2_g1/budget_reallocated_v5.py": {
+      "sha256": "6e10293d0575aa7ee2906af3f806fe90ad8f00a8cbc646be6af215fc5223ba3d",
+      "bytes": 7937
+    },
+    "experiments/lingbot_vla2_g1/budget_reallocated_v6.py": {
+      "sha256": "574a343fc41cc7c36bf1327431768f157616999edd94fd2432206ca60b2661de",
+      "bytes": 7939
+    },
+    "experiments/lingbot_vla2_g1/budget_reallocated_v7.py": {
+      "sha256": "24f83c89705d2bc229553f2e0485c040def9420ea64bd39055010196074a9e2c",
+      "bytes": 8629
+    },
+    "experiments/lingbot_vla2_g1/budget_reallocated_v8.py": {
+      "sha256": "e86de4b7a0ed9efb65601df85b7b83cf361e2a1090c6ed2b553f1ee721b28575",
+      "bytes": 8738
+    },
+    "experiments/lingbot_vla2_g1/carry_data_v2.py": {
+      "sha256": "6962284369c5dda0a98545f57c2f383809c439cd411a6108c882c2af5272ec6f",
+      "bytes": 10205
+    },
+    "experiments/lingbot_vla2_g1/coherent_sampling.py": {
+      "sha256": "1036c2b19aeb76aa9a54ff6aa416d96e780d5b5c002a24e0d8d2f6f33758c5ee",
+      "bytes": 1463
+    },
+    "experiments/lingbot_vla2_g1/compatibility.py": {
+      "sha256": "25ba1ba01b66aec0a0abd83fdd295bef504a5886793f76aa640b3a5d88b466de",
+      "bytes": 4510
+    },
+    "experiments/lingbot_vla2_g1/constant_inverse.py": {
+      "sha256": "c99f497adffc7958e79cfb526e01604dcf8bf6adc9fb41322accbd86abcef01a",
+      "bytes": 1350
+    },
+    "experiments/lingbot_vla2_g1/contract.py": {
+      "sha256": "f8ab8941203ad5eef42aabb09fef39d3e1c51f699177693403d6951b7772ad07",
+      "bytes": 2827
+    },
+    "experiments/lingbot_vla2_g1/data.py": {
+      "sha256": "714791c900759e97706b066eae66238ab225cfa381003ef6d04a94acf27e5ff2",
+      "bytes": 3227
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/action_probe.py": {
+      "sha256": "3ca3da7533aa8c20921a9f0e24e8246cda8e509f0f0c4779a223fe33b5d792ea",
+      "bytes": 8722
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/coherent_train_probe.py": {
+      "sha256": "9817fb6c38589653a80390b3ea61ed5d03092e99f08717176fa2a39f3025d84c",
+      "bytes": 5460
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/development_audit.py": {
+      "sha256": "58e1b83f5e8a445e7707b0779e199beee6c713c2710258807d8496e2c344364c",
+      "bytes": 2240
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/development_audit_v2.py": {
+      "sha256": "e3db9d8d2d44bf7718cfa80dff2380c92b80d33c5178de6b691db97555b40b15",
+      "bytes": 2381
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/development_timeline.py": {
+      "sha256": "4178bea500a79f89d6d61530fe56070023da12161f733c643a31e2e714eae691",
+      "bytes": 5985
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/driver_signal_probe.py": {
+      "sha256": "cbde95a39c384b0da0a0143eda18efe193ebb31004f55290c89bb8dd7a73508b",
+      "bytes": 5683
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/grasp_fidelity.py": {
+      "sha256": "bc3889f2fd3d1c9fae3c69518daf84aeaf9c9cd5e8d4d792f06319798177f7a8",
+      "bytes": 10523
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/kinematics_replay.py": {
+      "sha256": "7b6c8ddf054bd61ffcaf01f38b634828c2de9ae643f516477288931a65cde368",
+      "bytes": 4526
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/native_release_probe.py": {
+      "sha256": "77d542478c9a9c8d6d1c6f0dc6233a57dbaf2651bc08f8c843417f99a10c2a7c",
+      "bytes": 5415
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/placement_fit_probe_round08.py": {
+      "sha256": "f73acf2ca66f4b9c5b3529c5972abe000624c803038f6789d1097268075f6cf4",
+      "bytes": 8588
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/plot_actual_negative_round07.py": {
+      "sha256": "bf58cc211c9e4195986271ddf532b956813af50cc63e999bf0b3db95e45ae079",
+      "bytes": 5529
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/precision_probe.py": {
+      "sha256": "30aa253dead8f9b96aba5c463917cddedb104cd4f52279194d4dc0453ddd9945",
+      "bytes": 9712
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_coherent_train_probe.py": {
+      "sha256": "1a19d2fdbc4b9fb404dc770e13d9b7b132d7f0abc009d5694f3bfec0156f2e1c",
+      "bytes": 6336
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_grasp_fidelity_turn.py": {
+      "sha256": "daa15e83ea7dbfe50bb9eda03cf199daad366b27f873c213a1ba6cf8d645b473",
+      "bytes": 6276
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_matched_parent_r6_r7.py": {
+      "sha256": "a82696d3bd73463af84aeada17aa01ee210616bb81b60ff142310f91996b1b07",
+      "bytes": 7948
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_precision_turn.py": {
+      "sha256": "b4c756b093265047bd86a540c3c6f6048117b85344f37c47712752a288b27dd2",
+      "bytes": 4813
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_resume_turn.py": {
+      "sha256": "04e6cfa3359fd74eb5d68e1e55978c7997987df78bb9fc9ed7ac7ca55f06b5d3",
+      "bytes": 9394
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v3.py": {
+      "sha256": "35bb8882836f810417c956ca6a19711ace36667176fe82b45a0fa339e4f65142",
+      "bytes": 10115
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v4.py": {
+      "sha256": "3d3ee92d794369aab1952216511307658a214186d438b20878904a8e2f0d1e2b",
+      "bytes": 11180
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v5.py": {
+      "sha256": "010f72b365633d496750d59400360fcb96a1b6ca289d13a31200f5e7cdb56621",
+      "bytes": 11222
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v6.py": {
+      "sha256": "b71bbe00356f4a702294409752c2a2af1c298dfd393cb1dd4e9e52254458d242",
+      "bytes": 11550
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v7.py": {
+      "sha256": "9b9a0bbdb339388a75358ef7d4fe9f00095cfc4204f79905708661dd3c7f6575",
+      "bytes": 11620
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v8.py": {
+      "sha256": "ffc4552d3f5834c9a31efdd261cf930d072c51c52592acc2042e7c528094cbdf",
+      "bytes": 11770
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_recovery_v9.py": {
+      "sha256": "575353ef53ba34a7dfe400b6c2ac993a29278a84d6462a864cd10837e561adb8",
+      "bytes": 11823
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_turn.py": {
+      "sha256": "c2c84f30e47a055c57766d05092a4e8c69cab06a6b9e18e35f34b943b6098203",
+      "bytes": 10242
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/prepare_teacher_turn_v2.py": {
+      "sha256": "61afff1d5cfd37f6a7b8126e00f2ea28896142f923e6073272daa62d9db7e24f",
+      "bytes": 10314
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher.py": {
+      "sha256": "036e414c0e9aeb3f062b5d4b41334fc4f46ffbe8927ef127a1940f7ab12ba2ba",
+      "bytes": 11426
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v2.py": {
+      "sha256": "b310bc43396c86438aa0236d17b1236b469ae73040987436c4e8ec018842c4f2",
+      "bytes": 10532
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v3.py": {
+      "sha256": "e1607fdf6facd7cdb784423e16832b3368e5f003917acac7c7db8b8293211d83",
+      "bytes": 5368
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v4.py": {
+      "sha256": "2b4f931b7a33bbc76831a3956aea3043a87d1049ba38629d1bc217e0305de852",
+      "bytes": 6235
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v5.py": {
+      "sha256": "0d2a31e02ff87aa7e4bd21f55b74c3ac1cc443e7ec36a8fbfe9111548d080c69",
+      "bytes": 6643
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v6.py": {
+      "sha256": "ebec62a47df68b8505d6fb44f4dbff48d6250d05d044c555791c1a4d39f36d89",
+      "bytes": 12492
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v7.py": {
+      "sha256": "bc1566b50f4d4a13726e853193e8a126ffcc154a7a58865962f3e5550780416d",
+      "bytes": 12695
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v8.py": {
+      "sha256": "81738e322687ffca082c4600d0211f317f1b06b68502bd2718c105bf2431de39",
+      "bytes": 12947
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/privileged_teacher_v9.py": {
+      "sha256": "4836cb4beaf7682dc111e49d0fb72123697736b87e9553c707daeaa8d35c8ada",
+      "bytes": 12947
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/resume_batch.py": {
+      "sha256": "06ca008d07a3c81b769e0b7d3da6fcba75c9e8ff3cfc80d2cbe627b1b1fd2175",
+      "bytes": 3753
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case.py": {
+      "sha256": "a4e0c7a549eb9d88acbb27bb3df0f2a781a4a3f3e96bc87dc6d4154c51e5ebe2",
+      "bytes": 1679
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v2.py": {
+      "sha256": "e019ad925c44a673ea84b46f9362c810579f38cbd5748296b4b186f4223db9fa",
+      "bytes": 1752
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v3.py": {
+      "sha256": "8b47c2b4bef912b8b775da62022b152a20fd5276d7e2e061df2d52db022690a0",
+      "bytes": 1672
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v4.py": {
+      "sha256": "7996c6615095f0b4883ce34ce86ff83cb23c12ba71d56216bfcefc1721c60414",
+      "bytes": 1672
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v5.py": {
+      "sha256": "58ce34188a63dc91c65b8f1212187bb6e3c34059fc22c4b6205c22628e037878",
+      "bytes": 1676
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v6.py": {
+      "sha256": "047408ecdb0eaf4b9da02be18208d844294bda2e7d149cdf9ffee8da9a62519c",
+      "bytes": 1676
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v7.py": {
+      "sha256": "9a861627784723a41a2e171d4fd47a0664192a5903cf411297bed4a6e983579d",
+      "bytes": 1676
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v8.py": {
+      "sha256": "7d265d7c8e231aec74cf47bcd8f7b29c0960d5507a2b522319b251664ee48cd3",
+      "bytes": 1676
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/run_teacher_case_v9.py": {
+      "sha256": "761fdb5a4266352caff41637f338db4379983be1bc3c5615d85160124003cca5",
+      "bytes": 1676
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/task_replay.py": {
+      "sha256": "0504c67f11e6f7584d55e4076f6e7adee0684ab2cd87eb97173eeb20bb052b47",
+      "bytes": 3604
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_CPU_gate.py": {
+      "sha256": "2a85885b69d36772c9c0ad61f1b20ff5ac9cc556c44bca9577e1d8da4a25ad19",
+      "bytes": 4542
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_audit.py": {
+      "sha256": "f06b1567c4016a8d301361841718301f88f56c4410f1d3ef113355dc9c0eb3d9",
+      "bytes": 4009
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement.py": {
+      "sha256": "ea10e70295c0106a433c32736dc7fc847450eb47547af318770a8adde852205b",
+      "bytes": 1595
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement_v5.py": {
+      "sha256": "c645554838c1931e1ff3dbfb6abea36ac573691d3730d6e3ab5f0877cafa1141",
+      "bytes": 1897
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement_v6.py": {
+      "sha256": "70df9e7d5fcd5093087b52c79e7321b7605db0076c90a4865ff79505def07e61",
+      "bytes": 1897
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement_v7.py": {
+      "sha256": "0739a665c73fd0ec5723b8cfd5a98e03121202b1eb48c1b4b6451745130ae9f8",
+      "bytes": 1897
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement_v8.py": {
+      "sha256": "b7eb3492cdaf8998f0c23c46356af90b2b6dfbbb3dae2ad0fc1e311425c07c0e",
+      "bytes": 1897
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_measurement_v9.py": {
+      "sha256": "d9a9c86385145ad2ecd5b05e6763005e834dc18b49c623829e7ac6981feca186",
+      "bytes": 1897
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry.py": {
+      "sha256": "760bacdcc92c3b23220e62ede5008851789cc1e07e4206a723f43080f608c0e6",
+      "bytes": 837
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry_v5.py": {
+      "sha256": "e4f7d64dfcc463dfd01686f288dab0865de113f6b5838895fa6fd956cee8c795",
+      "bytes": 840
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry_v6.py": {
+      "sha256": "d3a345989d2334889d08455032b39330f15f00cd4872416009c2410e058ce19f",
+      "bytes": 840
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry_v7.py": {
+      "sha256": "300be2f865e26fe39e1e8ee5b43d499dc1316512a31e03c110121c89f964ca85",
+      "bytes": 840
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry_v8.py": {
+      "sha256": "3fcafe14617af2a52263685346401b88b9e0a05cf280218d31333c738d5dfbc2",
+      "bytes": 840
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_sim_entry_v9.py": {
+      "sha256": "1f31ecdb7413ce82f2de73be7c9f2c54044f697b0ecab2fd9bbcad90fa639c33",
+      "bytes": 840
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v2_CPU_gate.py": {
+      "sha256": "16350f9bb9aea7bc30031ae333c41671c3d87fba8c141af05ac7c4e518674e0a",
+      "bytes": 5582
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v2_audit.py": {
+      "sha256": "995389b3539896cb4e467f22893418df739c4fc9557a430fec27a505d74a25f0",
+      "bytes": 4148
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v3_audit.py": {
+      "sha256": "8d277aafdc0cff0d038cf75541fd84ac57a805c7a4b53d35a1f64c661b5886cc",
+      "bytes": 3926
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v4_audit.py": {
+      "sha256": "ff9b0c002499c1fff681c225a74063eb1184e86c4e26f881453188d9b87df49a",
+      "bytes": 3926
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v5_audit.py": {
+      "sha256": "7e6655764b8ea82fb12ac0f7ff88772becefc82f7936803718743c4c679ceef9",
+      "bytes": 3932
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v6_audit.py": {
+      "sha256": "0a45f24928733e4770135443135ec951e34ae993061034ab0cac9947c7fc64a0",
+      "bytes": 3932
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v7_audit.py": {
+      "sha256": "fa360bbf1cd758c600adc6e953550e4846b267b2436e3c670a8354215a3faa90",
+      "bytes": 3932
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v8_audit.py": {
+      "sha256": "4b3e64752f04d910e4148cd033b29233f272f68337a8a710a93a91af923ee04b",
+      "bytes": 3932
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/teacher_v9_audit.py": {
+      "sha256": "4861baadf0959386019bebda39d91de294b9d97446d697302d1a8832be7edc4e",
+      "bytes": 3932
+    },
+    "experiments/lingbot_vla2_g1/diagnostics/training_teacher_kinematics.py": {
+      "sha256": "688697155e9ca09873877fe05dcf6b6b414532a3d73248f755d9a427218e9193",
+      "bytes": 2946
+    },
+    "experiments/lingbot_vla2_g1/evaluate.py": {
+      "sha256": "838947035bacfc02c0cdb33ac7439af98ce92ff79e7e90b7c5afaeeb1e2460c0",
+      "bytes": 11277
+    },
+    "experiments/lingbot_vla2_g1/evaluate_pose_speed.py": {
+      "sha256": "c117709c0e5d7e99675953a3b771bbbce8303147bcc0fcabb222a94444003d12",
+      "bytes": 11296
+    },
+    "experiments/lingbot_vla2_g1/evaluate_round02.py": {
+      "sha256": "ae45f6924b5e4092dbafeed0b812e30ae45f11860f645a03ceea66d2114b2e78",
+      "bytes": 11903
+    },
+    "experiments/lingbot_vla2_g1/evaluate_round02_driver.py": {
+      "sha256": "d446105e522e4d5522573363b108ad79071497c0a8ffe0e0e52e375f8025da3e",
+      "bytes": 5836
+    },
+    "experiments/lingbot_vla2_g1/evaluate_storage_v2.py": {
+      "sha256": "6e7e8264f4b1946d543276e492489b9cd4db233cb2b2ff01f088d5cbcef22c67",
+      "bytes": 11628
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/CPU_validation.json": {
+      "sha256": "f93bcfedfd909ce89c401f1b86ae0d315688b4da1367e18f6481b5e34e734ee5",
+      "bytes": 766
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/TRAIN_placement_probe_result.json": {
+      "sha256": "afc24fe46ee4275446508b21ae253c5ffff15b42ad5800aa6d702ea2dafc9a6e",
+      "bytes": 14534
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/checkpoint_metadata.json": {
+      "sha256": "cc345406521865b8051ae32da927983a1f0e84762a92d1e567a95f8fa849014f",
+      "bytes": 6221
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/development_cohort.json": {
+      "sha256": "540ba3b721f081c41774b392056c53ab81ece09bb0d49b015d3f994c486e2e80",
+      "bytes": 3802
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/local_contract.json": {
+      "sha256": "490864f63333a3424fe4f2ad2b53e335be604aca8b1cb5debe88eb07c1ca197a",
+      "bytes": 3322
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/original_TRAIN_meanstd.json": {
+      "sha256": "d71ba7b5496b59779a2faee448b3927d3b417801e569951c44ac0cad3e2f689a",
+      "bytes": 12415
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/status.json": {
+      "sha256": "8561a64fc652f4130669d715f3a6c8f1900eb138163a80561aded8602b8606b5",
+      "bytes": 10857
+    },
+    "experiments/lingbot_vla2_g1/evidence/r8_pause_20261018/training_result.json": {
+      "sha256": "fab61dd57be5f8776c3f298b1bb729a573a24a2acc5ede42da4704ca6267fb56",
+      "bytes": 9556
+    },
+    "experiments/lingbot_vla2_g1/final_paths_report.py": {
+      "sha256": "e429e7cf677e5bcf8b8b8ad5f04f6f11d9eb8b7b18c1cea1e12906affc4fa099",
+      "bytes": 11028
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/__init__.py": {
+      "sha256": "43c28068abbda96bc7e48b67dce06c33c3cc83c07e4e50e98106f6ce36a52ab0",
+      "bytes": 80
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/aggregate.py": {
+      "sha256": "bc9e80665a5ff37e6760d3eab9f3ca8f7fbb070966876ec61dc2da34c6e17dc9",
+      "bytes": 2109
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/cpu_manifest.py": {
+      "sha256": "1c75ee41b0d0557307ac3a0bf599c8abc08096fbc6d8bb2dd1026e85a90ec7fa",
+      "bytes": 2796
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/evaluate.py": {
+      "sha256": "9083e7f23afa83973b68e7c88285f2364ce19ce23b8d5b388afec40e676cc91f",
+      "bytes": 13584
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/gates.py": {
+      "sha256": "25bc2805bd72baa967123494547dd8cb8c508f4d930c91d3ea5fc4be018dec64",
+      "bytes": 23323
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/make_plan.py": {
+      "sha256": "786fa4929da757dc06a9e92d03fb245a39171040b1605ae5d4bc5307ab010c98",
+      "bytes": 13921
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v4/tests/test_cpu_gates.py": {
+      "sha256": "ec421814fd7c1ea35206bf564fd6f794e5b64776ea496fbbdc23f0e7685cab46",
+      "bytes": 31135
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/__init__.py": {
+      "sha256": "43c28068abbda96bc7e48b67dce06c33c3cc83c07e4e50e98106f6ce36a52ab0",
+      "bytes": 80
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/aggregate.py": {
+      "sha256": "bc9e80665a5ff37e6760d3eab9f3ca8f7fbb070966876ec61dc2da34c6e17dc9",
+      "bytes": 2109
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/cpu_manifest.py": {
+      "sha256": "955139a913584c0a3943cbe131699660414628f6765b9e5a085eac5b25cb20da",
+      "bytes": 2796
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/evaluate.py": {
+      "sha256": "1da011bb4c2dd208134ebe9616e4268bfb0a9d3fec00478a262fa9c9ba791586",
+      "bytes": 13584
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/gates.py": {
+      "sha256": "4d2f03619711e343e7118865010cada76ec15ae94486ef7133109e97e3a34a14",
+      "bytes": 23383
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/make_plan.py": {
+      "sha256": "039d6e12298e869872b4add39f5100f0ac27af77e04ae6695ef3ad1dd89be400",
+      "bytes": 14117
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v5/tests/test_cpu_gates.py": {
+      "sha256": "ff9a1e4331df36f75adfbcdb1ba34ddfdc56dc55f22e93934be6edfeb411d671",
+      "bytes": 31998
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/__init__.py": {
+      "sha256": "43c28068abbda96bc7e48b67dce06c33c3cc83c07e4e50e98106f6ce36a52ab0",
+      "bytes": 80
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/aggregate.py": {
+      "sha256": "bc9e80665a5ff37e6760d3eab9f3ca8f7fbb070966876ec61dc2da34c6e17dc9",
+      "bytes": 2109
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/cpu_manifest.py": {
+      "sha256": "b087556cef54e929c2dd3ea8e8c51e6c7bbf259f6d32144b9b88904365a6d4bd",
+      "bytes": 2796
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/evaluate.py": {
+      "sha256": "c72fc3f48059778c6a2e346bb33e0d6d43756da1cc7de725668912fa8b80d897",
+      "bytes": 13584
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/gates.py": {
+      "sha256": "c60de07b7c55f0ff96d99cdfad4b73765eb8d2bb32c6da350fb90e45d57d1ba9",
+      "bytes": 23383
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/make_plan.py": {
+      "sha256": "151baa1d9851ded0228f2ffbcc6af393e433a2e167b3b33a42cb6f172046109a",
+      "bytes": 14117
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v6/tests/test_cpu_gates.py": {
+      "sha256": "1a5e613fd76da2cd36046296d730e2247c5ef52869c4f0a79ca042c38da65a64",
+      "bytes": 31998
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/__init__.py": {
+      "sha256": "43c28068abbda96bc7e48b67dce06c33c3cc83c07e4e50e98106f6ce36a52ab0",
+      "bytes": 80
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/aggregate.py": {
+      "sha256": "bc9e80665a5ff37e6760d3eab9f3ca8f7fbb070966876ec61dc2da34c6e17dc9",
+      "bytes": 2109
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/cpu_manifest.py": {
+      "sha256": "fcca3016e0ca84fb7d1aed61109bb18948543bab61d88cef098ab425e45239de",
+      "bytes": 2796
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/evaluate.py": {
+      "sha256": "1da011bb4c2dd208134ebe9616e4268bfb0a9d3fec00478a262fa9c9ba791586",
+      "bytes": 13584
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/gates.py": {
+      "sha256": "c5534a5eeb0f2ffcc31df4efc7ad563ed4e650e1e338c09e44228d8362a86fee",
+      "bytes": 23705
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/make_plan.py": {
+      "sha256": "066fe6b01b62a7069a114a32e23daf0add5946c6fc01d02dbe40fe4b97563cbb",
+      "bytes": 14313
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiments/lingbot_vla2_g1/formal_task_v7/tests/test_cpu_gates.py": {
+      "sha256": "0c473a7f4f180f57b2443c82c401ee293b09b78c745841d122e07a18fd24bc7f",
+      "bytes": 33345
+    },
+    "experiments/lingbot_vla2_g1/grasp_balanced_prefix.py": {
+      "sha256": "6178b174403010b999a36c2e14edc1f0bf92ee874b89049001661c91340b7a24",
+      "bytes": 2179
+    },
+    "experiments/lingbot_vla2_g1/interface_invariants.py": {
+      "sha256": "16986f336a49d3062264dc9699dd6c03cf139bc42ff16c61df8420894d96dd3c",
+      "bytes": 3691
+    },
+    "experiments/lingbot_vla2_g1/job.py": {
+      "sha256": "4b5dfc1d9ed2d5dd150cb7784b881bbf8787b7fecb0fd9dc7bf2414a563df8d7",
+      "bytes": 2105
+    },
+    "experiments/lingbot_vla2_g1/make_development_coherent01.py": {
+      "sha256": "13e2ec406d97feaa745efb7f16419ed90a06e6552658bc105711f6478783ebcd",
+      "bytes": 6527
+    },
+    "experiments/lingbot_vla2_g1/make_development_round03.py": {
+      "sha256": "67e1f0f507b39d1d5457ed1f50f9b7571ec822a9f31af295309b4b4a24eb2992",
+      "bytes": 5016
+    },
+    "experiments/lingbot_vla2_g1/make_development_round05.py": {
+      "sha256": "ba2e8c3f0cd06ed2e50ea7dea1fc1ca8ccd78b8aca4221429202142f7b8525c9",
+      "bytes": 5655
+    },
+    "experiments/lingbot_vla2_g1/make_development_round06.py": {
+      "sha256": "c6bece10128d213d0c7cd3a4a23cfc1f39f49cb5a4bcd60f997eacf4976bddbd",
+      "bytes": 7744
+    },
+    "experiments/lingbot_vla2_g1/make_development_round07.py": {
+      "sha256": "116d3167135e564dccffc75fa12a51428979ef123a4af7735160ee7ccf291358",
+      "bytes": 7776
+    },
+    "experiments/lingbot_vla2_g1/make_development_round08.py": {
+      "sha256": "d9d799bdef6c165f1c4d378cabec75c2fba9582fbb6bdd041fb018d84313a02c",
+      "bytes": 7808
+    },
+    "experiments/lingbot_vla2_g1/make_development_task_v4.py": {
+      "sha256": "003497a429576debe2c7456a4bcd65b440042f86818b6904401ecdf7a92b8ced",
+      "bytes": 5102
+    },
+    "experiments/lingbot_vla2_g1/make_plan.py": {
+      "sha256": "2d1e0a5862b769dbeda4121358caa3d59115cb8e015bdbc561a3265737ee5ee6",
+      "bytes": 19135
+    },
+    "experiments/lingbot_vla2_g1/make_plan_pose_speed.py": {
+      "sha256": "1ead66e5cc1417c84e14a5aea0ade481c38b4705fff4b998286cc0e3229d07aa",
+      "bytes": 5271
+    },
+    "experiments/lingbot_vla2_g1/make_plan_round02.py": {
+      "sha256": "03de707b0552dea4116b618ce9151809a215c158fa9e8536dabc66c7eba56479",
+      "bytes": 11794
+    },
+    "experiments/lingbot_vla2_g1/official_baseline/__init__.py": {
+      "sha256": "cdcf1eb26cb3a640ff3b3e233ed10deb365389fa6276a54eae97c5c07fa6c8fc",
+      "bytes": 80
+    },
+    "experiments/lingbot_vla2_g1/official_baseline/__main__.py": {
+      "sha256": "8fa659d370d57e35bc6e47b637f7def60fb9d15dad847c75416c8d8fa6de65f6",
+      "bytes": 110
+    },
+    "experiments/lingbot_vla2_g1/official_baseline/prepare.py": {
+      "sha256": "9297c16cfa67edcc4bf82948f05a2c187dce6c7f792f18c25a5cd54e7162e9d7",
+      "bytes": 42374
+    },
+    "experiments/lingbot_vla2_g1/official_baseline/tests/test_official_baseline.py": {
+      "sha256": "4ce3d0be2d590ae7532b586eb97d1ec8de4be307db3dc0ed7ee7213c775289cc",
+      "bytes": 8614
+    },
+    "experiments/lingbot_vla2_g1/patch_runtime.py": {
+      "sha256": "ea7820b7a0150a98ade73abf218aea36514632106d057f0cec647c53e94f69a6",
+      "bytes": 2930
+    },
+    "experiments/lingbot_vla2_g1/permanent_checkpoint_alias.py": {
+      "sha256": "fd428968d7955fed7736b995e9cad8927d360156f3e4f719bcd79eda97d21ed6",
+      "bytes": 4223
+    },
+    "experiments/lingbot_vla2_g1/prepare_assets.py": {
+      "sha256": "c1b5ea717970a4d45f3d2073683a1795fabd631907a13a7aac43e0ec7fb1b5f9",
+      "bytes": 8248
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_coherent01.py": {
+      "sha256": "d9dc76a6dd25f602420a9c4af081e05ffd96bb15d19b0d0dad43a35083f48893",
+      "bytes": 5539
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_round03.py": {
+      "sha256": "9b81a89f1ad3da242bb85568961b54414fe0264be48f424da5b2973cd7f766d2",
+      "bytes": 5536
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_round05.py": {
+      "sha256": "e1fc60a2258f5c9da7891ba29ff4d4cd56e172c70408d13d5b9c6c94cacfba4b",
+      "bytes": 5536
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_round06.py": {
+      "sha256": "6c768c744ae59abef00052324e5a58c8384a4b48d7378a155f21f1533bfcd560",
+      "bytes": 5536
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_round07.py": {
+      "sha256": "f49d8b05694408d28a19e7746d38817e24588d80c97510b7c76420b20876b8e5",
+      "bytes": 5536
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_round08.py": {
+      "sha256": "eaa02399ed5a8c824dc7380054d63ba3371e355356d85d069dfa3ec77884a6d8",
+      "bytes": 5536
+    },
+    "experiments/lingbot_vla2_g1/prepare_development_task_v4.py": {
+      "sha256": "b5eff983f896e891482db7d3064a0f6186b162828de43886a86b5d88c2e246e0",
+      "bytes": 5532
+    },
+    "experiments/lingbot_vla2_g1/prepare_resume_pose_speed.py": {
+      "sha256": "65bbabef6cafaffde5a24f6dd3ec2fa40e2b099b2ac8e7b8fd1656559d3ea6f5",
+      "bytes": 11335
+    },
+    "experiments/lingbot_vla2_g1/prepare_round02_job.py": {
+      "sha256": "af7675fb52e97a0c243fb9c5f79137a8ee29e14decbc100b776ff951b894fed7",
+      "bytes": 7031
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round03.py": {
+      "sha256": "86c44aa16030964fa51cf80a5cf5ae3aea8a321cb070b1cc359cebfd9271391e",
+      "bytes": 10388
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round04.py": {
+      "sha256": "ab867c281c21a56a15ed0f968b3654375eda35a8ce6c1040b82caf76e9a46dab",
+      "bytes": 10322
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round05.py": {
+      "sha256": "c1fadcf6aa9f861272b632434a145bcd100c2ee32ac8903b2b2552e5214bc270",
+      "bytes": 9395
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round06.py": {
+      "sha256": "d043586c5e801be054d562fe07df5e1a58fdbac27d5d9949801bc0875d76dfaa",
+      "bytes": 11058
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round07.py": {
+      "sha256": "05d1d635ef9a792357ce03714d21b7797b72a5c1941046dae0f41036581a8d7b",
+      "bytes": 11429
+    },
+    "experiments/lingbot_vla2_g1/prepare_training_round08.py": {
+      "sha256": "d88492a4a907add4fc6a1e1a4e9fd80a883ff0eb8fc78c2237cbbed81587762d",
+      "bytes": 13868
+    },
+    "experiments/lingbot_vla2_g1/report_round02_pilot.py": {
+      "sha256": "0b75535dca98960d8707c6ad68da3f741f54c758fb214cede99bd5e6faa2d030",
+      "bytes": 5133
+    },
+    "experiments/lingbot_vla2_g1/restore_probe.py": {
+      "sha256": "4bc290272a9d5047de18f5afeaa06a9b4c49ae0c91d5e9942459a9a4fefb4bc8",
+      "bytes": 4510
+    },
+    "experiments/lingbot_vla2_g1/robust_training_v5.py": {
+      "sha256": "64188bcec428de0fa711a836c9ed6dd00b9b14f439e732883272d684939d0652",
+      "bytes": 4946
+    },
+    "experiments/lingbot_vla2_g1/robust_training_v6.py": {
+      "sha256": "fe4378cd52ae95f1971201b727dcf13e2eb70b06a75fe63a66c65948316b147e",
+      "bytes": 3562
+    },
+    "experiments/lingbot_vla2_g1/robust_training_v7.py": {
+      "sha256": "fcbeb22dd62636bc35fd939f865fd21130bb8e218b688284146d3fad86701e53",
+      "bytes": 5538
+    },
+    "experiments/lingbot_vla2_g1/robust_training_v8.py": {
+      "sha256": "99ef22f709b6c40a8bb0675b237d9e53814c292eaf5808d1ff95a2e36a57868e",
+      "bytes": 5594
+    },
+    "experiments/lingbot_vla2_g1/round03_selection.py": {
+      "sha256": "0af1cee66fd8df0d357d5b13a0d7fb6155352e824720c3ad092b9bc5f1fc78ae",
+      "bytes": 6652
+    },
+    "experiments/lingbot_vla2_g1/round04_selection.py": {
+      "sha256": "9001b02c369f75f7233101146bac3d236239452fdddf591165b5b63dd3c69398",
+      "bytes": 6836
+    },
+    "experiments/lingbot_vla2_g1/round05_selection.py": {
+      "sha256": "4d07657b384f066a4839c23d37c03ebce302c5070dedca51bc2733455e335b39",
+      "bytes": 10491
+    },
+    "experiments/lingbot_vla2_g1/round06_selection.py": {
+      "sha256": "7a6530f4d9906e418f145743469c91cd0702e3eaa2edc0954170ff6a6cffc824",
+      "bytes": 11231
+    },
+    "experiments/lingbot_vla2_g1/round07_selection.py": {
+      "sha256": "d27a4da55cc4ebfd573032b6d6e3352d361e87c7bc26da0f653474ea60007ee4",
+      "bytes": 11335
+    },
+    "experiments/lingbot_vla2_g1/round08_selection.py": {
+      "sha256": "5d1f17bb69bebfce1a272598cd8e9fead940566315625d7e92ce9a74c930535c",
+      "bytes": 12529
+    },
+    "experiments/lingbot_vla2_g1/run_case.py": {
+      "sha256": "e9f91d1e7c74d660ba938fc6652eca527ba6b93f8d6eb52358e3dc1509c0f9fc",
+      "bytes": 1111
+    },
+    "experiments/lingbot_vla2_g1/run_case_pose_speed.py": {
+      "sha256": "51fcfb9302a3d61d7e23a5506dd637b6e7b9f4e46db6ebc539f99b68e1c87f48",
+      "bytes": 1323
+    },
+    "experiments/lingbot_vla2_g1/run_case_with_backup.py": {
+      "sha256": "e5541f51746761e6e45a71e5f0178d77dd3f64386aec0651a288ef9eb46fa6b1",
+      "bytes": 1324
+    },
+    "experiments/lingbot_vla2_g1/run_development_round03.py": {
+      "sha256": "33628ee8f102f99ce581942b45edf8aa3f5eb7c78d293d7a169de041261d8993",
+      "bytes": 5963
+    },
+    "experiments/lingbot_vla2_g1/run_development_task_v4.py": {
+      "sha256": "6b1164045c70ffe55e70149417e313c5679b777a09c2221d12a8236e3d935e03",
+      "bytes": 5963
+    },
+    "experiments/lingbot_vla2_g1/run_development_task_v5.py": {
+      "sha256": "f6e31065d2bd6876af9c49a491726d59628b1b05f97d1f5a212b599d77602a6a",
+      "bytes": 6944
+    },
+    "experiments/lingbot_vla2_g1/run_development_task_v6.py": {
+      "sha256": "5c4251c61b5a424759987e0ea0f35a9505249ca10639930f320d6b46ba25ad0d",
+      "bytes": 6945
+    },
+    "experiments/lingbot_vla2_g1/runtime.py": {
+      "sha256": "3d59c1d4ecfbdab7bf28053af1c8336b1c92592205f1bda4bab14aea331bf606",
+      "bytes": 9470
+    },
+    "experiments/lingbot_vla2_g1/scripted_success_data.py": {
+      "sha256": "a4b1308635d61544c491315e7bf86350b2129c3c3f81ee7f3addcb1652ae6a39",
+      "bytes": 11771
+    },
+    "experiments/lingbot_vla2_g1/service.py": {
+      "sha256": "28b24b6de811759d5a4935ff9e6a5573a1ac6314112b2c63e82b189fc8aa5bbf",
+      "bytes": 2795
+    },
+    "experiments/lingbot_vla2_g1/service_coherent_noise.py": {
+      "sha256": "c28bd151a7ce2fc642105f91344456915f4314bf2260542a593a5206fb26aad0",
+      "bytes": 3825
+    },
+    "experiments/lingbot_vla2_g1/service_pointmass.py": {
+      "sha256": "fc49b180ceb4b6c0d544edad046945dd693c0b37faf5042a7bcd55ade9fc0320",
+      "bytes": 3442
+    },
+    "experiments/lingbot_vla2_g1/sim_launcher.py": {
+      "sha256": "0fe0a4a1a5ff212deac5bff8f7de965028379c4e5f45db1ee6f7514b1f5dea2e",
+      "bytes": 14189
+    },
+    "experiments/lingbot_vla2_g1/sim_launcher_pose_speed.py": {
+      "sha256": "5b26174a4bd21ca27a181ef5d4426951101317b79323d3280d6df4a497022b06",
+      "bytes": 14212
+    },
+    "experiments/lingbot_vla2_g1/sim_launcher_with_backup.py": {
+      "sha256": "8883930cc0bac333b4b187cc442b9974b45167251ff58d558e2b61308697740c",
+      "bytes": 720
+    },
+    "experiments/lingbot_vla2_g1/success_data.py": {
+      "sha256": "70eb4e39376028c6a82ea1ee7f73a863bbef0c9f5df5d966c695bbf809867a03",
+      "bytes": 10757
+    },
+    "experiments/lingbot_vla2_g1/tests/test_archive_preserve.py": {
+      "sha256": "52a70353027c3a86b79675b50ed5fb2d05861b2866f6f2f11bfd3d9feced41e5",
+      "bytes": 5152
+    },
+    "experiments/lingbot_vla2_g1/tests/test_backup_mount.py": {
+      "sha256": "64d70bc33a98fdd248b8536e17243a942d4c957ed2aaa03310ca7f3b486e9733",
+      "bytes": 1993
+    },
+    "experiments/lingbot_vla2_g1/tests/test_body_preserving_training.py": {
+      "sha256": "aa4d3923e1e88537a99898f26447952d39392e2dff61bcf77834243ae10a2708",
+      "bytes": 4508
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_12h.py": {
+      "sha256": "bc6070823905d8eda984e4d4350a37e222e3b482654c77a32c45e0acfb884171",
+      "bytes": 3571
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_allocation.py": {
+      "sha256": "dd04ff2de132442cfd73c7cea489735d31f3d3d4616a7922f6743cb36cae1ea4",
+      "bytes": 2529
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_continuation.py": {
+      "sha256": "a43d768018465ad0e2b840ee6f26da92186bcff7df4653c2f4afbf63c732eb2e",
+      "bytes": 4182
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_reallocated_v5.py": {
+      "sha256": "278e90369b766b89af822183fd65b6926fe7ae814b5c92118524c4c1f1a0811d",
+      "bytes": 5201
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_reallocated_v6.py": {
+      "sha256": "0fd2da6779f1779149e0351b1bd12f66d1a47299daa72407debc1dad2e6100e2",
+      "bytes": 5203
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_reallocated_v7.py": {
+      "sha256": "f21fb01e67869ad9ad43ca664afd15b46de9117c99cb96d63ffa8f53f88542f5",
+      "bytes": 7392
+    },
+    "experiments/lingbot_vla2_g1/tests/test_budget_reallocated_v8.py": {
+      "sha256": "6b3b4d12053264d84730a7f7ced75ad7d816ff4fa06030c2ec3ce8497abbeb2f",
+      "bytes": 8170
+    },
+    "experiments/lingbot_vla2_g1/tests/test_carry_data_v2.py": {
+      "sha256": "ab29745d178583ce016f9e9ddce894a592504d830ec2b3749a07cea03129e763",
+      "bytes": 1156
+    },
+    "experiments/lingbot_vla2_g1/tests/test_coherent_sampling.py": {
+      "sha256": "f4fe7aba8bb497af74443a900d8f3fd04725c41c53a4a81deab545061634c067",
+      "bytes": 4149
+    },
+    "experiments/lingbot_vla2_g1/tests/test_constant_inverse.py": {
+      "sha256": "4a21b5479d2fb43264f341105224023c79d0720f89781e3ee35fb67f5ae42ee9",
+      "bytes": 2110
+    },
+    "experiments/lingbot_vla2_g1/tests/test_contract_backends.py": {
+      "sha256": "1035bc69f6527695d99db41c4c93add50b36721a6649c461c35c993ca8c784a0",
+      "bytes": 4161
+    },
+    "experiments/lingbot_vla2_g1/tests/test_data_selection.py": {
+      "sha256": "215419f3751f2ba0c7e911045e9572379161de075ae05100820bda97570aecf6",
+      "bytes": 3261
+    },
+    "experiments/lingbot_vla2_g1/tests/test_evaluation_resources.py": {
+      "sha256": "9dbc3cc199a1dc0b5f6f670f8fa715a23b792545f2c5c78f10b5f866db2ec0a9",
+      "bytes": 3245
+    },
+    "experiments/lingbot_vla2_g1/tests/test_evidence.py": {
+      "sha256": "e61134f1f1f49b65d454646e4ba8e65a8b0ab23c253e88bce5feca615892e0cd",
+      "bytes": 7622
+    },
+    "experiments/lingbot_vla2_g1/tests/test_grasp_balanced_prefix.py": {
+      "sha256": "92bd8a99ce1c3b37a43cbadd379cc1e0566160e686dd231fc5442a63b001cc79",
+      "bytes": 1621
+    },
+    "experiments/lingbot_vla2_g1/tests/test_permanent_checkpoint_alias.py": {
+      "sha256": "bc7310664d7f0066e8012334112bb9a6bd8d71bd1edef96a31fdfade7c7d190a",
+      "bytes": 3243
+    },
+    "experiments/lingbot_vla2_g1/tests/test_qualified_entrypoints.py": {
+      "sha256": "f6bdf187bf014f7d0e3082d8d1825b2a21b398ccb90983f06865b8f4f4d9e84e",
+      "bytes": 2646
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v3.py": {
+      "sha256": "438f8059678d9e40c84ee20b0e05774f0812a704496dde916fb6bf26446adfe4",
+      "bytes": 3357
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v4.py": {
+      "sha256": "2bdbf4a4261316fc552eb397f5b34ab2639d6083ce264821a12903ac80749237",
+      "bytes": 2761
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v5.py": {
+      "sha256": "e7180f3b688a66c72d18dbed1f96e1a5d0346461bec04dbd8d5cc6f390ba068f",
+      "bytes": 4654
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v6.py": {
+      "sha256": "1dda6d740252bcb6e0f2c691baa16fabc870fce0539ddc219321cd46d1853575",
+      "bytes": 6868
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v7.py": {
+      "sha256": "b236c6c6c9a240b8708bdbc30211121c11a54f87b22f1e8f4eba209a44c504b9",
+      "bytes": 8454
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v8.py": {
+      "sha256": "c55423d9c1327fa1882c55f3abc3f81fd1c03c321ae9ba0556f659ff116767e0",
+      "bytes": 10325
+    },
+    "experiments/lingbot_vla2_g1/tests/test_recovery_teacher_v9.py": {
+      "sha256": "533a2379035a35bb1a39dd9f0684d5aadd6e1d204351932ea108a117f825989f",
+      "bytes": 4947
+    },
+    "experiments/lingbot_vla2_g1/tests/test_robust_training_v5.py": {
+      "sha256": "a4d5f52be59a9c4ce578a708146e15e257d4ce505afee2893e7dcc3d864a9e4e",
+      "bytes": 9782
+    },
+    "experiments/lingbot_vla2_g1/tests/test_robust_training_v6.py": {
+      "sha256": "8872975cda5591832c5186dfac0fdaa3768e6fcb59a844d9489ee46a29245794",
+      "bytes": 10730
+    },
+    "experiments/lingbot_vla2_g1/tests/test_robust_training_v7.py": {
+      "sha256": "5007f72bc3fc73a81cbc4bb9b441e75bdbad2e02dad154756732d2338857346a",
+      "bytes": 12503
+    },
+    "experiments/lingbot_vla2_g1/tests/test_robust_training_v8.py": {
+      "sha256": "540cda275ef2085fdb105b77b2a0fa262234d2cd084423d7eb117e48c6be4b18",
+      "bytes": 13537
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round03_selection.py": {
+      "sha256": "24e97d1c281d12bd8813681b0e9435fe8b203ae9786a15dd29cdcb166a366cbc",
+      "bytes": 1963
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round04_retention.py": {
+      "sha256": "3bd2133b2baa1edf2ddf0c8ec603d6c0182e046e7901945f081a8640cfe2169b",
+      "bytes": 5073
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round04_roles.py": {
+      "sha256": "ae32d6cc12ac02252456d4f01f954e00f252beb4be8cca9fd0b013fc150eea1f",
+      "bytes": 2692
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round05_roles.py": {
+      "sha256": "44d78a6bebfe8600cddd158439c6bdb36e07e891bddea43685da19bdc44d41f4",
+      "bytes": 4679
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round06_roles.py": {
+      "sha256": "af600964a58545dd4ed26c9e5c8c4c19c9155966c998e585595bef1684105d56",
+      "bytes": 5302
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round07_roles.py": {
+      "sha256": "bbdb01b0ae1bee5ef854a5d013a3a7d8deb41095194cf5f04025e54f4f9148f4",
+      "bytes": 5413
+    },
+    "experiments/lingbot_vla2_g1/tests/test_round08_roles.py": {
+      "sha256": "2e955bde3e9f803923eb6eae2294a4baa648a42febee5592946c46fec7fb1104",
+      "bytes": 6295
+    },
+    "experiments/lingbot_vla2_g1/tests/test_success_data_admission.py": {
+      "sha256": "2e5de6f17120b716038e01c98f8f4df71d3305384e970e2d3d825c17c2834da8",
+      "bytes": 2419
+    },
+    "experiments/lingbot_vla2_g1/tests/test_training_carry_round02.py": {
+      "sha256": "ae5bbdeada484016ecc41a87c971a220e78fe2f492de0022e60983044f4d34d6",
+      "bytes": 4149
+    },
+    "experiments/lingbot_vla2_g1/tests/test_training_carry_round03.py": {
+      "sha256": "245f036b263e9d4e01394d4d636caa46e01a0e9ee53dfec19dad33fc84d31561",
+      "bytes": 4149
+    },
+    "experiments/lingbot_vla2_g1/tests/test_training_carry_round03_dual.py": {
+      "sha256": "856d24b77ef69ecdbbbe8d1a8cdb9368ec8777539d0da677f38e51c3af85f00d",
+      "bytes": 4731
+    },
+    "experiments/lingbot_vla2_g1/tests/test_training_carry_round03_grasp.py": {
+      "sha256": "1e6759b31e7800cbdc0e4298545cb27857a7ebd32e23f597a1200f986a56717e",
+      "bytes": 4168
+    },
+    "experiments/lingbot_vla2_g1/training.py": {
+      "sha256": "36143ee7c581466b4668b2475104e2e4d80e1d849e5c1427edffd53c787f8141",
+      "bytes": 12124
+    },
+    "experiments/lingbot_vla2_g1/training_carry_round02.py": {
+      "sha256": "b41f57e634502c28743a4839845690d2cdb2f3a20fff2e04c7bd9168a907f109",
+      "bytes": 12074
+    },
+    "experiments/lingbot_vla2_g1/training_carry_round03.py": {
+      "sha256": "267d8a7822cfacc397660bd752217108aeb111a06eb0c0774a61b07221408401",
+      "bytes": 11824
+    },
+    "experiments/lingbot_vla2_g1/training_carry_round03_dual.py": {
+      "sha256": "881df8f5ee4526341f4cd3206194d7c1514ad789700e76b18217540870026108",
+      "bytes": 13127
+    },
+    "experiments/lingbot_vla2_g1/training_carry_round03_grasp.py": {
+      "sha256": "3604950b1ae4135bd698ba5c7b4f022e529f9fe2f45fe0de21eb1c049966bf5e",
+      "bytes": 12328
+    },
+    "experiments/lingbot_vla2_g1/training_task_round04.py": {
+      "sha256": "34b372706cbe64be77853bfff8897ba942d7860c2ecc9640089cbbee355693ef",
+      "bytes": 14621
+    },
+    "experiments/lingbot_vla2_g1/training_task_round05.py": {
+      "sha256": "6dc0893c4be270065a44129104decf606c979ebee0ac25647d515de19ea64953",
+      "bytes": 19106
+    },
+    "experiments/lingbot_vla2_g1/training_task_round06.py": {
+      "sha256": "d237a60c6ec5529809cd6ba57b112f7187af0e15055dd041ec7f4d99fba5c5ed",
+      "bytes": 20543
+    },
+    "experiments/lingbot_vla2_g1/training_task_round07.py": {
+      "sha256": "4c8ac9fc84eb28a9bde7449e3a49945fff18b3f6b015fa078bee8da1adcdaa01",
+      "bytes": 21524
+    },
+    "experiments/lingbot_vla2_g1/training_task_round08.py": {
+      "sha256": "284d70438216b72040034960fd18a579451c1dd0b1c4ce0f626b8332cb53ac51",
+      "bytes": 22908
+    },
+    "experiments/pi05_g1/apply_transformers_patch.py": {
+      "sha256": "29c658bcc1631bce5f3a193e6127c3891f01853dd2b595238e7f216255dae2a8",
+      "bytes": 2603
+    },
+    "experiments/pi05_g1/archive_checkpoints.py": {
+      "sha256": "1f4a617b6c73d573f8e7e12650e21dbb3dea80fc77392f2700b35539a56cf25a",
+      "bytes": 8789
+    },
+    "experiments/pi05_g1/archive_inputs.py": {
+      "sha256": "58bdaba52a1f2051b8249b856ad01603d875ca976e02a24919f364966485d0c8",
+      "bytes": 5189
+    },
+    "experiments/pi05_g1/audit_dataset.py": {
+      "sha256": "8039a78e72af6c823eb3df95a40a313d0da79bdeb16bdfc09616338249ce1d38",
+      "bytes": 20503
+    },
+    "experiments/pi05_g1/budget.py": {
+      "sha256": "c618eb64d9439c362f6ae2e58c2e1dbcabca5a14d1cb025f191346a834b528d8",
+      "bytes": 18531
+    },
+    "experiments/pi05_g1/compare_head_only.py": {
+      "sha256": "e0e38bb239d8a0c7a8feb5802bd904a33aa6c816265bedc07e04731fb8497996",
+      "bytes": 5230
+    },
+    "experiments/pi05_g1/contract.py": {
+      "sha256": "57561e135128dd96ff68554efcdccddb105c5544cb74a7b6361938418f7fff4d",
+      "bytes": 4397
+    },
+    "experiments/pi05_g1/convert_checkpoint.py": {
+      "sha256": "4ff79293fb6a9ca2595cc4717590c6040665b284f994c5cc396500dda1fd3e16",
+      "bytes": 6453
+    },
+    "experiments/pi05_g1/download_checkpoint.py": {
+      "sha256": "f971bdc5bc5ee197e420e1e1bf66c475b7911414a9fe2b3f2bd590545108881c",
+      "bytes": 3878
+    },
+    "experiments/pi05_g1/download_dataset.py": {
+      "sha256": "b6145e81ddb62ea675f5917f53e3239a93fc4d2ecc31ff7584e9db7ecde15e59",
+      "bytes": 11817
+    },
+    "experiments/pi05_g1/evaluate_offline.py": {
+      "sha256": "c4b74166fd0e8757ebe44a411fee663efa5ddcfc7a07b1b638fe4219fb300e97",
+      "bytes": 2241
+    },
+    "experiments/pi05_g1/evaluation_round.py": {
+      "sha256": "d7d32d26a5c0ae237874172bf84b08d697b9fef6eb805ab1a04835a38561f575",
+      "bytes": 10473
+    },
+    "experiments/pi05_g1/model_runtime.py": {
+      "sha256": "dfbcb5cadef48a6f4b4cd73a4b69ceb706a3de294f54ee305b8b7eea945319c3",
+      "bytes": 12374
+    },
+    "experiments/pi05_g1/placement.py": {
+      "sha256": "ba2911fec8c6d9bc4d99a11376abf2d5430cf69cbb39b5abd10ec1b0a22bc356",
+      "bytes": 8711
+    },
+    "experiments/pi05_g1/prepare_training_data.py": {
+      "sha256": "75b79694f4ca0eb6c14906a274185e220c025c462d63de9dfdcf7b0a29867e7a",
+      "bytes": 12559
+    },
+    "experiments/pi05_g1/run_evaluation.py": {
+      "sha256": "3eae7ce363557f989cf8f63a853f9c5fdaf4839afb9d74f58d39232a60fd49be",
+      "bytes": 4551
+    },
+    "experiments/pi05_g1/sim_launcher.py": {
+      "sha256": "56661c882b2b255ffa4e7fa314f3c7c4e8ce7d143c8d47986d1530edd5b96436",
+      "bytes": 14112
+    },
+    "experiments/pi05_g1/simulator.py": {
+      "sha256": "88e068993f07f8e188c7f009481b66e17a2bc763a817e1d27c6f25c432759575",
+      "bytes": 31555
+    },
+    "experiments/pi05_g1/summarize_evaluation.py": {
+      "sha256": "e9e919802feb477d74610c979157be972ba05725bc0db3d8ab26b36396e3992b",
+      "bytes": 20715
+    },
+    "experiments/pi05_g1/tests/test_archive_checkpoints.py": {
+      "sha256": "c571d3f25cb4e297764ae32a11dcabc1dcb115f6eb04bffa680450aa3b14051e",
+      "bytes": 4811
+    },
+    "experiments/pi05_g1/tests/test_budget.py": {
+      "sha256": "82a4f2ab335b737d6d887e0fc822c6a7b3fde23d9879b0094011f38599fd07ce",
+      "bytes": 7223
+    },
+    "experiments/pi05_g1/tests/test_data_evaluation.py": {
+      "sha256": "bfa677b5a1b4ffa756ddef5480c4e9d238c0c625b0ddff91b3d906fa647784b0",
+      "bytes": 11041
+    },
+    "experiments/pi05_g1/tests/test_evaluation_round.py": {
+      "sha256": "cdffe1667663fd99309cc5b9afb2b9f0a27d8c966a9c89609caa4f636e9946bc",
+      "bytes": 5830
+    },
+    "experiments/pi05_g1/tests/test_simulator_contract.py": {
+      "sha256": "f044b448db436568a7a714a5345525c58dcc598c17aef51e15e8c75da12dd050",
+      "bytes": 6959
+    },
+    "experiments/pi05_g1/tests/test_training_pipeline.py": {
+      "sha256": "af09908209bf310e299e85500b4b99381b3358916b9b41da587bbd429f8eb431",
+      "bytes": 14663
+    },
+    "experiments/pi05_g1/training.py": {
+      "sha256": "0930b24e2c0a0a4ad6b0932978c7e9de86bf2854f027c6145fd51d26c9dc6d88",
+      "bytes": 25654
+    },
+    "experiments/pi05_g1_mobile/__init__.py": {
+      "sha256": "c186222a86e259c75a14ea3dfe1b70a34cafeb77f0ec977db40e70ec30c7293f",
+      "bytes": 65
+    },
+    "experiments/pi05_g1_mobile/acceptance.py": {
+      "sha256": "303cf7d1ba59ad0e055ad8dd6933638449b6533c31319a6b351d6414db1b3b7e",
+      "bytes": 12794
+    },
+    "experiments/pi05_g1_mobile/acceptance_body_ids.py": {
+      "sha256": "f73f6785c925645d1309613ef2b37afe789ce5b944c9ddfc44baa6002adb5459",
+      "bytes": 5013
+    },
+    "experiments/pi05_g1_mobile/acceptance_pose_speed.py": {
+      "sha256": "1790afba45148e3a16506a9646575d52bf53b78f6b354e2b3744712849273815",
+      "bytes": 8614
+    },
+    "experiments/pi05_g1_mobile/archive_mobile.py": {
+      "sha256": "107612bc0e6ef803aa4cce583d68a7c2e4f053dec63026b61d044937fb9b73e3",
+      "bytes": 15237
+    },
+    "experiments/pi05_g1_mobile/archive_mobile_v2.py": {
+      "sha256": "b40defea951a3897be8f8d1ff6dc2ccca7b582c35c825ab39b0fb78eaaf7f38d",
+      "bytes": 15709
+    },
+    "experiments/pi05_g1_mobile/archive_mobile_v3.py": {
+      "sha256": "580221cee8aea77ae3a7d9440df60b40faecaaef530fe6dfae0426087dfd03a2",
+      "bytes": 18513
+    },
+    "experiments/pi05_g1_mobile/archive_mobile_v4.py": {
+      "sha256": "1eda0596309ce5d0d2a50bab4ab1291ed18e11e305e562e08849d3a193de9b30",
+      "bytes": 19293
+    },
+    "experiments/pi05_g1_mobile/audit_carry_prefix.py": {
+      "sha256": "9d0b083a5fb2d7bc0575b176fffe413bb6867aa861aac5707636843ea5c2434a",
+      "bytes": 8510
+    },
+    "experiments/pi05_g1_mobile/audit_delivery_guard_v2.py": {
+      "sha256": "1bfca586769ced689df768c2aadc8adc26a55616431e7ebe1dc9b8ec0224561e",
+      "bytes": 3229
+    },
+    "experiments/pi05_g1_mobile/audit_episodes.py": {
+      "sha256": "45a0724689bc9042dd692d703aa888cef98876aa886c459ece73828d50b7d257",
+      "bytes": 15870
+    },
+    "experiments/pi05_g1_mobile/audit_episodes_v2.py": {
+      "sha256": "ecde84b66c203376deaa4af223dcf25a384d1c926aa4fd13c92cf511dfff1c13",
+      "bytes": 18984
+    },
+    "experiments/pi05_g1_mobile/audit_episodes_v3.py": {
+      "sha256": "9b0f558fc16517679e1243617efeed2a03a70ea92baeaf714553f4bbd51bb78a",
+      "bytes": 19135
+    },
+    "experiments/pi05_g1_mobile/batch.py": {
+      "sha256": "b2a71fc7163ebbba1a863941af0ebf19ffd0d316cd8e21e9cd0ba0feed80ce33",
+      "bytes": 16154
+    },
+    "experiments/pi05_g1_mobile/batch_acceptance_v2.py": {
+      "sha256": "1369e0fcf21d3da6c8cc2aec8239744810ba8b7ef319efe28df034c6ceaa7055",
+      "bytes": 16168
+    },
+    "experiments/pi05_g1_mobile/batch_pose_speed.py": {
+      "sha256": "cca02f531d5f01f7d8bc74b4435a5781291abe45ebc8095edd0f767ff2567672",
+      "bytes": 16165
+    },
+    "experiments/pi05_g1_mobile/benchmark.py": {
+      "sha256": "c2175b151654cc63e4d00b4594e8705aff438e2629cf15311185ec9e27335384",
+      "bytes": 25596
+    },
+    "experiments/pi05_g1_mobile/benchmark_v2.py": {
+      "sha256": "9070558d38c51594e76b2a777c06cc71dffd0e52d69731d4604c9daec6de4a7e",
+      "bytes": 25667
+    },
+    "experiments/pi05_g1_mobile/budget.py": {
+      "sha256": "f0b69737af45cd859ab80970dd51243d519d0833f642c4db18fdc2db948149f1",
+      "bytes": 6099
+    },
+    "experiments/pi05_g1_mobile/budget_allocated.py": {
+      "sha256": "3e39996eb10cd509d2766776eb00899bfb8e1c6afc21ef230432d703d9330ce5",
+      "bytes": 8829
+    },
+    "experiments/pi05_g1_mobile/carry_prefix_data.py": {
+      "sha256": "b5608947c31a5f7dd3f7a591b3629a33e195b1b1c672767f88bed275cb29e274",
+      "bytes": 15227
+    },
+    "experiments/pi05_g1_mobile/contract.py": {
+      "sha256": "aa2c4e76637b9d625d6ca24c4363a1375f5c62c3e347aba5f5976f941025a4d9",
+      "bytes": 2086
+    },
+    "experiments/pi05_g1_mobile/extract_replay_reference.py": {
+      "sha256": "fd4a9ac01b858541501df24228d7f741236200c89a37157b7ce4ce457ef04d0b",
+      "bytes": 8274
+    },
+    "experiments/pi05_g1_mobile/gr00t_service.py": {
+      "sha256": "e0516183af0caccb45879a6d9b380232119a39e53567761af897be098c96214c",
+      "bytes": 6833
+    },
+    "experiments/pi05_g1_mobile/low_peak_master_adamw.py": {
+      "sha256": "913d9ee8e2be06bb0d0150eed1f7cd6a4b6d9c31b33cec5681486377a2f37bc7",
+      "bytes": 1785
+    },
+    "experiments/pi05_g1_mobile/make_benchmark_plan.py": {
+      "sha256": "1c6056418e7fbc0d623482ac07f0e63323ff40e84afb4f4a635180f254a6dbc3",
+      "bytes": 21897
+    },
+    "experiments/pi05_g1_mobile/make_benchmark_plan_pose_speed.py": {
+      "sha256": "cace07ba299c7b1abd15fd42a8aed2d3d6055a1f032158f8585758cf0a6ecac0",
+      "bytes": 27419
+    },
+    "experiments/pi05_g1_mobile/make_benchmark_plan_v2.py": {
+      "sha256": "16f89ccc030e174d7f99e40a40eb110413abb41f3ecaf713de8b47aa8353ccff",
+      "bytes": 22786
+    },
+    "experiments/pi05_g1_mobile/make_formal_segment_candidate.py": {
+      "sha256": "2add21f276789251a786ad03ab1e26dc6789ed9624612eec420aeaf7a9566e20",
+      "bytes": 19653
+    },
+    "experiments/pi05_g1_mobile/make_formal_segment_candidate_v2.py": {
+      "sha256": "2639493a2eb525447245f7f7e8a6283ae622488ae838f59db84a43d3a6ea57a9",
+      "bytes": 20874
+    },
+    "experiments/pi05_g1_mobile/model_runtime.py": {
+      "sha256": "1e3199a76a9daccc2058536b73718a6455d6ca9d6647765cd01193f341e8f408",
+      "bytes": 13232
+    },
+    "experiments/pi05_g1_mobile/offline_assets.py": {
+      "sha256": "78db588e9b079fc2a199af0eec2adaaafb995a6263bca2e972d3c0bc9f9df68f",
+      "bytes": 3842
+    },
+    "experiments/pi05_g1_mobile/offline_evaluation.py": {
+      "sha256": "61b1f3902367d25282d248f370714525229e55158f5cfb4fcc6c132f68438e91",
+      "bytes": 14498
+    },
+    "experiments/pi05_g1_mobile/owned_model_cache_hint.py": {
+      "sha256": "2ed9a0c026e3129b85d892bd5d311794e1d1b420e96598c5b916a9cba2fe73cc",
+      "bytes": 10897
+    },
+    "experiments/pi05_g1_mobile/pi05_service.py": {
+      "sha256": "293e4a6cb78862c69f8746359e1cb218c5fa97175891b8ca8a94e182158c2320",
+      "bytes": 4231
+    },
+    "experiments/pi05_g1_mobile/prepare_training_command.py": {
+      "sha256": "4b5598e481adf00cfe746895a187ae42d3abb1b2fbf6c6e1e7980e65312b9f45",
+      "bytes": 6083
+    },
+    "experiments/pi05_g1_mobile/prepare_v4_preflight.py": {
+      "sha256": "7e22e87a6425318ca989cb75c771e810742db1cec89c88578d2eba07b6e57f66",
+      "bytes": 6715
+    },
+    "experiments/pi05_g1_mobile/qualify_placement_oracle.py": {
+      "sha256": "a67d43123dc1526d2e2b1a5b78460e2cfce71f17058d3205f937ef2b3bb55ae3",
+      "bytes": 10246
+    },
+    "experiments/pi05_g1_mobile/quiescence.py": {
+      "sha256": "d4029b267164a411b936fe795577c46045c3eef07e856b7e7fca4a59a9efc653",
+      "bytes": 14677
+    },
+    "experiments/pi05_g1_mobile/report.py": {
+      "sha256": "0260aa2b33e8c0a1d7dff94a72dfa9506ea2c42278b3ce76e88b5be67b5a8c4f",
+      "bytes": 17738
+    },
+    "experiments/pi05_g1_mobile/report_v2.py": {
+      "sha256": "9d462906804fc883b0f74ea82e0663f4312938ffd32efec827b13bf6fd13c16d",
+      "bytes": 18834
+    },
+    "experiments/pi05_g1_mobile/round03_driver.py": {
+      "sha256": "72ae423f93e618cecef7db5fb3749c68a4d93ba72235715381bd1887f925888e",
+      "bytes": 16679
+    },
+    "experiments/pi05_g1_mobile/round03_driver_allocated.py": {
+      "sha256": "586e5c824aff61d10131832f09a80c9c52bd95d85683a1d1724201d1b707b443",
+      "bytes": 3932
+    },
+    "experiments/pi05_g1_mobile/sim_launcher.py": {
+      "sha256": "dd29e5c40277f0c49b3fe3e6d13b0168046ed32a4d3da924b46cc9bee3cca811",
+      "bytes": 14195
+    },
+    "experiments/pi05_g1_mobile/sim_launcher_acceptance_v2.py": {
+      "sha256": "3c112bea266953d75fd6d98df83eb277d1b2a905e222e850f9923c5ffb6ba858",
+      "bytes": 14219
+    },
+    "experiments/pi05_g1_mobile/sim_launcher_pose_speed.py": {
+      "sha256": "71a85f11589b1bc36541fbe13f87873de76f37287689f81ebc84887a687749a0",
+      "bytes": 14218
+    },
+    "experiments/pi05_g1_mobile/simulator.py": {
+      "sha256": "ee39d23414170e602560a1f4c4dd364e03bee91623ba4fa5566d621577e4424f",
+      "bytes": 34958
+    },
+    "experiments/pi05_g1_mobile/standalone_policy_probe.py": {
+      "sha256": "a5af9d527388216b03a5d2de1b3eee8996407d192332282d8389687f8e6e705f",
+      "bytes": 9488
+    },
+    "experiments/pi05_g1_mobile/supplementary_data.py": {
+      "sha256": "9d0d69833926e198099548fc40f2f9d74394bb2ec76d6c043cf38de1288c0d77",
+      "bytes": 20552
+    },
+    "experiments/pi05_g1_mobile/tests/test_acceptance.py": {
+      "sha256": "d2df396ccd7048443bdbdafba1fabe0bb295a527682835f7243b36f281225ee7",
+      "bytes": 15188
+    },
+    "experiments/pi05_g1_mobile/tests/test_acceptance_body_ids.py": {
+      "sha256": "f5d568bb0194a9fbafc5ad9fe19e2c2dd34081883195efec56377ee26ac283ca",
+      "bytes": 3834
+    },
+    "experiments/pi05_g1_mobile/tests/test_acceptance_pose_speed.py": {
+      "sha256": "cacb62ae35b6804a4c1b0db3b9838c9b8ef09f8f8216699134ea29ccad6bd31f",
+      "bytes": 11272
+    },
+    "experiments/pi05_g1_mobile/tests/test_archive_mobile.py": {
+      "sha256": "48dce7b13bc05ddede22c88fc5b0a1b420766ff19d1d329d61ac394585c13dce",
+      "bytes": 8386
+    },
+    "experiments/pi05_g1_mobile/tests/test_archive_mobile_v3.py": {
+      "sha256": "28594dcbaac877bfc714203f8e47e2b5b2b130fcd0b4e1249369f8f34b80342c",
+      "bytes": 3619
+    },
+    "experiments/pi05_g1_mobile/tests/test_archive_mobile_v4.py": {
+      "sha256": "4620f422cfdb08c2622610de58e09681a5b0ff97d5871e739e9dc4d2bc5712d9",
+      "bytes": 5545
+    },
+    "experiments/pi05_g1_mobile/tests/test_audit_carry_prefix.py": {
+      "sha256": "7f9e0443bb2fe1965b98813d73e0b84f24846e2a313e6f34c41397b4ff4e3261",
+      "bytes": 4541
+    },
+    "experiments/pi05_g1_mobile/tests/test_audit_episodes.py": {
+      "sha256": "663003ff18fbf61a15665b17efe5a293b6bb18142e265c7b39ea9f6e5303a6b6",
+      "bytes": 8635
+    },
+    "experiments/pi05_g1_mobile/tests/test_audit_episodes_v2.py": {
+      "sha256": "325b2f27aed8ce4bc3adc278e91ea9ab4887037a50ebc210518c08c5239676b5",
+      "bytes": 5826
+    },
+    "experiments/pi05_g1_mobile/tests/test_batch.py": {
+      "sha256": "09e591799bbac7bb05d76963a967aae9b1ecd0a72dfd97e10e5a7b00d018480a",
+      "bytes": 8740
+    },
+    "experiments/pi05_g1_mobile/tests/test_batch_acceptance_v2.py": {
+      "sha256": "15aec679721ee2c40bcb4692df5536f6afedf31dab80bdb9d44cabad666c5f63",
+      "bytes": 8867
+    },
+    "experiments/pi05_g1_mobile/tests/test_batch_pose_speed.py": {
+      "sha256": "2df77802d9099909383bfd69830b3619e5551d283e14e39b82dfb83a27c502c2",
+      "bytes": 8861
+    },
+    "experiments/pi05_g1_mobile/tests/test_benchmark.py": {
+      "sha256": "b6210fba85c7b7c2370788f4beaaf384b5388b37d00c0c7d1a91871ab0918ebe",
+      "bytes": 12752
+    },
+    "experiments/pi05_g1_mobile/tests/test_budget_allocated.py": {
+      "sha256": "f126ac3e82d83fc2ce4184fb1c8023daf2fa16da1520495fe96e611bf25981d8",
+      "bytes": 5718
+    },
+    "experiments/pi05_g1_mobile/tests/test_budget_launcher.py": {
+      "sha256": "f68b0b617b23f6a31e869aefd773023382aba7e3b8d1a5e5f5f3fe94e2b9229a",
+      "bytes": 11155
+    },
+    "experiments/pi05_g1_mobile/tests/test_carry_prefix.py": {
+      "sha256": "ca22e437db67a35c98b481a2f96653920211a09f686a97aa1b2f1008cb124e39",
+      "bytes": 10905
+    },
+    "experiments/pi05_g1_mobile/tests/test_delivery_v2.py": {
+      "sha256": "155c721e143a16e090fc7c31485da91240560dfbd465dd2fff583ffa9224ee78",
+      "bytes": 6553
+    },
+    "experiments/pi05_g1_mobile/tests/test_interruption_evidence.py": {
+      "sha256": "ab5f997331dec852673099bc443b0187af953465d16275e92b58b63eebcbb590",
+      "bytes": 4717
+    },
+    "experiments/pi05_g1_mobile/tests/test_launcher_acceptance_v2.py": {
+      "sha256": "5d8d05ce3b359bfecb249bc24afa8dc4d5f421903bff3ec89f63042d188fe459",
+      "bytes": 2639
+    },
+    "experiments/pi05_g1_mobile/tests/test_launcher_pose_speed.py": {
+      "sha256": "c621c41bd79e5f799c5d3e7b6edd9878de0f92f5a3de515a9e42d44b1339aacf",
+      "bytes": 2708
+    },
+    "experiments/pi05_g1_mobile/tests/test_low_peak_master_adamw.py": {
+      "sha256": "bc0afb84d42b060f7bbbdef6b768e695203fb9221d0c528f7d031cf9abe5f81f",
+      "bytes": 3397
+    },
+    "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan.py": {
+      "sha256": "26c56423053c07b16e43d7d46e700e7b093765d408b9bd2cd49115af043ee5bd",
+      "bytes": 11774
+    },
+    "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_pose_speed.py": {
+      "sha256": "05a4044f284d7e4e53069ac447546fab2bf605db732da59aea545b63d85f3c37",
+      "bytes": 4939
+    },
+    "experiments/pi05_g1_mobile/tests/test_make_benchmark_plan_v2.py": {
+      "sha256": "19d6830cf2e503a24275c7e455d1475add4035a5395d938dbeddbc235e85c2cf",
+      "bytes": 13768
+    },
+    "experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate.py": {
+      "sha256": "61c716a0e9f476ca3335fcb347014ee4253ebed6aec51af1fda71de662b21b95",
+      "bytes": 9639
+    },
+    "experiments/pi05_g1_mobile/tests/test_make_formal_segment_candidate_v2.py": {
+      "sha256": "0c1cfa73ba8995e0ae37b6b33951b161465ef4b6c08df7a80fcbd98e4c47fc6c",
+      "bytes": 10775
+    },
+    "experiments/pi05_g1_mobile/tests/test_offline_assets.py": {
+      "sha256": "af351ba9ec552641076eb492cdaf7431c40c9fa139c5b508dd5202adf233633f",
+      "bytes": 4086
+    },
+    "experiments/pi05_g1_mobile/tests/test_offline_evaluation.py": {
+      "sha256": "dd5e41190a54372d1435c13e9e8f2aa8947d476d6de9c5e11b13d78475cd4682",
+      "bytes": 7037
+    },
+    "experiments/pi05_g1_mobile/tests/test_owned_model_cache_hint.py": {
+      "sha256": "5d33ccfd5204f9d19d02fd8ca4f5504043d6a2d69fd39441c0e4e3e4d64bb4cb",
+      "bytes": 5593
+    },
+    "experiments/pi05_g1_mobile/tests/test_pose_speed_alternating_motion.py": {
+      "sha256": "f6de2d6de6c429d92fe3ee3ea9734dd9d0f612ac9f2e636496a6f70989b09252",
+      "bytes": 1235
+    },
+    "experiments/pi05_g1_mobile/tests/test_qualify_placement_oracle.py": {
+      "sha256": "eb095c289f91e78a84a53d3c93c969b5799630d1ea11bc0094eab6a28a17c0a3",
+      "bytes": 6328
+    },
+    "experiments/pi05_g1_mobile/tests/test_quiescence.py": {
+      "sha256": "7f10f1ad2d8f79fc82b934cdce7069568b0adbbb26f4209c5d20888f8eee8d45",
+      "bytes": 5819
+    },
+    "experiments/pi05_g1_mobile/tests/test_report.py": {
+      "sha256": "82ce1539096d78f26efdfa4fb3631ce15d68d2cf3bc9c120a29a6b205a63162f",
+      "bytes": 8158
+    },
+    "experiments/pi05_g1_mobile/tests/test_round03_driver.py": {
+      "sha256": "c60b6b024f7a338fc31c2780bdd963105f4d5659d04c6e883a29de913e3d83ba",
+      "bytes": 9275
+    },
+    "experiments/pi05_g1_mobile/tests/test_round03_driver_allocated.py": {
+      "sha256": "e0446aa8a079b75d6f6b76cadec4f22f5c91ec08173a3a29c479e8b31c11d021",
+      "bytes": 5512
+    },
+    "experiments/pi05_g1_mobile/tests/test_runtime_service.py": {
+      "sha256": "f3a1dbec640498552d3b2e7e820288da5b1e9c69d36afde1f6747647c405aa09",
+      "bytes": 10005
+    },
+    "experiments/pi05_g1_mobile/tests/test_simulator.py": {
+      "sha256": "7771989295a8ce559d8abcffc48d528d84c963638867f013ea47128645c5671b",
+      "bytes": 8137
+    },
+    "experiments/pi05_g1_mobile/tests/test_standalone_policy_probe.py": {
+      "sha256": "a0a8806d77d6caa5b60f2fbf0ced9d206d6aec86252bd2f1fe5b9553ec3fc020",
+      "bytes": 3877
+    },
+    "experiments/pi05_g1_mobile/tests/test_supplementary_data.py": {
+      "sha256": "34c9570dd966a057a54c7b64e9ef44bebf212df36e8d172822782255a611b00e",
+      "bytes": 9602
+    },
+    "experiments/pi05_g1_mobile/tests/test_training.py": {
+      "sha256": "95e665731fefd0d63d2587243a58586453503e06c011b5394d904a9149577b52",
+      "bytes": 12270
+    },
+    "experiments/pi05_g1_mobile/tests/test_training_carry_memory_v2.py": {
+      "sha256": "118e55a792201216fae1e467dfba2fccce0cb272894bf0a489e9524dcd29cee8",
+      "bytes": 6515
+    },
+    "experiments/pi05_g1_mobile/tests/test_transport_analysis.py": {
+      "sha256": "1186f7e086262b31efbfe464b99a6b84527af64cd67d65083b3b97ac60365eed",
+      "bytes": 4450
+    },
+    "experiments/pi05_g1_mobile/tests/test_transport_paths.py": {
+      "sha256": "464a526736ecc4cd6e0521d8cabe97f06ca384f268ff655fdae97e6406d9daff",
+      "bytes": 7466
+    },
+    "experiments/pi05_g1_mobile/tests/test_transport_paths_v2.py": {
+      "sha256": "b28ad62bdae52c7db38cffe9603eb43e6a4741a08ae2a8a24c1477c018c655a6",
+      "bytes": 8444
+    },
+    "experiments/pi05_g1_mobile/tests/test_transport_report.py": {
+      "sha256": "f93a3f98d4b4d1d7744740f349f73fac79482590b8afed2e02c1daf7af3c6a47",
+      "bytes": 6490
+    },
+    "experiments/pi05_g1_mobile/tests/test_versioned_checkers.py": {
+      "sha256": "e7bbf172c0d5f018f8fb89676d9e944152d52db39f033e4adf4757da8cc78a2f",
+      "bytes": 2550
+    },
+    "experiments/pi05_g1_mobile/training.py": {
+      "sha256": "3574b713e00572ee0592914c04ef5150d94cd0669c9b2fc4fa53814f90069c17",
+      "bytes": 19429
+    },
+    "experiments/pi05_g1_mobile/training_carry.py": {
+      "sha256": "3f8042220b87bf6965221412f8147584db4ad334ff2056fee0a75cc7b3a00e29",
+      "bytes": 21281
+    },
+    "experiments/pi05_g1_mobile/training_carry_memory_v2.py": {
+      "sha256": "e92ad17b0085c05f477a14adf403f4a66a31bff95e1a9f94477b0dde4c4adf7b",
+      "bytes": 23535
+    },
+    "experiments/pi05_g1_mobile/training_carry_memory_v3.py": {
+      "sha256": "39b82e4e05a614cfd1080392e28e211d6ac402400344c6ef4b5dd0ad2724bd90",
+      "bytes": 23788
+    },
+    "experiments/pi05_g1_mobile/transport_analysis.py": {
+      "sha256": "c34a736c7e2a32cdfdf52998f6c8d273a6595591ed938a5be46c54aaa0c65046",
+      "bytes": 12489
+    },
+    "experiments/pi05_g1_mobile/transport_paths.py": {
+      "sha256": "7db21bdcba5bd5717423e873bfe07a32845b1b37a6875225c217220514394296",
+      "bytes": 17371
+    },
+    "experiments/pi05_g1_mobile/transport_paths_v2.py": {
+      "sha256": "3d884b8dcd989c05e052daad9b0c2b8aaf3733187a0d5fbb3c712fbd9598a08f",
+      "bytes": 19154
+    },
+    "experiments/pi05_g1_mobile/transport_report.py": {
+      "sha256": "b8347a3685186378d3508c54a1ac2225427ae9af802d4590408e462d25fbd5d5",
+      "bytes": 21402
+    },
+    "experiments/pi05_g1_round02/__init__.py": {
+      "sha256": "95952035651421dd4d3e3189a44df7df1bb9d192359c6a424b2464ac3c5e5df0",
+      "bytes": 70
+    },
+    "experiments/pi05_g1_round02/archive_round02.py": {
+      "sha256": "d55df4703c3bb7a92cfbc2482ab960a3caa5f11237d8adbd6234744d71d5826a",
+      "bytes": 21812
+    },
+    "experiments/pi05_g1_round02/audit_episodes.py": {
+      "sha256": "08ae0d08997a223bd8b6c6b7a33faabf98504b097b25bf49322194f8fda13bc0",
+      "bytes": 14777
+    },
+    "experiments/pi05_g1_round02/audit_recovery_training.py": {
+      "sha256": "7ebc3820a94e907c8caf9de7731b4caeba6f7b5c2572bc8a2c5d0a649d73df3e",
+      "bytes": 16487
+    },
+    "experiments/pi05_g1_round02/batch.py": {
+      "sha256": "fdc3d8184aeb182ef4658fdbeace92ce69c69c5bba218bc16ee4af98eac85336",
+      "bytes": 6565
+    },
+    "experiments/pi05_g1_round02/batch_video_export.py": {
+      "sha256": "7030bb8ac7c3bda9a3add8a484d5a21061f39541a2457eb7e223aaadac7e68d3",
+      "bytes": 15270
+    },
+    "experiments/pi05_g1_round02/benchmark.py": {
+      "sha256": "e0ab86301443fe7c4dc31532926f2e4135019c257d3d8d80b856366bccc7c11d",
+      "bytes": 26073
+    },
+    "experiments/pi05_g1_round02/budget.py": {
+      "sha256": "da9b12d0a3f7e1a3a7712be3c5f4722d458ab067cb94708c9294bd3054c0fb64",
+      "bytes": 800
+    },
+    "experiments/pi05_g1_round02/checkpoint_lineage.py": {
+      "sha256": "cb40d61266b200b3eb70504533fd9b589f576f65982c5c29b02c6e1b8ff18ea9",
+      "bytes": 16514
+    },
+    "experiments/pi05_g1_round02/clone_plan.py": {
+      "sha256": "8143f2c2bcfe6468d5d8e7af9572be7e076529cbd809e210beeb53bc1274eb9b",
+      "bytes": 2603
+    },
+    "experiments/pi05_g1_round02/datasets.py": {
+      "sha256": "5c7e7d2866877eb2421dbc15a5b69e2e4b174200761c49e45b988548b14beb08",
+      "bytes": 10236
+    },
+    "experiments/pi05_g1_round02/delivery_audit.py": {
+      "sha256": "7a78d74f2da2f3482f9aef393e0715681c9a3054037244c1c918fc5e8eb5bdd0",
+      "bytes": 27587
+    },
+    "experiments/pi05_g1_round02/gr00t_service.py": {
+      "sha256": "1da8efaf78d626bfde3266ccc7c4d8bbf51643c1bbcdfce6eaa19106016875f9",
+      "bytes": 3726
+    },
+    "experiments/pi05_g1_round02/image_condition_diagnostic.py": {
+      "sha256": "4371ae18a90721941341cd85e768454f9259e9d940e0bbec8e3136e2ece75c0a",
+      "bytes": 8223
+    },
+    "experiments/pi05_g1_round02/make_benchmark_plan.py": {
+      "sha256": "31162fe6312e3ca0e831fb5267be48a5744153fabe9b87f377e5aba50a1fb9c2",
+      "bytes": 14898
+    },
+    "experiments/pi05_g1_round02/make_supplementary_plan.py": {
+      "sha256": "4c560f5c0861ce38a6c2fd1f99cce76d6383bc1da3d759a213445869c0c958cf",
+      "bytes": 12327
+    },
+    "experiments/pi05_g1_round02/offline_diagnostic.py": {
+      "sha256": "ea541cc86862b84732b34d3be501d3ffcb9f014b99cf7cb875d3ca91f3a07599",
+      "bytes": 14603
+    },
+    "experiments/pi05_g1_round02/pi05_service.py": {
+      "sha256": "038ee99af967736e076021584c90869edc10ac9edf985bd7a5a36f1c4cc7c175",
+      "bytes": 1322
+    },
+    "experiments/pi05_g1_round02/plot_benchmark.py": {
+      "sha256": "276be5f6c02c3d755bd7e017d331fd0b109019638c9773ead2e07aaee83c6b36",
+      "bytes": 12213
+    },
+    "experiments/pi05_g1_round02/prepare_inputs.py": {
+      "sha256": "1cbf36e942ce0424639db2f54193678e6fc1273915fdbeec584cbffca9d5231c",
+      "bytes": 7994
+    },
+    "experiments/pi05_g1_round02/quiescence_probe.py": {
+      "sha256": "1951bbd0b9ef472fb82f7100aa00b88ae697f21432cc7e4c9c30ecef50047043",
+      "bytes": 11719
+    },
+    "experiments/pi05_g1_round02/recovery_training_watch.py": {
+      "sha256": "12e9055530f214020dec31a6294bd013dba84c2cf6c8b8d6675e91b46d50287b",
+      "bytes": 7989
+    },
+    "experiments/pi05_g1_round02/replay_limit_compare.py": {
+      "sha256": "92c715ffa9ca4651eb258ef56781cf125cd6dcf7706e8fd212d2ff945edbc9e3",
+      "bytes": 6004
+    },
+    "experiments/pi05_g1_round02/sim_launcher.py": {
+      "sha256": "221646d230960132286e3e1b5c0ff928087297b966b3842da481f827f42cf011",
+      "bytes": 14183
+    },
+    "experiments/pi05_g1_round02/simulator.py": {
+      "sha256": "610efebbbfb9ae9c0f8792ef0353d693be56c3a196cbb2a1c25f68fac39efe01",
+      "bytes": 42896
+    },
+    "experiments/pi05_g1_round02/teacher_dataset.py": {
+      "sha256": "4296c598a7f734a14c8c8f8b3a3b7c4210af0488f46d028d745d7da2e72b1f4d",
+      "bytes": 9999
+    },
+    "experiments/pi05_g1_round02/tests/test_action_bounds.py": {
+      "sha256": "57e8917a6ae516c2c68f5edd5ec97ec0a1c40fd466cbba2569001c2fd0913665",
+      "bytes": 1153
+    },
+    "experiments/pi05_g1_round02/tests/test_archive_round02.py": {
+      "sha256": "82283238123c1d6f63e20615832bfcd05ce9cb58eeec9c586bab34e6a2310572",
+      "bytes": 12354
+    },
+    "experiments/pi05_g1_round02/tests/test_audit_recovery_training.py": {
+      "sha256": "a3e1b19e3fb246a66b0eff112788fb34e067ea3113f1b549b05abf1df009b394",
+      "bytes": 6798
+    },
+    "experiments/pi05_g1_round02/tests/test_batch_video_export.py": {
+      "sha256": "8f1acc9aeca5b1fc93eb6835af0bb06a8614c433a01d37e5541c24e17e1b3d1a",
+      "bytes": 6279
+    },
+    "experiments/pi05_g1_round02/tests/test_benchmark_plan.py": {
+      "sha256": "a394c043a282f1ffcb50c680f6d80ec6e98227956d084666c4c02adcd9b9becd",
+      "bytes": 15344
+    },
+    "experiments/pi05_g1_round02/tests/test_checkpoint_lineage.py": {
+      "sha256": "52aab59fc4cb3c9a2df79e1e3a58b92d42b71b290efac1e8885e405144dff849",
+      "bytes": 11265
+    },
+    "experiments/pi05_g1_round02/tests/test_delivery_audit.py": {
+      "sha256": "a3b5bf836b0fcd8d55e0687837d26d202f2c22549601feea0327a89281729227",
+      "bytes": 19196
+    },
+    "experiments/pi05_g1_round02/tests/test_make_supplementary_plan.py": {
+      "sha256": "be43aa0cf6f061de6610950ea892fece36529c9b281ed93e05ba436e1791e542",
+      "bytes": 7002
+    },
+    "experiments/pi05_g1_round02/tests/test_offline_diagnostic.py": {
+      "sha256": "f518961645ce16eeab2fd62e793ad3cfc34cd33a75de1f39d9804b8d6a75da6e",
+      "bytes": 6142
+    },
+    "experiments/pi05_g1_round02/tests/test_plot_benchmark.py": {
+      "sha256": "1766be15735282576009e35e5928cad5c455ef88c2c4b50073484cb850b014bc",
+      "bytes": 4271
+    },
+    "experiments/pi05_g1_round02/tests/test_quiescence_probe.py": {
+      "sha256": "edba21469353836205f90a3b9bae6b0d368b8869002484d8b3da96e3c4c6b55a",
+      "bytes": 7193
+    },
+    "experiments/pi05_g1_round02/tests/test_recovery_training_watch.py": {
+      "sha256": "5ea63d5877af13612399b6e69e7355d77d9fbb272be210b434b32d3aed94f85e",
+      "bytes": 4678
+    },
+    "experiments/pi05_g1_round02/tests/test_round02_data.py": {
+      "sha256": "aa49b5eafdf1c7d2a9b382ff9ddfb50fcf496aad5d2d3364d02e788cc8873f59",
+      "bytes": 17711
+    },
+    "experiments/pi05_g1_round02/tests/test_runtime_provenance_patch.py": {
+      "sha256": "0d9119dc7d952d9d81b065efbd64025766bac5968c3edfe4d5d1e9c1671ce22d",
+      "bytes": 6154
+    },
+    "experiments/pi05_g1_round02/tests/test_supplementary_video_export.py": {
+      "sha256": "15e3aa495185882418daab11cd28f664cbc7bcd951a30c3f2244a274548c0dd7",
+      "bytes": 10599
+    },
+    "experiments/pi05_g1_round02/tests/test_training.py": {
+      "sha256": "4304ad1230f1f1334daeb5b5e038e504d518b674e3ecdd421cb8534d0905695b",
+      "bytes": 10576
+    },
+    "experiments/pi05_g1_round02/tests/test_video_caption.py": {
+      "sha256": "470fcb77aee512feee0bc5512f3756041a19fca742cc84cd4fc055fc5dee4ca6",
+      "bytes": 1737
+    },
+    "experiments/pi05_g1_round02/tests/test_video_index.py": {
+      "sha256": "62ab0fd9b5141d04dc857fbabcb906f122c86fd7927f8f3b5e2f8040a215b5f1",
+      "bytes": 2332
+    },
+    "experiments/pi05_g1_round02/training.py": {
+      "sha256": "841ad5a8338c8475b61c4bc5a5333fddd2c7dba2c12657eae623089eda4eb97e",
+      "bytes": 23172
+    },
+    "experiments/pi05_g1_round02/verify_plan_phase.py": {
+      "sha256": "a50ed05a5ab1805b08aecdb8abe7b88f50039946671b0e7c121c378f94a12522",
+      "bytes": 2867
+    },
+    "experiments/pi05_g1_round02/video_compare.py": {
+      "sha256": "0d7385fdcebbaa4e5e1a0e90864d711c2b12c86b863ac8f9087bb6d3d8eb1361",
+      "bytes": 6185
+    },
+    "experiments/pi05_g1_round02/video_export.py": {
+      "sha256": "2a85f7a4999343b8af56889d825375e7997aa6919921309e250d224a0a19dead",
+      "bytes": 6439
+    },
+    "experiments/pi05_g1_round02/video_index.py": {
+      "sha256": "89712beb91a9014b7cc8bdf530090713eca03563288b07163ef277a447e39bef",
+      "bytes": 5134
+    },
+    "experiments/vla_resources/__init__.py": {
+      "sha256": "1ee1c1d65f96283709eb1e8cfb75de6657958920863c801f24a62919817d2fbe",
+      "bytes": 66
+    },
+    "experiments/vla_resources/gpu_queue.py": {
+      "sha256": "e1fec4b3ca874d5db66965373f038cb124e2282cba33f8fad821615628bfd249",
+      "bytes": 9751
+    }
+  },
+  "manifest_self_excluded": true
+}
