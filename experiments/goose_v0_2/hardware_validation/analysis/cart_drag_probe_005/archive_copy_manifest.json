@@ -1,0 +1,339 @@
+{
+  "files": [
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/probe.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/probe.py",
+      "bytes": 11328,
+      "sha256": "43d862da448c825febbd983830040db0071ba83dadb617ee1ca23884d0d73a72"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/render.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/render.py",
+      "bytes": 1366,
+      "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/cold_state.npz",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/cold_state.npz",
+      "bytes": 1310,
+      "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/summary.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/summary.json",
+      "bytes": 559,
+      "sha256": "3e6c94589db8fb973c15e520bbaaaa226913b1c2c8398fd4a538c4f4e28f3433"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/preflight.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/preflight.json",
+      "bytes": 3840,
+      "sha256": "e1c08f3e348173897583076159e9ea225bb0af237c1e44808fa84a79ce17aa22"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/analysis.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/analysis.json",
+      "bytes": 12731,
+      "sha256": "56c28aa3c442090f8fa93b30fa1b759e53df5c292af271218c4f7cc2964f7b1c"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/source_before.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/source_before.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/source_after.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_001/source_after.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/scene/robot.xml",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/unbalanced/robot.xml",
+      "bytes": 39969,
+      "sha256": "a75ead31882d8de20686c2a87c71d34fdf236da5fc6f8430ae2d602c6dd9f6c5"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/scene/physical_contract.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/unbalanced/physical_contract.json",
+      "bytes": 150030,
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/scene/actuator_contract.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/unbalanced/actuator_contract.json",
+      "bytes": 31658,
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/probe.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/probe.py",
+      "bytes": 11807,
+      "sha256": "74762f67865499b12897015d4e11f6bc7b7ee295a1ca35aa14da97c6e1e30cd2"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/render.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/render.py",
+      "bytes": 1366,
+      "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/cold_state.npz",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/cold_state.npz",
+      "bytes": 1310,
+      "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/summary.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/summary.json",
+      "bytes": 562,
+      "sha256": "16d0d8b943323d86fcc283b583703962e6154bd8666b82526fd3722add61afb9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/preflight.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/preflight.json",
+      "bytes": 3858,
+      "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/analysis.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/analysis.json",
+      "bytes": 12723,
+      "sha256": "347bedb420a7739e06092e7ece8a5156ab1d9c446883121bf08a58e44f8994e6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/source_before.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/source_before.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/source_after.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_002/source_after.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/probe.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/probe.py",
+      "bytes": 11887,
+      "sha256": "2507487133060f48469f5d24fd1ced09830f7583a49954a6607be224dd090bc8"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/render.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/render.py",
+      "bytes": 1366,
+      "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/cold_state.npz",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/cold_state.npz",
+      "bytes": 1310,
+      "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/summary.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/summary.json",
+      "bytes": 613,
+      "sha256": "65ca8ac52e0c75c8a94dbd17528d89af994b182c8b35a5ca67cdcb5d84c0a0e4"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/preflight.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/preflight.json",
+      "bytes": 3858,
+      "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/analysis.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/analysis.json",
+      "bytes": 11393,
+      "sha256": "601b30a33e23509dcfddd342ecdeacec1721945df2adfa82a7c9a6b2a4d4d867"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/source_before.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/source_before.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/source_after.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_003/source_after.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/probe.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/probe.py",
+      "bytes": 11793,
+      "sha256": "34f1de1d103b7c241dcd3a1e06a2ef6fea0ee2ef565285873f020a6a71a24300"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/render.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/render.py",
+      "bytes": 1366,
+      "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/cold_state.npz",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/cold_state.npz",
+      "bytes": 1310,
+      "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/summary.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/summary.json",
+      "bytes": 662,
+      "sha256": "ec482b53a9cd6eee83952c3ef397ce37b18f4bd918e87a3d3cc16524771d6a73"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/preflight.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/preflight.json",
+      "bytes": 3840,
+      "sha256": "e1c08f3e348173897583076159e9ea225bb0af237c1e44808fa84a79ce17aa22"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/analysis.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/analysis.json",
+      "bytes": 12879,
+      "sha256": "099431580bcecf867a4021f51350069f37fd17a21b54f7e229a277bacfecf9fd"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/source_before.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/source_before.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/source_after.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_004/source_after.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/probe.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/probe.py",
+      "bytes": 12496,
+      "sha256": "88bfab58064879d0762d3fd1c3bd4c9247633409bb5fb71e06f74f2139c3f108"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/render.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/render.py",
+      "bytes": 1366,
+      "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/cold_state.npz",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/cold_state.npz",
+      "bytes": 1310,
+      "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/summary.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/summary.json",
+      "bytes": 680,
+      "sha256": "2cd21ffd5599c337ae0bb9c0e4b313bafd0f8f542df326553f4ce96e9e223ea2"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/preflight.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/preflight.json",
+      "bytes": 3858,
+      "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/analysis.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/analysis.json",
+      "bytes": 12863,
+      "sha256": "9fdeb4912739df2b895d7c87a66306fc89cde6f694a0a2886feb223e36919917"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/source_before.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/source_before.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/source_after.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/attempt_005/source_after.json",
+      "bytes": 12123,
+      "sha256": "cf9ca89ecc32fb009810d45354e4c3fe191861ce04fb662cb67114517b7bc0c9"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/scene/robot.xml",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/spring/robot.xml",
+      "bytes": 40008,
+      "sha256": "b393a2e4866a49df92d10fd9b4b3824c3755ca818cada44a2770206deec1458e"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/scene/physical_contract.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/spring/physical_contract.json",
+      "bytes": 150030,
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/scene/actuator_contract.json",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/scenes/spring/actuator_contract.json",
+      "bytes": 31658,
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/analyze.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/shared/analyze.py",
+      "bytes": 7782,
+      "sha256": "9451e227e041be915d9f1220562aff4692c4e1c72cf15e5c5d8e7380a85d9a43"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/finish.py",
+      "destination": "analysis/cart_drag_probe_005/source_snapshot/shared/finish.py",
+      "bytes": 10487,
+      "sha256": "af91d3f3b4831f08e67a0ae1976df9b9a626f012933bc0270c9b0368d52e5b18"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/continuous_original_speed.mp4",
+      "destination": "analysis/cart_drag_probe_005/selected_videos/attempt_002_original_speed.mp4",
+      "bytes": 117307,
+      "sha256": "c3ed8c1ac080984c2126b85f9198d8785b171cad293bb3df9ea8d7fc1ea404e1"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/continuous_original_speed.mp4",
+      "destination": "analysis/cart_drag_probe_005/selected_videos/attempt_003_original_speed.mp4",
+      "bytes": 61766,
+      "sha256": "a32b0bb0eadca37ec05ac437c57155fdf8ace427736cd98b557e60e1de3d7bef"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/continuous_original_speed.mp4",
+      "destination": "analysis/cart_drag_probe_005/selected_videos/attempt_005_original_speed.mp4",
+      "bytes": 101532,
+      "sha256": "8b59d241408977e044a0149878c492405f8b12bf1ec212ac49891c611d0b7326"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_probe_005/coordination.json",
+      "destination": "analysis/cart_drag_probe_005/order_snapshot/coordination.json",
+      "bytes": 1703,
+      "sha256": "d3b1f405373b1af8a6e54865340df2158872ad0c19a973bd17c5563a3c9003b2"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_probe_005/counterbalance_fixture_addendum.json",
+      "destination": "analysis/cart_drag_probe_005/order_snapshot/counterbalance_fixture_addendum.json",
+      "bytes": 2175,
+      "sha256": "ddf8deeaf25c04c7a4e6839a43d5271b093dcc70b16081ffaf1d4368ae301a80"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_probe_005/order.json",
+      "destination": "analysis/cart_drag_probe_005/order_snapshot/order.json",
+      "bytes": 8535,
+      "sha256": "dc03632cb3ab5115fe2fcf24ea582a4ead1e3ab7e23b353b27801fadbe40d5d9"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_probe_005/teacher_execution_addendum.json",
+      "destination": "analysis/cart_drag_probe_005/order_snapshot/teacher_execution_addendum.json",
+      "bytes": 1321,
+      "sha256": "e4df99cb01d5ace324259ee1666abb0ab05ea0093217bfafd10c3207e79ed934"
+    }
+  ],
+  "producer_manifest_sha256": "24c29ed9ff696a516edcf695db43a1017dd0acc815a310db102ad84f7bc1f271",
+  "producer_manifest_entries": 54,
+  "independent_review_sha256": "6180d504d199d97b54613013f0200e81f5a42efbb8d6a09944b71072f8bd5dac",
+  "originals_not_modified": true,
+  "raw_large_files_copied": false
+}

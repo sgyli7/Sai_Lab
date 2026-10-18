@@ -1,0 +1,1284 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "saved_files": {
+        "probe.py": "43d862da448c825febbd983830040db0071ba83dadb617ee1ca23884d0d73a72",
+        "trajectory.npz": "5d7d9519ba438cb6a35f849a3c4293d87c4b5eebcbc247a8eec1ad495e025528",
+        "summary.json": "3e6c94589db8fb973c15e520bbaaaa226913b1c2c8398fd4a538c4f4e28f3433",
+        "substeps.jsonl.gz": "c12858390dfad17c51f6194b97567ea01cc29570cdaf229d1b9b875a5a1832bd"
+      },
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_during_m": 0.0303502854098886,
+          "cargo_back_during_m": 0.0303603614704262,
+          "rod_start_end_z_m": [
+            0.41978390214218453,
+            0.31430990633676625
+          ],
+          "bilateral_fraction": 0.008333333333333333,
+          "longest_bilateral_s": 0.005,
+          "mean_jaw_normal_N": [
+            37.38075926053386,
+            0.17024806035401313
+          ],
+          "mean_tow_on_rod_N": [
+            -27.346791951573625,
+            -0.13093340632269743,
+            -29.840048535553446
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13753481074238735,
+              -3.2054349102593985e-07,
+              -0.038505884693107624
+            ],
+            [
+              0.13935388345122218,
+              -0.009564545313106972,
+              -0.04176630066546422
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0031578439325874244
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_during_m": 0.015586099413327448,
+          "cargo_back_during_m": 0.015639268783245508,
+          "rod_start_end_z_m": [
+            0.31460113876003437,
+            0.3132405725263958
+          ],
+          "bilateral_fraction": 0.012295081967213115,
+          "longest_bilateral_s": 0.015,
+          "mean_jaw_normal_N": [
+            2.8744150404846573,
+            0.06879514825076516
+          ],
+          "mean_tow_on_rod_N": [
+            -0.23377050195801174,
+            -0.6825552688877259,
+            -2.8669505377676434
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.1409268008118433,
+              -0.009734459303299844,
+              -0.04182717415410748
+            ],
+            [
+              0.1395691270710367,
+              -0.01452078671356868,
+              -0.03707701640669219
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0005007976947704225
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_during_m": -0.006972890295588452,
+          "cargo_back_during_m": -0.006979055606038398,
+          "rod_start_end_z_m": [
+            0.31322586208051406,
+            0.3140299779512218
+          ],
+          "bilateral_fraction": 0.825,
+          "longest_bilateral_s": 0.99,
+          "mean_jaw_normal_N": [
+            23.029333341775363,
+            20.048673175119685
+          ],
+          "mean_tow_on_rod_N": [
+            1.6047019742177147,
+            -1.4885317536860443,
+            -4.578878402411717
+          ],
+          "capture_reference_max_slip_m": 0.002078910342347183,
+          "capture_reference_max_angle_deg": 18.453017159488986,
+          "rod_rel_head_first_last": [
+            [
+              0.13954990880651616,
+              -0.014506482100432356,
+              -0.03708154238030782
+            ],
+            [
+              0.14042492795622175,
+              -0.0157888621279956,
+              -0.03743413778911602
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008282465103895449
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_during_m": 0.009241330996517583,
+          "cargo_back_during_m": 0.00923045613805129,
+          "rod_start_end_z_m": [
+            0.31401342353331907,
+            0.31975696406668597
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 2.5,
+          "mean_jaw_normal_N": [
+            25.535949064282534,
+            24.814414833567184
+          ],
+          "mean_tow_on_rod_N": [
+            -1.697852815592369,
+            -0.23739681466692536,
+            -0.04319962040223246
+          ],
+          "capture_reference_max_slip_m": 0.018715166569400612,
+          "capture_reference_max_angle_deg": 37.85098542424793,
+          "rod_rel_head_first_last": [
+            [
+              0.140428776646266,
+              -0.01580259992329787,
+              -0.03744012833680604
+            ],
+            [
+              0.15756849858043295,
+              -0.018284862679831856,
+              -0.03870953779799018
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008214877313250591
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_during_m": -0.006884406250743491,
+          "cargo_back_during_m": -0.006874479504026643,
+          "rod_start_end_z_m": [
+            0.3198167211344279,
+            0.31771966142922553
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 5.18,
+          "mean_jaw_normal_N": [
+            18.00713783402919,
+            18.917693463055194
+          ],
+          "mean_tow_on_rod_N": [
+            0.7302908338386602,
+            0.04477912658741853,
+            0.6106929107364413
+          ],
+          "capture_reference_max_slip_m": 0.031771510896722185,
+          "capture_reference_max_angle_deg": 47.52758767951376,
+          "rod_rel_head_first_last": [
+            [
+              0.15757720197604547,
+              -0.01828359267739338,
+              -0.03864516541710671
+            ],
+            [
+              0.17116142972552817,
+              -0.013254613575310572,
+              -0.03812776049092568
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0006937197350325667
+        },
+        "release": {
+          "duration_s": 2.3000000000000003,
+          "cart_back_during_m": -4.9321170063287845e-05,
+          "cargo_back_during_m": -4.723236262693664e-05,
+          "rod_start_end_z_m": [
+            0.3177215317352188,
+            0.3179035329845413
+          ],
+          "bilateral_fraction": 0.06739130434782609,
+          "longest_bilateral_s": 0.155,
+          "mean_jaw_normal_N": [
+            0.6234499119852047,
+            0.6020609686383358
+          ],
+          "mean_tow_on_rod_N": [
+            0.0007859294737715858,
+            -0.0006743193659367034,
+            -0.02127821338773038
+          ],
+          "capture_reference_max_slip_m": 0.031802759787605876,
+          "capture_reference_max_angle_deg": 46.23389319160182,
+          "rod_rel_head_first_last": [
+            [
+              0.17116681533040237,
+              -0.01325256395656636,
+              -0.03811979995660721
+            ],
+            [
+              0.17092032898028897,
+              -0.013315427119043335,
+              -0.038773325791795314
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0005927319412484638
+        }
+      },
+      "actual_peak_positive_power_W": 30.9444665262932,
+      "torque_speed_cap_violating_steps": 0,
+      "constraint_max_abs_residual": {
+        "beak_distal_pin": 0.0014016074033531,
+        "left_yaw_input_rotor_belt_relation": 1.8948119788691142e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8939619145854746e-05,
+        "stationary_local_torso_fixture": 8.98721542871365e-05
+      },
+      "pull_hold_neck_limit_hit_steps": {
+        "head_roll": 143,
+        "head_pitch": 270
+      },
+      "pull_hold_robot_cart_contact_pairs_count_and_normal_impulse": {
+        "upper_bill_envelope|cart_bite_yoke_left": [
+          14,
+          0.11092547169796907
+        ],
+        "cart_bite_bar|upper_bill_envelope": [
+          1708,
+          157.11684664097774
+        ],
+        "cart_bite_bar|lower_bill_envelope": [
+          1700,
+          160.0296892225438
+        ]
+      },
+      "initial_rod_local": [
+        0.13750001972253326,
+        0.0,
+        -0.03849996489687674
+      ],
+      "sources_before_after_equal": true,
+      "actual_pitch_stiffness": 0.0,
+      "cart_mass_kg": 7.815342442756588,
+      "cargo_mass_kg": 20.0,
+      "equality_names": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation",
+        "stationary_local_torso_fixture"
+      ]
+    },
+    {
+      "attempt": 2,
+      "saved_files": {
+        "probe.py": "74762f67865499b12897015d4e11f6bc7b7ee295a1ca35aa14da97c6e1e30cd2",
+        "trajectory.npz": "a69e02ad68fb077c33eeca604418fd01067c0d1c9e4f7fb94bb6a4c1b0b0db96",
+        "summary.json": "16d0d8b943323d86fcc283b583703962e6154bd8666b82526fd3722add61afb9",
+        "substeps.jsonl.gz": "13c5c0da0c8f21a3e0c215925348de04d31c9de042d225c98a3864cf75a9311a"
+      },
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_during_m": 0.02456940757767323,
+          "cargo_back_during_m": 0.02459821931330386,
+          "rod_start_end_z_m": [
+            0.41978390214218453,
+            0.3148866312091137
+          ],
+          "bilateral_fraction": 0.008333333333333333,
+          "longest_bilateral_s": 0.005,
+          "mean_jaw_normal_N": [
+            31.667177462627517,
+            0.4037506451018236
+          ],
+          "mean_tow_on_rod_N": [
+            -22.714792796772297,
+            -0.15670993751204193,
+            -25.385929661705763
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13753481074238735,
+              -3.2054349102593985e-07,
+              -0.038505884693107624
+            ],
+            [
+              0.1424280684176482,
+              0.0014816173512761028,
+              -0.03953014899184875
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0026249589500538964
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_during_m": 0.011419489518147308,
+          "cargo_back_during_m": 0.011453713886324768,
+          "rod_start_end_z_m": [
+            0.3150046230823533,
+            0.3154535323585774
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            2.1016426897264155,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            -0.38679818408959205,
+            -0.6153720851182134,
+            -2.2401923710032143
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.14348123377917263,
+              0.000743398301916895,
+              -0.04023573229379604
+            ],
+            [
+              0.1380537980490934,
+              -0.009272212061508736,
+              -0.038473759732470456
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0003397891808721233
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_during_m": -0.04350310784247502,
+          "cargo_back_during_m": -0.04343611618249699,
+          "rod_start_end_z_m": [
+            0.3154513539521198,
+            0.31200638908795425
+          ],
+          "bilateral_fraction": 0.8041666666666667,
+          "longest_bilateral_s": 0.965,
+          "mean_jaw_normal_N": [
+            32.062038381504514,
+            30.34448586919818
+          ],
+          "mean_tow_on_rod_N": [
+            7.982339429861442,
+            -1.7823782699092674,
+            -11.708537299548983
+          ],
+          "capture_reference_max_slip_m": 0.010276789445277804,
+          "capture_reference_max_angle_deg": 65.83204210516239,
+          "rod_rel_head_first_last": [
+            [
+              0.13802659617724086,
+              -0.009308742694702379,
+              -0.03847096667836622
+            ],
+            [
+              0.1477691193421056,
+              -0.007777623657463948,
+              -0.03770726173770884
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0016752085757702681
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_during_m": -0.021058770224655965,
+          "cargo_back_during_m": -0.02110787125712188,
+          "rod_start_end_z_m": [
+            0.3120932445216445,
+            0.31318499993820537
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 2.5,
+          "mean_jaw_normal_N": [
+            39.2578183437705,
+            33.021949400320274
+          ],
+          "mean_tow_on_rod_N": [
+            -0.747331098440123,
+            -1.187447481431539,
+            -8.162872338288281
+          ],
+          "capture_reference_max_slip_m": 0.022484736416319595,
+          "capture_reference_max_angle_deg": 74.47610611796505,
+          "rod_rel_head_first_last": [
+            [
+              0.14785321955017514,
+              -0.00771000357124059,
+              -0.03773550689633767
+            ],
+            [
+              0.15888838689991125,
+              -0.0025818253097606558,
+              -0.037950497309299086
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0013205069793845664
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_during_m": 0.005398272564145046,
+          "cargo_back_during_m": 0.005408763603334976,
+          "rod_start_end_z_m": [
+            0.31317276940135796,
+            0.3132860008326401
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 5.18,
+          "mean_jaw_normal_N": [
+            34.684219388160685,
+            25.125836752846833
+          ],
+          "mean_tow_on_rod_N": [
+            -0.3964062064584417,
+            -1.2945224404129754,
+            -12.184374360910478
+          ],
+          "capture_reference_max_slip_m": 0.034554286474858864,
+          "capture_reference_max_angle_deg": 75.60357280640521,
+          "rod_rel_head_first_last": [
+            [
+              0.15890356929722768,
+              -0.00257178526461807,
+              -0.03800263803434039
+            ],
+            [
+              0.17198328838036442,
+              -0.0046684180137603025,
+              -0.03811067141273877
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008305987509628374
+        },
+        "release": {
+          "duration_s": 2.3000000000000003,
+          "cart_back_during_m": 0.0006142494259293585,
+          "cargo_back_during_m": 0.0006028086326634874,
+          "rod_start_end_z_m": [
+            0.31332801333044613,
+            0.31790694709737494
+          ],
+          "bilateral_fraction": 0.08260869565217391,
+          "longest_bilateral_s": 0.19,
+          "mean_jaw_normal_N": [
+            1.9723740334703763,
+            0.8900256892464031
+          ],
+          "mean_tow_on_rod_N": [
+            -0.09983190230837022,
+            -0.1737034249440952,
+            -1.287585979627179
+          ],
+          "capture_reference_max_slip_m": 0.06523609138820859,
+          "capture_reference_max_angle_deg": 76.00844904863901,
+          "rod_rel_head_first_last": [
+            [
+              0.1719661026743275,
+              -0.004729209039654448,
+              -0.03802303566293621
+            ],
+            [
+              0.18821204988117982,
+              -0.006876276429602809,
+              -0.007956697537267
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0006971790083968964
+        }
+      },
+      "actual_peak_positive_power_W": 26.995844159254123,
+      "torque_speed_cap_violating_steps": 0,
+      "constraint_max_abs_residual": {
+        "beak_distal_pin": 0.0013007290678020977,
+        "left_yaw_input_rotor_belt_relation": 1.8948119788691142e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8939619145854746e-05,
+        "stationary_local_torso_fixture": 9.851139523701283e-05
+      },
+      "pull_hold_neck_limit_hit_steps": {
+        "neck_pitch": 1533,
+        "head_roll": 1352,
+        "head_pitch": 1408
+      },
+      "pull_hold_robot_cart_contact_pairs_count_and_normal_impulse": {
+        "cart_bite_bar|upper_bill_envelope": [
+          2725,
+          277.80880229009813
+        ],
+        "cart_bite_bar|lower_bill_envelope": [
+          1595,
+          212.7067078805472
+        ]
+      },
+      "initial_rod_local": [
+        0.13750001972253326,
+        0.0,
+        -0.03849996489687674
+      ],
+      "sources_before_after_equal": true,
+      "actual_pitch_stiffness": 0.0,
+      "cart_mass_kg": 7.815342442756588,
+      "cargo_mass_kg": 20.0,
+      "equality_names": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation",
+        "stationary_local_torso_fixture"
+      ]
+    },
+    {
+      "attempt": 3,
+      "saved_files": {
+        "probe.py": "2507487133060f48469f5d24fd1ced09830f7583a49954a6607be224dd090bc8",
+        "trajectory.npz": "97894d4653b0990ba9a6061df68d320dfd8f0a3c1f11d7ab3cc1a443077b1f7d",
+        "summary.json": "65ca8ac52e0c75c8a94dbd17528d89af994b182c8b35a5ca67cdcb5d84c0a0e4",
+        "substeps.jsonl.gz": "dc3ccc4aee205fd9b13b6f3fc14bb214b8dca68dee87e29869a71871751e9a5f"
+      },
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_during_m": 0.02456940757767323,
+          "cargo_back_during_m": 0.02459821931330386,
+          "rod_start_end_z_m": [
+            0.41978390214218453,
+            0.3148866312091137
+          ],
+          "bilateral_fraction": 0.008333333333333333,
+          "longest_bilateral_s": 0.005,
+          "mean_jaw_normal_N": [
+            31.667177462627517,
+            0.4037506451018236
+          ],
+          "mean_tow_on_rod_N": [
+            -22.714792796772297,
+            -0.15670993751204193,
+            -25.385929661705763
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13753481074238735,
+              -3.2054349102593985e-07,
+              -0.038505884693107624
+            ],
+            [
+              0.1424280684176482,
+              0.0014816173512761028,
+              -0.03953014899184875
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0026249589500538964
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_during_m": 0.011419489518147308,
+          "cargo_back_during_m": 0.011453713886324768,
+          "rod_start_end_z_m": [
+            0.3150046230823533,
+            0.3154535323585774
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            2.1016426897264155,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            -0.38679818408959205,
+            -0.6153720851182134,
+            -2.2401923710032143
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.14348123377917263,
+              0.000743398301916895,
+              -0.04023573229379604
+            ],
+            [
+              0.1380537980490934,
+              -0.009272212061508736,
+              -0.038473759732470456
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0003397891808721233
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_during_m": -0.0010992512380086916,
+          "cargo_back_during_m": -0.0010931285579702799,
+          "rod_start_end_z_m": [
+            0.31545135925735307,
+            0.31361609394825296
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            5.113132805010393,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            -2.462520611199724,
+            -2.6918186001755102,
+            -4.133551078378316
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13802658900793735,
+              -0.009308751399788833,
+              -0.03847097038141765
+            ],
+            [
+              0.14052797821489074,
+              -0.019124364749905958,
+              -0.035571318794557175
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0002990830851997225
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_during_m": 0.0006000423495590157,
+          "cargo_back_during_m": 0.0005926377630199875,
+          "rod_start_end_z_m": [
+            0.31359071364884267,
+            0.31791499117286715
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            0.560568907358912,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            -0.43868887188433636,
+            -0.39186536096366786,
+            -0.2877717549270119
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.140579092813441,
+              -0.019199521250531554,
+              -0.03555985798565474
+            ],
+            [
+              0.18640923287175354,
+              -0.02292309457891721,
+              0.0016582267070426374
+            ]
+          ],
+          "max_jaw_penetration_m": 0.000277568969389845
+        },
+        "hold": {
+          "duration_s": 0.02,
+          "cart_back_during_m": -8.188974720546582e-09,
+          "cargo_back_during_m": 5.2008212181320346e-09,
+          "rod_start_end_z_m": [
+            0.3179151057294137,
+            0.317913602488037
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            0.0,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.18641615319042615,
+              -0.022920622585587254,
+              0.001663725694939192
+            ],
+            [
+              0.18643416626462714,
+              -0.022908789198125862,
+              0.001678455844744044
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0
+        }
+      },
+      "actual_peak_positive_power_W": 26.995844159254123,
+      "torque_speed_cap_violating_steps": 0,
+      "constraint_max_abs_residual": {
+        "beak_distal_pin": 0.0012401831133206365,
+        "left_yaw_input_rotor_belt_relation": 1.8948119788691142e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8939619145854746e-05,
+        "stationary_local_torso_fixture": 9.851139523701283e-05
+      },
+      "pull_hold_neck_limit_hit_steps": {
+        "head_roll": 504
+      },
+      "pull_hold_robot_cart_contact_pairs_count_and_normal_impulse": {
+        "upper_bill_envelope|cart_bite_yoke_left": [
+          73,
+          0.8436174520296902
+        ],
+        "cart_bite_bar|upper_bill_envelope": [
+          94,
+          1.4014222683972797
+        ],
+        "upper_bill_envelope|cart_bite_yoke_right": [
+          6,
+          0.009824984187718832
+        ]
+      },
+      "initial_rod_local": [
+        0.13750001972253326,
+        0.0,
+        -0.03849996489687674
+      ],
+      "sources_before_after_equal": true,
+      "actual_pitch_stiffness": 0.0,
+      "cart_mass_kg": 7.815342442756588,
+      "cargo_mass_kg": 20.0,
+      "equality_names": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation",
+        "stationary_local_torso_fixture"
+      ]
+    },
+    {
+      "attempt": 4,
+      "saved_files": {
+        "probe.py": "34f1de1d103b7c241dcd3a1e06a2ef6fea0ee2ef565285873f020a6a71a24300",
+        "trajectory.npz": "f75658b036ecf6b9ba77b676aaa8f0dfdaa912fed0f138039c3802b56fec6330",
+        "summary.json": "ec482b53a9cd6eee83952c3ef397ce37b18f4bd918e87a3d3cc16524771d6a73",
+        "substeps.jsonl.gz": "62b453e7f7680a8d80062030e73ea8badf5f3696ed6b46aaab07991e9a8c888f"
+      },
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_during_m": 0.012583652368942433,
+          "cargo_back_during_m": 0.01262588265870046,
+          "rod_start_end_z_m": [
+            0.41978390214218453,
+            0.3147703037157508
+          ],
+          "bilateral_fraction": 0.008333333333333333,
+          "longest_bilateral_s": 0.005,
+          "mean_jaw_normal_N": [
+            20.409254899645987,
+            0.717236946249608
+          ],
+          "mean_tow_on_rod_N": [
+            -14.603042538414705,
+            -0.04533612351343376,
+            -15.996666306099742
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13753481074238735,
+              -3.2054349102593985e-07,
+              -0.038505884693107624
+            ],
+            [
+              0.1378156895892421,
+              0.005331200126757224,
+              -0.040310337612779
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0045689683330358355
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_during_m": 0.00145277332991256,
+          "cargo_back_during_m": 0.0014640754511404674,
+          "rod_start_end_z_m": [
+            0.3150176928453515,
+            0.31521014485021515
+          ],
+          "bilateral_fraction": 0.020491803278688523,
+          "longest_bilateral_s": 0.025,
+          "mean_jaw_normal_N": [
+            1.8130537356852876,
+            0.0816469143800498
+          ],
+          "mean_tow_on_rod_N": [
+            0.20792695898269886,
+            -0.0027341759710165702,
+            -1.957734399836752
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13869460261298205,
+              0.005212648915638124,
+              -0.040537699319696315
+            ],
+            [
+              0.13620054778501225,
+              -0.0006058676421987616,
+              -0.0384972045557393
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0005716376203233163
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_during_m": -0.0031484480192790487,
+          "cargo_back_during_m": -0.0031407782277101948,
+          "rod_start_end_z_m": [
+            0.315199435730798,
+            0.31335566788641506
+          ],
+          "bilateral_fraction": 0.7916666666666666,
+          "longest_bilateral_s": 0.9500000000000001,
+          "mean_jaw_normal_N": [
+            28.52603852244433,
+            25.137595860712548
+          ],
+          "mean_tow_on_rod_N": [
+            1.7115689588011613,
+            -0.04715165515579398,
+            -4.847555084018569
+          ],
+          "capture_reference_max_slip_m": 0.0008757000572802014,
+          "capture_reference_max_angle_deg": 2.0135978337722777,
+          "rod_rel_head_first_last": [
+            [
+              0.13617127778243612,
+              -0.0006051527807601348,
+              -0.03849715884640891
+            ],
+            [
+              0.13636354528132721,
+              -0.0008824257728313735,
+              -0.03798273139376171
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0010549613666254868
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_during_m": 0.03496263918258291,
+          "cargo_back_during_m": 0.034951847673006076,
+          "rod_start_end_z_m": [
+            0.3133541176128298,
+            0.3194611029934555
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 2.5,
+          "mean_jaw_normal_N": [
+            36.02331435174487,
+            31.71138539919522
+          ],
+          "mean_tow_on_rod_N": [
+            -5.624119592120798,
+            0.01797739281978252,
+            -1.959193996106416
+          ],
+          "capture_reference_max_slip_m": 0.01058272339901588,
+          "capture_reference_max_angle_deg": 3.3266499612727984,
+          "rod_rel_head_first_last": [
+            [
+              0.13635977585311937,
+              -0.0008820466767665693,
+              -0.0379833584111743
+            ],
+            [
+              0.14631579561207134,
+              -0.000985285043487125,
+              -0.03805121537811757
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0006406159045064234
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_during_m": 0.00029956613741000115,
+          "cargo_back_during_m": 0.0003118372721085949,
+          "rod_start_end_z_m": [
+            0.31941497557716114,
+            0.31529588269532394
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 5.18,
+          "mean_jaw_normal_N": [
+            27.493782672061464,
+            24.646065144404687
+          ],
+          "mean_tow_on_rod_N": [
+            0.021447313976838623,
+            -0.005658631934592804,
+            -3.3687643800549414
+          ],
+          "capture_reference_max_slip_m": 0.015612984663939842,
+          "capture_reference_max_angle_deg": 4.806619619110177,
+          "rod_rel_head_first_last": [
+            [
+              0.1463349239869267,
+              -0.0009853881295703525,
+              -0.03805134572839682
+            ],
+            [
+              0.15134725872261356,
+              -0.0011092739808094203,
+              -0.03809109188957149
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0005872420748787795
+        },
+        "release": {
+          "duration_s": 2.3000000000000003,
+          "cart_back_during_m": 0.0016603562754848866,
+          "cargo_back_during_m": 0.0016611606719316718,
+          "rod_start_end_z_m": [
+            0.315295721583755,
+            0.31611149832903657
+          ],
+          "bilateral_fraction": 0.0782608695652174,
+          "longest_bilateral_s": 0.18,
+          "mean_jaw_normal_N": [
+            4.058469873070888,
+            0.9512976904109283
+          ],
+          "mean_tow_on_rod_N": [
+            -0.43507575756834366,
+            -0.0025564991123677447,
+            -3.2538748145824017
+          ],
+          "capture_reference_max_slip_m": 0.015625417224615454,
+          "capture_reference_max_angle_deg": 4.5874387718057035,
+          "rod_rel_head_first_last": [
+            [
+              0.15135025053161788,
+              -0.0011093429815131086,
+              -0.038091299176438616
+            ],
+            [
+              0.1490229280484431,
+              -0.0011280738644821578,
+              -0.03844943318747725
+            ]
+          ],
+          "max_jaw_penetration_m": 0.00048818447821717204
+        }
+      },
+      "actual_peak_positive_power_W": 22.86638455412348,
+      "torque_speed_cap_violating_steps": 0,
+      "constraint_max_abs_residual": {
+        "beak_distal_pin": 0.0016894307579025658,
+        "left_yaw_input_rotor_belt_relation": 1.8948119788691142e-05,
+        "right_yaw_input_rotor_belt_relation": 1.8939619145854746e-05,
+        "stationary_local_torso_fixture": 6.922085954420113e-05
+      },
+      "pull_hold_neck_limit_hit_steps": {
+        "head_pitch": 445
+      },
+      "pull_hold_robot_cart_contact_pairs_count_and_normal_impulse": {
+        "cart_bite_bar|upper_bill_envelope": [
+          3076,
+          232.47608012064086
+        ],
+        "cart_bite_bar|lower_bill_envelope": [
+          3080,
+          206.9450809460046
+        ]
+      },
+      "initial_rod_local": [
+        0.13750001972253326,
+        0.0,
+        -0.03849996489687674
+      ],
+      "sources_before_after_equal": true,
+      "actual_pitch_stiffness": 0.0,
+      "cart_mass_kg": 7.815342442756588,
+      "cargo_mass_kg": 20.0,
+      "equality_names": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation",
+        "stationary_local_torso_fixture"
+      ]
+    },
+    {
+      "attempt": 5,
+      "saved_files": {
+        "probe.py": "88bfab58064879d0762d3fd1c3bd4c9247633409bb5fb71e06f74f2139c3f108",
+        "trajectory.npz": "d2a7a445264d9fa066f6fabc96f47a0b4ae433851cca131ac79bc3e3f1eb55d9",
+        "summary.json": "2cd21ffd5599c337ae0bb9c0e4b313bafd0f8f542df326553f4ce96e9e223ea2",
+        "substeps.jsonl.gz": "098bf23964aa3d08fae6d4fac4672fd866bf674465ed7f7873187c09c0af3133"
+      },
+      "phases": {
+        "open": {
+          "duration_s": 0.6,
+          "cart_back_during_m": 0.0014376315729491829,
+          "cargo_back_during_m": 0.0014760480461150083,
+          "rod_start_end_z_m": [
+            0.4198412747863866,
+            0.3719851120026567
+          ],
+          "bilateral_fraction": 0.008333333333333333,
+          "longest_bilateral_s": 0.005,
+          "mean_jaw_normal_N": [
+            3.890895716114325,
+            0.0025784914871912297
+          ],
+          "mean_tow_on_rod_N": [
+            -1.6954545525876106,
+            0.0017712922677012438,
+            -3.5984513476586937
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.13751332089559862,
+              -5.001729414318868e-07,
+              -0.03849730124528157
+            ],
+            [
+              0.13940360691841902,
+              2.973241965997186e-05,
+              -0.038365583481463836
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008214814383217299
+        },
+        "approach": {
+          "duration_s": 1.22,
+          "cart_back_during_m": 0.0022552115389450345,
+          "cargo_back_during_m": 0.0022680772013701223,
+          "rod_start_end_z_m": [
+            0.3730657605822305,
+            0.31567872031373245
+          ],
+          "bilateral_fraction": 0.0,
+          "longest_bilateral_s": 0.0,
+          "mean_jaw_normal_N": [
+            4.158160915036371,
+            0.0
+          ],
+          "mean_tow_on_rod_N": [
+            -0.8484675028410825,
+            0.002070218237156307,
+            -4.170387283377595
+          ],
+          "capture_reference_max_slip_m": 0,
+          "capture_reference_max_angle_deg": 0.0,
+          "rod_rel_head_first_last": [
+            [
+              0.1396230054604178,
+              3.142348870390139e-05,
+              -0.03854965533795219
+            ],
+            [
+              0.13701401326579365,
+              0.00014459842857976707,
+              -0.03843746288079378
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008373762370453522
+        },
+        "close": {
+          "duration_s": 1.2,
+          "cart_back_during_m": -0.0013115737186426557,
+          "cargo_back_during_m": -0.0013110687346092886,
+          "rod_start_end_z_m": [
+            0.31562658109776015,
+            0.3156580244113498
+          ],
+          "bilateral_fraction": 0.7875,
+          "longest_bilateral_s": 0.9450000000000001,
+          "mean_jaw_normal_N": [
+            32.52236427341779,
+            24.823239821344522
+          ],
+          "mean_tow_on_rod_N": [
+            0.6174397060823862,
+            -0.0008596446622934661,
+            -8.854853518722145
+          ],
+          "capture_reference_max_slip_m": 0.0008468426651242574,
+          "capture_reference_max_angle_deg": 0.5849145045269893,
+          "rod_rel_head_first_last": [
+            [
+              0.13697491732923542,
+              0.00014572429695966792,
+              -0.03842443135173771
+            ],
+            [
+              0.13696951774761826,
+              0.0002637192026642302,
+              -0.03796501035433
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0006083959493509088
+        },
+        "pull": {
+          "duration_s": 2.5,
+          "cart_back_during_m": 0.03731774198608373,
+          "cargo_back_during_m": 0.037318454073537066,
+          "rod_start_end_z_m": [
+            0.3156480856489162,
+            0.31817444786017424
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 2.5,
+          "mean_jaw_normal_N": [
+            35.15988941514623,
+            26.933884037200503
+          ],
+          "mean_tow_on_rod_N": [
+            -6.1270067354393065,
+            0.02240296921191111,
+            -7.38835387034794
+          ],
+          "capture_reference_max_slip_m": 0.009018068870942367,
+          "capture_reference_max_angle_deg": 4.168347439124383,
+          "rod_rel_head_first_last": [
+            [
+              0.1369724804495034,
+              0.00026437179439126935,
+              -0.037966035418754276
+            ],
+            [
+              0.14499807191666209,
+              0.001999327669915852,
+              -0.037898878445289684
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0011680520039876934
+        },
+        "hold": {
+          "duration_s": 5.18,
+          "cart_back_during_m": 0.004179965693025478,
+          "cargo_back_during_m": 0.0041885565561479154,
+          "rod_start_end_z_m": [
+            0.3181760695081575,
+            0.3161784374917617
+          ],
+          "bilateral_fraction": 1.0,
+          "longest_bilateral_s": 5.18,
+          "mean_jaw_normal_N": [
+            33.85600603091917,
+            26.377013416858247
+          ],
+          "mean_tow_on_rod_N": [
+            -0.4115146906712628,
+            0.018866393907804428,
+            -8.820770530207763
+          ],
+          "capture_reference_max_slip_m": 0.011195698088258191,
+          "capture_reference_max_angle_deg": 5.460357008423334,
+          "rod_rel_head_first_last": [
+            [
+              0.14500748972673555,
+              0.0020082223615945226,
+              -0.03783155586630123
+            ],
+            [
+              0.14437431097437656,
+              0.007795639466703756,
+              -0.03790725306637951
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0008657335012520933
+        },
+        "release": {
+          "duration_s": 2.3000000000000003,
+          "cart_back_during_m": 0.005867751727491988,
+          "cargo_back_during_m": 0.005866416999895319,
+          "rod_start_end_z_m": [
+            0.31616737001454637,
+            0.3181378244718546
+          ],
+          "bilateral_fraction": 0.08478260869565217,
+          "longest_bilateral_s": 0.195,
+          "mean_jaw_normal_N": [
+            8.294640690705801,
+            1.1509244567714312
+          ],
+          "mean_tow_on_rod_N": [
+            -1.4962506704287075,
+            0.06612940625541809,
+            -7.2851103092937315
+          ],
+          "capture_reference_max_slip_m": 0.011233196052494922,
+          "capture_reference_max_angle_deg": 5.429228620429591,
+          "rod_rel_head_first_last": [
+            [
+              0.1443680840559642,
+              0.007801556464945825,
+              -0.03793581111706928
+            ],
+            [
+              0.13757637540294942,
+              0.009701739281471077,
+              -0.03829332064151875
+            ]
+          ],
+          "max_jaw_penetration_m": 0.0007077386275686492
+        }
+      },
+      "actual_peak_positive_power_W": 9.456343776667323,
+      "torque_speed_cap_violating_steps": 0,
+      "constraint_max_abs_residual": {
+        "beak_distal_pin": 0.0016802629208022002,
+        "left_yaw_input_rotor_belt_relation": 1.9053338666778265e-05,
+        "right_yaw_input_rotor_belt_relation": 1.904877205272565e-05,
+        "stationary_local_torso_fixture": 5.555145840570158e-05
+      },
+      "pull_hold_neck_limit_hit_steps": {
+        "head_pitch": 1536
+      },
+      "pull_hold_robot_cart_contact_pairs_count_and_normal_impulse": {
+        "cart_bite_bar|upper_bill_envelope": [
+          2282,
+          263.273834778027
+        ],
+        "cart_bite_bar|lower_bill_envelope": [
+          2419,
+          203.96763959232618
+        ]
+      },
+      "initial_rod_local": [
+        0.13750001972253326,
+        0.0,
+        -0.03849996489687674
+      ],
+      "sources_before_after_equal": true,
+      "actual_pitch_stiffness": 2.0,
+      "cart_mass_kg": 7.815342442756588,
+      "cargo_mass_kg": 20.0,
+      "equality_names": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation",
+        "stationary_local_torso_fixture"
+      ]
+    }
+  ],
+  "new_integrations": 0,
+  "new_LP": 0,
+  "scope": "Saved logs and saved binary model read only; no forward or stepping.",
+  "verdict": "INSUFFICIENT_FOR_FAIR_MOUTH_HARDWARE_DECISION",
+  "causal_findings": [
+    "All trials are stationary torso-weld local benches with active neck/head and free cart/cargo; no whole-robot drag result.",
+    "Attempt5 differs from attempt2 only by authorized passive cart pitch springk2,qref+.276930475 plus added spring logging. No mouth geometry,servo strength,material or friction upgrade occurred.",
+    "Actual TCP is derived from actual cold rod; it does not inherit rejected5.5mm point offset. Cold initialization targets current rod exactly; source comment claiming15mm behind is false. This is already in-contact start,not an independently clear approach.",
+    "Spring balances drawbargravity only atq0. In attempt5 open/approach rod still drops420to316mm with unilateral downward jaw forces,head_pitch at limit throughout pull+hold. Reactive IK follows actual sagging rod and freezes orientation during pull. Fair constant-pose mouth test is not established.",
+    "Capture-reference scalar is Euclidean rod-center migration in head frame,plus head-to-cartroll frame angle. It is not an integrated contact material tangential slip measurement; release enters whole-run max. Use phase-only values and distinguish center migration/contact compliance/rotation.",
+    "Attempt3 changesjaw command versus unbalanced2; it is not an open-jaw control matched to spring-balanced5. It cannot isolate5 grip contribution.",
+    "8N equals sum nominal.125Nm/.0625m across4wheels. Coulomb frictionloss is a cap and requires wheel rolling/contact assumptions; actual sustained8N is not measured in saved fields.",
+    "Torques compared with continuous and voltage-scaled torque-speed envelope at actual incoming drive velocity; all logged steps pass and positive mechanical peak5=9.456W<350W. Actual velocity is not treated as a hard target-slew limit.",
+    "Runtime only writesjoint targets/ctrl during dynamics. Scratch kd.qpos writes areIK kinematics; global qpos writes precede cold-state save. No online object projection/pose reset/binding; sole added equality is local torso fixture. Mechanical closure residuals are recorded separately,not projected.",
+    "No smallest mouth hardware modification is causally justified. Keep mouth geometry while first establishing a reachable,non-pushing,matched fixture/Teacher assay; these five attempts cannot selectgroove,pad or drive changes."
+  ],
+  "log_timing_limit": "After source_step, poses are refreshed butcontact forces/frames are retained from the solver step; force-versus-pose samples have up toone5ms stagger. This does not explain100mm sag but matters for material-slip metrology.",
+  "contact_patch_limit": "Contact pair IDs are upper/lower whole-bill envelopes. No extra whole-cart/yoke geom pushes duringattempt5pull/hold, but savedforce samples have not been classified against actual nativeTPUpad perimeters. Fn totals cannot be assumed all effective pad-clamp normal force.",
+  "frozen004_original37_manifest_mismatches": []
+}

@@ -1,0 +1,235 @@
+{
+  "checks_exact": 404,
+  "initial_ik_error_m_equivalent": 7.711528206407264e-19,
+  "initial_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist": -5.682053971022704e-10,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist": -5.682053971022704e-10,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist": -5.682053971022704e-10,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist": -9.227725050999745e-11,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist": -9.227725050999745e-11,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist": -9.227725050999745e-11,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist": 0.0,
+      "mu": [
+        0.65,
+        0.65,
+        0.01,
+        0.002,
+        0.002
+      ]
+    }
+  ],
+  "bad_penetrations": [],
+  "scope": "LOCAL_FIXED_TORSO_HEAD_NECK_ACTUATED",
+  "wheel_frictionloss_Nm": 0.125,
+  "equivalent_resistance_N": 8,
+  "free_cargo_mass_kg": 20,
+  "robot_mass_kg": 16.97020392883353,
+  "rod_head_local": [
+    0.13750001972253326,
+    0.0,
+    -0.03849996489687674
+  ],
+  "source_files": 55,
+  "physics_steps": 0
+}

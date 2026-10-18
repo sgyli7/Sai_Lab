@@ -1,0 +1,21 @@
+{
+  "id": "cart_drag_probe_005_teacher_addendum",
+  "parent_order_sha256": "dc03632cb3ab5115fe2fcf24ea582a4ead1e3ab7e23b353b27801fadbe40d5d9",
+  "user_instruction": "Use a GPT-6.1 Sol child with Teacher-generated IK to grasp and pull the cart, inspect mouth release and iterate hardware; no dedicated PPO required.",
+  "single_executor": "/root/teacher_ik_mouth_probe",
+  "model": "gpt-6.1-sol",
+  "previous_executor_stopped": true,
+  "previous_attempts": 0,
+  "previous_steps": 0,
+  "original_start_utc": "2026-10-18 13:31:04 UTC",
+  "hard_deadline_utc": "2026-10-18 13:51:04 UTC",
+  "last_new_trial_utc": "2026-10-18 13:47:04 UTC",
+  "resource_budget_unchanged": true,
+  "execution_priority": [
+    "First R4+20kg+8N genuine open/approach/close/pull/hold/release via IK joint targets and original physical drives.",
+    "Then matched R2 or20N boundary/countercheck within remaining attempts; free-base only with a viable existing bounded control.",
+    "Local fixtures labelled; no whole-body success claim from neck-only travel.",
+    "Mouth slip/release/force and actuator saturation are the design evidence; no PPO or new gait development."
+  ],
+  "unchanged_invariants": "All pure physical contact, model/drive immutability, no online pose rewrites and data-location requirements from the original order remain."
+}

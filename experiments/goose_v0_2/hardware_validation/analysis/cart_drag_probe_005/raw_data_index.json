@@ -1,0 +1,9 @@
+{
+  "raw_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth",
+  "original_producer_manifest": "analysis/cart_drag_probe_005/artifact_manifest.json",
+  "original_producer_manifest_sha256": "24c29ed9ff696a516edcf695db43a1017dd0acc815a310db102ad84f7bc1f271",
+  "original_indexed_records": 54,
+  "all5_videos_in": "analysis/cart_drag_probe_005/reproduction_contract.json",
+  "large_MJB_trajectories_substeps_and_OSMesa_cache_not_in_Git": true,
+  "order_snapshot": "Post-close current4configuration files; original7-source experiment immutability proof remains in immutable_sources_verified.json."
+}

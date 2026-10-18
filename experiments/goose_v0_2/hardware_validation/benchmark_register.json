@@ -1,6 +1,6 @@
 {
   "schema": "goose_v02_next_hardware_benchmarks_v1",
-  "state": "R4_COLLINEAR420_STATIC_CANDIDATE_DYNAMIC_NO_RESULT",
+  "state": "R4_STATIC_CANDIDATE_AND_CLOSED_LOCAL005_MOUTH_DECISION_INSUFFICIENT",
   "robot_input": "physics_v0_2_20261018_04",
   "robot_mass_kg": 16.970203928833527,
   "historical_grip_100g": "Fixed torso/head local capture/hold exploration; not passed free-robot grasp/lift/place",
@@ -13,7 +13,7 @@
   "historical_free_robot_half_kg": "FAILED_BODY_TILT; airborne displacement excluded from success",
   "formal_whole_robot_0p5m": "NOT_PASSED",
   "continuous60s": "NOT_EXECUTED",
-  "payload20kg": "NOT_EXECUTED",
+  "payload20kg": "LOCAL_TORSO_FIXTURE_ONLY_NO_WHOLE_ROBOT_RESULT",
   "leaderboards": [
     {
       "id": "low_cart_payload_20kg",
@@ -29,10 +29,13 @@
       "cart_asset_created": true,
       "rank": "NO_RESULT",
       "static_collision_input_created": true,
-      "dynamic_trial_executed": false,
-      "cargo_instance_created": false,
+      "dynamic_trial_executed": true,
+      "cargo_instance_created": true,
       "passive_parameters_calibrated": false,
-      "side3N_continuous_static": "FAIL"
+      "side3N_continuous_static": "FAIL",
+      "dynamic_trial_scope": "005 local fixed-torso exploration only; no free whole-robot result",
+      "formal_whole_robot_dynamic_trial_passed": false,
+      "cargo_instance_scope": "Only005 local experimental scene; static004 source remains cargo0"
     },
     {
       "id": "sliding_payload_20kg",
@@ -62,5 +65,20 @@
     "old_20N_including_tongue_minmax_utilisation_approx": 0.68562,
     "new_20N_including_tongue_minmax_utilisation_approx": 0.62001,
     "interpretation": "Limited ideal static load redistribution, not maximum drag load, energy reduction, measured grip or dynamic success."
+  },
+  "closed_local_probe_005": {
+    "id": "cart_drag_probe_005",
+    "entry": "analysis/cart_drag_probe_005",
+    "copy_manifest": "analysis/cart_drag_probe_005/archive_copy_manifest.json",
+    "copy_manifest_sha256": "d720d29c714c0c8d040a3f277a076211e363a9a1e1d6713c06e30a581c1a4501",
+    "producer_manifest": "analysis/cart_drag_probe_005/artifact_manifest.json",
+    "producer_manifest_sha256": "24c29ed9ff696a516edcf695db43a1017dd0acc815a310db102ad84f7bc1f271",
+    "independent_review": "analysis/cart_drag_probe_005/independent_review.json",
+    "independent_review_sha256": "6180d504d199d97b54613013f0200e81f5a42efbb8d6a09944b71072f8bd5dac",
+    "decision": "INSUFFICIENT_FOR_FAIR_MOUTH_DECISION",
+    "attempts": 5,
+    "producer_physics_steps": 11508,
+    "free_root_or_20kg_whole_robot_qualification": false,
+    "includes006": false
   }
 }

@@ -11,6 +11,16 @@
   "collision_geoms": 14,
   "mass_kg": 16.970203928833527,
   "embedded_contract_release_id": "physics_v0_2_20261018_02",
+  "closed_local_probes": [
+    {
+      "id": "cart_drag_probe_005",
+      "exact_copies": 55,
+      "raw_indexed_records": 54,
+      "decision": "INSUFFICIENT_FOR_FAIR_MOUTH_DECISION",
+      "historical_steps": 11508,
+      "new_integrator_steps": 0
+    }
+  ],
   "cart_static_history": {
     "status": "STATIC_FILE_STRUCTURE_ONLY",
     "producer_indexed_files": {
@@ -46,7 +56,7 @@
     "no_simulator_import_or_calls": true
   },
   "native_simulator_compiled_or_imported": false,
-  "historical_python_sources_parsed_not_imported": 40,
+  "historical_python_sources_parsed_not_imported": 58,
   "original_sources_requested": true,
   "raw_files_checked_this_invocation": 382,
   "original_raw_manifest_files": 382,

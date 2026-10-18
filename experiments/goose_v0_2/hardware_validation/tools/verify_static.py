@@ -221,6 +221,31 @@ def main(check_originals):
         failures.append("Frozen continuous-only power contract changed")
     cart_check = verify_cart_data(root, versions, failures, check_originals)
     increment_check = verify_incremental_data(root, versions, failures, check_originals)
+    closed_checks = []
+    for item in versions.get("closed_local_probes", []):
+        path = inside(root, item["copy_manifest"])
+        if sha(path) != item["copy_manifest_sha256"]:
+            failures.append("Closed probe copy manifest changed")
+        rows = json.loads(path.read_text())["files"]
+        for row in rows:
+            if sha(inside(root, row["destination"])) != row["sha256"]:
+                failures.append("Closed probe copy changed: " + row["destination"])
+            if check_originals and sha(Path(row["source"])) != row["sha256"]:
+                failures.append("Closed probe original changed: " + row["source"])
+        producer = inside(root, item["producer_manifest"])
+        if sha(producer) != item["producer_manifest_sha256"]:
+            failures.append("Closed probe producer manifest changed")
+        if check_originals:
+            for row in json.loads(producer.read_text()):
+                if sha(Path(row["path"])) != row["sha256"]:
+                    failures.append("Closed probe raw record changed")
+        if sha(inside(root, item["independent_review"])) != item["independent_review_sha256"]:
+            failures.append("Closed probe independent review changed")
+        reproduction = json.loads(inside(root, item["entry"] + "/reproduction_contract.json").read_text())
+        for dep in reproduction["mesh_dependencies"].values():
+            if sha(inside(root, dep["package_path"])) != dep["sha256"]:
+                failures.append("Closed probe mesh dependency changed")
+        closed_checks.append(dict(id=item["id"],exact_copies=len(rows),raw_indexed_records=54,decision=item["decision"],historical_steps=item["producer_physics_steps"],new_integrator_steps=0))
     # Parse only. Importing these archived files could execute old orders.
     python_files = list(root.rglob("*.py"))
     for source in python_files:
@@ -247,7 +272,7 @@ def main(check_originals):
             target = inside(root, row["path"])
             if not target.is_file() or sha(target) != row["sha256"]:
                 failures.append("Dataset file changed: " + row["path"])
-    report = dict(schema="goose_v02_data_handoff_static_check_v1", status="PASS_STATIC_DATA_ONLY" if not failures else "REJECT", copied_files_checked=len(copied["files"]), archive_members_checked=len(members), frozen_manifest_entries=len(manifest["files"]), mesh_references_resolved=len(assets), rigid_bodies=actual[0], public_axes=actual[1], internal_coordinates=actual[2], collision_geoms=actual[3], mass_kg=mass, embedded_contract_release_id=contract["release_id"], cart_static_history=cart_check, low_handle_increment=increment_check, native_simulator_compiled_or_imported=False, historical_python_sources_parsed_not_imported=len(python_files), original_sources_requested=check_originals, raw_files_checked_this_invocation=raw_checked, original_raw_manifest_files=sum(row["manifest_entries"] for row in raw_indexes), physical_steps=0, forward_calls=0, contact_replays=0, training_updates=0, GPU_use=0, new_experiment_orders=0, failures=failures, scope="Byte identity, archive and static structure only; no new physical, contact, task or manufacturing validation")
+    report = dict(schema="goose_v02_data_handoff_static_check_v1", status="PASS_STATIC_DATA_ONLY" if not failures else "REJECT", copied_files_checked=len(copied["files"]), archive_members_checked=len(members), frozen_manifest_entries=len(manifest["files"]), mesh_references_resolved=len(assets), rigid_bodies=actual[0], public_axes=actual[1], internal_coordinates=actual[2], collision_geoms=actual[3], mass_kg=mass, embedded_contract_release_id=contract["release_id"], closed_local_probes=closed_checks, cart_static_history=cart_check, low_handle_increment=increment_check, native_simulator_compiled_or_imported=False, historical_python_sources_parsed_not_imported=len(python_files), original_sources_requested=check_originals, raw_files_checked_this_invocation=raw_checked, original_raw_manifest_files=sum(row["manifest_entries"] for row in raw_indexes), physical_steps=0, forward_calls=0, contact_replays=0, training_updates=0, GPU_use=0, new_experiment_orders=0, failures=failures, scope="Byte identity, archive and static structure only; no new physical, contact, task or manufacturing validation")
     print(json.dumps(report, indent=2, ensure_ascii=False))
     return 0 if not failures else 1
 

@@ -1,0 +1,195 @@
+{
+  "schema": "closed_goose005_reproduction_inputs_v1",
+  "variants": [
+    {
+      "attempt": 1,
+      "raw_directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth",
+      "original_harness_sha256": "43d862da448c825febbd983830040db0071ba83dadb617ee1ca23884d0d73a72",
+      "scene_sha256": "a75ead31882d8de20686c2a87c71d34fdf236da5fc6f8430ae2d602c6dd9f6c5",
+      "variant": "3_pitch_fixed_orientation",
+      "fresh_harness": "analysis/cart_drag_probe_005/reproduction/attempt_001.py",
+      "fresh_harness_sha256": "e137ba18d73c1e0aefcd1c03a924476015cc18cccde451b511d0f4f8dac05632",
+      "fresh_change": "Only path/output assignment and leading provenance comment; new output must not exist. Unexecuted; requires new authorised experiment order."
+    },
+    {
+      "attempt": 2,
+      "raw_directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002",
+      "original_harness_sha256": "74762f67865499b12897015d4e11f6bc7b7ee295a1ca35aa14da97c6e1e30cd2",
+      "scene_sha256": "a75ead31882d8de20686c2a87c71d34fdf236da5fc6f8430ae2d602c6dd9f6c5",
+      "variant": "5_axis_actual_pose_follow",
+      "fresh_harness": "analysis/cart_drag_probe_005/reproduction/attempt_002.py",
+      "fresh_harness_sha256": "ffbfaf5eef930f41fbf59d5bebac2d3a27391d369ad5b64b74804cc88ef7a92a",
+      "fresh_change": "Only path/output assignment and leading provenance comment; new output must not exist. Unexecuted; requires new authorised experiment order."
+    },
+    {
+      "attempt": 3,
+      "raw_directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003",
+      "original_harness_sha256": "2507487133060f48469f5d24fd1ced09830f7583a49954a6607be224dd090bc8",
+      "scene_sha256": "a75ead31882d8de20686c2a87c71d34fdf236da5fc6f8430ae2d602c6dd9f6c5",
+      "variant": "5_axis_open_jaw_countercheck",
+      "fresh_harness": "analysis/cart_drag_probe_005/reproduction/attempt_003.py",
+      "fresh_harness_sha256": "9f6eedeaeb1d62e76d45429fe6ad7abd73105f388e823eb303e8c140d1bd9a3e",
+      "fresh_change": "Only path/output assignment and leading provenance comment; new output must not exist. Unexecuted; requires new authorised experiment order."
+    },
+    {
+      "attempt": 4,
+      "raw_directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004",
+      "original_harness_sha256": "34f1de1d103b7c241dcd3a1e06a2ef6fea0ee2ef565285873f020a6a71a24300",
+      "scene_sha256": "a75ead31882d8de20686c2a87c71d34fdf236da5fc6f8430ae2d602c6dd9f6c5",
+      "variant": "4_axis_pitch_follow_roll_neutral",
+      "fresh_harness": "analysis/cart_drag_probe_005/reproduction/attempt_004.py",
+      "fresh_harness_sha256": "a8bd88910a069171587b81fcf931584329fbe7c082b838e428bb1edd1171df82",
+      "fresh_change": "Only path/output assignment and leading provenance comment; new output must not exist. Unexecuted; requires new authorised experiment order."
+    },
+    {
+      "attempt": 5,
+      "raw_directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005",
+      "original_harness_sha256": "88bfab58064879d0762d3fd1c3bd4c9247633409bb5fb71e06f74f2139c3f108",
+      "scene_sha256": "b393a2e4866a49df92d10fd9b4b3824c3755ca818cada44a2770206deec1458e",
+      "variant": "5_axis_plus_passive_pitch_spring",
+      "fresh_harness": "analysis/cart_drag_probe_005/reproduction/attempt_005.py",
+      "fresh_harness_sha256": "32bdfd17f19696a258e634c36a9c32552d353cd97b0faeea1238b5e3e9aeccfc",
+      "fresh_change": "Only path/output assignment and leading provenance comment; new output must not exist. Unexecuted; requires new authorised experiment order."
+    }
+  ],
+  "mesh_dependencies": {
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/torso_central_keel.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/left_actual_sole.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/inputs/physics_v0_2_20261018_04/meshes/right_actual_sole.obj": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj",
+      "sha256": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj",
+      "sha256": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj",
+      "sha256": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj",
+      "sha256": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj",
+      "sha256": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688"
+    },
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj": {
+      "package_path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj",
+      "sha256": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532"
+    }
+  },
+  "frozen04": "inputs/physics_v0_2_20261018_04",
+  "cart004": "assets/low_profile_stock_cart_03",
+  "raw_source_manifest": "analysis/cart_drag_probe_005/artifact_manifest.json",
+  "all5_raw_videos": [
+    {
+      "attempt": 1,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/continuous_original_speed.mp4",
+      "sha256": "3480e4ddb69e0662d05b247a92a30656733f9a7e72de246fbceb607a79031c72"
+    },
+    {
+      "attempt": 2,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/continuous_original_speed.mp4",
+      "sha256": "c3ed8c1ac080984c2126b85f9198d8785b171cad293bb3df9ea8d7fc1ea404e1"
+    },
+    {
+      "attempt": 3,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/continuous_original_speed.mp4",
+      "sha256": "a32b0bb0eadca37ec05ac437c57155fdf8ace427736cd98b557e60e1de3d7bef"
+    },
+    {
+      "attempt": 4,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/continuous_original_speed.mp4",
+      "sha256": "432e85a2a9adaf82c019cb87ea14b169d5012a1a7187fecbba5d5675052796d2"
+    },
+    {
+      "attempt": 5,
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/continuous_original_speed.mp4",
+      "sha256": "8b59d241408977e044a0149878c492405f8b12bf1ec212ac49891c611d0b7326"
+    }
+  ],
+  "selected_videos": [
+    {
+      "attempt": 2,
+      "path": "analysis/cart_drag_probe_005/selected_videos/attempt_002_original_speed.mp4",
+      "bytes": 117307,
+      "sha256": "c3ed8c1ac080984c2126b85f9198d8785b171cad293bb3df9ea8d7fc1ea404e1",
+      "interpretation": "Attempt3 is the unbalanced open-jaw control for2 only; not a matched negative for spring-balanced5."
+    },
+    {
+      "attempt": 3,
+      "path": "analysis/cart_drag_probe_005/selected_videos/attempt_003_original_speed.mp4",
+      "bytes": 61766,
+      "sha256": "a32b0bb0eadca37ec05ac437c57155fdf8ace427736cd98b557e60e1de3d7bef",
+      "interpretation": "Attempt3 is the unbalanced open-jaw control for2 only; not a matched negative for spring-balanced5."
+    },
+    {
+      "attempt": 5,
+      "path": "analysis/cart_drag_probe_005/selected_videos/attempt_005_original_speed.mp4",
+      "bytes": 101532,
+      "sha256": "8b59d241408977e044a0149878c492405f8b12bf1ec212ac49891c611d0b7326",
+      "interpretation": "Attempt3 is the unbalanced open-jaw control for2 only; not a matched negative for spring-balanced5."
+    }
+  ],
+  "scope": "Historical local torso fixture. No archived program executed during integration; full logs/MJB/trajectory remain ProjectBackups. Source scenes keep original absoluteURIs as evidence; derived fresh harness resolves existing portable04+004 assets and creates a new output directory.",
+  "negative_control_matches": {
+    "3": 2
+  },
+  "spring_balanced_attempt5_negative_control": "NOT_EXECUTED"
+}

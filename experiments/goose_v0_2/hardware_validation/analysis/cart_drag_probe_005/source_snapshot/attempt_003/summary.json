@@ -1,0 +1,26 @@
+{
+  "dynamic_attempts_in_this_process": 1,
+  "attempt_global_number": 3,
+  "variant": "OPEN_JAW_NEGATIVE_CONTROL",
+  "steps": 1108,
+  "sim_duration_s": 5.539999999999904,
+  "failure": "no_bilateral_capture",
+  "error": null,
+  "bilateral_ever": false,
+  "final_cart_back_m": 0.03583748004881426,
+  "max_slip_m": 0,
+  "max_positive_power_W": 26.995844159254123,
+  "phase_durations_s": {
+    "approach": 1.22,
+    "open": 0.6,
+    "hold": 0.02,
+    "close": 1.2,
+    "pull": 2.5
+  },
+  "source_unchanged": true,
+  "scope": "LOCAL_FIXED_TORSO_BENCH",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0,
+  "maxRSS_KiB": 2848416
+}

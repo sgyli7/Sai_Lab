@@ -1,0 +1,25 @@
+{
+  "dynamic_attempts": 1,
+  "steps": 2600,
+  "sim_duration_s": 13.000000000000632,
+  "failure": null,
+  "error": null,
+  "bilateral_ever": true,
+  "final_cart_back_m": -0.022745769332367827,
+  "max_slip_m": 0.06523609138820859,
+  "max_positive_power_W": 26.995844159254123,
+  "phase_durations_s": {
+    "close": 1.2,
+    "approach": 1.22,
+    "hold": 5.18,
+    "release": 2.3000000000000003,
+    "open": 0.6,
+    "pull": 2.5
+  },
+  "source_unchanged": true,
+  "scope": "LOCAL_FIXED_TORSO_BENCH",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0,
+  "maxRSS_KiB": 2848416
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cart_drag_probe_005_counterbalance_fixture_addendum",
+  "parent_order_sha256": "dc03632cb3ab5115fe2fcf24ea582a4ead1e3ab7e23b353b27801fadbe40d5d9",
+  "authorization": "PM under user-authorized hardware diagnostics; isolate observed cart fixture sag before attributing failure to Goose mouth.",
+  "issued_utc": "2026-10-18 13:39:08 UTC",
+  "variant_id": "r4_passive_pitch_counterbalance_probe_005",
+  "reason": "First two real-contact trials showed free unbalanced pitch drops handle about100mm during jaw opening, confounding grasp and traction.",
+  "single_changed_factor": "Compared with five-axis-IK trial2, add explicit physical passive torsion spring to existing cart pitch joint; original004 XML/assets and all Goose hardware stay byte-identical.",
+  "spring": {
+    "stiffness_Nm_per_rad": 2.0,
+    "preload_torque_at_pitch_zero_Nm": 0.55386095,
+    "spring_reference_rad": 0.276930475,
+    "sign_requirement": "Confirm source pitch Jacobian/gravity sign; at pitch0 spring torque must oppose native subtree gravity. Do not blindly apply sign.",
+    "no_hidden_control": "No servo/actuator on cart pitch, no lock, no weld to robot or object, no qpos correction. Native passive spring torque only.",
+    "source_status": "Explicit experimental counterbalance fixture hypothesis; geometry envelope/mass existed incart CAD but no OEM/calibration is claimed; not a new frozen hardware release."
+  },
+  "priority": [
+    "Use at mostone additional balanced-variant teacher trial, keeping trial2 IK/contact/drive settings unchanged, to isolate sag.",
+    "Use one genuine open-jaw/no-clamp countercheck if budget remains to detect pushing rather than gripping.",
+    "Do not begin full-body/gait work unless local stable traction gate passes; report controller prerequisite instead."
+  ],
+  "remaining_budget": "Inherit original005 global<=5 attempts and13:51:04 hard stop; stop new trial by13:47:04. Already2attempts/5200steps consumed.",
+  "record": "Actual passive torque, handle height/rotation, jaw-pair forces, signed transmitted force and phase displacement/slip; compare to unbalancedtrial2. No actual mouth improvement claim from a cart-fixture change."
+}

@@ -37,6 +37,16 @@
 
 历史源码与 `REPRODUCE.md` 是归档资料，**不能直接执行 `pilot.py serve`、`drag_pilot.py`、旧渲染程序或原复核脚本**：部分程序会写原结果或使用已结束的订单。完整历史复现仍需原始大数据及其声明环境；未来运行须由Rotbots本聊天另发有界新单、新输出目录和数据映射，不能覆写旧目录。本次未运行这些归档程序。
 
+## 已关闭005：暂不足公平决定改嘴
+
+[005独立审核](analysis/cart_drag_probe_005/independent_review.md)结论为 **INSUFFICIENT_FOR_FAIR_MOUTH_DECISION**，嘴形保持。5/5次、11508物理步均为固定躯干的Teacher/IK局部台架，不是整机后退。原鹅04/004输入不变，连续力矩/实际22.2V曲线与功率检查通过不等于硬件任务通过。
+
+独立核算试5 pull约37.318mm、hold约4.180mm/5.18s；hold双侧接触100%，但杆已降至约316mm，head_pitch有1536个pull/hold步近限位。捕获参考中心迁移11.196mm/相角5.46°不是材料切向滑移积分。整嘴代理Fn未逐点证明全部落在原生TPU面；8N仅名义摩擦cap，不是持续实测。合嘴闭环峰1.68mm、接触侵入峰1.17mm仍是限制，不能授20kg/0.5m/60s或硬件通过。
+
+[试5原速MP4](analysis/cart_drag_probe_005/selected_videos/attempt_005_original_speed.mp4)、[未配平试2](analysis/cart_drag_probe_005/selected_videos/attempt_002_original_speed.mp4)和[只匹配试2的开嘴负3](analysis/cart_drag_probe_005/selected_videos/attempt_003_original_speed.mp4)合计280605B。负3不能反证配平试5。全部5视频、MJB、完整轨迹和逐步日志仍留ProjectBackups，由[原始索引](analysis/cart_drag_probe_005/raw_data_index.json)关联，未搬走或改写。
+
+[复现说明](analysis/cart_drag_probe_005/REPRODUCTION.md)包含5种原始harness、真实XML变体、cold_state及I/O路径派生的fresh源码；旧程序不能原地运行，fresh输出必须为新目录。这次仅哈希/AST/XML检查，未执行仿真、forward、LP或渲染。006在进行中，未纳入本提交；004静态接受及既有FAIL边界保持。
+
 ## 当前低把手候选：03/R4与碰撞004
 
 [当前车体](assets/low_profile_stock_cart_03/README.md)使实际咬杆、pitch与yaw枢轴同高420mm；前端10°形状已在CAD中固定，初始车pitch坐标为0，不能再转10°。[独立审核](analysis/cart_low_handle_independent_002/independent_release_gate.json)的接受范围以原报告为准，仅限声明的静态候选。
@@ -65,7 +75,7 @@
 
 [benchmark_register.json](benchmark_register.json)把两类条件分榜，均为 `NO_RESULT`：
 
-1. **20kg有效货物＋低矮理货车**：20kg指货物，车重另计。当前为03/R4车体与collision_004静态候选，空车设计估计7.815342kg（含0.35kg未定硬件预留）；没有20kg货物实例或动态试验，榜单仍NO_RESULT。
+1. **20kg有效货物＋低矮理货车**：20kg指货物，车重另计。当前为03/R4车体与collision_004静态候选，空车设计估计7.815342kg（含0.35kg未定硬件预留）；004静态入口自身仍无货物/积分；005已另做带20kg箱的局部固定躯干探索，但无整机动态通过，榜单仍NO_RESULT。
 2. **20kg无轮滑块**：独立条件，不与有轮车结果合并。物体几何、接触材料和运行订单尚未确定。
 
 下一阶段还需要自由整机负载姿态、后退/停止控制、真实支撑位移与速度、起动/持续拉力、夹持保持、轮地行为及声明的摩擦/柔度。现有探索不能证明机械最大载荷，不能声称通过20kg、整机0.5m或60s。鹅04保持原冻结输入；理货车另列为静态首版候选，不修改鹅的质量、轴或驱动。

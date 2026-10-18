@@ -1,0 +1,27 @@
+{
+  "dynamic_attempts_in_this_process": 1,
+  "attempt_global_number": 4,
+  "variant": "FOUR_AXIS_IK_PITCH_FOLLOW_ROLL_NEUTRAL",
+  "steps": 2600,
+  "sim_duration_s": 13.000000000000632,
+  "failure": null,
+  "error": null,
+  "bilateral_ever": true,
+  "final_cart_back_m": 0.047945989926731936,
+  "max_slip_m": 0.015625417224615454,
+  "max_positive_power_W": 22.86638455412348,
+  "phase_durations_s": {
+    "close": 1.2,
+    "hold": 5.18,
+    "release": 2.3000000000000003,
+    "pull": 2.5,
+    "open": 0.6,
+    "approach": 1.22
+  },
+  "source_unchanged": true,
+  "scope": "LOCAL_FIXED_TORSO_BENCH",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0,
+  "maxRSS_KiB": 2848416
+}

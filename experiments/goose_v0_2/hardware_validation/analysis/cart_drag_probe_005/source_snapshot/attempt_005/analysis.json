@@ -1,0 +1,359 @@
+{
+  "attempt": 5,
+  "directory": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005",
+  "steps": 2600,
+  "sim_s": 13.000000000000632,
+  "scope": "LOCAL_FIXED_TORSO_NECK_HEAD_ACTIVE",
+  "phases": {
+    "open": {
+      "duration_s": 0.6,
+      "cart_backward_delta_m": 0.0014376315729491829,
+      "cart_backward_start_m": -9.31891900346482e-06,
+      "cart_backward_end_m": 0.001428312653945718,
+      "rod_z_min_max_m": [
+        0.3161684594884744,
+        0.4198412747863866
+      ],
+      "jaw_normal_mean_N": [
+        3.890895716114325,
+        0.0025784914871912297
+      ],
+      "jaw_normal_min_N": [
+        0.0,
+        0.0
+      ],
+      "tow_on_rod_mean_world_N": [
+        -1.6954545525876106,
+        0.0017712922677012438,
+        -3.5984513476586937
+      ],
+      "bilateral_duty": 0.008333333333333333,
+      "slip_end_m": null,
+      "angle_end_rad": null,
+      "slip_max_m": 0
+    },
+    "approach": {
+      "duration_s": 1.22,
+      "cart_backward_delta_m": 0.0022846599718695515,
+      "cart_backward_start_m": 0.001428312653945718,
+      "cart_backward_end_m": 0.0037129726258152695,
+      "rod_z_min_max_m": [
+        0.31567872031373245,
+        0.39074463752822064
+      ],
+      "jaw_normal_mean_N": [
+        4.158160915036371,
+        0.0
+      ],
+      "jaw_normal_min_N": [
+        0.0,
+        0.0
+      ],
+      "tow_on_rod_mean_world_N": [
+        -0.8484675028410825,
+        0.002070218237156307,
+        -4.170387283377595
+      ],
+      "bilateral_duty": 0.0,
+      "slip_end_m": null,
+      "angle_end_rad": null,
+      "slip_max_m": 0
+    },
+    "close": {
+      "duration_s": 1.2,
+      "cart_backward_delta_m": -0.001324787300098329,
+      "cart_backward_start_m": 0.0037129726258152695,
+      "cart_backward_end_m": 0.0023881853257169405,
+      "rod_z_min_max_m": [
+        0.31544967993533835,
+        0.31613434924916484
+      ],
+      "jaw_normal_mean_N": [
+        32.52236427341779,
+        24.823239821344522
+      ],
+      "jaw_normal_min_N": [
+        8.28996949398969,
+        0.0
+      ],
+      "tow_on_rod_mean_world_N": [
+        0.6174397060823862,
+        -0.0008596446622934661,
+        -8.854853518722145
+      ],
+      "bilateral_duty": 0.7875,
+      "slip_end_m": 0.0008468426651242574,
+      "angle_end_rad": 0.01020868394666724,
+      "slip_max_m": 0.0008468426651242574
+    },
+    "pull": {
+      "duration_s": 2.5,
+      "cart_backward_delta_m": 0.03730732598337472,
+      "cart_backward_start_m": 0.0023881853257169405,
+      "cart_backward_end_m": 0.03969551130909166,
+      "rod_z_min_max_m": [
+        0.3155681404357482,
+        0.32135014862876676
+      ],
+      "jaw_normal_mean_N": [
+        35.15988941514623,
+        26.933884037200503
+      ],
+      "jaw_normal_min_N": [
+        23.342339009391313,
+        15.439272210574453
+      ],
+      "tow_on_rod_mean_world_N": [
+        -6.1270067354393065,
+        0.02240296921191111,
+        -7.38835387034794
+      ],
+      "bilateral_duty": 1.0,
+      "slip_end_m": 0.009018068870942367,
+      "angle_end_rad": 0.07275138717979439,
+      "slip_max_m": 0.009018068870942367
+    },
+    "hold": {
+      "duration_s": 5.18,
+      "cart_backward_delta_m": 0.004223140921178148,
+      "cart_backward_start_m": 0.03969551130909166,
+      "cart_backward_end_m": 0.043918652230269806,
+      "rod_z_min_max_m": [
+        0.31583026844037826,
+        0.3181760695081575
+      ],
+      "jaw_normal_mean_N": [
+        33.85600603091917,
+        26.377013416858247
+      ],
+      "jaw_normal_min_N": [
+        19.24797818797455,
+        14.286429913259049
+      ],
+      "tow_on_rod_mean_world_N": [
+        -0.4115146906712628,
+        0.018866393907804428,
+        -8.820770530207763
+      ],
+      "bilateral_duty": 1.0,
+      "slip_end_m": 0.01119160390070203,
+      "angle_end_rad": 0.09445659371275275,
+      "slip_max_m": 0.011195698088258191
+    },
+    "release": {
+      "duration_s": 2.3000000000000003,
+      "cart_backward_delta_m": 0.005868708932897815,
+      "cart_backward_start_m": 0.043918652230269806,
+      "cart_backward_end_m": 0.04978736116316762,
+      "rod_z_min_max_m": [
+        0.31616197338517665,
+        0.31814308555455284
+      ],
+      "jaw_normal_mean_N": [
+        8.294640690705801,
+        1.1509244567714312
+      ],
+      "jaw_normal_min_N": [
+        5.82542803916091,
+        0.0
+      ],
+      "tow_on_rod_mean_world_N": [
+        -1.4962506704287075,
+        0.06612940625541809,
+        -7.2851103092937315
+      ],
+      "bilateral_duty": 0.08478260869565217,
+      "slip_end_m": 0.00961412053163461,
+      "angle_end_rad": 0.08882862235544536,
+      "slip_max_m": 0.011233196052494922
+    }
+  },
+  "max_torque_nm18": [
+    0.03577402289766673,
+    4.728292420917606,
+    5.095044913795152,
+    1.2683881890428572,
+    0.1051273417795913,
+    2.1903977665743453,
+    0.029346851197881475,
+    0.19880619630466317,
+    0.052386618705387,
+    0.17066772631899493,
+    0.17572133238861298,
+    0.13806734578703167,
+    0.029302539341384406,
+    0.1988710844123028,
+    0.05248877555564773,
+    0.17044560875608653,
+    0.1755478187666061,
+    0.13808117945805048
+  ],
+  "max_drive_speed_rad_s18": [
+    0.07135289365517843,
+    4.420236324388414,
+    2.712769671814131,
+    5.2883979163611565,
+    1.2002751576349264,
+    1.4192564940577161,
+    0.08103195660211428,
+    0.11298331308150217,
+    0.021561317840988633,
+    0.01976386153305939,
+    0.020277200698681372,
+    0.4982211271763533,
+    0.08107528489824992,
+    0.11294696705537705,
+    0.02158497981375486,
+    0.019747148872439342,
+    0.020417988001300468,
+    0.49827222442551833
+  ],
+  "torque_cap_saturation_duty18": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_positive_power_W": 9.456343776667323,
+  "caps_verified_against_selected_curve": true,
+  "max_jaw_penetration_m": 0.0011680520039876934,
+  "max_all_contact_penetration_m": 0.0011680520039876934,
+  "nonbar_mouth_shaft_yoke_positive_contact_rows": 0,
+  "original_internal_closure_max_abs_m_or_rad": 0.0016802629208022002,
+  "fixture_max_abs_residual_m_or_rad": 5.555145840570158e-05,
+  "max_body_tilt_deg": 0.006368515334076855,
+  "foot_contact_center_slip_integral_m": [
+    0.0017679997303304189,
+    0.0017544449267199644
+  ],
+  "foot_geom_center_max_excursion_from_first_step_m": [
+    0.0005546692394282793,
+    0.0005552176737077819
+  ],
+  "cargo_cart_local_end_m": [
+    0.32499523078128517,
+    3.127026776360432e-08,
+    0.2564005421491111
+  ],
+  "cargo_local_max_excursion_m": [
+    8.637352092000228e-05,
+    1.079572804882436e-07,
+    0.00039453855447540986
+  ],
+  "cargo_deck_support_mean_N": 196.20001223515962,
+  "compiled_robot_exact_checks": 831,
+  "warning_max": 0,
+  "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/continuous_original_speed.mp4",
+  "video_probe": {
+    "decoded_returncode": 0,
+    "ffmpeg_readback": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/continuous_original_speed.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:13.05, start: 0.000000, bitrate: 62 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x480, 59 kb/s, 20 fps, 20 tbr, 10240 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 640x480, q=2-31, 200 kb/s, 20 fps, 20 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 wrapped_avframe\n[out#0/null @ 0x782f1d0] video:112KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  261 fps=0.0 q=-0.0 Lsize=N/A time=00:00:13.05 bitrate=N/A speed= 316x    \n"
+  },
+  "summary": {
+    "dynamic_attempts_in_this_process": 1,
+    "attempt_global_number": 5,
+    "variant": "FIVE_AXIS_IK_ONLY_CART_PASSIVE_PITCH_SPRING_K2_QREF027693",
+    "steps": 2600,
+    "sim_duration_s": 13.000000000000632,
+    "failure": null,
+    "error": null,
+    "bilateral_ever": true,
+    "final_cart_back_m": 0.04978736116316762,
+    "max_slip_m": 0.011233196052494922,
+    "max_positive_power_W": 9.456343776667323,
+    "phase_durations_s": {
+      "close": 1.2,
+      "open": 0.6,
+      "approach": 1.22,
+      "hold": 5.18,
+      "release": 2.3000000000000003,
+      "pull": 2.5
+    },
+    "source_unchanged": true,
+    "scope": "LOCAL_FIXED_TORSO_BENCH",
+    "NN": 0,
+    "GPU": 0,
+    "training": 0,
+    "maxRSS_KiB": 2848416
+  },
+  "wheel_ground_contact_frame_force_diagnostic": {
+    "open": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        276.566857763425,
+        -0.0014733176868161066,
+        -1.406630581021939
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    },
+    "approach": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        276.9880161811973,
+        -0.002017655961661519,
+        -1.0496772194258412
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    },
+    "close": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        281.72495548415066,
+        0.0008505595918222841,
+        0.6299410658722489
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    },
+    "pull": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        280.2552320250941,
+        -0.023173248385167853,
+        -6.0025469825658355
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    },
+    "hold": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        281.69022002188217,
+        -0.01818419030122285,
+        -0.4606707409463924
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    },
+    "release": {
+      "ground_wheel_sum_contact_frame3_mean_N": [
+        280.15371427255775,
+        -0.06658441853731235,
+        -1.4624457772304849
+      ],
+      "warning": "Contact frames were not logged; do not interpret tangential sum as world force or calibrated axle resistance."
+    }
+  },
+  "closure_components": {
+    "beak_distal_pin": {
+      "all_max_abs": 0.0016802629208022002,
+      "hold_max_abs": 0.00014839566354943323
+    },
+    "left_yaw_input_rotor_belt_relation": {
+      "all_max_abs": 1.9053338666778265e-05,
+      "hold_max_abs": 8.946110478716797e-07
+    },
+    "right_yaw_input_rotor_belt_relation": {
+      "all_max_abs": 1.904877205272565e-05,
+      "hold_max_abs": 9.152968960936345e-07
+    }
+  },
+  "hold_conservative_x_margin_m": 0.025056855976221808,
+  "bus_voltage_v": 22.2,
+  "relative_center_migration_not_material_tangential_slip_integral": true
+}

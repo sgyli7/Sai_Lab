@@ -1,0 +1,272 @@
+[
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/probe.py",
+    "sha256": "43d862da448c825febbd983830040db0071ba83dadb617ee1ca23884d0d73a72",
+    "bytes": 11328
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/render.py",
+    "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6",
+    "bytes": 1366
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/cold_state.npz",
+    "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31",
+    "bytes": 1310
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/actual_scene.mjb",
+    "sha256": "c8354e072577eceb0046c8420a4c6f559f6ed59a8fd50a618e6981e930143958",
+    "bytes": 5158163
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/trajectory.npz",
+    "sha256": "5d7d9519ba438cb6a35f849a3c4293d87c4b5eebcbc247a8eec1ad495e025528",
+    "bytes": 1984297
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/substeps.jsonl.gz",
+    "sha256": "c12858390dfad17c51f6194b97567ea01cc29570cdaf229d1b9b875a5a1832bd",
+    "bytes": 9223739
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/summary.json",
+    "sha256": "3e6c94589db8fb973c15e520bbaaaa226913b1c2c8398fd4a538c4f4e28f3433",
+    "bytes": 559
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/preflight.json",
+    "sha256": "e1c08f3e348173897583076159e9ea225bb0af237c1e44808fa84a79ce17aa22",
+    "bytes": 3840
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/analysis.json",
+    "sha256": "56c28aa3c442090f8fa93b30fa1b759e53df5c292af271218c4f7cc2964f7b1c",
+    "bytes": 12731
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/continuous_original_speed.mp4",
+    "sha256": "3480e4ddb69e0662d05b247a92a30656733f9a7e72de246fbceb607a79031c72",
+    "bytes": 113443
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/probe.py",
+    "sha256": "74762f67865499b12897015d4e11f6bc7b7ee295a1ca35aa14da97c6e1e30cd2",
+    "bytes": 11807
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/render.py",
+    "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6",
+    "bytes": 1366
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/cold_state.npz",
+    "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31",
+    "bytes": 1310
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/actual_scene.mjb",
+    "sha256": "c8354e072577eceb0046c8420a4c6f559f6ed59a8fd50a618e6981e930143958",
+    "bytes": 5158163
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/trajectory.npz",
+    "sha256": "a69e02ad68fb077c33eeca604418fd01067c0d1c9e4f7fb94bb6a4c1b0b0db96",
+    "bytes": 1990424
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/substeps.jsonl.gz",
+    "sha256": "13c5c0da0c8f21a3e0c215925348de04d31c9de042d225c98a3864cf75a9311a",
+    "bytes": 9240146
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/summary.json",
+    "sha256": "16d0d8b943323d86fcc283b583703962e6154bd8666b82526fd3722add61afb9",
+    "bytes": 562
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/preflight.json",
+    "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb",
+    "bytes": 3858
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/analysis.json",
+    "sha256": "347bedb420a7739e06092e7ece8a5156ab1d9c446883121bf08a58e44f8994e6",
+    "bytes": 12723
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_002/continuous_original_speed.mp4",
+    "sha256": "c3ed8c1ac080984c2126b85f9198d8785b171cad293bb3df9ea8d7fc1ea404e1",
+    "bytes": 117307
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/probe.py",
+    "sha256": "2507487133060f48469f5d24fd1ced09830f7583a49954a6607be224dd090bc8",
+    "bytes": 11887
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/render.py",
+    "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6",
+    "bytes": 1366
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/cold_state.npz",
+    "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31",
+    "bytes": 1310
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/actual_scene.mjb",
+    "sha256": "c8354e072577eceb0046c8420a4c6f559f6ed59a8fd50a618e6981e930143958",
+    "bytes": 5158163
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/trajectory.npz",
+    "sha256": "97894d4653b0990ba9a6061df68d320dfd8f0a3c1f11d7ab3cc1a443077b1f7d",
+    "bytes": 844724
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/substeps.jsonl.gz",
+    "sha256": "dc3ccc4aee205fd9b13b6f3fc14bb214b8dca68dee87e29869a71871751e9a5f",
+    "bytes": 3836020
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/summary.json",
+    "sha256": "65ca8ac52e0c75c8a94dbd17528d89af994b182c8b35a5ca67cdcb5d84c0a0e4",
+    "bytes": 613
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/preflight.json",
+    "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb",
+    "bytes": 3858
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/analysis.json",
+    "sha256": "601b30a33e23509dcfddd342ecdeacec1721945df2adfa82a7c9a6b2a4d4d867",
+    "bytes": 11393
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_003/continuous_original_speed.mp4",
+    "sha256": "a32b0bb0eadca37ec05ac437c57155fdf8ace427736cd98b557e60e1de3d7bef",
+    "bytes": 61766
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/probe.py",
+    "sha256": "34f1de1d103b7c241dcd3a1e06a2ef6fea0ee2ef565285873f020a6a71a24300",
+    "bytes": 11793
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/render.py",
+    "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6",
+    "bytes": 1366
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/cold_state.npz",
+    "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31",
+    "bytes": 1310
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/actual_scene.mjb",
+    "sha256": "c8354e072577eceb0046c8420a4c6f559f6ed59a8fd50a618e6981e930143958",
+    "bytes": 5158163
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/trajectory.npz",
+    "sha256": "f75658b036ecf6b9ba77b676aaa8f0dfdaa912fed0f138039c3802b56fec6330",
+    "bytes": 1985689
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/substeps.jsonl.gz",
+    "sha256": "62b453e7f7680a8d80062030e73ea8badf5f3696ed6b46aaab07991e9a8c888f",
+    "bytes": 9357785
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/summary.json",
+    "sha256": "ec482b53a9cd6eee83952c3ef397ce37b18f4bd918e87a3d3cc16524771d6a73",
+    "bytes": 662
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/preflight.json",
+    "sha256": "e1c08f3e348173897583076159e9ea225bb0af237c1e44808fa84a79ce17aa22",
+    "bytes": 3840
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/analysis.json",
+    "sha256": "099431580bcecf867a4021f51350069f37fd17a21b54f7e229a277bacfecf9fd",
+    "bytes": 12879
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_004/continuous_original_speed.mp4",
+    "sha256": "432e85a2a9adaf82c019cb87ea14b169d5012a1a7187fecbba5d5675052796d2",
+    "bytes": 100762
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/probe.py",
+    "sha256": "88bfab58064879d0762d3fd1c3bd4c9247633409bb5fb71e06f74f2139c3f108",
+    "bytes": 12496
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/render.py",
+    "sha256": "bdd5c17f82cfe7aa38a16fb9451590fe8c42579697826d54f7cbf15e8935c3b6",
+    "bytes": 1366
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/cold_state.npz",
+    "sha256": "d8da9b3b60b26075ae87efdb11cc5320ef421e9295e4fd598de9a580fcdfaa31",
+    "bytes": 1310
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/actual_scene.mjb",
+    "sha256": "2c72889f6aa4ba03cff3c8a6bb822721367a294793792ec4cb2ce77cce3f4e7a",
+    "bytes": 5158163
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/trajectory.npz",
+    "sha256": "d2a7a445264d9fa066f6fabc96f47a0b4ae433851cca131ac79bc3e3f1eb55d9",
+    "bytes": 1993653
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/substeps.jsonl.gz",
+    "sha256": "098bf23964aa3d08fae6d4fac4672fd866bf674465ed7f7873187c09c0af3133",
+    "bytes": 9377663
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/summary.json",
+    "sha256": "2cd21ffd5599c337ae0bb9c0e4b313bafd0f8f542df326553f4ce96e9e223ea2",
+    "bytes": 680
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/preflight.json",
+    "sha256": "6faf4332f7e182ba16e17e718507c286c0620ea263b6cec7478a83bba5af72fb",
+    "bytes": 3858
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/analysis.json",
+    "sha256": "9fdeb4912739df2b895d7c87a66306fc89cde6f694a0a2886feb223e36919917",
+    "bytes": 12863
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005/teacher_ik_mouth/attempt_005/continuous_original_speed.mp4",
+    "sha256": "8b59d241408977e044a0149878c492405f8b12bf1ec212ac49891c611d0b7326",
+    "bytes": 101532
+  },
+  {
+    "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_005/all_attempts_analysis.json",
+    "sha256": "c151a64ba645364b15ea5032dba06583ebe46e4534e3f784c194f8157c9a6014",
+    "bytes": 66111
+  },
+  {
+    "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_005/immutable_sources_verified.json",
+    "sha256": "1f79a70cb92b1e8c92410e83402862c8b7025753c191eaffdc6e0a33cfad1b25",
+    "bytes": 14505
+  },
+  {
+    "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_005/report.md",
+    "sha256": "32f61e52505a44e06aab484bbee0288ec75c78b2b222ec3c0698883acca8f728",
+    "bytes": 7025
+  },
+  {
+    "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_005/summary.json",
+    "sha256": "c446a1e8a0c9b4ccdc401086125200f5cf08e0e1c0daad41d0ed566ef2e478c7",
+    "bytes": 3892
+  }
+]

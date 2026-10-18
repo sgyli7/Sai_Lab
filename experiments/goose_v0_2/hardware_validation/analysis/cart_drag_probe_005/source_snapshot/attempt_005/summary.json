@@ -1,0 +1,27 @@
+{
+  "dynamic_attempts_in_this_process": 1,
+  "attempt_global_number": 5,
+  "variant": "FIVE_AXIS_IK_ONLY_CART_PASSIVE_PITCH_SPRING_K2_QREF027693",
+  "steps": 2600,
+  "sim_duration_s": 13.000000000000632,
+  "failure": null,
+  "error": null,
+  "bilateral_ever": true,
+  "final_cart_back_m": 0.04978736116316762,
+  "max_slip_m": 0.011233196052494922,
+  "max_positive_power_W": 9.456343776667323,
+  "phase_durations_s": {
+    "close": 1.2,
+    "open": 0.6,
+    "approach": 1.22,
+    "hold": 5.18,
+    "release": 2.3000000000000003,
+    "pull": 2.5
+  },
+  "source_unchanged": true,
+  "scope": "LOCAL_FIXED_TORSO_BENCH",
+  "NN": 0,
+  "GPU": 0,
+  "training": 0,
+  "maxRSS_KiB": 2848416
+}

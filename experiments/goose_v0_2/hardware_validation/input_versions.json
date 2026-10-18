@@ -94,5 +94,22 @@
   "low_handle_integration": {
     "path": "analysis/low_handle_data_integration_001/admitted_inputs.json",
     "sha256": "76b7e46213ef2d5946ce5899cfddbfc23338a9a9b8753491cca9f31e2bce5664"
-  }
+  },
+  "closed_local_probes": [
+    {
+      "id": "cart_drag_probe_005",
+      "entry": "analysis/cart_drag_probe_005",
+      "copy_manifest": "analysis/cart_drag_probe_005/archive_copy_manifest.json",
+      "copy_manifest_sha256": "d720d29c714c0c8d040a3f277a076211e363a9a1e1d6713c06e30a581c1a4501",
+      "producer_manifest": "analysis/cart_drag_probe_005/artifact_manifest.json",
+      "producer_manifest_sha256": "24c29ed9ff696a516edcf695db43a1017dd0acc815a310db102ad84f7bc1f271",
+      "independent_review": "analysis/cart_drag_probe_005/independent_review.json",
+      "independent_review_sha256": "6180d504d199d97b54613013f0200e81f5a42efbb8d6a09944b71072f8bd5dac",
+      "decision": "INSUFFICIENT_FOR_FAIR_MOUTH_DECISION",
+      "attempts": 5,
+      "producer_physics_steps": 11508,
+      "free_root_or_20kg_whole_robot_qualification": false,
+      "includes006": false
+    }
+  ]
 }

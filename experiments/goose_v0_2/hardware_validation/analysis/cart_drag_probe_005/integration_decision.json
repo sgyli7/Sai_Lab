@@ -1,0 +1,28 @@
+{
+  "status": "INSUFFICIENT_FOR_FAIR_MOUTH_DECISION",
+  "mouth_geometry": "KEEP_CURRENT",
+  "scope": "5closed local torso-fixture Teacher/IK experiments,11508steps; not whole-robot haul",
+  "attempt5": {
+    "pull_mm": 37.318,
+    "hold_back_mm": 4.18,
+    "hold_s": 5.18,
+    "hold_bilateral_fraction": 1.0,
+    "capture_center_migration_mm": 11.196,
+    "relative_angle_deg": 5.46,
+    "actual_rod_height_approx_mm": 316,
+    "head_pitch_near_limit_steps": 1536,
+    "closure_peak_mm": 1.68,
+    "contact_penetration_peak_mm": 1.17
+  },
+  "interpretation": [
+    "Center migration is not integrated material tangential slip.",
+    "Whole-bill proxy normal forces are not all verified effective TPU-pad forces.",
+    "Nominal8N wheel frictionloss cap is not measured sustained8N.",
+    "Open-jaw3 matches unbalanced2, not spring-balanced5.",
+    "Caps/power/source identity checks pass only in this stated local setup."
+  ],
+  "hardware_pass": false,
+  "whole_robot_20kg": "NO_RESULT",
+  "next_experiment_006_included": false,
+  "new_steps_by_integrator": 0
+}

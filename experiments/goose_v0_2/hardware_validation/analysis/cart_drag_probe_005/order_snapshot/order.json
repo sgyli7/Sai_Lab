@@ -1,0 +1,126 @@
+{
+  "id": "cart_drag_probe_005",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "status": "authorized_after_static_gate",
+  "user_authorization": "2026-10-18: 差不多了可以开始测试了；主线优化Goose拖拽能力，尤其硬件",
+  "purpose": "Use bounded pure-contact drag evidence to decide Goose mouth, neck, contact and actuator hardware improvements. Stop exterior refinement. Not a long training project.",
+  "robot_baseline": "physics_v0_2_20261018_04",
+  "cart_candidate": "low_profile_stock_cart_03_collision_004",
+  "historical_cart_control": "low_profile_stock_cart_01_collision_002",
+  "sources": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml",
+      "sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+      "bytes": 23593
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json",
+      "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+      "bytes": 150030
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json",
+      "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+      "bytes": 31658
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/cart.xml",
+      "sha256": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd",
+      "bytes": 12945
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/goose_cart_scene.xml",
+      "sha256": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c",
+      "bytes": 36879
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_collision_004/artifact_manifest.json",
+      "sha256": "2e73681efe251dfe2d424e455a2610871f87844c977c46b9f5d1c1de059a56fb",
+      "bytes": 7432
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_01/cart.xml",
+      "sha256": "14819c1b25b559b18c0beca685a8670b09ac25f418ff44af61011a7d2ec7e2c4",
+      "bytes": 11639
+    }
+  ],
+  "prerequisite": "G final limited static acceptance of R4/004 before physics integration; preparation can start immediately. Stop on identity/contact/closure preflight failure.",
+  "resource_limits": {
+    "cpu_experiment_processes": 1,
+    "cpu_threads_max": 4,
+    "memory_GiB_max": 8,
+    "wall_minutes_max": 20,
+    "dynamic_attempts_max": 5,
+    "GPU": 0,
+    "training_updates": 0,
+    "long_training_or_automation": false
+  },
+  "payload": {
+    "mass_kg": 20,
+    "geometry_m": [
+      0.6,
+      0.4,
+      0.15
+    ],
+    "cart_local_COM_m": [
+      0.325,
+      0,
+      0.2565
+    ],
+    "assembly": "Free physical box placed on actual deck; full box inertia from dimensions. No weld or virtual attachment to cart/robot.",
+    "target_total_mass_note": "20kg cargo plus native cart estimate, approximately27.815342kg for R4, not20kg total."
+  },
+  "conditions": {
+    "robot_floor_effective_mu_nominal": 0.65,
+    "contact_values_status": "Design assumptions, not measured material calibration; log actual pair values and mixing. Never silently lower friction.",
+    "lumped_cart_resistance_N": [
+      8,
+      20
+    ],
+    "resistance_model": "If using wheel frictionloss, expose variant and map torque from force*wheel_radius/4; baseline XML remains immutable. Declared equivalent level-floor resistance probe, not calibrated casters or arbitrary low friction. Account actual startup and wheel speed.",
+    "motion_goal": "For local hardware probe, slow actual neck retraction over about50mm, grip then pull then hold; no fixture motion. Free-base run only if local gates pass; separate from local results.",
+    "primary_matched_comparison": "R4 vs historical R2 at same20kg payload,8N equivalent cart resistance, original robot drive/contact limits; respective real bite poses and passive drawhead gravity retained."
+  },
+  "allowed_sequence": [
+    "Read old Pickup/drag harnesses as history; write fresh non-overwriting pilot, never execute old serve or output paths.",
+    "Preflight immutable sources, true clamp point, full loaded geometry, contact penetration, axes, actuator adapter/200Hz physics and50Hz commands.",
+    "Local fixed-torso hardware bench: head/neck/mouth remain actuated; free loaded cart and cargo; physical clamp only. Compare R4 with R2 under8N resistance.",
+    "If nominal clamp/traction is sound, use one20N equivalent resistance attempt to expose slip or torque boundary; otherwise spend attempt on the observed failure countercheck.",
+    "If local gate passes, one free-base loaded posture/traction-start probe with existing bounded control. No root/foot fixture, no pose writes, no object binding. A neck-only cart displacement is not whole-body backward hauling.",
+    "Use remaining attempt only for a repeat near the boundary or a meaningful zero-drive/zero-friction countercheck; no matrix expansion."
+  ],
+  "invariants": [
+    "Original53 robot files, full mass/COM/inertia, axes, closed-loop, limits, drive capabilities,350W design budget and disabled peaks remain immutable.",
+    "No robot-object weld, suction, direct object teleportation or online qpos writeback. Only declared initialization/reset.",
+    "A local torso fixture is allowed solely in a prominently labelled bench. Head must not be fixed; no fixture in free-base trial.",
+    "Do not modify Sai_Lab V0.1 Picking, Move, Standup, G1, default assets or task/reward/observation/action contracts.",
+    "No new CAD/hardware version during run; report a hardware candidate only after evidence review."
+  ],
+  "measurements": [
+    "actual jaw and cart contact forces, transferred towing force, slip/roll-out/drop and contact penetration",
+    "cart/cargo/root displacement and velocity, support mode and body tilt, per-foot contact and slip",
+    "per-axis applied torque, velocity, power, saturation duty, closure residuals, warnings and actual effective timing",
+    "passive pitch/roll/yaw motion, tongue load, cargo support on deck, caster/wheel motion and effective resisting force",
+    "continuous trajectory and original-speed video for each attempt, reproducible input/config/controller identity and resource receipt"
+  ],
+  "success_scope": {
+    "local": "Exploratory: continuous genuine grasp through slow pull and>=5s holding at declared resistance; no roll-out/drop, no hidden support, applied limits respected. Report slip/angle rather than claiming reliability from<=5 trials.",
+    "free": "Exploratory posture/traction-start only. Track robot backward displacement separately. Cannot qualify0.5m/60s, whole dragging skill,20kg operational reliability or cross-engine ability.",
+    "failure_classification": "Distinguish contact/geometry/actuator evidence from control inadequacy or unknown. A fall under unvalidated control alone is not hardware capacity proof."
+  },
+  "abort_conditions": [
+    "Initial unclassified penetration>0.5mm or invalid closure/axes/NaN",
+    "Sustained free-base body tilt>25deg or loss of support; preserve failure then stop attempt",
+    "Source immutability breach or exceeding resources; return partial evidence immediately"
+  ],
+  "data_location": {
+    "raw_outputs": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_005",
+    "maintained_summary": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_probe_005",
+    "order": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_probe_005/order.json"
+  },
+  "return_required": [
+    "Actual attempt table, success/failure videos and all immutable source hashes",
+    "Step logs and reproducible fresh harness/config, applied torque/force evidence, any control prerequisites or blockers",
+    "One hardware question answered and next proposed test or minimum hardware change; do not make an unsupported maximum-load claim"
+  ]
+}
