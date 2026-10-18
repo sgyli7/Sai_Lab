@@ -236,7 +236,7 @@ def main(check_originals):
         if sha(producer) != item["producer_manifest_sha256"]:
             failures.append("Closed probe producer manifest changed")
         if check_originals:
-            for row in json.loads(producer.read_text()):
+            for row in (lambda value: value["files"] if isinstance(value, dict) else value)(json.loads(producer.read_text())):
                 if sha(Path(row["path"])) != row["sha256"]:
                     failures.append("Closed probe raw record changed")
         if sha(inside(root, item["independent_review"])) != item["independent_review_sha256"]:

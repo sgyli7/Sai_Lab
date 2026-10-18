@@ -1,0 +1,925 @@
+{
+  "schema": "goose_v0_2_fixed_drive_contract_v1",
+  "release_id": "physics_v0_2_20261018_02",
+  "default_mode": "continuous_only",
+  "axes": [
+    {
+      "name": "neck_yaw",
+      "model": "AK40-10 V3.0 KV170",
+      "actuated_joint": "neck_yaw",
+      "selected_continuous_design_limit_nm": 1.04,
+      "selected_peak_design_limit_nm": 2.0,
+      "selected_speed_limit_rad_s": 38.746309394274114,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 1.3,
+      "manufacturer_peak_or_stall_nm": 4.1,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          4.1
+        ],
+        [
+          38.746309394274114,
+          1.3
+        ],
+        [
+          45.553093477052,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.03,
+      "actual_drive_joint_frictionloss_nm": 0.03,
+      "armature_at_logical_joint_kg_m2": 0.0009734999999999999,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak40-10-v3-0-kv170-robotic-actuator.html",
+      "source_basis": "Manufacturer rated workpoint and no-load endpoint; interpolated conservative simulation envelope, not a measured bench curve.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "neck_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "neck_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "neck_mid_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "neck_mid_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "head_pitch",
+      "model": "AK45-10 V3.0 KV75",
+      "actuated_joint": "head_pitch",
+      "selected_continuous_design_limit_nm": 2.0,
+      "selected_peak_design_limit_nm": 4.0,
+      "selected_speed_limit_rad_s": 12.56637061435917,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 2.5,
+      "manufacturer_peak_or_stall_nm": 7.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          7
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.05,
+      "actual_drive_joint_frictionloss_nm": 0.05,
+      "armature_at_logical_joint_kg_m2": 0.0015733,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-10-v3-0-kv75-robotic-actuator.html",
+      "source_basis": "Conservative chord from manufacturer rated2.5Nm/120rpm to no-load180rpm; chart is higher. Peak remains separately capped.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "head_roll",
+      "model": "XC330-M288-T",
+      "actuated_joint": "head_roll",
+      "selected_continuous_design_limit_nm": 0.14,
+      "selected_peak_design_limit_nm": 0.18,
+      "selected_speed_limit_rad_s": 3.0,
+      "kp_nm_rad": 2.0,
+      "kd_nm_s_rad": 0.025,
+      "manufacturer_rated_torque_nm": null,
+      "manufacturer_peak_or_stall_nm": 0.93,
+      "reference_voltage_v": 5.0,
+      "simulation_voltage_window_v": [
+        5,
+        5
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          0.18
+        ],
+        [
+          3.9000000000000004,
+          0
+        ]
+      ],
+      "gear_ratio": 288.35,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.036,
+      "actual_drive_joint_frictionloss_nm": 0.036,
+      "armature_at_logical_joint_kg_m2": 2e-05,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xc330-m288/",
+      "source_basis": "ManufacturerM28823g/288.35/5V; selected .14/.18Nm and3rad/s deliberatelyretained design derating, not measured continuous manufacturer rating",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "beak_hinge",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "beak_input_rotor",
+      "selected_continuous_design_limit_nm": 4.4,
+      "selected_peak_design_limit_nm": 4.5,
+      "selected_speed_limit_rad_s": 1.0,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.15,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.0,
+      "actual_drive_joint_frictionloss_nm": 0.08,
+      "armature_at_logical_joint_kg_m2": 0.0,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_hip_yaw",
+      "model": "AK40-10 V3.0 KV170",
+      "actuated_joint": "right_yaw_input_rotor",
+      "selected_continuous_design_limit_nm": 1.04,
+      "selected_peak_design_limit_nm": 2.0,
+      "selected_speed_limit_rad_s": 38.746309394274114,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 1.3,
+      "manufacturer_peak_or_stall_nm": 4.1,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          4.1
+        ],
+        [
+          38.746309394274114,
+          1.3
+        ],
+        [
+          45.553093477052,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.0,
+      "actual_drive_joint_frictionloss_nm": 0.03,
+      "armature_at_logical_joint_kg_m2": 0.0,
+      "electrical_encoder_sign": -1.0,
+      "source_url": "https://www.cubemars.com/product/ak40-10-v3-0-kv170-robotic-actuator.html",
+      "source_basis": "Manufacturer rated workpoint and no-load endpoint; interpolated conservative simulation envelope, not a measured bench curve.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_hip_roll",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "right_hip_roll",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": -1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_hip_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "right_hip_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_knee_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "right_knee_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_ankle_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "right_ankle_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "right_ankle_roll",
+      "model": "AK45-10 V3.0 KV75",
+      "actuated_joint": "right_ankle_roll",
+      "selected_continuous_design_limit_nm": 2.0,
+      "selected_peak_design_limit_nm": 4.0,
+      "selected_speed_limit_rad_s": 12.56637061435917,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 2.5,
+      "manufacturer_peak_or_stall_nm": 7.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          7
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.05,
+      "actual_drive_joint_frictionloss_nm": 0.05,
+      "armature_at_logical_joint_kg_m2": 0.0015733,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-10-v3-0-kv75-robotic-actuator.html",
+      "source_basis": "Conservative chord from manufacturer rated2.5Nm/120rpm to no-load180rpm; chart is higher. Peak remains separately capped.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_hip_yaw",
+      "model": "AK40-10 V3.0 KV170",
+      "actuated_joint": "left_yaw_input_rotor",
+      "selected_continuous_design_limit_nm": 1.04,
+      "selected_peak_design_limit_nm": 2.0,
+      "selected_speed_limit_rad_s": 38.746309394274114,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 1.3,
+      "manufacturer_peak_or_stall_nm": 4.1,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          4.1
+        ],
+        [
+          38.746309394274114,
+          1.3
+        ],
+        [
+          45.553093477052,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.0,
+      "actual_drive_joint_frictionloss_nm": 0.03,
+      "armature_at_logical_joint_kg_m2": 0.0,
+      "electrical_encoder_sign": -1.0,
+      "source_url": "https://www.cubemars.com/product/ak40-10-v3-0-kv170-robotic-actuator.html",
+      "source_basis": "Manufacturer rated workpoint and no-load endpoint; interpolated conservative simulation envelope, not a measured bench curve.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_hip_roll",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "left_hip_roll",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": -1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_hip_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "left_hip_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_knee_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "left_knee_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_ankle_pitch",
+      "model": "AK45-36 V3.0 KV80",
+      "actuated_joint": "left_ankle_pitch",
+      "selected_continuous_design_limit_nm": 6.4,
+      "selected_peak_design_limit_nm": 12.0,
+      "selected_speed_limit_rad_s": 4.1887902047863905,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "manufacturer_rated_torque_nm": 8.0,
+      "manufacturer_peak_or_stall_nm": 24.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          12
+        ],
+        [
+          3.3510321638291125,
+          12
+        ],
+        [
+          3.7699111843077517,
+          10
+        ],
+        [
+          4.1887902047863905,
+          8
+        ],
+        [
+          4.607669225265029,
+          6
+        ],
+        [
+          5.445427266222309,
+          0
+        ]
+      ],
+      "gear_ratio": 36,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.4,
+      "actual_drive_joint_frictionloss_nm": 0.4,
+      "armature_at_logical_joint_kg_m2": 0.02357424,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-36-v3-0-kv80-robotic-actuator.html",
+      "source_basis": "Manufacturer24V loaded6Nm/44rpm,8Nm/40rpm,10Nm/36rpm workpoints; 12Nm/32rpm is conservative chart interpolation, not a continuous rating.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    },
+    {
+      "name": "left_ankle_roll",
+      "model": "AK45-10 V3.0 KV75",
+      "actuated_joint": "left_ankle_roll",
+      "selected_continuous_design_limit_nm": 2.0,
+      "selected_peak_design_limit_nm": 4.0,
+      "selected_speed_limit_rad_s": 12.56637061435917,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "manufacturer_rated_torque_nm": 2.5,
+      "manufacturer_peak_or_stall_nm": 7.0,
+      "reference_voltage_v": 24.0,
+      "simulation_voltage_window_v": [
+        20,
+        25.2
+      ],
+      "selected_torque_speed_curve_rad_s_nm": [
+        [
+          0.0,
+          7
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0
+        ]
+      ],
+      "gear_ratio": 10,
+      "xml_actuator_gear": 1.0,
+      "reflected_gear_inertia_already_in_joint_armature": true,
+      "damping_nm_s_rad": 0.01,
+      "logical_joint_frictionloss_nm": 0.05,
+      "actual_drive_joint_frictionloss_nm": 0.05,
+      "armature_at_logical_joint_kg_m2": 0.0015733,
+      "electrical_encoder_sign": 1.0,
+      "source_url": "https://www.cubemars.com/product/ak45-10-v3-0-kv75-robotic-actuator.html",
+      "source_basis": "Conservative chord from manufacturer rated2.5Nm/120rpm to no-load180rpm; chart is higher. Peak remains separately capped.",
+      "runtime_default_enforcement": "Continuous effort force/ctrl clamps inXML; 200Hz adapter additionally torque-speed/slew andaggregatepower. Peak disabled; no hidden duration or thermalmodel."
+    }
+  ],
+  "positive_mechanical_power_limit_w": 350.0,
+  "peak_output_enabled": false,
+  "peak_duration_s": null,
+  "thermal_model_implemented": false,
+  "negative_power_regeneration_model_implemented": false,
+  "reference_adapter": "runtime_adapter.py",
+  "timing": {
+    "physics_dt_s": 0.005,
+    "drive_dt_s": 0.005,
+    "policy_dt_s": 0.02
+  },
+  "power_supply": {
+    "main": "6S battery designbus20..25.2V, reference curves24V; no performancecredit above24V",
+    "nominal_bus_v": 22.2,
+    "torque_speed_curve_reference_v": 24,
+    "head_roll": "Regulated5V branch for XC330-M288; old factstable24V inheritedfield is explicitly rejected",
+    "mechanical_positive_budget_w": 350.0,
+    "electrical_power_or_current_hard_cap_implemented": false,
+    "efficiency_and_voltage_sag": "Not measured/simulated;350W is mechanical designbudget, not electrical wattmeter/currentguarantee",
+    "high_voltage_derating": "For bus below24V adapter speed-axis of curves scaleslinearly byV/24; no additionaltorquecredit",
+    "brake": "Negative mechanical power is not freeenergy claim; regenerative voltage/brake/thermal hardware pending"
+  },
+  "manufacturer_sources_checked_UTC": "2026-10-18",
+  "caveats": [
+    "No long-duration manufacturer thermal rating inferred from peak or stall",
+    "Damping/backdrive/friction are selected design assumptions; not benchidentified",
+    "Continuous caps are immutable default; optional transient peak needs a new explicit validated driveprofile",
+    "Rate andpowerenforcement is adapter responsibility if another engine directly loads theMJCF"
+  ],
+  "canonical_adapter_source": {
+    "repository_path": "src/sai_agent/goose/frozen_physics_runtime.py",
+    "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "required_at_runtime": false
+  }
+}

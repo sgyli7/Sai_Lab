@@ -1,0 +1,187 @@
+{
+  "physics_steps": 0,
+  "mode": "LOADED_FREE_ROOT_TRUE_CART_AND_FREE20KG_CARGO",
+  "neq": 3,
+  "equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "free_joints": [
+    "root",
+    "cart_root",
+    "probe_cargo_free"
+  ],
+  "cargo_mass_kg": 20.0,
+  "total_mass_kg": 44.785546371590115,
+  "cold_rod_world": [
+    0.30000000000000016,
+    0.0,
+    0.42
+  ],
+  "cold_root": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cold_qpos": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.677692881,
+    0.812988221,
+    -1.316148177,
+    0.0,
+    0.19682523,
+    0.19682523,
+    -0.19682523,
+    -8.56057522649919e-09,
+    7.391619955536503e-09,
+    -1.5425309293686591e-07,
+    2.9158526139352187e-07,
+    -1.6872023253402917e-07,
+    -1.0653162022491995e-08,
+    8.573185244619558e-09,
+    -7.4038518829469525e-09,
+    1.544445520682789e-07,
+    -2.9195538295991963e-07,
+    1.6895025605948412e-07,
+    1.0666451790285253e-08,
+    8.573185244619558e-09,
+    -8.56057522649919e-09,
+    0.6461259770181133,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.9711259770181133,
+    0.0,
+    0.2565,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "wheel_frictionloss_Nm": [
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "pitch_stiffness": 20.0,
+  "pitch_qpos_springref": 0.0276930475,
+  "initial_contacts": [
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_80_-190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_80_190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_570_-190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "ground",
+      "geom2": "cart_wheel_570_190",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "upper_bill_envelope",
+      "distance_m": -4.979495539246927e-10
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "upper_bill_envelope",
+      "distance_m": -4.979495539246927e-10
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "upper_bill_envelope",
+      "distance_m": -4.979495539246927e-10
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "lower_bill_envelope",
+      "distance_m": -1.669049926888769e-10
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "lower_bill_envelope",
+      "distance_m": -1.669049926888769e-10
+    },
+    {
+      "geom1": "cart_bite_bar",
+      "geom2": "lower_bill_envelope",
+      "distance_m": -1.669049926888769e-10
+    },
+    {
+      "geom1": "cart_deck_frame",
+      "geom2": "probe_cargo_box",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "cart_deck_frame",
+      "geom2": "probe_cargo_box",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "cart_deck_frame",
+      "geom2": "probe_cargo_box",
+      "distance_m": 0.0
+    },
+    {
+      "geom1": "cart_deck_frame",
+      "geom2": "probe_cargo_box",
+      "distance_m": 0.0
+    }
+  ],
+  "controller": "007 second L1 static bias + same leg/body20mm sequence; 008 new wrapper cold real rod anchor+plannedworld20mmback, actualrod monitoring only; jawtarget0 develops physical clamp through original slew.",
+  "cold_holding_only_not_complete_active_grasp": true
+}

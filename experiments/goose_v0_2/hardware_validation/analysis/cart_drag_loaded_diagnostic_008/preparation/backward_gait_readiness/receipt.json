@@ -1,0 +1,27 @@
+{
+  "status": "NO_ADMITTED_ALTERNATING_GAIT",
+  "steps": 0,
+  "training": 0,
+  "GPU": 0,
+  "counts": {
+    "poses": 157,
+    "IK_solves": 471,
+    "IK_nfev": 3351,
+    "FK_calls": 22856,
+    "LP_solves": 36,
+    "forward_calls": 203
+  },
+  "threads_max": 2,
+  "address_space_limit_bytes": 2147483648,
+  "source_inputs": {
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/scene_preflight.json": "0a5c22b018b582d1c1d0b9d1542a9bdfc8fef1b2838934cf6d7215a4fb365e63"
+  },
+  "source_immutable_by_scope": true,
+  "best_single_min_ROM_rad": 0.19682523,
+  "finalized_utc": "2026-10-18 14:52 UTC",
+  "deadline_utc": "2026-10-18 14:53 UTC",
+  "final_exact_contact_receipt": "final_contact_threshold_receipt.json"
+}

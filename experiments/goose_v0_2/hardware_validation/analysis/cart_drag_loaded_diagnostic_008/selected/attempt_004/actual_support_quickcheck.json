@@ -1,0 +1,25 @@
+{
+  "executed_steps": 931,
+  "terminal_time_s": 4.654999999999923,
+  "terminal_physics_step_executed": false,
+  "terminal_slip_including_unexecuted5ms_predictor_m": [
+    0.01901045513226295,
+    0.020143637368900305
+  ],
+  "last_executed_row_slip_m": [
+    0.018979932025033765,
+    0.019613502162746384
+  ],
+  "max_actual_stance_epoch_ids": [
+    0,
+    0
+  ],
+  "max_actual_sole_min_z_m": [
+    5.442739064998037e-09,
+    0.00011509738979648826
+  ],
+  "max_nonrod_X_N": 0.0,
+  "max_root_back_m": 0.006773834222616432,
+  "max_cart_back_m": 0.009004941427696922,
+  "source_runner_sha256": "2d29184b5b57b7c67d40ff614fe94a01777352251b96add04635b18f6ed037c7"
+}

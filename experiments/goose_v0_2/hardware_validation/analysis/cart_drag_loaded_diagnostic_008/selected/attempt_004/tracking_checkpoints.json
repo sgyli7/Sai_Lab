@@ -1,0 +1,462 @@
+[
+  {
+    "t": 2.7999999999999625,
+    "phase": "shift_left",
+    "N": [
+      118.29229820951534,
+      46.956726283055254
+    ],
+    "foot_min_z": [
+      -0.000540523109028794,
+      -0.0002068535304964106
+    ],
+    "root_xyz": [
+      -0.006643016225818255,
+      0.041395081712636624,
+      -0.018639914097614695
+    ],
+    "COM": [
+      -0.003429592342214961,
+      0.002293400128323783,
+      0.28875316385459465
+    ],
+    "CoP": [
+      [
+        -0.009079257123409958,
+        -0.09682379229179706,
+        -0.00024909462988233883
+      ],
+      [
+        0.04519663153190925,
+        0.038267244633939684,
+        -9.324675308683768e-05
+      ]
+    ],
+    "joints": [
+      {
+        "name": "right_hip_roll",
+        "requested_position": 0.08453673123130401,
+        "actual_slewed_target": 0.08453673123130401,
+        "requested_PD_Nm": 1.2419651149544573,
+        "actual_torque_Nm": 1.2419651149544573,
+        "drive_velocity": 0.05672176375753605
+      },
+      {
+        "name": "right_hip_pitch",
+        "requested_position": -0.43866846087041855,
+        "actual_slewed_target": -0.43866846087041855,
+        "requested_PD_Nm": 0.7729559779404117,
+        "actual_torque_Nm": 0.7729559779404117,
+        "drive_velocity": -0.06435395806796997
+      },
+      {
+        "name": "right_knee_pitch",
+        "requested_position": 0.7312253459952226,
+        "actual_slewed_target": 0.7312253459952226,
+        "requested_PD_Nm": -5.17134500539705,
+        "actual_torque_Nm": -5.17134500539705,
+        "drive_velocity": 0.23869880447688063
+      },
+      {
+        "name": "right_ankle_roll",
+        "requested_position": -0.1048399384871882,
+        "actual_slewed_target": -0.1048399384871882,
+        "requested_PD_Nm": 1.2889189425313825,
+        "actual_torque_Nm": 1.2889189425313825,
+        "drive_velocity": -0.2574863283605191
+      },
+      {
+        "name": "left_hip_roll",
+        "requested_position": -0.35603792498740755,
+        "actual_slewed_target": -0.35603792498740755,
+        "requested_PD_Nm": -1.5823310935444326,
+        "actual_torque_Nm": -1.5823310935444326,
+        "drive_velocity": 0.022902569838264688
+      },
+      {
+        "name": "left_knee_pitch",
+        "requested_position": -0.6394475816971075,
+        "actual_slewed_target": -0.6394475816971075,
+        "requested_PD_Nm": 2.369547478462462,
+        "actual_torque_Nm": 2.369547478462462,
+        "drive_velocity": 0.03854653089096608
+      },
+      {
+        "name": "left_ankle_roll",
+        "requested_position": 0.2778731275065187,
+        "actual_slewed_target": 0.2778731275065187,
+        "requested_PD_Nm": 0.753003119682421,
+        "actual_torque_Nm": 0.753003119682421,
+        "drive_velocity": -0.06106774866677088
+      }
+    ]
+  },
+  {
+    "t": 3.199999999999954,
+    "phase": "right_lift",
+    "N": [
+      78.41640750611596,
+      81.60414922798634
+    ],
+    "foot_min_z": [
+      -0.00036874742047700304,
+      -0.0003981581587793187
+    ],
+    "root_xyz": [
+      -0.0013708226075095622,
+      0.044750860668025784,
+      -0.0191036431552935
+    ],
+    "COM": [
+      -0.0016399538736505417,
+      0.00880198363012001,
+      0.2885636449507748
+    ],
+    "CoP": [
+      [
+        -0.0045846734890057856,
+        -0.07776535590663569,
+        -0.00015701254009322402
+      ],
+      [
+        0.007896441255543245,
+        0.09393786365776043,
+        -0.00017280987066758312
+      ]
+    ],
+    "joints": [
+      {
+        "name": "right_hip_roll",
+        "requested_position": 0.10247600857915415,
+        "actual_slewed_target": 0.10247600857915415,
+        "requested_PD_Nm": 2.0206877495971454,
+        "actual_torque_Nm": 2.0206877495971454,
+        "drive_velocity": 0.037288748716610094
+      },
+      {
+        "name": "right_hip_pitch",
+        "requested_position": -0.5189487211894722,
+        "actual_slewed_target": -0.5189487211894722,
+        "requested_PD_Nm": 0.09947066445336702,
+        "actual_torque_Nm": 0.09947066445336702,
+        "drive_velocity": -0.148534197958554
+      },
+      {
+        "name": "right_knee_pitch",
+        "requested_position": 0.7362176777407108,
+        "actual_slewed_target": 0.7362176777407108,
+        "requested_PD_Nm": -2.6311057543987237,
+        "actual_torque_Nm": -2.6311057543987237,
+        "drive_velocity": 0.16407835834547427
+      },
+      {
+        "name": "right_ankle_roll",
+        "requested_position": -0.12277921584005272,
+        "actual_slewed_target": -0.12277921584005272,
+        "requested_PD_Nm": 0.783993459447149,
+        "actual_torque_Nm": 0.783993459447149,
+        "drive_velocity": -0.32641917396057346
+      },
+      {
+        "name": "left_hip_roll",
+        "requested_position": -0.351909905344076,
+        "actual_slewed_target": -0.351909905344076,
+        "requested_PD_Nm": 0.6657578541600951,
+        "actual_torque_Nm": 0.6657578541600951,
+        "drive_velocity": 0.05072161907915314
+      },
+      {
+        "name": "left_knee_pitch",
+        "requested_position": -0.634797702769844,
+        "actual_slewed_target": -0.634797702769844,
+        "requested_PD_Nm": 3.9789998398787927,
+        "actual_torque_Nm": 3.9789998398787927,
+        "drive_velocity": 0.04017384446246723
+      },
+      {
+        "name": "left_ankle_roll",
+        "requested_position": 0.27374510786320216,
+        "actual_slewed_target": 0.27374510786320216,
+        "requested_PD_Nm": 0.14702564110822977,
+        "actual_torque_Nm": 0.14702564110822977,
+        "drive_velocity": -0.3678990127388458
+      }
+    ]
+  },
+  {
+    "t": 3.5999999999999455,
+    "phase": "right_back_swing",
+    "N": [
+      19.041713016666563,
+      139.83673048349257
+    ],
+    "foot_min_z": [
+      -0.0001176197605226234,
+      -0.0005564711199956343
+    ],
+    "root_xyz": [
+      0.0026249291615119525,
+      0.03869890632043021,
+      -0.01537173454727877
+    ],
+    "COM": [
+      0.0018968699689335387,
+      0.032169366135109095,
+      0.29209233899104636
+    ],
+    "CoP": [
+      [
+        0.06657368632746388,
+        -0.07778915598596083,
+        -5.2738178525794234e-05
+      ],
+      [
+        -0.005798209654600705,
+        0.09982227954615154,
+        -0.00025822009361162315
+      ]
+    ],
+    "joints": [
+      {
+        "name": "right_hip_roll",
+        "requested_position": 0.11449337863542183,
+        "actual_slewed_target": 0.11449337863542183,
+        "requested_PD_Nm": 2.9568914384154397,
+        "actual_torque_Nm": 2.9568914384154397,
+        "drive_velocity": 0.004340386504868268
+      },
+      {
+        "name": "right_hip_pitch",
+        "requested_position": -0.44204917098596436,
+        "actual_slewed_target": -0.44204917098596436,
+        "requested_PD_Nm": -2.014323767365071,
+        "actual_torque_Nm": -2.014323767365071,
+        "drive_velocity": 0.07618948201790589
+      },
+      {
+        "name": "right_knee_pitch",
+        "requested_position": 0.48713703739097663,
+        "actual_slewed_target": 0.48713703739097663,
+        "requested_PD_Nm": -2.0140819347554135,
+        "actual_torque_Nm": -2.0140819347554135,
+        "drive_velocity": -0.226118627015228
+      },
+      {
+        "name": "right_ankle_roll",
+        "requested_position": -0.023497611803756452,
+        "actual_slewed_target": -0.023497611803756452,
+        "requested_PD_Nm": 0.7761994750901106,
+        "actual_torque_Nm": 0.7761994750901106,
+        "drive_velocity": 0.292626592074177
+      },
+      {
+        "name": "left_hip_roll",
+        "requested_position": -0.3366530015899299,
+        "actual_slewed_target": -0.3366530015899299,
+        "requested_PD_Nm": 2.520492989869533,
+        "actual_torque_Nm": 2.520492989869533,
+        "drive_velocity": -0.0710858272829337
+      },
+      {
+        "name": "left_knee_pitch",
+        "requested_position": -0.629552177635755,
+        "actual_slewed_target": -0.629552177635755,
+        "requested_PD_Nm": 4.281956185849284,
+        "actual_torque_Nm": 4.281956185849284,
+        "drive_velocity": -0.013407348656808354
+      },
+      {
+        "name": "left_ankle_roll",
+        "requested_position": 0.270523753933768,
+        "actual_slewed_target": 0.270523753933768,
+        "requested_PD_Nm": -2.044265157741506,
+        "actual_torque_Nm": -2.0,
+        "drive_velocity": 0.20905837779500946
+      }
+    ]
+  },
+  {
+    "t": 3.999999999999937,
+    "phase": "right_land",
+    "N": [
+      126.04987003711469,
+      54.7908341519128
+    ],
+    "foot_min_z": [
+      -0.0004985068622754413,
+      -0.00025731023379924056
+    ],
+    "root_xyz": [
+      0.0030933764651636443,
+      0.0010340873577895009,
+      -0.014284495759527168
+    ],
+    "COM": [
+      0.0005356195108273994,
+      -0.0029483525286727067,
+      0.2928102510878019
+    ],
+    "CoP": [
+      [
+        -0.005626462868344116,
+        -0.0829867945538318,
+        -0.00021505101271641978
+      ],
+      [
+        0.01658159362159082,
+        0.08702848629580807,
+        -0.0001096755161683361
+      ]
+    ],
+    "joints": [
+      {
+        "name": "right_hip_roll",
+        "requested_position": 0.2557054946861067,
+        "actual_slewed_target": 0.2557054946861067,
+        "requested_PD_Nm": 0.40101492722147114,
+        "actual_torque_Nm": 0.40101492722147114,
+        "drive_velocity": 0.17724805202916985
+      },
+      {
+        "name": "right_hip_pitch",
+        "requested_position": -0.4461732736558988,
+        "actual_slewed_target": -0.4461732736558988,
+        "requested_PD_Nm": 1.0403033607759358,
+        "actual_torque_Nm": 1.0403033607759358,
+        "drive_velocity": -0.046148992834747014
+      },
+      {
+        "name": "right_knee_pitch",
+        "requested_position": 0.6098572293020091,
+        "actual_slewed_target": 0.6098572293020091,
+        "requested_PD_Nm": -3.858653407026483,
+        "actual_torque_Nm": -3.858653407026483,
+        "drive_velocity": 0.07987337087781014
+      },
+      {
+        "name": "right_ankle_roll",
+        "requested_position": -0.16426080265760842,
+        "actual_slewed_target": -0.16426080265760842,
+        "requested_PD_Nm": 1.8092898048288908,
+        "actual_torque_Nm": 1.8092898048288908,
+        "drive_velocity": -0.5251242790167762
+      },
+      {
+        "name": "left_hip_roll",
+        "requested_position": -0.21329942598774967,
+        "actual_slewed_target": -0.21329942598774967,
+        "requested_PD_Nm": -1.838153109577881,
+        "actual_torque_Nm": -1.838153109577881,
+        "drive_velocity": 0.1418157239019883
+      },
+      {
+        "name": "left_knee_pitch",
+        "requested_position": -0.5943748516735268,
+        "actual_slewed_target": -0.5943748516735268,
+        "requested_PD_Nm": 1.889947941497381,
+        "actual_torque_Nm": 1.889947941497381,
+        "drive_velocity": 0.08714195993250247
+      },
+      {
+        "name": "left_ankle_roll",
+        "requested_position": 0.16247511707430135,
+        "actual_slewed_target": 0.16247511707430135,
+        "requested_PD_Nm": -0.3639251808713143,
+        "actual_torque_Nm": -0.3639251808713143,
+        "drive_velocity": -0.422455449381003
+      }
+    ]
+  },
+  {
+    "t": 4.599999999999924,
+    "phase": "shift_right",
+    "N": [
+      149.1527249432135,
+      21.3797504072661
+    ],
+    "foot_min_z": [
+      -0.0005836818087719894,
+      -0.00014743803288605473
+    ],
+    "root_xyz": [
+      0.004708171949030612,
+      -0.04422517507718827,
+      -0.01709813384978931
+    ],
+    "COM": [
+      0.0018383277113872517,
+      -0.04016359725443118,
+      0.2905051628901357
+    ],
+    "CoP": [
+      [
+        0.0016358769624327607,
+        -0.09252532130521315,
+        -0.00025598505685661764
+      ],
+      [
+        0.09446321222040012,
+        0.03199012707711077,
+        -7.371901644302736e-05
+      ]
+    ],
+    "joints": [
+      {
+        "name": "right_hip_roll",
+        "requested_position": 0.37402744631746326,
+        "actual_slewed_target": 0.37402744631746326,
+        "requested_PD_Nm": -6.037099797905747,
+        "actual_torque_Nm": -6.037099797905747,
+        "drive_velocity": 0.13170434703444414
+      },
+      {
+        "name": "right_hip_pitch",
+        "requested_position": -0.39349862640829064,
+        "actual_slewed_target": -0.3934986264082906,
+        "requested_PD_Nm": 2.4290247250154717,
+        "actual_torque_Nm": 2.4290247250154717,
+        "drive_velocity": 0.010953861367659214
+      },
+      {
+        "name": "right_knee_pitch",
+        "requested_position": 0.6431936503040027,
+        "actual_slewed_target": 0.6431936503040027,
+        "requested_PD_Nm": -5.258021369154032,
+        "actual_torque_Nm": -5.258021369154032,
+        "drive_velocity": 0.17126431872326317
+      },
+      {
+        "name": "right_ankle_roll",
+        "requested_position": -0.29914297458591005,
+        "actual_slewed_target": -0.29914297458591005,
+        "requested_PD_Nm": 2.816302712754843,
+        "actual_torque_Nm": 2.0,
+        "drive_velocity": 0.2835506259654103
+      },
+      {
+        "name": "left_hip_roll",
+        "requested_position": -0.07549329737354837,
+        "actual_slewed_target": -0.07549329737354837,
+        "requested_PD_Nm": -0.17100809839443643,
+        "actual_torque_Nm": -0.17100809839443643,
+        "drive_velocity": -0.13969890553443656
+      },
+      {
+        "name": "left_knee_pitch",
+        "requested_position": -0.5994033742165512,
+        "actual_slewed_target": -0.5991914391479932,
+        "requested_PD_Nm": -0.6246738066355543,
+        "actual_torque_Nm": -0.6246738066355543,
+        "drive_velocity": -0.786239098519193
+      },
+      {
+        "name": "left_ankle_roll",
+        "requested_position": 0.09626631051057923,
+        "actual_slewed_target": 0.09626631051057923,
+        "requested_PD_Nm": 0.047861016275302565,
+        "actual_torque_Nm": 0.047861016275302565,
+        "drive_velocity": 0.20853759709461303
+      }
+    ]
+  }
+]

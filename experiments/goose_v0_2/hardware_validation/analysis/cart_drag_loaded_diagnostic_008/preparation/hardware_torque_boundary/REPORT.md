@@ -1,0 +1,24 @@
+# Specific-pose continuous torque attribution
+
+This is a read-only load diagnosis at the already rejected narrow single stance03, not a new hardware design or a proof that all dynamic gaits are impossible. Original04/004MCI, axes, caps, source and collision model are unchanged. The robot is16.970204kg/23 physical bodies. The given +8N horizontal mouth reaction is a declared static case, not measured traction of the20kg payload.
+
+| Original joint | Required at8N | Continuous cap | gravity compensation of distal subtree | ground-contact moment |
+|---|---:|---:|---:|---:|
+| left hip roll |10.820461Nm|6.4Nm|0.453278Nm|−10.367183Nm|
+| left ankle roll |3.232715Nm|2.0Nm|−0.001630Nm|−3.234345Nm|
+
+The equilibrium is torque=distal-gravity-compensation−ground-moment, with residual at numerical precision. It is equivalent to cutting each joint and taking all proximal body gravity plus the mouth force moment. About the actual world hip-roll axis, proximal gravity gives11.074326Nm and mouth load−0.253865Nm. About the ankle-roll axis these are3.973632 and−0.740917Nm. The roll axes are rotated with the actual pose; they are not simply worldX. Precise axes/anchors, all23 COMs, complete-body grouping and signed moments are in load_attribution.json and per_body_gravity_moments.csv.
+
+The hip-roll proximal gravity moment is dominated by the opposite right leg/drive family:4.244342kg ->6.930764Nm; torso5.492411kg ->3.155913Nm; head/neck/bill2.989849kg ->1.046542Nm; proximal stance components0.790378kg ->−0.058894Nm. The opposite leg is both heavy and laterally displaced while airborne. At ankle roll, opposite-leg gravity contributes5.263616Nm, torso1.027682Nm, head/neck−0.145000Nm and proximal stance leg−2.172666Nm. The ankle deficiency is not caused by a heavy foot shell alone; its own distal gravity-compensation term is almost zero.
+
+For scale, torso mass at its current COM changes hip-roll demand by0.5746Nm/kg; key opposite-leg parts give approximately1.40–1.90Nm/kg. Removing200g there would save only about0.28–0.38Nm in this fixed pose, versus the4.420Nm hip-roll gap. Removing200g of torso saves0.115Nm. These are geometric sensitivities at fixed state, not proposals to remove essential components or recalculate the frozen mass contract. Changing mass position/leg layout has a different effect from small material cuts. A purely mathematical fixed-axis shift of the whole proximal COM about34mm toward the support side would close the hip-roll moment gap, but is not an available joint-feasible action: current ankle ROM is only0.006430rad and all other geometry/equilibrium constraints would need reconsideration.
+
+Only three extra LP sensitivities were solved: relax hip roll alone; ankle roll alone; both roll axes together. All three remain infeasible while every other original continuous cap is retained. The previously saved all-axis-relaxed8N solution also requires stance knee9.869539Nm/6.4Nm and hip yaw1.238170Nm/1.04Nm. Therefore a larger ankle actuator alone, or the two roll changes alone, does not close this specified posture. No fictitious higher-cap model was integrated.
+
+Theoretical same-motor-effort transmission lower bounds, ignoring new losses: hip roll needs1.6907× extra mechanical ratio and retains59.15% output speed; ankle roll1.6164× and61.87% speed. With an explicitly assumed90% added-stage efficiency, ratio factors become1.8786/1.7960 and speeds53.23%/55.68%. These are isolated one-point bounds, not selected ratios, thermal capability, gearbox strength or an actuator/SKU recommendation. Original software slew/drive contracts were not changed.
+
+A different, already accepted narrow double-support reference needs only3.607650Nm at the left hip roll and−1.133652Nm at the ankle roll under8N. It is a different pose, so this is context, not a controlled single-variable ablation. Body/foot placement and load sharing matter.
+
+PM implication: the live attempt with actual COM only8.8mm did not reach this reference's COM57.8mm or its single-support configuration. The current sole COM/IMU feedback experiment still addresses a real control gap; the static candidate result is not proof the live trial hit a universal hardware limit. Conversely, this particular desired single-stance setpoint is beyond continuous limits even with correct feedback, so repeatedly forcing it is not a valid long-training objective. If a genuinely tracked, unloaded-foot posture repeats the same measured torque boundary, prioritize load distribution/transmission/major mass location over cosmetic lightening; any hardware change requires a separately versioned physical contract.
+
+0 dynamics/0 training/0 GPU,3 extra diagnostic LPs,0 new IK poses, original source hashes preserved. Single process/≤2CPU/2GiB. No collision deletions, world/root force, peak torque or state repositioning. Full code, body moments, exact input and results are retained.

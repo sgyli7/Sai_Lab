@@ -1,0 +1,51 @@
+{
+  "attempt": 2,
+  "mode": "LOADED_ALTERNATING_BACKWARD_STEPS",
+  "actual_steps": 668,
+  "sim_duration_s": 3.339999999999951,
+  "failure": "diagnostic_gross_material_slip_over20mm",
+  "error": null,
+  "final_cart_back_m": 0.009851902397748247,
+  "final_cargo_back_m": 0.009913922314491508,
+  "max_cart_back_m": 0.009851902397748247,
+  "jaw_capture_ever": true,
+  "final_jaw_rod_normal_N": [
+    27.349185823827213,
+    24.510157691626908
+  ],
+  "TCP_5mm_for200ms_recorded_diagnostic_only": true,
+  "gait_cycles_requested": 14,
+  "planned_back_m": 0.56,
+  "unloaded_gate_pass": false,
+  "irreversible_qualification_failure": {
+    "reason": "stance_material_slip_over5mm",
+    "first_time_s": 2.0849999999999778,
+    "foot_material_slip_m": [
+      0.004964910779518271,
+      0.0050029859280898425
+    ],
+    "root_back_m": -0.006407787550896331
+  },
+  "diagnostic_only_not_loaded_admission": true,
+  "hold_steps": 0,
+  "hold_min_root_back_m": null,
+  "hold_root_back_range_m": [
+    0,
+    0
+  ],
+  "hold_max_closure_m_or_rad": 0,
+  "hold_max_contact_penetration_m": 0,
+  "final_root_back_m": 0.014121545485973195,
+  "max_root_back_m": 0.014121545485973195,
+  "foot_material_slip_integral_m": [
+    0.006557994851752047,
+    0.020462485347090862
+  ],
+  "max_tilt_deg": 3.485837212269121,
+  "max_positive_power_W": 34.590817028960174,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 2848416,
+  "source53_unchanged": true,
+  "GPU": 0,
+  "training": 0
+}

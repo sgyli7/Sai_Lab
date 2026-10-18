@@ -1,0 +1,23 @@
+{
+  "status": "20_POSES_COMPLETE_NO_ORIGINAL_CAP_STATIC_SINGLE",
+  "poses": 20,
+  "IK_solves": 60,
+  "IK_nfev": 379,
+  "FK_residual_calls": 2595,
+  "LP_solves_original_caps": 24,
+  "LP_solves_relaxed_diagnostic": 9,
+  "dynamics_steps": 0,
+  "training_updates": 0,
+  "GPU": 0,
+  "new_cycle_admitted": false,
+  "safe_cold_double_count": 5,
+  "source_hashes": {
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/robot.xml": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/physical_contract.json": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/actuator_contract.json": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_03/goose_cart_scene.xml": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c"
+  },
+  "finalized_utc": "2026-10-18 15:02 UTC",
+  "hard_deadline_utc": "2026-10-18 15:06:32 UTC",
+  "no_jobs": true
+}

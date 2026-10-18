@@ -1,0 +1,7 @@
+{
+  "historical_actual_knee_speed_peak_rad_s": 2.51,
+  "original_knee_target_slew_cap_rad_s": 3.87463094,
+  "correction": "2.51 was actual speed, not slew cap; withdraw attribution that cap equals2.51. Original trial declarations and output preserved.",
+  "prior_main_foot_epoch_bug": "planned swing->stance reset despite no physical flight; later data beyond reconstructed20mm crossing unqualified",
+  "fixed_runner_sha256": "2d29184b5b57b7c67d40ff614fe94a01777352251b96add04635b18f6ed037c7"
+}

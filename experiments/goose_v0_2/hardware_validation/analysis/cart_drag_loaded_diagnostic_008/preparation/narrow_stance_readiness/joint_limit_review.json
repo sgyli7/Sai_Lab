@@ -1,0 +1,402 @@
+[
+  {
+    "pose": "final_toe_in_00",
+    "minimum": {
+      "joint": "left_hip_roll",
+      "margin_rad": 0.06886516603131976,
+      "q_rad": -0.43113483396868024
+    },
+    "all": [
+      {
+        "joint": "neck_yaw",
+        "margin_rad": 0.2817615916548434,
+        "q_rad": -0.21823840834515662
+      },
+      {
+        "joint": "neck_pitch",
+        "margin_rad": 1.2475495847049891,
+        "q_rad": 0.6475495847049892
+      },
+      {
+        "joint": "neck_mid_pitch",
+        "margin_rad": 0.7473543681487995,
+        "q_rad": 0.6526456318512004
+      },
+      {
+        "joint": "head_pitch",
+        "margin_rad": 0.47433768400748977,
+        "q_rad": -1.1256623159925103
+      },
+      {
+        "joint": "head_roll",
+        "margin_rad": 0.5999999984534388,
+        "q_rad": -1.54656126578171e-09
+      },
+      {
+        "joint": "beak_hinge",
+        "margin_rad": 0.19682523,
+        "q_rad": 0.19682523
+      },
+      {
+        "joint": "right_hip_yaw",
+        "margin_rad": 0.35000000747794513,
+        "q_rad": 0.24999999252205485
+      },
+      {
+        "joint": "right_hip_roll",
+        "margin_rad": 0.46568537952913175,
+        "q_rad": -0.03431462047086827
+      },
+      {
+        "joint": "right_hip_pitch",
+        "margin_rad": 0.5989384987758319,
+        "q_rad": -0.5010615012241681
+      },
+      {
+        "joint": "right_knee_pitch",
+        "margin_rad": 0.8403186619177332,
+        "q_rad": 0.6403186619177332
+      },
+      {
+        "joint": "right_ankle_pitch",
+        "margin_rad": 0.9607428083382183,
+        "q_rad": -0.13925719166178172
+      },
+      {
+        "joint": "right_ankle_roll",
+        "margin_rad": 0.46568538273558985,
+        "q_rad": 0.03431461726441014
+      },
+      {
+        "joint": "left_hip_yaw",
+        "margin_rad": 0.34999989938374504,
+        "q_rad": -0.25000010061625494
+      },
+      {
+        "joint": "left_hip_roll",
+        "margin_rad": 0.06886516603131976,
+        "q_rad": -0.43113483396868024
+      },
+      {
+        "joint": "left_hip_pitch",
+        "margin_rad": 0.8554053237385009,
+        "q_rad": 0.2445946762614992
+      },
+      {
+        "joint": "left_knee_pitch",
+        "margin_rad": 0.8427690448655889,
+        "q_rad": -0.6427690448655888
+      },
+      {
+        "joint": "left_ankle_pitch",
+        "margin_rad": 0.7018256488402209,
+        "q_rad": 0.39817435115977917
+      },
+      {
+        "joint": "left_ankle_roll",
+        "margin_rad": 0.06886526967162859,
+        "q_rad": 0.4311347303283714
+      }
+    ]
+  },
+  {
+    "pose": "final_toe_in_01",
+    "minimum": {
+      "joint": "left_hip_roll",
+      "margin_rad": 0.12400445305091573,
+      "q_rad": -0.37599554694908427
+    },
+    "all": [
+      {
+        "joint": "neck_yaw",
+        "margin_rad": 0.28176159198293094,
+        "q_rad": -0.21823840801706904
+      },
+      {
+        "joint": "neck_pitch",
+        "margin_rad": 1.2831917695669879,
+        "q_rad": 0.683191769566988
+      },
+      {
+        "joint": "neck_mid_pitch",
+        "margin_rad": 0.69151829072972,
+        "q_rad": 0.7084817092702799
+      },
+      {
+        "joint": "head_pitch",
+        "margin_rad": 0.38285944621429224,
+        "q_rad": -1.2171405537857078
+      },
+      {
+        "joint": "head_roll",
+        "margin_rad": 0.5999999981706874,
+        "q_rad": -1.8293126439637361e-09
+      },
+      {
+        "joint": "beak_hinge",
+        "margin_rad": 0.19682523,
+        "q_rad": 0.19682523
+      },
+      {
+        "joint": "right_hip_yaw",
+        "margin_rad": 0.3500000014357406,
+        "q_rad": 0.2499999985642594
+      },
+      {
+        "joint": "right_hip_roll",
+        "margin_rad": 0.4266163358600942,
+        "q_rad": -0.07338366413990582
+      },
+      {
+        "joint": "right_hip_pitch",
+        "margin_rad": 0.7339144524482033,
+        "q_rad": -0.36608554755179684
+      },
+      {
+        "joint": "right_knee_pitch",
+        "margin_rad": 0.6030154734297734,
+        "q_rad": 0.40301547342977334
+      },
+      {
+        "joint": "right_ankle_pitch",
+        "margin_rad": 1.0630701857809604,
+        "q_rad": -0.036929814219039764
+      },
+      {
+        "joint": "right_ankle_roll",
+        "margin_rad": 0.42661632125830057,
+        "q_rad": 0.07338367874169943
+      },
+      {
+        "joint": "left_hip_yaw",
+        "margin_rad": 0.34999990799890357,
+        "q_rad": -0.2500000920010964
+      },
+      {
+        "joint": "left_hip_roll",
+        "margin_rad": 0.12400445305091573,
+        "q_rad": -0.37599554694908427
+      },
+      {
+        "joint": "left_hip_pitch",
+        "margin_rad": 0.9292251132385623,
+        "q_rad": 0.17077488676143776
+      },
+      {
+        "joint": "left_knee_pitch",
+        "margin_rad": 0.6875632987071958,
+        "q_rad": -0.48756329870719584
+      },
+      {
+        "joint": "left_ankle_pitch",
+        "margin_rad": 0.7832116048706813,
+        "q_rad": 0.3167883951293188
+      },
+      {
+        "joint": "left_ankle_roll",
+        "margin_rad": 0.12400457547571081,
+        "q_rad": 0.3759954245242892
+      }
+    ]
+  },
+  {
+    "pose": "final_toe_in_02",
+    "minimum": {
+      "joint": "left_ankle_roll",
+      "margin_rad": 0.04696116134030204,
+      "q_rad": 0.45303883865969796
+    },
+    "all": [
+      {
+        "joint": "neck_yaw",
+        "margin_rad": 0.2817615916548434,
+        "q_rad": -0.21823840834515662
+      },
+      {
+        "joint": "neck_pitch",
+        "margin_rad": 1.2475495847049891,
+        "q_rad": 0.6475495847049892
+      },
+      {
+        "joint": "neck_mid_pitch",
+        "margin_rad": 0.7473543681487995,
+        "q_rad": 0.6526456318512004
+      },
+      {
+        "joint": "head_pitch",
+        "margin_rad": 0.47433768400748977,
+        "q_rad": -1.1256623159925103
+      },
+      {
+        "joint": "head_roll",
+        "margin_rad": 0.5999999984534388,
+        "q_rad": -1.54656126578171e-09
+      },
+      {
+        "joint": "beak_hinge",
+        "margin_rad": 0.19682523,
+        "q_rad": 0.19682523
+      },
+      {
+        "joint": "right_hip_yaw",
+        "margin_rad": 0.450000007581173,
+        "q_rad": 0.14999999241882703
+      },
+      {
+        "joint": "right_hip_roll",
+        "margin_rad": 0.468770939648125,
+        "q_rad": -0.03122906035187501
+      },
+      {
+        "joint": "right_hip_pitch",
+        "margin_rad": 0.6148083056032294,
+        "q_rad": -0.48519169439677073
+      },
+      {
+        "joint": "right_knee_pitch",
+        "margin_rad": 0.8553824659089404,
+        "q_rad": 0.6553824659089403
+      },
+      {
+        "joint": "right_ankle_pitch",
+        "margin_rad": 0.9298091972889682,
+        "q_rad": -0.17019080271103196
+      },
+      {
+        "joint": "right_ankle_roll",
+        "margin_rad": 0.46877094288539173,
+        "q_rad": 0.031229057114608248
+      },
+      {
+        "joint": "left_hip_yaw",
+        "margin_rad": 0.45000002319040605,
+        "q_rad": -0.14999997680959393
+      },
+      {
+        "joint": "left_hip_roll",
+        "margin_rad": 0.04696116376108472,
+        "q_rad": -0.4530388362389153
+      },
+      {
+        "joint": "left_hip_pitch",
+        "margin_rad": 0.8275114167748259,
+        "q_rad": 0.2724885832251743
+      },
+      {
+        "joint": "left_knee_pitch",
+        "margin_rad": 0.8410667264201364,
+        "q_rad": -0.6410667264201363
+      },
+      {
+        "joint": "left_ankle_pitch",
+        "margin_rad": 0.7314218221338595,
+        "q_rad": 0.3685781778661406
+      },
+      {
+        "joint": "left_ankle_roll",
+        "margin_rad": 0.04696116134030204,
+        "q_rad": 0.45303883865969796
+      }
+    ]
+  },
+  {
+    "pose": "final_toe_in_03",
+    "minimum": {
+      "joint": "left_ankle_roll",
+      "margin_rad": 0.0064298167859234145,
+      "q_rad": 0.4935701832140766
+    },
+    "all": [
+      {
+        "joint": "neck_yaw",
+        "margin_rad": 0.20023982631432968,
+        "q_rad": -0.2997601736856703
+      },
+      {
+        "joint": "neck_pitch",
+        "margin_rad": 1.303452938786695,
+        "q_rad": 0.7034529387866951
+      },
+      {
+        "joint": "neck_mid_pitch",
+        "margin_rad": 0.7968767923492057,
+        "q_rad": 0.6031232076507942
+      },
+      {
+        "joint": "head_pitch",
+        "margin_rad": 0.4829339437563691,
+        "q_rad": -1.117066056243631
+      },
+      {
+        "joint": "head_roll",
+        "margin_rad": 0.5514938900645678,
+        "q_rad": 0.04850610993543213
+      },
+      {
+        "joint": "beak_hinge",
+        "margin_rad": 0.19682523,
+        "q_rad": 0.19682523
+      },
+      {
+        "joint": "right_hip_yaw",
+        "margin_rad": 0.35089718239363055,
+        "q_rad": 0.24910281760636943
+      },
+      {
+        "joint": "right_hip_roll",
+        "margin_rad": 0.45171345603760626,
+        "q_rad": -0.048286543962393735
+      },
+      {
+        "joint": "right_hip_pitch",
+        "margin_rad": 0.6780904743671532,
+        "q_rad": -0.4219095256328469
+      },
+      {
+        "joint": "right_knee_pitch",
+        "margin_rad": 0.7018611035560602,
+        "q_rad": 0.5018611035560602
+      },
+      {
+        "joint": "right_ankle_pitch",
+        "margin_rad": 1.0324281799836825,
+        "q_rad": -0.06757182001631756
+      },
+      {
+        "joint": "right_ankle_roll",
+        "margin_rad": 0.40326167340963487,
+        "q_rad": 0.09673832659036512
+      },
+      {
+        "joint": "left_hip_yaw",
+        "margin_rad": 0.3561977285031477,
+        "q_rad": -0.24380227149685227
+      },
+      {
+        "joint": "left_hip_roll",
+        "margin_rad": 0.05491212569459353,
+        "q_rad": -0.4450878743054065
+      },
+      {
+        "joint": "left_hip_pitch",
+        "margin_rad": 0.8570507487766972,
+        "q_rad": 0.24294925122330296
+      },
+      {
+        "joint": "left_knee_pitch",
+        "margin_rad": 0.8491616315924067,
+        "q_rad": -0.6491616315924066
+      },
+      {
+        "joint": "left_ankle_pitch",
+        "margin_rad": 0.6800876584980347,
+        "q_rad": 0.41991234150196544
+      },
+      {
+        "joint": "left_ankle_roll",
+        "margin_rad": 0.0064298167859234145,
+        "q_rad": 0.4935701832140766
+      }
+    ]
+  }
+]

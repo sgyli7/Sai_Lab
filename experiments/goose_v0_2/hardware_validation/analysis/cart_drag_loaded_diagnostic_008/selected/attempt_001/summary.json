@@ -1,0 +1,49 @@
+{
+  "attempt": 1,
+  "mode": "LOADED_COLD_GRIP_SETUP20MM_FREE_ROOT",
+  "actual_steps": 2200,
+  "sim_duration_s": 11.00000000000032,
+  "failure": null,
+  "error": null,
+  "final_cart_back_m": -0.015922291318500092,
+  "final_cargo_back_m": -0.015836735662549728,
+  "max_cart_back_m": 0.0075865804666460646,
+  "jaw_capture_ever": true,
+  "final_jaw_rod_normal_N": [
+    22.23054332155183,
+    22.19577428044922
+  ],
+  "TCP_5mm_for200ms_recorded_diagnostic_only": false,
+  "unloaded_gate_pass": false,
+  "irreversible_qualification_failure": {
+    "reason": "stance_material_slip_over5mm",
+    "first_time_s": 2.019999999999979,
+    "foot_material_slip_m": [
+      0.0045884865788492135,
+      0.005024680578376378
+    ],
+    "root_back_m": 0.00014883571277971746
+  },
+  "diagnostic_only_not_loaded_admission": true,
+  "hold_steps": 400,
+  "hold_min_root_back_m": 0.018807191515834067,
+  "hold_root_back_range_m": [
+    0.018807191515834067,
+    0.019787593129336287
+  ],
+  "hold_max_closure_m_or_rad": 5.0486335740951294e-05,
+  "hold_max_contact_penetration_m": 0.0006303155388002954,
+  "final_root_back_m": -0.0007522401034675496,
+  "max_root_back_m": 0.020830141145962943,
+  "foot_material_slip_integral_m": [
+    0.017998667360504667,
+    0.018095359308524277
+  ],
+  "max_tilt_deg": 2.0008804593781937,
+  "max_positive_power_W": 5.005632645151405,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 2848416,
+  "source53_unchanged": true,
+  "GPU": 0,
+  "training": 0
+}

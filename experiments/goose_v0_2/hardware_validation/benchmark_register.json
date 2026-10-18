@@ -1,6 +1,6 @@
 {
   "schema": "goose_v02_next_hardware_benchmarks_v1",
-  "state": "CLOSED007_UNLOADED_ORIGINAL_GATE_FAIL",
+  "state": "CLOSED008_LOADED_CONTINUOUS_DRAG_FAILED",
   "robot_input": "physics_v0_2_20261018_04",
   "robot_mass_kg": 16.970203928833527,
   "historical_grip_100g": "Fixed torso/head local capture/hold exploration; not passed free-robot grasp/lift/place",
@@ -33,7 +33,7 @@
       "cargo_instance_created": true,
       "passive_parameters_calibrated": false,
       "side3N_continuous_static": "FAIL",
-      "dynamic_trial_scope": "005/006 fixed-torso local exploration only; no free whole-robot result",
+      "dynamic_trial_scope": "008 true free-root+cart+20kg diagnostic failed continuous alternating drag; not a qualified whole-robot result",
       "formal_whole_robot_dynamic_trial_passed": false,
       "cargo_instance_scope": "Only005 local experimental scene; static004 source remains cargo0"
     },
@@ -123,5 +123,22 @@
     "loaded_attempts": 0,
     "free_root_or_20kg_whole_robot_qualification": false,
     "interpretation": "Third diagnostic root back19.520–20.246mm, bilateral2s, tilt0.941deg. Original5mm slip FAIL; cumulative normal-force-weighted tangential speed integral15.044/15.356mm is not permanent material point displacement. Ground intrusion0.613mm; loaded0, no gait/mouth qualification."
+  },
+  "closed_loaded_diagnostic_008": {
+    "id": "cart_drag_loaded_diagnostic_008",
+    "entry": "analysis/cart_drag_loaded_diagnostic_008",
+    "copy_manifest": "analysis/cart_drag_loaded_diagnostic_008/archive_copy_manifest.json",
+    "copy_manifest_sha256": "18a8fb97a6cd88d85fa1baa33b221d5b6a15abdd385ce887f5b05d0dfcabaaa7",
+    "producer_manifest": "analysis/cart_drag_loaded_diagnostic_008/artifact_manifest.json",
+    "producer_manifest_sha256": "d76ad8ad58e46f491b42fd23106ec95cadc37f31fb1870bbfb843b09bfa54cf7",
+    "producer_manifest_entries": 3,
+    "raw_manifest_records": 154,
+    "independent_review": "analysis/cart_drag_loaded_diagnostic_008/independent_review.json",
+    "independent_review_sha256": "8a66deddb4543d21ec460bf1f5487053e171cb138c15647d801215779e7c811c",
+    "decision": "FAIL_CONTINUOUS_LOADED_ALTERNATING_BACKWARD_HALF_METER",
+    "attempts": 6,
+    "producer_physics_steps": 6357,
+    "free_root_or_20kg_whole_robot_qualification": false,
+    "scope": "True free robot/cart/20kg cargo,6attempts6357steps. No certified alternating flight/landing cycles, no0.5m/3s hold; failures preserved. Slew2.51 actual speed versus3.87463094 target-cap correction. Summary PRE versus true terminal kept separately."
   }
 }

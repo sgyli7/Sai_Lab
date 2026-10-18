@@ -1,0 +1,24 @@
+{
+  "robot53_count": 53,
+  "robot53_unchanged": true,
+  "robot_changed": [],
+  "cart004_manifest_items": 37,
+  "cart004_all_unchanged": true,
+  "cart_changed": [],
+  "order008_sha256": "65ac64849d73f83f3689b713cff5a06cb98e22d7d37adb94bd296e43e456935a",
+  "physics_equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "free_joints": [
+    "root",
+    "cart_root",
+    "probe_cargo_free"
+  ],
+  "GPU": 0,
+  "training": 0,
+  "dynamics_complete": true,
+  "dynamic_attempts": 6,
+  "actual_steps": 6357
+}

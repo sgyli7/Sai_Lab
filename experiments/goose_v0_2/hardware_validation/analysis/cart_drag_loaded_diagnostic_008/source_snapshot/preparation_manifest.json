@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/prepare_scene.py",
+    "sha256": "884f1cc5e8d95d0da5543f4e533cd3c9279b7446e3a1fce27a3dfd9535a44783",
+    "bytes": 2739
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/scene_preflight.json",
+    "sha256": "0a5c22b018b582d1c1d0b9d1542a9bdfc8fef1b2838934cf6d7215a4fb365e63",
+    "bytes": 3801
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/loaded_target_wrapper.py",
+    "sha256": "4d79fe74581d6bfca892a23464777a934c22589adf20ad615c6742222a505119",
+    "bytes": 1698
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/scene/robot.xml",
+    "sha256": "015449aba8c10eb011217cb370002b4c81735a94b419c59ed09b6d05595aee36",
+    "bytes": 39847
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/scene/actuator_contract.json",
+    "sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "bytes": 31658
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/scene/physical_contract.json",
+    "sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "bytes": 150030
+  }
+]

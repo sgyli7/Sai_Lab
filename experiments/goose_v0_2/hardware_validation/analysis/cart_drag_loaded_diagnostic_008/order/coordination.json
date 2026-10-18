@@ -1,0 +1,15 @@
+{
+  "state": "closed_fail_reviewed_no_jobs",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "issued_utc": "2026-10-18 14:44:10 UTC",
+  "hard_deadline_utc": "2026-10-18 15:24:10 UTC",
+  "main_target": "actual0.5m robot+loadedcart with continuous alternating backward steps; not empty/bodyback20mm",
+  "result": "NOT ACHIEVED: actual alternating backward cycles0; no0.5m or3s terminal hold. Real car+20kg cargo were present. Neck-only short pull is not whole-body transport.",
+  "dynamic_attempts_actual": 6,
+  "physics_steps_actual": 6357,
+  "independent_final_review_sha256": "8a66deddb4543d21ec460bf1f5487053e171cb138c15647d801215779e7c811c",
+  "hardware_decision": "Keep04/004MCI and drives unchanged. Current support-transition control failed; specific static single stance also exceeds multiple continuous caps, not proof of universal hardware impossibility. No blind mouth redesign or torque inflation.",
+  "next_acceptance": "An original-cap, actually tracked loaded support transfer with real unloading/airborne backward placement/landing; retain same cart/cargo and then progress to repeated alternating steps. No automatic budget renewal.",
+  "GPU": 0,
+  "training_updates": 0
+}

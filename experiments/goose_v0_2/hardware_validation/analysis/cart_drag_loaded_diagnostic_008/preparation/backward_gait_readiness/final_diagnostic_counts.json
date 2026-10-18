@@ -1,0 +1,8 @@
+{
+  "poses": 1,
+  "IK_solves": 3,
+  "IK_nfev": 17,
+  "FK_calls": 116,
+  "LP_solves": 6,
+  "forward_calls": 8
+}

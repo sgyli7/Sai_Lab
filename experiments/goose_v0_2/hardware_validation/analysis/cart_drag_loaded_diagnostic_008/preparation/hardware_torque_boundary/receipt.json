@@ -1,0 +1,14 @@
+{
+  "status": "READ_ONLY_BOUNDARY_ATTRIBUTION_COMPLETE",
+  "input_pose": "final_toe_in_03",
+  "physics_steps": 0,
+  "training": 0,
+  "GPU": 0,
+  "new_poses": 0,
+  "extra_LP_sensitivities": 3,
+  "runtime_source_modified": false,
+  "mass_or_contract_modified": false,
+  "completed_utc": "2026-10-18 15:14 UTC",
+  "deadline_utc": "2026-10-18 15:15:12 UTC",
+  "NO_JOBS": true
+}

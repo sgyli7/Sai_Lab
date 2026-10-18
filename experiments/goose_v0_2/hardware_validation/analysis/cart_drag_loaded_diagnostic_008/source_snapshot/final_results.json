@@ -1,0 +1,238 @@
+{
+  "status": "FAIL_CONTINUOUS_LOADED_HALF_METER_NOT_ACHIEVED",
+  "attempts": [
+    {
+      "attempt": 1,
+      "actual_steps": 2200,
+      "sim_duration_s": 11.00000000000032,
+      "failure": null,
+      "root_max_back_m": 0.020830141145962943,
+      "root_final_back_m": -0.0007522401034675496,
+      "cart_max_back_m": 0.0075865804666460646,
+      "cart_final_back_m": -0.015922291318500092,
+      "cargo_final_back_m": -0.015836735662549728,
+      "jaw_envelope_rod_normal_final_N": [
+        22.23054332155183,
+        22.19577428044922
+      ],
+      "last_executed_row_tilt_deg": 0.5659282283699115,
+      "max_tilt_deg_including_terminal": 2.0008804593781937,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_001/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.000757638386790993,
+      "max_closure_residual": 0.0001761934880077365,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false
+    },
+    {
+      "attempt": 2,
+      "actual_steps": 668,
+      "sim_duration_s": 3.339999999999951,
+      "failure": "diagnostic_gross_material_slip_over20mm",
+      "root_max_back_m": 0.014121545485973195,
+      "root_final_back_m": 0.014121545485973195,
+      "cart_max_back_m": 0.009851902397748247,
+      "cart_final_back_m": 0.009851902397748247,
+      "cargo_final_back_m": 0.009913922314491508,
+      "jaw_envelope_rod_normal_final_N": [
+        27.349185823827213,
+        24.510157691626908
+      ],
+      "last_executed_row_tilt_deg": 2.431346448115256,
+      "max_tilt_deg_including_terminal": 3.485837212269121,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_002/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.00087290903667301,
+      "max_closure_residual": 0.0005707014036599456,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false
+    },
+    {
+      "attempt": 3,
+      "actual_steps": 2188,
+      "sim_duration_s": 10.94000000000031,
+      "failure": "tilt_over25deg",
+      "root_max_back_m": 0.005660653115378614,
+      "root_final_back_m": -0.012084539664124849,
+      "cart_max_back_m": 0.03955631190853681,
+      "cart_final_back_m": 0.03932457099651643,
+      "cargo_final_back_m": 0.03938219237064178,
+      "jaw_envelope_rod_normal_final_N": [
+        0.0,
+        0.0
+      ],
+      "last_executed_row_tilt_deg": 26.967048601937737,
+      "max_tilt_deg_including_terminal": 26.967048601937737,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_003/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.001704401163562235,
+      "max_closure_residual": 0.0014253850459467199,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false
+    },
+    {
+      "attempt": 4,
+      "actual_steps": 931,
+      "sim_duration_s": 4.654999999999923,
+      "failure": "diagnostic_gross_material_slip_over20mm",
+      "root_max_back_m": 0.006773834222616432,
+      "root_final_back_m": -0.00278242663222717,
+      "cart_max_back_m": 0.009004941427696922,
+      "cart_final_back_m": 0.009004941427696922,
+      "cargo_final_back_m": 0.009067373528843792,
+      "jaw_envelope_rod_normal_final_N": [
+        22.516433149578464,
+        20.52817549402199
+      ],
+      "last_executed_row_tilt_deg": 0.489503786205203,
+      "max_tilt_deg_including_terminal": 5.936374893905754,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_004/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.0010323838780146328,
+      "max_closure_residual": 0.0003861307733184216,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false,
+      "terminal_no_step": {
+        "time_s": 4.654999999999923,
+        "reason": "diagnostic_gross_material_slip_over20mm",
+        "physics_step_executed": false,
+        "slip_includes_unexecuted5ms_prediction_m": [
+          0.01901045513226295,
+          0.020143637368900305
+        ],
+        "last_executed_row_slip_m": [
+          0.018979932025033765,
+          0.019613502162746384
+        ]
+      }
+    },
+    {
+      "attempt": 5,
+      "actual_steps": 164,
+      "sim_duration_s": 0.8200000000000006,
+      "failure": "tilt_over25deg",
+      "root_max_back_m": 0.0073665533062787295,
+      "root_final_back_m": -0.0027193832149465017,
+      "cart_max_back_m": 0.009149310642924124,
+      "cart_final_back_m": 0.009149310642924124,
+      "cargo_final_back_m": 0.009172971274059805,
+      "jaw_envelope_rod_normal_final_N": [
+        36.54242080071962,
+        30.350320713595373
+      ],
+      "last_executed_row_tilt_deg": 24.866124591186725,
+      "max_tilt_deg_including_terminal": 25.067548045083125,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_005/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.0016539499143769522,
+      "max_closure_residual": 0.0007886111963802955,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false,
+      "terminal_no_step": {
+        "time_s": 0.8200000000000006,
+        "reason": "tilt_over25deg",
+        "physics_step_executed": false,
+        "slip_includes_unexecuted5ms_prediction_m": [
+          0.0017105983790946476,
+          0.0017262312442911573
+        ],
+        "last_executed_row_slip_m": [
+          0.0016890436495230474,
+          0.0017042965249700133
+        ]
+      }
+    },
+    {
+      "attempt": 6,
+      "actual_steps": 206,
+      "sim_duration_s": 1.03,
+      "failure": "tilt_over25deg",
+      "root_max_back_m": 0.005231810930419444,
+      "root_final_back_m": 0.003019226334243053,
+      "cart_max_back_m": 0.012184446857977038,
+      "cart_final_back_m": 0.012184446857977038,
+      "cargo_final_back_m": 0.012191329842763277,
+      "jaw_envelope_rod_normal_final_N": [
+        9.129724437929635,
+        0.0
+      ],
+      "last_executed_row_tilt_deg": 24.89848208146944,
+      "max_tilt_deg_including_terminal": 25.144060539192584,
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_006/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "max_penetration_m": 0.001534076809551222,
+      "max_closure_residual": 0.0007443524899001241,
+      "max_nonrod_transport_X_N": 0.0,
+      "maxRSS_KiB": 2848416,
+      "max_observed_threads": 1,
+      "actual_gait_cycles_certified": 0,
+      "hold_completed": false,
+      "terminal_no_step": {
+        "time_s": 1.03,
+        "reason": "tilt_over25deg",
+        "physics_step_executed": false,
+        "slip_includes_unexecuted5ms_prediction_m": [
+          0.0021130178133314226,
+          0.0021484658921958146
+        ],
+        "last_executed_row_slip_m": [
+          0.002091849390557288,
+          0.002126872739133565
+        ]
+      }
+    }
+  ],
+  "source_resource_audit": {
+    "robot53_count": 53,
+    "robot53_unchanged": true,
+    "robot_changed": [],
+    "cart004_manifest_items": 37,
+    "cart004_all_unchanged": true,
+    "cart_changed": [],
+    "order008_sha256": "65ac64849d73f83f3689b713cff5a06cb98e22d7d37adb94bd296e43e456935a",
+    "physics_equalities": [
+      "beak_distal_pin",
+      "left_yaw_input_rotor_belt_relation",
+      "right_yaw_input_rotor_belt_relation"
+    ],
+    "free_joints": [
+      "root",
+      "cart_root",
+      "probe_cargo_free"
+    ],
+    "GPU": 0,
+    "training": 0,
+    "dynamics_complete": true,
+    "dynamic_attempts": 6,
+    "actual_steps": 6357
+  },
+  "actual_backward_steps_certified": 0,
+  "true_alternating_air_plant_cycles_certified": 0,
+  "raw_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008",
+  "notes": [
+    "All trials goose+real cart004+free20kg cargo, pure physical cold pregrip; not complete active capture.",
+    "No root/feet lock, only original3 internal equalities. Original adapter caps/slew/power used.",
+    "002/003 planned-stance epoch bug disclosed: reconstructed physical20mm breaches earlier than old abort. Those later sections unqualified; failures not changed to passes.",
+    "004+ use actual N<=2N and sole>1mm for50ms before landing epoch; terminal prestate abort refuses next integration. Terminal slip includes one unexecuted5ms conservative prediction.",
+    "006 is only pitch-feedback sign change from005; both fall during settling before weight transfer. Phase-event metadata is not actual stepping.",
+    "Jaw normal totals are proxy envelope-rod contacts, not certified native TPU interior force. Contact penetration>0.5mm remains numerical limitation.",
+    "k20Nm/rad/.0276930475rad passive balance is unpurchased/unverified fixture hypothesis; per-wheel.125Nm gives nominal8N cap, not measured tow load.",
+    "Original knee target slew3.87463094rad/s; historical2.51 was observed actual speed, not cap.",
+    "Renderer neutral headlight .3ambient/.4diffuse/.05specular,20fps original-speed replay only; original trajectories and dark/bright videos preserved."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cart_drag_loaded_diagnostic_008",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "executor_model": "gpt-6.1-sol",
+  "issued_utc": "2026-10-18 14:44:10 UTC",
+  "hard_deadline_utc": "2026-10-18 15:24:10 UTC",
+  "stop_new_trials_utc": "2026-10-18 15:18:10 UTC",
+  "purpose": "Actual pure-contact grasp of loaded cart and CONTINUOUS ALTERNATING BACKWARD STEPS. Empty scenes, a bite alone, local neck pulls and20mm body-back are not the requested delivery.",
+  "budget": {
+    "wall_minutes": 40,
+    "dynamic_attempts_max": 6,
+    "physics_steps_total_max": 48000,
+    "CPU_dynamic_processes_max": 1,
+    "total_CPU_threads_max": 4,
+    "total_memory_GiB_max": 8,
+    "GPU": 0,
+    "training_updates": 0,
+    "offline_gait_helper": "/root/cart_collision_handoff <=10min,0steps,2threads/2GiB within aggregate budget; bounded FK/IK/static screening only"
+  },
+  "frozen_inputs": {
+    "robot": "physics_v0_2_20261018_04 all53 files /16.97020392883353kg /14convex leaves",
+    "cart": "low_profile_stock_cart_03_collision_004 all37 manifest items /20collision leaves /estimated7.815342443kg",
+    "payload": "Real unbound20kg 600x400x150mm full box with original full inertia and true deck initial placement; not a tiny object with mass replaced",
+    "total_scene_mass_kg": 44.78554637183353,
+    "robot_xml_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "physical_contract_sha256": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "actuator_contract_sha256": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd"
+  },
+  "scene": "Goose+complete cart+visible cargo+ground in ONE real scene. Robot root, cart root and cargo root truly free. Original3 internal mechanical equalities only; no torso/foot locks, robot-object bindings, suction, online state writes or applied external/root forces.",
+  "experimental_fixture": {
+    "cart_pitch_spring_k_Nm_rad": 20,
+    "spring_reference_rad": 0.0276930475,
+    "wheel_frictionloss_each_Nm": 0.125,
+    "nominal_wheel_force_cap_total_N": 8,
+    "scope": "Uncalibrated passive mechanical/cart-resistance assumptions inherited from006, not a qualified spring SKU, actual sustained8N force or physical hardware redesign. Record actual reactions and rod trajectory."
+  },
+  "original_drive": "Only18 joint targets via original immutable adapter:200Hz drive/physics,50Hz commands,original slew/gains/22.2V torque-speed derating/350W positive mechanical design budget/disabled peaks. Original MCI/axes/limits/closed-loop/filter and mu assumptions preserved.",
+  "direct_response_to_user": "007 remains three failed unloaded trials, retained as history. Its strict empty qualification is not reclassified as pass. PM authorizes a separate loaded diagnostic to observe actual object behavior; do not keep hiding requested car behind perfect empty tests.",
+  "staged_execution": [
+    "At most ONE initial preposed true cold clamp+20mm loaded body-back to verify scene, contact transfer and logging. This is setup evidence only, not completion or the final headline video.",
+    "Main stage must execute repeated alternating foot support/backward placement with actual free-root mechanics while maintaining true clamp and moving the loaded cart. Use bounded offline gait helper output or justified Teacher feedback, no PPO or inherited failed Move policy as a success baseline.",
+    "Add finite active approach/open-close when feasible using genuine rod-defined TCP and all non-target contacts checked. A cold pregrip scene must be labelled; it does not prove autonomous acquisition.",
+    "A single problem gets at most two targeted corrections before PM receives evidence and chooses an alternative. Do not spend the whole budget polishing gait plans, contact classifiers or archives."
+  ],
+  "primary_acceptance": {
+    "actual_robot_body_back_m_min": 0.5,
+    "actual_cart_back_m_min": 0.5,
+    "actual_cargo_back_m_min": 0.5,
+    "continuous_alternating_backward_steps": true,
+    "min_alternating_support_cycles": 4,
+    "actual_grip_retained": true,
+    "stop_and_hold_s_min": 3,
+    "pure_physical_contact_required": true,
+    "meaning": "Only measured object+body displacement and repeated actual feet motion support this goal; requested trajectories and neck motion do not. Formal reliability/maximum load/thermal rating remain separate."
+  },
+  "controls": "TCP desired path anchored at cold actual rod then moves backward with planned body/cart transport, with sensible measured contact feedback. Do not unconditionally chase stationary actual rod to extend neck and cancel traction. No live state writes. Actual feet/root movement only from dynamics. New controller/provider is separately identified; original frozen sources remain.",
+  "diagnostic_vs_acceptance": "Original5mm material slip per intended stance and contact quality limits remain qualification metrics. Record when they fail, never reset or relabel them. As declared exploratory loaded evidence, a failed metric may continue within explicit gross safety envelope to observe why grip/transport fails. Whole-run cumulative material speed is not a permanent point net displacement; per-stance versus swing recorded separately.",
+  "hard_abort": "NaN/warnings or drive breach;tilt>25deg or fall/unsupported body ground hit;unexplained significant initial penetration>.5mm;unintended shell/shaft contact as main transport mechanism;gross stance slip>20mm per foot per planted phase;object binding/state overwrite. Record collisions/closure/soft penetration even below stop. The TCP error>5mm for200ms implementation gap from007 must be explicitly implemented or predeclared measured diagnostic rather than silently omitted.",
+  "evidence": "Prestate-aligned all robot/cart/cargo poses, foot support/swing/placement, per-contact6D forces and native pad/rod versus shell/shaft, grip loss, cart/cargo/root displacement and velocity, footprint/slip/CoP, actual torques/speeds/caps/power, true wheel reactions/tongue load, constraint/penetration/warnings, exact input identities, resources. Compare commanded and realized movement.",
+  "video": "Continuous original-speed bright physics replay with one camera showing goose mouth on actual rod, whole loaded cart/box, both feet and ground throughout; also a useful mouth/rod close view if cheap. Main delivery MUST have the real cart/cargo; never an empty diagnostic as drag result. No generated image, teleport or composited fake interaction.",
+  "reporting": "Report first actual loaded contact/transport attempt promptly to PM, not after long archiving. Give actual continuous-walking success/failure, true distances, grip/feet/actuator cause evidence. If no0.5m, state NOT ACHIEVED and show the failure sequence. No claim maximum load or real-world/cross-engine qualification.",
+  "data": {
+    "raw": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008",
+    "selected": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_loaded_diagnostic_008"
+  },
+  "exit": "Return by the hard deadline with actual car-containing evidence and precise remaining blocker. No hidden long training, scheduled task or automatic budget renewal."
+}

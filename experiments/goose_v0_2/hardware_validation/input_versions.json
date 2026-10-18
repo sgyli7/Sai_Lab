@@ -142,6 +142,22 @@
       "producer_physics_steps": 3312,
       "loaded_attempts": 0,
       "free_root_or_20kg_whole_robot_qualification": false
+    },
+    {
+      "id": "cart_drag_loaded_diagnostic_008",
+      "entry": "analysis/cart_drag_loaded_diagnostic_008",
+      "copy_manifest": "analysis/cart_drag_loaded_diagnostic_008/archive_copy_manifest.json",
+      "copy_manifest_sha256": "18a8fb97a6cd88d85fa1baa33b221d5b6a15abdd385ce887f5b05d0dfcabaaa7",
+      "producer_manifest": "analysis/cart_drag_loaded_diagnostic_008/artifact_manifest.json",
+      "producer_manifest_sha256": "d76ad8ad58e46f491b42fd23106ec95cadc37f31fb1870bbfb843b09bfa54cf7",
+      "producer_manifest_entries": 3,
+      "raw_manifest_records": 154,
+      "independent_review": "analysis/cart_drag_loaded_diagnostic_008/independent_review.json",
+      "independent_review_sha256": "8a66deddb4543d21ec460bf1f5487053e171cb138c15647d801215779e7c811c",
+      "decision": "FAIL_CONTINUOUS_LOADED_ALTERNATING_BACKWARD_HALF_METER",
+      "attempts": 6,
+      "producer_physics_steps": 6357,
+      "free_root_or_20kg_whole_robot_qualification": false
     }
   ]
 }

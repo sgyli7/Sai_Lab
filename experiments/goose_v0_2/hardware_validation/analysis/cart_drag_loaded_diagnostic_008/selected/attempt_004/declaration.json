@@ -1,0 +1,179 @@
+{
+  "attempt": 4,
+  "mode": "LOADED_ALTERNATING_BACKWARD_STEPS",
+  "source_model_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "frozen_provider_sha256": "f9ffaab63a0f3daad4a607bae38099b78383815075b45dbe031e0b748413d510",
+  "frozen_input_sha256": "beef2800d45e829d32020a278445821ad2924b0a31912c9a40d297ef36110b51",
+  "static_bias": true,
+  "order008_sha256": "65ac64849d73f83f3689b713cff5a06cb98e22d7d37adb94bd296e43e456935a",
+  "qualification_5mm_unchanged_diagnostic_gross_abort20mm": true,
+  "declared_bias_multiplier": 1.0,
+  "gait_program_sha256": "c06187b7ea0edb09610f4101d7d17d45f3c98f32bdb24ccdae262788b3dab437",
+  "gait_provider_sha256": "e85c203681e840acf5fbac5e1e9ab7820426c22035c97a5aaba4a0ed553e2574",
+  "bias_variant": "gait_provider_declared_tau",
+  "bias_proposal_sha256": "3b517e323d7f1ae7ef684cd6fd5153f8fba0368a2ef75f10dc920883ce99b523",
+  "root_and_feet_fixture": "NONE",
+  "equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "initial_root": [
+    0.0,
+    0.0,
+    -0.014999997194265435,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_public_q18": [
+    -7.545561338350664e-23,
+    0.5960150995372785,
+    0.7047675558925395,
+    -1.1262497302304393,
+    9.97111662455956e-22,
+    0.19682523,
+    0.2499999852496392,
+    0.19882292348820177,
+    -0.36761383830025207,
+    0.6525788213402256,
+    -0.2849650149284606,
+    -0.19882292661968326,
+    -0.24999998522665984,
+    -0.19884030870771313,
+    0.3676206342420126,
+    -0.6525870789486039,
+    0.2849664766469166,
+    0.19884031183987602
+  ],
+  "initial_target18": [
+    -7.545561338350664e-23,
+    0.5960150995372785,
+    0.7047675558925395,
+    -1.1262497302304393,
+    9.97111662455956e-22,
+    0.19682523,
+    0.2499999852496392,
+    0.19882292348820177,
+    -0.36761383830025207,
+    0.6525788213402256,
+    -0.2849650149284606,
+    -0.19882292661968326,
+    -0.24999998522665984,
+    -0.19884030870771313,
+    0.3676206342420126,
+    -0.6525870789486039,
+    0.2849664766469166,
+    0.19884031183987602
+  ],
+  "initial_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist_m": -5.682065176550367e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist_m": -5.682065176550367e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "upper_bill_envelope",
+      "dist_m": -5.682065176550367e-10
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist_m": -9.426386020068112e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist_m": -9.426386020068112e-11
+    },
+    {
+      "a": "cart_bite_bar",
+      "b": "lower_bill_envelope",
+      "dist_m": -9.426386020068112e-11
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    }
+  ],
+  "hold_time_window_pre_s": [
+    58.0,
+    61.0
+  ],
+  "gates": {
+    "root_back_hold_min_m": 0.015,
+    "hold_duration_s_min": 2.0,
+    "foot_material_slip_limit_m": 0.005,
+    "tilt_max_deg": 25.0,
+    "dual_support_each_normal_N_min": 2.0,
+    "settling_s": 1.0,
+    "numerical_hold_max_closure_or_contact_pen_m": 0.0005
+  },
+  "jointtarget_only": true,
+  "stance_epoch_guard": "reset only actual N<=2N+soleclearance>1mm for50ms followed by actual landing; no planned-phase reset",
+  "hardstop_latency": "terminal prestate checked before next5ms integration; terminal_abort_prestate.json preserves trigger; no remaining50Hz substeps",
+  "TCP_error_policy": "actual>5mm for200ms explicitly measured diagnostic; no silent success"
+}

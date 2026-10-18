@@ -1,0 +1,32 @@
+{
+  "root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008",
+  "manifest": "source_snapshot/raw_artifact_manifest.json",
+  "manifest_sha256": "0c08f6973c860a9f82fbc3deaf059e89dc80a946b860b6e2f0b2b7ddf0b0b978",
+  "all_original_videos": [
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_001/neutral_proxy_original_speed.mp4",
+      "sha256": "45e4cfa82431843f87b77f52cc7e216392eefa21e195df7fb9b5ad6581e96adb"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_002/neutral_proxy_original_speed.mp4",
+      "sha256": "155f283a3c218bde28a479443b2244969cb01bfabcc51e15dd48e39c32488fd0"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_003/neutral_proxy_original_speed.mp4",
+      "sha256": "4ae93a1fdf0d1ee5b43e1cea42185048955feab1e986ea9ed7f5bdef30df8fb7"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_004/neutral_proxy_original_speed.mp4",
+      "sha256": "37b5f5e14ea70b594ba098818ccc32327b3f12b597bcc1beffd221be1fb60dec"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_005/neutral_proxy_original_speed.mp4",
+      "sha256": "cfd6f8d7fc97791aa3f2d47aee0ed4a93ca3f3ac5d9c4551fd3ab4da74f018c6"
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_006/neutral_proxy_original_speed.mp4",
+      "sha256": "736ab1a7275f11c90867166fc5c78ec2be01a5931068605e8e2bc00e6df8c120"
+    }
+  ],
+  "large_logs_remain_in_backups": true
+}

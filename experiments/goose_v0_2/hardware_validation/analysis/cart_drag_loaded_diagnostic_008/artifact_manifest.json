@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_loaded_diagnostic_008/REPORT.md",
+      "sha256": "cff3f2851a2ccddec998d32f8c6fd7ebe856bda23479d764279a48fd2ae1503e",
+      "bytes": 4127
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_loaded_diagnostic_008/results.json",
+      "sha256": "285e1e092ee4fd2351ecfccfe6632a7ceea85e0df6a4a85760e3e7a55b30ab92",
+      "bytes": 12975
+    },
+    {
+      "path": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_loaded_diagnostic_008/source_resource_audit.json",
+      "sha256": "f2ae5951aff32cbff7b1495677f99dcafa2f9c7697c91e360647050407427ceb",
+      "bytes": 574
+    }
+  ]
+}

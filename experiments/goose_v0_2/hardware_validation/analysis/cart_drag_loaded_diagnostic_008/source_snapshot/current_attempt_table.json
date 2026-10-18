@@ -1,0 +1,111 @@
+{
+  "actual_attempts": [
+    {
+      "attempt": 1,
+      "actual_steps": 2200,
+      "sim_duration_s": 11.00000000000032,
+      "failure": null,
+      "root_max_back_m": 0.020830141145962943,
+      "root_final_back_m": -0.0007522401034675496,
+      "cart_max_back_m": 0.0075865804666460646,
+      "cart_final_back_m": -0.015922291318500092,
+      "cargo_final_back_m": -0.015836735662549728,
+      "final_rod_contact_normal_N": [
+        22.23054332155183,
+        22.19577428044922
+      ],
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_001/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true
+    },
+    {
+      "attempt": 2,
+      "actual_steps": 668,
+      "sim_duration_s": 3.339999999999951,
+      "failure": "diagnostic_gross_material_slip_over20mm",
+      "root_max_back_m": 0.014121545485973195,
+      "root_final_back_m": 0.014121545485973195,
+      "cart_max_back_m": 0.009851902397748247,
+      "cart_final_back_m": 0.009851902397748247,
+      "cargo_final_back_m": 0.009913922314491508,
+      "final_rod_contact_normal_N": [
+        27.349185823827213,
+        24.510157691626908
+      ],
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_002/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true
+    },
+    {
+      "attempt": 3,
+      "actual_steps": 2188,
+      "sim_duration_s": 10.94000000000031,
+      "failure": "tilt_over25deg",
+      "root_max_back_m": 0.005660653115378614,
+      "root_final_back_m": -0.012084539664124849,
+      "cart_max_back_m": 0.03955631190853681,
+      "cart_final_back_m": 0.03932457099651643,
+      "cargo_final_back_m": 0.03938219237064178,
+      "final_rod_contact_normal_N": [
+        0.0,
+        0.0
+      ],
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_003/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true
+    },
+    {
+      "attempt": 4,
+      "actual_steps": 931,
+      "sim_duration_s": 4.654999999999923,
+      "failure": "diagnostic_gross_material_slip_over20mm",
+      "root_max_back_m": 0.006773834222616432,
+      "root_final_back_m": -0.00278242663222717,
+      "cart_max_back_m": 0.009004941427696922,
+      "cart_final_back_m": 0.009004941427696922,
+      "cargo_final_back_m": 0.009067373528843792,
+      "final_rod_contact_normal_N": [
+        22.516433149578464,
+        20.52817549402199
+      ],
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_004/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "terminal_prestate_no_step": {
+        "time_s": 4.654999999999923,
+        "tilt_deg": 0.6469859697881357,
+        "reason": "diagnostic_gross_material_slip_over20mm",
+        "slip_with_unexecuted5ms_prediction_m": [
+          0.01901045513226295,
+          0.020143637368900305
+        ]
+      }
+    },
+    {
+      "attempt": 5,
+      "actual_steps": 164,
+      "sim_duration_s": 0.8200000000000006,
+      "failure": "tilt_over25deg",
+      "root_max_back_m": 0.0073665533062787295,
+      "root_final_back_m": -0.0027193832149465017,
+      "cart_max_back_m": 0.009149310642924124,
+      "cart_final_back_m": 0.009149310642924124,
+      "cargo_final_back_m": 0.009172971274059805,
+      "final_rod_contact_normal_N": [
+        36.54242080071962,
+        30.350320713595373
+      ],
+      "video": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_loaded_diagnostic_008/attempt_005/neutral_proxy_original_speed.mp4",
+      "source53_unchanged": true,
+      "terminal_prestate_no_step": {
+        "time_s": 0.8200000000000006,
+        "tilt_deg": 25.067548045083125,
+        "reason": "tilt_over25deg",
+        "slip_with_unexecuted5ms_prediction_m": [
+          0.0017105983790946476,
+          0.0017262312442911573
+        ]
+      }
+    }
+  ],
+  "total_steps": 6151,
+  "achieved_continuous_half_meter_loaded_drag": false,
+  "actual_true_air_plant_cycles_certified": 0,
+  "note": "No qualification;002/003 planned-epoch bug disclosed; terminal stop predictor is not executed material slip."
+}

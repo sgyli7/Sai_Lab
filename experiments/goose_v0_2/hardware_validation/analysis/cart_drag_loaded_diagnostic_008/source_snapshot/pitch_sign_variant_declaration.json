@@ -1,0 +1,8 @@
+{
+  "only_controller_change": "pitch_ref gain -0.4->+0.4; saturation unchanged \u00b1.04rad",
+  "basis": "pitch_feedback_sign_check.json",
+  "prior_failure_preserved": true,
+  "provider_sha256": "8d9ae50fafb3abc730ad752665eb4af3c2de3f1423be47837c12c26869189f4f",
+  "runner_sha256": "7c53d1d6420446ece45434d552000ab1b08a18fa21b922c61b13049d350a29e4",
+  "dynamic_steps": 0
+}

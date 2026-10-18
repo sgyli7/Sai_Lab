@@ -1,0 +1,12 @@
+{
+  "scope": "Corrections and bounded alternative inside008; original failed outputs remain immutable",
+  "qualification": "Continuous loaded backward0.5m remains NOT ACHIEVED; no requested cycles counted as actual steps",
+  "attempt2_and3_execution_gap": "Planned swing-to-stance reset slipped without actual liftoff. Both attempts lacked genuine swing. Their later portions cannot be treated as qualified under the intended hardstop. Original traces and discrepancies preserved.",
+  "fixed_execution": "Actual low normal force plus sole clearance sustained50ms is required before new actual landing opens a stance epoch. Planned swing still carrying load accumulates stance slip. Abort checks execute at each5ms prestate and stop remaining50Hz tick substeps; terminal predictive slip is distinguished from displacement already integrated.",
+  "speed_attribution_correction": "Original22.2V knee target slew cap is3.87463094rad/s. Previously cited2.51rad/s was an observed speed, not the cap. The incorrect hardware-cap attribution is withdrawn; original actuator data unchanged.",
+  "narrow_stance_alternative": "Additional offline helper limited20poses/8minutes delivered clean double-support70mm stance but no qualified static single-support. PM separately authorizes reconstructing only11cycle keyframes plus at most6midpoints with original foot IK for a labelled dynamic exploration, not a passed stance or new hardware.",
+  "feedback_alternative": "Attempts5/6 used explicitly versioned real COM/support/IMU feedback targets. Attempt6 changed only pitch feedback sign based on two scratch no-integration checks. Both failed during settle before actual support transfer. No seventh run.",
+  "terminal_state_correction": "Teacher original summaries called their last logged prestate final. Independent audit reads true poststate/terminal: attempt6 root/cart/cargo backward2.959/12.844/12.847mm. Attempt5/6 terminal tilt25.0675/25.1441deg, versus earlier logged24.866/24.898deg. Original summaries retained; selected report distinguishes meanings.",
+  "closed_result": "6attempts/6357physics steps,0actual alternating backward cycles.0.5m/3s targetFAIL. All dynamics stopped.",
+  "invariants": "Frozen04 and004 geometry/MCI/drives/friction/collision rules remain. No root force, binding, online pose write or source mutation. NoPPO/GPU. Original008 total6attempts/48000steps/40min deadline retained."
+}
