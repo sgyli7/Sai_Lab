@@ -1,0 +1,30 @@
+{
+  "attempt": 1,
+  "mode": "UNLOADED_TRUE_FREE_ROOT",
+  "actual_steps": 688,
+  "sim_duration_s": 3.439999999999949,
+  "failure": "stance_material_slip_over5mm",
+  "error": null,
+  "unloaded_gate_pass": false,
+  "hold_steps": 0,
+  "hold_min_root_back_m": null,
+  "hold_root_back_range_m": [
+    0,
+    0
+  ],
+  "hold_max_closure_m_or_rad": 0,
+  "hold_max_contact_penetration_m": 0,
+  "final_root_back_m": 0.006103236416021049,
+  "max_root_back_m": 0.006103236416021049,
+  "foot_material_slip_integral_m": [
+    0.005004596935662748,
+    0.003826870537868991
+  ],
+  "max_tilt_deg": 0.8552527117052905,
+  "max_positive_power_W": 3.0491853861604477,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 2848416,
+  "source53_unchanged": true,
+  "GPU": 0,
+  "training": 0
+}

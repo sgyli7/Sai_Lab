@@ -1,0 +1,73 @@
+{
+  "schema": "closed007_reproduction_source_v1",
+  "mesh_dependencies": {
+    "torso_central_keel": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_central_keel.obj",
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42"
+    },
+    "torso_upper_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/torso_upper_envelope.obj",
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6"
+    },
+    "neck_pitch_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    "neck_mid_pitch_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    "upper_bill_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    "lower_bill_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    "left_hip_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    "left_thigh_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    "left_shin_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_shin_envelope.obj",
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf"
+    },
+    "left_actual_sole": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    "right_hip_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    "right_thigh_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    "right_shin_envelope": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_shin_envelope.obj",
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836"
+    },
+    "right_actual_sole": {
+      "package_path": "inputs/physics_v0_2_20261018_04/meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    }
+  },
+  "robot04_directory": "inputs/physics_v0_2_20261018_04",
+  "preparation_directory": "preparation/full_body_readiness",
+  "source_variants": {
+    "1": "source_snapshot/run.py",
+    "2": "source_snapshot/run_l1.py",
+    "3": "source_snapshot/run_diagnostic.py"
+  },
+  "prepare_only_entry": "reproduction/prepare_fresh_run.py",
+  "original_root": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007",
+  "prohibition": "Never execute archived originals in-place; they write their own old root. Prepare a new output directory. No reproduction executed during archival.",
+  "third_attempt": "Diagnostic observation only; original 5mm qualification remains FAIL",
+  "new_steps": 0
+}

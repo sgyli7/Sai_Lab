@@ -1,0 +1,59 @@
+import os,sys,time,datetime,resource,signal
+sys.dont_write_bytecode=True
+for k in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS']:os.environ[k]='1'
+os.environ['MUJOCO_GL']='disable';os.environ['CUDA_VISIBLE_DEVICES']='';os.sched_setaffinity(0,sorted(os.sched_getaffinity(0))[:4]);resource.setrlimit(resource.RLIMIT_AS,(8*1024**3,8*1024**3))
+from pathlib import Path
+import json,gzip,hashlib,importlib.util,traceback
+import numpy as np,mujoco as mj
+R=Path(__file__).parent;P=Path('/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04');F=Path('/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness');num=int(sys.argv[1]);gain=float(sys.argv[2]) if len(sys.argv)>2 else 1.;S=R/f'attempt_{num:03d}';S.mkdir(exist_ok=False)
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def dump(p,x):p.write_text(json.dumps(x,indent=2,default=lambda a:a.tolist() if hasattr(a,'tolist') else str(a)))
+def module(name,path):
+ spec=importlib.util.spec_from_file_location(name,path);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
+ad=module('immutable_adapter',P/'runtime_adapter.py');prov=module('frozen_provider',F/'target_provider.py');config=json.loads((F/'next_trial_input.json').read_text());teacher=prov.DoubleStanceBodyBackTeacher(static_bias=True,loaded=False);bias_rows={r['name']:r for r in json.loads((R/'l1_bias_proposal.json').read_text())};
+for frame in teacher.frames:frame['tau_static_0N18_Nm']=bias_rows[frame['phase']]['new_tau18']
+env=ad.FrozenPhysics(P);m,d=env.model,env.data;assert m.neq==3 and m.joint('root').type[0]==int(mj.mjtJoint.mjJNT_FREE);assert set(m.equality(i).name for i in range(m.neq))=={'beak_distal_pin','left_yaw_input_rotor_belt_relation','right_yaw_input_rotor_belt_relation'}
+first=config['times_and_targets'][0];root=np.r_[first['expected_root_xyz_offline_reference_only'],1,0,0,0];env.reset(dict(zip(env.names,first['q_target18_rad'])),root_pose=root);assert np.array_equal(env.target,d.qpos[env.qidx]);qinitial=d.qpos.copy();initialroot=d.qpos[:3].copy();H={str(p):sha(p) for p in P.rglob('*') if p.is_file() and '__pycache__' not in str(p)};assert len(H)==53;dump(S/'source_before.json',H);head=m.body('head_roll').id;torso=m.body('torso').id;feet=[m.geom(n).id for n in ['right_actual_sole','left_actual_sole']];ground=m.geom('ground').id;tcp_local=np.array([.13750001972253326,0,-.03849996489687674]);initialfeet=d.geom_xpos[feet].copy();rawcontacts=[{'a':m.geom(c.geom1).name,'b':m.geom(c.geom2).name,'dist_m':float(c.dist)} for c in d.contact];bad=[c for c in rawcontacts if c['dist_m']<-.0005];assert not bad,bad
+meta={'attempt':num,'mode':'UNLOADED_TRUE_FREE_ROOT','source_model_sha256':sha(P/'robot.xml'),'frozen_provider_sha256':sha(F/'target_provider.py'),'frozen_input_sha256':sha(F/'next_trial_input.json'),'static_bias':True,'diagnostic_amendment_sha256':sha(Path('/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/experiments/goose_v0_2/cart_drag_whole_body_007/trial3_diagnostic_amendment.json')),'qualification_5mm_unchanged_diagnostic_gross_abort20mm':True,'declared_bias_multiplier':gain,'bias_variant':'same_minimax_cap_then_secondary_min_sumabs_tau','bias_proposal_sha256':sha(R/'l1_bias_proposal.json'),'root_and_feet_fixture':'NONE','equalities':[m.equality(i).name for i in range(m.neq)],'initial_root':root.tolist(),'initial_public_q18':d.qpos[env.qidx].tolist(),'initial_target18':env.target.tolist(),'initial_contacts':rawcontacts,'hold_time_window_pre_s':[5.,7.],'gates':{'root_back_hold_min_m':.015,'hold_duration_s_min':2.,'foot_material_slip_limit_m':.005,'tilt_max_deg':25.,'dual_support_each_normal_N_min':2.,'settling_s':1.,'numerical_hold_max_closure_or_contact_pen_m':.0005},'jointtarget_only':True};dump(S/'declaration.json',meta);np.savez(S/'cold_state.npz',qpos=d.qpos,qvel=d.qvel);mj.mj_saveModel(m,str(S/'actual_scene.mjb'));print('EVENT admitted',num,flush=True)
+source_step=mj.mj_step;rows=[];commands=[];qtraj=[d.qpos.copy()];vtraj=[d.qvel.copy()];ts=[0.];slip=np.zeros(2);failure=None;qualification_failure=None;threads=1;currentmeta={};headerr_streak=0.;supportloss=0.;lasttarget=env.target.copy();log=gzip.open(S/'substeps.jsonl.gz','wt',compresslevel=2)
+def logged(model,data,nstep=1):
+ global failure,qualification_failure,threads,headerr_streak,supportloss,lasttarget
+ assert nstep==1 and not d.qfrc_applied.any() and not d.xfrc_applied.any();preq=d.qpos.copy();prev=d.qvel.copy();pret=float(d.time);mj.mj_forward(m,d);requested=env.kp*(env.target-d.qpos[env.qidx])-env.kd*d.qvel[env.vidx];expected=env.limit_torque(requested,d.qvel[env.drive_vidx]);assert np.max(abs(d.ctrl-expected))<1e-9;assert np.max(abs(env.target-lasttarget)-env.slew_speed*.005)<1e-8;lasttarget=env.target.copy();normal=np.zeros(2);footforce=np.zeros((2,3));footcop=np.zeros((2,3));speedN=np.zeros(2);cs=[];maxpen=0.
+ for ci,c in enumerate(d.contact):
+  f=np.zeros(6);mj.mj_contactForce(m,d,ci,f);a,b=int(c.geom1),int(c.geom2);F=c.frame.reshape(3,3).T@f[:3];rec={'geom1':m.geom(a).name,'geom2':m.geom(b).name,'pos_world':c.pos.tolist(),'frame_rows_world':c.frame.tolist(),'force_contact6':f.tolist(),'force_on_geom2_world':F.tolist(),'distance_m':float(c.dist),'friction5':c.friction.tolist()};maxpen=max(maxpen,-float(c.dist))
+  if ground in (a,b):
+   other=b if a==ground else a
+   if other in feet:
+    k=feet.index(other);Ffoot=F if b==other else -F;N=max(0.,Ffoot[2]);normal[k]+=N;footforce[k]+=Ffoot;footcop[k]+=N*c.pos;jp=np.zeros((3,m.nv));jr=np.zeros_like(jp);mj.mj_jac(m,d,jp,jr,c.pos,int(m.geom_bodyid[other]));v=jp@d.qvel;speedN[k]+=N*np.linalg.norm(v[:2]);rec['stance_material_point_velocity_world']=v.tolist()
+  cs.append(rec)
+ for k in range(2):
+  if normal[k]>2:slip[k]+=.005*speedN[k]/normal[k]
+  if normal[k]>0:footcop[k]/=normal[k]
+ eq=[]
+ for i in range(m.neq):
+  ids=np.where((d.efc_type[:d.nefc]==int(mj.mjtConstraint.mjCNSTR_EQUALITY))&(d.efc_id[:d.nefc]==i))[0];eq.append({'name':m.equality(i).name,'residual':d.efc_pos[ids].tolist(),'force':d.efc_force[ids].tolist()})
+ Rtorso=d.xmat[torso].reshape(3,3);tilt=float(np.degrees(np.arccos(np.clip(Rtorso[2,2],-1,1))));tcp=d.xpos[head]+d.xmat[head].reshape(3,3)@tcp_local;power=float(np.maximum(d.actuator_force*d.qvel[env.drive_vidx],0).sum());assert power<=350+1e-8;rootback=float(initialroot[0]-d.qpos[0]);rootdown=float(initialroot[2]-d.qpos[2]);actualtcperr=float(np.linalg.norm(tcp-np.array(currentmeta['tcp_target_world'])));both=bool(min(normal)>2)
+ row={'pre_time_s':pret,'pre_qpos':preq.tolist(),'pre_qvel':prev.tolist(),'root_pose':d.qpos[:7].tolist(),'root_velocity6':d.qvel[:6].tolist(),'root_back_m':rootback,'root_down_m':rootdown,'torso_pose':np.r_[d.xpos[torso],d.xquat[torso]].tolist(),'COM_world':d.subtree_com[torso].tolist(),'torso_tilt_deg':tilt,'actual_TCP_world':tcp.tolist(),'actual_TCP_error_m':actualtcperr,'command_metadata':currentmeta,'foot_normal_N':normal.tolist(),'foot_force_world_N':footforce.tolist(),'foot_CoP_world_m':footcop.tolist(),'foot_material_slip_integral_m':slip.tolist(),'foot_geom_center_excursion_m':np.linalg.norm((d.geom_xpos[feet]-initialfeet)[:,:2],axis=1).tolist(),'dual_support':both,'contacts':cs,'max_penetration_m':maxpen,'equalities':eq,'requested_PD_tau18':requested.tolist(),'actual_torque18':d.actuator_force.tolist(),'actual_drive_speed18':d.qvel[env.drive_vidx].tolist(),'positive_mechanical_power_W':power,'actual_slew_target18':env.target.tolist(),'warnings':[int(w.number) for w in d.warning]}
+ source_step(m,d,nstep=1);row.update(post_time_s=float(d.time),post_qpos=d.qpos.tolist(),post_qvel=d.qvel.tolist());log.write(json.dumps(row,separators=(',',':'))+'\n');rows.append(row);qtraj.append(d.qpos.copy());vtraj.append(d.qvel.copy());ts.append(float(d.time))
+ if tilt>25:failure='tilt_over25deg'
+ if np.max(slip)>.005 and qualification_failure is None:qualification_failure={'reason':'stance_material_slip_over5mm','first_time_s':pret,'foot_material_slip_m':slip.tolist(),'root_back_m':rootback}
+ if np.max(slip)>.020:failure='diagnostic_gross_material_slip_over20mm'
+ if pret>=1 and not both:supportloss+=.005
+ else:supportloss=0.
+ if supportloss>.10:failure='dual_support_lost_over100ms_after_settle'
+ if any(row['warnings']) or not np.isfinite(d.qpos).all():failure='nonfinite_or_mujoco_warning'
+ if len(rows)%200==0:
+  threads=max(threads,int(next(s.split()[1] for s in Path('/proc/self/status').read_text().splitlines() if s.startswith('Threads:'))));print('EVENT',num,round(d.time,2),'backmm',round(rootback*1000,2),'downmm',round(rootdown*1000,2),'Fn',normal.round(1).tolist(),'slipmm',(slip*1000).round(2).tolist(),'tilt',round(tilt,2),flush=True)
+mj.mj_step=logged;error=None
+try:
+ for tick in range(550):
+  assert datetime.datetime.now(datetime.timezone.utc)<datetime.datetime(2026,10,18,14,27,47,tzinfo=datetime.timezone.utc)
+  action,currentmeta=teacher.action(env,float(d.time),None)
+  nominal,tau,rootref,tcpref=teacher.interpolate(float(d.time));currentmeta['nominal_target18']=nominal.tolist();currentmeta['static_tau_bias18']=tau.tolist()
+  if gain!=1.:
+   desired=np.array(currentmeta['requested_joint_targets18'])+(gain-1.)*tau/env.kp;action=(desired-env.neutral)/env.scale;currentmeta['requested_joint_targets18']=desired.tolist()
+  currentmeta['bias_multiplier']=gain;commands.append({'time_s':float(d.time),'action18':action.tolist(),'metadata':currentmeta.copy()});env.step(action)
+  if failure:break
+except BaseException as ex:error={'error':repr(ex),'traceback':traceback.format_exc()}
+finally:
+ mj.mj_step=source_step;log.close();np.savez_compressed(S/'trajectory.npz',qpos=np.array(qtraj),qvel=np.array(vtraj),time=np.array(ts));dump(S/'commands50hz.json',commands);hold=[r for r in rows if 5.<=r['pre_time_s']<7.];hclosure=max([abs(x) for r in hold for e in r['equalities'] for x in e['residual']],default=0);hpen=max([r['max_penetration_m'] for r in hold],default=0);gate=bool(len(hold)>=400 and min(r['root_back_m'] for r in hold)>=.015 and all(r['dual_support'] for r in hold) and max(max(r['foot_material_slip_integral_m']) for r in hold)<=.005 and hclosure<=.0005 and hpen<=.0005 and failure is None and error is None and qualification_failure is None);out={'attempt':num,'mode':'UNLOADED_TRUE_FREE_ROOT','actual_steps':len(rows),'sim_duration_s':float(d.time),'failure':failure,'error':error,'unloaded_gate_pass':False,'irreversible_qualification_failure':qualification_failure,'diagnostic_only_not_loaded_admission':True,'hold_steps':len(hold),'hold_min_root_back_m':min([r['root_back_m'] for r in hold],default=None),'hold_root_back_range_m':[min([r['root_back_m'] for r in hold],default=0),max([r['root_back_m'] for r in hold],default=0)],'hold_max_closure_m_or_rad':hclosure,'hold_max_contact_penetration_m':hpen,'final_root_back_m':rows[-1]['root_back_m'] if rows else None,'max_root_back_m':max([r['root_back_m'] for r in rows],default=0),'foot_material_slip_integral_m':slip.tolist(),'max_tilt_deg':max([r['torso_tilt_deg'] for r in rows],default=0),'max_positive_power_W':max([r['positive_mechanical_power_W'] for r in rows],default=0),'max_observed_threads':threads,'maxRSS_KiB':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,'source53_unchanged':all(sha(Path(p))==h for p,h in H.items()),'GPU':0,'training':0};dump(S/'summary.json',out);print('STATUS',json.dumps(out),flush=True)

@@ -1,0 +1,627 @@
+{
+  "verdict": "FINITE_FREE_ROOT_POSTURE_EVIDENCE_BUT_ALL_QUALIFICATION_FAIL_NO_LOADED_ADMISSION",
+  "reviewed_utc": "2026-10-18T14:26:10.824271+00:00",
+  "new_physics_steps": 0,
+  "new_forward_calls": 0,
+  "new_LP_runs": 0,
+  "method": "Read saved3MJB and compile immutable04 XML only; no MjData/forward/step. Recompute saved pre-state algebra, original torque-speed22.2V caps/350W scaling, and .005*sum(N*norm(saved contact-material velocity_xy))/sum(N) for each sole N>2. No regeneration of Jacobians. No settling subtraction.",
+  "interpretation": [
+    "Actual root is free, only original3 internal equalities;47 model arrays and all53files exact. Source has cold reset/scratch IK only, perstep no-applied-force assertions; saved post-to-next-pre qpos/qvel exact.",
+    "First two fail5mm before hold. Secondary minabs-torque allocation changes only static bias within same minimax bound; no qualifying improvement established.",
+    "Third explicitly authorized diagnostic keeps irreversible5mm failure at2.11s. It provides actual19.520\u201320.246mm body retreat/2s physical double support with<1deg tilt, not TCP-only/fixedtorso evidence.",
+    "Third additionally fails original hold0.5mm soft-penetration numerical gate:0.613459mm peak. This finite compliant contact error is distinct from mechanical-loop residual and real hard geometry interference.",
+    "Material metric is loadweighted absolute point tangential speed integral (with changing contact samples), not net or peak footcenter excursion and not one permanently tracked material mark; oscillation contributes.",
+    "All actual torques below original continuous torque-speed caps, no saturation/warnings; low power is not proven extra payload capacity, nor does stance failure show hardware torque shortage.",
+    "Inherited readiness TCP>5mm/200ms abort absent from runner; actual all-trial errors<4.433mm, so no trigger or effect on present failure conclusion.",
+    "No loaded attempt/cart/clamp/tongue reaction here. No20kg/0.5m/60s/maxload/gait/hardware mouth-upgrade qualification; no automatic further attempts."
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "steps": 688,
+      "duration_s": 3.439999999999949,
+      "compiled_arrays_exact": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_inertia": true,
+        "body_iquat": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_parentid": true,
+        "body_gravcomp": true,
+        "body_mocapid": true,
+        "jnt_type": true,
+        "jnt_bodyid": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "jnt_qposadr": true,
+        "jnt_dofadr": true,
+        "jnt_stiffness": true,
+        "dof_damping": true,
+        "dof_frictionloss": true,
+        "dof_armature": true,
+        "actuator_trnid": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "actuator_biasprm": true,
+        "actuator_dyntype": true,
+        "actuator_gaintype": true,
+        "actuator_biastype": true,
+        "eq_type": true,
+        "eq_obj1id": true,
+        "eq_obj2id": true,
+        "eq_data": true,
+        "eq_active0": true,
+        "geom_bodyid": true,
+        "geom_type": true,
+        "geom_size": true,
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_friction": true,
+        "geom_contype": true,
+        "geom_conaffinity": true,
+        "geom_dataid": true,
+        "mesh_vert": true,
+        "mesh_face": true,
+        "mesh_graph": true
+      },
+      "source53_count": 53,
+      "source_mismatches": [],
+      "free_root_type": 0,
+      "nmocap": 0,
+      "equalities": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation"
+      ],
+      "mass_kg": 16.970203928833527,
+      "robot_contact_geoms": 14,
+      "dt_s": 0.005,
+      "root_back_peak_m": 0.006103236416021049,
+      "root_final_pre_m": 0.006103236416021049,
+      "root_down_peak_m": 0.02095430169677928,
+      "first_5mm_cross_pre_s": 3.434999999999949,
+      "final_material_integral_right_left_m": [
+        0.005004596935662748,
+        0.003826870537868991
+      ],
+      "material_integral_0_995s_right_left_m": [
+        0.002103709492796752,
+        0.0012299046532322133
+      ],
+      "foot_center_peak_right_left_m": [
+        0.0016788286347191358,
+        0.002518960340573903
+      ],
+      "slip_recompute_error_m": 0.0,
+      "contact_force_transform_error_N": 0.0,
+      "postsettle_dual_support_fraction": 1.0,
+      "postsettle_Fn_min_right_left_N": [
+        65.8577042130086,
+        72.4132784543138
+      ],
+      "postsettle_Fn_max_right_left_N": [
+        88.71976055283842,
+        109.8537926065192
+      ],
+      "actual_mu_minmax": [
+        0.65,
+        0.65
+      ],
+      "torque_speed_violating_steps": 0,
+      "torque_recompute_max_error_Nm": 0.0,
+      "saturation_steps": 0,
+      "target_slew_max_excess_rad": 1.734723475976807e-17,
+      "peak_positive_power_W": 3.0491853861604477,
+      "per_axis_peak_abs_torque_Nm": {
+        "neck_yaw": 0.0449410654416832,
+        "neck_pitch": 4.154931809908654,
+        "neck_mid_pitch": 3.6407492381429165,
+        "head_pitch": 0.9940933976668459,
+        "head_roll": 0.0018529484559265323,
+        "beak_hinge": 0.018248012977612135,
+        "right_hip_yaw": 0.45192890474958813,
+        "right_hip_roll": 3.667630234294169,
+        "right_hip_pitch": 1.4997130352501875,
+        "right_knee_pitch": 3.0335159638062157,
+        "right_ankle_pitch": 1.9373154697137054,
+        "right_ankle_roll": 1.266925000000352,
+        "left_hip_yaw": 0.40694506722976376,
+        "left_hip_roll": 2.9714221448453033,
+        "left_hip_pitch": 1.2728650860046802,
+        "left_knee_pitch": 3.2793076491810687,
+        "left_ankle_pitch": 1.9026190846516438,
+        "left_ankle_roll": 1.136330382366788
+      },
+      "top_peak_continuous_utilization": [
+        [
+          "neck_pitch",
+          0.6492080952982272
+        ],
+        [
+          "right_ankle_roll",
+          0.633462500000176
+        ],
+        [
+          "right_hip_roll",
+          0.5730672241084639
+        ],
+        [
+          "neck_mid_pitch",
+          0.5688670684598307
+        ],
+        [
+          "left_ankle_roll",
+          0.568165191183394
+        ]
+      ],
+      "state_continuity_qpos_error": 0.0,
+      "state_continuity_qvel_error": 0.0,
+      "TCP_error_peak_m": 0.004432599182915023,
+      "max_tilt_deg": 0.8552527117052905,
+      "hold": null,
+      "global_contact_penetration_peak_m": 0.0007464787770291026,
+      "warnings": 0,
+      "saved_summary": {
+        "attempt": 1,
+        "mode": "UNLOADED_TRUE_FREE_ROOT",
+        "actual_steps": 688,
+        "sim_duration_s": 3.439999999999949,
+        "failure": "stance_material_slip_over5mm",
+        "error": null,
+        "unloaded_gate_pass": false,
+        "hold_steps": 0,
+        "hold_min_root_back_m": null,
+        "hold_root_back_range_m": [
+          0,
+          0
+        ],
+        "hold_max_closure_m_or_rad": 0,
+        "hold_max_contact_penetration_m": 0,
+        "final_root_back_m": 0.006103236416021049,
+        "max_root_back_m": 0.006103236416021049,
+        "foot_material_slip_integral_m": [
+          0.005004596935662748,
+          0.003826870537868991
+        ],
+        "max_tilt_deg": 0.8552527117052905,
+        "max_positive_power_W": 3.0491853861604477,
+        "max_observed_threads": 1,
+        "maxRSS_KiB": 2848416,
+        "source53_unchanged": true,
+        "GPU": 0,
+        "training": 0
+      },
+      "source_sha256": {
+        "actual_scene.mjb": "f399089e882d59a4c84a91a95a9219d1d280ba17c3d8b189c6405a894541ce54",
+        "substeps.jsonl.gz": "a52ced7b4a50447df79953d8b43da0377a52b7ef73a55711d6c23d3722c8c319",
+        "summary.json": "a275beab4cb41757a99740efc006749b61cc4f8c66bfe078ac759799de9fa30b",
+        "trajectory.npz": "75fc1011230a2eef7f979ae444bec8077a5b7fd2afc7a08232e16e8aa011dc8c",
+        "commands50hz.json": "ea5af3e012d25a23aa7e1e03d20883f3a456ea3931bb2abe21e7058d841d2542",
+        "declaration.json": "1796403f094dd738d8ea30e2fac5a706d836338640b3a04f7521866d5afb10ea",
+        "source_before.json": "8e2a140105959f575f7a38d45836061d970d010f7ec623b317531825dda97ee2",
+        "cold_state.npz": "2417dd6b943eb51c9f4929331a453aa776e5495b43f8db372feac751d5403ed4"
+      }
+    },
+    {
+      "attempt": 2,
+      "steps": 424,
+      "duration_s": 2.119999999999977,
+      "compiled_arrays_exact": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_inertia": true,
+        "body_iquat": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_parentid": true,
+        "body_gravcomp": true,
+        "body_mocapid": true,
+        "jnt_type": true,
+        "jnt_bodyid": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "jnt_qposadr": true,
+        "jnt_dofadr": true,
+        "jnt_stiffness": true,
+        "dof_damping": true,
+        "dof_frictionloss": true,
+        "dof_armature": true,
+        "actuator_trnid": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "actuator_biasprm": true,
+        "actuator_dyntype": true,
+        "actuator_gaintype": true,
+        "actuator_biastype": true,
+        "eq_type": true,
+        "eq_obj1id": true,
+        "eq_obj2id": true,
+        "eq_data": true,
+        "eq_active0": true,
+        "geom_bodyid": true,
+        "geom_type": true,
+        "geom_size": true,
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_friction": true,
+        "geom_contype": true,
+        "geom_conaffinity": true,
+        "geom_dataid": true,
+        "mesh_vert": true,
+        "mesh_face": true,
+        "mesh_graph": true
+      },
+      "source53_count": 53,
+      "source_mismatches": [],
+      "free_root_type": 0,
+      "nmocap": 0,
+      "equalities": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation"
+      ],
+      "mass_kg": 16.970203928833527,
+      "robot_contact_geoms": 14,
+      "dt_s": 0.005,
+      "root_back_peak_m": 0.002377050295812452,
+      "root_final_pre_m": 0.001862948023105147,
+      "root_down_peak_m": 0.017081787008085596,
+      "first_5mm_cross_pre_s": 2.1099999999999772,
+      "final_material_integral_right_left_m": [
+        0.004709971078502646,
+        0.0050128713495700495
+      ],
+      "material_integral_0_995s_right_left_m": [
+        0.002387100832746885,
+        0.002502756339650878
+      ],
+      "foot_center_peak_right_left_m": [
+        0.003582535803337507,
+        0.004097960200734807
+      ],
+      "slip_recompute_error_m": 0.0,
+      "contact_force_transform_error_N": 0.0,
+      "postsettle_dual_support_fraction": 1.0,
+      "postsettle_Fn_min_right_left_N": [
+        65.56882894949042,
+        67.28193995153069
+      ],
+      "postsettle_Fn_max_right_left_N": [
+        107.74483748968468,
+        105.41583591027131
+      ],
+      "actual_mu_minmax": [
+        0.65,
+        0.65
+      ],
+      "torque_speed_violating_steps": 0,
+      "torque_recompute_max_error_Nm": 0.0,
+      "saturation_steps": 0,
+      "target_slew_max_excess_rad": 1.734723475976807e-17,
+      "peak_positive_power_W": 1.7084677070528973,
+      "per_axis_peak_abs_torque_Nm": {
+        "neck_yaw": 0.06087142552283892,
+        "neck_pitch": 3.455422313972863,
+        "neck_mid_pitch": 3.3617884650585346,
+        "head_pitch": 0.9493518769016933,
+        "head_roll": 0.0030067788971484353,
+        "beak_hinge": 0.018294933715872912,
+        "right_hip_yaw": 0.12637046121021372,
+        "right_hip_roll": 1.66381283955189,
+        "right_hip_pitch": 0.6616682349546898,
+        "right_knee_pitch": 2.7912648885217455,
+        "right_ankle_pitch": 0.7174383013899661,
+        "right_ankle_roll": 0.5149674823806393,
+        "left_hip_yaw": 0.06363230690486794,
+        "left_hip_roll": 1.8902390379171738,
+        "left_hip_pitch": 0.8673241046743068,
+        "left_knee_pitch": 2.606197126939484,
+        "left_ankle_pitch": 0.9983731827462012,
+        "left_ankle_roll": 0.5188449390411685
+      },
+      "top_peak_continuous_utilization": [
+        [
+          "neck_pitch",
+          0.5399097365582598
+        ],
+        [
+          "neck_mid_pitch",
+          0.525279447665396
+        ],
+        [
+          "head_pitch",
+          0.47467593845084666
+        ],
+        [
+          "right_knee_pitch",
+          0.4361351388315227
+        ],
+        [
+          "left_knee_pitch",
+          0.40721830108429435
+        ]
+      ],
+      "state_continuity_qpos_error": 0.0,
+      "state_continuity_qvel_error": 0.0,
+      "TCP_error_peak_m": 0.003606451573240261,
+      "max_tilt_deg": 0.5071522994539832,
+      "hold": null,
+      "global_contact_penetration_peak_m": 0.0007281673072062275,
+      "warnings": 0,
+      "saved_summary": {
+        "attempt": 2,
+        "mode": "UNLOADED_TRUE_FREE_ROOT",
+        "actual_steps": 424,
+        "sim_duration_s": 2.119999999999977,
+        "failure": "stance_material_slip_over5mm",
+        "error": null,
+        "unloaded_gate_pass": false,
+        "hold_steps": 0,
+        "hold_min_root_back_m": null,
+        "hold_root_back_range_m": [
+          0,
+          0
+        ],
+        "hold_max_closure_m_or_rad": 0,
+        "hold_max_contact_penetration_m": 0,
+        "final_root_back_m": 0.001862948023105147,
+        "max_root_back_m": 0.002377050295812452,
+        "foot_material_slip_integral_m": [
+          0.004709971078502646,
+          0.0050128713495700495
+        ],
+        "max_tilt_deg": 0.5071522994539832,
+        "max_positive_power_W": 1.7084677070528973,
+        "max_observed_threads": 1,
+        "maxRSS_KiB": 2848416,
+        "source53_unchanged": true,
+        "GPU": 0,
+        "training": 0
+      },
+      "source_sha256": {
+        "actual_scene.mjb": "f399089e882d59a4c84a91a95a9219d1d280ba17c3d8b189c6405a894541ce54",
+        "substeps.jsonl.gz": "d5a5cf17048676cb86422a34d369b7860cd9fd5f1cdbec65e7b0d0aab914d826",
+        "summary.json": "65be6a8ca2d3245b94ab88d6fc6b8507886ee40fc1e74141ba8cacdd1de1d146",
+        "trajectory.npz": "41dc5d827116481dfa73d9e481c203332e65bf3e33104a7d3c6bb77cd2cab1f8",
+        "commands50hz.json": "dfff664f17bcf0a0f01df0bddc03060908ae0708efc6e6af3b1db260afd8d94f",
+        "declaration.json": "93aa4316e86c14d35a2cbef5c5a01530671235696b68cb0836566c9498df2479",
+        "source_before.json": "8e2a140105959f575f7a38d45836061d970d010f7ec623b317531825dda97ee2",
+        "cold_state.npz": "2417dd6b943eb51c9f4929331a453aa776e5495b43f8db372feac751d5403ed4"
+      }
+    },
+    {
+      "attempt": 3,
+      "steps": 2200,
+      "duration_s": 11.00000000000032,
+      "compiled_arrays_exact": {
+        "body_mass": true,
+        "body_ipos": true,
+        "body_inertia": true,
+        "body_iquat": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_parentid": true,
+        "body_gravcomp": true,
+        "body_mocapid": true,
+        "jnt_type": true,
+        "jnt_bodyid": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "jnt_qposadr": true,
+        "jnt_dofadr": true,
+        "jnt_stiffness": true,
+        "dof_damping": true,
+        "dof_frictionloss": true,
+        "dof_armature": true,
+        "actuator_trnid": true,
+        "actuator_gear": true,
+        "actuator_ctrlrange": true,
+        "actuator_forcerange": true,
+        "actuator_gainprm": true,
+        "actuator_biasprm": true,
+        "actuator_dyntype": true,
+        "actuator_gaintype": true,
+        "actuator_biastype": true,
+        "eq_type": true,
+        "eq_obj1id": true,
+        "eq_obj2id": true,
+        "eq_data": true,
+        "eq_active0": true,
+        "geom_bodyid": true,
+        "geom_type": true,
+        "geom_size": true,
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_friction": true,
+        "geom_contype": true,
+        "geom_conaffinity": true,
+        "geom_dataid": true,
+        "mesh_vert": true,
+        "mesh_face": true,
+        "mesh_graph": true
+      },
+      "source53_count": 53,
+      "source_mismatches": [],
+      "free_root_type": 0,
+      "nmocap": 0,
+      "equalities": [
+        "beak_distal_pin",
+        "left_yaw_input_rotor_belt_relation",
+        "right_yaw_input_rotor_belt_relation"
+      ],
+      "mass_kg": 16.970203928833527,
+      "robot_contact_geoms": 14,
+      "dt_s": 0.005,
+      "root_back_peak_m": 0.02024556239126918,
+      "root_final_pre_m": -0.0009324715407851367,
+      "root_down_peak_m": 0.023111331589617992,
+      "first_5mm_cross_pre_s": 2.1099999999999772,
+      "final_material_integral_right_left_m": [
+        0.015043702189788736,
+        0.015356231349840913
+      ],
+      "material_integral_0_995s_right_left_m": [
+        0.002387100832746885,
+        0.002502756339650878
+      ],
+      "foot_center_peak_right_left_m": [
+        0.008270604669806829,
+        0.00883341572766186
+      ],
+      "slip_recompute_error_m": 0.0,
+      "contact_force_transform_error_N": 0.0,
+      "postsettle_dual_support_fraction": 1.0,
+      "postsettle_Fn_min_right_left_N": [
+        64.24996878628372,
+        67.28193995153069
+      ],
+      "postsettle_Fn_max_right_left_N": [
+        107.74483748968468,
+        106.78555663717103
+      ],
+      "actual_mu_minmax": [
+        0.65,
+        0.65
+      ],
+      "torque_speed_violating_steps": 0,
+      "torque_recompute_max_error_Nm": 0.0,
+      "saturation_steps": 0,
+      "target_slew_max_excess_rad": 1.734723475976807e-17,
+      "peak_positive_power_W": 5.040428241987392,
+      "per_axis_peak_abs_torque_Nm": {
+        "neck_yaw": 0.06087142552283892,
+        "neck_pitch": 3.7285482513571946,
+        "neck_mid_pitch": 3.3617884650585346,
+        "head_pitch": 1.043182405299996,
+        "head_roll": 0.0030067788971484353,
+        "beak_hinge": 0.018294933715872912,
+        "right_hip_yaw": 0.12637046121021372,
+        "right_hip_roll": 3.610864020448937,
+        "right_hip_pitch": 1.1414247681432186,
+        "right_knee_pitch": 3.606778203025615,
+        "right_ankle_pitch": 2.4816627222722634,
+        "right_ankle_roll": 0.7910442881123896,
+        "left_hip_yaw": 0.08362157538438295,
+        "left_hip_roll": 3.616315629564944,
+        "left_hip_pitch": 1.5414412641481066,
+        "left_knee_pitch": 3.5573840742029352,
+        "left_ankle_pitch": 2.1731226968294823,
+        "left_ankle_roll": 0.8278458801712368
+      },
+      "top_peak_continuous_utilization": [
+        [
+          "neck_pitch",
+          0.5825856642745616
+        ],
+        [
+          "left_hip_roll",
+          0.5650493171195224
+        ],
+        [
+          "right_hip_roll",
+          0.5641975031951464
+        ],
+        [
+          "right_knee_pitch",
+          0.5635590942227523
+        ],
+        [
+          "left_knee_pitch",
+          0.5558412615942085
+        ]
+      ],
+      "state_continuity_qpos_error": 0.0,
+      "state_continuity_qvel_error": 0.0,
+      "TCP_error_peak_m": 0.003606451573240261,
+      "max_tilt_deg": 0.9405105518951293,
+      "hold": {
+        "duration_s": 2.0,
+        "root_back_minmax_m": [
+          0.0195202857697,
+          0.02024556239126918
+        ],
+        "root_down_minmax_m": [
+          0.022826024046585486,
+          0.023101694946849712
+        ],
+        "dual_support_fraction": 1.0,
+        "max_contact_penetration_m": 0.0006134590906075321,
+        "penetration_over0_5mm_steps": 29,
+        "max_equality_residual_m_or_rad": 3.796648917242084e-05
+      },
+      "global_contact_penetration_peak_m": 0.0007281673072062275,
+      "warnings": 0,
+      "saved_summary": {
+        "attempt": 3,
+        "mode": "UNLOADED_TRUE_FREE_ROOT",
+        "actual_steps": 2200,
+        "sim_duration_s": 11.00000000000032,
+        "failure": null,
+        "error": null,
+        "unloaded_gate_pass": false,
+        "irreversible_qualification_failure": {
+          "reason": "stance_material_slip_over5mm",
+          "first_time_s": 2.1099999999999772,
+          "foot_material_slip_m": [
+            0.00470384412858025,
+            0.005008201271727177
+          ],
+          "root_back_m": 0.001892289292155029
+        },
+        "diagnostic_only_not_loaded_admission": true,
+        "hold_steps": 400,
+        "hold_min_root_back_m": 0.0195202857697,
+        "hold_root_back_range_m": [
+          0.0195202857697,
+          0.02024556239126918
+        ],
+        "hold_max_closure_m_or_rad": 3.796648917242084e-05,
+        "hold_max_contact_penetration_m": 0.0006134590906075321,
+        "final_root_back_m": -0.0009324715407851367,
+        "max_root_back_m": 0.02024556239126918,
+        "foot_material_slip_integral_m": [
+          0.015043702189788736,
+          0.015356231349840913
+        ],
+        "max_tilt_deg": 0.9405105518951293,
+        "max_positive_power_W": 5.040428241987392,
+        "max_observed_threads": 1,
+        "maxRSS_KiB": 2848416,
+        "source53_unchanged": true,
+        "GPU": 0,
+        "training": 0
+      },
+      "source_sha256": {
+        "actual_scene.mjb": "f399089e882d59a4c84a91a95a9219d1d280ba17c3d8b189c6405a894541ce54",
+        "substeps.jsonl.gz": "8f59ecf9db7033a9f6d0bf5610a22f7ad801a1f9c5b5f26e1eaa7659b9a70d88",
+        "summary.json": "dcf2005b8600b5330c6d12788e080b122a6a043e06bc15af26c4c9c04ab53b85",
+        "trajectory.npz": "ac028c9ee449fffcda83d3c853ed502d6c1c931caa089c50e85d1b8372253483",
+        "commands50hz.json": "770ac3d6ce438cec4ef77721b777a9a8cdc7135e40e8419a1dac9947ee1fe95b",
+        "declaration.json": "bb7059fbae1e3e9f1e94de33b5f1e2803aed37d57a9ecaaf8faf13274fa14a62",
+        "source_before.json": "8e2a140105959f575f7a38d45836061d970d010f7ec623b317531825dda97ee2",
+        "cold_state.npz": "2417dd6b943eb51c9f4929331a453aa776e5495b43f8db372feac751d5403ed4"
+      }
+    }
+  ],
+  "source_sha256": {
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/run.py": "c6180195094e5d527573cc3f02c28034c07bd88e0ff2f164b65975d9ab1c997b",
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/run_l1.py": "a84bc2900994e5ed50a2213a1ffe07cc79ff153340ce84e61fb520af43894248",
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/run_diagnostic.py": "79163fdb1ea98e5e9d69d85184264bdda0bb6e77591e81faf5a6cb2110e1a75e",
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/prepare_l1_bias.py": "8905c11215fb56aeb05f85225d2f7533301219dcedead03a99a4b6d5305de8ff",
+    "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/l1_bias_proposal.json": "3b517e323d7f1ae7ef684cd6fd5153f8fba0368a2ef75f10dc920883ce99b523"
+  },
+  "order_sha256": "33d0293d90fec42ec1bd619a89b65053e2a3472c81871bcee96a13e8d9a173f8",
+  "amendment_sha256": "fb283465a13cad10082cac0ea049dea789c17e312010fdb6961a51d25158c8c3",
+  "scope": "Only G independent_review.md/json written; no source/model/Teacher/global-index changes. No jobs."
+}

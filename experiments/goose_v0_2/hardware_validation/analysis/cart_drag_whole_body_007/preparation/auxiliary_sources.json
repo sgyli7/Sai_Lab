@@ -1,0 +1,121 @@
+{
+  "schema": "separately_sealed_offline007_preparation_v1",
+  "files": [
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/ingress_geometry_review/review_paths.py",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/ingress_geometry_review/review_paths.py",
+      "bytes": 7639,
+      "sha256": "05f9e84216906c45ab56e70c88ece428ba5a3613451248270861274358876e6a"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/ingress_geometry_review/summary.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/ingress_geometry_review/summary.json",
+      "bytes": 10141,
+      "sha256": "a75898f1ae68112ea7cb8af5872f38d19faaa9c044494ae9049bfd8e244be3fd"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/ingress_geometry_review/sampled_paths.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/ingress_geometry_review/sampled_paths.json",
+      "bytes": 215597,
+      "sha256": "7db257b409c14e5622acd8e73a33f187270c52dac4caaeda797a3312e91433a7"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/ingress_geometry_review/REPORT.md",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/ingress_geometry_review/REPORT.md",
+      "bytes": 2708,
+      "sha256": "4c1e97cddd622e9d4f2e89e2c2774fd104697c3a92735cb8a4c71eaf5138fd5a"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/ingress_geometry_review/manifest.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/ingress_geometry_review/manifest.json",
+      "bytes": 352,
+      "sha256": "ea754cb4d18f82da28dc257eb9c1c43be269f6dea52d228ff61307c78e8efd05"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/readiness.md",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/readiness.md",
+      "bytes": 4194,
+      "sha256": "32ae9d086badf4af5567143d958c1ffd3cd4b7b7a4f1979e6bb243d022d0cd10"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/read_sources.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/read_sources.json",
+      "bytes": 1476,
+      "sha256": "4beb91914ed2f546ad6feb1e6d736a701b5489577a0a3902e12fb135e950257d"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/make_handoff.py",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/make_handoff.py",
+      "bytes": 9089,
+      "sha256": "11e39c9cb060832035def5cc3c9fdb8073108d2a0318c398cfaf365b7d8211b2"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/target_provider.py",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/target_provider.py",
+      "bytes": 3060,
+      "sha256": "f9ffaab63a0f3daad4a607bae38099b78383815075b45dbe031e0b748413d510"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/prepare_full_body.py",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/prepare_full_body.py",
+      "bytes": 8021,
+      "sha256": "02fb540a228b963154d10efdf45185abee8a0c0910c024c41f525d81e2cb249c"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/keyframes_static_checks.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/keyframes_static_checks.json",
+      "bytes": 402218,
+      "sha256": "0e9b060b70c0b397bba52de2cc4ff52e726028981f2169016762bcb5ccaa1f1d"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/next_trial_input.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/next_trial_input.json",
+      "bytes": 18925,
+      "sha256": "beef2800d45e829d32020a278445821ad2924b0a31912c9a40d297ef36110b51"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/offline_keyframe_qpos.npz",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/offline_keyframe_qpos.npz",
+      "bytes": 3046,
+      "sha256": "0b746fd5219e439e2d08aaa862703f147591c07480e98a5f2cd72c472b8f97e8"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/artifact_manifest.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/artifact_manifest.json",
+      "bytes": 1849,
+      "sha256": "e726d66b47a654b02f0fbf09bec73a47615cdaa3d80ac3d8a684feafad06bc9a"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/independent_admission.json",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/independent_admission.json",
+      "bytes": 4694,
+      "sha256": "4266abb27a88d40e1976d05ef65b97d7583f9c9fd849b9cc2913de503f845d5f"
+    },
+    {
+      "source": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/independent_admission.md",
+      "destination": "analysis/cart_drag_whole_body_007/preparation/full_body_readiness/independent_admission.md",
+      "bytes": 1998,
+      "sha256": "8a62e4210938b6bc0f5d24cdc75f5e93008a842db34a04fe6f6e59710c9e0e63"
+    }
+  ],
+  "ingress_original_manifest_sha256": "ea754cb4d18f82da28dc257eb9c1c43be269f6dea52d228ff61307c78e8efd05",
+  "ingress_finite_samples": 300,
+  "readiness_original_manifest_sha256": "e726d66b47a654b02f0fbf09bec73a47615cdaa3d80ac3d8a684feafad06bc9a",
+  "readiness_original_records": 8,
+  "later_G_admission_additions": [
+    {
+      "name": "independent_admission.json",
+      "sha256": "4266abb27a88d40e1976d05ef65b97d7583f9c9fd849b9cc2913de503f845d5f",
+      "bytes": 4694
+    },
+    {
+      "name": "independent_admission.md",
+      "sha256": "8a62e4210938b6bc0f5d24cdc75f5e93008a842db34a04fe6f6e59710c9e0e63",
+      "bytes": 1998
+    }
+  ],
+  "G_additions_not_claimed_inside_original8_manifest": true,
+  "new_dynamic_steps": 0,
+  "not_part_of006_dynamic_trials": true,
+  "scope": "Offline sampled geometry and readiness only; source reports retain all limitations. No full-path continuous proof or unloaded/loaded dynamic admission implied."
+}

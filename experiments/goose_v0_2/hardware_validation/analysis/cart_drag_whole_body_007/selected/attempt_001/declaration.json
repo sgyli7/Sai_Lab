@@ -1,0 +1,79 @@
+{
+  "attempt": 1,
+  "mode": "UNLOADED_TRUE_FREE_ROOT",
+  "source_model_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "frozen_provider_sha256": "f9ffaab63a0f3daad4a607bae38099b78383815075b45dbe031e0b748413d510",
+  "frozen_input_sha256": "beef2800d45e829d32020a278445821ad2924b0a31912c9a40d297ef36110b51",
+  "static_bias": true,
+  "declared_bias_multiplier": 1.0,
+  "root_and_feet_fixture": "NONE",
+  "equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "initial_root": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_public_q18": [
+    0.0,
+    0.677692881,
+    0.812988221,
+    -1.316148177,
+    0.0,
+    0.19682523,
+    -8.56057522649919e-09,
+    7.391619955536503e-09,
+    -1.5425309293686591e-07,
+    2.9158526139352187e-07,
+    -1.6872023253402917e-07,
+    -1.0653162022491995e-08,
+    8.573185244619558e-09,
+    -7.4038518829469525e-09,
+    1.544445520682789e-07,
+    -2.9195538295991963e-07,
+    1.6895025605948412e-07,
+    1.0666451790285253e-08
+  ],
+  "initial_target18": [
+    0.0,
+    0.677692881,
+    0.812988221,
+    -1.316148177,
+    0.0,
+    0.19682523,
+    -8.56057522649919e-09,
+    7.391619955536503e-09,
+    -1.5425309293686591e-07,
+    2.9158526139352187e-07,
+    -1.6872023253402917e-07,
+    -1.0653162022491995e-08,
+    8.573185244619558e-09,
+    -7.4038518829469525e-09,
+    1.544445520682789e-07,
+    -2.9195538295991963e-07,
+    1.6895025605948412e-07,
+    1.0666451790285253e-08
+  ],
+  "initial_contacts": [],
+  "hold_time_window_pre_s": [
+    5.0,
+    7.0
+  ],
+  "gates": {
+    "root_back_hold_min_m": 0.015,
+    "hold_duration_s_min": 2.0,
+    "foot_material_slip_limit_m": 0.005,
+    "tilt_max_deg": 25.0,
+    "dual_support_each_normal_N_min": 2.0,
+    "settling_s": 1.0,
+    "numerical_hold_max_closure_or_contact_pen_m": 0.0005
+  },
+  "jointtarget_only": true
+}

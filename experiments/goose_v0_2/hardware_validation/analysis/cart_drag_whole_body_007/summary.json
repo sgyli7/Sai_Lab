@@ -1,0 +1,65 @@
+{
+  "id": "cart_drag_whole_body_007",
+  "finished_utc": "2026-10-18T14:27:14.802178+00:00",
+  "dynamic_attempts": 3,
+  "physics_steps": 3312,
+  "loaded_attempts": 0,
+  "root_and_feet_fixtures": false,
+  "verdict": "UNLOADED_GATE_FAILED; wholebody20mm_retreat_hold_return_observed_only_in_unqualified_diagnostic",
+  "first5mm_gate_irreversible": true,
+  "third_qualified": false,
+  "third_observation": {
+    "root_back_hold_range_m": [
+      0.0195202857697,
+      0.02024556239126918
+    ],
+    "root_down_hold_range_m": [
+      0.022826024046585486,
+      0.023101694946849712
+    ],
+    "hold_duration_s": 2.0,
+    "dual_support_duty": 1.0,
+    "foot_normal_min_N": [
+      68.40799356963285,
+      69.83293979710784
+    ],
+    "foot_material_slip_final_m": [
+      0.015043702189788736,
+      0.015356231349840913
+    ],
+    "foot_center_hold_max_m": [
+      0.0074746283683236065,
+      0.007995359915759687
+    ],
+    "max_tilt_deg": 0.9405105518951293,
+    "peak_positive_power_W": 5.040428241987392,
+    "hold_max_contact_penetration_m": 0.0006134590906075321,
+    "final_root_back_m": -0.0009324715407851367
+  },
+  "control_change": "Trial2/3 same original minimax LP bound then secondary minsumabs torque; original allhardware/controllergains/caps/slew/timing unchanged",
+  "control_hypothesis_result": "Removing arbitrary yaw/roll static bias did not improve material-slip criterion; not evidence of inadequate hardware torque. Actual failure mostly lateral foot spreading, not longitudinal foot-back translation.",
+  "abort_implementation_gap": {
+    "TCP_5mm_200ms_abort_missing": true,
+    "actual_trigger_in_any_saved_trial": false,
+    "actual_max_TCP_error_m": [
+      0.004432599182915023,
+      0.003606451573240261,
+      0.003606451573240261
+    ]
+  },
+  "resources": {
+    "single_dynamic_process": true,
+    "cpu_affinity_cores": 4,
+    "max_observed_threads_each": [
+      1,
+      1,
+      1
+    ],
+    "maxRSS_KiB": 2848416,
+    "address_space_limit_GiB": 8,
+    "GPU": 0,
+    "PPO_or_other_training": 0
+  },
+  "no_jobs": true,
+  "no_automatic_next_round": true
+}

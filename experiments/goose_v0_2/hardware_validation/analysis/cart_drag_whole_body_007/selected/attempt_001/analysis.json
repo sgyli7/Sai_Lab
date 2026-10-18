@@ -1,0 +1,399 @@
+{
+  "attempt": 1,
+  "summary": {
+    "attempt": 1,
+    "mode": "UNLOADED_TRUE_FREE_ROOT",
+    "actual_steps": 688,
+    "sim_duration_s": 3.439999999999949,
+    "failure": "stance_material_slip_over5mm",
+    "error": null,
+    "unloaded_gate_pass": false,
+    "hold_steps": 0,
+    "hold_min_root_back_m": null,
+    "hold_root_back_range_m": [
+      0,
+      0
+    ],
+    "hold_max_closure_m_or_rad": 0,
+    "hold_max_contact_penetration_m": 0,
+    "final_root_back_m": 0.006103236416021049,
+    "max_root_back_m": 0.006103236416021049,
+    "foot_material_slip_integral_m": [
+      0.005004596935662748,
+      0.003826870537868991
+    ],
+    "max_tilt_deg": 0.8552527117052905,
+    "max_positive_power_W": 3.0491853861604477,
+    "max_observed_threads": 1,
+    "maxRSS_KiB": 2848416,
+    "source53_unchanged": true,
+    "GPU": 0,
+    "training": 0
+  },
+  "phases": {
+    "settle": {
+      "actual_duration_s": 1.0,
+      "root_back_start_end_m": [
+        0.0,
+        0.0005114203176236815
+      ],
+      "root_down_range_m": [
+        0.0,
+        0.0005733994800720321
+      ],
+      "foot_force_mean_world_N": [
+        [
+          1.248197157184294,
+          4.905898715294736,
+          76.09326345736113
+        ],
+        [
+          -1.256148208560556,
+          -4.888747538127181,
+          90.36838699211793
+        ]
+      ],
+      "foot_normal_min_N": [
+        0.0,
+        0.0
+      ],
+      "dual_support_duty": 0.995,
+      "foot_material_slip_end_m": [
+        0.002103709492796752,
+        0.0012299046532322133
+      ],
+      "foot_center_max_excursion_m": [
+        0.000597101972797913,
+        0.0009833052787711263
+      ],
+      "max_tilt_deg": 0.13713760705938777,
+      "max_TCP_error_m": 0.0011084689841061666,
+      "max_penetration_m": 0.0007464787770291026,
+      "max_closure_by_name": {
+        "beak_distal_pin": 6.256361086420803e-07,
+        "left_yaw_input_rotor_belt_relation": 1.666829164335222e-05,
+        "right_yaw_input_rotor_belt_relation": 7.676130643541682e-05
+      }
+    },
+    "crouch": {
+      "actual_duration_s": 1.5050000000000001,
+      "root_back_start_end_m": [
+        0.0005165278943200573,
+        0.0005927476339173137
+      ],
+      "root_down_range_m": [
+        0.0005773838281733397,
+        0.02069018163446041
+      ],
+      "foot_force_mean_world_N": [
+        [
+          0.8454418206252496,
+          3.407494955132361,
+          76.01741812686072
+        ],
+        [
+          -1.133860000215463,
+          -3.43362733672201,
+          90.3816399252144
+        ]
+      ],
+      "foot_normal_min_N": [
+        65.8577042130086,
+        72.4132784543138
+      ],
+      "dual_support_duty": 1.0,
+      "foot_material_slip_end_m": [
+        0.003927611900849393,
+        0.0028394581619912117
+      ],
+      "foot_center_max_excursion_m": [
+        0.0011003729312129159,
+        0.0018401474579732755
+      ],
+      "max_tilt_deg": 0.8552527117052905,
+      "max_TCP_error_m": 0.004432599182915023,
+      "max_penetration_m": 0.0005999184068899294,
+      "max_closure_by_name": {
+        "beak_distal_pin": 1.101903367661805e-06,
+        "left_yaw_input_rotor_belt_relation": 2.002130007664317e-05,
+        "right_yaw_input_rotor_belt_relation": 1.0025652823410225e-05
+      }
+    },
+    "body_back": {
+      "actual_duration_s": 0.935,
+      "root_back_start_end_m": [
+        0.00042953167713234816,
+        0.006103236416021049
+      ],
+      "root_down_range_m": [
+        0.02069101133576009,
+        0.02095430169677928
+      ],
+      "foot_force_mean_world_N": [
+        [
+          0.4050807390980538,
+          4.565199493696963,
+          76.12588666526008
+        ],
+        [
+          -0.07481540024956398,
+          -4.5791941386255015,
+          90.48146355255798
+        ]
+      ],
+      "foot_normal_min_N": [
+        66.65427085008992,
+        75.28941289891893
+      ],
+      "dual_support_duty": 1.0,
+      "foot_material_slip_end_m": [
+        0.005004596935662748,
+        0.003826870537868991
+      ],
+      "foot_center_max_excursion_m": [
+        0.0016788286347191358,
+        0.002518960340573903
+      ],
+      "max_tilt_deg": 0.771434721825148,
+      "max_TCP_error_m": 0.0022030427343541987,
+      "max_penetration_m": 0.0005980114885867083,
+      "max_closure_by_name": {
+        "beak_distal_pin": 9.058905914294257e-07,
+        "left_yaw_input_rotor_belt_relation": 2.901651633947181e-05,
+        "right_yaw_input_rotor_belt_relation": 8.164059509752769e-06
+      }
+    }
+  },
+  "caps22p2V_verified": true,
+  "max_actual_torque18_Nm": [
+    0.0449410654416832,
+    4.154931809908654,
+    3.6407492381429165,
+    0.9940933976668459,
+    0.0018529484559265323,
+    0.018248012977612135,
+    0.45192890474958813,
+    3.667630234294169,
+    1.4997130352501875,
+    3.0335159638062157,
+    1.9373154697137054,
+    1.266925000000352,
+    0.40694506722976376,
+    2.9714221448453033,
+    1.2728650860046802,
+    3.2793076491810687,
+    1.9026190846516438,
+    1.136330382366788
+  ],
+  "max_actual_drive_speed18_rad_s": [
+    0.22283516971694597,
+    0.8869833669829632,
+    0.5529936915992685,
+    0.4724392282791573,
+    0.013679519904675154,
+    0.00037083166216719604,
+    0.41790436617743504,
+    0.16866313993136345,
+    0.3321904617714701,
+    0.5695973542325218,
+    0.3424007970323987,
+    2.1500480285844654,
+    0.14057499026074302,
+    0.2033250617959235,
+    0.3309625763503143,
+    0.5862655494075192,
+    0.39246264966818495,
+    2.0533120207856355
+  ],
+  "caps_saturation_duty18": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "foot_friction_diagnostics": [
+    {
+      "foot": "right_actual_sole",
+      "contact_friction_utilization_p95": 0.7442505072798653,
+      "contact_friction_utilization_max": 1.0000000000000002,
+      "normal_impulse_at_mu_saturation_fraction": 0.0029740126081293267
+    },
+    {
+      "foot": "left_actual_sole",
+      "contact_friction_utilization_p95": 0.444146562126466,
+      "contact_friction_utilization_max": 1.0000000000000002,
+      "normal_impulse_at_mu_saturation_fraction": 0.0016404681541562262
+    }
+  ],
+  "signed_foot_pose_snapshots": [
+    {
+      "time_s": 0.0,
+      "root_xyz": [
+        0.0,
+        0.0,
+        0.005000002805734566
+      ],
+      "foot_geom_signed_displacement_world_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "foot_R_world": [
+        [
+          0.0007615857664785286,
+          0.04984368339331091,
+          0.9987567407596871,
+          0.9999718950295584,
+          0.007411266643725933,
+          -0.001132377028470466,
+          -0.007458494360077672,
+          0.9987295331332343,
+          -0.04983663822287479
+        ],
+        [
+          -0.0005955170345426919,
+          0.049797534025278756,
+          0.9987591556348652,
+          0.9999782832944737,
+          -0.0065256095575667306,
+          0.0009216069366274615,
+          0.006563406044502729,
+          0.9987380147090175,
+          -0.04979256647524394
+        ]
+      ]
+    },
+    {
+      "time_s": 1.0000000000000007,
+      "root_xyz": [
+        -0.0005165278943200573,
+        0.00033770264571045326,
+        0.004422618977561226
+      ],
+      "foot_geom_signed_displacement_world_m": [
+        [
+          -0.00039732464095150466,
+          -4.1444526643549806e-05,
+          -0.00021027880478435845
+        ],
+        [
+          2.955918887682929e-05,
+          0.000993111642450098,
+          -0.0002700523955590159
+        ]
+      ],
+      "foot_R_world": [
+        [
+          -0.015590848789020256,
+          0.04745636419431548,
+          0.9987516302522359,
+          0.9998568730707806,
+          0.0073028893344872226,
+          0.015261100238636471,
+          -0.0065695362974400595,
+          0.9988466155045175,
+          -0.04756343015397327
+        ],
+        [
+          0.005016130818051828,
+          0.04880882158775535,
+          0.9987955433254776,
+          0.999962327814742,
+          -0.007320356085653124,
+          -0.004664261796551439,
+          0.007083881912039347,
+          0.9987813130620732,
+          -0.04884370271654656
+        ]
+      ]
+    },
+    {
+      "time_s": 2.499999999999969,
+      "root_xyz": [
+        -0.0005927476339173137,
+        0.00026483762005030193,
+        -0.015690178828725844
+      ],
+      "foot_geom_signed_displacement_world_m": [
+        [
+          -0.0006760507537599755,
+          -0.0008682027217687543,
+          -0.00024529050908737166
+        ],
+        [
+          0.0001969656958994842,
+          0.0018295756835190885,
+          -0.00026820723935703367
+        ]
+      ],
+      "foot_R_world": [
+        [
+          -0.019981314659638566,
+          0.04754823677725922,
+          0.9986690704351733,
+          0.9997859194864824,
+          0.006317605821465677,
+          0.01970286916315228,
+          -0.005372360844938029,
+          0.9988489640761837,
+          -0.0476642916961271
+        ],
+        [
+          -0.001876153869750763,
+          0.04780273705613253,
+          0.9988550337144062,
+          0.999976079679118,
+          -0.006560053043209585,
+          0.00219220748590937,
+          0.006657335521664753,
+          0.9988352537000389,
+          -0.04778928593042009
+        ]
+      ]
+    }
+  ],
+  "TCP_abort_implementation_audit": {
+    "runner_missing_5mm_200ms_abort": true,
+    "actual_TCP_error_max_m": 0.004432599182915023,
+    "actual_max_continuous_duration_over5mm_s": 0.0,
+    "would_original_TCP_abort_have_triggered": false
+  },
+  "source_robot53_unchanged": true,
+  "only_original_equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "compiled_mass_kg": 16.97020392883353,
+  "compiled_robot_geoms": 14,
+  "physics_dt_s": 0.005,
+  "videos": [
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/attempt_001/continuous_original_speed.mp4",
+      "sha256": "afcf3f715170a91619832449094260de43dbcdd100068dc99fb868ac86f7cfb9",
+      "decode_returncode": 0,
+      "readback": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007/attempt_001/continuous_original_speed.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:03.45, start: 0.000000, bitrate: 32 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x480, 28 kb/s, 20 fps, 20 tbr, 10240 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 640x480, q=2-31, 200 kb/s, 20 fps, 20 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 wrapped_avframe\n[out#0/null @ 0x1c2aec50] video:30KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=   69 fps=0.0 q=-0.0 Lsize=N/A time=00:00:03.45 bitrate=N/A speed= 252x    \n"
+    }
+  ]
+}

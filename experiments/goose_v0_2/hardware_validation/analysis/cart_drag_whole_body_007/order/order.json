@@ -1,0 +1,83 @@
+{
+  "id": "cart_drag_whole_body_007",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "model": "gpt-6.1-sol",
+  "purpose": "Test actual free-root leg-driven body retreat under original Goose04 hardware before extending heavy-cart dragging; no fixed-torso neck motion as substitute.",
+  "parent": "cart_drag_probe_006 closed4/4/6424; offline full_body_readiness and ingress_geometry_review retained separately",
+  "issued_utc": "2026-10-18 14:16:47 UTC",
+  "hard_deadline_utc": "2026-10-18 14:31:47 UTC",
+  "stop_new_trials_utc": "2026-10-18 14:27:47 UTC",
+  "budget": {
+    "wall_minutes": 15,
+    "dynamic_attempts_max": 3,
+    "physics_steps_total_max": 7000,
+    "CPU_experiment_processes": 1,
+    "CPU_threads_max": 4,
+    "memory_GiB_max": 8,
+    "GPU": 0,
+    "training_updates": 0
+  },
+  "source_robot": {
+    "release": "physics_v0_2_20261018_04",
+    "files": 53,
+    "mass_kg": 16.97020392883353,
+    "sha_robot_xml": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "sha_physical_contract": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "sha_actuator_contract": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "sha_adapter": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+  },
+  "source_cart": {
+    "release": "low_profile_stock_cart_03_collision_004",
+    "immutable_files": 37,
+    "cart_xml_sha256": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd",
+    "empty_estimated_kg": 7.815342443,
+    "payload_kg": 20,
+    "cart_leaves": 20,
+    "robot_leaves": 14,
+    "scope": "Loaded variant only, actual free box/cargo and unbound cart. Original004 not overwritten."
+  },
+  "offline_input": {
+    "path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness",
+    "manifest_sha256": "e726d66b47a654b02f0fbf09bec73a47615cdaa3d80ac3d8a684feafad06bc9a",
+    "next_trial_input_sha256": "beef2800d45e829d32020a278445821ad2924b0a31912c9a40d297ef36110b51",
+    "target_provider_sha256": "f9ffaab63a0f3daad4a607bae38099b78383815075b45dbe031e0b748413d510",
+    "qualification": "Offline double-stance IK/static LP only, not prior dynamic gait success. Old Move receipts fail backward behavior."
+  },
+  "action_program": "One second actual free-root settling / loaded grip preparation plus10s joint-target program: lower body20mm, leg-driven body-back20mm, hold2s, return. Robot root and feet never fixed or controlled by state writes. Only18 joint targets through original adapter.",
+  "controller": {
+    "first_unloaded_static_LP_tau_over_kp_bias": true,
+    "qualification": "Predeclared Teacher variant, unvalidated dynamic realization of a static torque distribution. Original controller gains, drive caps, slew, torque-speed22.2V derating,350W positive mechanical budget and disabled peaks remain. Record nominal request, bias, actual target, actual torque/speed each step.",
+    "loaded_target": "New007 wrapper anchors requested TCP to actual cold rod plus planned20mm backward world trajectory; do not cancel traction by unconditionally chasing actual rod. Actual rod used for monitoring/grip feedback. Frozen readiness provider retained."
+  },
+  "trial_priority": [
+    "First unloaded true-free-root double-stance11s segment with predeclared staticLP bias. Actual root/body motion, not TCP movement, decides the gate.",
+    "Only after unloaded gate passes: same segment with real20kg cargo+7.815kg cart and declared cold physical clamp initialization. This is not a full approach/grasp demonstration. Original passive k20Nm/rad,qref.0276930475 fixture and nominal8N wheel-friction cap are explicit experimental assumptions.",
+    "At most one additional targeted correction or matched unloaded/loaded repeat. If unloaded fails, spend remaining attempt only on a justified bounded control correction, not loaded trials or new gait development. Do not automatically use all attempts."
+  ],
+  "unloaded_gate": {
+    "root_back_at_hold_m_min": 0.015,
+    "root_down_reference_m": 0.02,
+    "hold_s_min": 2,
+    "physical_dual_support_required": true,
+    "max_stance_foot_slip_m": 0.005,
+    "tilt_deg_max": 25,
+    "drive_and_numeric_contracts_required": true,
+    "meaning": "Exploratory20mm free-root body-retreat control only, not alternating gait or0.5m drag acceptance."
+  },
+  "loaded_evaluation": "Separately record true root and cart/cargo backward displacement, actual rod force, grip retention, stance slip and continuous torques. No predeclared success if only neck retracts, cart is pre-pushed, or non-rod contacts do the work. Initial holding may be cold-prepared but no robot-object binding. Tongue load, grip internal force and non-rod contacts must be measured;0/8/20N offline LP did not include all of these.",
+  "invariants": [
+    "All original hardware MCI, joints, actuator contracts, collision geometry/filter rules and physical timestep. Preserve200Hz drive/physics and50Hz commands.",
+    "A single declared cold reset may initialize free-root pose and passive mechanical coordinates. After start, live qpos/qvel are read-only except the physical integrator; FK/IK scratch state is separate.",
+    "No torso/foot fixture, root force, object teleport, suction, weld to robot, robotic pose projection, or additional robot-object constraint. Existing internal mouth loop retained.",
+    "No random friction lowering. Foot-ground original effective assumption .65; wheel resistance and spring assumptions reported separately and not real-material qualification.",
+    "No PPO, GPU, ONNX policy recovery or long gait project."
+  ],
+  "abort": "Preserve failures and stop on NaN/drive contract breach, tilt>25deg, loss of intended support, stance-foot slip>5mm, significant unexplained initial penetration>.5mm or unexpected non-rod pre-push. Numerical closure/penetration and IK tracking errors separately report; allow only declared initial settling, never silently change criteria.",
+  "measurements": "Pre-state aligned actual contacts and6D forces, sole normal/tangent/CoP and material slip, root pose/velocity and COM, true cart/cargo and rod poses, grip/native pad versus shell/shaft, all actual drive outputs/limits, positive mechanical power, closure and penetration, warnings, thread/RSS/resource receipts; continuous original-speed video.",
+  "data": {
+    "raw": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_whole_body_007",
+    "selected": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/analysis/cart_drag_whole_body_007"
+  },
+  "exit": "Return by deadline with finite achieved scope and next hardware/control question. Failed controller does not prove hardware torque insufficient. No automatic renewal, no claim maximum mass, sustained rating, full grasp,0.5m walking, cross-engine or real-world acceptance."
+}

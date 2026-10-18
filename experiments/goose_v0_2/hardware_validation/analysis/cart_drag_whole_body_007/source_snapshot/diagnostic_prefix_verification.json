@@ -1,0 +1,5 @@
+{
+  "trial2_3_common_qpos_prefix_bitwise_equal": true,
+  "trial2_3_common_qvel_prefix_bitwise_equal": true,
+  "shared_states": 425
+}

@@ -27,6 +27,14 @@
       "decision": "FINITE_LOCAL_CONTACT_EVIDENCE_NOT_WHOLE_ROBOT_OR_HARDWARE_UPGRADE",
       "historical_steps": 6424,
       "new_integrator_steps": 0
+    },
+    {
+      "id": "cart_drag_whole_body_007",
+      "exact_copies": 48,
+      "raw_indexed_records": 56,
+      "decision": "ORIGINAL_GATE_FAIL_DIAGNOSTIC_UNLOADED_POSE_ONLY",
+      "historical_steps": 3312,
+      "new_integrator_steps": 0
     }
   ],
   "cart_static_history": {
@@ -64,7 +72,7 @@
     "no_simulator_import_or_calls": true
   },
   "native_simulator_compiled_or_imported": false,
-  "historical_python_sources_parsed_not_imported": 72,
+  "historical_python_sources_parsed_not_imported": 84,
   "original_sources_requested": true,
   "raw_files_checked_this_invocation": 382,
   "original_raw_manifest_files": 382,

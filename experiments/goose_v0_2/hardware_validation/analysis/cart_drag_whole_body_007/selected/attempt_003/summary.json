@@ -1,0 +1,40 @@
+{
+  "attempt": 3,
+  "mode": "UNLOADED_TRUE_FREE_ROOT",
+  "actual_steps": 2200,
+  "sim_duration_s": 11.00000000000032,
+  "failure": null,
+  "error": null,
+  "unloaded_gate_pass": false,
+  "irreversible_qualification_failure": {
+    "reason": "stance_material_slip_over5mm",
+    "first_time_s": 2.1099999999999772,
+    "foot_material_slip_m": [
+      0.00470384412858025,
+      0.005008201271727177
+    ],
+    "root_back_m": 0.001892289292155029
+  },
+  "diagnostic_only_not_loaded_admission": true,
+  "hold_steps": 400,
+  "hold_min_root_back_m": 0.0195202857697,
+  "hold_root_back_range_m": [
+    0.0195202857697,
+    0.02024556239126918
+  ],
+  "hold_max_closure_m_or_rad": 3.796648917242084e-05,
+  "hold_max_contact_penetration_m": 0.0006134590906075321,
+  "final_root_back_m": -0.0009324715407851367,
+  "max_root_back_m": 0.02024556239126918,
+  "foot_material_slip_integral_m": [
+    0.015043702189788736,
+    0.015356231349840913
+  ],
+  "max_tilt_deg": 0.9405105518951293,
+  "max_positive_power_W": 5.040428241987392,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 2848416,
+  "source53_unchanged": true,
+  "GPU": 0,
+  "training": 0
+}

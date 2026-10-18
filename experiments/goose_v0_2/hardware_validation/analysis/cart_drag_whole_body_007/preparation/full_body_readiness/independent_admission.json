@@ -1,0 +1,42 @@
+{
+  "status": "ADMIT_BOUNDED_UNLOADED_FREE_ROOT_DOUBLE_STANCE_EXPLORATION_ONLY",
+  "review_utc": "2026-10-18T14:16:13.041007+00:00",
+  "source_sha256": {
+    "readiness.md": "32ae9d086badf4af5567143d958c1ffd3cd4b7b7a4f1979e6bb243d022d0cd10",
+    "next_trial_input.json": "beef2800d45e829d32020a278445821ad2924b0a31912c9a40d297ef36110b51",
+    "keyframes_static_checks.json": "0e9b060b70c0b397bba52de2cc4ff52e726028981f2169016762bcb5ccaa1f1d",
+    "prepare_full_body.py": "02fb540a228b963154d10efdf45185abee8a0c0910c024c41f525d81e2cb249c",
+    "target_provider.py": "f9ffaab63a0f3daad4a607bae38099b78383815075b45dbe031e0b748413d510"
+  },
+  "input_only": true,
+  "new_integrations": 0,
+  "new_LP": 0,
+  "new_forward": 0,
+  "review_findings": [
+    "No critical axis-order,unit or11s timing mismatch found. Provider uses1s free-root prelude followed by10s smoothstep joint program; root coordinates are reference/diagnostics only. Negative offline rootZafter20mm lowering is a translation of robot reference,not proof body is belowfloor.",
+    "Provider writes onlyscratch MjData for neckFK/IK and returns18actions; actual stepping remains original adapter. Passive linkages are initialized once and thereafter solved physically; no online mimic projection is proposed.",
+    "Default rawPD/static_biasFalse is exploratory. Optionaltau_static_0N/kp is a preallocated ideal static solution,not measured torque nor proven feedback. Mode must be declared beforetheattempt and nominal/biased/actual targets logged.",
+    "Static solver uses actual sole low vertices,conservative8facetmu.65cone,originalcontinuous caps and mechanical equalities. It credits no passive joint friction,but also does not add a separate actuator friction reserve. Static feasible is a plausibilityscreen,not dynamic stability or loaded hardware qualification.",
+    "0/8/20N are prescribed horizontal mathematical mouthwrenches. They do not instantiate actualcart,pitchgravitytongue load,grip retention,wheel reactions or dynamic transients. This only admits the initial unloaded short segment.",
+    "No existing backward receipt is being treated as successful gait. Singlefoot/60mm failed poses are excluded from the new10s request sequence."
+  ],
+  "required_executor_admission_checks": [
+    "Build firstunloadedscene from frozen04with genuine freejoint and only originalinternalmechanical equalities. Assertno leftover006torso weld,root/foot locks,rootwrench,qfrc orotherhidden supports.",
+    "One declared cold reset sets rootZ0.005000002805734566,fullfirst18jointpose and all4internal coordinates consistently; setadapter target toactual initialized joints so originalreset neutral necktargets do not leak in. No dynamic qposwrites.",
+    "Use actual simulationtime0..11s withoriginal200Hzphysics/drive and50Hzaction. Raw smoothstep target-speed fractions do not bound actual velocity,torque orstability; logactualcontractenforcement.",
+    "Measure actualroot20mm motion,solecontactforces/stance slip,tilt and hold2s independently ofheadTCP. Aneckshortening orTCPmoving20mm withstationaryrootcannot pass. Keep actualTCPerror distinctfromreported scratchIKerror,especially whenstaticbias changesrequests.",
+    "Keep existing25degtilt,drives/warnings,supportloss,5mmsole sliding and5mmTCPerror sustained200ms aborts. Endpoint anderror tolerances must be declared foranyPASSlabel; otherwise report exploratoryactualresult,not formalPASS.",
+    "Do notrunloadedvariant merelybecauseLPfeasible. Proceed onlyafter observedunloadedstage isclassified andPMauthorizes atmost1\u20132bounded loadedattempts withtruefreecart/cargo,declaredspringcondition and no binding."
+  ],
+  "not_claimed": [
+    "Reliablegait",
+    "0.5mretreat",
+    "Alternatingsinglestep",
+    "20kgdraggingcapacity",
+    "Anycompletegrasp/pathacceptance",
+    "Static LPability as actualjointtorque/thermal/powerproof"
+  ],
+  "jobs": "FINAL_NO_JOBS",
+  "007_manager_predeclared_mode": "First unloaded attempt static_bias=True in new007wrapper; original readiness/provider remain unchanged. This is declared exploratorystaticLPtargetbias,not validated feedback; all originalcaps and slew remain.",
+  "loaded_interface_limitation": "Existing provider usesactualrod_world as IKtarget whenever supplied. That can extendneck tocancel bodyback pull. Therefore currentinterfacealone is not admitted forloaded traction. Future007loadedwrapper must holda declared coldrodanchor with20mm worldretreatplan ordeclaredbody-relativeheadpose; actualrodfeedback measuresgrip/error and mustnot silently nullpullerror. Do notedit sealedprovider. Loaded onlyafter actualunloadedstagepasses and separately records truegravitytongue/clamp/rod andnonrod contactforces."
+}

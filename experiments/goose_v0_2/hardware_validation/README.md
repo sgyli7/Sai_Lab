@@ -102,3 +102,9 @@ python tools/verify_static.py --check-originals
 ```
 
 该入口只核对哈希、ZIP、JSON/XML结构、相对资产路径及源码语法；不import运行适配器或历史脚本，不调用forward/step，不重放接触。输出到stdout；[static_validation.json](static_validation.json)是交接时已保存的静态收据，不是新物理验收。本次核查不执行任何历史脚本。资料的发布身份以Git提交和发布收据为准，目录存在或静态校验通过不代表动态任务通过。
+
+## Closed007: unloaded whole-body diagnostic, original gate failed
+
+[Report](analysis/cart_drag_whole_body_007/report.md), [independent review](analysis/cart_drag_whole_body_007/independent_review.md), [PM scope](analysis/cart_drag_whole_body_007/pm_review.md), [bright original-speed video](analysis/cart_drag_whole_body_007/selected/attempt_003/bright_proxy_original_speed.mp4). Three attempts/3312 historical steps; **loaded attempts0**. The third was declared diagnostic observation only: root moved back19.520–20.246mm with bilateral2s support and tilt0.941deg, but original5mm slip gate permanently FAIL. Contact-switching normal-force-weighted absolute tangential-speed accumulation was15.044/15.356mm per foot, not permanent material-point net translation; foot centres moved about8mm and hold ground penetration0.613mm exceeded0.5mm. Producer lateral-vector analysis is not independently recomputed by G. No loaded/gait/mouth upgrade or20kg/0.5m/60s qualification.
+
+Two separately frozen offline preparation sources under007/preparation contain300 offline geometry samples and original8 readiness records plus2 later independent admission files, separately identified. They are not extra006 dynamics. Original three dark videos and full logs remain in ProjectBackups; the selected11s bright replay changes lighting only and adds0 physics steps. [Reproduction contract](analysis/cart_drag_whole_body_007/reproduction_contract.json) and I/O-only preparation wrapper preserve the three input variants. No runner was executed while archiving.

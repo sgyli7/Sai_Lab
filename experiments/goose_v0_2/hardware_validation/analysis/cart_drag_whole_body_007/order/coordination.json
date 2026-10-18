@@ -1,0 +1,20 @@
+{
+  "state": "closed_pm_reviewed_unloaded_not_qualified",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "executor": "/root/teacher_ik_mouth_probe",
+  "issued_utc": "2026-10-18 14:16:47 UTC",
+  "hard_deadline_utc": "2026-10-18 14:31:47 UTC",
+  "training_updates": 0,
+  "GPU": 0,
+  "independent_admission": "accepted_unloaded_11s_only",
+  "independent_admission_path": "/home/ethan/ProjectBackups/2026-10-18/Sai_Lab/cart_drag_probe_006/full_body_readiness/independent_admission.md",
+  "dynamic_attempts": 3,
+  "physics_steps": 3312,
+  "loaded_attempts": 0,
+  "unloaded_acceptance": false,
+  "limited_evidence": "Final diagnostic realized19.520–20.246mm free-root body retreat with2s dual-support hold and return; all original actuator limits retained.",
+  "failure_boundary": "Original5mm material-slip qualification fails permanently at2.110s in trial3; final right/left cumulative15.044/15.356mm, hold ground intrusion0.613mm. No loaded release.",
+  "no_further_trials": true,
+  "independent_review_json_sha256": "4684b271bd5261e7d7a46eff90f4d440350d6027daf1d5d2281c3caf410b0e7e",
+  "PM_decision": "Keep hardware04 and mouth unchanged. Preserve finite free-root posture evidence and failed stance qualification; next focus lateral dual-support/foot-span control and soft-contact numerics, not unjustified actuator upgrades."
+}

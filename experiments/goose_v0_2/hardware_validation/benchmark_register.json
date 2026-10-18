@@ -1,6 +1,6 @@
 {
   "schema": "goose_v02_next_hardware_benchmarks_v1",
-  "state": "CLOSED006_FINITE_LOCAL_CONTACT_NOT_WHOLE_ROBOT_DRAG",
+  "state": "CLOSED007_UNLOADED_ORIGINAL_GATE_FAIL",
   "robot_input": "physics_v0_2_20261018_04",
   "robot_mass_kg": 16.970203928833527,
   "historical_grip_100g": "Fixed torso/head local capture/hold exploration; not passed free-robot grasp/lift/place",
@@ -106,5 +106,22 @@
     "pre_capture_push_mm": 10.13,
     "ingress_shaft_contact_time_s": 1.025,
     "release_pin_residual_mm": 1.778
+  },
+  "closed_unloaded_whole_body_007": {
+    "id": "cart_drag_whole_body_007",
+    "entry": "analysis/cart_drag_whole_body_007",
+    "copy_manifest": "analysis/cart_drag_whole_body_007/archive_copy_manifest.json",
+    "copy_manifest_sha256": "b2668ba2f2ef5d92a58154dcc0ee3915e434f67e9b857afe5a63444637752b0f",
+    "producer_manifest": "analysis/cart_drag_whole_body_007/artifact_manifest.json",
+    "producer_manifest_sha256": "df654bf7526ba78cc534b62a6f0183c00ed07913b3d897b5dcffd6d8a95444e7",
+    "producer_manifest_entries": 56,
+    "independent_review": "analysis/cart_drag_whole_body_007/independent_review.json",
+    "independent_review_sha256": "4684b271bd5261e7d7a46eff90f4d440350d6027daf1d5d2281c3caf410b0e7e",
+    "decision": "ORIGINAL_GATE_FAIL_DIAGNOSTIC_UNLOADED_POSE_ONLY",
+    "attempts": 3,
+    "producer_physics_steps": 3312,
+    "loaded_attempts": 0,
+    "free_root_or_20kg_whole_robot_qualification": false,
+    "interpretation": "Third diagnostic root back19.520–20.246mm, bilateral2s, tilt0.941deg. Original5mm slip FAIL; cumulative normal-force-weighted tangential speed integral15.044/15.356mm is not permanent material point displacement. Ground intrusion0.613mm; loaded0, no gait/mouth qualification."
   }
 }

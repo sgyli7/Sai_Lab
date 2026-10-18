@@ -1,0 +1,16 @@
+{
+  "id": "cart_drag_whole_body_007_trial3_diagnostic",
+  "issued_utc": "2026-10-18 14:22:06 UTC",
+  "owner": "Sai_Rotbots hardware PM / current chat",
+  "reason": "Both unloaded tests hit the unchanged5mm cumulative material-slip gate before the planned body-back/hold interval. Need one full empty-body observation to distinguish a modest stance drift from inability to realize the leg-driven posture; no new controller or loaded qualification.",
+  "trial": 3,
+  "maximum_extra_physics_steps": 2200,
+  "maximum_simulated_seconds": 11,
+  "same_as_attempt_002": "Same frozen04 scene, original contacts/drives, secondary minimum-absolute-torque bias, target provider, cold initialization and timing; no gains/geometry/friction/power changes.",
+  "qualification_gate": "Original5mm slip threshold and all acceptance criteria remain. Mark failure irrevocably at first crossing; this diagnostic cannot become an accepted empty gate and cannot release a loaded run.",
+  "diagnostic_stop_difference": "Only this last unloaded diagnostic may continue after that qualification failure to observe the remaining20mm body-back/hold/return. Abort actual simulation at gross material slip20mm per foot, tilt25deg, loss of intended support, numeric/drive violation or other original safety aborts. Record first5mm crossing and all later states.",
+  "stop_new_trials_utc": "2026-10-18 14:27:47 UTC",
+  "hard_deadline_utc": "2026-10-18 14:31:47 UTC",
+  "overall_budget": "Original≤3trials/7000steps/4CPUthreads/8GiB/0GPU/0training; this is the third and final existing slot, no renewal.",
+  "output": "Unqualified whole-sequence diagnostic video and actual root/foot/torque/contact/closure measurements; negative or positive posture evidence clearly distinguished from the already-failed acceptance gate."
+}

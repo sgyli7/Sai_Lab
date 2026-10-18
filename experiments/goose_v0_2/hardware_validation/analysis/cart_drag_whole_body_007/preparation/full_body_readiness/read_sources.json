@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-09/Sai_Lab/goose_move_200hz_fast_001/native_gpu_mature_native_optimizer_474/root_final384_flat21_actual001/backward/receipt.json",
+    "sha256": "424e5f363e968c38f5cc3d926381fe0ef86b4785b2ac812799fcdeec0fd48054",
+    "read_only": true
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-09/Sai_Lab/goose_move_200hz_fast_001/native_c14_reverse_origin_combo_eval_369/root278_reverse_origin_xyz_actual001/backward/receipt.json",
+    "sha256": "9f0ed6f473eede8296cf30ce4ee95b57e2a806cc4455d64f178ff2cf36eb25e8",
+    "read_only": true
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-09/Sai_Lab/goose_move_200hz_fast_001/native_c14_joint_capability_eval_398/root_shared405_full23_actual001/source369/backward/receipt.json",
+    "sha256": "57196b4f90832cf7aa41c422557435bac91603e8b9ddfd21242132d42162a48d",
+    "read_only": true
+  },
+  {
+    "path": "/home/ethan/ProjectBackups/2026-10-09/Sai_Lab/goose_move_200hz_fast_001/native_c14_postgrasp_teacher_probe_379/teacher_hold5_walk2m_stop_actual001/explicit_teacher_result379.json",
+    "sha256": "f85b0fd3c3ff9cc62befc08d0286e566b9cca457217d190864b8752f4aabb595",
+    "read_only": true
+  },
+  {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/legacy_move14_reference.json",
+    "sha256": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a",
+    "read_only": true
+  }
+]

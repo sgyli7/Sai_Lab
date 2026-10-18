@@ -126,6 +126,22 @@
       "producer_physics_steps": 6424,
       "free_root_or_20kg_whole_robot_qualification": false,
       "unclosed_ingress_and_readiness_excluded": true
+    },
+    {
+      "id": "cart_drag_whole_body_007",
+      "entry": "analysis/cart_drag_whole_body_007",
+      "copy_manifest": "analysis/cart_drag_whole_body_007/archive_copy_manifest.json",
+      "copy_manifest_sha256": "b2668ba2f2ef5d92a58154dcc0ee3915e434f67e9b857afe5a63444637752b0f",
+      "producer_manifest": "analysis/cart_drag_whole_body_007/artifact_manifest.json",
+      "producer_manifest_sha256": "df654bf7526ba78cc534b62a6f0183c00ed07913b3d897b5dcffd6d8a95444e7",
+      "producer_manifest_entries": 56,
+      "independent_review": "analysis/cart_drag_whole_body_007/independent_review.json",
+      "independent_review_sha256": "4684b271bd5261e7d7a46eff90f4d440350d6027daf1d5d2281c3caf410b0e7e",
+      "decision": "ORIGINAL_GATE_FAIL_DIAGNOSTIC_UNLOADED_POSE_ONLY",
+      "attempts": 3,
+      "producer_physics_steps": 3312,
+      "loaded_attempts": 0,
+      "free_root_or_20kg_whole_robot_qualification": false
     }
   ]
 }
