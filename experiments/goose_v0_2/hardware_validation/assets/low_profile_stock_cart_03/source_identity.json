@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+    "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+  },
+  "mass_screen": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/geometry_mass_screen.json",
+    "sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+  },
+  "pose_context": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+    "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3",
+    "field": "robot_full_qpos"
+  },
+  "step": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.step",
+    "sha256": "46f1ac2e3e305f7b4d0ec800971e35de1dab0b16798708cafce0bc4dba8adf9a"
+  },
+  "glb": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.glb",
+    "sha256": "7a4f650456058d5ba7b9ed81a5a01964c3ed028c55aebec41c6371be042ea5e9"
+  },
+  "cad_builder": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_low_profile_stock_cart_03.py",
+    "sha256": "0c6e734925e73319a84bcfed4a74504de4fdbd3c7cb507113e46c5d561d63756"
+  },
+  "locked_geometry_identity": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/locked_geometry_identity.json",
+    "sha256": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+  }
+}

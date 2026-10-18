@@ -1,0 +1,160 @@
+{
+  "design_id": "low_profile_stock_cart_03",
+  "revision": "r4_collinear_pitch_420",
+  "revision_change": "Move yaw/pitch fulcrum to bite height420mm; add bolted double3mm aluminium offset plates with twoM4 bolts and crush sleeves, keeping the exact R3 angled front geometry and mouth clearance.",
+  "units": "mm",
+  "status": "engineering_concept_not_load_or_robot_drag_qualified",
+  "payload_target_kg": 20.0,
+  "platform_length": 650.0,
+  "platform_width": 450.0,
+  "deck_top_z": 181.5,
+  "deck_thickness": 1.5,
+  "frame_height": 30.0,
+  "frame_width": 20.0,
+  "frame_wall": 1.5,
+  "frame_center_z": 165.0,
+  "cargo_clear_length": 610.0,
+  "cargo_clear_width": 410.0,
+  "rail_top_z": 290.0,
+  "wheel_diameter": 125.0,
+  "wheel_width": 25.0,
+  "wheel_contact_x": [
+    80.0,
+    570.0
+  ],
+  "wheel_contact_y_abs": 190.0,
+  "front_caster_trail": 25.0,
+  "grip_center": [
+    -346.1259770181131,
+    0,
+    420.0
+  ],
+  "grip_height_adjust_range": [
+    400,
+    440
+  ],
+  "grip_height_step": 20,
+  "grip_outer_diameter": 12.0,
+  "grip_steel_core_diameter": 8.0,
+  "grip_clear_bite_length": 100.0,
+  "grip_total_length": 160.0,
+  "drawbar_yaw_limit_deg": 60.0,
+  "drawbar_pitch_limit_deg": 25.0,
+  "drawbar_axial_roll": "free_bearing_rotation",
+  "robot_04_preferred_grip_robot_frame_m": [
+    0.3,
+    0,
+    0.42
+  ],
+  "robot_04_preferred_neck_pitch_mid_head_rad": [
+    0.6776928810446406,
+    0.8129882210909366,
+    -1.316148176817102
+  ],
+  "materials": {
+    "aluminium_frame": {
+      "density_kg_m3": 2700.0,
+      "grade_target": "6061-T6 bolted extrusion",
+      "E_N_mm2_assumed": 69000.0,
+      "screen_allowable_MPa": 70.0
+    },
+    "aluminium_sheet": {
+      "density_kg_m3": 2700.0,
+      "grade_target": "5052-H32 nominal, procurement pending"
+    },
+    "steel": {
+      "density_kg_m3": 7850.0,
+      "grade_target": "corrosion-protected structural steel fork and pins; purchase specification pending"
+    },
+    "stainless": {
+      "density_kg_m3": 8000.0,
+      "grade_target": "304 bite core, sealed and food-contact review pending"
+    },
+    "nylon": {
+      "density_kg_m3": 1150.0,
+      "grade_target": "wheel hub engineering nylon assumed"
+    },
+    "polyurethane": {
+      "density_kg_m3": 1200.0,
+      "grade_target": "wheel and bite sleeve; compound, hardness and food-contact qualification pending"
+    }
+  },
+  "procurement": "No OEM SKU chosen. Castor/fork/bearing/brake solids are engineering interface envelopes and custom fabrication candidates, not downloaded vendor CAD. Selected bought wheel module must meet dimensions and mass before design freeze.",
+  "assumptions": [
+    "One 600x400 mm tote or boxed goods, cargo COM restricted near deck center.",
+    "Smooth indoor supermarket floor; no powered cart drive or robot docking latch.",
+    "Two front swivel wheels and two rear fixed wheels, rear manual parking brakes.",
+    "Yaw, pitch and axial roll joints are cart hardware; no added robot joint or object binding.",
+    "Pitch spring must balance drawbar self-weight; no automatic hold-position assumption."
+  ],
+  "derived_from": {
+    "design_id": "low_profile_stock_cart_02",
+    "commit": "52ff7029eb2fd0b668747ae9dda5fa9e3655f03e"
+  },
+  "drawhead_pitch_deg": 0.0,
+  "drawhead_pivot_center": [
+    -95,
+    0,
+    420.0
+  ],
+  "mast_bottom_z": 150.0,
+  "mast_top_z": 480.0,
+  "height_lock_holes_z": [
+    400.0,
+    420.0,
+    440.0
+  ],
+  "cart_origin_robot_frame_mm": [
+    646.1259770181132,
+    0,
+    0
+  ],
+  "verified_nominal_grip_height_mm": 420.0,
+  "grip_height_adjustment_note": "At the nominal free-pitch configuration, carriage and sleeve center heights are both400/420/440mm. Front shaft manufactured offset/angle10deg is built in; only420mm has the current prescribed GooseFK check.",
+  "robot_full_qpos": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.6776928810446406,
+    0.8129882210909366,
+    -1.316148176817102,
+    0.0,
+    0.19682523003160665,
+    0.19682523003160665,
+    -0.19682523003160665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "force_pose_input_SHA256": "df9a17cf91fb5768b721338564db88a99ec485ed1a4e0da227d4bb4450f91b3f",
+  "grip_center_definition": "Actual sleeve center is retained from R3. The free pitch fulcrum and yaw fulcrum are now at the same nominal height420mm, removing extra horizontal-force pitch torque. Front shaft remains inclined10deg via a real offset bracket, not via applied spring torque.",
+  "retained_front_pivot_center": [
+    -95.0,
+    0,
+    375.71971469493275
+  ],
+  "front_tilt_deg": 10.0,
+  "offset_plate_thickness_mm": 3.0,
+  "offset_crossbolt_nominal_M": 4,
+  "offset_crossbolt_positions_unpitched_x_mm": [
+    -110.0,
+    -130.0
+  ],
+  "free_pitch_initial_deg": 0.0
+}

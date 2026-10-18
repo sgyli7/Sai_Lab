@@ -1,0 +1,21 @@
+{
+  "wall_seconds": 1.64268159866333,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "thread_limit_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "address_space_limit_GiB": 8,
+  "max_RSS_KiB": 2848416,
+  "physics_steps": 0,
+  "forward_calls": 2,
+  "GPU": 0,
+  "training_updates": 0,
+  "process_exits_after_return": true
+}

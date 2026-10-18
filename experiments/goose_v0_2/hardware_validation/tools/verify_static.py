@@ -32,7 +32,7 @@ def inside(root, relative):
 
 
 def verify_cart_data(root, versions, failures, check_originals):
-    cart = versions.get("cart_inputs")
+    cart = versions.get("historical_cart_inputs", [versions.get("cart_inputs")])[0]
     if not cart:
         return None
     index = json.loads(inside(root, cart["integration_index"]).read_text())
@@ -102,6 +102,60 @@ def verify_cart_data(root, versions, failures, check_originals):
     return dict(status="STATIC_FILE_STRUCTURE_ONLY", producer_indexed_files=counts, XML_collision_geoms=xml_counts, passive_axes=9, empty_mass_kg=cart["empty_mass_kg"], independent_review=review["status"], metadata_correction_chain_verified=True, cargo_instances=0, integration_or_forward_executed_by_this_check=False)
 
 
+def verify_incremental_data(root, versions, failures, check_originals):
+    declaration = versions.get("low_handle_integration")
+    if not declaration:
+        return None
+    index = json.loads(inside(root, declaration["path"]).read_text())
+    if sha(inside(root, declaration["path"])) != declaration["sha256"]:
+        failures.append("Low-handle integration index changed")
+    counts = {}
+    for item in index["locked_manifests"]:
+        path = inside(root, item["path"])
+        if sha(path) != item["sha256"]:
+            failures.append("Increment producer manifest changed: " + item["path"])
+        data = json.loads(path.read_text())
+        rows = data["files"]
+        if isinstance(rows, dict):
+            rows = [dict(name=k, **v) for k, v in rows.items()]
+        for row in rows:
+            target = inside(root, row["path"]) if "path" in row else path.parent / row["name"]
+            if not target.is_file() or sha(target) != row["sha256"]:
+                permitted = index.get("producer_log_change", {})
+                if target == inside(root, permitted.get("path", ".")) and sha(target) == permitted.get("actual_sha256"):
+                    continue
+                failures.append("Increment locked file mismatch: " + str(target.relative_to(root)))
+        counts[item["path"]] = len(rows)
+    for rel in index["copy_maps"]:
+        for row in json.loads(inside(root, rel).read_text())["files"]:
+            target = inside(root, row["destination"])
+            if not target.is_file() or sha(target) != row["sha256"]:
+                failures.append("Increment source copy mismatch: " + row["destination"])
+            if check_originals and sha(Path(row["source"])) != row["sha256"]:
+                failures.append("Increment original source mismatch: " + row["source"])
+    cart = versions["cart_inputs"]
+    counts_xml = {}
+    for label, rel in [("cart", cart["cart_xml"]), ("combined", cart["combined_xml"])]:
+        path = inside(root, rel)
+        xml = ET.parse(path).getroot()
+        compiler = xml.find("compiler")
+        meshdir = compiler.get("meshdir", ".") if compiler is not None else "."
+        for mesh in xml.findall("./asset/mesh"):
+            target = (path.parent / meshdir / mesh.get("file")).resolve()
+            if not target.is_relative_to(root.resolve()) or not target.is_file():
+                failures.append("Increment unresolved mesh: " + str(target))
+        geoms = [g for body in xml.find("worldbody").findall("body") for g in body.iter("geom")]
+        counts_xml[label] = len(geoms)
+        if label == "cart":
+            if len(xml.findall(".//body")) != cart["cart_bodies"] or len(xml.findall(".//joint")) != cart["cart_passive_axes"]:
+                failures.append("Current cart body/passive-axis count changed")
+            if abs(sum(float(x.get("mass")) for x in xml.findall(".//inertial")) - cart["empty_mass_kg"]) > 1e-9:
+                failures.append("Current cart mass mismatch")
+    if counts_xml != {"cart": cart["cart_leaves"], "combined": 14 + cart["cart_leaves"]}:
+        failures.append("Current cart collision XML count changed")
+    return dict(status="STATIC_FILES_ONLY", locked_manifest_entries=counts, XML_collision_geoms=counts_xml, producer_log_difference_explicitly_recorded=True, no_simulator_import_or_calls=True)
+
+
 def main(check_originals):
     root = Path(__file__).resolve().parents[1]
     versions = json.loads((root / "input_versions.json").read_text())
@@ -166,6 +220,7 @@ def main(check_originals):
     if actuator["positive_mechanical_power_limit_w"] != 350 or actuator["peak_output_enabled"]:
         failures.append("Frozen continuous-only power contract changed")
     cart_check = verify_cart_data(root, versions, failures, check_originals)
+    increment_check = verify_incremental_data(root, versions, failures, check_originals)
     # Parse only. Importing these archived files could execute old orders.
     python_files = list(root.rglob("*.py"))
     for source in python_files:
@@ -192,7 +247,7 @@ def main(check_originals):
             target = inside(root, row["path"])
             if not target.is_file() or sha(target) != row["sha256"]:
                 failures.append("Dataset file changed: " + row["path"])
-    report = dict(schema="goose_v02_data_handoff_static_check_v1", status="PASS_STATIC_DATA_ONLY" if not failures else "REJECT", copied_files_checked=len(copied["files"]), archive_members_checked=len(members), frozen_manifest_entries=len(manifest["files"]), mesh_references_resolved=len(assets), rigid_bodies=actual[0], public_axes=actual[1], internal_coordinates=actual[2], collision_geoms=actual[3], mass_kg=mass, embedded_contract_release_id=contract["release_id"], cart_static=cart_check, native_simulator_compiled_or_imported=False, historical_python_sources_parsed_not_imported=len(python_files), original_sources_requested=check_originals, raw_files_checked_this_invocation=raw_checked, original_raw_manifest_files=sum(row["manifest_entries"] for row in raw_indexes), physical_steps=0, forward_calls=0, contact_replays=0, training_updates=0, GPU_use=0, new_experiment_orders=0, failures=failures, scope="Byte identity, archive and static structure only; no new physical, contact, task or manufacturing validation")
+    report = dict(schema="goose_v02_data_handoff_static_check_v1", status="PASS_STATIC_DATA_ONLY" if not failures else "REJECT", copied_files_checked=len(copied["files"]), archive_members_checked=len(members), frozen_manifest_entries=len(manifest["files"]), mesh_references_resolved=len(assets), rigid_bodies=actual[0], public_axes=actual[1], internal_coordinates=actual[2], collision_geoms=actual[3], mass_kg=mass, embedded_contract_release_id=contract["release_id"], cart_static_history=cart_check, low_handle_increment=increment_check, native_simulator_compiled_or_imported=False, historical_python_sources_parsed_not_imported=len(python_files), original_sources_requested=check_originals, raw_files_checked_this_invocation=raw_checked, original_raw_manifest_files=sum(row["manifest_entries"] for row in raw_indexes), physical_steps=0, forward_calls=0, contact_replays=0, training_updates=0, GPU_use=0, new_experiment_orders=0, failures=failures, scope="Byte identity, archive and static structure only; no new physical, contact, task or manufacturing validation")
     print(json.dumps(report, indent=2, ensure_ascii=False))
     return 0 if not failures else 1
 

@@ -18,33 +18,81 @@
   "MCI_not_recomputed_from_proxies": true,
   "cart_inputs": {
     "status": "collision_candidate_static_only",
-    "asset_directory": "assets/low_profile_stock_cart_01",
-    "cart_xml": "assets/low_profile_stock_cart_01/cart.xml",
-    "combined_xml": "assets/low_profile_stock_cart_01/goose_cart_scene.xml",
-    "combined_xml_sha256": "53b5c2f412b4a5dc76024ddcdbe2d49193cc71bd210a94dd20e6fd87f4bd14ad",
-    "cart_collision_GLB_sha256": "3c98330ed6aaecc34e1108f7e66838c0f35eb5592b7547b72f9170b1e366038d",
-    "integration_index": "analysis/cart_data_integration_001/admitted_inputs.json",
-    "source_copy_map": "analysis/cart_data_integration_001/source_copy_manifest.json",
-    "empty_mass_kg": 7.800864011651539,
+    "candidate_id": "low_profile_stock_cart_03_collision_004",
+    "asset_directory": "assets/low_profile_stock_cart_03",
+    "cart_xml": "assets/low_profile_stock_cart_03/cart.xml",
+    "combined_xml": "assets/low_profile_stock_cart_03/goose_cart_scene.xml",
+    "combined_xml_sha256": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c",
+    "cart_collision_GLB_sha256": "33e20f12e5d7f683ebe52c6a5a50a07b004d608353cc4de000327078c1cb07e3",
+    "empty_mass_kg": 7.815342442756589,
     "unresolved_reserve_kg": 0.35,
-    "cart_leaves": 18,
+    "cart_leaves": 20,
     "cart_types": {
       "box": 8,
       "cylinder": 6,
-      "mesh": 4
+      "mesh": 6
     },
-    "cart_mesh_supports": 188,
-    "cart_mesh_faces": 360,
+    "cart_mesh_supports": 212,
+    "cart_mesh_faces": 400,
     "cart_max_mesh_supports": 64,
     "cart_bodies": 10,
     "cart_passive_axes": 9,
-    "goose_cart_leaves": 32,
+    "goose_cart_leaves": 34,
     "ground_planes": 1,
     "cargo_instances": 0,
     "physics_steps": 0,
     "robot04_changed": false,
-    "independent_gate": "analysis/cart_independent_review_001/independent_release_gate.json",
-    "independent_gate_sha256": "e87e7dbba7b56cb2715f3b182e7fd7a79512d33dbfb18530f553e9ceb4644ba8"
+    "actual_bite_height_mm": 420,
+    "actual_pitch_pivot_height_mm": 420,
+    "front_shape_fixed_pitch_deg": 10,
+    "initial_cart_pitch_q_rad": 0,
+    "independent_gate": "analysis/cart_low_handle_independent_002/independent_release_gate.json",
+    "independent_gate_sha256": "4a7e62721490c00170280ba0401b714713e357de621b5a24b7b2131b4dfc5126",
+    "initial_keyframe": "collinear_420_front_fixed10"
   },
-  "deferred_review_roots": []
+  "deferred_review_roots": [],
+  "historical_cart_inputs": [
+    {
+      "status": "collision_candidate_static_only",
+      "asset_directory": "assets/low_profile_stock_cart_01",
+      "cart_xml": "assets/low_profile_stock_cart_01/cart.xml",
+      "combined_xml": "assets/low_profile_stock_cart_01/goose_cart_scene.xml",
+      "combined_xml_sha256": "53b5c2f412b4a5dc76024ddcdbe2d49193cc71bd210a94dd20e6fd87f4bd14ad",
+      "cart_collision_GLB_sha256": "3c98330ed6aaecc34e1108f7e66838c0f35eb5592b7547b72f9170b1e366038d",
+      "integration_index": "analysis/cart_data_integration_001/admitted_inputs.json",
+      "source_copy_map": "analysis/cart_data_integration_001/source_copy_manifest.json",
+      "empty_mass_kg": 7.800864011651539,
+      "unresolved_reserve_kg": 0.35,
+      "cart_leaves": 18,
+      "cart_types": {
+        "box": 8,
+        "cylinder": 6,
+        "mesh": 4
+      },
+      "cart_mesh_supports": 188,
+      "cart_mesh_faces": 360,
+      "cart_max_mesh_supports": 64,
+      "cart_bodies": 10,
+      "cart_passive_axes": 9,
+      "goose_cart_leaves": 32,
+      "ground_planes": 1,
+      "cargo_instances": 0,
+      "physics_steps": 0,
+      "robot04_changed": false,
+      "independent_gate": "analysis/cart_independent_review_001/independent_release_gate.json",
+      "independent_gate_sha256": "e87e7dbba7b56cb2715f3b182e7fd7a79512d33dbfb18530f553e9ceb4644ba8"
+    }
+  ],
+  "historical_low_handle_candidate": {
+    "candidate": "low_profile_stock_cart_02_collision_003",
+    "asset_directory": "assets/low_profile_stock_cart_02",
+    "status": "REJECT_LOAD_OPTIMIZATION_AND_RELEASE_RECOMMENDATION_GEOMETRY_ONLY_PASSES",
+    "mass_kg": 7.730322989641887,
+    "gate": "analysis/cart_low_handle_independent_001/independent_release_gate.json",
+    "gate_sha256": "38e04829fb9807faf390d43425287743bf205cfc03d81b71018317fec6410669"
+  },
+  "low_handle_integration": {
+    "path": "analysis/low_handle_data_integration_001/admitted_inputs.json",
+    "sha256": "76b7e46213ef2d5946ce5899cfddbfc23338a9a9b8753491cca9f31e2bce5664"
+  }
 }

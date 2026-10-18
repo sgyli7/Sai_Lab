@@ -1,0 +1,10 @@
+{
+  "static_study_manifest_sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1",
+  "static_study_records": 20,
+  "static_study_mismatches": [
+    "cart02_build.log"
+  ],
+  "CAD_locked_identity_sha256": "cbf01ec3934a6110f627274943e55e6ea8cda232439ce256b5c900be487b2aa2",
+  "CAD_records": 5,
+  "CAD_identity_mismatches": []
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "low_handle_02_static_applicability_hold_v1",
+  "status": "PUBLICATION_PAUSED_PENDING_TOW_PITCH_LOAD_PATH_DECISION",
+  "candidate": "low_profile_stock_cart_02",
+  "rod_height_mm": 420,
+  "pivot_height_mm": 375.7197,
+  "horizontal_pull_N": 20,
+  "additional_pitch_moment_Nm_approx": 0.886,
+  "required_downward_mouth_load_N_approx": 3.53,
+  "unbalanced_cart_tow_assembly_gravity_not_yet_closed": true,
+  "source": "Root/G actual passive-pitch load-path finding2026-10-18",
+  "interpretation": "Original Fz=0 static robot comparison redistributes burden; it does not establish lower handle real-system load reduction, energy saving, cart load-path equilibrium, or20kg performance.",
+  "original_static_result_and_source_preserved": true,
+  "head_pitch_utilisation_approx_old_new": [
+    0.152,
+    0.471
+  ],
+  "neck_root_utilisation_approx_old_new": [
+    0.511,
+    0.378
+  ],
+  "original_finite_static_20N_utilisation": 0.5653547828409318,
+  "original_20N_plus3N_lateral_utilisation": 1.0769771366020626,
+  "physical_steps": 0,
+  "new_solver_calls": 0,
+  "training_updates": 0
+}

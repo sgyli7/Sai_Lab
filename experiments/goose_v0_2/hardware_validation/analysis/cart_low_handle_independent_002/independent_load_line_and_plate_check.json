@@ -1,0 +1,217 @@
+{
+  "loads": [
+    {
+      "case": "R2_baseline",
+      "source_count": 14,
+      "mass_kg": 0.3265992122612504,
+      "gravity_moment_Nm": -0.5536335285120899,
+      "tongue_down_N": 2.1711118765179998,
+      "reported_tongue_down_N": 2.1711118765179998,
+      "tongue_error_N": 0.0,
+      "bar_minus_pitch_z_m": 0.0,
+      "horizontal20N_moment_Nm": 0.0,
+      "complete_current_body_source_subset": null
+    },
+    {
+      "case": "R4_collinear",
+      "source_count": 26,
+      "mass_kg": 0.38569866537595143,
+      "gravity_moment_Nm": -0.5538609501195538,
+      "tongue_down_N": 2.205510384453796,
+      "reported_tongue_down_N": 2.205510384453796,
+      "tongue_error_N": 0.0,
+      "bar_minus_pitch_z_m": 0.0,
+      "horizontal20N_moment_Nm": 0.0,
+      "complete_current_body_source_subset": true
+    }
+  ],
+  "cases": [
+    {
+      "case": "R2_no_self_weight_balance",
+      "F_world_N": [
+        20.0,
+        0.0,
+        -2.1711118765179998
+      ],
+      "reported_u": 0.6856191651688727,
+      "recomputed_u": 0.6856191651688727,
+      "error": 0.0,
+      "head_roll_u": 0.2623875031929443,
+      "axes_at_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "case": "R4_no_self_weight_balance",
+      "F_world_N": [
+        20.0,
+        0.0,
+        -2.205510384453796
+      ],
+      "reported_u": 0.6200057501073661,
+      "recomputed_u": 0.6200057501073661,
+      "error": 0.0,
+      "head_roll_u": 0.2623078252346794,
+      "axes_at_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "case": "R4_no_balance_plus3N_lateral",
+      "F_world_N": [
+        20.0,
+        3.0,
+        -2.205510384453796
+      ],
+      "reported_u": 1.0769771366020626,
+      "recomputed_u": 1.0769771366020628,
+      "error": 2.220446049250313e-16,
+      "head_roll_u": 1.0769771366020626,
+      "axes_at_max": [
+        "head_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "gate": "FAIL_CONTINUOUS_STATIC"
+    },
+    {
+      "case": "R2_fully_self_weight_balanced",
+      "F_world_N": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "reported_u": 0.6318205682849238,
+      "recomputed_u": 0.6318205682849238,
+      "error": 0.0,
+      "head_roll_u": 0.2623875031929443,
+      "axes_at_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "case": "R4_fully_self_weight_balanced",
+      "F_world_N": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "reported_u": 0.5653547828409318,
+      "recomputed_u": 0.5653547828409318,
+      "error": 0.0,
+      "head_roll_u": 0.2623078252346794,
+      "axes_at_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    }
+  ],
+  "subset_names": [
+    "bite_304_core_d8",
+    "bite_core_support_-85",
+    "bite_core_support_85",
+    "bite_yoke_shaft_socket",
+    "bite_yoke_tube_-85",
+    "bite_yoke_tube_85",
+    "drawbar_main_22x2",
+    "offset_M4_washer_0_-14.25",
+    "offset_M4_washer_0_14.25",
+    "offset_M4_washer_1_-14.25",
+    "offset_M4_washer_1_14.25",
+    "offset_crossbolt_M4_0",
+    "offset_crossbolt_M4_1",
+    "offset_crush_sleeve_0",
+    "offset_crush_sleeve_1",
+    "offset_locknut_M4_envelope_0",
+    "offset_locknut_M4_envelope_1",
+    "pitch_offset_plate_y-12.5",
+    "pitch_offset_plate_y12.5",
+    "replaceable_bite_sleeve_d12",
+    "roll_bearing_608_interface_-207.5",
+    "roll_bearing_608_interface_-240.5",
+    "roll_bearing_housing",
+    "rotating_forward_shaft_d8",
+    "shaft_axial_retaining_collar_-202.5",
+    "shaft_axial_retaining_collar_-245.5"
+  ],
+  "metadata_parts_exact_equal": true,
+  "metadata_changed_top_level_fields": [
+    "drawbar_hand_end_moving_mass_kg",
+    "drawbar_COM_mm",
+    "unbalanced_vertical_bite_force_N",
+    "pitch_balance_spring_target_Nm"
+  ],
+  "metadata_old_sha256": "2edfe1fa003adbaee8efe07cc3ea2b869c787b0f4bf4a18568a912b5f09c31ac",
+  "metadata_new_sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+  "native_plate_gap_mm": 22.0,
+  "proxy_plate_gap_m": 0.021999999880790704,
+  "proxy_gap_points_world_m": [
+    0.5461259751889429,
+    -0.010999999940395352,
+    0.39800000219941906,
+    0.5461259751889429,
+    0.010999999940395352,
+    0.3980000021994191
+  ],
+  "native_plate_bounds_mm": {
+    "pitch_offset_plate_y-12.5": [
+      [
+        -141.0,
+        -14.0,
+        365.0
+      ],
+      [
+        -78.99999999999805,
+        -11.0,
+        431.0
+      ]
+    ],
+    "pitch_offset_plate_y12.5": [
+      [
+        -141.0,
+        11.0,
+        365.0
+      ],
+      [
+        -78.99999999999805,
+        14.0,
+        431.0
+      ]
+    ]
+  },
+  "keyframe_name": "collinear_420_front_fixed10",
+  "free_pitch_q_rad": 0.0,
+  "pivot_world_m": [
+    0.5511259770181133,
+    0.0,
+    0.42
+  ],
+  "bar_world_m": [
+    0.30000000000000016,
+    0.0,
+    0.42
+  ],
+  "bar_minus_pitch_z_m": 0.0,
+  "new_LP_runs": 0,
+  "forward_calls": 1,
+  "physics_steps": 0
+}

@@ -1,0 +1,64 @@
+{
+  "status": "ACCEPT_BOUNDED_STATIC_LOW_HANDLE_PROTOTYPE_ONLY",
+  "candidate": "low_profile_stock_cart_03_collision_004",
+  "time_utc": "2026-10-18T13:30:26.380393+00:00",
+  "identity": {
+    "assets/low_profile_stock_cart_03/cart.xml": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd",
+    "assets/low_profile_stock_cart_03/goose_cart_scene.xml": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c",
+    "assets/low_profile_stock_cart_03/cart_collision.glb": "33e20f12e5d7f683ebe52c6a5a50a07b004d608353cc4de000327078c1cb07e3",
+    "assets/low_profile_stock_cart_03/body_mass_map.json": "b62ea09bf49ef50eba868bd5a319866cc7e8aff6c83a356d7f278dc27f208e9c",
+    "assets/low_profile_stock_cart_03/initial_state.json": "7f2e982548e349ebb8ed6cd9661c380d8e76f8a9d843c4955d4200f4798af21e",
+    "assets/low_profile_stock_cart_03/source_identity.json": "3c1944239169a26a7bb6efe3fa3d1db4dc941607159d6868441ab3248cd78f1b",
+    "analysis/cart_collision_004/artifact_manifest.json": "2e73681efe251dfe2d424e455a2610871f87844c977c46b9f5d1c1de059a56fb",
+    "analysis/cart_collision_004/coupled_static_load.json": "dfa8323f3d1abe976f2cec535b5a5c053e2934b5bf4171cd7797e44d72df2122",
+    "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8",
+    "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e",
+    "assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833",
+    "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532",
+    "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688",
+    "assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1"
+  },
+  "accepted": [
+    "R4 saved STEP134positive valid solids; material-density native mass/COM/fullI agree. Empty7.815342442756589kg includes explicit.35kg uniform reserve estimate.600x400x150centered tote clear.",
+    "Actual keyframe collinear_420_front_fixed10 has pitchq0=0, free roll, rod and pitch pivot both worldZ0.420m; front10deg is a fixed geometric reference, not another pitch coordinate. Actual head material center matches rod within1.24e-11m.",
+    "Native two3mm plates gap22.000mm; two actual separate12-support convex proxies gap21.999999881mm, preserving middle space. Real pin/fastener bores may be filled in proxies; functional slot is not merged.",
+    "Actual20cart leaves8box+6analytic cylinders+6convexmesh,212support vertices/400hull triangles,max64. Goose14 unchanged,total34 plus ground1,cargo0. Analytic cylinders have no runtime triangle count.",
+    "Shaft-upper clearance3.770126mm,yoke-upper>=8.639229mm,shoe-deckXgap519.592427mm; no unexplained>0.1mm nonbar contact at saved pose. Only this finite pose, no sweep.",
+    "Actual10cart bodies fullworldMCI recomputed from native-backed134part source and reserve; sourceCOM error<=6.94e-17m/fullI max4.70733e-11kgm2 numerically recorded,not claimed zero. Robot53files/26compiled body-joint-drive-loop arrays unchanged.",
+    "All26current free-pitch downstream parts match actual pitch+roll bodies. Recomputed mass.385698665kg,moment-.553860950Nm,tongue2.205510384N. Old14part baseline.326599212kg,tongue2.171111877N. Horizontal20N additional pitch moment is zero for both; R3 force-line mismatch removed.",
+    "All5saved tau18 case arithmetic agrees with continuous limits plus once-only friction reserve to2.23e-16,without rerunning LP. No selfweight balance:20N maxutil old.685619165169,new.620005750107(relative9.56995%lower). Fully compensated hypothetical:old.631820568285,new.565354782841.",
+    "NewCAD23file and004collision37file manifests exact. OldCAD01/02 and002/003collision manifests remain exact. G001R3rejection evidence remains unchanged."
+  ],
+  "rejected": [
+    "20N+3N lateral plus current unbalanced tongue load remains FAIL1.07697713660206; head_roll itself exceeds continuous design capacity. No sidepull/turning acceptance.",
+    "No20kg cargo,0.5m,60s,max payload,clamp pressure/friction retention,backward walking/stopping,dynamic equilibrium,350Wmotion sufficiency or thermal/endurance qualification.",
+    "Do not interpret minmax utilization reduction as energy saving or every-axis load reduction. Head_pitch and other per-axis redistribution remains as documented."
+  ],
+  "unproven": [
+    "Robot static LP uses prescribed12point true-sole support,mu.65L1pyramid,mechanical equality reactions and zero-speed continuous limits. Saved solution arithmetic reviewed, LPoptimality was not independently re-solved.",
+    "Cart spring preload/stiffness,actual bearings/caster resistance,contact softness/material friction,loaded cargoMCI,and free-robot control remain unknown. Primary comparison explicitly includes full unbalanced drawbar selfweight; completely compensated row is hypothetical.",
+    "Plate/fastener native geometry and nominal connection screen are not bench stiffness,proof load,fatigue or manufacturing qualification.",
+    "Fork/axle/brake omissions,closed decorative slots and slab underframe keep flat-unobstructed-floor-only scope. No curb,near-fork foot,underframe obstacle or swept-turn qualification.",
+    "Only nominal420keyframe checked;400/440adjustment positions are not qualified."
+  ],
+  "metadata": {
+    "old_mass_sha256": "2edfe1fa003adbaee8efe07cc3ea2b869c787b0f4bf4a18568a912b5f09c31ac",
+    "new_mass_sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+    "all134part_MCI_exactly_unchanged": true,
+    "only_derived_fields_changed": [
+      "drawbar_hand_end_moving_mass_kg",
+      "drawbar_COM_mm",
+      "unbalanced_vertical_bite_force_N",
+      "pitch_balance_spring_target_Nm"
+    ]
+  },
+  "visual_scope": "Actual004 engine PNG viewed; GLB20named geoms match compiled pose,5.723um max display-cylinder polygon envelope difference is separate from analytical runtime contact. Robot displayed as14physical proxies.",
+  "resources": {
+    "new_LP_runs": 0,
+    "physics_integrations": 0,
+    "training_updates": 0,
+    "GPU": 0,
+    "successful_forward_calls": 3
+  },
+  "jobs": "FINAL_NO_JOBS"
+}

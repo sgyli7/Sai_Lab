@@ -1,0 +1,11 @@
+{
+  "CAD_plus_explicit_reserve_mass_kg": 7.730322989641888,
+  "CAD_plus_reserve_COM_cart_m": [
+    0.25981378449140463,
+    6.8191149713224e-05,
+    0.17486555028520687
+  ],
+  "loaded_COM_error_m": 2.220446049250313e-16,
+  "loaded_full_inertia_max_absolute_error_kg_m2": 3.3306690738754696e-15,
+  "reserve_intrinsic_inertia_is_experimental_assumption": true
+}

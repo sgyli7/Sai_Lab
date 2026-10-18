@@ -1,0 +1,66 @@
+{
+  "status": "REJECT_LOAD_OPTIMIZATION_AND_RELEASE_RECOMMENDATION_GEOMETRY_ONLY_PASSES",
+  "candidate": "low_profile_stock_cart_02_collision_003",
+  "time_utc": "2026-10-18T13:16:49.606304+00:00",
+  "identity": {
+    "assets/low_profile_stock_cart_02/cart.xml": "34bf199ce221211a3c3e1f61520c8bdd2fc73c0a28fb32d1e040af8e05e12789",
+    "assets/low_profile_stock_cart_02/goose_cart_scene.xml": "0ecb6a7d067a695b3d71e2e285ccd51f5c7048c3eb40734fc94b170fc7382c78",
+    "assets/low_profile_stock_cart_02/cart_collision.glb": "dca85ec374b3e9c347e86ea1fe3ec1afa433b930e723f9473be9bf71cd172cd5",
+    "assets/low_profile_stock_cart_02/body_mass_map.json": "8142b12d660a0e68722755573d4a653e04144f2aa21d9f7d0413a7ef049f1b30",
+    "assets/low_profile_stock_cart_02/initial_state.json": "869d8e951b60a16d33930cac892352d5861efa9022f554e8630d6924c924eba2",
+    "assets/low_profile_stock_cart_02/source_identity.json": "f8b414ad51a9bc547b0d5eb47dc762c39cea9701d7257c92d4d4e884c26809c2",
+    "analysis/cart_collision_003/artifact_manifest.json": "14da8e64b2118ce1df347e7895a1159a90581015766162a16272c153e428f76a",
+    "assets/low_profile_stock_cart_02/meshes/cart_bite_yoke_left.obj": "40b002370ede52b17ffb96648843f80806f317b34800a642ee7738a9c2f24b62",
+    "assets/low_profile_stock_cart_02/meshes/cart_bite_yoke_right.obj": "4769dd15b5b3c494df94007b9d7b07eebc1ee286537ab6db94cd52982af5dc7e",
+    "assets/low_profile_stock_cart_02/meshes/cart_drawbar.obj": "4352d5ad9a6156d4f1a97c2d9736dcac55d125a257aadef22b3cb192061b8b2f",
+    "assets/low_profile_stock_cart_02/meshes/cart_rotating_shaft.obj": "a6995135c1369ae732a65d5e00f2a7ae8c421b1a851ba4c8be321ce2d9474cf7"
+  },
+  "accepted": [
+    "Saved02 native122 solids valid with parameter material densities/fullMCI; empty7.730322989641887kg includes declared.35kg reserve.600x400x150 centered tote no positive>0.001mm3 overlap.",
+    "Compiled18cart +14robot=32 with ground1 separately; no cargo.8box+6analytic cylinder+4convexmesh; actual hull188supports360faces,max64.",
+    "Native sleeve,compiled bar and actual head material center agree atworld(300,0,420)mm within1.24e-11m. Explicit low_handle_420_pitch10 keyframe matches source29robotqpos and saved combined state. Must reset to that keyframe; coldneutral MjData is not the selected pose.",
+    "At saved pose no unexplained>0.1mm nonbar contacts; shaft-upper3.7701315mm,yoke-upper>=8.639215mm;shoe-platformXgap519.592427mm;head_pitch limit margin16.263512deg,cartpitch upper margin15deg.",
+    "10cart bodies fullMCI independently aggregated from native-backed122part source and uniform reserve,rotated back to actual selected engine frame; COMerror<=6.94e-17m/fullI<=3.89e-15kgm2.04compiled body/axis/actuator/equality arrays unchanged.",
+    "02 CAD21-file and003 collision30-file final manifests all valid; old01CAD33-file and002 runtime final identity preserved.",
+    "Saved15static cases tau18 arithmetic matches continuous caps and friction to2.23e-16; default20N maxutil.565354782841 vs baseline.631820568285,relative reduction10.5197%."
+  ],
+  "rejected": [
+    "R3/003 must not be recommended or published as a load-reducing replacement: Fx20,Fz0 minmax comparison omits required passive-pitch force coupling. Geometry and MCI checks alone do not clear this system design gate.",
+    "20N+3N lateral remains FAIL_CONTINUOUS_STATIC:1.07697713660206. Head_roll alone reaches this even though solver tie argmax names other axes.",
+    "No blanket claim all neck joints unload: under20N head_pitch utilization rises.1520844 to.4708127, neck_pitch falls.5111679 to.3782364. This is minmax redistribution, not measured energy saving.",
+    "No20kg drag,0.5m,60s,maximum load,real grip pressure/friction holding,endurance,turning or dynamic balance qualification."
+  ],
+  "unproven": [
+    "Ideal12point foot support andmu.65L1friction-cone LP is a prescribed zero-speed wrench comparison,not a controller or contact-pressure solution.",
+    "At10deg passive pitch,20N horizontal load adds0.885605706Nm aboutpitch. Even if spring exactly compensates drawbarweight,keeping this pose needs~3.526539614N downward tongue force or extra spring moment. Existing -3N case is sensitivity only; no whole passive hitch equilibrium is proven.",
+    "Unknown pitchbalance stiffness/preload,rolling/swivel drag,material softness/friction,loaded20kg cargoMCI,and free robot backward/stop behavior remain open. Uniform.35kg reserve inertia and bearing partition are assumptions.",
+    "Fork/axle/brake contact omissions and slab-filled underframe retain prior flat-unobstructed-floor-only scope. No swept turning/foot-nearfork/curb qualification.",
+    "Only nominal420 is geometrically checked;400/440mechanical adjustment holes are not independently qualified postures."
+  ],
+  "documentation_observation": {
+    "study_manifest_sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1",
+    "study_manifest_records": 20,
+    "stale_non_numeric_build_log_entries": [
+      "cart02_build.log"
+    ],
+    "effect": "cart02_build.log appended after historical study manifest. Other19records including numerical source/selected results/CSV match. Keep original manifest historical and add final-log receipt when archiving; this does not invalidate source numerical result."
+  },
+  "visual_scope": "Actual003 engine PNG reviewed. GLB18geom match,maximum AABB difference5.723um is finite48-section display-cylinder tessellation at rotated10deg,not runtime analytical cylinder radius change. Native robot exterior is not shown; robot is14physical proxies.",
+  "resource_scope": {
+    "new_LP_runs": 0,
+    "physics_integrations": 0,
+    "training_updates": 0,
+    "GPU": 0,
+    "successful_forward_calls": 2
+  },
+  "jobs": "FINAL_NO_JOBS",
+  "manager_followup": {
+    "scope": "Manager reported three extra saved static LP cases after G force-line objection. G did not rerun LP and has not independently recomputed these new LP solutions; this notice supplements the independently established pitch-equilibrium applicability rejection.",
+    "source": "Parent manager message received2026-10-18 about13:16UTC",
+    "weight_compensated_old480_util": 0.631820568,
+    "weight_compensated_new420_Fz_minus3p52654_util": 0.65274,
+    "uncompensated_common2p16N_old480_util": 0.68534,
+    "uncompensated_new420_util": 0.70626,
+    "manager_decision": "Reject R3 actual-load saving claim; do not publish02/003. Retain native/collision/selected-pose evidence only; R4 is a separate future candidate outside this review."
+  }
+}

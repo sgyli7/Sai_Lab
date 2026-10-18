@@ -1,0 +1,37 @@
+{
+  "collision_manifest_sha256": "14da8e64b2118ce1df347e7895a1159a90581015766162a16272c153e428f76a",
+  "collision_files": 30,
+  "collision_manifest_mismatches": [],
+  "CAD_delivery_manifest_sha256": "1117ecbec13d1aec7828c3bcd03ef9baa2c2cb671c2e064036797e3718f94b7d",
+  "CAD_files": 21,
+  "CAD_delivery_mismatches": [],
+  "old01_delivery_records": 33,
+  "old01_delivery_mismatches": [],
+  "new_source_identity": {
+    "parameters": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_02/parameters.json",
+      "sha256": "05bcee9a5c737735234f20e786ebb9f8594d3c79d0219940f6a9ba16c1dde943"
+    },
+    "mass_screen": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/geometry_mass_screen.json",
+      "sha256": "326ed5a880ee836c3f8241bf1610a07046fc675caeb68a37de57b21c663890b9"
+    },
+    "context": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/goose_cart_context.json",
+      "sha256": "8baa5e1c85c412bcc9b1d6df1831badc5a00375be1a3c719defd5f57d7e588f5"
+    },
+    "step": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.step",
+      "sha256": "ca014a3cbcdfd517d3931c8b195762e4aa330d81ffc701c0a65480156778bf6e"
+    },
+    "glb": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.glb",
+      "sha256": "9fcf27615d8ca33847faf0d07138c914f4c089b8b27a4cc651f40450640a54b8"
+    }
+  },
+  "new_source_mismatches": [],
+  "runtime_geometry_and_MCI_unchanged_since_independent_compile": true,
+  "runtime_mismatches": [],
+  "final_MJCF_SHA256": "0ecb6a7d067a695b3d71e2e285ccd51f5c7048c3eb40734fc94b170fc7382c78",
+  "final_GLB_SHA256": "dca85ec374b3e9c347e86ea1fe3ec1afa433b930e723f9473be9bf71cd172cd5"
+}

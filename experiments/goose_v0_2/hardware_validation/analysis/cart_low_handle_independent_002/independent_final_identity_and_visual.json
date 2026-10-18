@@ -1,0 +1,249 @@
+{
+  "manifest_checks": [
+    {
+      "label": "newCAD",
+      "manifest_sha256": "0d63b6481094529f45db68d6b555c726734f39e60174ab3e996f07a90fb21c42",
+      "files": 23,
+      "mismatches": []
+    },
+    {
+      "label": "newcollision",
+      "manifest_sha256": "2e73681efe251dfe2d424e455a2610871f87844c977c46b9f5d1c1de059a56fb",
+      "files": 37,
+      "mismatches": []
+    },
+    {
+      "label": "oldCAD01",
+      "manifest_sha256": "fef3f7a2b3ec8fb8e576a14248ad2a750acfe7e208e87938bb74045174a01020",
+      "files": 33,
+      "mismatches": []
+    },
+    {
+      "label": "oldCAD02",
+      "manifest_sha256": "1117ecbec13d1aec7828c3bcd03ef9baa2c2cb671c2e064036797e3718f94b7d",
+      "files": 21,
+      "mismatches": []
+    },
+    {
+      "label": "oldcollision002",
+      "manifest_sha256": "2ce3faf0f64ea4312bc640bdf3042108934fd3909e16aff5dcf729bf43a32af4",
+      "files": 22,
+      "mismatches": []
+    },
+    {
+      "label": "oldcollision003",
+      "manifest_sha256": "14da8e64b2118ce1df347e7895a1159a90581015766162a16272c153e428f76a",
+      "files": 30,
+      "mismatches": []
+    }
+  ],
+  "source_identity": {
+    "parameters": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+    },
+    "mass_screen": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/geometry_mass_screen.json",
+      "sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+    },
+    "pose_context": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3",
+      "field": "robot_full_qpos"
+    },
+    "step": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.step",
+      "sha256": "46f1ac2e3e305f7b4d0ec800971e35de1dab0b16798708cafce0bc4dba8adf9a"
+    },
+    "glb": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.glb",
+      "sha256": "7a4f650456058d5ba7b9ed81a5a01964c3ed028c55aebec41c6371be042ea5e9"
+    },
+    "cad_builder": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_low_profile_stock_cart_03.py",
+      "sha256": "0c6e734925e73319a84bcfed4a74504de4fdbd3c7cb507113e46c5d561d63756"
+    },
+    "locked_geometry_identity": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/locked_geometry_identity.json",
+      "sha256": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+    }
+  },
+  "source_mismatches": [],
+  "runtime_geometry_and_MCI_changed_since_compile": [],
+  "robot53_input_files_unchanged": true,
+  "keyframe_name": "collinear_420_front_fixed10",
+  "keyframe_initial_state_exact": true,
+  "keyframe_robot_source_pose_exact": true,
+  "pitch_initial_rad": 0.0,
+  "roll_joint_limited": false,
+  "GLB_geometry_count": 20,
+  "GLB_geometry_names_match": true,
+  "GLB_bounds": [
+    {
+      "geom": "cart_bite_bar",
+      "GLB_bounds_error_m": 5.723020796821743e-06
+    },
+    {
+      "geom": "cart_bite_yoke_left",
+      "GLB_bounds_error_m": 1.1583257686353932e-09
+    },
+    {
+      "geom": "cart_bite_yoke_right",
+      "GLB_bounds_error_m": 1.1583256576130907e-09
+    },
+    {
+      "geom": "cart_rotating_shaft",
+      "GLB_bounds_error_m": 8.412907592791896e-10
+    },
+    {
+      "geom": "cart_pitch_offset_plate_y12p5",
+      "GLB_bounds_error_m": 1.3125197595442728e-09
+    },
+    {
+      "geom": "cart_pitch_offset_plate_yminus12p5",
+      "GLB_bounds_error_m": 1.3125196485219703e-09
+    },
+    {
+      "geom": "cart_drawbar",
+      "GLB_bounds_error_m": 1.710877384208942e-09
+    },
+    {
+      "geom": "cart_pitch_clevis_left",
+      "GLB_bounds_error_m": 3.576278717609682e-09
+    },
+    {
+      "geom": "cart_pitch_clevis_right",
+      "GLB_bounds_error_m": 3.576278717609682e-09
+    },
+    {
+      "geom": "cart_wheel_570_190",
+      "GLB_bounds_error_m": 7.152557546241667e-09
+    },
+    {
+      "geom": "cart_wheel_570_-190",
+      "GLB_bounds_error_m": 7.152557546241667e-09
+    },
+    {
+      "geom": "cart_wheel_80_190",
+      "GLB_bounds_error_m": 5.364418020903372e-09
+    },
+    {
+      "geom": "cart_wheel_80_-190",
+      "GLB_bounds_error_m": 5.364418020903372e-09
+    },
+    {
+      "geom": "cart_yaw_housing",
+      "GLB_bounds_error_m": 1.9073486678955476e-09
+    },
+    {
+      "geom": "cart_mast",
+      "GLB_bounds_error_m": 1.0728836041806744e-08
+    },
+    {
+      "geom": "cart_end_rear",
+      "GLB_bounds_error_m": 2.384185793236071e-08
+    },
+    {
+      "geom": "cart_end_front",
+      "GLB_bounds_error_m": 8.344650248570673e-09
+    },
+    {
+      "geom": "cart_side_left",
+      "GLB_bounds_error_m": 2.384185793236071e-08
+    },
+    {
+      "geom": "cart_side_right",
+      "GLB_bounds_error_m": 2.384185793236071e-08
+    },
+    {
+      "geom": "cart_deck_frame",
+      "GLB_bounds_error_m": 2.384185793236071e-08
+    }
+  ],
+  "max_GLB_bounds_error_m": 5.723020796821743e-06,
+  "proxy_tote_bounds_checks": [
+    {
+      "geom": "cart_bite_bar",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_bite_yoke_left",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_bite_yoke_right",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_rotating_shaft",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_offset_plate_y12p5",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_offset_plate_yminus12p5",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_drawbar",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_clevis_left",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_pitch_clevis_right",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_570_190",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_570_-190",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_80_190",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_wheel_80_-190",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_yaw_housing",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_mast",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_end_rear",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_end_front",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_side_left",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_side_right",
+      "positive_volume_overlap_possible": false
+    },
+    {
+      "geom": "cart_deck_frame",
+      "positive_volume_overlap_possible": false
+    }
+  ],
+  "full_tote_no_positive_proxy_overlap": true,
+  "forward_calls": 1,
+  "physics_steps": 0
+}

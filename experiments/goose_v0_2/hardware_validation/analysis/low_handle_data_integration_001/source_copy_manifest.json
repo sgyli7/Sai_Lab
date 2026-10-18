@@ -1,0 +1,184 @@
+{
+  "schema": "low_handle_02_exact_copy_map_v1",
+  "files": [
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/REPORT.md",
+      "destination": "analysis/low_handle_study_001/REPORT.md",
+      "bytes": 3322,
+      "sha256": "1b370c3e3ae1ff93b5be46b6e81df8bd03be871990e9a24fc9ec7369a0003aeb"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/REPRODUCE.md",
+      "destination": "analysis/low_handle_study_001/REPRODUCE.md",
+      "bytes": 1737,
+      "sha256": "7d80c8ec667c6bba559c4f5d46dc18f7abe16a34cde67471c98d4defc37056ce"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/articulated_tow_screen.log",
+      "destination": "analysis/low_handle_study_001/articulated_tow_screen.log",
+      "bytes": 11269,
+      "sha256": "c19cfbd1f28b3db350caf3d534b1636cd42142ff2772b0c6db05a740677bd82f"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/cart02_build.log",
+      "destination": "analysis/low_handle_study_001/cart02_build.log",
+      "bytes": 26798,
+      "sha256": "1d3d0b71d8786e729450e7becab24e490c45e579d6ad760768dee5ae81df2b28"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/cart02_context.log",
+      "destination": "analysis/low_handle_study_001/cart02_context.log",
+      "bytes": 4061,
+      "sha256": "4f10c694e87c88c31ff434cd0d69867c601fc51fdda88f6cafd4781d7fb6f99f"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/cart02_drawing.log",
+      "destination": "analysis/low_handle_study_001/cart02_drawing.log",
+      "bytes": 182,
+      "sha256": "ae26c7591783a80dfae56131c5c219396aeeb1c751d57f9193cae7c05d2f5fb0"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/cart02_snapshot.log",
+      "destination": "analysis/low_handle_study_001/cart02_snapshot.log",
+      "bytes": 153,
+      "sha256": "89fa6cc44d9537c2b985ed7a218794f49e8bc73a44445e92fd2fc6b581856ba1"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/finite_screen.log",
+      "destination": "analysis/low_handle_study_001/finite_screen.log",
+      "bytes": 11210,
+      "sha256": "1f5f16e0e7081952893d6426a0584736885b614cf3aa474d9504bc5d006f1dac"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/finite_screen_corrected.log",
+      "destination": "analysis/low_handle_study_001/finite_screen_corrected.log",
+      "bytes": 11269,
+      "sha256": "cbbb948cfa561808ca601971850a50571e1bac8760114ebd9a3170abae3121b6"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/force_case_comparison.csv",
+      "destination": "analysis/low_handle_study_001/force_case_comparison.csv",
+      "bytes": 2644,
+      "sha256": "2df8b62132c7f2bf80119a89a5a3b12d2eeab51b410ab026f6a3eb8db56ffb51"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/horizontal_tow_clearance_rejection_results.json",
+      "destination": "analysis/low_handle_study_001/horizontal_tow_clearance_rejection_results.json",
+      "bytes": 1546484,
+      "sha256": "9992dc51e840bf51198e7763f9463ad43096e68662a129c61f2f5a0b303add53"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/input_path_map.json",
+      "destination": "analysis/low_handle_study_001/input_path_map.json",
+      "bytes": 883,
+      "sha256": "f90c1c8f2084025eb0208c32dc2142fb4bf72f762eb0be76e81922ebdcb83b05"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/intermediate_x300_results.json",
+      "destination": "analysis/low_handle_study_001/intermediate_x300_results.json",
+      "bytes": 209070,
+      "sha256": "d31248e021c5e2f7f032536cd212823411f6c2d21d2e2f85af5b9a9f11f536c9"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/rejected_native_tcp_reference_results.json",
+      "destination": "analysis/low_handle_study_001/rejected_native_tcp_reference_results.json",
+      "bytes": 1460840,
+      "sha256": "e8e61dabf7c2236c7ce1586a56fdf5376dcee6e33b054e9c9ff5601827d31d03"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/resource_and_execution_receipt.json",
+      "destination": "analysis/low_handle_study_001/resource_and_execution_receipt.json",
+      "bytes": 1859,
+      "sha256": "c1f8923329fc94ecfcf48f59cccf40eb1b778a0d5fcddb6c606d447f43bff32b"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/results.json",
+      "destination": "analysis/low_handle_study_001/results.json",
+      "bytes": 1602820,
+      "sha256": "6199d07654c7055130b66649693922f0bba372911abb3e13bc942fbea20217fc"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/selected_420_clearance.json",
+      "destination": "analysis/low_handle_study_001/selected_420_clearance.json",
+      "bytes": 68491,
+      "sha256": "3b4da6180e4647257b7231caa955300e92a1fa76cb572393f87b113e867b0e0f"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/selected_420_interface.json",
+      "destination": "analysis/low_handle_study_001/selected_420_interface.json",
+      "bytes": 41819,
+      "sha256": "df9a17cf91fb5768b721338564db88a99ec485ed1a4e0da227d4bb4450f91b3f"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/static_height_study.py",
+      "destination": "analysis/low_handle_study_001/static_height_study.py",
+      "bytes": 11059,
+      "sha256": "dd4ee491ad7ec3a0c33b0a182f1a53fc0bb6f191a3481460bf03e107a3360a83"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/verify_selected_clearance.py",
+      "destination": "analysis/low_handle_study_001/verify_selected_clearance.py",
+      "bytes": 3475,
+      "sha256": "cd357a9347c6262bc2c37d0d62c77fe76609a2f318063532db030df79bbe70fa"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01/artifact_manifest.json",
+      "destination": "analysis/low_handle_study_001/artifact_manifest.json",
+      "bytes": 3266,
+      "sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_02/parameters.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/parameters.json",
+      "bytes": 4764,
+      "sha256": "05bcee9a5c737735234f20e786ebb9f8594d3c79d0219940f6a9ba16c1dde943"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/geometry_mass_screen.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/geometry_mass_screen.json",
+      "bytes": 116765,
+      "sha256": "326ed5a880ee836c3f8241bf1610a07046fc675caeb68a37de57b21c663890b9"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/locked_geometry_identity.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/locked_geometry_identity.json",
+      "bytes": 1245,
+      "sha256": "cbf01ec3934a6110f627274943e55e6ea8cda232439ce256b5c900be487b2aa2"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/selected_fk_state.npz",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/selected_fk_state.npz",
+      "bytes": 896,
+      "sha256": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/selected_pose_input.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/selected_pose_input.json",
+      "bytes": 14903,
+      "sha256": "0443a0b1fbd478e6f50ffdc5fe588f74f26b85ed5c8023466725d892ffe2aa71"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/local_mouth_clearance.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/local_mouth_clearance.json",
+      "bytes": 6057,
+      "sha256": "d376d5cb0fcff81889264cd1162541304bcd8be8f75c900bb3a4a2f5b9cd2338"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/goose_cart_context.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/goose_cart_context.json",
+      "bytes": 5923,
+      "sha256": "8baa5e1c85c412bcc9b1d6df1831badc5a00375be1a3c719defd5f57d7e588f5"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/tote_clearance.json",
+      "destination": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/tote_clearance.json",
+      "bytes": 15255,
+      "sha256": "b60b2c5a26b6fcee1e4aceefc9fd8d6bc7e379bfd298bda13d507f6d0686d452"
+    }
+  ],
+  "original_static_manifest_declared_files": 20,
+  "manifest_copy_added": true,
+  "append_receipt": "analysis/low_handle_data_integration_001/appended_build_log_receipt.json",
+  "archive_sources_parse_only_do_not_execute": true,
+  "new_output_mapping": "Any future explicitly authorised run must use a new output directory and remap archived absolute inputs; no archived code executed during integration."
+}

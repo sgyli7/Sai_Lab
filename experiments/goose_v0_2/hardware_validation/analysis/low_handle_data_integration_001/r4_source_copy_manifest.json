@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/parameters.json",
+      "bytes": 4838,
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/geometry_mass_screen.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/geometry_mass_screen.json",
+      "bytes": 127488,
+      "sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/locked_geometry_identity.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/locked_geometry_identity.json",
+      "bytes": 3052,
+      "sha256": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/selected_fk_state.npz",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_fk_state.npz",
+      "bytes": 896,
+      "sha256": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/selected_pose_input.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_pose_input.json",
+      "bytes": 1835,
+      "sha256": "be6cbfa922c7c58f92ceedfdbb00a96c469d6c53fa75e0764a9f6574e9364297"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/local_mouth_clearance.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/local_mouth_clearance.json",
+      "bytes": 6056,
+      "sha256": "ef138c4c07c32799e215c4030edf9541dc5669c5257bf4813fa93f95f5740eb4"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/goose_cart_context.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/goose_cart_context.json",
+      "bytes": 5923,
+      "sha256": "93d457d9283f648b84b1f1fa7f053f594fd98d6c61bfc71bcfd16f667018c60a"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/tote_clearance.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/tote_clearance.json",
+      "bytes": 16794,
+      "sha256": "cb2781373cf0d010f25adcdd6281eb5de90b61915a6c37100c7ea439de446860"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/connection_screen.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/connection_screen.json",
+      "bytes": 6111,
+      "sha256": "ac65a1aa3e1d7b4c903477f53c38052132ba8d2d1a44564e61d4972b5f622045"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/pitch_subset_metadata_correction.json",
+      "destination": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/pitch_subset_metadata_correction.json",
+      "bytes": 767,
+      "sha256": "1d17c8f12a42d81a4b6dbac9a4903bf9c4143c8f28e3ab7b8732e130fa254c19"
+    }
+  ],
+  "source_metadata_correction_not_geometry_change": true,
+  "large_CAD_kept_in_Rotbots": true,
+  "no_solver_or_simulator_executed": true
+}

@@ -1,0 +1,1175 @@
+{
+  "cargo_cavity_probe_count": 27,
+  "cargo_cavity": [
+    {
+      "p_m": [
+        0.021,
+        -0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        -0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        -0.201,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.021,
+        0.201,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        -0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        -0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        -0.201,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.325,
+        0.201,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        -0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        -0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        -0.201,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0,
+        0.289
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0.201,
+        0.185
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0.201,
+        0.235
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        0.629,
+        0.201,
+        0.289
+      ],
+      "hits": []
+    }
+  ],
+  "mouth_approach_probe_count": 18,
+  "mouth_approach": [
+    {
+      "p_m": [
+        -0.3782749322734833,
+        -0.04,
+        0.41043732903482477
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.37306548694347536,
+        -0.04,
+        0.43998156162519103
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.3782749322734833,
+        0.0,
+        0.41043732903482477
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.37306548694347536,
+        0.0,
+        0.43998156162519103
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.3782749322734833,
+        0.04,
+        0.41043732903482477
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.37306548694347536,
+        0.04,
+        0.43998156162519103
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34873069968311704,
+        -0.04,
+        0.4052278837048169
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34352125435310915,
+        -0.04,
+        0.4347721162951831
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34873069968311704,
+        0.0,
+        0.4052278837048169
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34352125435310915,
+        0.0,
+        0.4347721162951831
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34873069968311704,
+        0.04,
+        0.4052278837048169
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.34352125435310915,
+        0.04,
+        0.4347721162951831
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.31918646709275084,
+        -0.04,
+        0.40001843837480894
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.3139770217627429,
+        -0.04,
+        0.4295626709651752
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.31918646709275084,
+        0.0,
+        0.40001843837480894
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.3139770217627429,
+        0.0,
+        0.4295626709651752
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.31918646709275084,
+        0.04,
+        0.40001843837480894
+      ],
+      "hits": []
+    },
+    {
+      "p_m": [
+        -0.3139770217627429,
+        0.04,
+        0.4295626709651752
+      ],
+      "hits": []
+    }
+  ],
+  "wheel_dimensions": [
+    {
+      "wheel": "80_-190",
+      "radius_m": 0.0625,
+      "width_m": 0.025,
+      "neutral_lowest_z_m": 0,
+      "front_trail_m": 0.025,
+      "CAD_radius_error_m": 0,
+      "CAD_width_error_m": 0
+    },
+    {
+      "wheel": "80_190",
+      "radius_m": 0.0625,
+      "width_m": 0.025,
+      "neutral_lowest_z_m": 0,
+      "front_trail_m": 0.025,
+      "CAD_radius_error_m": 0,
+      "CAD_width_error_m": 0
+    },
+    {
+      "wheel": "570_-190",
+      "radius_m": 0.0625,
+      "width_m": 0.025,
+      "neutral_lowest_z_m": 0,
+      "front_trail_m": 0,
+      "CAD_radius_error_m": 0,
+      "CAD_width_error_m": 0
+    },
+    {
+      "wheel": "570_190",
+      "radius_m": 0.0625,
+      "width_m": 0.025,
+      "neutral_lowest_z_m": 0,
+      "front_trail_m": 0,
+      "CAD_radius_error_m": 0,
+      "CAD_width_error_m": 0
+    }
+  ],
+  "deviation_scope": "Finite geometric probes, not complete Hausdorff bound or swept contact validation. Perforations/drain slots are intentionally closed; no internal cavity fill.",
+  "frame_deck_overfill": "650x450x31.5mm slab preserves deck plane181.5mm and underframe low150mm; fills spaces between frame rails. Not qualified for underframe obstacles.",
+  "side_overfill": "16mm side boxes at y\u00b1217 close decorative openings and expand sheet material to rim thickness; minimum inner cargo box is618x418mm, leaving600x400mm tote room.",
+  "fork_contact_omissions": [
+    {
+      "name": "axle_d10_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          75.0,
+          -216.0,
+          57.5
+        ],
+        "max": [
+          85.0,
+          -164.0,
+          67.5
+        ]
+      },
+      "mass_retained_kg": 0.03205995302988385
+    },
+    {
+      "name": "fork_plate_80_-190_-1",
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          -214.0,
+          58.0
+        ],
+        "max": [
+          93.5,
+          -212.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_plate_80_-190_1",
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          -168.0,
+          58.0
+        ],
+        "max": [
+          93.5,
+          -166.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_bridge_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          25.0,
+          -214.5,
+          126.0
+        ],
+        "max": [
+          85.0,
+          -165.5,
+          128.0
+        ]
+      },
+      "mass_retained_kg": 0.046158000000000005
+    },
+    {
+      "name": "mount_plate_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          21.0,
+          -220.0,
+          144.0
+        ],
+        "max": [
+          89.0,
+          -160.0,
+          147.0
+        ]
+      },
+      "mass_retained_kg": 0.09286123487542676
+    },
+    {
+      "name": "load_spreader_3mm_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          -7.5,
+          -230.0,
+          147.0
+        ],
+        "max": [
+          117.5,
+          -150.0,
+          150.0
+        ]
+      },
+      "mass_retained_kg": 0.079891533014478
+    },
+    {
+      "name": "caster_thrust_bearing_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          131.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          139.0
+        ]
+      },
+      "mass_retained_kg": 0.03728819152398798
+    },
+    {
+      "name": "caster_thrust_seat_80_-190_129.5",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          128.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          131.0
+        ]
+      },
+      "mass_retained_kg": 0.01380254962443492
+    },
+    {
+      "name": "caster_thrust_seat_80_-190_141.5",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          -205.0,
+          139.0
+        ],
+        "max": [
+          70.0,
+          -175.0,
+          144.0
+        ]
+      },
+      "mass_retained_kg": 0.023004249374058195
+    },
+    {
+      "name": "caster_kingpin_80_-190",
+      "bounds_cart_mm": {
+        "min": [
+          49.0,
+          -196.0,
+          125.5
+        ],
+        "max": [
+          61.0,
+          -184.0,
+          146.5
+        ]
+      },
+      "mass_retained_kg": 0.01864409576199399
+    },
+    {
+      "name": "axle_d10_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          75.0,
+          164.0,
+          57.5
+        ],
+        "max": [
+          85.0,
+          216.0,
+          67.5
+        ]
+      },
+      "mass_retained_kg": 0.03205995302988385
+    },
+    {
+      "name": "fork_plate_80_190_-1",
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          166.0,
+          57.99999999999992
+        ],
+        "max": [
+          93.5,
+          168.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_plate_80_190_1",
+      "bounds_cart_mm": {
+        "min": [
+          41.5,
+          212.0,
+          57.99999999999992
+        ],
+        "max": [
+          93.5,
+          214.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_bridge_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          25.0,
+          165.5,
+          126.0
+        ],
+        "max": [
+          85.0,
+          214.5,
+          128.0
+        ]
+      },
+      "mass_retained_kg": 0.046158000000000005
+    },
+    {
+      "name": "mount_plate_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          21.0,
+          160.0,
+          144.0
+        ],
+        "max": [
+          89.0,
+          220.0,
+          147.0
+        ]
+      },
+      "mass_retained_kg": 0.09286123487542676
+    },
+    {
+      "name": "load_spreader_3mm_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          -7.5,
+          150.0,
+          147.0
+        ],
+        "max": [
+          117.5,
+          230.0,
+          150.0
+        ]
+      },
+      "mass_retained_kg": 0.079891533014478
+    },
+    {
+      "name": "caster_thrust_bearing_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          131.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          139.0
+        ]
+      },
+      "mass_retained_kg": 0.03728819152398798
+    },
+    {
+      "name": "caster_thrust_seat_80_190_129.5",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          128.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          131.0
+        ]
+      },
+      "mass_retained_kg": 0.01380254962443492
+    },
+    {
+      "name": "caster_thrust_seat_80_190_141.5",
+      "bounds_cart_mm": {
+        "min": [
+          40.0,
+          175.0,
+          139.0
+        ],
+        "max": [
+          70.0,
+          205.0,
+          144.0
+        ]
+      },
+      "mass_retained_kg": 0.023004249374058195
+    },
+    {
+      "name": "caster_kingpin_80_190",
+      "bounds_cart_mm": {
+        "min": [
+          49.0,
+          184.0,
+          125.5
+        ],
+        "max": [
+          61.0,
+          196.0,
+          146.5
+        ]
+      },
+      "mass_retained_kg": 0.01864409576199399
+    },
+    {
+      "name": "axle_d10_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          565.0,
+          -216.0,
+          57.5
+        ],
+        "max": [
+          575.0,
+          -164.0,
+          67.5
+        ]
+      },
+      "mass_retained_kg": 0.03205995302988389
+    },
+    {
+      "name": "fork_plate_570_-190_-1",
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          -214.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          -212.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_plate_570_-190_1",
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          -168.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          -166.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_bridge_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          540.0,
+          -214.5,
+          126.0
+        ],
+        "max": [
+          600.0,
+          -165.5,
+          128.0
+        ]
+      },
+      "mass_retained_kg": 0.046158000000000005
+    },
+    {
+      "name": "mount_plate_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          536.0,
+          -220.0,
+          144.0
+        ],
+        "max": [
+          604.0,
+          -160.0,
+          147.0
+        ]
+      },
+      "mass_retained_kg": 0.09286123487542675
+    },
+    {
+      "name": "load_spreader_3mm_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          507.5,
+          -230.0,
+          147.0
+        ],
+        "max": [
+          632.5,
+          -150.0,
+          150.0
+        ]
+      },
+      "mass_retained_kg": 0.079891533014478
+    },
+    {
+      "name": "parking_pedal_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          558.0,
+          -205.0,
+          131.0
+        ],
+        "max": [
+          606.0,
+          -175.0,
+          135.0
+        ]
+      },
+      "mass_retained_kg": 0.045216000000000006
+    },
+    {
+      "name": "parking_friction_pad_570_-190",
+      "bounds_cart_mm": {
+        "min": [
+          568.0,
+          -203.0,
+          121.0
+        ],
+        "max": [
+          596.0,
+          -177.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.0043679999999999995
+    },
+    {
+      "name": "axle_d10_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          565.0,
+          164.0,
+          57.5
+        ],
+        "max": [
+          575.0,
+          216.0,
+          67.5
+        ]
+      },
+      "mass_retained_kg": 0.03205995302988389
+    },
+    {
+      "name": "fork_plate_570_190_-1",
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          166.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          168.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_plate_570_190_1",
+      "bounds_cart_mm": {
+        "min": [
+          544.0,
+          212.0,
+          58.0
+        ],
+        "max": [
+          596.0,
+          214.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.054220234612898585
+    },
+    {
+      "name": "fork_bridge_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          540.0,
+          165.5,
+          126.0
+        ],
+        "max": [
+          600.0,
+          214.5,
+          128.0
+        ]
+      },
+      "mass_retained_kg": 0.046158000000000005
+    },
+    {
+      "name": "mount_plate_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          536.0,
+          160.0,
+          144.0
+        ],
+        "max": [
+          604.0,
+          220.0,
+          147.0
+        ]
+      },
+      "mass_retained_kg": 0.09286123487542675
+    },
+    {
+      "name": "load_spreader_3mm_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          507.5,
+          150.0,
+          147.0
+        ],
+        "max": [
+          632.5,
+          230.0,
+          150.0
+        ]
+      },
+      "mass_retained_kg": 0.079891533014478
+    },
+    {
+      "name": "parking_pedal_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          558.0,
+          175.0,
+          131.0
+        ],
+        "max": [
+          606.0,
+          205.0,
+          135.0
+        ]
+      },
+      "mass_retained_kg": 0.045216000000000006
+    },
+    {
+      "name": "parking_friction_pad_570_190",
+      "bounds_cart_mm": {
+        "min": [
+          568.0,
+          177.0,
+          121.0
+        ],
+        "max": [
+          596.0,
+          203.0,
+          126.0
+        ]
+      },
+      "mass_retained_kg": 0.0043679999999999995
+    }
+  ],
+  "fork_domain_limit": "Smooth floor only. Forks/plates/brakes have full CAD MCI but no individual contact leaves. No narrow obstacle, robot-foot near-fork, curb, threshold or all-heading collision qualification.",
+  "fork_outer_side_vs_wheel_tread_max_extra_mm": 27.5,
+  "note_fork_extra": "Wheel outer |y|202.5; top spreaders/mount |y|230 =>27.5mm extra; axle reaches216 =>13.5mm. Overall omission list is source truth.",
+  "unfrozen_dynamics": [
+    "actual wheel rolling and swivel resistance",
+    "bearing mass partition",
+    "tow joint friction and pitch balance spring stiffness/preload",
+    "parking brake released state material clearance",
+    "measured contact materials/softness",
+    "loaded payload geometry/MCI",
+    "free robot equilibrium/grip/stepping controller"
+  ],
+  "candidate": "low_profile_stock_cart_03_collision_004",
+  "old_fork_omission_count": 36,
+  "old_fork_omission_mass_kg": 1.7222909331512934,
+  "new_offset_hardware_without_individual_leaf": [
+    {
+      "name": "offset_crush_sleeve_0",
+      "bounds_cart_mm": {
+        "min": [
+          -112.77211629518312,
+          -11.0,
+          375.3244373599367
+        ],
+        "max": [
+          -106.77211629518312,
+          11.0,
+          381.3244373599367
+        ]
+      },
+      "CAD_mass_kg": 0.000776300111072652,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_crossbolt_M4_0",
+      "bounds_cart_mm": {
+        "min": [
+          -113.27211629518312,
+          -17.5,
+          374.8244373599367
+        ],
+        "max": [
+          -106.27211629518312,
+          17.5,
+          381.8244373599367
+        ]
+      },
+      "CAD_mass_kg": 0.004062982508979515,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_locknut_M4_envelope_0",
+      "bounds_cart_mm": {
+        "min": [
+          -113.77211629518312,
+          -17.5,
+          374.3244373599367
+        ],
+        "max": [
+          -105.77211629518312,
+          -14.5,
+          382.3244373599367
+        ]
+      },
+      "CAD_mass_kg": 0.0008256670980311608,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_M4_washer_0_-14.25",
+      "bounds_cart_mm": {
+        "min": [
+          -114.27211629518312,
+          -14.5,
+          373.8244373599367
+        ],
+        "max": [
+          -105.27211629518312,
+          -14.0,
+          382.8244373599367
+        ]
+      },
+      "CAD_mass_kg": 0.0001900168754578884,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_M4_washer_0_14.25",
+      "bounds_cart_mm": {
+        "min": [
+          -114.27211629518312,
+          14.0,
+          373.8244373599367
+        ],
+        "max": [
+          -105.27211629518312,
+          14.5,
+          382.8244373599367
+        ]
+      },
+      "CAD_mass_kg": 0.0001900168754578884,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_crush_sleeve_1",
+      "bounds_cart_mm": {
+        "min": [
+          -132.46827135542728,
+          -11.0,
+          378.7974009132753
+        ],
+        "max": [
+          -126.46827135542728,
+          11.0,
+          384.7974009132753
+        ]
+      },
+      "CAD_mass_kg": 0.0007763001110726521,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_crossbolt_M4_1",
+      "bounds_cart_mm": {
+        "min": [
+          -132.96827135542728,
+          -17.5,
+          378.2974009132753
+        ],
+        "max": [
+          -125.96827135542728,
+          17.5,
+          385.2974009132753
+        ]
+      },
+      "CAD_mass_kg": 0.0040629825089795206,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_locknut_M4_envelope_1",
+      "bounds_cart_mm": {
+        "min": [
+          -133.46827135542728,
+          -17.5,
+          377.7974009132753
+        ],
+        "max": [
+          -125.46827135542728,
+          -14.5,
+          385.7974009132753
+        ]
+      },
+      "CAD_mass_kg": 0.0008256670980311604,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_M4_washer_1_-14.25",
+      "bounds_cart_mm": {
+        "min": [
+          -133.96827135542728,
+          -14.5,
+          377.2974009132753
+        ],
+        "max": [
+          -124.96827135542728,
+          -14.0,
+          386.2974009132753
+        ]
+      },
+      "CAD_mass_kg": 0.0001900168754578884,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    },
+    {
+      "name": "offset_M4_washer_1_14.25",
+      "bounds_cart_mm": {
+        "min": [
+          -133.96827135542728,
+          14.0,
+          377.2974009132753
+        ],
+        "max": [
+          -124.96827135542728,
+          14.5,
+          386.2974009132753
+        ]
+      },
+      "CAD_mass_kg": 0.0001900168754578884,
+      "reason": "Small installed bolts/nuts/washers/anti-crush spacers not separate collision; full MCI retained. New offset plates themselves each have a convex contact leaf."
+    }
+  ],
+  "mouth_approach_frame": "R4 actual fixed10deg source cart frame, relative to real420mm rod center"
+}

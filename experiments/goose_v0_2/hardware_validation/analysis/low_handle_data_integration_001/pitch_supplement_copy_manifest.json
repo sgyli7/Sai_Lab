@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_pitch_load_supplement_01/README.md",
+      "destination": "analysis/low_handle_pitch_load_supplement_001/README.md",
+      "bytes": 1888,
+      "sha256": "b6e38789ccf02aaf10148267632bb1c1a0c8cbecfce60b5cfb4115aa5f646768"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_pitch_load_supplement_01/comparison.csv",
+      "destination": "analysis/low_handle_pitch_load_supplement_001/comparison.csv",
+      "bytes": 443,
+      "sha256": "1445feb9c9d174a326f5271e5ce83c5c5296e5cab254bd1cf38501c5a7281408"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_pitch_load_supplement_01/execute_supplement.py",
+      "destination": "analysis/low_handle_pitch_load_supplement_001/execute_supplement.py",
+      "bytes": 3062,
+      "sha256": "07cdaf5000e8503222e7739961b38c42b0b92ec3de66d67cf00354b62b7bc2c4"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_pitch_load_supplement_01/supplement.json",
+      "destination": "analysis/low_handle_pitch_load_supplement_001/supplement.json",
+      "bytes": 11271,
+      "sha256": "cddd532a78b25707b45323743fb3bc405e890b68f05a0ace463cbd10239f687f"
+    },
+    {
+      "source": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_pitch_load_supplement_01/artifact_manifest.json",
+      "destination": "analysis/low_handle_pitch_load_supplement_001/artifact_manifest.json",
+      "bytes": 619,
+      "sha256": "f81a8ef4d805c8059b41a303fb40f7751f5a5d8b2304c5eee24b5e9c5bace67d"
+    }
+  ],
+  "source_manifest_sha256": "f81a8ef4d805c8059b41a303fb40f7751f5a5d8b2304c5eee24b5e9c5bace67d",
+  "new_physics_or_LP_calls_by_integrator": 0,
+  "original_static_study_preserved": true
+}

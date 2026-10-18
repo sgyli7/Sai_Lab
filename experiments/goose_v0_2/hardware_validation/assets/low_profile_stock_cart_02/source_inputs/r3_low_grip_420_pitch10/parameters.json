@@ -1,0 +1,150 @@
+{
+  "design_id": "low_profile_stock_cart_02",
+  "revision": "r3_low_grip_420_pitch10",
+  "revision_change": "Grip lowered from 480 to 420 mm at actual bite center; original pitch mechanism rotated +10 deg and cart moved to preserve mouth contact. Mast shortened 150-440 mm; zero changes to Goose04.",
+  "units": "mm",
+  "status": "engineering_concept_not_load_or_robot_drag_qualified",
+  "payload_target_kg": 20.0,
+  "platform_length": 650.0,
+  "platform_width": 450.0,
+  "deck_top_z": 181.5,
+  "deck_thickness": 1.5,
+  "frame_height": 30.0,
+  "frame_width": 20.0,
+  "frame_wall": 1.5,
+  "frame_center_z": 165.0,
+  "cargo_clear_length": 610.0,
+  "cargo_clear_width": 410.0,
+  "rail_top_z": 290.0,
+  "wheel_diameter": 125.0,
+  "wheel_width": 25.0,
+  "wheel_contact_x": [
+    80.0,
+    570.0
+  ],
+  "wheel_contact_y_abs": 190.0,
+  "front_caster_trail": 25.0,
+  "grip_center": [
+    -346.1259770181131,
+    0,
+    420.0
+  ],
+  "grip_height_adjust_range": [
+    400,
+    440
+  ],
+  "grip_height_step": 20,
+  "grip_outer_diameter": 12.0,
+  "grip_steel_core_diameter": 8.0,
+  "grip_clear_bite_length": 100.0,
+  "grip_total_length": 160.0,
+  "drawbar_yaw_limit_deg": 60.0,
+  "drawbar_pitch_limit_deg": 25.0,
+  "drawbar_axial_roll": "free_bearing_rotation",
+  "robot_04_preferred_grip_robot_frame_m": [
+    0.3,
+    0,
+    0.42
+  ],
+  "robot_04_preferred_neck_pitch_mid_head_rad": [
+    0.6776928810446406,
+    0.8129882210909366,
+    -1.316148176817102
+  ],
+  "materials": {
+    "aluminium_frame": {
+      "density_kg_m3": 2700.0,
+      "grade_target": "6061-T6 bolted extrusion",
+      "E_N_mm2_assumed": 69000.0,
+      "screen_allowable_MPa": 70.0
+    },
+    "aluminium_sheet": {
+      "density_kg_m3": 2700.0,
+      "grade_target": "5052-H32 nominal, procurement pending"
+    },
+    "steel": {
+      "density_kg_m3": 7850.0,
+      "grade_target": "corrosion-protected structural steel fork and pins; purchase specification pending"
+    },
+    "stainless": {
+      "density_kg_m3": 8000.0,
+      "grade_target": "304 bite core, sealed and food-contact review pending"
+    },
+    "nylon": {
+      "density_kg_m3": 1150.0,
+      "grade_target": "wheel hub engineering nylon assumed"
+    },
+    "polyurethane": {
+      "density_kg_m3": 1200.0,
+      "grade_target": "wheel and bite sleeve; compound, hardness and food-contact qualification pending"
+    }
+  },
+  "procurement": "No OEM SKU chosen. Castor/fork/bearing/brake solids are engineering interface envelopes and custom fabrication candidates, not downloaded vendor CAD. Selected bought wheel module must meet dimensions and mass before design freeze.",
+  "assumptions": [
+    "One 600x400 mm tote or boxed goods, cargo COM restricted near deck center.",
+    "Smooth indoor supermarket floor; no powered cart drive or robot docking latch.",
+    "Two front swivel wheels and two rear fixed wheels, rear manual parking brakes.",
+    "Yaw, pitch and axial roll joints are cart hardware; no added robot joint or object binding.",
+    "Pitch spring must balance drawbar self-weight; no automatic hold-position assumption."
+  ],
+  "derived_from": {
+    "design_id": "low_profile_stock_cart_01",
+    "revision": "r2_tote_gusset_clearance",
+    "commit": "577657ac41d377c11f3cb948cdad13239ca94a85",
+    "local_checkpoint_same_tree": "af2416d6d383fd08f23e9c94c9f429d881739511",
+    "git_tree": "c238070067320d2d54e60d6ac6af645f3239a8a9"
+  },
+  "drawhead_pitch_deg": 10.0,
+  "drawhead_pivot_center": [
+    -95.0,
+    0,
+    375.71971469493275
+  ],
+  "mast_bottom_z": 150.0,
+  "mast_top_z": 440.0,
+  "height_lock_holes_z": [
+    355.71971469493275,
+    375.71971469493275,
+    395.71971469493275
+  ],
+  "cart_origin_robot_frame_mm": [
+    646.1259770181132,
+    0,
+    0
+  ],
+  "verified_nominal_grip_height_mm": 420.0,
+  "grip_height_adjustment_note": "Actual sleeve center heights at nominal +10deg drawhead pitch. Carriage lock-hole heights differ by 44.280285mm. Only nominal420 has current FK/clearance check; other holes are mechanical options, not qualified postures.",
+  "robot_full_qpos": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.6776928810446406,
+    0.8129882210909366,
+    -1.316148176817102,
+    0.0,
+    0.19682523003160665,
+    0.19682523003160665,
+    -0.19682523003160665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "force_pose_input_SHA256": "df9a17cf91fb5768b721338564db88a99ec485ed1a4e0da227d4bb4450f91b3f",
+  "grip_center_definition": "Derived cart-local actual sleeve center after +Y rotation about drawhead_pivot_center. Geometry control is pivot Z, pitch and nominal unpitched XY anchor (-350,0); this derived field is audited against exported geometry."
+}

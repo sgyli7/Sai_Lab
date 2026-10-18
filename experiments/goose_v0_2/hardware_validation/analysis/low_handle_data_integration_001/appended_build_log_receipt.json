@@ -1,0 +1,23 @@
+{
+  "schema": "producer_log_change_receipt_v1",
+  "original_manifest_sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1",
+  "original_manifest_preserved": true,
+  "direct_exact_matches": 19,
+  "appended_log": {
+    "name": "cart02_build.log",
+    "original_bytes": 52186,
+    "original_sha256": "ef6ce2de9e79feef0bcf6ed8973bffc50462b6684633b9401ad457c6a992abbe",
+    "current_bytes": 26798,
+    "current_sha256": "1d3d0b71d8786e729450e7becab24e490c45e579d6ad760768dee5ae81df2b28",
+    "current_mtime_UTC": "2026-10-18T13:05:07.022275+00:00"
+  },
+  "producer": "CartCAD A confirmed13:02 and13:05UTC build commands redirected with overwrite to original cart02_build.log path; confirmation relayed by Root.",
+  "numeric_results_and_source_unchanged": true,
+  "new_physics_or_LP_run": false,
+  "warning": "Original manifest is preserved for earlier52,186B log. Current26,798B build log was overwritten by later producer commands, not appended.19 other declared files remain exact.",
+  "change_classification": "producer_confirmed_redirection_overwrite_not_append",
+  "producer_confirmed_overwrite_times_UTC": [
+    "2026-10-18T13:02",
+    "2026-10-18T13:05"
+  ]
+}

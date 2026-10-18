@@ -1,0 +1,13 @@
+{
+  "old_SHA256": "2edfe1fa003adbaee8efe07cc3ea2b869c787b0f4bf4a18568a912b5f09c31ac",
+  "new_SHA256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+  "changed_top_level_fields": [
+    "drawbar_hand_end_moving_mass_kg",
+    "drawbar_COM_mm",
+    "unbalanced_vertical_bite_force_N",
+    "pitch_balance_spring_target_Nm"
+  ],
+  "parts_mass_COM_full_inertia_unchanged": true,
+  "reason": "Derived drawbar selector now includes shaft collars and new offset pitch-body components. Full134-part hardware ledger was already correct. Correct full free-pitch tongue load2.205510384N; connection_screen already used complete set.",
+  "old_preserved_local_artifact": "artifacts/goose_v0_2/low_profile_stock_cart_03/mass_before_complete_pitch_subset.json"
+}

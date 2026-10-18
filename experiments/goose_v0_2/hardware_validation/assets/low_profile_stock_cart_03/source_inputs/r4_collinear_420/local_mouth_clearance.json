@@ -1,0 +1,246 @@
+{
+  "revision": "r4_collinear_pitch_420",
+  "query": "Frozen04 loaded convex jaw proxies versus exact outer cylinders of native CAD rods transformed around true +Y pitch pivot. Holes ignored only where external mouth surface is unchanged.",
+  "scope": "Nominal single posture only; no approach, gait, yaw/pitch sweep, clamp force or dynamic test.",
+  "distances": [
+    {
+      "cart_part": "bite_sleeve",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": -5.682054295508318e-10,
+      "closest_segment_world_m": [
+        0.30104435317234174,
+        0.006281753841271465,
+        0.42590841090887677,
+        0.30104435307367383,
+        0.00628175384127145,
+        0.42590841034930366
+      ]
+    },
+    {
+      "cart_part": "bite_sleeve",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": -1.6894399304428413e-07,
+      "closest_segment_world_m": [
+        0.2978506308769413,
+        -0.0038454077659423754,
+        0.41439829689578395,
+        0.29785069218279675,
+        -0.0038454077659422856,
+        0.41439809171994324
+      ]
+    },
+    {
+      "cart_part": "bite_yoke_positiveY",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": 0.009151020131438335,
+      "closest_segment_world_m": [
+        0.3506630272618548,
+        0.006351448828056907,
+        0.41471109635153725,
+        0.3452619638240721,
+        0.0016733163996267707,
+        0.4204281550506505
+      ]
+    },
+    {
+      "cart_part": "bite_yoke_positiveY",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": 0.018492794474297983,
+      "closest_segment_world_m": [
+        0.3466290696038405,
+        0.010494486430958938,
+        0.40774240393367917,
+        0.33276174573490225,
+        0.0014300410860498853,
+        0.39952555497731174
+      ]
+    },
+    {
+      "cart_part": "bite_yoke_negativeY",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": 0.009158851978314514,
+      "closest_segment_world_m": [
+        0.350703755201891,
+        -0.00619600642407432,
+        0.4146213519689608,
+        0.34523007494194036,
+        -0.0014766036445574581,
+        0.4202472413543995
+      ]
+    },
+    {
+      "cart_part": "bite_yoke_negativeY",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": 0.018485258866357445,
+      "closest_segment_world_m": [
+        0.34663579822511453,
+        -0.010481005530259496,
+        0.4077459253241853,
+        0.3327695746079272,
+        -0.0014152287209418786,
+        0.3995456613773332
+      ]
+    },
+    {
+      "cart_part": "shaft_socket",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": 0.006569026564908408,
+      "closest_segment_world_m": [
+        0.3514366976885656,
+        0.0005698854190998466,
+        0.418014713822008,
+        0.3451998094640131,
+        0.000647538398487738,
+        0.4200756129703659
+      ]
+    },
+    {
+      "cart_part": "shaft_socket",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": 0.01674606806435818,
+      "closest_segment_world_m": [
+        0.34900968897720575,
+        4.984517225261092e-05,
+        0.40425046344121895,
+        0.3328670335857915,
+        0.00010118288199420099,
+        0.3997959335030863
+      ]
+    },
+    {
+      "cart_part": "steel_roll_shaft",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": 0.0038544772374561756,
+      "closest_segment_world_m": [
+        0.345010727246395,
+        9.936380234828226e-05,
+        0.4161238473788052,
+        0.3442962430042116,
+        0.00018946520327261355,
+        0.4199104538779401
+      ]
+    },
+    {
+      "cart_part": "steel_roll_shaft",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": 0.013677908879019422,
+      "closest_segment_world_m": [
+        0.3436217741971317,
+        2.8814531608933783e-05,
+        0.4082467032021972,
+        0.3328670335857915,
+        0.00010118288199420099,
+        0.3997959335030863
+      ]
+    },
+    {
+      "cart_part": "roll_housing_outer",
+      "robot_geom": "upper_bill_envelope",
+      "signed_distance_m": 0.060500004538489485,
+      "closest_segment_world_m": [
+        0.40481094846871857,
+        -0.0014766036445575206,
+        0.40974152581744966,
+        0.34523007494194036,
+        -0.001476603644557458,
+        0.42024724135439945
+      ]
+    },
+    {
+      "cart_part": "roll_housing_outer",
+      "robot_geom": "lower_bill_envelope",
+      "signed_distance_m": 0.06912389117754955,
+      "closest_segment_world_m": [
+        0.4009407775358145,
+        0.00010118288199419555,
+        0.3877926957668577,
+        0.33286703358579145,
+        0.00010118288199420098,
+        0.39979593350308623
+      ]
+    }
+  ],
+  "world_rods": {
+    "bite_sleeve": [
+      [
+        0.30000000000000016,
+        -0.08,
+        0.42
+      ],
+      [
+        0.30000000000000016,
+        0.08,
+        0.42
+      ],
+      0.006
+    ],
+    "bite_yoke_positiveY": [
+      [
+        0.36204288843976934,
+        0.0,
+        0.4090601648069834
+      ],
+      [
+        0.30000000000000016,
+        0.085,
+        0.42
+      ],
+      0.007
+    ],
+    "bite_yoke_negativeY": [
+      [
+        0.36204288843976934,
+        0.0,
+        0.4090601648069834
+      ],
+      [
+        0.30000000000000016,
+        -0.085,
+        0.42
+      ],
+      0.007
+    ],
+    "shaft_socket": [
+      [
+        0.35022519540362285,
+        0.0,
+        0.41114394293898654
+      ],
+      [
+        0.3738605814759158,
+        0.0,
+        0.4069763866749802
+      ],
+      0.007
+    ],
+    "steel_roll_shaft": [
+      [
+        0.3443163488855496,
+        0.0,
+        0.41218583200498815
+      ],
+      [
+        0.45264520171689243,
+        0.0,
+        0.3930845324616258
+      ],
+      0.004
+    ],
+    "roll_housing_outer": [
+      [
+        0.40340481406628204,
+        0.0,
+        0.4017669413449723
+      ],
+      [
+        0.4447667396927948,
+        0.0,
+        0.39447371788296126
+      ],
+      0.017
+    ]
+  },
+  "physics_integrations": 0,
+  "GPU": 0,
+  "training_updates": 0
+}

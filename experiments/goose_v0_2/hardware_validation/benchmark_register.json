@@ -1,6 +1,6 @@
 {
   "schema": "goose_v02_next_hardware_benchmarks_v1",
-  "state": "CART_COLLISION_STATIC_INPUT_READY_DYNAMIC_ORDER_NOT_ADMITTED",
+  "state": "R4_COLLINEAR420_STATIC_CANDIDATE_DYNAMIC_NO_RESULT",
   "robot_input": "physics_v0_2_20261018_04",
   "robot_mass_kg": 16.970203928833527,
   "historical_grip_100g": "Fixed torso/head local capture/hold exploration; not passed free-robot grasp/lift/place",
@@ -20,18 +20,19 @@
       "condition": "20 kg effective goods on a low stock cart; cart tare is additional",
       "effective_payload_kg": 20,
       "cart_geometry_and_tare": {
-        "revision": "r2_tote_gusset_clearance",
-        "estimated_empty_mass_kg": 7.800864011651539,
+        "revision": "r4_collinear_pitch_420",
+        "estimated_empty_mass_kg": 7.815342442756589,
         "reserve_included_kg": 0.35,
-        "source": "assets/low_profile_stock_cart_01/source_inputs/r2_metadata_correction_01"
+        "source": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420"
       },
-      "cart_source": "Rotbots hardware chat R2 CAD; collision_002 static proxy candidate",
+      "cart_source": "Rotbots R4/03 CAD; collision_004 static candidate",
       "cart_asset_created": true,
       "rank": "NO_RESULT",
       "static_collision_input_created": true,
       "dynamic_trial_executed": false,
       "cargo_instance_created": false,
-      "passive_parameters_calibrated": false
+      "passive_parameters_calibrated": false,
+      "side3N_continuous_static": "FAIL"
     },
     {
       "id": "sliding_payload_20kg",
@@ -53,5 +54,13 @@
   ],
   "new_order_owner": "Sai_Rotbots Goose V0.2 hardware optimization chat; not Picking",
   "no_hardware_or_actuator_parameters_changed": true,
-  "old_static_screen_current_cart_applicability": "Historical9.2119kg cart and TCP+5.5mm context; old utilisation is approximate history, not current force-point admission"
+  "old_static_screen_current_cart_applicability": "Historical9.2119kg cart and TCP+5.5mm context; old utilisation is approximate history, not current force-point admission",
+  "R3_rejection": "20N horizontal pull at420rod/375.7197pivot requires extra downward force; Fx20/Fz0 numerical redistribution was not real-system saving.",
+  "R4_static_scope": {
+    "old_actual_downstream_tongue_load_N": 2.171112,
+    "new_actual_downstream_tongue_load_N": 2.205510384453796,
+    "old_20N_including_tongue_minmax_utilisation_approx": 0.68562,
+    "new_20N_including_tongue_minmax_utilisation_approx": 0.62001,
+    "interpretation": "Limited ideal static load redistribution, not maximum drag load, energy reduction, measured grip or dynamic success."
+  }
 }

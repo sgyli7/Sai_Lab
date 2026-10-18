@@ -11,7 +11,7 @@
   "collision_geoms": 14,
   "mass_kg": 16.970203928833527,
   "embedded_contract_release_id": "physics_v0_2_20261018_02",
-  "cart_static": {
+  "cart_static_history": {
     "status": "STATIC_FILE_STRUCTURE_ONLY",
     "producer_indexed_files": {
       "collision_artifact_manifest": 22,
@@ -28,8 +28,25 @@
     "cargo_instances": 0,
     "integration_or_forward_executed_by_this_check": false
   },
+  "low_handle_increment": {
+    "status": "STATIC_FILES_ONLY",
+    "locked_manifest_entries": {
+      "analysis/low_handle_study_001/artifact_manifest.json": 20,
+      "analysis/low_handle_pitch_load_supplement_001/artifact_manifest.json": 4,
+      "analysis/cart_collision_003/artifact_manifest.json": 30,
+      "analysis/cart_low_handle_independent_001/independent_manifest.json": 10,
+      "analysis/cart_collision_004/artifact_manifest.json": 37,
+      "analysis/cart_low_handle_independent_002/independent_manifest.json": 8
+    },
+    "XML_collision_geoms": {
+      "cart": 20,
+      "combined": 34
+    },
+    "producer_log_difference_explicitly_recorded": true,
+    "no_simulator_import_or_calls": true
+  },
   "native_simulator_compiled_or_imported": false,
-  "historical_python_sources_parsed_not_imported": 30,
+  "historical_python_sources_parsed_not_imported": 40,
   "original_sources_requested": true,
   "raw_files_checked_this_invocation": 382,
   "original_raw_manifest_files": 382,

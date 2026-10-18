@@ -1,0 +1,496 @@
+{
+  "candidate": "low_profile_stock_cart_02_collision_003",
+  "geometry_source": {
+    "parameters": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_02/parameters.json",
+      "sha256": "05bcee9a5c737735234f20e786ebb9f8594d3c79d0219940f6a9ba16c1dde943"
+    },
+    "mass_screen": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/geometry_mass_screen.json",
+      "sha256": "326ed5a880ee836c3f8241bf1610a07046fc675caeb68a37de57b21c663890b9"
+    },
+    "context": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_02/goose_cart_context.json",
+      "sha256": "8baa5e1c85c412bcc9b1d6df1831badc5a00375be1a3c719defd5f57d7e588f5"
+    },
+    "step": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.step",
+      "sha256": "ca014a3cbcdfd517d3931c8b195762e4aa330d81ffc701c0a65480156778bf6e"
+    },
+    "glb": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.glb",
+      "sha256": "9fcf27615d8ca33847faf0d07138c914f4c089b8b27a4cc651f40450640a54b8"
+    }
+  },
+  "cart_geoms": [
+    {
+      "name": "cart_deck_frame",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        0.325,
+        0.0,
+        0.16575
+      ],
+      "size": [
+        0.325,
+        0.225,
+        0.01575
+      ],
+      "color": [
+        0.32,
+        0.7,
+        0.49,
+        1
+      ],
+      "source": [
+        "longitudinal_rail_y-205",
+        "longitudinal_rail_y205",
+        "crossmember_x10",
+        "crossmember_x215",
+        "crossmember_x435",
+        "crossmember_x640",
+        "deck_1p5mm_aluminium"
+      ]
+    },
+    {
+      "name": "cart_side_right",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        0.325,
+        -0.217,
+        0.23575
+      ],
+      "size": [
+        0.325,
+        0.008,
+        0.05425
+      ],
+      "color": [
+        0.21,
+        0.56,
+        0.84,
+        1
+      ],
+      "source": [
+        "basket side and posts"
+      ],
+      "approx": "perforations closed; inner y=209mm retained"
+    },
+    {
+      "name": "cart_side_left",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        0.325,
+        0.217,
+        0.23575
+      ],
+      "size": [
+        0.325,
+        0.008,
+        0.05425
+      ],
+      "color": [
+        0.21,
+        0.56,
+        0.84,
+        1
+      ],
+      "source": [
+        "basket side and posts"
+      ],
+      "approx": "perforations closed; inner y=209mm retained"
+    },
+    {
+      "name": "cart_end_front",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        0.008,
+        0.0,
+        0.23575
+      ],
+      "size": [
+        0.008,
+        0.209,
+        0.05425
+      ],
+      "color": [
+        0.21,
+        0.56,
+        0.84,
+        1
+      ],
+      "source": [
+        "basket end and posts"
+      ],
+      "approx": "perforations closed; inner x=16..634mm retained"
+    },
+    {
+      "name": "cart_end_rear",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        0.642,
+        0.0,
+        0.23575
+      ],
+      "size": [
+        0.008,
+        0.209,
+        0.05425
+      ],
+      "color": [
+        0.21,
+        0.56,
+        0.84,
+        1
+      ],
+      "source": [
+        "basket end and posts"
+      ],
+      "approx": "perforations closed; inner x=16..634mm retained"
+    },
+    {
+      "name": "cart_wheel_80_-190",
+      "body": "wheel_80_-190",
+      "type": "cylinder",
+      "pos": [
+        0.08,
+        -0.19,
+        0.0625
+      ],
+      "size": [
+        0.0625,
+        0.0125
+      ],
+      "color": [
+        0.18,
+        0.23,
+        0.28,
+        1
+      ],
+      "source": [
+        "PU_tread_80_-190",
+        "nylon_spoked_hub_80_-190"
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cart_wheel_80_190",
+      "body": "wheel_80_190",
+      "type": "cylinder",
+      "pos": [
+        0.08,
+        0.19,
+        0.0625
+      ],
+      "size": [
+        0.0625,
+        0.0125
+      ],
+      "color": [
+        0.18,
+        0.23,
+        0.28,
+        1
+      ],
+      "source": [
+        "PU_tread_80_190",
+        "nylon_spoked_hub_80_190"
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cart_wheel_570_-190",
+      "body": "wheel_570_-190",
+      "type": "cylinder",
+      "pos": [
+        0.5700000000000001,
+        -0.19,
+        0.0625
+      ],
+      "size": [
+        0.0625,
+        0.0125
+      ],
+      "color": [
+        0.18,
+        0.23,
+        0.28,
+        1
+      ],
+      "source": [
+        "PU_tread_570_-190",
+        "nylon_spoked_hub_570_-190"
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cart_wheel_570_190",
+      "body": "wheel_570_190",
+      "type": "cylinder",
+      "pos": [
+        0.5700000000000001,
+        0.19,
+        0.0625
+      ],
+      "size": [
+        0.0625,
+        0.0125
+      ],
+      "color": [
+        0.18,
+        0.23,
+        0.28,
+        1
+      ],
+      "source": [
+        "PU_tread_570_190",
+        "nylon_spoked_hub_570_190"
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cart_mast",
+      "body": "cart_base",
+      "type": "box",
+      "pos": [
+        -0.025,
+        0.0,
+        0.295
+      ],
+      "size": [
+        0.016,
+        0.016,
+        0.145
+      ],
+      "color": [
+        0.48,
+        0.56,
+        0.61,
+        1
+      ],
+      "source": [
+        "height_adjust_mast_32x32x2"
+      ],
+      "approx": "height pin holes closed; revised lower gussets not expanded into cargo cavity"
+    },
+    {
+      "name": "cart_yaw_housing",
+      "body": "cart_base",
+      "type": "cylinder",
+      "pos": [
+        -0.062,
+        0.0,
+        0.37571971469493276
+      ],
+      "size": [
+        0.015,
+        0.022
+      ],
+      "color": [
+        0.48,
+        0.56,
+        0.61,
+        1
+      ],
+      "source": [
+        "yaw_housing"
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "cart_pitch_clevis_right",
+      "body": "cart_yaw",
+      "type": "box",
+      "pos": [
+        -0.09,
+        -0.017,
+        0.37571971469493276
+      ],
+      "size": [
+        0.021,
+        0.002,
+        0.0175
+      ],
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "pitch_clevis_-17"
+      ],
+      "approx": "filled pin hole only"
+    },
+    {
+      "name": "cart_pitch_clevis_left",
+      "body": "cart_yaw",
+      "type": "box",
+      "pos": [
+        -0.09,
+        0.017,
+        0.37571971469493276
+      ],
+      "size": [
+        0.021,
+        0.002,
+        0.0175
+      ],
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "pitch_clevis_17"
+      ],
+      "approx": "filled pin hole only"
+    },
+    {
+      "name": "cart_drawbar",
+      "body": "cart_pitch",
+      "type": "mesh",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": null,
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "drawbar_main_22x2",
+        "roll_bearing_housing"
+      ],
+      "approx": "convex join across 6mm radius step; hollow tube interior filled"
+    },
+    {
+      "name": "cart_rotating_shaft",
+      "body": "cart_roll",
+      "type": "mesh",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": null,
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "rotating_forward_shaft_d8",
+        "bite_yoke_shaft_socket"
+      ],
+      "approx": "R4 exposed shaft ends and R7 local socket retained; one convex hull tapers across CAD steps; hollow socket and concealed shaft filled"
+    },
+    {
+      "name": "cart_bite_yoke_right",
+      "body": "cart_roll",
+      "type": "mesh",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": null,
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "bite_yoke_tube_-85",
+        "bite_core_support_-85"
+      ],
+      "approx": "each arm convexified separately including end support; hollow interiors filled"
+    },
+    {
+      "name": "cart_bite_yoke_left",
+      "body": "cart_roll",
+      "type": "mesh",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size": null,
+      "color": [
+        0.94,
+        0.5,
+        0.2,
+        1
+      ],
+      "source": [
+        "bite_yoke_tube_85",
+        "bite_core_support_85"
+      ],
+      "approx": "each arm convexified separately including end support; hollow interiors filled"
+    },
+    {
+      "name": "cart_bite_bar",
+      "body": "cart_roll",
+      "type": "cylinder",
+      "pos": [
+        -0.35,
+        0.0,
+        0.37571971469493276
+      ],
+      "size": [
+        0.006,
+        0.08
+      ],
+      "color": [
+        0.98,
+        0.74,
+        0.17,
+        1
+      ],
+      "source": [
+        "replaceable_bite_sleeve_d12",
+        "bite_304_core_d8"
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "contact_rules": "Cart contype4 conaffinity7, original robot contype2/conaffinity3 unchanged; cart receives robot/ground/cart. Ground conaffinity expanded2to6 only in derived scene. MuJoCo same-body and adjacent-body filters apply; no global cart self-collision disable or robot-cart binding.",
+  "joint_assumptions": "Axes/limits from CAD expert, no motors; bearing drag/spring zero placeholders explicitly unqualified. Passive hinges are free for subsequent study, never locked for display.",
+  "cargo": "No20kg cargo is instantiated in collision count or render; target is not a successful load test."
+}

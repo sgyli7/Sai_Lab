@@ -1,0 +1,50 @@
+{
+  "started_UTC": "2026-10-18 12:54:20 UTC",
+  "purpose": "bounded static/FK and force comparison; no integrations",
+  "source_robot_unchanged": true,
+  "source_frozen_collision_002_unchanged": true,
+  "threads_env_limit": 1,
+  "CPU_affinity_limit": 4,
+  "memory_address_space_cap_GiB": 8,
+  "physics_integrations": 0,
+  "GPU": 0,
+  "training_updates": 0,
+  "sources": [
+    "static_height_study.py",
+    "verify_selected_clearance.py"
+  ],
+  "rejected_data_preserved": [
+    "intermediate_x300_results.json",
+    "rejected_native_tcp_reference_results.json",
+    "horizontal_tow_clearance_rejection_results.json"
+  ],
+  "limits": "No more matrix exploration, control or simulation. Metadata/input mismatch rejected rather than promoted.",
+  "finished_UTC": "2026-10-18T13:04:55.861718+00:00",
+  "per_recorded_pass": [
+    {
+      "dataset": "intermediate_x300_results.json",
+      "candidate_final_forward_calls": 24,
+      "LP_solves": 75
+    },
+    {
+      "dataset": "rejected_native_tcp_reference_results.json",
+      "candidate_final_forward_calls": 144,
+      "LP_solves": 495
+    },
+    {
+      "dataset": "horizontal_tow_clearance_rejection_results.json",
+      "candidate_final_forward_calls": 144,
+      "LP_solves": 525
+    },
+    {
+      "dataset": "results.json",
+      "candidate_final_forward_calls": 144,
+      "LP_solves": 525
+    }
+  ],
+  "robot_cart_final_pose_forward_calls": 457,
+  "stance_position_forward_calls": 8,
+  "total_LP_solves": 1620,
+  "optimizer_kinematics_calls": "Exact finite-difference kinematic count was not instrumented; not invented. Deterministic source and rejected intermediate files retained.",
+  "source_exact": "static_height_study.py is the final actually executed fixed-path program; verify_selected_clearance.py was separately executed once. JSON gate/CSV postprocessing is arithmetic, no contact rerun."
+}

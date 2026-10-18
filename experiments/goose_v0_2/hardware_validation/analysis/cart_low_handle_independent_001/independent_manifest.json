@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "path": "analysis/cart_low_handle_independent_001/README.md",
+      "bytes": 2757,
+      "sha256": "106e8efdccf5557e46a182aeebdaa5ff9d56c834808bb14ce1b035bd04dae1fc"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_compiled_cart003.json",
+      "bytes": 45286,
+      "sha256": "f43301f5dd836b8dc3b8c579977fda4e03bde94434bb21aba90f8fdf9121f352"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_compiled_check.py",
+      "bytes": 6314,
+      "sha256": "d8955c9e84b3c197a9d25c188692e29a684a8ca8af202cf056d45ba7a976defe"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_final_manifest_check.json",
+      "bytes": 2097,
+      "sha256": "f3238820181925829c9656f815fe1f71d7dfd16c0e2d6b31723282f5f4aad639"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_keyframe_visual_and_scope.json",
+      "bytes": 7283,
+      "sha256": "3e3268332fa17afa39f58a61312f255d32381384cf8132ea40e08d72f40737f9"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_native_check.py",
+      "bytes": 3458,
+      "sha256": "936878429776dfd073390a3be517f960e6e58fb6b7790d4869ab05b788a005a8"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_native_geometry.json",
+      "bytes": 41982,
+      "sha256": "259c1a971e9e6911d797a15ed3ce678707faccaa25d2d327fbd26057f7008053"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_release_gate.json",
+      "bytes": 6509,
+      "sha256": "38e04829fb9807faf390d43425287743bf205cfc03d81b71018317fec6410669"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_source_manifest_check.json",
+      "bytes": 347,
+      "sha256": "e08e633ec63c4efd222c04b870d3bf5ed29654dc04c4e1a8ec0770f558043910"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_static_result_audit.json",
+      "bytes": 9182,
+      "sha256": "7026e1fca461dcc57f5856705f0c54af7f9ba835bdac61c9751972596abdd2b7"
+    }
+  ],
+  "physics_integrations": 0,
+  "training_updates": 0,
+  "GPU": 0
+}

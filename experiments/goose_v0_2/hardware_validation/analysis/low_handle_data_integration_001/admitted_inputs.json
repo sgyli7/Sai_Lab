@@ -1,0 +1,60 @@
+{
+  "schema": "low_handle_r4_data_admission_v1",
+  "status": "STATIC_CANDIDATE_ONLY_NOT_20KG_DYNAMIC_QUALIFIED",
+  "current_candidate": "low_profile_stock_cart_03_collision_004",
+  "locked_manifests": [
+    {
+      "path": "analysis/low_handle_study_001/artifact_manifest.json",
+      "sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1",
+      "files": 20
+    },
+    {
+      "path": "analysis/low_handle_pitch_load_supplement_001/artifact_manifest.json",
+      "sha256": "f81a8ef4d805c8059b41a303fb40f7751f5a5d8b2304c5eee24b5e9c5bace67d",
+      "files": 4
+    },
+    {
+      "path": "analysis/cart_collision_003/artifact_manifest.json",
+      "sha256": "14da8e64b2118ce1df347e7895a1159a90581015766162a16272c153e428f76a",
+      "files": 30
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_001/independent_manifest.json",
+      "sha256": "49ab84fa2aaf343fe8b5ef0cfc71e3f5c74d60979d5a4a59bc86e599a1fcc798",
+      "files": 10
+    },
+    {
+      "path": "analysis/cart_collision_004/artifact_manifest.json",
+      "sha256": "2e73681efe251dfe2d424e455a2610871f87844c977c46b9f5d1c1de059a56fb",
+      "files": 37
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_manifest.json",
+      "sha256": "8cd4d71c78757c0204de1088580739e1b624cd1739e6356368fb06996e013617",
+      "files": 8
+    }
+  ],
+  "copy_maps": [
+    "analysis/low_handle_data_integration_001/source_copy_manifest.json",
+    "analysis/low_handle_data_integration_001/pitch_supplement_copy_manifest.json",
+    "analysis/low_handle_data_integration_001/r4_source_copy_manifest.json"
+  ],
+  "producer_log_change": {
+    "path": "analysis/low_handle_study_001/cart02_build.log",
+    "actual_sha256": "1d3d0b71d8786e729450e7becab24e490c45e579d6ad760768dee5ae81df2b28",
+    "receipt": "analysis/low_handle_data_integration_001/appended_build_log_receipt.json",
+    "classification": "producer_confirmed_redirection_overwrite_not_append",
+    "unchanged_other_original_records": 19
+  },
+  "R3_decision": "REJECT_LOAD_OPTIMIZATION; geometry/MCI evidence retained only",
+  "R3_gate": "analysis/cart_low_handle_independent_001/independent_release_gate.json",
+  "R4_gate": "analysis/cart_low_handle_independent_002/independent_release_gate.json",
+  "R4_gate_status": "ACCEPT_BOUNDED_STATIC_LOW_HANDLE_PROTOTYPE_ONLY",
+  "flat_unobstructed_floor_only": true,
+  "unresolved_reserve_kg": 0.35,
+  "passive_joint_friction_rolling_resistance_and_springs_unmeasured": true,
+  "side3N_continuous_static": "FAIL",
+  "dynamic20kg": "NO_RESULT",
+  "robot_04_unchanged": true,
+  "simulator_calls_by_integrator": 0
+}

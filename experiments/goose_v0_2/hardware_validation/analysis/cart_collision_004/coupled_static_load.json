@@ -1,0 +1,517 @@
+{
+  "status": "COUPLED_EXACT_CAD_GRAVITY_TONGUE_LOAD_FINITE_STATIC_ONLY",
+  "loads": {
+    "R2_baseline": {
+      "source_mass_screen_sha256": "be6945dcd138eb9ad88aa32d271937f337d55dcb49232dfef6df390bfa00d1d2",
+      "source_parts": [
+        "drawbar_main_22x2",
+        "roll_bearing_housing",
+        "roll_bearing_608_interface_-240.5",
+        "roll_bearing_608_interface_-207.5",
+        "rotating_forward_shaft_d8",
+        "shaft_axial_retaining_collar_-245.5",
+        "shaft_axial_retaining_collar_-202.5",
+        "bite_yoke_shaft_socket",
+        "bite_yoke_tube_-85",
+        "bite_core_support_-85",
+        "bite_yoke_tube_85",
+        "bite_core_support_85",
+        "bite_304_core_d8",
+        "replaceable_bite_sleeve_d12"
+      ],
+      "downstream_mass_kg": 0.3265992122612504,
+      "gravity_moment_y_Nm": -0.5536335285120899,
+      "bar_cart_m": [
+        -0.35000000000000003,
+        0.0,
+        0.48
+      ],
+      "pivot_cart_m": [
+        -0.095,
+        0.0,
+        0.48
+      ],
+      "bar_minus_pivot_z_m": 0.0,
+      "extra_horizontal20N_moment_Nm": 0.0,
+      "mouth_downward_self_weight_N": 2.1711118765179998,
+      "mouth_extra_downward_for_horizontal20N_N": 0.0,
+      "total_downward_no_balance_N": 2.1711118765179998
+    },
+    "R4_collinear": {
+      "source_mass_screen_sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+      "source_parts": [
+        "drawbar_main_22x2",
+        "roll_bearing_housing",
+        "roll_bearing_608_interface_-240.5",
+        "roll_bearing_608_interface_-207.5",
+        "rotating_forward_shaft_d8",
+        "shaft_axial_retaining_collar_-245.5",
+        "shaft_axial_retaining_collar_-202.5",
+        "bite_yoke_shaft_socket",
+        "bite_yoke_tube_-85",
+        "bite_core_support_-85",
+        "bite_yoke_tube_85",
+        "bite_core_support_85",
+        "bite_304_core_d8",
+        "replaceable_bite_sleeve_d12",
+        "pitch_offset_plate_y-12.5",
+        "pitch_offset_plate_y12.5",
+        "offset_crush_sleeve_0",
+        "offset_crossbolt_M4_0",
+        "offset_locknut_M4_envelope_0",
+        "offset_M4_washer_0_-14.25",
+        "offset_M4_washer_0_14.25",
+        "offset_crush_sleeve_1",
+        "offset_crossbolt_M4_1",
+        "offset_locknut_M4_envelope_1",
+        "offset_M4_washer_1_-14.25",
+        "offset_M4_washer_1_14.25"
+      ],
+      "downstream_mass_kg": 0.38569866537595143,
+      "gravity_moment_y_Nm": -0.5538609501195538,
+      "bar_cart_m": [
+        -0.3461259770181131,
+        0.0,
+        0.42
+      ],
+      "pivot_cart_m": [
+        -0.095,
+        0.0,
+        0.42
+      ],
+      "bar_minus_pivot_z_m": 0.0,
+      "extra_horizontal20N_moment_Nm": 0.0,
+      "mouth_downward_self_weight_N": 2.205510384453796,
+      "mouth_extra_downward_for_horizontal20N_N": 0.0,
+      "total_downward_no_balance_N": 2.205510384453796
+    }
+  },
+  "cases": [
+    {
+      "case": "R2_no_self_weight_balance",
+      "result": {
+        "F_world_N": [
+          20.0,
+          0.0,
+          -2.1711118765179998
+        ],
+        "upper_chain_gravity_Nm": [
+          0.0,
+          -2.177574935521218,
+          -2.5872135824488134,
+          -0.9058304917399977,
+          0.0007342504470122043
+        ],
+        "upper_chain_external_JTF_Nm": [
+          0.0,
+          1.281294262077065,
+          -1.1909175633813769,
+          -0.7767980087004267,
+          0.0
+        ],
+        "upper_required_static_Nm": [
+          0.0,
+          -3.4588691975982835,
+          -1.3962960190674365,
+          -0.12903248303957104,
+          0.0007342504470122043
+        ],
+        "upper_chain_utilisation": [
+          0.028846153846153844,
+          0.6029483121247318,
+          0.2806712529792869,
+          0.08951624151978552,
+          0.2623875031929443
+        ],
+        "upper_chain_max_util": 0.6029483121247318,
+        "external_pitch_moment_about_ground_Nm": 10.25133356295521,
+        "LP_success": true,
+        "whole_min_max_util": 0.6856191651688727,
+        "worst_axis": "right_knee_pitch",
+        "actual_static_tau18": [
+          -0.0,
+          -3.4588691975982835,
+          -1.3962960190674365,
+          -0.12903248303957104,
+          0.0007342504470122043,
+          -0.022123443319755944,
+          0.0,
+          3.948663501335139,
+          -1.1981676813774202,
+          -3.9879626570807853,
+          -3.5321577503024915,
+          -1.3212383303377453,
+          0.0,
+          -3.9879626570807853,
+          1.1831701901272897,
+          3.9879626570807853,
+          3.5186572007183865,
+          1.3212383303377453
+        ],
+        "foot_force_left_N": [
+          -9.99999999999995,
+          5.011343818291267,
+          84.57583246409497
+        ],
+        "foot_force_right_N": [
+          -9.999999999999996,
+          -5.011343818291267,
+          84.07297995427997
+        ],
+        "cop_world_xy_m": [
+          0.06697158047026204,
+          0.0003727069504208553
+        ],
+        "support_fore_aft_margin_m": 0.059561969529737954,
+        "equilibrium_residual_max": 4.973799150320701e-14,
+        "gate": "PASS_STATIC_ONLY"
+      },
+      "tcp_world_m": [
+        0.30000000000001387,
+        0.0,
+        0.479999999999989
+      ]
+    },
+    {
+      "case": "R4_no_self_weight_balance",
+      "result": {
+        "F_world_N": [
+          20.0,
+          0.0,
+          -2.205510384453796
+        ],
+        "upper_chain_gravity_Nm": [
+          0.0,
+          -2.5268128815996107,
+          -2.331351819381046,
+          -0.8637290084163987,
+          0.0007230955328551177
+        ],
+        "upper_chain_external_JTF_Nm": [
+          0.0,
+          0.09060077863032216,
+          -2.4635719574872135,
+          -1.39420872985327,
+          0.0
+        ],
+        "upper_required_static_Nm": [
+          0.0,
+          -2.617413660229933,
+          0.13222013810616762,
+          0.5304797214368713,
+          0.0007230955328551177
+        ],
+        "upper_chain_utilisation": [
+          0.028846153846153844,
+          0.471470884410927,
+          0.08315939657908869,
+          0.29023986071843566,
+          0.2623078252346794
+        ],
+        "upper_chain_max_util": 0.471470884410927,
+        "external_pitch_moment_about_ground_Nm": 9.061653115567175,
+        "LP_success": true,
+        "whole_min_max_util": 0.6200057501073661,
+        "worst_axis": "right_knee_pitch",
+        "actual_static_tau18": [
+          -0.0,
+          -2.617413660229933,
+          0.13222013810616762,
+          0.5304797214368713,
+          0.0007230955328551177,
+          -0.017469030898462405,
+          0.0,
+          3.5287376449415118,
+          -0.7777270357540226,
+          -3.5680368006871435,
+          -3.1117717887934,
+          -1.1900115002147322,
+          0.0,
+          -3.5680368006871435,
+          0.7627295445038996,
+          3.5680368006871435,
+          3.0982712392093004,
+          1.1900115002147322
+        ],
+        "foot_force_left_N": [
+          -9.999999999999995,
+          2.8810655053406866,
+          84.59303171806285
+        ],
+        "foot_force_right_N": [
+          -10.000000000000057,
+          -2.881065505340687,
+          84.09017920824787
+        ],
+        "cop_world_xy_m": [
+          0.06197555141008441,
+          0.0003726309466329083
+        ],
+        "support_fore_aft_margin_m": 0.0645579985899156,
+        "equilibrium_residual_max": 4.973799150320701e-14,
+        "gate": "PASS_STATIC_ONLY"
+      },
+      "tcp_world_m": [
+        0.2999999999967059,
+        0.0,
+        0.4200000000119151
+      ]
+    },
+    {
+      "case": "R4_no_balance_plus3N_lateral",
+      "result": {
+        "F_world_N": [
+          20.0,
+          3.0,
+          -2.205510384453796
+        ],
+        "upper_chain_gravity_Nm": [
+          0.0,
+          -2.5268128815996107,
+          -2.331351819381046,
+          -0.8637290084163987,
+          0.0007230955328551177
+        ],
+        "upper_chain_external_JTF_Nm": [
+          0.8116499999901178,
+          0.09060077863032216,
+          -2.4635719574872135,
+          -1.39420872985327,
+          0.11549989465714391
+        ],
+        "upper_required_static_Nm": [
+          -0.8116499999901178,
+          -2.617413660229933,
+          0.13222013810616762,
+          0.5304797214368713,
+          -0.1147767991242888
+        ],
+        "upper_chain_utilisation": [
+          0.809278846144344,
+          0.471470884410927,
+          0.08315939657908869,
+          0.29023986071843566,
+          1.0769771366020626
+        ],
+        "upper_chain_max_util": 1.0769771366020626,
+        "external_pitch_moment_about_ground_Nm": 9.061653115567175,
+        "LP_success": true,
+        "whole_min_max_util": 1.0769771366020626,
+        "worst_axis": "left_knee_pitch",
+        "actual_static_tau18": [
+          -0.8116499999901178,
+          -2.617413660229933,
+          0.13222013810616762,
+          0.5304797214368713,
+          -0.1147767991242888,
+          -0.017469030898462405,
+          0.0,
+          4.287035843284178,
+          2.4788497813104593,
+          -0.643419927121097,
+          -1.12142678252489,
+          -1.306791287771042,
+          0.0,
+          -3.933978967460544,
+          4.019306361568397,
+          6.492653674253202,
+          5.088616245477813,
+          2.1039542732041254
+        ],
+        "foot_force_left_N": [
+          -4.614176400857136,
+          5.535691439254503,
+          92.27382362626936
+        ],
+        "foot_force_right_N": [
+          -15.385823599142864,
+          -8.535691439254503,
+          76.40938730004135
+        ],
+        "cop_world_xy_m": [
+          0.06197555141008441,
+          0.007842253993980417
+        ],
+        "support_fore_aft_margin_m": 0.0645579985899156,
+        "equilibrium_residual_max": 2.842170943040401e-14,
+        "gate": "FAIL_CONTINUOUS_STATIC"
+      },
+      "tcp_world_m": [
+        0.2999999999967059,
+        0.0,
+        0.4200000000119151
+      ]
+    },
+    {
+      "case": "R2_fully_self_weight_balanced",
+      "source": "existing Fx20 Fz0, no rerun",
+      "result": {
+        "F_world_N": [
+          20.0,
+          0.0,
+          0.0
+        ],
+        "upper_chain_gravity_Nm": [
+          0.0,
+          -2.177574935521218,
+          -2.5872135824488134,
+          -0.9058304917399977,
+          0.0007342504470122043
+        ],
+        "upper_chain_external_JTF_Nm": [
+          0.0,
+          0.6938999438850901,
+          -1.8192383419488745,
+          -1.1599992977141493,
+          0.0
+        ],
+        "upper_required_static_Nm": [
+          0.0,
+          -2.8714748794063083,
+          -0.7679752404999389,
+          0.2541688059741516,
+          0.0007342504470122043
+        ],
+        "upper_chain_utilisation": [
+          0.028846153846153844,
+          0.5111679499072356,
+          0.18249613132811543,
+          0.1520844029870758,
+          0.2623875031929443
+        ],
+        "upper_chain_max_util": 0.5111679499072356,
+        "external_pitch_moment_about_ground_Nm": 9.59999999999978,
+        "LP_success": true,
+        "whole_min_max_util": 0.6318205682849238,
+        "worst_axis": "right_knee_pitch",
+        "actual_static_tau18": [
+          -0.0,
+          -2.8714748794063083,
+          -0.7679752404999389,
+          0.2541688059741516,
+          0.0007342504470122043,
+          -0.022123443319755944,
+          0.0,
+          3.6043524812778704,
+          -0.8863483325490245,
+          -3.643651637023513,
+          -3.216886934037785,
+          -1.2136411365698476,
+          0.0,
+          -3.643651637023513,
+          0.8713508412988893,
+          3.643651637023513,
+          3.2033863844536734,
+          1.2136411365698476
+        ],
+        "foot_force_left_N": [
+          -9.999999999999964,
+          3.5911490716054915,
+          83.49027652583594
+        ],
+        "foot_force_right_N": [
+          -10.000000000000027,
+          -3.591149071605492,
+          82.987424016021
+        ],
+        "cop_world_xy_m": [
+          0.06393255021239241,
+          0.0003775675923199402
+        ],
+        "support_fore_aft_margin_m": 0.06260099978760758,
+        "equilibrium_residual_max": 9.547918011776346e-15
+      }
+    },
+    {
+      "case": "R4_fully_self_weight_balanced",
+      "source": "existing420 source04 FK/JTF continuous static result; same robot/same force, no rerun",
+      "result": {
+        "F_world_N": [
+          20.0,
+          0.0,
+          0.0
+        ],
+        "upper_chain_gravity_Nm": [
+          0.0,
+          -2.5268128815996107,
+          -2.331351819381046,
+          -0.8637290084163987,
+          0.0007230955328551177
+        ],
+        "upper_chain_external_JTF_Nm": [
+          0.0,
+          -0.5061000558763873,
+          -3.041880663519411,
+          -1.755354437909059,
+          0.0
+        ],
+        "upper_required_static_Nm": [
+          0.0,
+          -2.0207128257232236,
+          0.710528844138365,
+          0.8916254294926604,
+          0.0007230955328551177
+        ],
+        "upper_chain_utilisation": [
+          0.028846153846153844,
+          0.37823637901925367,
+          0.17352013189661952,
+          0.47081271474633024,
+          0.2623078252346794
+        ],
+        "upper_chain_max_util": 0.47081271474633024,
+        "external_pitch_moment_about_ground_Nm": 8.400000000238302,
+        "LP_success": true,
+        "whole_min_max_util": 0.5653547828409318,
+        "worst_axis": "right_knee_pitch",
+        "actual_static_tau18": [
+          -0.0,
+          -2.0207128257232236,
+          0.710528844138365,
+          0.8916254294926604,
+          0.0007230955328551177,
+          -0.017469030898462405,
+          0.0,
+          3.178971454436317,
+          -0.46096730570748035,
+          -3.2182706101819636,
+          -2.791505907196234,
+          -1.0807095656818635,
+          0.0,
+          -3.2182706101819636,
+          0.4459698144573449,
+          3.2182706101819636,
+          2.7780053576121375,
+          1.0807095656818635
+        ],
+        "foot_force_left_N": [
+          -10.000000000000002,
+          1.4383695781526091,
+          83.49027652583595
+        ],
+        "foot_force_right_N": [
+          -9.999999999999996,
+          -1.4383695781526091,
+          82.98742401602095
+        ],
+        "cop_world_xy_m": [
+          0.058822183773439944,
+          0.00037756759231996525
+        ],
+        "support_fore_aft_margin_m": 0.06771136622656004,
+        "equilibrium_residual_max": 2.1788126858268697e-15
+      }
+    }
+  ],
+  "roll_pitch_geometry": "R4 pitch=0, front10deg fixed; horizontal force line collinear at420, no geometric extra vertical pull.",
+  "scope": "Unconnected robot23-body static allocation receives calculated cart mouth wrench. Cart rolling/traction, spring dynamics, bite retention and gait not simulated. Proxy geometry not used to infer mass.",
+  "original_source_sha256": "dd4ee491ad7ec3a0c33b0a182f1a53fc0bb6f191a3481460bf03e107a3360a83",
+  "source_library_prefix_sha256": "0403d164c32efd801c18314a2ff29e127c04bbaead197407263f39130fc23079",
+  "new_LP_solves": 3,
+  "new_forward_calls": 3,
+  "setup_position_forward_calls": 2,
+  "physics_integrations": 0,
+  "GPU": 0,
+  "training_updates": 0,
+  "wall_s": 0.2156682014465332
+}

@@ -1,0 +1,155 @@
+{
+  "candidate": "low_profile_stock_cart_02_collision_003",
+  "files": [
+    {
+      "path": "assets/low_profile_stock_cart_02/README.md",
+      "bytes": 2945,
+      "sha256": "8c5241444842f64304b0b2b0369e6f87d98ce36fbcadc6b18a9325ae39b40815"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/body_mass_map.json",
+      "bytes": 122486,
+      "sha256": "8142b12d660a0e68722755573d4a653e04144f2aa21d9f7d0413a7ef049f1b30"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/cart.xml",
+      "bytes": 11772,
+      "sha256": "34bf199ce221211a3c3e1f61520c8bdd2fc73c0a28fb32d1e040af8e05e12789"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/cart_collision.glb",
+      "bytes": 30004,
+      "sha256": "dca85ec374b3e9c347e86ea1fe3ec1afa433b930e723f9473be9bf71cd172cd5"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/collision_source_map.json",
+      "bytes": 10200,
+      "sha256": "6aa8668aae12daee7f8a9bc95db34701b31b943fa1c98bd73960ba57af89b439"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/goose_cart_scene.xml",
+      "bytes": 35706,
+      "sha256": "0ecb6a7d067a695b3d71e2e285ccd51f5c7048c3eb40734fc94b170fc7382c78"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/initial_state.json",
+      "bytes": 5070,
+      "sha256": "869d8e951b60a16d33930cac892352d5861efa9022f554e8630d6924c924eba2"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/meshes/cart_bite_yoke_left.obj",
+      "bytes": 2147,
+      "sha256": "40b002370ede52b17ffb96648843f80806f317b34800a642ee7738a9c2f24b62"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/meshes/cart_bite_yoke_right.obj",
+      "bytes": 2180,
+      "sha256": "4769dd15b5b3c494df94007b9d7b07eebc1ee286537ab6db94cd52982af5dc7e"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/meshes/cart_drawbar.obj",
+      "bytes": 2747,
+      "sha256": "4352d5ad9a6156d4f1a97c2d9736dcac55d125a257aadef22b3cb192061b8b2f"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/meshes/cart_rotating_shaft.obj",
+      "bytes": 3683,
+      "sha256": "a6995135c1369ae732a65d5e00f2a7ae8c421b1a851ba4c8be321ce2d9474cf7"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_identity.json",
+      "bytes": 1330,
+      "sha256": "f8b414ad51a9bc547b0d5eb47dc762c39cea9701d7257c92d4d4e884c26809c2"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/geometry_mass_screen.json",
+      "bytes": 116765,
+      "sha256": "326ed5a880ee836c3f8241bf1610a07046fc675caeb68a37de57b21c663890b9"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/goose_cart_context.json",
+      "bytes": 5923,
+      "sha256": "8baa5e1c85c412bcc9b1d6df1831badc5a00375be1a3c719defd5f57d7e588f5"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/local_mouth_clearance.json",
+      "bytes": 6057,
+      "sha256": "d376d5cb0fcff81889264cd1162541304bcd8be8f75c900bb3a4a2f5b9cd2338"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/locked_geometry_identity.json",
+      "bytes": 1245,
+      "sha256": "cbf01ec3934a6110f627274943e55e6ea8cda232439ce256b5c900be487b2aa2"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/parameters.json",
+      "bytes": 4764,
+      "sha256": "05bcee9a5c737735234f20e786ebb9f8594d3c79d0219940f6a9ba16c1dde943"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/selected_fk_state.npz",
+      "bytes": 896,
+      "sha256": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/selected_pose_input.json",
+      "bytes": 14903,
+      "sha256": "0443a0b1fbd478e6f50ffdc5fe588f74f26b85ed5c8023466725d892ffe2aa71"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_02/source_inputs/r3_low_grip_420_pitch10/tote_clearance.json",
+      "bytes": 15255,
+      "sha256": "b60b2c5a26b6fcee1e4aceefc9fd8d6bc7e379bfd298bda13d507f6d0686d452"
+    },
+    {
+      "path": "analysis/cart_collision_003/README.md",
+      "bytes": 2235,
+      "sha256": "464746f7c20a3c417c2a27e3b5602b38560a7ff3f0efbee7f88275f8fd808ed6"
+    },
+    {
+      "path": "analysis/cart_collision_003/build_collision.py",
+      "bytes": 27704,
+      "sha256": "948bc53023205c87466a0ce54acce03c2d7bf144b2ed9b6283eba59d01ddcf29"
+    },
+    {
+      "path": "analysis/cart_collision_003/cart_collision.png",
+      "bytes": 41839,
+      "sha256": "86b4c3ba28a675911256921e22f7a469455e7ce5b9091363cf719b520f5be673"
+    },
+    {
+      "path": "analysis/cart_collision_003/functional_checks.json",
+      "bytes": 17382,
+      "sha256": "6d45e7205e9c47a82e717d965d49b12903f8cfbbca36ff788cebdfe96b9a5bc2"
+    },
+    {
+      "path": "analysis/cart_collision_003/goose_cart_collision.png",
+      "bytes": 58741,
+      "sha256": "f5209dd5a68c76c0e37d1e8538eb9ee96a1a6f04b4bbe29acd869956a6a4ce14"
+    },
+    {
+      "path": "analysis/cart_collision_003/initial_mci_reconstruction.json",
+      "bytes": 360,
+      "sha256": "dcfda199591173a1c09922355b2ea4fa79532e9947e6e342f5ef30e607d71da4"
+    },
+    {
+      "path": "analysis/cart_collision_003/loaded_collision_stats.json",
+      "bytes": 10290,
+      "sha256": "be852330cbc8318e466f720b743ec11e3380c18376e971435e1edd3098453fa7"
+    },
+    {
+      "path": "analysis/cart_collision_003/previous_002_immutability.json",
+      "bytes": 172,
+      "sha256": "db573b3c96301469253a356c7408d62237cec96dddac68b041e7fb70c1d709a5"
+    },
+    {
+      "path": "analysis/cart_collision_003/resource_receipt.json",
+      "bytes": 387,
+      "sha256": "319608d4df056db20d51e4dece91d6de58b8de95c95cfe830b620be869ba00ca"
+    },
+    {
+      "path": "analysis/cart_collision_003/source_input_immutability.json",
+      "bytes": 7038,
+      "sha256": "93052f30e423ffc4d1938a33b92516e80915d8b615348267163a4e52588c7a98"
+    }
+  ]
+}

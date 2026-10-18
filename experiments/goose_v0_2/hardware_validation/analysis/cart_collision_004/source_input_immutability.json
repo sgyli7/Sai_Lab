@@ -1,0 +1,90 @@
+{
+  "robot_files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "0f91d14515be5ccbfb67ab7487a8ef7daa1c522138f40094fc952061fe139023",
+    "THIRD_PARTY_NOTICES.md": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead",
+    "actuator_contract.json": "06818574616354d16a183f3049db73be0278523ebefe84cc0df352b6b70eedbd",
+    "actuator_source_facts.json": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79",
+    "benchmark_collision_cost.py": "21f28ae8f7b23254b2c06e4a034b796aedf9c8fd48271d7659351de800732064",
+    "collision_manifest.json": "705bc6981526591f5f1fc181f1f756e343afbdc2574b27d576a4b7f9e20f7fe6",
+    "engineering_mass_patch.json": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+    "freeze_summary.json": "0df7a9ef46af649bc9076f0e20150f52f801df9f66a5c24c194b0e5027f5081d",
+    "legacy_move14_reference.json": "daab209eaa611f5d1f8c48132df116bdf3b1c3f6c306505b1f803484631afc1a",
+    "manifest.json": "de92f9557e6d63406e7b2cb84ba82431e6f54a829f5ca9362d6aafd6f62a68bc",
+    "mass_ledger.json": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+    "material_change_receipt.json": "5c49eafd92e35697e348fb0e31d41d4049dd5fb77dc752917394156ef05a0287",
+    "material_mass_patch.json": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+    "meshes/left_actual_sole.obj": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+    "meshes/left_hip_envelope.obj": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+    "meshes/left_shin_envelope.obj": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+    "meshes/left_thigh_envelope.obj": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+    "meshes/lower_bill_envelope.obj": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+    "meshes/neck_mid_pitch_envelope.obj": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+    "meshes/neck_pitch_envelope.obj": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+    "meshes/right_actual_sole.obj": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+    "meshes/right_hip_envelope.obj": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+    "meshes/right_shin_envelope.obj": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+    "meshes/right_thigh_envelope.obj": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+    "meshes/torso_central_keel.obj": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+    "meshes/torso_upper_envelope.obj": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+    "meshes/upper_bill_envelope.obj": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+    "physical_contract.json": "8033069dc8a87cb42b44c2f8173d8ad49d27a7001f629be50bfbb999600aacf8",
+    "preview/runtime_contact_preview_manifest.json": "8812e0fd784d8a9cdcfef00d34be6095a0b94792ef0e0f3391ca0119c0b8d92b",
+    "preview/runtime_contacts.glb": "d282748fe0ac4e91ec95c6f32df2965ae095956a59652597cc06b62cae182239",
+    "preview/runtime_contacts.obj": "dcc35d36412204001622edb855d3e474c8d7c0ee9a14bfe2f06c9da166178ecb",
+    "preview/runtime_contacts_three_views.png": "18b7a05dc4911e0ba5bdf91c619b37891f75ad8e7424129392f9ad9f892cea34",
+    "rebuild_contacts.py": "a02f5a51187bcb1cce141a3096be3660b52cd293e8649342e7820b6fafc2fc70",
+    "requirements.txt": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c",
+    "requirements_rebuild.txt": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09",
+    "reset_pose_seeds.json": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9",
+    "robot.xml": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+    "runtime_adapter.py": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+    "runtime_interface.json": "6283bcdf32427704882e5fd18a87bc1c8b524a1fa220aa9f342cdb32c1a5aa51",
+    "source_inputs/conditional_mass_ledger.json": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+    "source_inputs/native_contact/lower_bill_parent03.obj": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab",
+    "source_inputs/native_contact/lower_grip_cassette_pad.brep": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69",
+    "source_inputs/native_contact/lower_pad_contact_face.json": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082",
+    "source_inputs/native_contact/upper_grip_cassette_pad.brep": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2",
+    "source_inputs/whole05_full_SI_contract.json": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+    "source_snapshot.json": "2aa389c1c2b3a808421d09640623350619b55aeb37a2e5f2b8b4b012409b1593",
+    "validation/actual_complexity.json": "311c5221b7a77fed2450cb0773734ed318939f4c5968d6543ea83f40020c9799",
+    "validation/independent_critical_contact_sealed_source.json": "d93878073724c7216afd2d95d815512e16193891c1c8a50d3add4d3f0a6dc0e1",
+    "validation/independent_native_grip_contour_sealed_source.json": "fdcd5d5d863f322282bb9379354d9417cee5df98850402d6b43e94e18a81c353",
+    "verify_contacts.py": "ef352b1eaaf043240f04718af40403040e388c1b793a454b6c770655927d703d",
+    "verify_package.py": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef",
+    "verify_physics.py": "bab83cfa8fb5ea2a3fdd5bcd98ac52588606edefc812f335baa7f7428e29ecbb"
+  },
+  "robot_all_unchanged": true,
+  "cart_source": {
+    "parameters": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+    },
+    "mass_screen": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/geometry_mass_screen.json",
+      "sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+    },
+    "pose_context": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json",
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3",
+      "field": "robot_full_qpos"
+    },
+    "step": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.step",
+      "sha256": "46f1ac2e3e305f7b4d0ec800971e35de1dab0b16798708cafce0bc4dba8adf9a"
+    },
+    "glb": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.glb",
+      "sha256": "7a4f650456058d5ba7b9ed81a5a01964c3ed028c55aebec41c6371be042ea5e9"
+    },
+    "cad_builder": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_low_profile_stock_cart_03.py",
+      "sha256": "0c6e734925e73319a84bcfed4a74504de4fdbd3c7cb507113e46c5d561d63756"
+    },
+    "locked_geometry_identity": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_03/locked_geometry_identity.json",
+      "sha256": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+    }
+  },
+  "cart_source_unchanged": true
+}

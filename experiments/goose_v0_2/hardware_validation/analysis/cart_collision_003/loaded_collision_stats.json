@@ -1,0 +1,431 @@
+{
+  "status": "COLLISION_003_CANDIDATE_COMPILE_AND_FORWARD_ONLY",
+  "collision_candidate_id": "low_profile_stock_cart_02_collision_003",
+  "engine_version": "3.10.0",
+  "cart_contact_leaves": 18,
+  "cart_types": {
+    "box": 8,
+    "cylinder": 6,
+    "mesh": 4
+  },
+  "robot_contact_leaves": 14,
+  "combined_robot_and_cart": 32,
+  "ground_planes": 1,
+  "cargo_objects": 0,
+  "cargo_target_kg": 20,
+  "cart_bodies": 10,
+  "cart_passive_hinges": 9,
+  "cart_root_free_dofs": 6,
+  "cart_mass_kg": 7.730322989641888,
+  "mesh_support_vertices_total": 188,
+  "mesh_hull_triangles_total": 360,
+  "max_mesh_support_vertices": 64,
+  "analytical_shapes_have_no_runtime_triangle_count": true,
+  "actual_initial_keyframe": "low_handle_420_pitch10",
+  "geom_rows": [
+    {
+      "name": "cart_deck_frame",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          5.551115123125783e-17,
+          -0.225,
+          0.15000000000000002
+        ],
+        [
+          0.6500000000000001,
+          0.225,
+          0.1815
+        ]
+      ]
+    },
+    {
+      "name": "cart_side_right",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          5.551115123125783e-17,
+          -0.225,
+          0.1815
+        ],
+        [
+          0.6500000000000001,
+          -0.209,
+          0.29
+        ]
+      ]
+    },
+    {
+      "name": "cart_side_left",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          5.551115123125783e-17,
+          0.209,
+          0.1815
+        ],
+        [
+          0.6500000000000001,
+          0.225,
+          0.29
+        ]
+      ]
+    },
+    {
+      "name": "cart_end_front",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          6.938893903907228e-18,
+          -0.209,
+          0.1815
+        ],
+        [
+          0.016000000000000007,
+          0.209,
+          0.29
+        ]
+      ]
+    },
+    {
+      "name": "cart_end_rear",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          0.634,
+          -0.209,
+          0.1815
+        ],
+        [
+          0.65,
+          0.209,
+          0.29
+        ]
+      ]
+    },
+    {
+      "name": "cart_mast",
+      "type": "box",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          -0.04100000000000002,
+          -0.016,
+          0.15
+        ],
+        [
+          -0.009000000000000022,
+          0.016,
+          0.43999999999999995
+        ]
+      ]
+    },
+    {
+      "name": "cart_yaw_housing",
+      "type": "cylinder",
+      "body": "cart_base",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          -0.07699999999999994,
+          -0.015,
+          0.35371971469493274
+        ],
+        [
+          -0.046999999999999945,
+          0.015,
+          0.3977197146949328
+        ]
+      ]
+    },
+    {
+      "name": "cart_wheel_80_-190",
+      "type": "cylinder",
+      "body": "wheel_80_-190",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          0.01750000000000007,
+          -0.2025,
+          0.0
+        ],
+        [
+          0.14250000000000007,
+          -0.1775,
+          0.125
+        ]
+      ]
+    },
+    {
+      "name": "cart_wheel_80_190",
+      "type": "cylinder",
+      "body": "wheel_80_190",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          0.01750000000000007,
+          0.1775,
+          0.0
+        ],
+        [
+          0.14250000000000007,
+          0.2025,
+          0.125
+        ]
+      ]
+    },
+    {
+      "name": "cart_wheel_570_-190",
+      "type": "cylinder",
+      "body": "wheel_570_-190",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          0.5075000000000002,
+          -0.2025,
+          0.0
+        ],
+        [
+          0.6325000000000002,
+          -0.1775,
+          0.125
+        ]
+      ]
+    },
+    {
+      "name": "cart_wheel_570_190",
+      "type": "cylinder",
+      "body": "wheel_570_190",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          0.5075000000000002,
+          0.1775,
+          0.0
+        ],
+        [
+          0.6325000000000002,
+          0.2025,
+          0.125
+        ]
+      ]
+    },
+    {
+      "name": "cart_pitch_clevis_right",
+      "type": "box",
+      "body": "cart_yaw",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          -0.11099999999999997,
+          -0.019000000000000003,
+          0.35821971469493274
+        ],
+        [
+          -0.06899999999999996,
+          -0.015000000000000001,
+          0.3932197146949328
+        ]
+      ]
+    },
+    {
+      "name": "cart_pitch_clevis_left",
+      "type": "box",
+      "body": "cart_yaw",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 12,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          -0.11099999999999997,
+          0.015000000000000001,
+          0.35821971469493274
+        ],
+        [
+          -0.06899999999999996,
+          0.019000000000000003,
+          0.3932197146949328
+        ]
+      ]
+    },
+    {
+      "name": "cart_drawbar",
+      "type": "mesh",
+      "body": "cart_pitch",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "loaded_mesh_vertices": 48,
+      "convex_support_vertices": 48,
+      "convex_hull_triangles": 92,
+      "convex": true,
+      "watertight": true,
+      "display_triangles": 92,
+      "display_triangles_are_runtime_collision_faces": true,
+      "cart_world_bounds_m": [
+        [
+          -0.24567318851211503,
+          -0.017000001048834024,
+          0.3648868328644156
+        ],
+        [
+          -0.09308987137423161,
+          0.017000000798910054,
+          0.41850867573343703
+        ]
+      ]
+    },
+    {
+      "name": "cart_rotating_shaft",
+      "type": "mesh",
+      "body": "cart_roll",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "loaded_mesh_vertices": 64,
+      "convex_support_vertices": 64,
+      "convex_hull_triangles": 124,
+      "convex": true,
+      "watertight": true,
+      "display_triangles": 124,
+      "display_triangles_are_runtime_collision_faces": true,
+      "cart_world_bounds_m": [
+        [
+          -0.30250422713402636,
+          -0.0070000000880329,
+          0.397827714407536
+        ],
+        [
+          -0.24202657654384785,
+          0.007000000344100813,
+          0.4180375775163778
+        ]
+      ]
+    },
+    {
+      "name": "cart_bite_yoke_right",
+      "type": "mesh",
+      "body": "cart_roll",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "loaded_mesh_vertices": 38,
+      "convex_support_vertices": 38,
+      "convex_hull_triangles": 72,
+      "convex": true,
+      "watertight": true,
+      "display_triangles": 72,
+      "display_triangles_are_runtime_collision_faces": true,
+      "cart_world_bounds_m": [
+        [
+          -0.35695886740874777,
+          -0.08916816865262131,
+          0.402166493059839
+        ],
+        [
+          -0.27854480141551163,
+          0.004168167511084703,
+          0.4308328734864441
+        ]
+      ]
+    },
+    {
+      "name": "cart_bite_yoke_left",
+      "type": "mesh",
+      "body": "cart_roll",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "loaded_mesh_vertices": 38,
+      "convex_support_vertices": 38,
+      "convex_hull_triangles": 72,
+      "convex": true,
+      "watertight": true,
+      "display_triangles": 72,
+      "display_triangles_are_runtime_collision_faces": true,
+      "cart_world_bounds_m": [
+        [
+          -0.356958867446694,
+          -0.004168171849094411,
+          0.4021664932685996
+        ],
+        [
+          -0.2785448029004813,
+          0.08916816724317322,
+          0.4308328735576736
+        ]
+      ]
+    },
+    {
+      "name": "cart_bite_bar",
+      "type": "cylinder",
+      "body": "cart_roll",
+      "enabled_contype": 4,
+      "conaffinity": 7,
+      "display_triangles": 192,
+      "display_triangles_are_runtime_collision_faces": false,
+      "cart_world_bounds_m": [
+        [
+          -0.3521202663476042,
+          -0.07999999999999999,
+          0.41400571067050884
+        ],
+        [
+          -0.3401316876886219,
+          0.07999999999999999,
+          0.4259942893294911
+        ]
+      ]
+    }
+  ],
+  "baseline_53_files_unchanged": true,
+  "robot_compiled_MCI_axes_drive_equalities_unchanged": true,
+  "physics_integrations": 0,
+  "training_updates": 0,
+  "GPU": 0,
+  "qualification": "Only actual compile, one neutral forward and specified robot FK. No stepping, rolling resistance, grip, backward control or 20kg capacity qualification."
+}

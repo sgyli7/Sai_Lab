@@ -4,7 +4,7 @@
 
 后续实验由 **Sai_Rotbots 的 Goose V0.2 硬件优化聊天**负责组织和授权。Picking 只负责 V0.1，不是 V0.2 的执行者；Move、暂停的 Standup 和 G1 工作树均不参与本数据工作区。历史文件中保留的 Picking 路径只是来源记录，不代表当前归属。主实验计划与硬件CAD仍由 Rotbots 本聊天维护，本目录不另立主线。
 
-独立分支为 `codex/goose-v02-hardware-validation`，基线为已提交的 `05b3a38a8d8ec1988cfbd21850f373ae98052a24`。这里只新增本目录；没有复制其他工作树的未提交内容，也没有修改 Bevy/Godot/Unity 的运行资产或默认模型。跨引擎的实验资料放在仓库级 `experiments/`，不作为 Bevy crate 或引擎资产。
+本机独立源工作树从已提交的 `05b3a38a8d8ec1988cfbd21850f373ae98052a24` 建立，首源提交为 `201b90f81d911ae27d478ba5840e334197ab5f1c`。远端 `codex/goose-v02-hardware-validation` 为避免带入其他未发布训练历史，从已发布main `2128db711351b8c33fe2505e487473f35a3d2966` 仅新增本专属目录，首发布提交为 `558e356b639cacd4232cc040955f966586bf96dd`；两者专属目录子树完全相同，全仓树不相同。后续发布沿该远端分支仅更新本目录，不改V0.1或其他引擎/训练资产。见[发布来源收据](analysis/low_handle_data_integration_001/publication_lineage.json)。
 
 ## 固定输入
 
@@ -37,7 +37,19 @@
 
 历史源码与 `REPRODUCE.md` 是归档资料，**不能直接执行 `pilot.py serve`、`drag_pilot.py`、旧渲染程序或原复核脚本**：部分程序会写原结果或使用已结束的订单。完整历史复现仍需原始大数据及其声明环境；未来运行须由Rotbots本聊天另发有界新单、新输出目录和数据映射，不能覆写旧目录。本次未运行这些归档程序。
 
-## 理货车静态输入与来源纠正
+## 当前低把手候选：03/R4与碰撞004
+
+[当前车体](assets/low_profile_stock_cart_03/README.md)使实际咬杆、pitch与yaw枢轴同高420mm；前端10°形状已在CAD中固定，初始车pitch坐标为0，不能再转10°。[独立审核](analysis/cart_low_handle_independent_002/independent_release_gate.json)的接受范围以原报告为准，仅限声明的静态候选。
+
+空车设计估计7.815342442756589kg，含0.35kg未定硬件预留；134件真实CAD的MCI计入10车刚体、9被动轴，预留独立I仍为实验分配。车20块＝8box＋6解析cylinder＋6凸mesh；mesh共212支持点/400凸面、单块最多64。新增两片真实偏置承力板各一块，保留板间空气，不将它们合成填满空隙的凸包；螺钉不逐件设碰撞。鹅14＋车20＝34，地面另1，货物实例0。解析primitive不报网格面数。使用输入声明中的选定keyframe，不能把默认中性q当已审核姿态。
+
+旧02/碰撞003保留为**被拒绝的负载优化候选**，并未覆盖成新版本。其杆心420mm而自由pitch枢轴375.7197mm，20N会额外产生约0.8856Nm，需要约3.5265N向下嘴载；补齐后的两种声明假设下均略退步。见[原静力归档](analysis/low_handle_study_001/REPORT.md)、[三次补充LP原结果](analysis/low_handle_pitch_load_supplement_001/README.md)和[G拒绝意见](analysis/cart_low_handle_independent_001/independent_release_gate.json)。原Fz0数值是负担重分配，head_pitch约.152→.471而neck根约.511→.378，不能称所有轴减负或节电10%。
+
+新R4水平20N相对共高pitch不产生该额外力矩，仍须承担真实下游自重舌载：旧2.171112N、新2.205510N。原已执行的有限理想静力比较约.68562→.62001，仅支持这一姿态负担重分配；不是最大拖力、功耗、夹持或20kg能力升级。20N叠加3N侧力的持续工况仍FAIL，20kg动态、整机0.5m、60s均NO_RESULT。滚阻、关节摩擦、弹簧刚度/预紧未标定，平地无近障碍以外仍未资格。
+
+原53输入/ZIP、旧R2/002、原001/003数值/源码及原20项manifest均保留。后续CAD构建在13:02/13:05以重定向覆盖了旧构建日志，当前日志26,798B与原manifest52,186B不同；[收据](analysis/low_handle_data_integration_001/appended_build_log_receipt.json)明确19吻合＋1覆盖日志，不伪称20项一直同hash。[新增复制映射](analysis/low_handle_data_integration_001/source_copy_manifest.json)保留原绝对路径和新归档位置，归档代码不能原地执行。
+
+## 历史R2理货车静态输入与来源纠正
 
 [车体输入](assets/low_profile_stock_cart_01/README.md)采用 `low_profile_stock_cart_01_collision_002`；[C已锁22项清单](analysis/cart_collision_001/artifact_manifest.json)为当前身份，旧collision_001保存在资产history ZIP，不能沿用旧类型摘要。当前车18块＝8 box＋6解析cylinder＋4凸mesh；4mesh合计188支持点/360凸面，单块最多64。鹅14＋车18＝32块，地面另1，没有货物实例。车体10刚体、9被动轴；原鹅04的全部53文件及MCI/轴/驱动未改。
 
@@ -53,7 +65,7 @@
 
 [benchmark_register.json](benchmark_register.json)把两类条件分榜，均为 `NO_RESULT`：
 
-1. **20kg有效货物＋低矮理货车**：20kg指货物，车重另计。已有R2车体CAD和collision_002静态碰撞输入；空车估计7.800864kg（含0.35kg未定硬件预留），尚无20kg货物实例或动态试验。
+1. **20kg有效货物＋低矮理货车**：20kg指货物，车重另计。当前为03/R4车体与collision_004静态候选，空车设计估计7.815342kg（含0.35kg未定硬件预留）；没有20kg货物实例或动态试验，榜单仍NO_RESULT。
 2. **20kg无轮滑块**：独立条件，不与有轮车结果合并。物体几何、接触材料和运行订单尚未确定。
 
 下一阶段还需要自由整机负载姿态、后退/停止控制、真实支撑位移与速度、起动/持续拉力、夹持保持、轮地行为及声明的摩擦/柔度。现有探索不能证明机械最大载荷，不能声称通过20kg、整机0.5m或60s。鹅04保持原冻结输入；理货车另列为静态首版候选，不修改鹅的质量、轴或驱动。
@@ -69,4 +81,4 @@ python tools/verify_static.py
 python tools/verify_static.py --check-originals
 ```
 
-该入口只核对哈希、ZIP、JSON/XML结构、相对资产路径及源码语法；不import运行适配器或历史脚本，不调用forward/step，不重放接触。输出到stdout；[static_validation.json](static_validation.json)是交接时已保存的静态收据，不是新物理验收。此工作树未提交或推送，后续由Rotbots主线决定发布。
+该入口只核对哈希、ZIP、JSON/XML结构、相对资产路径及源码语法；不import运行适配器或历史脚本，不调用forward/step，不重放接触。输出到stdout；[static_validation.json](static_validation.json)是交接时已保存的静态收据，不是新物理验收。本次核查不执行任何历史脚本。资料的发布身份以Git提交和发布收据为准，目录存在或静态校验通过不代表动态任务通过。

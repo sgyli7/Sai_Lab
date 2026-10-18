@@ -1,0 +1,272 @@
+{
+  "source_robot": "physics_v0_2_20261018_04",
+  "robot_xml_sha256": "a0cb282874fbe93f940afa3664af23d75478ab4d9f7f88dc31b51f233ae09dd5",
+  "cart_GLB_sha256": "7a4f650456058d5ba7b9ed81a5a01964c3ed028c55aebec41c6371be042ea5e9",
+  "robot_geometry": "14 loaded convex physics meshes, not native exterior CAD",
+  "robot_named_joints_rad": {
+    "neck_pitch": 0.6776928810446406,
+    "neck_mid_pitch": 0.8129882210909366,
+    "head_pitch": -1.316148176817102
+  },
+  "cart_origin_robot_frame_mm": [
+    646.1259770181132,
+    0,
+    0
+  ],
+  "grip_TCP_robot_frame_mm": [
+    300,
+    0,
+    420
+  ],
+  "deck_world_x_range_mm": [
+    646.1259770181132,
+    1296.1259770181132
+  ],
+  "basket_rim_z_mm": 290,
+  "shoes_to_cart_deck_front_horizontal_separation_mm": 519.5924271744311,
+  "loaded_robot_self_penetration_beyond0p1mm": [],
+  "robot_geom_bounds_mm": [
+    {
+      "geom": "torso_central_keel",
+      "min_mm": [
+        -242.1865402570378,
+        -81.98712873248897,
+        242.00000252057487
+      ],
+      "max_mm": [
+        99.99999767043238,
+        81.98859305065183,
+        458.99999940883293
+      ]
+    },
+    {
+      "geom": "torso_upper_envelope",
+      "min_mm": [
+        -242.1865422578005,
+        -111.55256418327777,
+        305.0000126594059
+      ],
+      "max_mm": [
+        100.0000082275851,
+        111.55256453069877,
+        459.00000027173587
+      ]
+    },
+    {
+      "geom": "neck_pitch_envelope",
+      "min_mm": [
+        -4.212360427010537,
+        -56.00000083042475,
+        419.68221615232454
+      ],
+      "max_mm": [
+        66.86762114520134,
+        52.19999990968707,
+        604.639259945958
+      ]
+    },
+    {
+      "geom": "neck_mid_pitch_envelope",
+      "min_mm": [
+        18.580950134921075,
+        -58.500000778036394,
+        511.0802120262843
+      ],
+      "max_mm": [
+        111.56569291417294,
+        54.70000133432259,
+        608.5958824541652
+      ]
+    },
+    {
+      "geom": "upper_bill_envelope",
+      "min_mm": [
+        86.13072900204355,
+        -51.87241967151636,
+        419.10183491657614
+      ],
+      "max_mm": [
+        345.57677135142194,
+        53.11653374962399,
+        539.0893154807138
+      ]
+    },
+    {
+      "geom": "lower_bill_envelope",
+      "min_mm": [
+        234.73654328688653,
+        -26.00003600608231,
+        398.49214643450745
+      ],
+      "max_mm": [
+        332.8670335857915,
+        26.000022408649098,
+        436.3202060031955
+      ]
+    },
+    {
+      "geom": "right_hip_envelope",
+      "min_mm": [
+        -14.743925512619235,
+        -138.75000071561678,
+        308.1454801856361
+      ],
+      "max_mm": [
+        40.256072326712534,
+        -85.25000032818643,
+        363.1454817502581
+      ]
+    },
+    {
+      "geom": "right_thigh_envelope",
+      "min_mm": [
+        -50.131833928272684,
+        -165.99997878189217,
+        198.50687835492263
+      ],
+      "max_mm": [
+        46.726250984327145,
+        -113.9999991940071,
+        369.2167744699984
+      ]
+    },
+    {
+      "geom": "right_shin_envelope",
+      "min_mm": [
+        -50.1748299115303,
+        -171.4999986724685,
+        39.31684776087986
+      ],
+      "max_mm": [
+        81.55000697839853,
+        -73.99999923329442,
+        264.3247312001276
+      ]
+    },
+    {
+      "geom": "right_actual_sole",
+      "min_mm": [
+        -29.9000054750033,
+        -160.99999982192838,
+        1.2099772572771172e-08
+      ],
+      "max_mm": [
+        126.53354425512242,
+        -89.00000217238806,
+        80.56065571985657
+      ]
+    },
+    {
+      "geom": "left_hip_envelope",
+      "min_mm": [
+        -14.743925512619235,
+        85.25000163876668,
+        308.1454801856361
+      ],
+      "max_mm": [
+        40.256072326712534,
+        138.750002026197,
+        363.1454817502581
+      ]
+    },
+    {
+      "geom": "left_thigh_envelope",
+      "min_mm": [
+        -50.131832934065564,
+        113.99999918625569,
+        198.50688130730038
+      ],
+      "max_mm": [
+        46.72625011087675,
+        165.9999788168611,
+        369.2144788232736
+      ]
+    },
+    {
+      "geom": "left_shin_envelope",
+      "min_mm": [
+        -50.174746109810336,
+        74.00000095108636,
+        39.31684831064075
+      ],
+      "max_mm": [
+        81.5500066968337,
+        171.49999722816395,
+        264.31998907580095
+      ]
+    },
+    {
+      "geom": "left_actual_sole",
+      "min_mm": [
+        -29.900004279996445,
+        89.00000320850795,
+        2.7755575615628914e-14
+      ],
+      "max_mm": [
+        126.53354984368212,
+        160.99999907082955,
+        80.56065456990356
+      ]
+    }
+  ],
+  "physics_integrations": 0,
+  "training": 0,
+  "GPU": 0,
+  "qualifications": "Geometry context only. Shoe-to-platform X separation is a sufficient plane separation at this single FK pose; cart tow head and jaws require separate local clearance/contact checks. No swept gait or dynamic support qualification.",
+  "full_qpos": [
+    0.0,
+    0.0,
+    0.005000002805734566,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.6776928810446406,
+    0.8129882210909366,
+    -1.316148176817102,
+    0.0,
+    0.19682523003160665,
+    0.19682523003160665,
+    -0.19682523003160665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "joint_qpos_addresses": {
+    "root": 0,
+    "neck_yaw": 7,
+    "neck_pitch": 8,
+    "neck_mid_pitch": 9,
+    "head_pitch": 10,
+    "head_roll": 11,
+    "beak_hinge": 12,
+    "beak_input_rotor": 13,
+    "beak_coupler_link": 14,
+    "right_hip_yaw": 15,
+    "right_hip_roll": 16,
+    "right_hip_pitch": 17,
+    "right_knee_pitch": 18,
+    "right_ankle_pitch": 19,
+    "right_ankle_roll": 20,
+    "left_hip_yaw": 21,
+    "left_hip_roll": 22,
+    "left_hip_pitch": 23,
+    "left_knee_pitch": 24,
+    "left_ankle_pitch": 25,
+    "left_ankle_roll": 26,
+    "left_yaw_input_rotor": 27,
+    "right_yaw_input_rotor": 28
+  }
+}

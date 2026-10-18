@@ -1,0 +1,327 @@
+{
+  "status": "SAVED_RESULT_ARITHMETIC_AND_ALGORITHM_AUDIT_NO_NEW_LP",
+  "static_source_sha256": "dd4ee491ad7ec3a0c33b0a182f1a53fc0bb6f191a3481460bf03e107a3360a83",
+  "saved_selected_sha256": "df9a17cf91fb5768b721338564db88a99ec485ed1a4e0da227d4bb4450f91b3f",
+  "rows": [
+    {
+      "candidate": "baseline_480",
+      "F": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.4779152458699989,
+      "reported_u": 0.4779152458699989,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "head_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623875031929443,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "baseline_480",
+      "F": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.45695701679121303,
+      "reported_u": 0.456957016791213,
+      "absolute_error": 5.551115123125783e-17,
+      "axes_at_reported_max": [
+        "neck_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623875031929443,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "baseline_480",
+      "F": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.6318205682849238,
+      "reported_u": 0.6318205682849238,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623875031929443,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "baseline_480",
+      "F": [
+        20.0,
+        0.0,
+        -3.0
+      ],
+      "recomputed_u": 0.7061584190412323,
+      "reported_u": 0.7061584190412322,
+      "absolute_error": 1.1102230246251565e-16,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623875031929443,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "baseline_480",
+      "F": [
+        20.0,
+        3.0,
+        0.0
+      ],
+      "recomputed_u": 1.0768974586437985,
+      "reported_u": 1.0768974586437983,
+      "absolute_error": 2.220446049250313e-16,
+      "axes_at_reported_max": [
+        "head_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 1.0768974586437983,
+      "upper_tau_identity_error": 0.0,
+      "gate": "FAIL_CONTINUOUS_STATIC"
+    },
+    {
+      "candidate": "selected",
+      "F": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.4573145127499392,
+      "reported_u": 0.4573145127499391,
+      "absolute_error": 5.551115123125783e-17,
+      "axes_at_reported_max": [
+        "neck_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623078252346794,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "selected",
+      "F": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.4179522552021276,
+      "reported_u": 0.4179522552021276,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623078252346794,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "selected",
+      "F": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.5653547828409318,
+      "reported_u": 0.5653547828409318,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623078252346794,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "selected",
+      "F": [
+        20.0,
+        0.0,
+        -3.0
+      ],
+      "recomputed_u": 0.6396926335964656,
+      "reported_u": 0.6396926335964656,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.2623078252346794,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "selected",
+      "F": [
+        20.0,
+        3.0,
+        0.0
+      ],
+      "recomputed_u": 1.0769771366020628,
+      "reported_u": 1.0769771366020626,
+      "absolute_error": 2.220446049250313e-16,
+      "axes_at_reported_max": [
+        "head_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 1.0769771366020626,
+      "upper_tau_identity_error": 0.0,
+      "gate": "FAIL_CONTINUOUS_STATIC"
+    },
+    {
+      "candidate": "alternative_400_pitch15",
+      "F": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.48502570972997333,
+      "reported_u": 0.4850257097299733,
+      "absolute_error": 5.551115123125783e-17,
+      "axes_at_reported_max": [
+        "neck_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.26220879621238125,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "alternative_400_pitch15",
+      "F": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.4161828536828361,
+      "reported_u": 0.4161828536828361,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.26220879621238125,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "alternative_400_pitch15",
+      "F": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "recomputed_u": 0.6256897793994832,
+      "reported_u": 0.6256897793994832,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "head_pitch",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.26220879621238125,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "alternative_400_pitch15",
+      "F": [
+        20.0,
+        0.0,
+        -3.0
+      ],
+      "recomputed_u": 0.6222982320686375,
+      "reported_u": 0.6222982320686375,
+      "absolute_error": 0.0,
+      "axes_at_reported_max": [
+        "right_knee_pitch",
+        "right_ankle_roll",
+        "left_hip_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 0.26220879621238125,
+      "upper_tau_identity_error": 0.0,
+      "gate": "PASS_ZERO_SPEED_STATIC_ONLY"
+    },
+    {
+      "candidate": "alternative_400_pitch15",
+      "F": [
+        20.0,
+        3.0,
+        0.0
+      ],
+      "recomputed_u": 1.0770761656243621,
+      "reported_u": 1.077076165624362,
+      "absolute_error": 2.220446049250313e-16,
+      "axes_at_reported_max": [
+        "head_roll",
+        "left_knee_pitch",
+        "left_ankle_roll"
+      ],
+      "explicit_head_roll_util": 1.077076165624362,
+      "upper_tau_identity_error": 0.0,
+      "gate": "FAIL_CONTINUOUS_STATIC"
+    }
+  ],
+  "relative_maxutil_reduction_20N": 0.10519724868155743,
+  "external_pitch_moment_reduction_fraction": 0.125,
+  "old002_runtime_identity_mismatches": [],
+  "old01_source_identity_mismatches": [],
+  "assumptions": [
+    "For default upright stance source uses same12 fixed true-sole support points, mu0.65 L1 inscribed friction pyramid, continuous capacities with once-only friction reserve, mechanical equality reactions.",
+    "No LP was rerun. Exact source and saved tau18 are read; cap and friction arithmetic independently checked.",
+    "Solver can return feasible u>1 because u is unbounded above; such cases must remain FAIL.",
+    "head_roll lateral component alone exceeds design continuous limit: (abs(-.1147767991242888)+.036)/.14=1.07697713660206. Multiple LP axes can share max so argmax worst_axis label is not unique.",
+    "No grip-pressure/friction-load allocation is solved; static load is an assumed wrench at true rod-center material point on head. No speed, thermal, dynamic, gait or20kg qualification."
+  ],
+  "no_new_LP": true,
+  "physics_integrations": 0,
+  "training": 0,
+  "GPU": 0
+}

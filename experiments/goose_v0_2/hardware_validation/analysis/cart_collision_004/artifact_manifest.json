@@ -1,0 +1,190 @@
+{
+  "candidate": "low_profile_stock_cart_03_collision_004",
+  "files": [
+    {
+      "path": "assets/low_profile_stock_cart_03/README.md",
+      "bytes": 2886,
+      "sha256": "175c79278c9b9f72c8b949630b4e893f237944b707c6d97cd68556d057077987"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/body_mass_map.json",
+      "bytes": 133692,
+      "sha256": "b62ea09bf49ef50eba868bd5a319866cc7e8aff6c83a356d7f278dc27f208e9c"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/cart.xml",
+      "bytes": 12945,
+      "sha256": "5ca57e4174f629aa28e0156bcaf0bd0f67bf8741d99e0b6bd2b2490ad90a07fd"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/cart_collision.glb",
+      "bytes": 31844,
+      "sha256": "33e20f12e5d7f683ebe52c6a5a50a07b004d608353cc4de000327078c1cb07e3"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/collision_source_map.json",
+      "bytes": 11645,
+      "sha256": "a3b68cbd5a88ae1ba75eb2a4283c7e1e6916cc4a48f758ecbebc3acdb96d0451"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/goose_cart_scene.xml",
+      "bytes": 36879,
+      "sha256": "09929801c5be625a9f2d9d2abc08029b47e4aba9a30d2cf6deaf74e731195a1c"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/initial_state.json",
+      "bytes": 4995,
+      "sha256": "7f2e982548e349ebb8ed6cd9661c380d8e76f8a9d843c4955d4200f4798af21e"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_left.obj",
+      "bytes": 2147,
+      "sha256": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_bite_yoke_right.obj",
+      "bytes": 2174,
+      "sha256": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_drawbar.obj",
+      "bytes": 2747,
+      "sha256": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_y12p5.obj",
+      "bytes": 646,
+      "sha256": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_pitch_offset_plate_yminus12p5.obj",
+      "bytes": 658,
+      "sha256": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/meshes/cart_rotating_shaft.obj",
+      "bytes": 3681,
+      "sha256": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_identity.json",
+      "bytes": 1878,
+      "sha256": "3c1944239169a26a7bb6efe3fa3d1db4dc941607159d6868441ab3248cd78f1b"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/connection_screen.json",
+      "bytes": 6111,
+      "sha256": "ac65a1aa3e1d7b4c903477f53c38052132ba8d2d1a44564e61d4972b5f622045"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/geometry_mass_screen.json",
+      "bytes": 127488,
+      "sha256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/goose_cart_context.json",
+      "bytes": 5923,
+      "sha256": "93d457d9283f648b84b1f1fa7f053f594fd98d6c61bfc71bcfd16f667018c60a"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/local_mouth_clearance.json",
+      "bytes": 6056,
+      "sha256": "ef138c4c07c32799e215c4030edf9541dc5669c5257bf4813fa93f95f5740eb4"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/locked_geometry_identity.json",
+      "bytes": 3052,
+      "sha256": "4645fc6b2a4697df55bb6d72e9ca93731f5ce80f3aab91948810fb8b0bb83129"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/parameters.json",
+      "bytes": 4838,
+      "sha256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/pitch_subset_metadata_correction.json",
+      "bytes": 767,
+      "sha256": "1d17c8f12a42d81a4b6dbac9a4903bf9c4143c8f28e3ab7b8732e130fa254c19"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_fk_state.npz",
+      "bytes": 896,
+      "sha256": "e888ee63015ebd9ae3673f45792a1f6e88ec04bd075f331a3535c84d84e98656"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/selected_pose_input.json",
+      "bytes": 1835,
+      "sha256": "be6cbfa922c7c58f92ceedfdbb00a96c469d6c53fa75e0764a9f6574e9364297"
+    },
+    {
+      "path": "assets/low_profile_stock_cart_03/source_inputs/r4_collinear_420/tote_clearance.json",
+      "bytes": 16794,
+      "sha256": "cb2781373cf0d010f25adcdd6281eb5de90b61915a6c37100c7ea439de446860"
+    },
+    {
+      "path": "analysis/cart_collision_004/README.md",
+      "bytes": 2214,
+      "sha256": "16a00fd66192ef114bde09edf715b0e8b3443dd118a16023661ae775a78043f1"
+    },
+    {
+      "path": "analysis/cart_collision_004/build_collision.py",
+      "bytes": 29175,
+      "sha256": "e15ce9e986b85d0d4e5a2b15227934d9ca228ce817b498c8ba449ee99be7ca68"
+    },
+    {
+      "path": "analysis/cart_collision_004/cart_collision.png",
+      "bytes": 41264,
+      "sha256": "e0540242261b8ff15def94ec8724a9e68c8d60b7d2f17c047a03ff1de643420d"
+    },
+    {
+      "path": "analysis/cart_collision_004/coupled_static_load.json",
+      "bytes": 15166,
+      "sha256": "dfa8323f3d1abe976f2cec535b5a5c053e2934b5bf4171cd7797e44d72df2122"
+    },
+    {
+      "path": "analysis/cart_collision_004/coupled_static_load.py",
+      "bytes": 4032,
+      "sha256": "63f8900798e020b7871f4e978250a199fd389d29239bff8520834eaaf5771f32"
+    },
+    {
+      "path": "analysis/cart_collision_004/earlier_collision_immutability.json",
+      "bytes": 181,
+      "sha256": "8ae9f8efd2e43197a72feb6279008625c047d3dbcd3b2dd5f76c14d303ea834b"
+    },
+    {
+      "path": "analysis/cart_collision_004/functional_checks.json",
+      "bytes": 23129,
+      "sha256": "ce39711e62a3cc89fe7da07551d5b2099e6e2177a6db36c6745ebae3b5d628bb"
+    },
+    {
+      "path": "analysis/cart_collision_004/goose_cart_collision.png",
+      "bytes": 57832,
+      "sha256": "6c8b08cf84b840cdfbf8938e1db25e7216f484eb3f57ee4110cfcbd97bc36f5e"
+    },
+    {
+      "path": "analysis/cart_collision_004/loaded_collision_stats.json",
+      "bytes": 11608,
+      "sha256": "fd8d0e8c77ed8f62feffd9db89f5709f5a32f71e05f37492fa6589c8d9250c5e"
+    },
+    {
+      "path": "analysis/cart_collision_004/mci_and_plate_gap_checks.json",
+      "bytes": 2163,
+      "sha256": "2c7c4726a12af38b1669b62584cb0add1246395868b0d2596ef1570478490142"
+    },
+    {
+      "path": "analysis/cart_collision_004/metadata_correction_chain.json",
+      "bytes": 423,
+      "sha256": "5f818586952aae2b0fabf69984d8d39bfe4f079b53dd15862fdeea6141a8fde4"
+    },
+    {
+      "path": "analysis/cart_collision_004/resource_receipt.json",
+      "bytes": 385,
+      "sha256": "4e05d7b5a4f872e9c598481b54504b3213ac7219951c97d0be668c34fe86de43"
+    },
+    {
+      "path": "analysis/cart_collision_004/source_input_immutability.json",
+      "bytes": 7604,
+      "sha256": "18a672031311554122459b91a74f1d3bba26cf703edc1d4ee02e681858bc3785"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "path": "analysis/cart_low_handle_independent_002/README.md",
+      "bytes": 2355,
+      "sha256": "60652b1c5a7ea21c200d8f745eb1addd3cd995e254f63f26082680f9553dec44"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_compiled_cart004.json",
+      "bytes": 44735,
+      "sha256": "86980eb729d960653ec2ae067151ddd9225fdd06bbcd35f520c03eac80f0d40e"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_compiled_check.py",
+      "bytes": 6314,
+      "sha256": "af4a0005c120fa4a984100cb9fadcd682d22b09b006993b2d0f727aeaac0fa64"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_final_identity_and_visual.json",
+      "bytes": 7561,
+      "sha256": "4e67f6e9efaa46774a7de84d1fb04e643bd37cbc0a9a6ae3ce3d93f076163a2b"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_load_line_and_plate_check.json",
+      "bytes": 5454,
+      "sha256": "d88e1a3badecec8292c5a9054116a643acd92e947685cb827ed04473abcabb7d"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_native_check.py",
+      "bytes": 3465,
+      "sha256": "5ad42d9cc2b9b7cc3d38e2c492c5585a83605b4addb29d5132a661c63fb65071"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_native_geometry.json",
+      "bytes": 46048,
+      "sha256": "e90fafc977464896e24179a8121ab8088bd4a8326176f01be35b2df93da9542b"
+    },
+    {
+      "path": "analysis/cart_low_handle_independent_002/independent_release_gate.json",
+      "bytes": 6427,
+      "sha256": "4a7e62721490c00170280ba0401b714713e357de621b5a24b7b2131b4dfc5126"
+    }
+  ],
+  "physics_integrations": 0,
+  "training_updates": 0,
+  "GPU": 0
+}

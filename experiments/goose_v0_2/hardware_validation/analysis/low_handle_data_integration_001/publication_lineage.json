@@ -1,0 +1,12 @@
+{
+  "schema": "low_handle_02_publication_lineage_v1",
+  "local_original_commit": "201b90f81d911ae27d478ba5840e334197ab5f1c",
+  "published_original_commit": "558e356b639cacd4232cc040955f966586bf96dd",
+  "published_parent": "2128db711351b8c33fe2505e487473f35a3d2966",
+  "original_242_dedicated_subtree": "5e40e33f4c62601293cd90d479b95fbcd2580ab5",
+  "original_242_tree_is_not_the_entire_remote_repository": true,
+  "original_copy_manifest_sha256": "62323d1a1ba3ecc80d7e363331ab369d343a66282d3253c3ed173991f2e72c89",
+  "old_C002_history_not_modified": true,
+  "static_archive_declared_sha256": "7d5af1fd76f81b8bc05e298ead7e0c7f1ca2a5f3a1e98dff4198c062afed2fb1",
+  "raw_source_absolute_paths_preserved": true
+}

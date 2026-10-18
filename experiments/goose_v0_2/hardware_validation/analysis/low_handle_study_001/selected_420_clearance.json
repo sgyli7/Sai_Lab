@@ -1,0 +1,1922 @@
+{
+  "status": "FINITE_SAVED_FK_PROXY_ONLY",
+  "pairs_checked": 238,
+  "pairs": [
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5660411773124386,
+      "AABB_separation_lower_bound_m": 0.5494668649003804,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.5844150733570431,
+      "AABB_separation_lower_bound_m": 0.5607012170363826,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.5844150747089041,
+      "AABB_separation_lower_bound_m": 0.5607008853334514,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5486917036089862,
+      "AABB_separation_lower_bound_m": 0.5461259793476807,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.1813155071453987,
+      "AABB_separation_lower_bound_m": 1.1801259793476806,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5051259793476807,
+      "AABB_separation_lower_bound_m": 0.5051259793476808,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.481861759888496,
+      "AABB_separation_lower_bound_m": 0.4691259793476807,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6315941994987354,
+      "AABB_separation_lower_bound_m": 0.5835117426095304,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6315942015888627,
+      "AABB_separation_lower_bound_m": 0.5835115029225137,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.0999804981639658,
+      "AABB_separation_lower_bound_m": 1.0643962671505092,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.0999804984627386,
+      "AABB_separation_lower_bound_m": 1.0643961357519192,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.43565038452317506,
+      "AABB_separation_lower_bound_m": 0.43512597934768066,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.43565038452307425,
+      "AABB_separation_lower_bound_m": 0.43512597934768066,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.30337765276605766,
+      "AABB_separation_lower_bound_m": 0.3004527952154465,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.25118786834939466,
+      "AABB_separation_lower_bound_m": 0.24362175322480123,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.21046647180944497,
+      "AABB_separation_lower_bound_m": 0.1891671127364311,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_central_keel",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.21127525942878705,
+      "AABB_separation_lower_bound_m": 0.18916711294229732,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5639086400480547,
+      "AABB_separation_lower_bound_m": 0.5599159105743167,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.5823888538002621,
+      "AABB_separation_lower_bound_m": 0.554954571937586,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.5796383277696818,
+      "AABB_separation_lower_bound_m": 0.5549545718765805,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5486916930668297,
+      "AABB_separation_lower_bound_m": 0.5463319267324354,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.1813154965829127,
+      "AABB_separation_lower_bound_m": 1.180221293907869,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.505125968790528,
+      "AABB_separation_lower_bound_m": 0.505125968790528,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.4818617542715548,
+      "AABB_separation_lower_bound_m": 0.469125968790528,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6360466625329115,
+      "AABB_separation_lower_bound_m": 0.5953346130901918,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6309042762413192,
+      "AABB_separation_lower_bound_m": 0.5953346130517067,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1021138479969643,
+      "AABB_separation_lower_bound_m": 1.0709233170297328,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.0940255522099125,
+      "AABB_separation_lower_bound_m": 1.0709233170083388,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.4356503739912137,
+      "AABB_separation_lower_bound_m": 0.43512596879052795,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.4356503739910076,
+      "AABB_separation_lower_bound_m": 0.43512596879052795,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.30337764235997594,
+      "AABB_separation_lower_bound_m": 0.3004527846582938,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.2511878612170706,
+      "AABB_separation_lower_bound_m": 0.24362174266764852,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.2104664701149881,
+      "AABB_separation_lower_bound_m": 0.1891671021792784,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "torso_upper_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.21127525592503854,
+      "AABB_separation_lower_bound_m": 0.18916710238514461,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6351780932040679,
+      "AABB_separation_lower_bound_m": 0.6263154244786102,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6287438870587071,
+      "AABB_separation_lower_bound_m": 0.612998140111907,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6291267041721081,
+      "AABB_separation_lower_bound_m": 0.6139576207386707,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5993012250216221,
+      "AABB_separation_lower_bound_m": 0.5935972709124995,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.2232855495600312,
+      "AABB_separation_lower_bound_m": 1.2201693797508686,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.0,
+      "AABB_separation_lower_bound_m": 0.5382583558729117,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": true
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.5026710728749897,
+      "AABB_separation_lower_bound_m": 0.5022583558729117,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.7159258445748347,
+      "AABB_separation_lower_bound_m": 0.6765503629581416,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.7159105968511693,
+      "AABB_separation_lower_bound_m": 0.677243112806043,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1617505411747866,
+      "AABB_separation_lower_bound_m": 1.1325385566832797,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.161648624032761,
+      "AABB_separation_lower_bound_m": 1.1329525244239815,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.4715908518471081,
+      "AABB_separation_lower_bound_m": 0.4690054923219822,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.47159085184977895,
+      "AABB_separation_lower_bound_m": 0.4690054923219822,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.33892274750550566,
+      "AABB_separation_lower_bound_m": 0.33358723594567724,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.2793511759792939,
+      "AABB_separation_lower_bound_m": 0.276759016375344,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.23472081087209443,
+      "AABB_separation_lower_bound_m": 0.22229948926166215,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_pitch_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.23480840338324135,
+      "AABB_separation_lower_bound_m": 0.22229948946752837,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6529327264516245,
+      "AABB_separation_lower_bound_m": 0.6279950744238172,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6235491020926711,
+      "AABB_separation_lower_bound_m": 0.5977302127688403,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.624165748204305,
+      "AABB_separation_lower_bound_m": 0.5986982938668692,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5974937310466206,
+      "AABB_separation_lower_bound_m": 0.5784731259884698,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.1986564140252234,
+      "AABB_separation_lower_bound_m": 1.1892895348630073,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.4936087345004232,
+      "AABB_separation_lower_bound_m": 0.49356028410394015,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.46084396728007376,
+      "AABB_separation_lower_bound_m": 0.4576503729264521,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.740583165638717,
+      "AABB_separation_lower_bound_m": 0.6840975714165423,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.7408945985264057,
+      "AABB_separation_lower_bound_m": 0.6847688128671415,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1583368149090083,
+      "AABB_separation_lower_bound_m": 1.1176352560830716,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.1585081115242788,
+      "AABB_separation_lower_bound_m": 1.1180462447937187,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.45433988711457307,
+      "AABB_separation_lower_bound_m": 0.43965260274608176,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.4543398871642918,
+      "AABB_separation_lower_bound_m": 0.43965260274608176,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.32566601745473445,
+      "AABB_separation_lower_bound_m": 0.3033566293333682,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.27261460256392533,
+      "AABB_separation_lower_bound_m": 0.25001388856220164,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.22774452819012345,
+      "AABB_separation_lower_bound_m": 0.19488944985109927,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "neck_mid_pitch_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.22818778964492156,
+      "AABB_separation_lower_bound_m": 0.19488944999807287,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.38402058372850745,
+      "AABB_separation_lower_bound_m": 0.3831245972038378,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.38795632910629496,
+      "AABB_separation_lower_bound_m": 0.3628859122445924,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.3879626422709665,
+      "AABB_separation_lower_bound_m": 0.36234895315971044,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.3278337198953308,
+      "AABB_separation_lower_bound_m": 0.32710412532663957,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 0.9438551924521329,
+      "AABB_separation_lower_bound_m": 0.943424348631659,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.25954920566669115,
+      "AABB_separation_lower_bound_m": 0.25954920566669115,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.22639618080768842,
+      "AABB_separation_lower_bound_m": 0.22354920566669112,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.4925807167643978,
+      "AABB_separation_lower_bound_m": 0.4510360024052403,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.4926044596864574,
+      "AABB_separation_lower_bound_m": 0.45069106181836877,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 0.8964621494716337,
+      "AABB_separation_lower_bound_m": 0.8690349227844975,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 0.8964620443686642,
+      "AABB_separation_lower_bound_m": 0.8688559459175762,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.19222523272743275,
+      "AABB_separation_lower_bound_m": 0.19130809056608442,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.19222524387902234,
+      "AABB_separation_lower_bound_m": 0.19130809056608442,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.06050000233168285,
+      "AABB_separation_lower_bound_m": 0.054879227116727644,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.003770124553858602,
+      "AABB_separation_lower_bound_m": 0.0010642498323746308,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.008647816790382805,
+      "AABB_separation_lower_bound_m": 0.0,
+      "proven_separated_by_AABB": false,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "upper_bill_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.008639213215531929,
+      "AABB_separation_lower_bound_m": 0.0,
+      "proven_separated_by_AABB": false,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.38149064836262175,
+      "AABB_separation_lower_bound_m": 0.38107316522498563,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.39151490919890986,
+      "AABB_separation_lower_bound_m": 0.37866964269673936,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.39150769658378975,
+      "AABB_separation_lower_bound_m": 0.37866964926798136,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.3319432370965684,
+      "AABB_separation_lower_bound_m": 0.3315142703991807,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 0.9536008876497192,
+      "AABB_separation_lower_bound_m": 0.9534516515012624,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.2722589434323216,
+      "AABB_separation_lower_bound_m": 0.2722589434323216,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.2433228541164755,
+      "AABB_separation_lower_bound_m": 0.23725155809709828,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.48809075873279534,
+      "AABB_separation_lower_bound_m": 0.4551391786168031,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.48808958900213684,
+      "AABB_separation_lower_bound_m": 0.45513918314291474,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 0.9003590070221918,
+      "AABB_separation_lower_bound_m": 0.8782912025493899,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 0.900356254585696,
+      "AABB_separation_lower_bound_m": 0.8782912048948657,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.202869481705071,
+      "AABB_separation_lower_bound_m": 0.20232765192827082,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.20286993190100108,
+      "AABB_separation_lower_bound_m": 0.20232765192827082,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.06912388897074292,
+      "AABB_separation_lower_bound_m": 0.06758575930008737,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.01367801766250703,
+      "AABB_separation_lower_bound_m": 0.010754717309442108,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.017758958416493015,
+      "AABB_separation_lower_bound_m": 0.0,
+      "proven_separated_by_AABB": false,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "lower_bill_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.017766115445075233,
+      "AABB_separation_lower_bound_m": 0.0,
+      "proven_separated_by_AABB": false,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6245650411311632,
+      "AABB_separation_lower_bound_m": 0.6189647963028407,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6116346242695448,
+      "AABB_separation_lower_bound_m": 0.610198871075152,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6750888192667904,
+      "AABB_separation_lower_bound_m": 0.6737882920881542,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.607586908356238,
+      "AABB_separation_lower_bound_m": 0.6061415675087249,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.2407098332626318,
+      "AABB_separation_lower_bound_m": 1.2400026770175256,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5690989121159219,
+      "AABB_separation_lower_bound_m": 0.5690989121159219,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.5489349971553381,
+      "AABB_separation_lower_bound_m": 0.5418817382665629,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6749888675018171,
+      "AABB_separation_lower_bound_m": 0.6508716213140137,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.7232883045365159,
+      "AABB_separation_lower_bound_m": 0.7008351215941272,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1448953982649823,
+      "AABB_separation_lower_bound_m": 1.1289979512955308,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.174019366618905,
+      "AABB_separation_lower_bound_m": 1.1585216330554333,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.4997948391182194,
+      "AABB_separation_lower_bound_m": 0.49928477356390566,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.5054264350343416,
+      "AABB_separation_lower_bound_m": 0.5049220584754416,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.3723723896665777,
+      "AABB_separation_lower_bound_m": 0.36660983654140705,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.32268101092257523,
+      "AABB_separation_lower_bound_m": 0.3152089072631778,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.2609761275732705,
+      "AABB_separation_lower_bound_m": 0.25195107621011426,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_hip_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.30943109412888337,
+      "AABB_separation_lower_bound_m": 0.2646764215551906,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6185498977417467,
+      "AABB_separation_lower_bound_m": 0.5996409471348307,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6047795176735692,
+      "AABB_separation_lower_bound_m": 0.6009401246331746,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6823229426993966,
+      "AABB_separation_lower_bound_m": 0.6808884130668595,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.6010287830657356,
+      "AABB_separation_lower_bound_m": 0.599399726033786,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.234192225986017,
+      "AABB_separation_lower_bound_m": 1.233399726033786,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5669340826347968,
+      "AABB_separation_lower_bound_m": 0.5669340824792884,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.5476472796456718,
+      "AABB_separation_lower_bound_m": 0.5390593053979303,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6663684450161113,
+      "AABB_separation_lower_bound_m": 0.6213700858860705,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.7266588827014705,
+      "AABB_separation_lower_bound_m": 0.6862512533148131,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.139570620798274,
+      "AABB_separation_lower_bound_m": 1.1093973657563698,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.1747926519535687,
+      "AABB_separation_lower_bound_m": 1.1469971727032555,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.498131702373481,
+      "AABB_separation_lower_bound_m": 0.49755330592484104,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.505718491767771,
+      "AABB_separation_lower_bound_m": 0.5051487822235454,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.3731452564696753,
+      "AABB_separation_lower_bound_m": 0.36678531337923803,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.32510383233946544,
+      "AABB_separation_lower_bound_m": 0.3168825081174086,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.25569729023354093,
+      "AABB_separation_lower_bound_m": 0.24592656344173064,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_thigh_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.32050924979855644,
+      "AABB_separation_lower_bound_m": 0.26819076344493803,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5741115896489065,
+      "AABB_separation_lower_bound_m": 0.5645759700397146,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.5825953824622762,
+      "AABB_separation_lower_bound_m": 0.5658200032217398,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6524320062436456,
+      "AABB_separation_lower_bound_m": 0.6315338672726344,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5806557529676777,
+      "AABB_separation_lower_bound_m": 0.5645759700397146,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.2062335739301033,
+      "AABB_separation_lower_bound_m": 1.1985759700397145,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5387450037556925,
+      "AABB_separation_lower_bound_m": 0.5267786976654336,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.6000568012943609,
+      "AABB_separation_lower_bound_m": 0.5279407506665877,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.5825121137925404,
+      "AABB_separation_lower_bound_m": 0.5821068930304856,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6401722465180034,
+      "AABB_separation_lower_bound_m": 0.6340857075443523,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.072318279543789,
+      "AABB_separation_lower_bound_m": 1.0720927597705925,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.104702057198171,
+      "AABB_separation_lower_bound_m": 1.1011807913103744,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5338524811025487,
+      "AABB_separation_lower_bound_m": 0.4664465976278743,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.5386643478968488,
+      "AABB_separation_lower_bound_m": 0.4716655895721927,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.41816110597118916,
+      "AABB_separation_lower_bound_m": 0.3392060205418691,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.3760847232483181,
+      "AABB_separation_lower_bound_m": 0.30165153288137875,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.3251135138219798,
+      "AABB_separation_lower_bound_m": 0.24920917935346845,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_shin_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.36033559964814404,
+      "AABB_separation_lower_bound_m": 0.258808229319141,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5375868316195325,
+      "AABB_separation_lower_bound_m": 0.5242119024961369,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.5529350110708849,
+      "AABB_separation_lower_bound_m": 0.5314781721062147,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.63526793252614,
+      "AABB_separation_lower_bound_m": 0.6074282251451703,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5465172700537886,
+      "AABB_separation_lower_bound_m": 0.5293061943792726,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.1659675515255634,
+      "AABB_separation_lower_bound_m": 1.1580001088738032,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5098578449361904,
+      "AABB_separation_lower_bound_m": 0.48908234434420417,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.6234311784825441,
+      "AABB_separation_lower_bound_m": 0.5863655178054048,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.5417588358745996,
+      "AABB_separation_lower_bound_m": 0.537345820991607,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6139419252497054,
+      "AABB_separation_lower_bound_m": 0.5995752934278985,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.0295979912251123,
+      "AABB_separation_lower_bound_m": 1.02722495853872,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.0711903151138749,
+      "AABB_separation_lower_bound_m": 1.0611037256540388,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5336182501556722,
+      "AABB_separation_lower_bound_m": 0.4989412084065999,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.5413985933661349,
+      "AABB_separation_lower_bound_m": 0.5048349528251392,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.4533223062915439,
+      "AABB_separation_lower_bound_m": 0.40131924194688906,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.43435027214669514,
+      "AABB_separation_lower_bound_m": 0.39307719459526114,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.3933139058513778,
+      "AABB_separation_lower_bound_m": 0.36038867408576875,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "right_actual_sole",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.4362440285953242,
+      "AABB_separation_lower_bound_m": 0.37023835064835803,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6245650411311631,
+      "AABB_separation_lower_bound_m": 0.6189647963028407,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6750888198380312,
+      "AABB_separation_lower_bound_m": 0.6737882926604976,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6116346241190167,
+      "AABB_separation_lower_bound_m": 0.6101988709242696,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.607586908356238,
+      "AABB_separation_lower_bound_m": 0.6061415675087249,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.2407098332626318,
+      "AABB_separation_lower_bound_m": 1.2400026770175256,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.569098912275398,
+      "AABB_separation_lower_bound_m": 0.569098912275398,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.5489349973533437,
+      "AABB_separation_lower_bound_m": 0.5418817384364677,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.7232883050126124,
+      "AABB_separation_lower_bound_m": 0.7008351220854767,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6749888674265788,
+      "AABB_separation_lower_bound_m": 0.6508716212359875,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1740193669122176,
+      "AABB_separation_lower_bound_m": 1.1585216333526698,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.1448953982206245,
+      "AABB_separation_lower_bound_m": 1.1289979512505484,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5054264352942917,
+      "AABB_separation_lower_bound_m": 0.5049220587356513,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.49979483929194257,
+      "AABB_separation_lower_bound_m": 0.49928477373780633,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.3723723899335649,
+      "AABB_separation_lower_bound_m": 0.36660983678410675,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.3226810112489619,
+      "AABB_separation_lower_bound_m": 0.31520890758039066,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.30943109479773906,
+      "AABB_separation_lower_bound_m": 0.2646764215153731,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_hip_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.26097612754713745,
+      "AABB_separation_lower_bound_m": 0.25195107642792225,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.6185498985848699,
+      "AABB_separation_lower_bound_m": 0.5996409480916645,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6823229432336722,
+      "AABB_separation_lower_bound_m": 0.6808884138320983,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.6047795182774682,
+      "AABB_separation_lower_bound_m": 0.6009401255018839,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.6010287839358395,
+      "AABB_separation_lower_bound_m": 0.5993997269072364,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.2341922268584298,
+      "AABB_separation_lower_bound_m": 1.2333997269072363,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5669340834103231,
+      "AABB_separation_lower_bound_m": 0.5669340833382505,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.5476472803260374,
+      "AABB_separation_lower_bound_m": 0.5390596843414064,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.7266588840728446,
+      "AABB_separation_lower_bound_m": 0.6862512544129413,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.6663684458900911,
+      "AABB_separation_lower_bound_m": 0.6213700871018504,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1747926526531396,
+      "AABB_separation_lower_bound_m": 1.1469971737334088,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.1395706216576722,
+      "AABB_separation_lower_bound_m": 1.1093973668231112,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5057184924868406,
+      "AABB_separation_lower_bound_m": 0.5051487830660557,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.4981317031369767,
+      "AABB_separation_lower_bound_m": 0.49755330678074244,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.37314525716340324,
+      "AABB_separation_lower_bound_m": 0.36678531421771576,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.3251038328479056,
+      "AABB_separation_lower_bound_m": 0.31688271620156,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.3205092500495532,
+      "AABB_separation_lower_bound_m": 0.26819104577222963,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_thigh_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.2556972903771088,
+      "AABB_separation_lower_bound_m": 0.2459268720341798,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5686378849886676,
+      "AABB_separation_lower_bound_m": 0.5645759703212794,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.6524320072131133,
+      "AABB_separation_lower_bound_m": 0.6315338682941153,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.5794007275325995,
+      "AABB_separation_lower_bound_m": 0.5658200035984075,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5732500009430099,
+      "AABB_separation_lower_bound_m": 0.5645759703212794,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.202686116136934,
+      "AABB_separation_lower_bound_m": 1.1985759703212793,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5382743531452908,
+      "AABB_separation_lower_bound_m": 0.5267786981344209,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.6000568019713657,
+      "AABB_separation_lower_bound_m": 0.5279424907871719,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6401722477195595,
+      "AABB_separation_lower_bound_m": 0.6340857084841571,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.5825121143187743,
+      "AABB_separation_lower_bound_m": 0.5821068933269224,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.1047020588421974,
+      "AABB_separation_lower_bound_m": 1.1011807919768257,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.0723182800558753,
+      "AABB_separation_lower_bound_m": 1.0720927600602361,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5371274756970189,
+      "AABB_separation_lower_bound_m": 0.47166653420985005,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.53124671752535,
+      "AABB_separation_lower_bound_m": 0.4664475527096887,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.41816110670127715,
+      "AABB_separation_lower_bound_m": 0.3392074269897518,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.3760847251007615,
+      "AABB_separation_lower_bound_m": 0.301653632269037,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.36033560190228175,
+      "AABB_separation_lower_bound_m": 0.2588107552834964,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_shin_envelope",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.3251380648874271,
+      "AABB_separation_lower_bound_m": 0.24921180279074182,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_deck_frame",
+      "engine_signed_distance_m": 0.5375868279754201,
+      "AABB_separation_lower_bound_m": 0.5242118971091524,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_side_right",
+      "engine_signed_distance_m": 0.635267928634795,
+      "AABB_separation_lower_bound_m": 0.6074282210641382,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_side_left",
+      "engine_signed_distance_m": 0.5529350074666429,
+      "AABB_separation_lower_bound_m": 0.5314781669288712,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_end_front",
+      "engine_signed_distance_m": 0.5465172664067294,
+      "AABB_separation_lower_bound_m": 0.529306189112571,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_end_rear",
+      "engine_signed_distance_m": 1.1659675479224731,
+      "AABB_separation_lower_bound_m": 1.158000103406753,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_mast",
+      "engine_signed_distance_m": 0.5098578413732489,
+      "AABB_separation_lower_bound_m": 0.4890823391934281,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_yaw_housing",
+      "engine_signed_distance_m": 0.6234311800446937,
+      "AABB_separation_lower_bound_m": 0.5863655144581005,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_wheel_80_-190",
+      "engine_signed_distance_m": 0.6139419208977658,
+      "AABB_separation_lower_bound_m": 0.599575288882269,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_wheel_80_190",
+      "engine_signed_distance_m": 0.5417588323305564,
+      "AABB_separation_lower_bound_m": 0.5373458154287462,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_wheel_570_-190",
+      "engine_signed_distance_m": 1.0711903134744396,
+      "AABB_separation_lower_bound_m": 1.0611037205048328,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_wheel_570_190",
+      "engine_signed_distance_m": 1.0295979877009647,
+      "AABB_separation_lower_bound_m": 1.027224952962946,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_pitch_clevis_right",
+      "engine_signed_distance_m": 0.5413985950348948,
+      "AABB_separation_lower_bound_m": 0.5048349491479139,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_pitch_clevis_left",
+      "engine_signed_distance_m": 0.5336182518491064,
+      "AABB_separation_lower_bound_m": 0.4989412046153317,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_drawbar",
+      "engine_signed_distance_m": 0.45332230634911047,
+      "AABB_separation_lower_bound_m": 0.4013192391318021,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_rotating_shaft",
+      "engine_signed_distance_m": 0.4343502719109484,
+      "AABB_separation_lower_bound_m": 0.39307719264629576,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_bite_yoke_right",
+      "engine_signed_distance_m": 0.4362440284291743,
+      "AABB_separation_lower_bound_m": 0.370238349083457,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    },
+    {
+      "robot": "left_actual_sole",
+      "cart": "cart_bite_yoke_left",
+      "engine_signed_distance_m": 0.3933139051968855,
+      "AABB_separation_lower_bound_m": 0.3603886727660288,
+      "proven_separated_by_AABB": true,
+      "engine_zero_but_AABB_separated": false
+    }
+  ],
+  "nonbar_robot_cart_penetrations_over0p1mm": [],
+  "exact_engine_zero_but_AABB_separation_count": 1,
+  "zero_distance_scope": "When engine distance0 contradicts strict separated AABBs, do not claim exact0 collision. AABB separation proves no overlap only, exact distance unqualified.",
+  "shoe_to_deck_X_plane_separation_m": 0.519592427174431,
+  "robot_floor_lowest_sole_z_m": 2.7755575615628914e-17,
+  "geometry_note": "All initial robot14+cart18 compiled proxies. New02 native CAD is independently pending; narrow obstacles, omitted fork contacts and sweeps not checked.",
+  "physics_integrations": 0,
+  "new_forward_calls": 1,
+  "GPU": 0,
+  "training_updates": 0,
+  "wall_s": 0.03686976432800293,
+  "max_RSS_KiB": 66352
+}

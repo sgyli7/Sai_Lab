@@ -1,0 +1,214 @@
+{
+  "status": "BOUNDED_NATIVE_CONNECTION_AND_IDEAL_FREE_PITCH_SCREEN_ONLY",
+  "physical_parts": 134,
+  "checked_pairs": [
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "drawbar_main_22x2",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "pitch_clevis_-17",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 1.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "pitch_clevis_17",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 26.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_crush_sleeve_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_crossbolt_M4_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.19999999999995569
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_locknut_M4_envelope_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.5
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_M4_washer_0_-14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_M4_washer_0_14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_crush_sleeve_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_crossbolt_M4_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.1999999999999635
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_locknut_M4_envelope_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.5
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_M4_washer_1_-14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y-12.5",
+      "b": "offset_M4_washer_1_14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "drawbar_main_22x2",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "pitch_clevis_-17",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 26.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "pitch_clevis_17",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 1.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_crush_sleeve_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_crossbolt_M4_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.19999999999997192
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_locknut_M4_envelope_0",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.5
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_M4_washer_0_-14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_M4_washer_0_14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_crush_sleeve_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_crossbolt_M4_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.19999999999997425
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_locknut_M4_envelope_1",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.5
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_M4_washer_1_-14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 25.0
+    },
+    {
+      "a": "pitch_offset_plate_y12.5",
+      "b": "offset_M4_washer_1_14.25",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "offset_crush_sleeve_0",
+      "b": "drawbar_main_22x2",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.09999996426362436
+    },
+    {
+      "a": "offset_crush_sleeve_1",
+      "b": "drawbar_main_22x2",
+      "positive_overlap_mm3": 0.0,
+      "distance_mm": 0.09999996426364816
+    }
+  ],
+  "positive_overlap_above0p001mm3": [],
+  "pitch_downstream_part_names": [
+    "drawbar_main_22x2",
+    "roll_bearing_housing",
+    "roll_bearing_608_interface_-240.5",
+    "roll_bearing_608_interface_-207.5",
+    "rotating_forward_shaft_d8",
+    "shaft_axial_retaining_collar_-245.5",
+    "shaft_axial_retaining_collar_-202.5",
+    "bite_yoke_shaft_socket",
+    "bite_yoke_tube_-85",
+    "bite_core_support_-85",
+    "bite_yoke_tube_85",
+    "bite_core_support_85",
+    "bite_304_core_d8",
+    "replaceable_bite_sleeve_d12",
+    "pitch_offset_plate_y-12.5",
+    "pitch_offset_plate_y12.5",
+    "offset_crush_sleeve_0",
+    "offset_crossbolt_M4_0",
+    "offset_locknut_M4_envelope_0",
+    "offset_M4_washer_0_-14.25",
+    "offset_M4_washer_0_14.25",
+    "offset_crush_sleeve_1",
+    "offset_crossbolt_M4_1",
+    "offset_locknut_M4_envelope_1",
+    "offset_M4_washer_1_-14.25",
+    "offset_M4_washer_1_14.25"
+  ],
+  "pitch_downstream_mass_kg": 0.38569866537595143,
+  "unbalanced_gravity_moment_about_pitch_Nm": 0.5538609501195537,
+  "unbalanced_downward_cart_force_on_mouth_N": 2.205510384453796,
+  "horizontal20N_pitch_moment_Nm": 0.0,
+  "offset_local_frame_internal_bending_20N_Nm": 0.8856057061013448,
+  "plate_nominal_two3mm_effective_web10mm_with_Kt3_MPa": 26.568171183040345,
+  "assumed_allowable_MPa": 70,
+  "new_empty_mass_kg": 7.815342442756589,
+  "delta_from_R3_kg": 0.08501945311470216,
+  "scope": "Real M4 through-holes and OD6/ID4.4/L22 crush sleeves, bolted load path, no pitch lock. Shank/nut threads and preload not detailed. Pair interference screen only; no joint fatigue/impact/peak qualification. Gravity tongue load remains, no assumed balancing spring torque.",
+  "physics_integrations": 0
+}

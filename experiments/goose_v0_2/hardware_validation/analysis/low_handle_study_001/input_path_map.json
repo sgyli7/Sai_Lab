@@ -1,0 +1,9 @@
+{
+  "fixed_input_roots": {
+    "robot04": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04",
+    "collision002_scene": "/home/ethan/Projects/TempWorktree/Sai_Lab/goose_v02_hardware_validation/experiments/goose_v0_2/hardware_validation/assets/low_profile_stock_cart_01/goose_cart_scene.xml",
+    "initial_context": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/low_profile_stock_cart_01/goose_cart_context.json"
+  },
+  "recorded_output_root": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/low_handle_study_01",
+  "archive_warning": "Do not execute the archived sources in place after copying to Lab; see REPRODUCE for explicit fresh output remapping. No module exposes a portable CLI; no claim made that one was tested."
+}

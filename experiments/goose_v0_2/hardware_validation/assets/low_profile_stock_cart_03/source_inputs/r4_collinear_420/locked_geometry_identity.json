@@ -1,0 +1,109 @@
+{
+  "candidate": "low_profile_stock_cart_03_r4_collinear_pitch_420",
+  "files": {
+    "scripts/cad/goose_low_profile_stock_cart_03.py": {
+      "SHA256": "0c6e734925e73319a84bcfed4a74504de4fdbd3c7cb507113e46c5d561d63756",
+      "bytes": 11597
+    },
+    "robots/goose_v0_2/cad/source/low_profile_stock_cart_03/parameters.json": {
+      "SHA256": "a519bc00c494df188794aa26061a9ce08225602541fde7768e9657619cd42dc3",
+      "bytes": 4838
+    },
+    "robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.step": {
+      "SHA256": "46f1ac2e3e305f7b4d0ec800971e35de1dab0b16798708cafce0bc4dba8adf9a",
+      "bytes": 3061535
+    },
+    "robots/goose_v0_2/cad/exports/low_profile_stock_cart_03/goose_low_profile_stock_cart_03.glb": {
+      "SHA256": "7a4f650456058d5ba7b9ed81a5a01964c3ed028c55aebec41c6371be042ea5e9",
+      "bytes": 2935064
+    },
+    "robots/goose_v0_2/evidence/low_profile_stock_cart_03/geometry_mass_screen.json": {
+      "SHA256": "066108887827b32313731a7faf82be362a08ef43d9c5de53f4dc86d6dece2f08",
+      "bytes": 127488
+    }
+  },
+  "parent_checkpoint": "52ff7029eb2fd0b668747ae9dda5fa9e3655f03e",
+  "actual_cart_origin_world_mm": [
+    646.1259770181132,
+    0,
+    0
+  ],
+  "yaw_axis_cart": {
+    "point_mm": [
+      -62,
+      0,
+      420
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ]
+  },
+  "pitch_axis_cart": {
+    "point_mm": [
+      -95,
+      0,
+      420
+    ],
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "initial_q_rad": 0
+  },
+  "roll_axis_cart": {
+    "point_mm": [
+      -222.04020013857485,
+      0,
+      398.12032961396676
+    ],
+    "direction": [
+      0.984807753012208,
+      0,
+      -0.17364817766693033
+    ],
+    "initial_q_rad": 0
+  },
+  "actual_bite_center_cart_mm": [
+    -346.1259770181131,
+    0,
+    420.0
+  ],
+  "geometry_note": "Front10deg shape already baked from retained R3 geometry. cart_pitch keyframe=0; do not rotate another10deg.",
+  "pitch_downstream_part_names": [
+    "drawbar_main_22x2",
+    "roll_bearing_housing",
+    "roll_bearing_608_interface_-240.5",
+    "roll_bearing_608_interface_-207.5",
+    "rotating_forward_shaft_d8",
+    "shaft_axial_retaining_collar_-245.5",
+    "shaft_axial_retaining_collar_-202.5",
+    "bite_yoke_shaft_socket",
+    "bite_yoke_tube_-85",
+    "bite_core_support_-85",
+    "bite_yoke_tube_85",
+    "bite_core_support_85",
+    "bite_304_core_d8",
+    "replaceable_bite_sleeve_d12",
+    "pitch_offset_plate_y-12.5",
+    "pitch_offset_plate_y12.5",
+    "offset_crush_sleeve_0",
+    "offset_crossbolt_M4_0",
+    "offset_locknut_M4_envelope_0",
+    "offset_M4_washer_0_-14.25",
+    "offset_M4_washer_0_14.25",
+    "offset_crush_sleeve_1",
+    "offset_crossbolt_M4_1",
+    "offset_locknut_M4_envelope_1",
+    "offset_M4_washer_1_-14.25",
+    "offset_M4_washer_1_14.25"
+  ],
+  "pitch_downstream_gravity_moment_Nm": 0.5538609501195537,
+  "unbalanced_tongue_load_N": 2.205510384453796,
+  "horizontal20N_pitch_moment_Nm": 0,
+  "empty_mass_kg": 7.815342442756589,
+  "CAD_parts": 134,
+  "physics_integrations": 0
+}

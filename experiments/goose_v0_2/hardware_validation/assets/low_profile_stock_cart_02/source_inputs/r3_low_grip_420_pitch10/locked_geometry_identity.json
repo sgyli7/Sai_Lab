@@ -1,0 +1,29 @@
+{
+  "candidate": "low_profile_stock_cart_02_r3_low_grip_420_pitch10",
+  "files": {
+    "scripts/cad/goose_low_profile_stock_cart_02.py": {
+      "SHA256": "601cda6e274d4725b289d8b26e9adfff007a14e39fa6cb24c9dad8c08c1c96b6",
+      "bytes": 10153
+    },
+    "robots/goose_v0_2/cad/source/low_profile_stock_cart_02/parameters.json": {
+      "SHA256": "05bcee9a5c737735234f20e786ebb9f8594d3c79d0219940f6a9ba16c1dde943",
+      "bytes": 4764
+    },
+    "robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.step": {
+      "SHA256": "ca014a3cbcdfd517d3931c8b195762e4aa330d81ffc701c0a65480156778bf6e",
+      "bytes": 2644456
+    },
+    "robots/goose_v0_2/cad/exports/low_profile_stock_cart_02/goose_low_profile_stock_cart_02.glb": {
+      "SHA256": "9fcf27615d8ca33847faf0d07138c914f4c089b8b27a4cc651f40450640a54b8",
+      "bytes": 2437988
+    },
+    "robots/goose_v0_2/evidence/low_profile_stock_cart_02/geometry_mass_screen.json": {
+      "SHA256": "326ed5a880ee836c3f8241bf1610a07046fc675caeb68a37de57b21c663890b9",
+      "bytes": 116765
+    }
+  },
+  "CAD_parts": 122,
+  "empty_mass_kg": 7.730322989641887,
+  "source_baseline_public_commit": "577657ac41d377c11f3cb948cdad13239ca94a85",
+  "physics_integrations": 0
+}

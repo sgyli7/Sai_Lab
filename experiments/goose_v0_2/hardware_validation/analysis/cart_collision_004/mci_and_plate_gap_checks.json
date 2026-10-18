@@ -1,0 +1,153 @@
+{
+  "CAD_plus_declared_reserve_mass_kg": 7.815342442756589,
+  "COM_error_m": 2.220446049250313e-16,
+  "complete_inertia_error_kg_m2": 4.707319256613829e-11,
+  "offset_plate_gap_probe_count": 18,
+  "offset_plate_gap_checks": [
+    {
+      "point_cart_m": [
+        -0.13,
+        -0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.13,
+        -0.008,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.13,
+        0,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.13,
+        0,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.13,
+        0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.13,
+        0.008,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        -0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        -0.008,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        0,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        0,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.115,
+        0.008,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        -0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        -0.008,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        0,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        0,
+        0.41
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        0.008,
+        0.4
+      ],
+      "hits": []
+    },
+    {
+      "point_cart_m": [
+        -0.1,
+        0.008,
+        0.41
+      ],
+      "hits": []
+    }
+  ],
+  "reserve_inertia_is_experimental_not_CAD": true
+}
