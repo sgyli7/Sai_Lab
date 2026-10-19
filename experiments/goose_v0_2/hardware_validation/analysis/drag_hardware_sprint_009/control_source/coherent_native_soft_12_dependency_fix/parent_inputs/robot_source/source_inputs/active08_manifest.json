@@ -1,0 +1,66 @@
+{
+  "schema": "hip_yaw_motor_slider_1p8Nm_finite_AB_source_packet_009_c01",
+  "status": "FROZEN_SOURCE_PROPOSAL_NOT_APPLIED",
+  "files": [
+    {
+      "path": "scripts/cad/goose_hip_yaw_oldham_steel_009.py",
+      "bytes": 11089,
+      "sha256": "753cbcb86eddecbc05c8b8ec8157e2ec1f9675ad81729f014969202790ddff8b"
+    },
+    {
+      "path": "scripts/diagnostics/check_goose_hip_yaw_oldham_steel_009.py",
+      "bytes": 8656,
+      "sha256": "92b2a4fc44aa514117208a4e2756b42ff6539ca4212971056294111b40d1757f"
+    },
+    {
+      "path": "robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+      "bytes": 25704,
+      "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+    },
+    {
+      "path": "robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+      "bytes": 25704,
+      "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+    },
+    {
+      "path": "robots/goose_v0_2/cad/exports/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+      "bytes": 84688,
+      "sha256": "d505304c0e49ce49cc2949007c58d7dad80bb23cb01f53cf78526cb7de5c88c1"
+    },
+    {
+      "path": "robots/goose_v0_2/cad/exports/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+      "bytes": 84689,
+      "sha256": "b8a54aba7b80e9dcaead7656b890192adbd368070b5683a18f95cfecd389fd1b"
+    },
+    {
+      "path": "robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/REPORT.md",
+      "bytes": 4725,
+      "sha256": "d6a2c3bf126940f20002ececd0be0204bc49ec6337e2a3fca62ab84d580ddbdf"
+    },
+    {
+      "path": "robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/integration_handoff.json",
+      "bytes": 67895,
+      "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614"
+    },
+    {
+      "path": "robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/material_sources.json",
+      "bytes": 1141,
+      "sha256": "0ae8d901efc2c9dd2061b49689800d74e6155ef21c8547bd5a1d2a3dcd8f75d8"
+    },
+    {
+      "path": "robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/two_mesh_screen.json",
+      "bytes": 9300,
+      "sha256": "7ddbf62cd2c096d54090d66fbb5b069afcf136169901fc3476e41182d29be810"
+    },
+    {
+      "path": "robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/unchanged_geometry_load_boundary_receipt.json",
+      "bytes": 795,
+      "sha256": "f89ee21d15ca85372701912db0595dd4ca4727d2c0aca46b3989e60e881ffdea"
+    }
+  ],
+  "required_upstream_motor_manifest": {
+    "path": "robots/goose_v0_2/evidence/hip_yaw_ak45_upgrade_009/c01/manifest.json",
+    "sha256": "dd9107133ab7c97a8e69617806e06f98137c4716d216116004c93e9ba494eb4b"
+  },
+  "physics_steps": 0
+}

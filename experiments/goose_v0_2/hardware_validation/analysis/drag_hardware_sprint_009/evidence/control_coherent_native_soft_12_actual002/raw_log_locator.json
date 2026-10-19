@@ -1,0 +1,11 @@
+{
+  "raw": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_12_dependencyfix_online1000/attempt_002",
+  "substeps": {
+    "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_12_dependencyfix_online1000/attempt_002/substeps.jsonl.gz",
+    "sha256": "25306d990bd80d39e105b66411339beca4e3b0c80047546131d9f590672ba784"
+  },
+  "commands": {
+    "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_12_dependencyfix_online1000/attempt_002/commands50hz.json",
+    "sha256": "508c57050680959363c86d29c2c5592b70b8af111073867dbf52a26d73a6a30f"
+  }
+}

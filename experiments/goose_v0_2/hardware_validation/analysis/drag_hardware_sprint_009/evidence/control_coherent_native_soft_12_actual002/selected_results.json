@@ -1,0 +1,260 @@
+{
+  "status": "FAIL_CONTROL_DIAGNOSTIC_NOT_TASK_PASS",
+  "actual_physical_attempts": 1,
+  "packaging_failure_attempt001_physics_steps": 0,
+  "actual_attempt002_fine_steps": 6732,
+  "actual_attempt002_physics_sim_s": 6.732,
+  "summary_original_unchanged": true,
+  "endpoint_semantics": {
+    "summary_final_fields": "last logged actual PRE at6.731s",
+    "true_POST": "true_terminal_poststate.json/.npz at6.732s",
+    "guard": "terminal_abort_prestate.json is unexecuted next1ms trigger; terminal slip is guard updated cumulative/predictive quantity"
+  },
+  "actual_capture_hold_samples": 5000,
+  "actual_steps_qualified_air_backlanding": 0,
+  "hold_3s_after_transport": false,
+  "source80_unchanged": true,
+  "first_sticky5mm_time_s": 6.433,
+  "stop_reason": "diagnostic_gross_material_slip_over20mm",
+  "no_automatic_retry": true,
+  "raw_directory": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_12_dependencyfix_online1000/attempt_002",
+  "event_analysis": {
+    "motion_start_time_s": 5.800000000000272,
+    "actual_completed_steps": 6732,
+    "actual_true_POST_time_s": 6.732,
+    "true_POST_cold_heading_back_root_cart_cargo_m": [
+      0.02524980714084239,
+      0.013258488796539902,
+      0.013274754837570013
+    ],
+    "clip_sample_counts_by_axis": {
+      "neck_yaw_motor": 0,
+      "neck_pitch_motor": 0,
+      "neck_mid_pitch_motor": 0,
+      "head_pitch_motor": 0,
+      "head_roll_motor": 0,
+      "beak_hinge_motor": 0,
+      "right_hip_yaw_motor": 27,
+      "right_hip_roll_motor": 0,
+      "right_hip_pitch_motor": 0,
+      "right_knee_pitch_motor": 172,
+      "right_ankle_pitch_motor": 0,
+      "right_ankle_roll_motor": 97,
+      "left_hip_yaw_motor": 30,
+      "left_hip_roll_motor": 20,
+      "left_hip_pitch_motor": 5,
+      "left_knee_pitch_motor": 80,
+      "left_ankle_pitch_motor": 0,
+      "left_ankle_roll_motor": 40
+    },
+    "clip_semantics": "sampled source requested-minus-applied nonzero per fine PRE; not capability-utilization ratio",
+    "first_source_clip_by_axis": {
+      "left_ankle_roll_motor": {
+        "time_s": 6.265000000000427,
+        "tau_actual": 2.0,
+        "omega_actual": -0.41833530283437215,
+        "requested_minus_applied": 0.032528883544718834
+      },
+      "right_hip_yaw_motor": {
+        "time_s": 6.285000000000434,
+        "tau_actual": 1.8,
+        "omega_actual": -0.10631606935425056,
+        "requested_minus_applied": 0.0009815351168729336
+      },
+      "left_hip_roll_motor": {
+        "time_s": 6.290000000000435,
+        "tau_actual": 6.4,
+        "omega_actual": 0.14538191042568788,
+        "requested_minus_applied": 0.0039789347983534284
+      },
+      "right_knee_pitch_motor": {
+        "time_s": 6.355000000000457,
+        "tau_actual": -6.4,
+        "omega_actual": 0.21906963946974609,
+        "requested_minus_applied": -0.016457928025535473
+      },
+      "right_ankle_roll_motor": {
+        "time_s": 6.36500000000046,
+        "tau_actual": -2.0,
+        "omega_actual": -0.09011298771786788,
+        "requested_minus_applied": -0.023678594998242097
+      },
+      "left_knee_pitch_motor": {
+        "time_s": 6.42500000000048,
+        "tau_actual": 6.4,
+        "omega_actual": -0.14059102072811447,
+        "requested_minus_applied": 0.289958634601188
+      },
+      "left_hip_yaw_motor": {
+        "time_s": 6.625000000000547,
+        "tau_actual": -1.8,
+        "omega_actual": 0.7077399411800411,
+        "requested_minus_applied": -0.04608633323767797
+      },
+      "left_hip_pitch_motor": {
+        "time_s": 6.655000000000557,
+        "tau_actual": 6.4,
+        "omega_actual": 1.650696708542132,
+        "requested_minus_applied": 0.03830833463022554
+      }
+    },
+    "minimum_foot_N_R_L": [
+      38.371223170524814,
+      0.0
+    ],
+    "minN_time_R_L": [
+      6.51300000000051,
+      6.6440000000005535
+    ],
+    "maximum_whole_sole_min_z_R_L_m": [
+      -0.00014525634942071097,
+      0.00010516256332650936
+    ],
+    "maximum_actual_air_streak_R_L_s": [
+      0.0,
+      0.0
+    ],
+    "unload_N_le2_samples": 56,
+    "first_unload_N_le2": {
+      "time_s": 6.6440000000005535,
+      "side": "left",
+      "N": 0.0,
+      "whole_min_z_m": 9.612597559542635e-06
+    },
+    "actual_qualified_air_and_backlanding_steps": 0,
+    "nonrod_robot_cart_contact_count": 0,
+    "robot_robot_active_contacts": [],
+    "maximum_penetration_m_and_time": [
+      0.000798416524574446,
+      6.57500000000053
+    ],
+    "maximum_internal_equality_residual": 0.0002435158974984919,
+    "task_pass": false,
+    "first_failure": "6.433s sticky5mm before 6.732s gross20mm; no qualified air",
+    "no_new_forward_or_integration": true
+  },
+  "original_summary": {
+    "completed_requested_horizon": false,
+    "task_pass": false,
+    "task_pass_semantics": "requires separate actual distance/speed/stop/alternatingstep/hold analysis; no reference-request award",
+    "actual_capture_hold_complete": true,
+    "actual_foot_landing_events_fine": [],
+    "actual_first_step_observed": null,
+    "completion_not_transport_or_unloading_qualification": true,
+    "model": "physics_v0_2_20261020_08_candidate",
+    "source_manifest_entries": 79,
+    "source_tracked_files_including_manifest": 80,
+    "attempt": 2,
+    "mode": "LOADED_ONLINE_TEACHER_PHYSICS1000_DRIVE200_COMMAND50",
+    "physics_Hz": 1000,
+    "drive_Hz": 200,
+    "command_Hz": 50,
+    "actual_drive_updates": 1346,
+    "actual_command_updates": 336,
+    "MIT_substeps": 1346,
+    "maximum_same_state_total_tau_shadow_error_Nm": 0.0,
+    "actual_steps": 6732,
+    "logged_completed_rows": 6732,
+    "sim_duration_s": 6.732000000000583,
+    "failure": "diagnostic_gross_material_slip_over20mm",
+    "error": null,
+    "final_cart_back_m": 0.01313957103259522,
+    "final_cargo_back_m": 0.013155906201583245,
+    "max_cart_back_m": 0.01313957103259522,
+    "jaw_capture_ever": true,
+    "final_jaw_rod_normal_N": [
+      27.662154188420548,
+      23.105822368670108
+    ],
+    "TCP_5mm_for200ms_recorded_diagnostic_only": true,
+    "requested_cycles_diagnostic_only": 4,
+    "planned_transport_back_m": 0.525,
+    "unloaded_gate_pass": false,
+    "irreversible_qualification_failure": {
+      "reason": "stance_material_slip_over5mm",
+      "first_time_s": 6.433000000000483,
+      "foot_material_slip_m": [
+        0.005000599933191935,
+        0.004304195657631638
+      ],
+      "root_back_m": 0.006690138418329457
+    },
+    "diagnostic_only_not_loaded_admission": true,
+    "hold_steps": 0,
+    "hold_steps_semantics": "legacy stop_hold selector; new controller hold reported separately",
+    "new_loaded_hold_metrics": {
+      "samples": 5000,
+      "max_COM_height_error_m": 0.001434971889239689,
+      "max_tilt_deg": 1.9934140237561355,
+      "min_jaw_normal_N": 26.566119807466578,
+      "max_COM_XY_error_m": 0.004327010565177457,
+      "min_foot_normal_N": 57.98747944558593,
+      "max_COM_speed_m_s": 0.02454213170664875,
+      "last_COM_velocity_world_m_s": [
+        -0.001026288945951545,
+        -8.875170781544097e-06,
+        0.0005145738411567694
+      ]
+    },
+    "actual_plant_gate": {
+      "continuous_support_domain_s": 0.0,
+      "expected_pointmass_ZMP_distance_to_actual_contact_hull_m": {
+        "right": 0.0109828945545979,
+        "left": 0.12812599299114175
+      },
+      "actual_native_sole_tilt_deg": {
+        "right": 0.11356216768804654,
+        "left": 4.4074029759425635
+      },
+      "actual_contact_points_xy": {
+        "right": [
+          [
+            -0.017428959914759568,
+            -0.10955909713795375
+          ],
+          [
+            -0.010769276944149739,
+            -0.11410172546109082
+          ]
+        ],
+        "left": [
+          [
+            0.09739272153276174,
+            0.03176239771519632
+          ]
+        ]
+      },
+      "pointmass_assumption_not_dynamic_feasibility_proof": true
+    },
+    "actual_DS_gate": {
+      "continuous_DS_conditions_s": 0.0,
+      "measured_conditions": false
+    },
+    "actual_landing_events": [],
+    "endpoint_semantics": "final_* fields are last logged PRE state; true terminal separately in true_terminal_poststate.json",
+    "hold_min_root_back_m": null,
+    "hold_root_back_range_m": [
+      0,
+      0
+    ],
+    "hold_max_closure_m_or_rad": 0,
+    "hold_max_contact_penetration_m": 0,
+    "final_root_back_m": 0.025190655881845925,
+    "max_root_back_m": 0.025190655881845925,
+    "foot_material_slip_integral_m": [
+      0.0062898934670056195,
+      0.02027011572872824
+    ],
+    "foot_material_slip_total_since_cold_m": [
+      0.0062898934670056195,
+      0.02027011572872824
+    ],
+    "max_tilt_deg": 3.947392833910901,
+    "max_positive_power_W": 33.45709428409124,
+    "max_observed_threads": 1,
+    "maxRSS_KiB": 3166504,
+    "source_manifest79_plus_manifest80_unchanged": true,
+    "GPU": 0,
+    "training": 0
+  }
+}

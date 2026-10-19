@@ -1,0 +1,1535 @@
+{
+  "schema": "goose_simulation_only_E_mass_contract_v1",
+  "status": "FINAL_NO_JOBS_SIMULATION_ENGINEERING_ALLOCATION_NOT_MANUFACTURING_RELEASE",
+  "created_utc": "2026-10-18T05:24:00Z",
+  "user_scope_change": "Simulation package first; all manufacturing/CAD work stopped until new user assignment. No running processes. Public whole/runtime not edited.",
+  "frame": "world47 zero, SI mass/COM/inertia; JSON source copies retain explicitly named mm fields",
+  "base": {
+    "whole": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+      "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860"
+    },
+    "ledger": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05_mass/conditional_mass_ledger.json",
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+    },
+    "nominal_mass_kg": 17.365577243273115
+  },
+  "source_refs": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/detachable_NC_stage_handoff_0435_01/healthy_subparts_not_admitted_metadata.json",
+      "sha256": "9a1098c9c189d12d744976797ef44e520ff74bc59427fe18f83c7e5df2d0b7e7"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/detachable_NC_stage_handoff_0435_01/NC_whole14g_rigid_relocation_mass.json",
+      "sha256": "798eb143456dc8a795a7f6e199a20c3e0a641279c495756e63e078e90be94d83"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/continuous_tail_nc_recess_04/installation_metadata.json",
+      "sha256": "063f5261d372ecc8126c8596aa4f73dc76168d5c752d021220d555be090ee44e"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/actual_nine_chain_stage_handoff_04_10_01/actual_nine_chain_structural_handoff.json",
+      "sha256": "037b91f8aea94011a4231949bbbab78cd33b2437178d8577c21f33f71b3ef87c"
+    }
+  ],
+  "operations_for_F_to_apply_once": [
+    {
+      "operation": "replace_existing_cap04_with_access_cap",
+      "body": "torso",
+      "old": {
+        "name": "rear_service_cap",
+        "body": "torso",
+        "native_part_index": 0,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 0.000596390588307685,
+            "vertex_max_mm": 0.000596390589307685
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            299416.8579117703
+          ]
+        },
+        "native_strict_valid": true,
+        "native_bounds_mm": [
+          [
+            -242.8780569842986,
+            -106.52016451568872,
+            240.32861468481406
+          ],
+          [
+            -70.24999989774578,
+            106.52016451568872,
+            454.0000001000001
+          ]
+        ],
+        "native_volume_mm3": 299417.49369276874,
+        "mass_kg": 0.3802602169898163,
+        "density_kg_m3": 1270,
+        "center_of_mass_world_m": [
+          -0.14797585683451103,
+          0.0005424015894572283,
+          0.36187597940412053
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            0.002852423332989649,
+            3.0017701768100977e-06,
+            0.00016567603073384637
+          ],
+          [
+            3.0017701768100977e-06,
+            0.0023366732960113214,
+            -3.4129608167965896e-05
+          ],
+          [
+            0.00016567603073384637,
+            -3.4129608167965896e-05,
+            0.002349233937272973
+          ]
+        ],
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "native_source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/continuous_tail_nc_recess_04/rear_service_cap.brep",
+          "sha256": "01726f735ee4c95dd509c5f4a10f6b5c0112f7862e2871b4dfa5f95ae6942cf2"
+        },
+        "native_display_deferred": true,
+        "manufacturing_released": false,
+        "actual_measured_mass_or_inertia": false,
+        "role": "CurrentPort08+Delta60+trueclosedwells tail with old outwardmushroom/receivingboss/bore retired from realnative and restored by originalcontinuous05material",
+        "exact_local_restore_domain": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/continuous_tail_nc_recess_04/exact_old_estop_seat_replacement_domain.brep",
+          "sha256": "9dee61713151c0d278170d8bc9023b81c57954f121f763c3a816dfb8910f5cf3"
+        },
+        "old_tail_estop_catalogue_unit_retired_once": true,
+        "all_outside_domain_fan_wells_port_sources_retained": true,
+        "new_cosmetic_patch_Boolean_fuzzy_mm": 1e-07,
+        "former_inner_receiver_material_integrated_not_claimed_removed": true,
+        "old_switch_and_all_external_bore_roles_retired": true,
+        "source_OEM_or_any_COTS_modified": false
+      },
+      "new": {
+        "name": "rear_service_cap",
+        "body": "torso",
+        "native_part_index": 1,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 0.000596390588307685,
+            "vertex_max_mm": 0.000596390589307685
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            293058.79590755317
+          ]
+        },
+        "native_strict_valid": true,
+        "native_bounds_mm": [
+          [
+            -242.8780569842986,
+            -106.52016451568872,
+            240.32861468481406
+          ],
+          [
+            -70.24999989774578,
+            106.52016451568872,
+            454.0000001000001
+          ]
+        ],
+        "native_volume_mm3": 293059.6092030874,
+        "mass_kg": 0.37218570368792103,
+        "density_kg_m3": 1270,
+        "center_of_mass_world_m": [
+          -0.14881253578147405,
+          -0.0007202288630577536,
+          0.363720058341631
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            0.0027628852484739806,
+            2.1398819860672527e-05,
+            0.00013803249661804322
+          ],
+          [
+            2.1398819860672527e-05,
+            0.0022626481923794066,
+            -7.408218014671718e-05
+          ],
+          [
+            0.00013803249661804322,
+            -7.408218014671718e-05,
+            0.0023072301118455285
+          ]
+        ],
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "native_source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/detachable_NC_cup_01/rear_service_cap.brep",
+          "sha256": "faa248f0403b74583996511237d26170845f0bc445ad29e399a279c0089ab3b1"
+        },
+        "native_display_deferred": true,
+        "manufacturing_released": false,
+        "actual_measured_mass_or_inertia": false
+      },
+      "geometry_status": "healthy native; mounting/installation not released"
+    },
+    {
+      "operation": "add_separate_protection_cup",
+      "body": "torso",
+      "new": {
+        "name": "normal_3mm_D_cup",
+        "body": "torso",
+        "native_part_index": 0,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 5e-06,
+            "vertex_max_mm": 5.00000102842171e-06
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            18559.2314121049
+          ]
+        },
+        "native_strict_valid": true,
+        "native_bounds_mm": [
+          [
+            -135.5000001095592,
+            34.99999989999994,
+            254.79751747294742
+          ],
+          [
+            -84.4999999,
+            80.5000001,
+            315.0000001
+          ]
+        ],
+        "native_volume_mm3": 18559.02881749028,
+        "mass_kg": 0.02356996659821266,
+        "density_kg_m3": 1270,
+        "center_of_mass_world_m": [
+          -0.1050952560427024,
+          0.05147062648856532,
+          0.29649511612219914
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            1.0216523083450696e-05,
+            -4.691788596138358e-11,
+            1.4047756178235126e-06
+          ],
+          [
+            -4.691788596138358e-11,
+            1.1680508972803453e-05,
+            -2.1120486363940246e-06
+          ],
+          [
+            1.4047756178235126e-06,
+            -2.1120486363940246e-06,
+            9.718206674352637e-06
+          ]
+        ],
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "native_source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/detachable_NC_cup_01/normal_3mm_D_cup.brep",
+          "sha256": "548471b0a9d9711fea2e105199098e3b05a9f32ef8cc8a00da793bec0353203e"
+        },
+        "native_display_deferred": true,
+        "manufacturing_released": false,
+        "actual_measured_mass_or_inertia": false
+      },
+      "geometry_status": "healthy native; independent metal retention NOT BUILT"
+    },
+    {
+      "operation": "add_once_internal_NC_whole14g",
+      "body": "torso",
+      "new": {
+        "name": "internal_recessed_nc_whole_unit",
+        "body": "torso",
+        "sku": "IDEC XA1E-BV3U02-R",
+        "mass_kg": 0.014,
+        "mass_interval_kg": [
+          0.0112,
+          0.0168
+        ],
+        "com_world_zero_mm": [
+          -110.01119091262598,
+          55.001545775827765,
+          305.4677677338932
+        ],
+        "uniform_or_actual_inertia_com_world_kg_m2": [
+          [
+            1.769764556874616e-06,
+            4.4676238187211595e-11,
+            -1.4526655473765598e-09
+          ],
+          [
+            4.467623818717857e-11,
+            1.770769542778293e-06,
+            9.511702468610082e-10
+          ],
+          [
+            -1.4526655473766853e-09,
+            9.511702468608597e-10,
+            1.153691089933216e-06
+          ]
+        ],
+        "native_mass_coverage": [
+          "internal_recessed_nc_000",
+          "internal_recessed_nc_001"
+        ],
+        "basis": "Manufacturer approximate14g whole29mm unit; actual distribution unmeasured. Fixed-unit normalization over current acquired native package; not OEM material density or measured inertia.",
+        "positional_uncertainty_mm": 5.0,
+        "source_panel_outer_z_mm": 15.9,
+        "source_locking_ring_actual_bearing_z_mm": 13.718930402439465,
+        "locking_ring_bearing_basis": "Forwardmost native material outside nominal16.3mm receiving bore; broadest upward recess not treated as contact face",
+        "locking_ring_to_nominal_panel_common_mm3": 0,
+        "locking_ring_additional_source_z_mm": -0.8189304024394648,
+        "clocking_basis": "Source+Y is the unique1.7mm antirotation key, verified at native sectionsZ14/15/15.8 and manufacturer TOP hole drawing.",
+        "source_to_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -110.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            55.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            327.9
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "panel_thickness_mm": 3.0,
+        "source_unscaled": true,
+        "world_outer_panel_plane_point_mm": [
+          -110,
+          55,
+          312
+        ],
+        "world_panel_outward_normal": [
+          0,
+          0,
+          -1
+        ],
+        "world_TOP_direction": [
+          0,
+          -1,
+          0
+        ],
+        "obsolete_pose_fields_preserved_for_audit": {
+          "world_outer_panel_plane_point_mm": [
+            -168.68773544475098,
+            -48.426485460213755,
+            306.50549001280046
+          ],
+          "world_panel_outward_normal": [
+            -0.5249058220996109,
+            -0.6294058159144975,
+            -0.572994063511078
+          ],
+          "world_TOP_direction": [
+            -0.3669872821205232,
+            -0.4400483286875759,
+            0.8195595177783386
+          ],
+          "old_to_current_world_zero_4x4": [
+            [
+              0.9739818778256535,
+              -0.09108971033589347,
+              -0.20751377385160946,
+              120.60452056137774
+            ],
+            [
+              0.0374993964922572,
+              0.9678219181451074,
+              -0.24882630492100544,
+              101.96019648418729
+            ],
+            [
+              0.2235018946897997,
+              0.23457067043611315,
+              0.9460568184000485,
+              14.481631159762742
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_skin_point_mm": [
+            -170.0,
+            -50.0,
+            305.07300485402277
+          ],
+          "receiving_plane_inset_mm": 2.5,
+          "receiving_plane_proud_mm": 0.0
+        },
+        "previous_pose_fields_are_not_new_installation_pose": true
+      },
+      "geometry_status": "mass/pose engineering allocation only; no old external red button reintroduced"
+    }
+  ],
+  "remaining_original_E25_engineering_allocations": [
+    {
+      "name": "upper_port_remaining",
+      "body": "torso",
+      "mass_kg": 0.002344405429,
+      "center_of_mass_world_m": [
+        -0.14,
+        0.06,
+        0.43
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          3.5166081435e-07,
+          0,
+          0
+        ],
+        [
+          0,
+          4.884177977083333e-07,
+          0
+        ],
+        [
+          0,
+          0,
+          4.884177977083333e-07
+        ]
+      ],
+      "allocation_box_mm": [
+        [
+          -160.0,
+          45.0,
+          415.0
+        ],
+        [
+          -120.0,
+          75.0,
+          445.0
+        ]
+      ],
+      "basis": "Explicit engineering uniform-box allocation replacing original three point budget, NOT inspected free volume or installed geometry",
+      "future_hardware_rule": "Aggregate torso mass/first moment/full inertia must match this physics allocation; exceeding or relocating it requires an explicit physical-version change."
+    },
+    {
+      "name": "T1_cold_install_remaining",
+      "body": "torso",
+      "mass_kg": 0.00685590312,
+      "center_of_mass_world_m": [
+        -0.048,
+        -0.005,
+        0.31
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.942505884e-06,
+          0,
+          0
+        ],
+        [
+          0,
+          2.8566263000000004e-06,
+          0
+        ],
+        [
+          0,
+          0,
+          1.942505884e-06
+        ]
+      ],
+      "allocation_box_mm": [
+        [
+          -73.0,
+          -20.0,
+          285.0
+        ],
+        [
+          -23.0,
+          10.0,
+          335.0
+        ]
+      ],
+      "basis": "Explicit engineering uniform-box allocation replacing original three point budget, NOT inspected free volume or installed geometry",
+      "future_hardware_rule": "Aggregate torso mass/first moment/full inertia must match this physics allocation; exceeding or relocating it requires an explicit physical-version change."
+    },
+    {
+      "name": "joint_light_carrier_remaining",
+      "body": "torso",
+      "mass_kg": 0.007,
+      "center_of_mass_world_m": [
+        -0.16,
+        0.035,
+        0.365
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          3.0333333333333332e-06,
+          0,
+          0
+        ],
+        [
+          0,
+          4.2e-06,
+          0
+        ],
+        [
+          0,
+          0,
+          3.0333333333333332e-06
+        ]
+      ],
+      "allocation_box_mm": [
+        [
+          -190.0,
+          15.0,
+          335.0
+        ],
+        [
+          -130.0,
+          55.0,
+          395.0
+        ]
+      ],
+      "basis": "Explicit engineering uniform-box allocation replacing original three point budget, NOT inspected free volume or installed geometry",
+      "future_hardware_rule": "Aggregate torso mass/first moment/full inertia must match this physics allocation; exceeding or relocating it requires an explicit physical-version change."
+    }
+  ],
+  "accounting": {
+    "E25_original_kg": 0.025,
+    "already_integrated_port_consumption_kg": 0.003655594571,
+    "already_integrated_T1_consumption_kg": 0.00514409688,
+    "remaining_E25_kg": 0.016200308549000002,
+    "cup_plus_access_cap_minus_current_cap04_kg": 0.015495453296317352,
+    "new_concealed_NC_kg_once": 0.014,
+    "E_only_net_delta_vs_whole05_kg": 0.04569576184531735,
+    "E_only_result_before_other_A_D_F_changes_kg": 17.41127300511843,
+    "new_joint_carrier_12g_not_added": "No separately adopted12g carrier exists in this packet; any future carrier must replace/consume the remaining original E budget, not add another12g.",
+    "port_T1_not_added_again": true,
+    "old_external_red14g_not_restored": true,
+    "IMU14g_CAN_A30g_not_added_again": true,
+    "fan33_5g_includes_full_factory_leads_no_new_trim_or_extra_wire": true
+  },
+  "preserve_existing_source_items": [
+    {
+      "name": "installation/battery_service/0",
+      "body": "torso",
+      "mass_kg": 0.372,
+      "centre_zero_mm": [
+        -115.99999999999977,
+        -9.000000000000057,
+        354.0
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          0.000577375,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0005239,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.00020847500000000004
+        ]
+      ],
+      "inertia_basis": "Preserved source purchased-unit/installation mass allowance; uniform full package inertia at declared planning COM; not measured COTS inertia",
+      "mass_interval_kg": [
+        0.3255,
+        0.4185
+      ],
+      "positional_uncertainty_mm": 72.5,
+      "group": "module_mass_budgets",
+      "native_mass_coverage": [
+        "battery_service_installation_reserve"
+      ]
+    },
+    {
+      "name": "installation/battery_service/1",
+      "body": "torso",
+      "mass_kg": 0.028,
+      "centre_zero_mm": [
+        -110.69999999999976,
+        -9.000000000000057,
+        427.0
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          4.713333333333334e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.173333333333334e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          5.198666666666667e-06
+        ]
+      ],
+      "inertia_basis": "Preserved source purchased-unit/installation mass allowance; uniform full package inertia at declared planning COM; not measured COTS inertia; explicit once-only rigid occurrence move after the original source04 group registration",
+      "mass_interval_kg": [
+        0.0245,
+        0.0315
+      ],
+      "positional_uncertainty_mm": 72.5,
+      "group": "module_mass_budgets",
+      "native_mass_coverage": [
+        "battery_xt60_service_installation_reserve"
+      ]
+    },
+    {
+      "name": "installation/imu_wt901c_ttl/0",
+      "body": "torso",
+      "mass_kg": 0.014,
+      "centre_zero_mm": [
+        -94.50000000000053,
+        49.00000000000088,
+        311.99999999999994
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          2.739811666666669e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.925103333333337e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.5292916666666675e-06
+        ]
+      ],
+      "inertia_basis": "Preserved source purchased-unit/installation mass allowance; uniform full package inertia at declared planning COM; not measured COTS inertia",
+      "mass_interval_kg": [
+        0.0091,
+        0.0189
+      ],
+      "positional_uncertainty_mm": 28.75,
+      "group": "module_mass_budgets",
+      "native_mass_coverage": [
+        "imu_wt901c_ttl_installation_reserve"
+      ]
+    },
+    {
+      "name": "installation/can_a/0",
+      "body": "torso",
+      "mass_kg": 0.03,
+      "centre_zero_mm": [
+        -94.0000000000004,
+        71.99999999999994,
+        365.0
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          3.125e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.146e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.21e-06
+        ]
+      ],
+      "inertia_basis": "Preserved source purchased-unit/installation mass allowance; uniform full package inertia at declared planning COM; not measured COTS inertia",
+      "mass_interval_kg": [
+        0.020999999999999998,
+        0.039
+      ],
+      "positional_uncertainty_mm": 55.0,
+      "group": "module_mass_budgets",
+      "native_mass_coverage": [
+        "can_a_installation_reserve"
+      ]
+    },
+    {
+      "name": "harness/can_a_mainline/0",
+      "body": "left_hip_yaw",
+      "mass_kg": 0.0002688631103017673,
+      "centre_zero_mm": [
+        2.756074709086487,
+        48.0,
+        319.2125
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          3.3080931094816357e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.3080931094816357e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.00020164733272632544,
+        0.00034952204339229746
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/1",
+      "body": "torso",
+      "mass_kg": 0.0009795923342159393,
+      "centre_zero_mm": [
+        -20.7,
+        0.0,
+        361.67499999999995
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.600000812552701e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.600000812552701e-06
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0007346942506619544,
+        0.001273470034480721
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/2",
+      "body": "right_hip_yaw",
+      "mass_kg": 0.0002688631103017673,
+      "centre_zero_mm": [
+        2.756074709086487,
+        -48.0,
+        319.2125
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          3.3080931094816357e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.3080931094816357e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.00020164733272632544,
+        0.00034952204339229746
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/3",
+      "body": "torso",
+      "mass_kg": 0.0007004653295557102,
+      "centre_zero_mm": [
+        4.374999999999998,
+        -35.0,
+        348.7775
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          4.381768472003175e-07,
+          -2.049152949504434e-07,
+          -1.4945643405278394e-07
+        ],
+        [
+          -2.049152949504434e-07,
+          2.989606763236129e-07,
+          -2.086131681693894e-07
+        ],
+        [
+          -1.4945643405278394e-07,
+          -2.086131681693894e-07,
+          4.3283051492712563e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0005253489971667827,
+        0.0009106049284224233
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/4",
+      "body": "neck_yaw",
+      "mass_kg": 0.0004618078147017995,
+      "centre_zero_mm": [
+        29.449999999999996,
+        0.0,
+        407.30499999999995
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.6763623673675295e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.6763623673675295e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0003463558610263496,
+        0.0006003501591123394
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/5",
+      "body": "neck_pitch",
+      "mass_kg": 0.0008890708410962282,
+      "centre_zero_mm": [
+        -7.050000000000004,
+        0.0,
+        492.30499999999995
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          8.013491847747365e-07,
+          0.0,
+          5.624854854668813e-07
+        ],
+        [
+          0.0,
+          1.19617072745822e-06,
+          0.0
+        ],
+        [
+          5.624854854668813e-07,
+          0.0,
+          3.948215426834834e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0006668031308221711,
+        0.0011557920934250968
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/6",
+      "body": "neck_mid_pitch",
+      "mass_kg": 0.0008229539435551828,
+      "centre_zero_mm": [
+        -7.550000000000004,
+        0.0,
+        590.8050000000001
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          5.93144054817398e-07,
+          0.0,
+          -4.59208300503792e-07
+        ],
+        [
+          0.0,
+          9.486601584332369e-07,
+          0.0
+        ],
+        [
+          -4.59208300503792e-07,
+          0.0,
+          3.555161036158389e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0006172154576663872,
+        0.0010698401266217377
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_a_mainline/7",
+      "body": "head_roll",
+      "mass_kg": 0.0008502253858033897,
+      "centre_zero_mm": [
+        87.44999999999999,
+        0.0,
+        622.8050000000001
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          5.958662912172088e-08,
+          0.0,
+          2.4245593918493334e-07
+        ],
+        [
+          0.0,
+          1.0461314851155874e-06,
+          0.0
+        ],
+        [
+          2.4245593918493334e-07,
+          0.0,
+          9.865448559938665e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0006376690393525423,
+        0.0011052930015444066
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/0",
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.0005738357155725417,
+      "centre_zero_mm": [
+        39.86331391668339,
+        -145.39999990000004,
+        70.83082433359502
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.2123659200565436e-07,
+          0.0,
+          1.4584843599288235e-07
+        ],
+        [
+          0.0,
+          2.966932419301079e-07,
+          0.0
+        ],
+        [
+          1.4584843599288235e-07,
+          0.0,
+          1.7545664992445362e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0004303767866794063,
+        0.0007459864302443043
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/1",
+      "body": "right_knee_pitch",
+      "mass_kg": 0.0010048884968335023,
+      "centre_zero_mm": [
+        -3.7991010301035697,
+        -145.39999990000004,
+        163.66570524785072
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.5333754145605062e-06,
+          0.0,
+          3.0313774426667474e-07
+        ],
+        [
+          0.0,
+          1.5933036559595154e-06,
+          0.0
+        ],
+        [
+          3.0313774426667474e-07,
+          0.0,
+          5.99282413990094e-08
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0007536663726251268,
+        0.001306355045883553
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/2",
+      "body": "right_hip_pitch",
+      "mass_kg": 0.0008565800915464341,
+      "centre_zero_mm": [
+        14.290622407756283,
+        -125.00000000000003,
+        275.98512161687074
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          7.041520452366733e-07,
+          0.0,
+          -4.461599288991104e-07
+        ],
+        [
+          0.0,
+          9.8684480101551e-07,
+          0.0
+        ],
+        [
+          -4.461599288991104e-07,
+          0.0,
+          2.826927557788367e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0006424350686598256,
+        0.0011135541190103644
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/3",
+      "body": "torso",
+      "mass_kg": 0.0021185138848040896,
+      "centre_zero_mm": [
+        45.75607470908649,
+        0.0,
+        330.6454814052301
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.4929280313086159e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.4929280313086159e-05
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0015888854136030671,
+        0.0027540680502453167
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/4",
+      "body": "left_hip_pitch",
+      "mass_kg": 0.0008565800915464341,
+      "centre_zero_mm": [
+        14.290622407756283,
+        125.00000000000003,
+        275.98512161687074
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          7.041520452366733e-07,
+          0.0,
+          -4.461599288991104e-07
+        ],
+        [
+          0.0,
+          9.8684480101551e-07,
+          0.0
+        ],
+        [
+          -4.461599288991104e-07,
+          0.0,
+          2.826927557788367e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0006424350686598256,
+        0.0011135541190103644
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/5",
+      "body": "left_knee_pitch",
+      "mass_kg": 0.0010048884968335023,
+      "centre_zero_mm": [
+        -3.7991010301035697,
+        145.39999990000004,
+        163.66570524785072
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.5333754145605062e-06,
+          0.0,
+          3.0313774426667474e-07
+        ],
+        [
+          0.0,
+          1.5933036559595154e-06,
+          0.0
+        ],
+        [
+          3.0313774426667474e-07,
+          0.0,
+          5.99282413990094e-08
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0007536663726251268,
+        0.001306355045883553
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/can_b_mainline/6",
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.0005738357155725417,
+      "centre_zero_mm": [
+        39.86331391668339,
+        145.39999990000004,
+        70.83082433359502
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.2123659200565436e-07,
+          0.0,
+          1.4584843599288235e-07
+        ],
+        [
+          0.0,
+          2.966932419301079e-07,
+          0.0
+        ],
+        [
+          1.4584843599288235e-07,
+          0.0,
+          1.7545664992445362e-07
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0004303767866794063,
+        0.0007459864302443043
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/usb_main_can_a",
+      "body": "torso",
+      "mass_kg": 0.0085,
+      "centre_zero_mm": [
+        -152.67139512816476,
+        22.32223816379704,
+        359.1
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0063750000000000005,
+        0.01105
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/usb_main_can_b",
+      "body": "torso",
+      "mass_kg": 0.0076,
+      "centre_zero_mm": [
+        -152.67139512816476,
+        -23.002761836185307,
+        358.2537682628314
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0057,
+        0.00988
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/sleeves_clamps_torso",
+      "body": "torso",
+      "mass_kg": 0.02,
+      "centre_zero_mm": [
+        -98.72741215876164,
+        1.0293813240892338,
+        349.675
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.015,
+        0.026000000000000002
+      ],
+      "positional_uncertainty_mm": 80.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "harness/sleeves_clamps_neck",
+      "body": "neck_pitch",
+      "mass_kg": 0.01,
+      "centre_zero_mm": [
+        28.949999999999996,
+        0.0,
+        538.805
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "inertia_basis": "Retained conductor/installation reserve only, rigid-owner planning registration; final endpoint routes, lengths and clamp masses not qualified",
+      "mass_interval_kg": [
+        0.0075,
+        0.013000000000000001
+      ],
+      "positional_uncertainty_mm": 50.0,
+      "group": "unrouted_harness_or_installation_reserve",
+      "native_mass_coverage": []
+    },
+    {
+      "name": "rear_exhaust_fan_body",
+      "body": "torso",
+      "mass_kg": 0.0335,
+      "centre_zero_mm": [
+        -217.8,
+        0.0,
+        385.0
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          2.01e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0551271666666667e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0551271666666667e-05
+        ]
+      ],
+      "mass_interval_kg": [
+        0.028475000000000007,
+        0.038525000000000004
+      ],
+      "positional_uncertainty_mm": 3.0,
+      "group": "actual_native",
+      "native_mass_coverage": [
+        "rear_exhaust_fan_body"
+      ],
+      "inertia_basis": "Sealed source full MCI, copied exactly from current saved native packet; supplier allocated mass retained where specified",
+      "source_actual_packet_item_name": "rear_exhaust_fan_body",
+      "measured_mass_or_inertia": false
+    },
+    {
+      "name": "can_b_installation_reserve",
+      "body": "torso",
+      "mass_kg": 0.03,
+      "centre_zero_mm": [
+        -156.0,
+        -39.0,
+        362.2
+      ],
+      "inertia_at_com_zero_kg_m2": [
+        [
+          1.6256199999999992e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.6413475999999992e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.842724e-06
+        ]
+      ],
+      "mass_interval_kg": [
+        0.020999999999999998,
+        0.039
+      ],
+      "positional_uncertainty_mm": 55.0,
+      "group": "actual_native",
+      "native_mass_coverage": [
+        "can_b_installation_reserve"
+      ],
+      "inertia_basis": "Sealed source full MCI, copied exactly from current saved native packet; supplier allocated mass retained where specified",
+      "source_actual_packet_item_name": "can_b_installation_reserve",
+      "measured_mass_or_inertia": false
+    }
+  ],
+  "FFC": {
+    "length_mm": 300,
+    "selected_mass_kg": 0.0015,
+    "existing_USB_main_CAN_B_budget_kg": 0.0076,
+    "accounting_choice": "Earmark1.5g within existing7.6g USB main CAN_B budget, keep6.1g remainder. No additional mass; current ledger COM/fullI retained for simulation. This is engineering bookkeeping, not a claim of an installed route.",
+    "future_region_mm": [
+      [
+        -206.66,
+        -38.5,
+        315.5
+      ],
+      [
+        -151,
+        2.2,
+        408
+      ]
+    ],
+    "complete_route_and_storage_capacity_verified": false,
+    "incoming_design_conditions": "R>=6mm and thickness<=.3mm are design acceptance conditions, not supplier guarantees."
+  },
+  "installation_remaining": [
+    "Normal metal NC receiver/clamp not built; must fit remaining engineering mass allocation or explicitly revise physics version.",
+    "IMU14g actual WT901C_TTL51.3+/-0.1 x36+/-0.1 x15+/-0.1mm5V has no accepted top-bay fixing/maintenance proof; existing mass/inertia retained as engineering allocation.",
+    "CAN_A30g complete original region+X10 was checked clear but not mounted; no source move adopted into current mass.",
+    "CAN_B/lightcarrier/hood/liner/F0 joint redesign and complete300mmFFC installation not built.",
+    "Full6feed/IGN/FG/fan fuse/12p service/strain relief not closed. Existing source wire/USB/reserve masses remain; no125g or76.1g duplicated.",
+    "Actual material-temperature/thread/thermal/fatigue/electrical energized qualification deferred, not passed."
+  ],
+  "fixed_heavy_and_function": "All battery/CPU/BMS/18actuators/axes/R31heavy routes/E04K1main+K2parallelprecharge/10vents/mango contour fixed. Cold3.85+.15+16m3h and total21.69247 engineering demand retained, not installed measured flow.",
+  "future_allowed_light_adjustments": "Only within declared light planning regions, and with torso aggregate mass/COM/fullI preserved. These boxes are physics allocations, not all-clear installation certificates. Mechanical manufacture requiring different mass properties must create a new physics version.",
+  "no_more_current_jobs": true,
+  "manufacturing_released": false,
+  "stable_physics_release_decision": "Root/F/G only; this packet supplies explicit simulation engineering assumptions and genuine source changes, not a hardware readiness approval."
+}

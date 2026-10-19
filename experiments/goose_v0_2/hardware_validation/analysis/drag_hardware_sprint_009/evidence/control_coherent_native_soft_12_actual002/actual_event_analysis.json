@@ -1,0 +1,115 @@
+{
+  "motion_start_time_s": 5.800000000000272,
+  "actual_completed_steps": 6732,
+  "actual_true_POST_time_s": 6.732,
+  "true_POST_cold_heading_back_root_cart_cargo_m": [
+    0.02524980714084239,
+    0.013258488796539902,
+    0.013274754837570013
+  ],
+  "clip_sample_counts_by_axis": {
+    "neck_yaw_motor": 0,
+    "neck_pitch_motor": 0,
+    "neck_mid_pitch_motor": 0,
+    "head_pitch_motor": 0,
+    "head_roll_motor": 0,
+    "beak_hinge_motor": 0,
+    "right_hip_yaw_motor": 27,
+    "right_hip_roll_motor": 0,
+    "right_hip_pitch_motor": 0,
+    "right_knee_pitch_motor": 172,
+    "right_ankle_pitch_motor": 0,
+    "right_ankle_roll_motor": 97,
+    "left_hip_yaw_motor": 30,
+    "left_hip_roll_motor": 20,
+    "left_hip_pitch_motor": 5,
+    "left_knee_pitch_motor": 80,
+    "left_ankle_pitch_motor": 0,
+    "left_ankle_roll_motor": 40
+  },
+  "clip_semantics": "sampled source requested-minus-applied nonzero per fine PRE; not capability-utilization ratio",
+  "first_source_clip_by_axis": {
+    "left_ankle_roll_motor": {
+      "time_s": 6.265000000000427,
+      "tau_actual": 2.0,
+      "omega_actual": -0.41833530283437215,
+      "requested_minus_applied": 0.032528883544718834
+    },
+    "right_hip_yaw_motor": {
+      "time_s": 6.285000000000434,
+      "tau_actual": 1.8,
+      "omega_actual": -0.10631606935425056,
+      "requested_minus_applied": 0.0009815351168729336
+    },
+    "left_hip_roll_motor": {
+      "time_s": 6.290000000000435,
+      "tau_actual": 6.4,
+      "omega_actual": 0.14538191042568788,
+      "requested_minus_applied": 0.0039789347983534284
+    },
+    "right_knee_pitch_motor": {
+      "time_s": 6.355000000000457,
+      "tau_actual": -6.4,
+      "omega_actual": 0.21906963946974609,
+      "requested_minus_applied": -0.016457928025535473
+    },
+    "right_ankle_roll_motor": {
+      "time_s": 6.36500000000046,
+      "tau_actual": -2.0,
+      "omega_actual": -0.09011298771786788,
+      "requested_minus_applied": -0.023678594998242097
+    },
+    "left_knee_pitch_motor": {
+      "time_s": 6.42500000000048,
+      "tau_actual": 6.4,
+      "omega_actual": -0.14059102072811447,
+      "requested_minus_applied": 0.289958634601188
+    },
+    "left_hip_yaw_motor": {
+      "time_s": 6.625000000000547,
+      "tau_actual": -1.8,
+      "omega_actual": 0.7077399411800411,
+      "requested_minus_applied": -0.04608633323767797
+    },
+    "left_hip_pitch_motor": {
+      "time_s": 6.655000000000557,
+      "tau_actual": 6.4,
+      "omega_actual": 1.650696708542132,
+      "requested_minus_applied": 0.03830833463022554
+    }
+  },
+  "minimum_foot_N_R_L": [
+    38.371223170524814,
+    0.0
+  ],
+  "minN_time_R_L": [
+    6.51300000000051,
+    6.6440000000005535
+  ],
+  "maximum_whole_sole_min_z_R_L_m": [
+    -0.00014525634942071097,
+    0.00010516256332650936
+  ],
+  "maximum_actual_air_streak_R_L_s": [
+    0.0,
+    0.0
+  ],
+  "unload_N_le2_samples": 56,
+  "first_unload_N_le2": {
+    "time_s": 6.6440000000005535,
+    "side": "left",
+    "N": 0.0,
+    "whole_min_z_m": 9.612597559542635e-06
+  },
+  "actual_qualified_air_and_backlanding_steps": 0,
+  "nonrod_robot_cart_contact_count": 0,
+  "robot_robot_active_contacts": [],
+  "maximum_penetration_m_and_time": [
+    0.000798416524574446,
+    6.57500000000053
+  ],
+  "maximum_internal_equality_residual": 0.0002435158974984919,
+  "task_pass": false,
+  "first_failure": "6.433s sticky5mm before 6.732s gross20mm; no qualified air",
+  "no_new_forward_or_integration": true
+}

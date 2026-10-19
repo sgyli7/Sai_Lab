@@ -1,0 +1,20 @@
+{
+  "status": "OWNER_ACCEPTED_FINITE2P13MM_PROTOTYPE_EXCEPTION",
+  "actual_saved_vertex_max_euclidean_mm": 2.121200168211175,
+  "original2mm_target": "FAIL",
+  "previous2p1mm_gate": "FAIL",
+  "finite2p13mm_prototype_limit": "PASS_FOR_THIS_SAVED_POINT_SET_ONLY",
+  "reason": "Owner accepted2.121200mm finite saved-point error; exact spherical sector tangent-plane error, not64-support loss. Not critical actual sole/mouth geometry. No new leaf,normal,radius or hardware changes.",
+  "not_global_surface_Hausdorff_or_fullROM_certificate": true,
+  "original_error_receipt": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/c06_refreshed_same28_error_07.json",
+    "sha256": "6279b126a7e13b392f99510c4d2568852e65fb8033e785015d4be86542b34a30",
+    "bytes": 9852
+  },
+  "same_source_query": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_joint_proxy_009_07/whole_candidate_07/geometry_r02_query.json",
+    "sha256": "cbccef34b16b0ac75712671f0dde2f16ba2231b89d58fe9a82951dffef75e5af",
+    "bytes": 7102
+  },
+  "Owner_decision_source": "Explicit Root collaboration message accepting2.13mm finite prototype exception before final07freeze"
+}

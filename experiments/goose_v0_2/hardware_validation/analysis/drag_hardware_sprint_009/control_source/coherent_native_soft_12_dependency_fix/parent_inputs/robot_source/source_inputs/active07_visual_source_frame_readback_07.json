@@ -1,0 +1,45 @@
+{
+  "status": "PASS_FINALC06_NATIVE_GLB_CAD_ZERO_FRAME",
+  "source_native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+    "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+  },
+  "source_GLB": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.glb",
+    "sha256": "570852ff7fda6f6d888d21d0701b13c7eb625760ba6063e2a46a5bb498f548a6"
+  },
+  "native_bbox_mm": [
+    [
+      -81.0000001,
+      -111.5525697550489,
+      236.9999999
+    ],
+    [
+      100.0000001,
+      111.5525697551162,
+      453.869365937141
+    ]
+  ],
+  "GLB_bbox_CAD_mm": [
+    [
+      -81.00000023841858,
+      -111.55256628990179,
+      237.00000345706934
+    ],
+    [
+      100.00000149011612,
+      111.55256628990162,
+      453.86937260627735
+    ]
+  ],
+  "max_bbox_error_mm": 6.669136325854197e-06,
+  "original_material_and_all_other_occurrences_preserved": true,
+  "mesh_has_only_one_occurrence": false,
+  "geometry_scaled_or_fitted": false,
+  "mj_step_calls": 0,
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_07_frame.py",
+    "sha256": "dd2ca445ebd71d622034084a124df2f3d6c2bd830f08ec76fcbf0e07e7c549ed",
+    "bytes": 1144
+  }
+}

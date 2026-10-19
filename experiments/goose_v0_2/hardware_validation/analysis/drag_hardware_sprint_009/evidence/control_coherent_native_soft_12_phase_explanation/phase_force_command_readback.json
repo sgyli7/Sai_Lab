@@ -1,0 +1,1421 @@
+[
+  {
+    "t": 5.800000000000272,
+    "elapsed": 0.0,
+    "active": null,
+    "blend": 0.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        0.0,
+        0.0,
+        0.0,
+        1.8541177271599353e-16,
+        2.428739921309618e-17,
+        -4.857215144823219e-17
+      ],
+      "native_pose_error": [
+        0.0,
+        0.0,
+        0.0,
+        3.1680896394740738e-18,
+        0.0,
+        0.0
+      ],
+      "velocity_error": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0842021724855044e-18,
+        1.5178830414797062e-18,
+        -3.0357660829594124e-18
+      ],
+      "transported_curve_acceleration": [
+        0.0,
+        0.0,
+        0.0,
+        1.2705494208814505e-21,
+        1.2705494208814505e-21,
+        1.0587911840678754e-22
+      ],
+      "recovery": [
+        0.0,
+        0.0,
+        0.0,
+        1.8541050216657265e-16,
+        2.42861286636753e-17,
+        -4.85722573273506e-17
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 4.592424496318014e-12,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 0.0
+    }
+  },
+  {
+    "t": 6.000000000000338,
+    "elapsed": 0.2000000000000668,
+    "active": null,
+    "blend": 0.3174400000002308,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.44462092810935844,
+        -0.024454790341382926,
+        0.008282407139572335,
+        0.23598038392622217,
+        3.3444892985070953,
+        0.0188407520527724
+      ],
+      "native_pose_error": [
+        -0.0025408743458704306,
+        1.8697103473030573e-05,
+        8.024950699186961e-05,
+        0.0004094808174898129,
+        0.012607214164460336,
+        0.0006216217098430881
+      ],
+      "velocity_error": [
+        -0.02640292087127183,
+        0.00020555597224478366,
+        0.000638635909996953,
+        0.006358698507162608,
+        0.13385060915719307,
+        0.0002132426855610955
+      ],
+      "transported_curve_acceleration": [
+        -0.11706986074987939,
+        -0.026977777650656527,
+        -0.00011018963519393659,
+        0.1080344354922724,
+        0.396017845466545,
+        -0.024354920346162767
+      ],
+      "recovery": [
+        -0.32755106735947903,
+        0.002522987309273601,
+        0.00839259677476627,
+        0.12794594843394977,
+        2.9484714530405505,
+        0.04319567239893517
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.3041206853141486,
+        -0.00017130435480893974,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.3189480402924974e-12,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 0.3174400000002308
+    }
+  },
+  {
+    "t": 6.200000000000405,
+    "elapsed": 0.4000000000001336,
+    "active": null,
+    "blend": 0.9420800000002054,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.2710804104849404,
+        -0.18346375965067818,
+        0.05155680091905356,
+        0.40449534232916096,
+        1.5872071827060958,
+        0.8836645248760404
+      ],
+      "native_pose_error": [
+        -0.005475944230551136,
+        -0.0008077405424016105,
+        0.000575000332891349,
+        0.0008469912740475447,
+        0.029744763747427547,
+        0.0023442045000806643
+      ],
+      "velocity_error": [
+        -0.016044674546428384,
+        -0.008884936864419546,
+        0.004341212134966793,
+        -0.0006390017515700008,
+        0.02856010038566574,
+        0.046281347150543405
+      ],
+      "transported_curve_acceleration": [
+        0.026264940743121846,
+        -0.07442087744644245,
+        -0.00623032875289809,
+        0.3605119288152381,
+        -0.7734193032999191,
+        -0.006866117537816615
+      ],
+      "recovery": [
+        -0.29734535122806227,
+        -0.10904288220423572,
+        0.057787129671951654,
+        0.04398341351392285,
+        2.360626486006015,
+        0.890530642413857
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.30191585850939995,
+        -0.00017194851929479667,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.8131258962472729e-10,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 0.9420800000002054
+    }
+  },
+  {
+    "t": 6.260000000000425,
+    "elapsed": 0.4600000000001536,
+    "active": null,
+    "blend": 0.9954747392000498,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        0.04568582101161299,
+        0.2865422260268574,
+        -0.007527011396682342,
+        1.7373589783175831,
+        0.012967836517232212,
+        -2.5623070123861056
+      ],
+      "native_pose_error": [
+        -0.005061979538983536,
+        -7.49318506333323e-05,
+        0.0006676997763499087,
+        0.002995181180753264,
+        0.027391577512987837,
+        -0.0013736755731701422
+      ],
+      "velocity_error": [
+        0.018526318687418275,
+        0.03466899015383477,
+        -0.002137184446259443,
+        0.07868663634741818,
+        -0.07648024511156083,
+        -0.15531056777592445
+      ],
+      "transported_curve_acceleration": [
+        -0.01302787738798135,
+        -0.05827437924565693,
+        -0.0028476613428356314,
+        0.2866812011906834,
+        -0.516409202529016,
+        0.01057730871157466
+      ],
+      "recovery": [
+        0.05871369839959434,
+        0.34481660527251434,
+        -0.004679350053846711,
+        1.4506777771268997,
+        0.5293770390462482,
+        -2.57288432109768
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.3003752147167125,
+        -0.00017239863538303895,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 3.898696364480076e-12,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 0.9954747392000498
+    }
+  },
+  {
+    "t": 6.280000000000432,
+    "elapsed": 0.4800000000001603,
+    "active": null,
+    "blend": 0.9993977856000127,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.11418799173858549,
+        -0.007105946904567444,
+        -0.0477788937832614,
+        0.2977937149721004,
+        0.25900009349246583,
+        -3.8579778593648695
+      ],
+      "native_pose_error": [
+        -0.004833356587491668,
+        0.00030708164864356926,
+        0.0005801030705610026,
+        0.003637831107310517,
+        0.025990587381444486,
+        -0.005186133388428616
+      ],
+      "velocity_error": [
+        0.007715392342844324,
+        0.004933206195357462,
+        -0.006084538839131924,
+        -0.015152013329734634,
+        -0.06843624156309924,
+        -0.22073568903092106
+      ],
+      "transported_curve_acceleration": [
+        -0.07050800047973703,
+        -0.0641150500742313,
+        -0.0014360821559672285,
+        0.3074047373799815,
+        -0.3094176339103934,
+        0.005705701989299154
+      ],
+      "recovery": [
+        -0.04367999125884846,
+        0.05700910316966385,
+        -0.04634281162729417,
+        -0.009611022407881059,
+        0.5684177274028592,
+        -3.8636835613541685
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.2997415173215923,
+        -0.00017258377707119209,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.0195608800821905e-12,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 0.9993977856000127
+    }
+  },
+  {
+    "t": 6.300000000000439,
+    "elapsed": 0.500000000000167,
+    "active": null,
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.30613215063049737,
+        -0.1442983388866663,
+        -0.05003195923455651,
+        -0.18984696603967222,
+        0.6684735478567883,
+        -3.655263521257277
+      ],
+      "native_pose_error": [
+        -0.004803457392947869,
+        0.00021302640720626074,
+        0.00044338876687872314,
+        0.0028208371976225248,
+        0.024795230718506686,
+        -0.009331258746773445
+      ],
+      "velocity_error": [
+        -0.001810996073840311,
+        -0.00651205243431071,
+        -0.006111656564949865,
+        -0.047882088518001686,
+        -0.05600811428995369,
+        -0.1908566313920304
+      ],
+      "transported_curve_acceleration": [
+        -0.1679357550683975,
+        -0.08450347472371571,
+        -1.1275702593857989e-07,
+        0.3957328696005131,
+        -0.0222913894883806,
+        -0.004356859191290086
+      ],
+      "recovery": [
+        -0.13819639556209984,
+        -0.05979486416295058,
+        -0.05003184647753057,
+        -0.5855798356401853,
+        0.6907649373451689,
+        -3.650906662065987
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.2990431358081005,
+        -0.0001727878169384513,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.911645508647807e-13,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  },
+  {
+    "t": 6.360000000000459,
+    "elapsed": 0.560000000000187,
+    "active": null,
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.5198444224840374,
+        -0.14894420431146377,
+        0.04222394221704518,
+        0.6966965624101649,
+        0.8848756767124023,
+        -1.6221309290300008
+      ],
+      "native_pose_error": [
+        -0.005420478721586016,
+        -0.0007001547366173207,
+        0.0002781848624276431,
+        -2.377257975623443e-05,
+        0.02150010098503155,
+        -0.01738214811650877
+      ],
+      "velocity_error": [
+        -0.020063198173596117,
+        -0.005705136684515982,
+        0.0035269320656354103,
+        0.021866736531639716,
+        -0.030084591541578783,
+        -0.03160823805035337
+      ],
+      "transported_curve_acceleration": [
+        -0.1837004727084258,
+        -0.07438896905087095,
+        0.0,
+        0.3483502230083284,
+        -0.009777321664356417,
+        -0.003941640767785384
+      ],
+      "recovery": [
+        -0.3361439497756116,
+        -0.07455523526059284,
+        0.04222394221704518,
+        0.34834633940183646,
+        0.8946529983767587,
+        -1.6181892882622153
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.29653582982127064,
+        -0.00017352035405584015,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.2103801433694882e-13,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  },
+  {
+    "t": 6.440000000000485,
+    "elapsed": 0.6400000000002137,
+    "active": null,
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        0.04720890451494558,
+        -0.3813617672142466,
+        0.07327802293465493,
+        2.585726095030698,
+        -3.5070373166699618,
+        4.775421652759685
+      ],
+      "native_pose_error": [
+        -0.006337624363984849,
+        -0.0026745860203067143,
+        0.0004886788130142265,
+        0.00850848690470371,
+        0.01178856372780771,
+        -0.003423352682357881
+      ],
+      "velocity_error": [
+        0.04023775705265958,
+        -0.028609326316252456,
+        0.006106105260929927,
+        0.11923236875933454,
+        -0.2690441676944282,
+        0.30990109323872844
+      ],
+      "transported_curve_acceleration": [
+        -0.19672805691202896,
+        -0.0284038535440542,
+        0.0,
+        0.1334650329803081,
+        0.04320128786119581,
+        0.036098732610934284
+      ],
+      "recovery": [
+        0.24393696142697455,
+        -0.35295791367019236,
+        0.07327802293465493,
+        2.45226106205039,
+        -3.5502386045311574,
+        4.739322920148751
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.29215884054133867,
+        -0.00017479913978315267,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.9255270011800393e-09,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  },
+  {
+    "t": 6.560000000000525,
+    "elapsed": 0.7600000000002538,
+    "active": "left",
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.3886415917982544,
+        0.6365682989909196,
+        -0.01042088382441559,
+        -1.8807919006128175,
+        -5.0468862089164235,
+        -3.3863238407956127
+      ],
+      "native_pose_error": [
+        -0.0059092362970976885,
+        7.82876864025648e-05,
+        0.0009500601019936739,
+        0.010465334401672908,
+        -0.01810950317317529,
+        -0.001322682884580775
+      ],
+      "velocity_error": [
+        -0.0043532868466626545,
+        0.050002159260362555,
+        -0.0034172386374257437,
+        -0.11993331600473875,
+        -0.24156357706934176,
+        -0.20738930551116747
+      ],
+      "transported_curve_acceleration": [
+        -0.19737781590418568,
+        0.13458951422722995,
+        0.0,
+        -0.6316402462440638,
+        -0.022860772723737283,
+        0.016556751996236505
+      ],
+      "recovery": [
+        -0.19126377589406876,
+        0.5019787847636896,
+        -0.01042088382441559,
+        -1.2491516543687537,
+        -5.024025436192686,
+        -3.402880592791849
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.28323347664827486,
+        -0.00017740678335446567,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 1.25087782057448e-11,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  },
+  {
+    "t": 6.640000000000552,
+    "elapsed": 0.8400000000002805,
+    "active": "left",
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -1.1938421823415126,
+        1.000896853844241,
+        0.16593441855813856,
+        -2.382093350348568,
+        -3.106778400396651,
+        7.193095947918444
+      ],
+      "native_pose_error": [
+        -0.008204287595683386,
+        0.0036386895657480964,
+        0.0012883854865797214,
+        -0.0011232245816998796,
+        -0.03290524874601263,
+        -0.0031096662751408585
+      ],
+      "velocity_error": [
+        -0.08035698620890183,
+        0.062324765692876934,
+        0.013372478139364553,
+        -0.06042153959035141,
+        -0.06388932581154164,
+        0.46462329968439564
+      ],
+      "transported_curve_acceleration": [
+        -0.1851651303604095,
+        0.28668195777176925,
+        0.0,
+        -1.343462343674153,
+        0.02138673233282328,
+        -0.041858205422870734
+      ],
+      "recovery": [
+        -1.008677051981103,
+        0.7142148960724718,
+        0.16593441855813856,
+        -1.0386310066744149,
+        -3.1281651327294746,
+        7.234954153341315
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.27570625823078293,
+        -0.00017960594329364705,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 9.084599079083735e-12,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  },
+  {
+    "t": 6.720000000000579,
+    "elapsed": 0.9200000000003072,
+    "active": "left",
+    "blend": 1.0,
+    "softkeys": [
+      "contact_active_mask",
+      "inactive_contacts_without_native_rows",
+      "unload_side",
+      "root_task",
+      "known_actual_point",
+      "success",
+      "status",
+      "physics_steps",
+      "source_hard_relations",
+      "mode_initialization",
+      "task_acceleration_goal",
+      "task_ids",
+      "task_normalizers",
+      "task_priorities",
+      "left_normal_target_N",
+      "left_normal_soft_weight",
+      "contact_modes",
+      "feedback",
+      "FF_semantics",
+      "unload_normal_target_N",
+      "legacy_left_field_names_follow_unload_side",
+      "physical_PD18",
+      "source_caps18",
+      "source_saturation_axes",
+      "source_applied_known_tau",
+      "validated_witness",
+      "FF18",
+      "requested_total_tau18",
+      "source_limited_total_tau18",
+      "source_clip_max",
+      "source_applied_model_error",
+      "predicted_full_qacc",
+      "native_force",
+      "unload_normal_predicted_N",
+      "left_normal_predicted_N",
+      "task_error",
+      "hard_equality_residual",
+      "hard_inequality_residual",
+      "front_acceleration",
+      "maximum_contact_circle_excess",
+      "default_FF_component_guard_not_hardware"
+    ],
+    "unload": "left",
+    "raw_normal_target": null,
+    "force": null,
+    "root_task": {
+      "goal": [
+        -0.9926710806886598,
+        1.553538861273193,
+        0.30191541660760846,
+        0.28706540863244445,
+        -5.391707155218465,
+        40.52907694540822
+      ],
+      "native_pose_error": [
+        -0.014429220986359053,
+        0.007993864943411285,
+        0.0026299146355492284,
+        -0.000458360964062715,
+        -0.04136264955414205,
+        0.10926135021070214
+      ],
+      "velocity_error": [
+        -0.046810615728260854,
+        0.09502489433675898,
+        0.023616755071887773,
+        0.13579022705925894,
+        -0.14626923127707886,
+        2.101849050893687
+      ],
+      "transported_curve_acceleration": [
+        -0.16383439874707492,
+        0.40344329432032117,
+        0.0,
+        -1.8562431226156848,
+        -0.4041898833201122,
+        -0.09323428237570874
+      ],
+      "recovery": [
+        -0.8288366819415849,
+        1.1500955669528719,
+        0.30191541660760846,
+        2.1433085312481293,
+        -4.987517271898353,
+        40.62231122778393
+      ],
+      "Kp": [
+        25.0,
+        25.0,
+        25.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "Kd": [
+        10.0,
+        10.0,
+        10.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "angular_frame": "actual freejoint local tangent; desired angular velocity transported Ractual.T Rdesired",
+      "no_native_joint_PD_root_acceleration_added": true
+    },
+    "front_worldneck": {
+      "world_TCP_target": [
+        0.26699909435508773,
+        -0.0001821498373215948,
+        0.4112894077598237
+      ],
+      "neck_IK_error_m": 7.747332398093593e-09,
+      "front6_q_only_qd0_FF0": true,
+      "actual_root_world_neck_feedback_only_not_leg_qdd": true,
+      "fixed_rod_anchor": [
+        0.30430136491864956,
+        -0.00017125156726830956,
+        0.4112894077598237
+      ],
+      "actual_rod_not_reanchored_each_tick": true,
+      "entry_C2_blend": 1.0
+    }
+  }
+]

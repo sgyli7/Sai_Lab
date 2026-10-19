@@ -1,0 +1,39 @@
+{
+  "release_id": "physics_v0_2_20261020_08_candidate",
+  "parent07": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261020_07_candidate/manifest.json",
+    "sha256": "43d26d289bb7b075c50c007fbe8d299c543b32430c4cea1e37bf2ca4c39f2e35",
+    "bytes": 12258
+  },
+  "native_assembly": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_08/assembly_index.json",
+    "sha256": "a4fc5d029343e9deebc0b2eac970ef560015c3e4451ca2fcdc50f4e36a53bd34",
+    "bytes": 6930356
+  },
+  "actual_visual_binding": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/actual_visual_binding_08_final.json",
+    "sha256": "3a05fbb3de0352158dfdcf435f5213a84cba14c70778400694fdf4b262f06145",
+    "bytes": 122335
+  },
+  "selected_inputs": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+    "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+    "bytes": 33308
+  },
+  "frozen_upgrade_source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/integration_handoff.json",
+    "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+    "bytes": 67895
+  },
+  "frozen_upgrade_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/manifest.json",
+    "sha256": "ee7716dd4c9962332d45924f5cf3924925dfea46a5e43a509ed9c8212cb0dda0",
+    "bytes": 2790
+  },
+  "mass_basis": "07ledger exact6retire/add sourcefullMCI;3bodies reaggregated fullparallel-axis,20unchanged. COTSsuppliermass/external-envelope COM/I estimates distinguishedfromhomogeneousH900rho. No collisionmass inference.",
+  "collision_source": "Exactimmutable07 28OBJ meshes/roles/filters/materials, separatefromnewinternalhardwareMCI",
+  "rotor_armature_source": "Vendor157.33gcm2 *1e-7 *10^2=.0015733kgm2,onceactualinputonly;notaddedtorigidbodytensor",
+  "qualification": "qualification_limits.json",
+  "no_runtime_source_path_dependencies": true,
+  "manufacturing_released": false
+}

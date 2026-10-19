@@ -1,0 +1,931 @@
+{
+  "candidate_id": "physics_v0_2_20261020_08_candidate",
+  "status": "ROOT_ADOPTED_FINITE_STATIC_HARDWARE_PROTOTYPE_NOT_ACTUAL_AUTHORIZATION",
+  "source_handoff": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/integration_handoff.json",
+    "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+    "bytes": 67895
+  },
+  "source_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/manifest.json",
+    "sha256": "ee7716dd4c9962332d45924f5cf3924925dfea46a5e43a509ed9c8212cb0dda0",
+    "bytes": 2790
+  },
+  "source_motor_packet": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_ak45_upgrade_009/c01/integration_handoff.json",
+    "sha256": "ceecfda6a9fb506a6f7f6c9921898815feee8f2b2154516e131ef979d9a418b1",
+    "bytes": 27896
+  },
+  "parent07": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261020_07_candidate/manifest.json",
+    "sha256": "43d26d289bb7b075c50c007fbe8d299c543b32430c4cea1e37bf2ca4c39f2e35",
+    "bytes": 12258
+  },
+  "replacement_parts": [
+    {
+      "name": "left_hip_yaw_ak45_10_case_009_c01",
+      "body": "torso",
+      "source_parent_occurrence": "left_hip_yaw_catalog_case",
+      "retired_native_part_index": 549,
+      "material": "COTS_AK45_10_V3_catalog_mass_geometry_equivalent_NOT_homogeneous_material",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "44a0ea3f935ff5e12ba4fdf5d1dd91f072cec2e100c597e956625999c487a1f9"
+      },
+      "native_volume_mm3": 97513.30809146768,
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "positive_volume": true,
+        "self_intersection_check": "analytic native cylinder, BRepCheck valid; not a detailed OEM material solid"
+      },
+      "mass_kg": 0.2591426181500683,
+      "center_of_mass_world_mm": [
+        -35.7851448882825,
+        60.0,
+        377.0
+      ],
+      "center_of_mass_world_m": [
+        -0.0357851448882825,
+        0.06,
+        0.377
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          8.7685018807687e-05,
+          1.6163306823549797e-20,
+          -6.496873191062848e-20
+        ],
+        [
+          1.6163306823549797e-20,
+          8.768499707737224e-05,
+          -1.7449470239165723e-21
+        ],
+        [
+          -6.496873191062848e-20,
+          -1.7449470239165723e-21,
+          9.099145179794279e-05
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_basis": "262g manufacturer unit mass split by the same external-functional-volume allocation used by retired190g AK40. Internal geometry/COM and rigid-body inertia remain engineering estimates, NOT measured or OEM solid-volume mass.",
+      "geometry_basis": "Official53x45.2 overall and37x1 output protrusion, same geometry as existing sourced AK45 AR representation. Filled minor threads are external fit budget only, not fake OEM holes.",
+      "effective_geometry_reference_density_kg_m3_NOT_material": 2657.5102744641986,
+      "rotor_spin_inertia_is_not_this_rigid_body_inertia": true,
+      "purchased_component_modified": false,
+      "density_kg_m3": null
+    },
+    {
+      "name": "left_hip_yaw_ak45_10_output_disc_009_c01",
+      "body": "left_yaw_input_rotor",
+      "source_parent_occurrence": "left_hip_yaw_actual_output_disc",
+      "retired_native_part_index": 903,
+      "material": "COTS_AK45_10_V3_catalog_mass_geometry_equivalent_NOT_homogeneous_material",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "fd0ad7790a5798ed510c938e7791a810f2f4424af4094903ccb70881fc201f31"
+      },
+      "native_volume_mm3": 1075.2100856911068,
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "positive_volume": true,
+        "self_intersection_check": "analytic native cylinder, BRepCheck valid; not a detailed OEM material solid"
+      },
+      "mass_kg": 0.002857381849931648,
+      "center_of_mass_world_mm": [
+        -35.7851448882825,
+        60.0,
+        399.6
+      ],
+      "center_of_mass_world_m": [
+        -0.0357851448882825,
+        0.06,
+        0.3996
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          2.447229080760729e-07,
+          5.2447541451154004e-23,
+          -7.494939624595033e-22
+        ],
+        [
+          5.2447541451154004e-23,
+          2.4472279130180255e-07,
+          -3.1156531241950707e-25
+        ],
+        [
+          -7.494939624595033e-22,
+          -3.1156531241950707e-25,
+          4.889694690695538e-07
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_basis": "262g manufacturer unit mass split by the same external-functional-volume allocation used by retired190g AK40. Internal geometry/COM and rigid-body inertia remain engineering estimates, NOT measured or OEM solid-volume mass.",
+      "geometry_basis": "Official53x45.2 overall and37x1 output protrusion, same geometry as existing sourced AK45 AR representation. Filled minor threads are external fit budget only, not fake OEM holes.",
+      "effective_geometry_reference_density_kg_m3_NOT_material": 2657.5102744641986,
+      "rotor_spin_inertia_is_not_this_rigid_body_inertia": true,
+      "purchased_component_modified": false,
+      "density_kg_m3": null
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_case_009_c01",
+      "body": "torso",
+      "source_parent_occurrence": "right_hip_yaw_catalog_case",
+      "retired_native_part_index": 553,
+      "material": "COTS_AK45_10_V3_catalog_mass_geometry_equivalent_NOT_homogeneous_material",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "ac0a901e893f4b4e18086addc7cb19792a14a16b94d1be79137525ac3c1b8c7b"
+      },
+      "native_volume_mm3": 97513.30809146768,
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "positive_volume": true,
+        "self_intersection_check": "analytic native cylinder, BRepCheck valid; not a detailed OEM material solid"
+      },
+      "mass_kg": 0.2591426181500683,
+      "center_of_mass_world_mm": [
+        -35.7851448882825,
+        -60.0,
+        377.0
+      ],
+      "center_of_mass_world_m": [
+        -0.0357851448882825,
+        -0.06,
+        0.377
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          8.768501880768699e-05,
+          1.1035417626318046e-20,
+          -6.496873191062848e-20
+        ],
+        [
+          1.1035417626318046e-20,
+          8.768499707737224e-05,
+          -2.6707756235549326e-23
+        ],
+        [
+          -6.496873191062848e-20,
+          -2.6707756235549326e-23,
+          9.099145179794279e-05
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_basis": "262g manufacturer unit mass split by the same external-functional-volume allocation used by retired190g AK40. Internal geometry/COM and rigid-body inertia remain engineering estimates, NOT measured or OEM solid-volume mass.",
+      "geometry_basis": "Official53x45.2 overall and37x1 output protrusion, same geometry as existing sourced AK45 AR representation. Filled minor threads are external fit budget only, not fake OEM holes.",
+      "effective_geometry_reference_density_kg_m3_NOT_material": 2657.5102744641986,
+      "rotor_spin_inertia_is_not_this_rigid_body_inertia": true,
+      "purchased_component_modified": false,
+      "density_kg_m3": null
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_output_disc_009_c01",
+      "body": "right_yaw_input_rotor",
+      "source_parent_occurrence": "right_hip_yaw_actual_output_disc",
+      "retired_native_part_index": 941,
+      "material": "COTS_AK45_10_V3_catalog_mass_geometry_equivalent_NOT_homogeneous_material",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "858f1b047c84935164c723e33256201fdf8ff524ab7a480ccafa45cd237562c6"
+      },
+      "native_volume_mm3": 1075.2100856911068,
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "positive_volume": true,
+        "self_intersection_check": "analytic native cylinder, BRepCheck valid; not a detailed OEM material solid"
+      },
+      "mass_kg": 0.002857381849931648,
+      "center_of_mass_world_mm": [
+        -35.7851448882825,
+        -60.0,
+        399.6
+      ],
+      "center_of_mass_world_m": [
+        -0.0357851448882825,
+        -0.06,
+        0.3996
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          2.447229080760729e-07,
+          -1.0731794648782608e-22,
+          -7.494939624595033e-22
+        ],
+        [
+          -1.0731794648782608e-22,
+          2.4472279130180255e-07,
+          -4.295824762142607e-25
+        ],
+        [
+          -7.494939624595033e-22,
+          -4.295824762142607e-25,
+          4.889694690695537e-07
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mass_basis": "262g manufacturer unit mass split by the same external-functional-volume allocation used by retired190g AK40. Internal geometry/COM and rigid-body inertia remain engineering estimates, NOT measured or OEM solid-volume mass.",
+      "geometry_basis": "Official53x45.2 overall and37x1 output protrusion, same geometry as existing sourced AK45 AR representation. Filled minor threads are external fit budget only, not fake OEM holes.",
+      "effective_geometry_reference_density_kg_m3_NOT_material": 2657.5102744641986,
+      "rotor_spin_inertia_is_not_this_rigid_body_inertia": true,
+      "purchased_component_modified": false,
+      "density_kg_m3": null
+    },
+    {
+      "name": "left_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "body": "left_yaw_input_rotor",
+      "retired_name": "left_yaw_drive_oldham_FCD400_cross_slider",
+      "retired_native_index06": 901,
+      "retired_item": {
+        "name": "left_yaw_drive_oldham_FCD400_cross_slider",
+        "body": "left_yaw_input_rotor",
+        "material": "FCD400",
+        "density_kg_m3": 7100.0,
+        "role": "One-piece custom solid-centre Oldham sliding disc; not the NBK commercial rated assembly",
+        "native_part_index": 901,
+        "native_bounds_mm": [
+          [
+            -44.7851448882825,
+            51.0,
+            400.8
+          ],
+          [
+            -26.785144888282503,
+            69.0,
+            404.59999999999997
+          ]
+        ],
+        "native_volume_mm3": 396.22656158792466,
+        "mass_kg": 0.0028132085873849282,
+        "center_of_mass_world_m": [
+          -0.0357851448976752,
+          0.059999999991758604,
+          0.4026999999999992
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            5.068864754382149e-08,
+            3.055163089454819e-14,
+            -3.031790351434396e-17
+          ],
+          [
+            3.055163089454819e-14,
+            5.068875121155382e-08,
+            2.920956538260673e-17
+          ],
+          [
+            -3.031790351434396e-17,
+            2.920956538260673e-17,
+            9.785196204760584e-08
+          ]
+        ],
+        "native_strict_valid": true,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 1e-07,
+            "vertex_max_mm": 1.00000000280431e-07
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            396.22656158792466
+          ]
+        },
+        "mesh_watertight": true,
+        "mesh_winding_consistent": true,
+        "mesh_processing": {
+          "zero_area_pole_triangles_removed": 0,
+          "holes_filled": false,
+          "vertices_displaced": false
+        },
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "manufacturing_released": false,
+        "web_thickness_mm": 1.0,
+        "tongue_height_mm": 1.4,
+        "tongue_width_mm": 3.0,
+        "actual_native_concave_root_radius_mm": 0.1,
+        "root_edge_count": 10,
+        "sliding_fit_side_clearance_mm": 0.02,
+        "axial_face_clearance_mm": 0.1,
+        "groove_bottom_clearance_mm": 0.2,
+        "proposed_max_radial_misalignment_mm": 0.15,
+        "primary_material_analogy_only": "https://www.nbk1560.com/images/en/product/oldham/MOM-K/MOM-K_1.pdf",
+        "grease_and_wear_qualification_pending": true,
+        "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+        "current_bounds_from_actual_saved_native": true,
+        "adaptive_volume_integration_error": 1.5517706401880385e-15,
+        "source_mass_properties_preserved_on_unchanged_native": true,
+        "source_parent_part_index": 917
+      },
+      "source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+      },
+      "unchanged_original_source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_actual_drive_08/left_yaw_drive_oldham_FCD400_cross_slider.brep",
+        "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+      },
+      "source_bytes_exactly_equal": true,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 396.22656158789243,
+      "center_of_mass_world_m": [
+        -0.03578514488820349,
+        0.06000000000006926,
+        0.40270000000000006
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          5.568617753989398e-08,
+          -6.49947976481818e-16,
+          2.829186595035233e-19
+        ],
+        [
+          -6.49947976481818e-16,
+          5.56861753327623e-08,
+          -2.697893734290969e-19
+        ],
+        [
+          2.829186595035233e-19,
+          -2.697893734290969e-19,
+          1.074993378981669e-07
+        ]
+      ],
+      "mass_kg": 0.003090567180385561,
+      "material": "wrought_UNS_S17400_17_4PH_H900_certified_condition_required",
+      "density_kg_m3": 7800.0,
+      "signed_positive_solids": 1,
+      "native_BRepCheck_valid": true,
+      "native_unchanged_SI_result_inherited_from_retired06": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1e-07,
+          "vertex_max_mm": 1.00000000280431e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          396.22656158792466
+        ]
+      },
+      "integration_error": 9.730700415965531e-16,
+      "step": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+        "sha256": "d505304c0e49ce49cc2949007c58d7dad80bb23cb01f53cf78526cb7de5c88c1"
+      },
+      "step_readback": {
+        "solids": 1,
+        "volume_mm3": 396.226561587944,
+        "BRepCheck_valid": true
+      },
+      "actual_part_weighed_or_heat_treated": false,
+      "source_parent_occurrence": "left_yaw_drive_oldham_FCD400_cross_slider",
+      "retired_native_part_index": 901,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+      },
+      "center_of_mass_world_mm": [
+        -35.78514488820349,
+        60.000000000069264,
+        402.70000000000005
+      ]
+    },
+    {
+      "name": "right_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "body": "right_yaw_input_rotor",
+      "retired_name": "right_yaw_drive_oldham_FCD400_cross_slider",
+      "retired_native_index06": 939,
+      "retired_item": {
+        "name": "right_yaw_drive_oldham_FCD400_cross_slider",
+        "body": "right_yaw_input_rotor",
+        "material": "FCD400",
+        "density_kg_m3": 7100.0,
+        "role": "One-piece custom solid-centre Oldham sliding disc; not the NBK commercial rated assembly",
+        "native_part_index": 939,
+        "native_bounds_mm": [
+          [
+            -44.7851448882825,
+            -69.0,
+            400.8
+          ],
+          [
+            -26.785144888282503,
+            -51.0,
+            404.59999999999997
+          ]
+        ],
+        "native_volume_mm3": 396.2265615879246,
+        "mass_kg": 0.0028132085873849287,
+        "center_of_mass_world_m": [
+          -0.0357851448976752,
+          -0.06000000000824139,
+          0.40269999999999934
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            5.068864754360989e-08,
+            3.0551630902525364e-14,
+            -3.031746498793982e-17
+          ],
+          [
+            3.0551630902525364e-14,
+            5.068875121123642e-08,
+            2.9210183479336846e-17
+          ],
+          [
+            -3.031746498793982e-17,
+            2.9210183479336846e-17,
+            9.785196204760585e-08
+          ]
+        ],
+        "native_strict_valid": true,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 1e-07,
+            "vertex_max_mm": 1.00000000280431e-07
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            396.2265615879246
+          ]
+        },
+        "mesh_watertight": true,
+        "mesh_winding_consistent": true,
+        "mesh_processing": {
+          "zero_area_pole_triangles_removed": 0,
+          "holes_filled": false,
+          "vertices_displaced": false
+        },
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "manufacturing_released": false,
+        "web_thickness_mm": 1.0,
+        "tongue_height_mm": 1.4,
+        "tongue_width_mm": 3.0,
+        "actual_native_concave_root_radius_mm": 0.1,
+        "root_edge_count": 10,
+        "sliding_fit_side_clearance_mm": 0.02,
+        "axial_face_clearance_mm": 0.1,
+        "groove_bottom_clearance_mm": 0.2,
+        "proposed_max_radial_misalignment_mm": 0.15,
+        "primary_material_analogy_only": "https://www.nbk1560.com/images/en/product/oldham/MOM-K/MOM-K_1.pdf",
+        "grease_and_wear_qualification_pending": true,
+        "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+        "current_bounds_from_actual_saved_native": true,
+        "adaptive_volume_integration_error": 1.241416512150431e-15,
+        "source_mass_properties_preserved_on_unchanged_native": true,
+        "source_parent_part_index": 955
+      },
+      "source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+      },
+      "unchanged_original_source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_actual_drive_08/right_yaw_drive_oldham_FCD400_cross_slider.brep",
+        "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+      },
+      "source_bytes_exactly_equal": true,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 396.22656158789243,
+      "center_of_mass_world_m": [
+        -0.03578514488820349,
+        -0.059999999999930734,
+        0.40270000000000006
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          5.568617753989398e-08,
+          -6.499479835897324e-16,
+          2.795286596493617e-19
+        ],
+        [
+          -6.499479835897324e-16,
+          5.5686175332587956e-08,
+          -2.712588005684986e-19
+        ],
+        [
+          2.795286596493617e-19,
+          -2.712588005684986e-19,
+          1.0749933789816694e-07
+        ]
+      ],
+      "mass_kg": 0.003090567180385561,
+      "material": "wrought_UNS_S17400_17_4PH_H900_certified_condition_required",
+      "density_kg_m3": 7800.0,
+      "signed_positive_solids": 1,
+      "native_BRepCheck_valid": true,
+      "native_unchanged_SI_result_inherited_from_retired06": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1e-07,
+          "vertex_max_mm": 1.00000000280431e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          396.2265615879246
+        ]
+      },
+      "integration_error": 6.307841092408223e-16,
+      "step": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+        "sha256": "b8a54aba7b80e9dcaead7656b890192adbd368070b5683a18f95cfecd389fd1b"
+      },
+      "step_readback": {
+        "solids": 1,
+        "volume_mm3": 396.22656158794405,
+        "BRepCheck_valid": true
+      },
+      "actual_part_weighed_or_heat_treated": false,
+      "source_parent_occurrence": "right_yaw_drive_oldham_FCD400_cross_slider",
+      "retired_native_part_index": 939,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+      },
+      "center_of_mass_world_mm": [
+        -35.78514488820349,
+        -59.999999999930736,
+        402.70000000000005
+      ]
+    }
+  ],
+  "retired_occurrences": [
+    {
+      "name": "left_hip_yaw_catalog_case",
+      "body": "torso",
+      "index": 549,
+      "mass_kg": 0.18766679404171802
+    },
+    {
+      "name": "left_hip_yaw_actual_output_disc",
+      "body": "left_yaw_input_rotor",
+      "index": 903,
+      "mass_kg": 0.002333205958281977
+    },
+    {
+      "name": "right_hip_yaw_catalog_case",
+      "body": "torso",
+      "index": 553,
+      "mass_kg": 0.18766679404171802
+    },
+    {
+      "name": "right_hip_yaw_actual_output_disc",
+      "body": "right_yaw_input_rotor",
+      "index": 941,
+      "mass_kg": 0.002333205958281977
+    },
+    {
+      "name": "left_yaw_drive_oldham_FCD400_cross_slider",
+      "body": "left_yaw_input_rotor",
+      "index": 901,
+      "mass_kg": 0.0028132085873849282
+    },
+    {
+      "name": "right_yaw_drive_oldham_FCD400_cross_slider",
+      "body": "right_yaw_input_rotor",
+      "index": 939,
+      "mass_kg": 0.0028132085873849287
+    }
+  ],
+  "drive_changes": [
+    {
+      "axis": "left_hip_yaw",
+      "actuated_joint": "left_yaw_input_rotor",
+      "public_axis_position_and_direction_changed": false,
+      "public_neutral_changed": false,
+      "equalities_belt_ratio_changed": false,
+      "old_model": "AK40-10 V3 KV170",
+      "new_model": "AK45-10 V3 KV75",
+      "old_continuous_cap_Nm": 1.04,
+      "manufacturer24V_rated_Nm": 2.5,
+      "manufacturer24V_rated_speed_rpm": 120,
+      "manufacturer24V_noload_rpm": 180,
+      "reference_voltage_V": 24.0,
+      "design_bus_V": 22.2,
+      "speed_voltage_factor": 0.9249999999999999,
+      "selected_speed_limit_at24_rad_s": 12.56637061435917,
+      "engineering_selected_speed_at22p2_rad_s": 11.623892818282231,
+      "manufacturer24V_curve_points_rad_s_Nm": [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0.0
+        ]
+      ],
+      "curve_status": "Existing project conservative chord interpolation using manufacturer24V workpoint/no-load;22.2V speeds scaled by22.2/24 engineering assumption, NOT measured/official22.2V curve. Low-speed torque remains clipped2Nm; no48V data.",
+      "peak_enabled": false,
+      "aggregate_positive_power_limit_W": 350,
+      "manufacturer_rotor_inertia_g_cm2": 157.33,
+      "rotor_inertia_kg_m2": 1.5733e-05,
+      "internal_reduction": 10,
+      "input_joint_reflected_armature_kg_m2": 0.0015733,
+      "old_input_joint_armature_kg_m2": 0.0009735,
+      "armature_placement": "Actual yaw_input_rotor only; public logical yaw remains0 and identity belt equality retained. Do not double reflect at logical yaw.",
+      "manufacturer_backdrive_Nm": 0.1,
+      "suggested_existing_AK45_design_frictionloss_Nm": 0.05,
+      "friction_basis": "Same source-proxy as existing AK45 ankle roll, half catalog backdrive; NOT measured Coulomb coefficient. Current AK40 drive .03 proxy retired.",
+      "damping_Nm_s_rad": 0.01,
+      "damping_basis": "Existing same-series engineering assumption retained, not vendor measurement.",
+      "PD_gains_changed": false,
+      "timing_changed": false,
+      "motor_selected_continuous_cap_Nm": 2.0,
+      "owner_chain_continuous_cap_Nm": 1.8,
+      "final_selected_continuous_cap_Nm": 1.8,
+      "selected_peak_design_limit_Nm": 1.8,
+      "public_torque_peak_limit_Nm": 1.8,
+      "all_actual_execution_modes_chain_hard_cap_Nm": 1.8,
+      "limit_semantics": "Motor manufacturer24V rated2.5Nm and existing80% design motor cap2.0Nm remain separate; Owner chain cap1.8Nm applied as min, not as invented72% manufacturer curve.",
+      "continuous_torque_envelope": "min(1.8Nm chain cap,2.0Nm selected motor cap, AK45 manufacturer24V chord curve with engineering22.2/24 speed scaling); source selected speed limit11.623892818282236rad/s; no peak, no48V credit."
+    },
+    {
+      "axis": "right_hip_yaw",
+      "actuated_joint": "right_yaw_input_rotor",
+      "public_axis_position_and_direction_changed": false,
+      "public_neutral_changed": false,
+      "equalities_belt_ratio_changed": false,
+      "old_model": "AK40-10 V3 KV170",
+      "new_model": "AK45-10 V3 KV75",
+      "old_continuous_cap_Nm": 1.04,
+      "manufacturer24V_rated_Nm": 2.5,
+      "manufacturer24V_rated_speed_rpm": 120,
+      "manufacturer24V_noload_rpm": 180,
+      "reference_voltage_V": 24.0,
+      "design_bus_V": 22.2,
+      "speed_voltage_factor": 0.9249999999999999,
+      "selected_speed_limit_at24_rad_s": 12.56637061435917,
+      "engineering_selected_speed_at22p2_rad_s": 11.623892818282231,
+      "manufacturer24V_curve_points_rad_s_Nm": [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          12.56637061435917,
+          2.5
+        ],
+        [
+          18.84955592153876,
+          0.0
+        ]
+      ],
+      "curve_status": "Existing project conservative chord interpolation using manufacturer24V workpoint/no-load;22.2V speeds scaled by22.2/24 engineering assumption, NOT measured/official22.2V curve. Low-speed torque remains clipped2Nm; no48V data.",
+      "peak_enabled": false,
+      "aggregate_positive_power_limit_W": 350,
+      "manufacturer_rotor_inertia_g_cm2": 157.33,
+      "rotor_inertia_kg_m2": 1.5733e-05,
+      "internal_reduction": 10,
+      "input_joint_reflected_armature_kg_m2": 0.0015733,
+      "old_input_joint_armature_kg_m2": 0.0009735,
+      "armature_placement": "Actual yaw_input_rotor only; public logical yaw remains0 and identity belt equality retained. Do not double reflect at logical yaw.",
+      "manufacturer_backdrive_Nm": 0.1,
+      "suggested_existing_AK45_design_frictionloss_Nm": 0.05,
+      "friction_basis": "Same source-proxy as existing AK45 ankle roll, half catalog backdrive; NOT measured Coulomb coefficient. Current AK40 drive .03 proxy retired.",
+      "damping_Nm_s_rad": 0.01,
+      "damping_basis": "Existing same-series engineering assumption retained, not vendor measurement.",
+      "PD_gains_changed": false,
+      "timing_changed": false,
+      "motor_selected_continuous_cap_Nm": 2.0,
+      "owner_chain_continuous_cap_Nm": 1.8,
+      "final_selected_continuous_cap_Nm": 1.8,
+      "selected_peak_design_limit_Nm": 1.8,
+      "public_torque_peak_limit_Nm": 1.8,
+      "all_actual_execution_modes_chain_hard_cap_Nm": 1.8,
+      "limit_semantics": "Motor manufacturer24V rated2.5Nm and existing80% design motor cap2.0Nm remain separate; Owner chain cap1.8Nm applied as min, not as invented72% manufacturer curve.",
+      "continuous_torque_envelope": "min(1.8Nm chain cap,2.0Nm selected motor cap, AK45 manufacturer24V chord curve with engineering22.2/24 speed scaling); source selected speed limit11.623892818282236rad/s; no peak, no48V credit."
+    }
+  ],
+  "mass_delta_kg": 0.14455471718600124,
+  "Owner_chain_hard_cap_all_modes_Nm": 1.8,
+  "peak_enabled": false,
+  "public_axes_PD_timing_350W_voltage28contacts_unchanged": true,
+  "COTS_MCI_grade": "Supplier262g total and explicit external-volume allocation; estimated COM/fullI, not internal OEM solid or measured material density. Reflected rotor inertia is separate once at actual input coordinate.",
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_08_source.py",
+    "sha256": "4223c916956e264948452a387b1b1d11250f2c89fcb7c2aa52424c8894625444",
+    "bytes": 9857
+  },
+  "mj_step_calls": 0,
+  "native_generation_source_snapshot_before_display_fix": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/original_source_script.py",
+    "sha256": "7f30b45f9ea43c40daef0c152ec13e56337471e5f5a2c20f9389d8fd5ba1a07a",
+    "bytes": 9831
+  },
+  "display_export_correction": "Compoundwrappedchild export,angular.05/linear.02mm; source BREP/MCI/axes unchanged. FailedsingleShapeGLTF andwrongdisplay archived."
+}

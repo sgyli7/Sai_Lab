@@ -1,0 +1,82 @@
+[
+  {
+    "time": 6.260000000000425,
+    "motion": 0.4600000000001536,
+    "swing": null,
+    "blend": 0.9954747392000498,
+    "unload_target_N": 80.76676876470225,
+    "unload_weight": 0.0,
+    "raw_LP_predicted_N": 86.38852868377798,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.280000000000432,
+    "motion": 0.4800000000001603,
+    "swing": null,
+    "blend": 0.9993977856000127,
+    "unload_target_N": 77.45964660147743,
+    "unload_weight": 0.0,
+    "raw_LP_predicted_N": 78.50781961626717,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.300000000000439,
+    "motion": 0.500000000000167,
+    "swing": null,
+    "blend": 1.0,
+    "unload_target_N": 79.5311091778396,
+    "unload_weight": 0.0,
+    "raw_LP_predicted_N": 76.3713740530869,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.360000000000459,
+    "motion": 0.560000000000187,
+    "swing": null,
+    "blend": 1.0,
+    "unload_target_N": 78.82732743840307,
+    "unload_weight": 0.0,
+    "raw_LP_predicted_N": 39.10857153545892,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.440000000000485,
+    "motion": 0.6400000000002137,
+    "swing": null,
+    "blend": 1.0,
+    "unload_target_N": 83.84753820003607,
+    "unload_weight": 0.0,
+    "raw_LP_predicted_N": 80.66094641295561,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.560000000000525,
+    "motion": 0.7600000000002538,
+    "swing": "left",
+    "blend": 1.0,
+    "unload_target_N": 80.79083317501548,
+    "unload_weight": 1.7694936980814404,
+    "raw_LP_predicted_N": 64.35333968754864,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.640000000000552,
+    "motion": 0.8400000000002805,
+    "swing": "left",
+    "blend": 1.0,
+    "unload_target_N": 0.0,
+    "unload_weight": 100.0,
+    "raw_LP_predicted_N": 21.740209010226124,
+    "actual_LP_success": true
+  },
+  {
+    "time": 6.720000000000579,
+    "motion": 0.9200000000003072,
+    "swing": "left",
+    "blend": 1.0,
+    "unload_target_N": 0.0,
+    "unload_weight": 100.0,
+    "raw_LP_predicted_N": 0.0,
+    "actual_LP_success": true
+  }
+]

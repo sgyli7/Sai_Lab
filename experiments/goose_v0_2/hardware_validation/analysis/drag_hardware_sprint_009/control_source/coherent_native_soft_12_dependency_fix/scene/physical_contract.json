@@ -1,0 +1,3998 @@
+{
+  "joints": [
+    {
+      "name": "neck_yaw",
+      "parent": "torso",
+      "pivot_world_at_zero_m": [
+        0.029449999999999997,
+        0.0,
+        0.37430499999999994
+      ],
+      "axis_parent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "range_rad": [
+        -0.5,
+        0.5
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.5,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 2.0,
+      "continuous_design_limit_nm": 1.04,
+      "speed_limit_rad_s": 38.746309394274114,
+      "armature_kg_m2": 0.0009734999999999999,
+      "frictionloss_nm": 0.03,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak40_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "neck_pitch",
+      "parent": "neck_yaw",
+      "pivot_world_at_zero_m": [
+        0.029449999999999997,
+        0.0,
+        0.4403049999999999
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.6,
+        2.6
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 2.6,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "neck_mid_pitch",
+      "parent": "neck_pitch",
+      "pivot_world_at_zero_m": [
+        -0.043550000000000005,
+        0.0,
+        0.544305
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.4,
+        1.4
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.4,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "head_pitch",
+      "parent": "neck_mid_pitch",
+      "pivot_world_at_zero_m": [
+        0.028449999999999996,
+        0.0,
+        0.637305
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.6,
+        1.6
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.6,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 4.0,
+      "continuous_design_limit_nm": 2.0,
+      "speed_limit_rad_s": 12.56637061435917,
+      "armature_kg_m2": 0.0015733,
+      "frictionloss_nm": 0.05,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "head_roll",
+      "parent": "head_pitch",
+      "pivot_world_at_zero_m": [
+        0.06744999999999998,
+        0.0,
+        0.617805
+      ],
+      "axis_parent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.6,
+        0.6
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.6,
+      "kp_nm_rad": 2.0,
+      "kd_nm_s_rad": 0.025,
+      "torque_peak_limit_nm": 0.18,
+      "continuous_design_limit_nm": 0.14,
+      "speed_limit_rad_s": 3.0,
+      "armature_kg_m2": 2e-05,
+      "frictionloss_nm": 0.036,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "xc330_m288_t",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "beak_hinge",
+      "parent": "head_roll",
+      "pivot_world_at_zero_m": [
+        0.14645,
+        0.0,
+        0.6083050000000001
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        0.0,
+        0.55
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.55,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.15,
+      "torque_peak_limit_nm": 4.5,
+      "continuous_design_limit_nm": 4.4,
+      "speed_limit_rad_s": 1.0,
+      "armature_kg_m2": 0.0,
+      "frictionloss_nm": 0.0,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3_parallel_crank_1_to_1",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified",
+      "actuation_joint": "beak_input_rotor"
+    },
+    {
+      "name": "right_hip_yaw",
+      "parent": "torso",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        -0.08,
+        0.361675
+      ],
+      "axis_parent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "range_rad": [
+        -0.6,
+        0.6
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.6,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 1.8,
+      "continuous_design_limit_nm": 1.8,
+      "speed_limit_rad_s": 12.56637061435917,
+      "armature_kg_m2": 0.0,
+      "frictionloss_nm": 0.0,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified",
+      "actual_motor_electrical_angle_sign": -1.0,
+      "actuation_joint": "right_yaw_input_rotor",
+      "manufacturer_rated_torque_nm": 2.5,
+      "motor_selected_continuous_limit_nm": 2.0,
+      "chain_hard_limit_all_modes_nm": 1.8,
+      "source_upgrade_packet": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/integration_handoff.json",
+        "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+        "bytes": 67895
+      }
+    },
+    {
+      "name": "right_hip_roll",
+      "parent": "right_hip_yaw",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        -0.048,
+        0.3
+      ],
+      "axis_parent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.5,
+        0.5
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.5,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified",
+      "actual_motor_electrical_angle_sign": -1.0
+    },
+    {
+      "name": "right_hip_pitch",
+      "parent": "right_hip_roll",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        -0.125,
+        0.3306454814052301
+      ],
+      "axis_parent": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.1,
+        1.1
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.1,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "right_knee_pitch",
+      "parent": "right_hip_pitch",
+      "pivot_world_at_zero_m": [
+        -0.017174829893573926,
+        -0.125,
+        0.22632476182851138
+      ],
+      "axis_parent": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.2,
+        1.8
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.8,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "right_ankle_pitch",
+      "parent": "right_knee_pitch",
+      "pivot_world_at_zero_m": [
+        0.009576627833366786,
+        -0.125,
+        0.09100664866719005
+      ],
+      "axis_parent": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.1,
+        1.1
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.1,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "right_ankle_roll",
+      "parent": "right_ankle_pitch",
+      "pivot_world_at_zero_m": [
+        0.07014999999999999,
+        -0.125,
+        0.040655
+      ],
+      "axis_parent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.5,
+        0.5
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.5,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 4.0,
+      "continuous_design_limit_nm": 2.0,
+      "speed_limit_rad_s": 12.56637061435917,
+      "armature_kg_m2": 0.0015733,
+      "frictionloss_nm": 0.05,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "left_hip_yaw",
+      "parent": "torso",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        0.08,
+        0.361675
+      ],
+      "axis_parent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "range_rad": [
+        -0.6,
+        0.6
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.6,
+      "kp_nm_rad": 12.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 1.8,
+      "continuous_design_limit_nm": 1.8,
+      "speed_limit_rad_s": 12.56637061435917,
+      "armature_kg_m2": 0.0,
+      "frictionloss_nm": 0.0,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified",
+      "actual_motor_electrical_angle_sign": -1.0,
+      "actuation_joint": "left_yaw_input_rotor",
+      "manufacturer_rated_torque_nm": 2.5,
+      "motor_selected_continuous_limit_nm": 2.0,
+      "chain_hard_limit_all_modes_nm": 1.8,
+      "source_upgrade_packet": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/hip_yaw_oldham_steel_009/c01/integration_handoff.json",
+        "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+        "bytes": 67895
+      }
+    },
+    {
+      "name": "left_hip_roll",
+      "parent": "left_hip_yaw",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        0.048,
+        0.3
+      ],
+      "axis_parent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.5,
+        0.5
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.5,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified",
+      "actual_motor_electrical_angle_sign": -1.0
+    },
+    {
+      "name": "left_hip_pitch",
+      "parent": "left_hip_roll",
+      "pivot_world_at_zero_m": [
+        0.01275607470908649,
+        0.125,
+        0.3306454814052301
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.1,
+        1.1
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.1,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "left_knee_pitch",
+      "parent": "left_hip_pitch",
+      "pivot_world_at_zero_m": [
+        -0.017174829893573926,
+        0.125,
+        0.22632476182851138
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.8,
+        0.2
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.8,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "left_ankle_pitch",
+      "parent": "left_knee_pitch",
+      "pivot_world_at_zero_m": [
+        0.009576627833366786,
+        0.125,
+        0.09100664866719005
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -1.1,
+        1.1
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 1.1,
+      "kp_nm_rad": 100.0,
+      "kd_nm_s_rad": 0.875,
+      "torque_peak_limit_nm": 12.0,
+      "continuous_design_limit_nm": 6.4,
+      "speed_limit_rad_s": 4.1887902047863905,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.4,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_36_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    },
+    {
+      "name": "left_ankle_roll",
+      "parent": "left_ankle_pitch",
+      "pivot_world_at_zero_m": [
+        0.07014999999999999,
+        0.125,
+        0.040655
+      ],
+      "axis_parent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.5,
+        0.5
+      ],
+      "q_neutral_rad": 0.0,
+      "action_scale_rad": 0.5,
+      "kp_nm_rad": 20.0,
+      "kd_nm_s_rad": 0.175,
+      "torque_peak_limit_nm": 4.0,
+      "continuous_design_limit_nm": 2.0,
+      "speed_limit_rad_s": 12.56637061435917,
+      "armature_kg_m2": 0.0015733,
+      "frictionloss_nm": 0.05,
+      "damping_nm_s_rad": 0.01,
+      "actuator": "ak45_10_v3",
+      "limits_status": "source design range retained; continuous current hardware sweep not qualified"
+    }
+  ],
+  "passive_linkage_joints": [
+    {
+      "name": "beak_input_rotor",
+      "parent": "head_roll",
+      "pivot_world_at_zero_m": [
+        0.11544999999999998,
+        0.0,
+        0.633305
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        0.0,
+        0.55
+      ],
+      "mimic_joint": "beak_hinge",
+      "mimic_multiplier": 1.0,
+      "mimic_offset_rad": 0.0,
+      "armature_kg_m2": 0.02357424,
+      "frictionloss_nm": 0.08
+    },
+    {
+      "name": "beak_coupler_link",
+      "parent": "beak_input_rotor",
+      "pivot_world_at_zero_m": [
+        0.10944999999999998,
+        0.0,
+        0.6229126951545867
+      ],
+      "axis_parent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "range_rad": [
+        -0.55,
+        0.0
+      ],
+      "mimic_joint": "beak_hinge",
+      "mimic_multiplier": -1.0,
+      "mimic_offset_rad": 0.0,
+      "physical_angular_stop": false,
+      "range_rad_is_nominal_linkage_branch_not_separate_hard_stop": true
+    },
+    {
+      "name": "left_yaw_input_rotor",
+      "parent": "torso",
+      "pivot_world_at_zero_m": [
+        -0.03578514488828251,
+        0.06,
+        0.38
+      ],
+      "axis_parent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "range_rad": [
+        -0.6,
+        0.6
+      ],
+      "mimic_joint": "left_hip_yaw",
+      "mimic_multiplier": 1.0,
+      "mimic_offset_rad": 0.0,
+      "armature_kg_m2": 0.0015733,
+      "frictionloss_nm": 0.05,
+      "basis": "Open20T/20T belt: same signed globalZ angle about actual physical input axis; helper rigid body adds no actuatorDOF.",
+      "armature_basis": "Vendorrotor157.33gcm2*10^2=0.0015733SI,onceatinput; bodyCADfullIindependent",
+      "frictionloss_basis": "ExistingAK45proxyhalf0.1Nmbackdrive,notmeasuredCoulomb"
+    },
+    {
+      "name": "right_yaw_input_rotor",
+      "parent": "torso",
+      "pivot_world_at_zero_m": [
+        -0.03578514488828251,
+        -0.06,
+        0.38
+      ],
+      "axis_parent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "range_rad": [
+        -0.6,
+        0.6
+      ],
+      "mimic_joint": "right_hip_yaw",
+      "mimic_multiplier": 1.0,
+      "mimic_offset_rad": 0.0,
+      "armature_kg_m2": 0.0015733,
+      "frictionloss_nm": 0.05,
+      "basis": "Open20T/20T belt: same signed globalZ angle about actual physical input axis; helper rigid body adds no actuatorDOF.",
+      "armature_basis": "Vendorrotor157.33gcm2*10^2=0.0015733SI,onceatinput; bodyCADfullIindependent",
+      "frictionloss_basis": "ExistingAK45proxyhalf0.1Nmbackdrive,notmeasuredCoulomb"
+    }
+  ],
+  "bodies": [
+    {
+      "name": "torso",
+      "mass_kg": 5.623838170175933,
+      "centre_world_zero_m": [
+        -0.054785952097222486,
+        0.00045243333367835916,
+        0.3618953046164917
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.02418862790171912,
+          -0.0002488500562413105,
+          0.002061154154903251
+        ],
+        [
+          -0.0002488500562413105,
+          0.043778973271853566,
+          -0.0001235292155714878
+        ],
+        [
+          0.002061154154903251,
+          -0.0001235292155714878,
+          0.04400550178376774
+        ]
+      ],
+      "item_count": 934,
+      "origin_world_zero_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "com_local_m": [
+        -0.054785952097222486,
+        0.00045243333367835916,
+        0.3618953046164917
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.02418862790171912,
+          -0.0002488500562413105,
+          0.002061154154903251
+        ],
+        [
+          -0.0002488500562413105,
+          0.043778973271853566,
+          -0.0001235292155714878
+        ],
+        [
+          0.002061154154903251,
+          -0.0001235292155714878,
+          0.04400550178376774
+        ]
+      ],
+      "source_mass_items": [
+        "neck_yaw_catalog_case",
+        "neck_yaw_rear_frame_plate",
+        "neck_frame_spacer_0",
+        "neck_frame_spacer_1",
+        "neck_frame_spacer_2",
+        "neck_frame_spacer_3",
+        "neck_standoff_0_screw_m3x22",
+        "neck_standoff_0_upper_washer_m3",
+        "neck_standoff_0_lower_washer_m3",
+        "neck_standoff_0_nyloc_m3",
+        "neck_standoff_1_screw_m3x22",
+        "neck_standoff_1_upper_washer_m3",
+        "neck_standoff_1_lower_washer_m3",
+        "neck_standoff_1_nyloc_m3",
+        "neck_standoff_2_screw_m3x22",
+        "neck_standoff_2_upper_washer_m3",
+        "neck_standoff_2_lower_washer_m3",
+        "neck_standoff_2_nyloc_m3",
+        "neck_standoff_3_screw_m3x22",
+        "neck_standoff_3_upper_washer_m3",
+        "neck_standoff_3_lower_washer_m3",
+        "neck_standoff_3_nyloc_m3",
+        "torso_main_load_plate",
+        "front_shell_frame_0_screw",
+        "front_shell_frame_0_nut",
+        "front_shell_frame_1_screw",
+        "front_shell_frame_1_nut",
+        "front_shell_frame_2_screw",
+        "front_shell_frame_2_nut",
+        "front_shell_frame_3_screw",
+        "front_shell_frame_3_nut",
+        "rear_cap_radial_0_screw",
+        "rear_cap_radial_0_nut",
+        "rear_cap_radial_1_screw",
+        "rear_cap_radial_1_nut",
+        "rear_cap_radial_2_screw",
+        "rear_cap_radial_2_nut",
+        "rear_cap_radial_3_screw",
+        "rear_cap_radial_3_nut",
+        "new_independent_yaw_main_bearing_C45_bridge",
+        "left_main_yaw_SKF3202_A_2RS1TN9_MT33",
+        "left_main_yaw_threaded_outer_race_cap",
+        "right_main_yaw_SKF3202_A_2RS1TN9_MT33",
+        "right_main_yaw_threaded_outer_race_cap",
+        "yaw_main_bridge_frame_M4_0_screw",
+        "yaw_main_bridge_frame_M4_0_washer",
+        "yaw_main_bridge_frame_M4_0_nut",
+        "yaw_main_bridge_frame_M4_1_screw",
+        "yaw_main_bridge_frame_M4_1_washer",
+        "yaw_main_bridge_frame_M4_1_nut",
+        "yaw_main_bridge_frame_M4_2_screw",
+        "yaw_main_bridge_frame_M4_2_washer",
+        "yaw_main_bridge_frame_M4_2_nut",
+        "yaw_main_bridge_frame_M4_3_screw",
+        "yaw_main_bridge_frame_M4_3_washer",
+        "yaw_main_bridge_frame_M4_3_nut",
+        "left_yaw_drive_stator_M2p5_0",
+        "left_yaw_drive_stator_M2p5_1",
+        "left_yaw_drive_stator_M2p5_2",
+        "left_yaw_drive_independent_bearing_motor_carrier_C45",
+        "left_yaw_drive_SKF61901_2RS1_0",
+        "left_yaw_drive_SKF61901_2RS1_1",
+        "left_yaw_drive_lower_outer_thread_cap",
+        "left_yaw_drive_upper_outer_thread_cap",
+        "left_yaw_drive_Gates_165_3MGT_09_belt",
+        "left_yaw_drive_carrier_frame_M3_0",
+        "left_yaw_drive_carrier_frame_M3_0_washer",
+        "left_yaw_drive_carrier_frame_M3_1",
+        "left_yaw_drive_carrier_frame_M3_1_washer",
+        "left_yaw_drive_tension_jack_M3x16",
+        "left_yaw_drive_tension_jack_jamnut",
+        "left_yaw_drive_tension_jack_washer",
+        "right_yaw_drive_stator_M2p5_0",
+        "right_yaw_drive_stator_M2p5_1",
+        "right_yaw_drive_stator_M2p5_2",
+        "right_yaw_drive_independent_bearing_motor_carrier_C45",
+        "right_yaw_drive_SKF61901_2RS1_0",
+        "right_yaw_drive_SKF61901_2RS1_1",
+        "right_yaw_drive_lower_outer_thread_cap",
+        "right_yaw_drive_upper_outer_thread_cap",
+        "right_yaw_drive_Gates_165_3MGT_09_belt",
+        "right_yaw_drive_carrier_frame_M3_0",
+        "right_yaw_drive_carrier_frame_M3_0_washer",
+        "right_yaw_drive_carrier_frame_M3_1",
+        "right_yaw_drive_carrier_frame_M3_1_washer",
+        "right_yaw_drive_tension_jack_M3x16",
+        "right_yaw_drive_tension_jack_jamnut",
+        "right_yaw_drive_tension_jack_washer",
+        "cassette_root_M3_0_screw",
+        "cassette_root_M3_0_washer",
+        "cassette_root_M3_1_screw",
+        "cassette_root_M3_1_washer",
+        "cassette_root_M3_2_screw",
+        "cassette_root_M3_2_washer",
+        "cassette_root_M3_3_screw",
+        "cassette_root_M3_3_washer",
+        "rear_cap_upper_balance_and_meter_curved_service_lid",
+        "rear_cap_lower_power_isolation_curved_service_lid",
+        "rear_cap_upper_balance_and_meter_M2_0_screw",
+        "rear_cap_upper_balance_and_meter_M2_0_washer",
+        "rear_cap_upper_balance_and_meter_M2_0_nut",
+        "rear_cap_upper_balance_and_meter_M2_1_screw",
+        "rear_cap_upper_balance_and_meter_M2_1_washer",
+        "rear_cap_upper_balance_and_meter_M2_1_nut",
+        "rear_cap_lower_power_isolation_M2_0_screw",
+        "rear_cap_lower_power_isolation_M2_0_washer",
+        "rear_cap_lower_power_isolation_M2_0_nut",
+        "rear_cap_lower_power_isolation_M2_1_screw",
+        "rear_cap_lower_power_isolation_M2_1_washer",
+        "rear_cap_lower_power_isolation_M2_1_nut",
+        "brake_rd_0_0",
+        "brake_rd_0_1",
+        "brake_rd_0_2",
+        "brake_rd_0_3",
+        "brake_rd_1_0",
+        "brake_rd_1_1",
+        "brake_rd_1_2",
+        "brake_rd_1_3",
+        "brake_thermal_plate",
+        "brake_compact_lower_rail",
+        "brake_compact_upper_rail",
+        "brake_compact_left_rail",
+        "brake_compact_right_rail",
+        "domain_retained/left_leg_power_domain_pcb_profile",
+        "domain_retained/left_leg_power_domain_holder_01",
+        "domain_retained/left_leg_power_domain_fuse_01_body_maximum",
+        "domain_retained/left_leg_power_domain_holder_02",
+        "domain_retained/left_leg_power_domain_fuse_02_body_maximum",
+        "domain_retained/left_leg_power_domain_holder_03",
+        "domain_retained/left_leg_power_domain_fuse_03_body_maximum",
+        "domain_retained/left_leg_power_domain_holder_04",
+        "domain_retained/left_leg_power_domain_fuse_04_body_maximum",
+        "domain_retained/left_leg_power_domain_holder_05",
+        "domain_retained/left_leg_power_domain_fuse_05_body_maximum",
+        "domain_retained/left_leg_power_domain_holder_06",
+        "domain_retained/left_leg_power_domain_fuse_06_body_maximum",
+        "domain_retained/left_leg_power_domain_positive_copper_bus",
+        "domain_retained/left_leg_power_domain_return_copper_bus",
+        "domain_retained/left_leg_power_domain_lower_insulating_standoff_-24_-16",
+        "domain_retained/left_leg_power_domain_upper_insulating_standoff_-24_-16",
+        "domain_retained/left_leg_power_domain_lower_insulating_standoff_-24_16",
+        "domain_retained/left_leg_power_domain_upper_insulating_standoff_-24_16",
+        "domain_retained/left_leg_power_domain_lower_insulating_standoff_24_-16",
+        "domain_retained/left_leg_power_domain_upper_insulating_standoff_24_-16",
+        "domain_retained/left_leg_power_domain_lower_insulating_standoff_24_16",
+        "domain_retained/left_leg_power_domain_upper_insulating_standoff_24_16",
+        "domain_retained/left_leg_power_domain_mounting_base",
+        "domain_retained/left_leg_power_domain_touch_guard",
+        "domain_mount_budget/left_leg_power_domain",
+        "domain_retained/right_leg_power_domain_pcb_profile",
+        "domain_retained/right_leg_power_domain_holder_01",
+        "domain_retained/right_leg_power_domain_fuse_01_body_maximum",
+        "domain_retained/right_leg_power_domain_holder_02",
+        "domain_retained/right_leg_power_domain_fuse_02_body_maximum",
+        "domain_retained/right_leg_power_domain_holder_03",
+        "domain_retained/right_leg_power_domain_fuse_03_body_maximum",
+        "domain_retained/right_leg_power_domain_holder_04",
+        "domain_retained/right_leg_power_domain_fuse_04_body_maximum",
+        "domain_retained/right_leg_power_domain_holder_05",
+        "domain_retained/right_leg_power_domain_fuse_05_body_maximum",
+        "domain_retained/right_leg_power_domain_holder_06",
+        "domain_retained/right_leg_power_domain_fuse_06_body_maximum",
+        "domain_retained/right_leg_power_domain_positive_copper_bus",
+        "domain_retained/right_leg_power_domain_return_copper_bus",
+        "domain_retained/right_leg_power_domain_lower_insulating_standoff_-24_-16",
+        "domain_retained/right_leg_power_domain_upper_insulating_standoff_-24_-16",
+        "domain_retained/right_leg_power_domain_lower_insulating_standoff_-24_16",
+        "domain_retained/right_leg_power_domain_upper_insulating_standoff_-24_16",
+        "domain_retained/right_leg_power_domain_lower_insulating_standoff_24_-16",
+        "domain_retained/right_leg_power_domain_upper_insulating_standoff_24_-16",
+        "domain_retained/right_leg_power_domain_lower_insulating_standoff_24_16",
+        "domain_retained/right_leg_power_domain_upper_insulating_standoff_24_16",
+        "domain_retained/right_leg_power_domain_mounting_base",
+        "domain_retained/right_leg_power_domain_touch_guard",
+        "domain_mount_budget/right_leg_power_domain",
+        "domain_retained/neck_power_domain_pcb_profile",
+        "domain_retained/neck_power_domain_holder_01",
+        "domain_retained/neck_power_domain_fuse_01_body_maximum",
+        "domain_retained/neck_power_domain_holder_02",
+        "domain_retained/neck_power_domain_fuse_02_body_maximum",
+        "domain_retained/neck_power_domain_holder_03",
+        "domain_retained/neck_power_domain_fuse_03_body_maximum",
+        "domain_retained/neck_power_domain_holder_04",
+        "domain_retained/neck_power_domain_fuse_04_body_maximum",
+        "domain_retained/neck_power_domain_holder_05",
+        "domain_retained/neck_power_domain_fuse_05_body_maximum",
+        "domain_retained/neck_power_domain_positive_copper_bus",
+        "domain_retained/neck_power_domain_return_copper_bus",
+        "domain_retained/neck_power_domain_lower_insulating_standoff_-24_-16",
+        "domain_retained/neck_power_domain_upper_insulating_standoff_-24_-16",
+        "domain_retained/neck_power_domain_lower_insulating_standoff_-24_16",
+        "domain_retained/neck_power_domain_upper_insulating_standoff_-24_16",
+        "domain_retained/neck_power_domain_lower_insulating_standoff_24_-16",
+        "domain_retained/neck_power_domain_upper_insulating_standoff_24_-16",
+        "domain_retained/neck_power_domain_lower_insulating_standoff_24_16",
+        "domain_retained/neck_power_domain_upper_insulating_standoff_24_16",
+        "domain_retained/neck_power_domain_mounting_base",
+        "domain_retained/neck_power_domain_touch_guard",
+        "domain_mount_budget/neck_power_domain",
+        "installation/speaker_and_leads/0",
+        "installation/battery_service/0",
+        "installation/battery_service/1",
+        "installation/compute_stack_new_shelf_budget/0",
+        "installation/aux_usb_hub_hat_b/0",
+        "installation/brake_control_pcb/0",
+        "installation/imu_wt901c_ttl/0",
+        "installation/can_a/0",
+        "installation/u2d2_xc330/0",
+        "installation/imu_usb_uart/0",
+        "installation/audio_usb_uart/0",
+        "installation/logic_buck/0",
+        "installation/servo_buck/0",
+        "installation/audio_dfplayer/0",
+        "installation/audio_buck_d36v6alv/0",
+        "installation/audio_buck_d36v6alv/1",
+        "electrical/left_leg_power_domain_positive_bus_joint_-18",
+        "electrical/left_leg_power_domain_positive_feed_-18",
+        "electrical/left_leg_power_domain_positive_bus_joint_0",
+        "electrical/left_leg_power_domain_positive_feed_0",
+        "electrical/left_leg_power_domain_positive_bus_joint_18",
+        "electrical/left_leg_power_domain_positive_feed_18",
+        "electrical/left_leg_power_domain_left_hip_yaw_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_hip_yaw_return_lead",
+        "electrical/left_leg_power_domain_left_hip_yaw_return_bus_joint",
+        "electrical/left_leg_power_domain_left_hip_roll_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_hip_roll_return_lead",
+        "electrical/left_leg_power_domain_left_hip_roll_return_bus_joint",
+        "electrical/left_leg_power_domain_left_hip_pitch_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_hip_pitch_return_lead",
+        "electrical/left_leg_power_domain_left_hip_pitch_return_bus_joint",
+        "electrical/left_leg_power_domain_left_knee_pitch_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_knee_pitch_return_lead",
+        "electrical/left_leg_power_domain_left_knee_pitch_return_bus_joint",
+        "electrical/left_leg_power_domain_left_ankle_pitch_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_ankle_pitch_return_lead",
+        "electrical/left_leg_power_domain_left_ankle_pitch_return_bus_joint",
+        "electrical/left_leg_power_domain_left_ankle_roll_fused_positive_lead",
+        "electrical/left_leg_power_domain_left_ankle_roll_return_lead",
+        "electrical/left_leg_power_domain_left_ankle_roll_return_bus_joint",
+        "electrical/right_leg_power_domain_positive_bus_joint_-18",
+        "electrical/right_leg_power_domain_positive_feed_-18",
+        "electrical/right_leg_power_domain_positive_bus_joint_0",
+        "electrical/right_leg_power_domain_positive_feed_0",
+        "electrical/right_leg_power_domain_positive_bus_joint_18",
+        "electrical/right_leg_power_domain_positive_feed_18",
+        "electrical/right_leg_power_domain_right_hip_yaw_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_hip_yaw_return_lead",
+        "electrical/right_leg_power_domain_right_hip_yaw_return_bus_joint",
+        "electrical/right_leg_power_domain_right_hip_roll_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_hip_roll_return_lead",
+        "electrical/right_leg_power_domain_right_hip_roll_return_bus_joint",
+        "electrical/right_leg_power_domain_right_hip_pitch_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_hip_pitch_return_lead",
+        "electrical/right_leg_power_domain_right_hip_pitch_return_bus_joint",
+        "electrical/right_leg_power_domain_right_knee_pitch_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_knee_pitch_return_lead",
+        "electrical/right_leg_power_domain_right_knee_pitch_return_bus_joint",
+        "electrical/right_leg_power_domain_right_ankle_pitch_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_ankle_pitch_return_lead",
+        "electrical/right_leg_power_domain_right_ankle_pitch_return_bus_joint",
+        "electrical/right_leg_power_domain_right_ankle_roll_fused_positive_lead",
+        "electrical/right_leg_power_domain_right_ankle_roll_return_lead",
+        "electrical/right_leg_power_domain_right_ankle_roll_return_bus_joint",
+        "electrical/neck_power_domain_positive_bus_joint_-18",
+        "electrical/neck_power_domain_positive_feed_-18",
+        "electrical/neck_power_domain_positive_bus_joint_0",
+        "electrical/neck_power_domain_positive_feed_0",
+        "electrical/neck_power_domain_positive_bus_joint_18",
+        "electrical/neck_power_domain_positive_feed_18",
+        "electrical/neck_power_domain_neck_yaw_fused_positive_lead",
+        "electrical/neck_power_domain_neck_yaw_return_lead",
+        "electrical/neck_power_domain_neck_yaw_return_bus_joint",
+        "electrical/neck_power_domain_neck_pitch_fused_positive_lead",
+        "electrical/neck_power_domain_neck_pitch_return_lead",
+        "electrical/neck_power_domain_neck_pitch_return_bus_joint",
+        "electrical/neck_power_domain_neck_mid_pitch_fused_positive_lead",
+        "electrical/neck_power_domain_neck_mid_pitch_return_lead",
+        "electrical/neck_power_domain_neck_mid_pitch_return_bus_joint",
+        "electrical/neck_power_domain_head_pitch_fused_positive_lead",
+        "electrical/neck_power_domain_head_pitch_return_lead",
+        "electrical/neck_power_domain_head_pitch_return_bus_joint",
+        "electrical/neck_power_domain_beak_hinge_fused_positive_lead",
+        "electrical/neck_power_domain_beak_hinge_return_lead",
+        "electrical/neck_power_domain_beak_hinge_return_bus_joint",
+        "electrical/tinybms_high_power_body",
+        "electrical/k1_main_load_contactor",
+        "electrical/k2_precharge_contactor",
+        "electrical/k3_manual_reset_relay",
+        "electrical/k4_load_pilot_relay",
+        "electrical/t2_precharge_overlap_timer",
+        "electrical/l1_main_make_current_choke",
+        "electrical/l1_inductive_turnoff_tvs",
+        "electrical/coil12_regulator_and_filter_carrier",
+        "electrical/f0_midi40_fuse_body_and_m5_stack",
+        "electrical/three_motor_trunk_fuses_carrier",
+        "electrical/five_aux_precharge_coil_fuses_carrier",
+        "electrical/precharge_ratio_supervisor_perfboard",
+        "electrical/precharge_r01",
+        "electrical/precharge_r02",
+        "electrical/precharge_r03",
+        "electrical/precharge_r04",
+        "electrical/precharge_r05",
+        "electrical/precharge_r06",
+        "electrical/precharge_r07",
+        "electrical/precharge_r08",
+        "electrical/precharge_r09",
+        "electrical/precharge_r10",
+        "electrical/precharge_coldplate_6061",
+        "electrical/precharge_lower_touch_guard",
+        "electrical/k1_main_load_contactor_A1_lug",
+        "electrical/k1_main_load_contactor_A1_local_power_lead",
+        "electrical/k1_main_load_contactor_A2_lug",
+        "electrical/k1_main_load_contactor_A2_local_power_lead",
+        "electrical/k2_precharge_contactor_A1_lug",
+        "electrical/k2_precharge_contactor_A1_local_power_lead",
+        "electrical/k2_precharge_contactor_A2_lug",
+        "electrical/k2_precharge_contactor_A2_local_power_lead",
+        "electrical/tinybms_balance_PHR9_mating",
+        "electrical/tinybms_ntc_PHR4_mating",
+        "electrical/tinybms_high_power_body_Lminus_local_power_lead",
+        "electrical/tinybms_high_power_body_Cminus_local_power_lead",
+        "electrical/electrical_cassette_front_yoke_and_forearm",
+        "electrical/right_cassette_fixed_front_foundation_C45",
+        "electrical/left_cassette_fixed_front_foundation_C45",
+        "electrical/electrical_cassette_BMS_bypass_rear_spine",
+        "electrical/electrical_cassette_clamp_0_screw",
+        "electrical/electrical_cassette_clamp_0_top_washer",
+        "electrical/electrical_cassette_clamp_1_screw",
+        "electrical/electrical_cassette_clamp_1_top_washer",
+        "electrical/electrical_cassette_clamp_2_screw",
+        "electrical/electrical_cassette_clamp_2_top_washer",
+        "electrical/electrical_cassette_clamp_3_screw",
+        "electrical/electrical_cassette_clamp_3_top_washer",
+        "electrical/stacked_domains_lower_carrier_plate",
+        "electrical/electrical_cassette_spine_M2x6_0",
+        "electrical/electrical_cassette_spine_M2x6_1",
+        "electrical/stacked_domains_root_M3_0_screw",
+        "electrical/stacked_domains_root_M3_0_washer",
+        "electrical/stacked_domains_root_M3_1_screw",
+        "electrical/stacked_domains_root_M3_1_washer",
+        "electrical/stacked_domains_M2_tie_rod_0",
+        "electrical/stacked_domains_intertier_spacer_0",
+        "electrical/stacked_domains_M2_0_bottom_nut",
+        "electrical/stacked_domains_M2_0_top_nut",
+        "electrical/stacked_domains_M2_tie_rod_1",
+        "electrical/stacked_domains_intertier_spacer_1",
+        "electrical/stacked_domains_M2_1_bottom_nut",
+        "electrical/stacked_domains_M2_1_top_nut",
+        "electrical/stacked_domains_M2_tie_rod_2",
+        "electrical/stacked_domains_intertier_spacer_2",
+        "electrical/stacked_domains_M2_2_bottom_nut",
+        "electrical/stacked_domains_M2_2_top_nut",
+        "electrical/stacked_domains_M2_tie_rod_3",
+        "electrical/stacked_domains_intertier_spacer_3",
+        "electrical/stacked_domains_M2_3_bottom_nut",
+        "electrical/stacked_domains_M2_3_top_nut",
+        "electrical/battery_301_U_cradle",
+        "electrical/battery_301_removable_rear_gate",
+        "electrical/battery_spine_M3_0_screw",
+        "electrical/battery_spine_M3_1_screw",
+        "electrical/battery_spine_M3_2_screw",
+        "electrical/battery_spine_M3_2_washer",
+        "electrical/battery_spine_M3_3_screw",
+        "electrical/battery_spine_M3_3_washer",
+        "electrical/compute_shared_rear_service_carrier",
+        "electrical/compute_spine_rear_M3_0_screw",
+        "electrical/compute_spine_rear_M3_0_washer",
+        "electrical/compute_spine_rear_M3_1_screw",
+        "electrical/compute_spine_rear_M3_1_washer",
+        "electrical/compute_PCB_radxa_zero_3w_0_screw",
+        "electrical/compute_PCB_radxa_zero_3w_0_washer",
+        "electrical/compute_PCB_radxa_zero_3w_1_screw",
+        "electrical/compute_PCB_radxa_zero_3w_1_washer",
+        "electrical/compute_PCB_radxa_zero_3w_2_screw",
+        "electrical/compute_PCB_radxa_zero_3w_2_washer",
+        "electrical/compute_PCB_radxa_zero_3w_3_screw",
+        "electrical/compute_PCB_radxa_zero_3w_3_washer",
+        "electrical/compute_PCB_usb_hub_hat_b_0_screw",
+        "electrical/compute_PCB_usb_hub_hat_b_0_washer",
+        "electrical/compute_PCB_usb_hub_hat_b_1_screw",
+        "electrical/compute_PCB_usb_hub_hat_b_1_washer",
+        "electrical/compute_PCB_usb_hub_hat_b_2_screw",
+        "electrical/compute_PCB_usb_hub_hat_b_2_washer",
+        "electrical/compute_PCB_usb_hub_hat_b_3_screw",
+        "electrical/compute_PCB_usb_hub_hat_b_3_washer",
+        "electrical/rear_auxiliary_service_receiving_frame",
+        "electrical/rear_aux_spine_M3_0_washer",
+        "electrical/rear_aux_spine_M3_1_washer",
+        "electrical/coil12_unclad_G10_mechanical_base",
+        "electrical/coil12_base_M3_0_screw",
+        "electrical/coil12_base_M3_0_washer",
+        "electrical/coil12_base_M3_1_screw",
+        "electrical/coil12_base_M3_1_washer",
+        "electrical/coil12_PCB_M2_0_screw",
+        "electrical/coil12_PCB_M2_1_screw",
+        "electrical/F0_main_fuse_G10_insulating_holder",
+        "electrical/F0_captive_M5_head_keeper_G10",
+        "electrical/F0_removable_touch_guard_G10",
+        "electrical/F0_M5_0_screw",
+        "electrical/F0_M5_0_washer",
+        "electrical/F0_M5_0_nut",
+        "electrical/F0_M5_0_TE130191_ring_lug",
+        "electrical/F0_M5_1_screw",
+        "electrical/F0_M5_1_washer",
+        "electrical/F0_M5_1_nut",
+        "electrical/F0_M5_1_TE130191_ring_lug",
+        "electrical/F0_holder_root_M3_0_screw",
+        "electrical/F0_holder_root_M3_0_washer",
+        "electrical/F0_holder_root_M3_1_screw",
+        "electrical/F0_holder_root_M3_1_washer",
+        "electrical/F0_keeper_M2_0_screw",
+        "electrical/F0_keeper_M2_1_screw",
+        "electrical/F0_guard_M2_0_screw",
+        "electrical/F0_guard_M2_1_screw",
+        "electrical/CAN_B_Panduit_PLT1p5M_C0_strap_0",
+        "electrical/CAN_B_Panduit_PLT1p5M_C0_strap_1",
+        "electrical/XT60_releasable_lead_cleat_6061",
+        "electrical/XT60_cleat_M2_0_screw",
+        "electrical/XT60_cleat_M2_0_washer",
+        "electrical/XT60_cleat_M2_1_screw",
+        "electrical/XT60_cleat_M2_1_washer",
+        "electrical/XT60_lead_cleat_PLT1p5M_C0_tie",
+        "electrical/BMS_service_disconnect_receiving_shelf_6061",
+        "electrical/BMS_service_receiver_root_M2_0_screw",
+        "electrical/BMS_service_receiver_root_M2_0_washer",
+        "electrical/BMS_service_receiver_root_M2_1_screw",
+        "electrical/BMS_service_receiver_root_M2_1_washer",
+        "electrical/BMS_service_receiver_G10_M2_0_screw",
+        "electrical/BMS_service_receiver_G10_M2_0_washer",
+        "electrical/BMS_service_receiver_G10_M2_1_screw",
+        "electrical/BMS_service_receiver_G10_M2_1_washer",
+        "electrical/BMS_service_receiver_G10_M2_2_screw",
+        "electrical/BMS_service_receiver_G10_M2_2_washer",
+        "electrical/BMS_service_receiver_G10_M2_3_screw",
+        "electrical/BMS_service_receiver_G10_M2_3_washer",
+        "electrical/BMS_service_balance_JST_B7B_XH_A_header",
+        "electrical/coil12_service_MicroFit_4p",
+        "electrical/coil12_service_MicroFit_4p_retention_PLT1p5M_C0",
+        "electrical/Flogic_all_loads_service_MicroFit_6p",
+        "electrical/Flogic_all_loads_service_MicroFit_6p_retention_PLT1p5M_C0",
+        "electrical/BMS_service_PR02_resistor_touch_guard_G10",
+        "electrical/BMS_service_PR02_guard_M2_0_screw",
+        "electrical/BMS_service_PR02_guard_M2_0_washer",
+        "electrical/BMS_service_PR02_guard_M2_1_screw",
+        "electrical/BMS_service_PR02_guard_M2_1_washer",
+        "electrical/TinyBMS_AIDO1_series_Vishay_PR02_1k",
+        "electrical/motor_bus_bleed_Vishay_PR02_2p2k",
+        "electrical/logic_input_bleed_Vishay_PR02_2p2k",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_00",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_01",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_02",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_03",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_04",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_05",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_06",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_07",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_08",
+        "electrical/battery_positive_XT60_to_F0_Alpha5859_12_segment_09",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_00",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_01",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_02",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_03",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_04",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_05",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_06",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_07",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_08",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_09",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_10",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_11",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_12",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_13",
+        "electrical/battery_negative_XT60_to_BMS_Bminus_Alpha5859_12_segment_14",
+        "electrical/Sservice_3pole_G10_keyed_receiving_panel",
+        "electrical/Sservice_CK7301SYZQE_complete_unit",
+        "electrical/Sservice_panel_M2_0_screw",
+        "electrical/Sservice_panel_M2_0_washer",
+        "electrical/Sservice_panel_M2_1_screw",
+        "electrical/Sservice_panel_M2_1_washer",
+        "electrical/Flogic_unclad_G10_actual_carrier",
+        "electrical/Flogic_Keystone3568_original_holder",
+        "electrical/Flogic_Littelfuse_0297005_U_body",
+        "electrical/Flogic_FUSED_POS_input_tinned_copper_bridge",
+        "electrical/Flogic_Flogic_output_tinned_copper_bridge",
+        "electrical/Flogic_carrier_M2_0_screw",
+        "electrical/Flogic_carrier_M2_0_washer",
+        "electrical/Flogic_carrier_M2_1_screw",
+        "electrical/Flogic_carrier_M2_1_washer",
+        "electrical/F0_FUSED_POS_C110_0p5mm_branch_solder_tag",
+        "electrical/FUSED_POS_to_Flogic5A_Cu_00",
+        "electrical/FUSED_POS_to_Flogic5A_FIT221_sleeve_00",
+        "electrical/FUSED_POS_to_Flogic5A_Cu_01",
+        "electrical/FUSED_POS_to_Flogic5A_FIT221_sleeve_01",
+        "electrical/FUSED_POS_to_Flogic5A_Cu_02",
+        "electrical/FUSED_POS_to_Flogic5A_FIT221_sleeve_02",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_00",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_00",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_01",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_01",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_02",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_02",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_03",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_03",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_04",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_04",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_05",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_05",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_06",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_06",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_07",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_07",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_08",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_08",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_09",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_09",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_10",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_10",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_11",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_11",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_12",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_12",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_13",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_13",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_Cu_14",
+        "electrical/FUSED_POS_shared_upper_resistor_branch_FIT221_sleeve_14",
+        "electrical/READY_Vishay_MBB0207_complete_unit",
+        "electrical/READY_upper_R_to_Sservice_Cu_00",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_00",
+        "electrical/READY_upper_R_to_Sservice_Cu_01",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_01",
+        "electrical/READY_upper_R_to_Sservice_Cu_02",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_02",
+        "electrical/READY_upper_R_to_Sservice_Cu_03",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_03",
+        "electrical/READY_upper_R_to_Sservice_Cu_04",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_04",
+        "electrical/READY_upper_R_to_Sservice_Cu_05",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_05",
+        "electrical/READY_upper_R_to_Sservice_Cu_06",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_06",
+        "electrical/READY_upper_R_to_Sservice_Cu_07",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_07",
+        "electrical/READY_upper_R_to_Sservice_Cu_08",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_08",
+        "electrical/READY_upper_R_to_Sservice_Cu_09",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_09",
+        "electrical/READY_upper_R_to_Sservice_Cu_10",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_10",
+        "electrical/READY_upper_R_to_Sservice_Cu_11",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_11",
+        "electrical/READY_upper_R_to_Sservice_Cu_12",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_12",
+        "electrical/READY_upper_R_to_Sservice_Cu_13",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_13",
+        "electrical/READY_upper_R_to_Sservice_Cu_14",
+        "electrical/READY_upper_R_to_Sservice_FIT221_sleeve_14",
+        "electrical/AUX_Vishay_MBB0207_complete_unit",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_Cu_00",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_FIT221_sleeve_00",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_Cu_01",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_FIT221_sleeve_01",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_Cu_02",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_FIT221_sleeve_02",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_Cu_03",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_FIT221_sleeve_03",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_Cu_04",
+        "electrical/FUSED_POS_READY_to_AUX_upper_resistor_FIT221_sleeve_04",
+        "electrical/AUX_upper_R_to_Sservice_Cu_00",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_00",
+        "electrical/AUX_upper_R_to_Sservice_Cu_01",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_01",
+        "electrical/AUX_upper_R_to_Sservice_Cu_02",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_02",
+        "electrical/AUX_upper_R_to_Sservice_Cu_03",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_03",
+        "electrical/AUX_upper_R_to_Sservice_Cu_04",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_04",
+        "electrical/AUX_upper_R_to_Sservice_Cu_05",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_05",
+        "electrical/AUX_upper_R_to_Sservice_Cu_06",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_06",
+        "electrical/AUX_upper_R_to_Sservice_Cu_07",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_07",
+        "electrical/AUX_upper_R_to_Sservice_Cu_08",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_08",
+        "electrical/AUX_upper_R_to_Sservice_Cu_09",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_09",
+        "electrical/AUX_upper_R_to_Sservice_Cu_10",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_10",
+        "electrical/AUX_upper_R_to_Sservice_Cu_11",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_11",
+        "electrical/AUX_upper_R_to_Sservice_Cu_12",
+        "electrical/AUX_upper_R_to_Sservice_FIT221_sleeve_12",
+        "electrical/Flogic5A_output_to_Sservice_Cu_00",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_00",
+        "electrical/Flogic5A_output_to_Sservice_Cu_01",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_01",
+        "electrical/Flogic5A_output_to_Sservice_Cu_02",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_02",
+        "electrical/Flogic5A_output_to_Sservice_Cu_03",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_03",
+        "electrical/Flogic5A_output_to_Sservice_Cu_04",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_04",
+        "electrical/Flogic5A_output_to_Sservice_Cu_05",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_05",
+        "electrical/Flogic5A_output_to_Sservice_Cu_06",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_06",
+        "electrical/Flogic5A_output_to_Sservice_Cu_07",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_07",
+        "electrical/Flogic5A_output_to_Sservice_Cu_08",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_08",
+        "electrical/Flogic5A_output_to_Sservice_Cu_09",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_09",
+        "electrical/Flogic5A_output_to_Sservice_Cu_10",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_10",
+        "electrical/Flogic5A_output_to_Sservice_Cu_11",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_11",
+        "electrical/Flogic5A_output_to_Sservice_Cu_12",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_12",
+        "electrical/Flogic5A_output_to_Sservice_Cu_13",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_13",
+        "electrical/Flogic5A_output_to_Sservice_Cu_14",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_14",
+        "electrical/Flogic5A_output_to_Sservice_Cu_15",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_15",
+        "electrical/Flogic5A_output_to_Sservice_Cu_16",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_16",
+        "electrical/Flogic5A_output_to_Sservice_Cu_17",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_17",
+        "electrical/Flogic5A_output_to_Sservice_Cu_18",
+        "electrical/Flogic5A_output_to_Sservice_FIT221_sleeve_18",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_00",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_00",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_01",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_01",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_02",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_02",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_03",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_03",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_04",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_04",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_05",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_05",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_06",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_06",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_07",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_07",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_08",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_08",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_09",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_09",
+        "electrical/Flogic_Sservice_common_bond_and_departure_Cu_10",
+        "electrical/Flogic_Sservice_common_bond_and_departure_FIT221_sleeve_10",
+        "electrical/Flogic_Sservice_to_MicroFit6p_Alpha_segment_00",
+        "electrical/Flogic_Sservice_to_MicroFit6p_actual_stripped_start",
+        "electrical/Flogic_Sservice_to_MicroFit6p_actual_stripped_end",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_00",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_00",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_01",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_01",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_02",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_02",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_03",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_03",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_04",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_04",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_05",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_05",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_06",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_07",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_07",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_08",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_08",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_09",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_09",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_Cu_10",
+        "electrical/Flogic_MicroFit6p_rear_formed_tail_FIT221_sleeve_10",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_00",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_00",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_01",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_01",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_02",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_02",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_03",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_03",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_04",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_04",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_05",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_05",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_06",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_06",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_07",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_07",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_08",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_08",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_09",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_09",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_10",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_10",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_11",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_11",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_12",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_12",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_13",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_13",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_14",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_14",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_15",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_15",
+        "electrical/READY_Sservice_common_bond_and_departure_Cu_16",
+        "electrical/READY_Sservice_common_bond_and_departure_FIT221_sleeve_16",
+        "electrical/READY_Sservice_to_MicroFit6p_Alpha_segment_00",
+        "electrical/READY_Sservice_to_MicroFit6p_actual_stripped_start",
+        "electrical/READY_Sservice_to_MicroFit6p_actual_stripped_end",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_00",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_00",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_01",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_01",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_02",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_02",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_03",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_03",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_04",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_04",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_05",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_05",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_06",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_07",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_07",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_08",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_08",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_09",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_09",
+        "electrical/READY_MicroFit6p_rear_formed_tail_Cu_10",
+        "electrical/READY_MicroFit6p_rear_formed_tail_FIT221_sleeve_10",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_00",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_00",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_01",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_01",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_02",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_02",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_03",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_03",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_04",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_04",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_05",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_05",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_06",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_06",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_07",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_07",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_08",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_08",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_09",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_09",
+        "electrical/AUX_Sservice_common_bond_and_departure_Cu_10",
+        "electrical/AUX_Sservice_common_bond_and_departure_FIT221_sleeve_10",
+        "electrical/AUX_Sservice_to_MicroFit6p_Alpha_segment_00",
+        "electrical/AUX_Sservice_to_MicroFit6p_actual_stripped_start",
+        "electrical/AUX_Sservice_to_MicroFit6p_actual_stripped_end",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_00",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_00",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_01",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_01",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_02",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_02",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_03",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_03",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_04",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_04",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_05",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_05",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_06",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_07",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_07",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_08",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_08",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_09",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_09",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_Cu_10",
+        "electrical/AUX_MicroFit6p_rear_formed_tail_FIT221_sleeve_10",
+        "electrical/Lminus_visible_test_loop_Cu_00",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_00",
+        "electrical/Lminus_visible_test_loop_Cu_01",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_01",
+        "electrical/Lminus_visible_test_loop_Cu_02",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_02",
+        "electrical/Lminus_visible_test_loop_Cu_03",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_03",
+        "electrical/Lminus_visible_test_loop_Cu_04",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_04",
+        "electrical/Lminus_visible_test_loop_Cu_05",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_05",
+        "electrical/Lminus_visible_test_loop_Cu_06",
+        "electrical/Lminus_visible_test_loop_FIT221_sleeve_06",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_00",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_00",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_01",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_01",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_02",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_02",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_03",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_03",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_04",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_04",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_05",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_05",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_06",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_06",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_07",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_07",
+        "electrical/MOTOR_POS_visible_test_loop_Cu_08",
+        "electrical/MOTOR_POS_visible_test_loop_FIT221_sleeve_08",
+        "controls/tail_reset_whole_unit",
+        "harness/left_hip_yaw_power/0",
+        "harness/left_hip_roll_power/0",
+        "harness/left_hip_pitch_power/0",
+        "harness/left_knee_pitch_power/0",
+        "harness/left_ankle_pitch_power/0",
+        "harness/left_ankle_roll_power/0",
+        "harness/right_hip_yaw_power/0",
+        "harness/right_hip_roll_power/0",
+        "harness/right_hip_pitch_power/0",
+        "harness/right_knee_pitch_power/0",
+        "harness/right_ankle_pitch_power/0",
+        "harness/right_ankle_roll_power/0",
+        "harness/neck_yaw_power/0",
+        "harness/neck_pitch_power/0",
+        "harness/neck_mid_pitch_power/0",
+        "harness/head_pitch_power/0",
+        "harness/beak_hinge_power/0",
+        "harness/left_motor_trunk/0",
+        "harness/right_motor_trunk/0",
+        "harness/can_a_mainline/1",
+        "harness/can_a_mainline/3",
+        "harness/can_b_mainline/3",
+        "harness/neck_yaw_original_can_stub",
+        "harness/right_hip_yaw_original_can_stub",
+        "harness/left_hip_yaw_original_can_stub",
+        "harness/usb_radxa_main_hub",
+        "harness/usb_main_aux_hub",
+        "harness/usb_main_can_a",
+        "harness/usb_main_can_b",
+        "harness/usb_aux_u2d2",
+        "harness/usb_aux_imu_uart",
+        "harness/usb_aux_audio_uart",
+        "harness/neck_yaw_xt30_2p2_mate",
+        "harness/right_hip_yaw_xt30_2p2_mate",
+        "harness/left_hip_yaw_xt30_2p2_mate",
+        "harness/left_leg_power_domain_xt60_pair",
+        "harness/right_leg_power_domain_xt60_pair",
+        "harness/sleeves_clamps_torso",
+        "power/hub_main_vbus_reset_interposer",
+        "power/hub_aux_vbus_reset_interposer",
+        "rear_fan_mount_0_screw",
+        "rear_fan_mount_0_nut",
+        "rear_fan_mount_0_washer",
+        "rear_fan_mount_1_screw",
+        "rear_fan_mount_1_nut",
+        "rear_fan_mount_1_washer",
+        "rear_fan_mount_2_screw",
+        "rear_fan_mount_2_nut",
+        "rear_fan_mount_2_washer",
+        "rear_fan_mount_3_screw",
+        "rear_fan_mount_3_nut",
+        "rear_fan_mount_3_washer",
+        "rear_exhaust_fan_body",
+        "passive_cold_hood",
+        "rear_aux_spine_M3_0_screw",
+        "cold_hood_crush_sleeve_0",
+        "rear_aux_spine_M3_1_screw",
+        "cold_hood_crush_sleeve_1",
+        "cold_hood_HT800_liner_00",
+        "cold_hood_HT800_liner_01",
+        "cold_hood_HT800_liner_02",
+        "cold_hood_HT800_liner_03",
+        "can_b_installation_reserve",
+        "USB_Adafruit4110_CAN_B_female",
+        "T1_fixed_plate_edge_upper_jaw",
+        "T1_plate_clamp_G10_pad_lower",
+        "T1_plate_clamp_G10_pad_upper",
+        "T1_clamp_ISO4762_M3x16",
+        "T1_clamp_ISO7091_M3_washer",
+        "front_T1_service_door_independent_inner_carrier",
+        "front_T1_service_door_curved_mother_patch",
+        "front_T1_service_door_HT800_seal",
+        "front_T1_door_ISO4762_M2x8_0",
+        "front_T1_door_Ruthex_RX_M2x4_0",
+        "front_T1_door_ISO4762_M2x8_1",
+        "front_T1_door_Ruthex_RX_M2x4_1",
+        "front_T1_door_ISO4762_M2x8_2",
+        "front_T1_door_Ruthex_RX_M2x4_2",
+        "front_T1_door_ISO4762_M2x8_3",
+        "front_T1_door_Ruthex_RX_M2x4_3",
+        "front_T1_door_ISO4762_M2x8_4",
+        "front_T1_door_Ruthex_RX_M2x4_4",
+        "front_T1_door_ISO4762_M2x8_5",
+        "front_T1_door_Ruthex_RX_M2x4_5",
+        "front_T1_door_ISO4762_M2x8_6",
+        "front_T1_door_Ruthex_RX_M2x4_6",
+        "front_T1_door_ISO4762_M2x8_7",
+        "front_T1_door_Ruthex_RX_M2x4_7",
+        "rear_service_cap",
+        "rear_cap_12p_curved_flush_service_lid",
+        "rear_cap_12p_HT800_compressed_gasket",
+        "rear_cap_12p_3M9731_gasket_bond",
+        "BMS_service_disconnect_unclad_G10_carrier",
+        "tail_controls_and_fan_service_MicroFit_12p",
+        "tail_controls_and_fan_service_MicroFit_12p_retention_PLT1p5M_C0",
+        "rear_cap_12p_M2_0_screw",
+        "rear_cap_12p_M2_0_nut",
+        "rear_cap_12p_M2_1_screw",
+        "rear_cap_12p_M2_1_nut",
+        "t1_precharge_window_timer",
+        "T1_direct_solder_FR4_cassette_board",
+        "T1_fixed_plate_edge_lower_carrier",
+        "T1_cassette_Accu_SPK_M2_6_CS_BZP_0",
+        "T1_cassette_Accu_SPK_M2_6_CS_BZP_1",
+        "T1_cassette_Accu_SPK_M2_6_CS_BZP_2",
+        "T1_cassette_Accu_SPK_M2_6_CS_BZP_3",
+        "T1_PCB_MicroFit4p_complete_mated_group",
+        "T1_PCB_Cu_GND_range123",
+        "T1_PCB_Cu_RESET_pin4",
+        "T1_PCB_Cu_SW5_pin24_to13",
+        "T1_PCB_Cu_K4pilot_pin16",
+        "T1_PCB_Cu_RANGE_21_22",
+        "engineering_allocation/normal_3mm_D_cup",
+        "engineering_allocation/internal_recessed_nc_whole_unit",
+        "engineering_allocation/upper_port_remaining",
+        "engineering_allocation/T1_cold_install_remaining",
+        "engineering_allocation/joint_light_carrier_remaining",
+        "front_main_shell",
+        "left_hip_yaw_ak45_10_case_009_c01",
+        "right_hip_yaw_ak45_10_case_009_c01"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "neck_yaw",
+      "mass_kg": 0.539389667863588,
+      "centre_world_zero_m": [
+        0.024738209498728837,
+        -0.0005116951632101441,
+        0.42855163020067416
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0005831473006753423,
+          3.4322316262809647e-06,
+          -0.00016455806441416547
+        ],
+        [
+          3.4322316262809647e-06,
+          0.000665341795365724,
+          1.4231101144545162e-05
+        ],
+        [
+          -0.00016455806441416547,
+          1.4231101144545162e-05,
+          0.00044475293737850015
+        ]
+      ],
+      "item_count": 31,
+      "origin_world_zero_m": [
+        0.029449999999999997,
+        0.0,
+        0.37430499999999994
+      ],
+      "com_local_m": [
+        -0.00471179050127116,
+        -0.0005116951632101441,
+        0.05424663020067422
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0005831473006753423,
+          3.4322316262809647e-06,
+          -0.00016455806441416547
+        ],
+        [
+          3.4322316262809647e-06,
+          0.000665341795365724,
+          1.4231101144545162e-05
+        ],
+        [
+          -0.00016455806441416547,
+          1.4231101144545162e-05,
+          0.00044475293737850015
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/neck_pitch",
+        "frozen_upper/lower_neck_stationary_idler_spider",
+        "frozen_upper/lower_neck_proximal_rear_spacer_0",
+        "frozen_upper/lower_neck_proximal_rear_spacer_1",
+        "frozen_upper/lower_neck_proximal_rear_spacer_2",
+        "frozen_upper/lower_neck_proximal_rear_spacer_3",
+        "frozen_upper/lower_neck_shaft_end_washer",
+        "frozen_upper/lower_neck_shaft_end_fastener_mass_bound",
+        "frozen_upper/lower_neck_root_spider_fastener_mass_bound",
+        "frozen_upper/neck_yaw_output_adapter",
+        "frozen_upper/neck_root_ankle_yaw_output_fastener_bound",
+        "frozen_upper/neck_root_ankle_cradle_base_fastener_bound",
+        "frozen_upper/neck_root_ankle_pitch_case_fastener_bound",
+        "neck_yaw_root_front_hood",
+        "neck_yaw_root_rear_hood",
+        "neck_yaw_to_pitch_front_cradle",
+        "root_hood_flanged_compression_sleeve_0",
+        "root_hood_retainer_washer_0",
+        "root_hood_front_screw_m2x8_0",
+        "root_hood_flanged_compression_sleeve_1",
+        "root_hood_retainer_washer_1",
+        "root_hood_front_screw_m2x8_1",
+        "harness/neck_pitch_power/1",
+        "harness/neck_mid_pitch_power/1",
+        "harness/head_pitch_power/1",
+        "harness/beak_hinge_power/1",
+        "harness/neck_motor_trunk/0",
+        "harness/can_a_mainline/4",
+        "harness/neck_pitch_original_can_stub",
+        "harness/neck_pitch_xt30_2p2_mate",
+        "harness/neck_power_domain_xt60_pair"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "neck_pitch",
+      "mass_kg": 0.7616998700551401,
+      "centre_world_zero_m": [
+        -0.02500053505200288,
+        -0.0014782902019538748,
+        0.520189830207066
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0015579531908451751,
+          -4.513594323842544e-05,
+          0.0006357858880892414
+        ],
+        [
+          -4.513594323842544e-05,
+          0.001823928806208589,
+          6.197749497215951e-05
+        ],
+        [
+          0.0006357858880892414,
+          6.197749497215951e-05,
+          0.0012500971014665315
+        ]
+      ],
+      "item_count": 46,
+      "origin_world_zero_m": [
+        0.029449999999999997,
+        0.0,
+        0.4403049999999999
+      ],
+      "com_local_m": [
+        -0.054450535052002876,
+        -0.0014782902019538748,
+        0.0798848302070661
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0015579531908451751,
+          -4.513594323842544e-05,
+          0.0006357858880892414
+        ],
+        [
+          -4.513594323842544e-05,
+          0.001823928806208589,
+          6.197749497215951e-05
+        ],
+        [
+          0.0006357858880892414,
+          6.197749497215951e-05,
+          0.0012500971014665315
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/neck_mid_pitch",
+        "frozen_upper/neck_pitch_structure_allocation",
+        "frozen_upper/lower_neck_output_adapter",
+        "frozen_upper/lower_neck_distal_front_spacer_0",
+        "frozen_upper/lower_neck_distal_front_spacer_1",
+        "frozen_upper/lower_neck_distal_front_spacer_2",
+        "frozen_upper/lower_neck_distal_front_spacer_3",
+        "frozen_upper/lower_neck_distal_front_spacer_4",
+        "frozen_upper/lower_neck_distal_front_spacer_5",
+        "frozen_upper/lower_neck_distal_rear_spacer_outer_0",
+        "frozen_upper/lower_neck_distal_rear_spacer_inner_0",
+        "frozen_upper/lower_neck_distal_rear_spacer_outer_1",
+        "frozen_upper/lower_neck_distal_rear_spacer_inner_1",
+        "frozen_upper/lower_neck_distal_rear_spacer_outer_2",
+        "frozen_upper/lower_neck_distal_rear_spacer_inner_2",
+        "frozen_upper/lower_neck_distal_rear_spacer_outer_3",
+        "frozen_upper/lower_neck_distal_rear_spacer_inner_3",
+        "frozen_upper/lower_neck_idler_bearing_installation",
+        "frozen_upper/lower_neck_bearing_outer_retainer",
+        "frozen_upper/lower_neck_bridge",
+        "frozen_upper/lower_neck_output_fork_plate",
+        "frozen_upper/lower_neck_idler_fork_plate",
+        "frozen_upper/upper_neck_stationary_idler_spider",
+        "frozen_upper/upper_neck_shaft_end_washer",
+        "frozen_upper/lower_neck_output_to_motor_fastener_mass_bound",
+        "frozen_upper/lower_neck_fork_to_adapter_fastener_mass_bound",
+        "frozen_upper/lower_neck_bridge_fastener_mass_bound",
+        "frozen_upper/lower_neck_outer_race_cover_fastener_mass_bound",
+        "frozen_upper/lower_neck_distal_front_case_fastener_mass_bound",
+        "frozen_upper/lower_neck_distal_rear_case_fastener_mass_bound",
+        "frozen_upper/upper_neck_shaft_end_fastener_mass_bound",
+        "lower_neck_front_cover_bridge_m3x20_0",
+        "lower_neck_front_cover_bridge_m3x20_1",
+        "lower_neck_rear_cover_bridge_m3x16_0",
+        "lower_neck_rear_cover_bridge_m3x16_1",
+        "harness/neck_mid_pitch_power/2",
+        "harness/head_pitch_power/2",
+        "harness/beak_hinge_power/2",
+        "harness/can_a_mainline/5",
+        "harness/neck_mid_pitch_original_can_stub",
+        "harness/xc330_5v_ttl",
+        "harness/usb_main_camera",
+        "harness/neck_mid_pitch_xt30_2p2_mate",
+        "harness/sleeves_clamps_neck",
+        "lower_neck_front_integrated_clamshell",
+        "lower_neck_rear_integrated_clamshell"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "neck_mid_pitch",
+      "mass_kg": 0.543362146702074,
+      "centre_world_zero_m": [
+        0.00509225194083739,
+        0.0020151552635870058,
+        0.6083893998747637
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0011770263733292907,
+          5.9807975810840116e-05,
+          -0.0005727071049568013
+        ],
+        [
+          5.9807975810840116e-05,
+          0.0013522769637769273,
+          7.957148691567843e-05
+        ],
+        [
+          -0.0005727071049568013,
+          7.957148691567843e-05,
+          0.0009354301253478404
+        ]
+      ],
+      "item_count": 67,
+      "origin_world_zero_m": [
+        -0.043550000000000005,
+        0.0,
+        0.544305
+      ],
+      "com_local_m": [
+        0.04864225194083739,
+        0.0020151552635870058,
+        0.06408439987476366
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0011770263733292907,
+          5.9807975810840116e-05,
+          -0.0005727071049568013
+        ],
+        [
+          5.9807975810840116e-05,
+          0.0013522769637769273,
+          7.957148691567843e-05
+        ],
+        [
+          -0.0005727071049568013,
+          7.957148691567843e-05,
+          0.0009354301253478404
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/head_pitch",
+        "frozen_upper/neck_mid_pitch_structure_allocation",
+        "frozen_upper/upper_neck_output_adapter",
+        "frozen_upper/upper_neck_distal_rear_spacer_inner_0",
+        "frozen_upper/upper_neck_distal_rear_spacer_middle_0",
+        "frozen_upper/upper_neck_distal_rear_spacer_inner_1",
+        "frozen_upper/upper_neck_distal_rear_spacer_middle_1",
+        "frozen_upper/upper_neck_distal_rear_spacer_inner_2",
+        "frozen_upper/upper_neck_distal_rear_spacer_middle_2",
+        "frozen_upper/upper_neck_distal_rear_spacer_inner_3",
+        "frozen_upper/upper_neck_distal_rear_spacer_middle_3",
+        "frozen_upper/upper_neck_idler_bearing_installation",
+        "frozen_upper/upper_neck_bearing_outer_retainer",
+        "frozen_upper/upper_neck_output_to_motor_fastener_mass_bound",
+        "frozen_upper/upper_neck_fork_to_adapter_fastener_mass_bound",
+        "frozen_upper/upper_neck_bridge_fastener_mass_bound",
+        "frozen_upper/upper_neck_outer_race_cover_fastener_mass_bound",
+        "frozen_upper/upper_neck_distal_front_case_fastener_mass_bound",
+        "frozen_upper/upper_neck_distal_rear_case_fastener_mass_bound",
+        "upper_neck_rear_cover_bridge_m3x16_0",
+        "upper_neck_rear_cover_bridge_m3x16_1",
+        "upper_neck_front_integrated_clamshell",
+        "upper_neck_rear_integrated_clamshell",
+        "upper_neck_idler_fork_plate",
+        "upper_neck_bridge",
+        "upper_neck_distal_front_spacer_0",
+        "upper_neck_distal_front_spacer_1",
+        "upper_neck_distal_front_spacer_2",
+        "upper_neck_distal_front_spacer_3",
+        "upper_neck_distal_front_spacer_4",
+        "upper_neck_distal_front_spacer_5",
+        "compact_head_pitch_stator_front_m2p5x12_0",
+        "compact_head_pitch_stator_front_washer_0",
+        "compact_head_pitch_stator_front_m2p5x12_1",
+        "compact_head_pitch_stator_front_washer_1",
+        "compact_head_pitch_stator_front_m2p5x12_2",
+        "compact_head_pitch_stator_front_washer_2",
+        "compact_head_pitch_stator_front_m2p5x12_3",
+        "compact_head_pitch_stator_front_washer_3",
+        "compact_head_pitch_stator_front_m2p5x12_4",
+        "compact_head_pitch_stator_front_washer_4",
+        "compact_head_pitch_stator_front_m2p5x12_5",
+        "compact_head_pitch_stator_front_washer_5",
+        "compact_head_pitch_stator_rear_m2p5x10_0",
+        "compact_head_pitch_stator_rear_washer_0",
+        "compact_head_pitch_stator_rear_m2p5x10_1",
+        "compact_head_pitch_stator_rear_washer_1",
+        "compact_head_pitch_stator_rear_m2p5x10_2",
+        "compact_head_pitch_stator_rear_washer_2",
+        "compact_head_pitch_stator_rear_m2p5x10_3",
+        "compact_head_pitch_stator_rear_washer_3",
+        "compact_upper_cover_metal_tube_front_0",
+        "compact_upper_cover_metal_retainer_front_0",
+        "compact_upper_cover_metal_tube_front_1",
+        "compact_upper_cover_metal_retainer_front_1",
+        "compact_upper_cover_metal_tube_rear_0",
+        "compact_upper_cover_metal_retainer_rear_0",
+        "compact_upper_cover_metal_tube_rear_1",
+        "compact_upper_cover_metal_retainer_rear_1",
+        "upper_neck_front_cover_bridge_m3x16_0",
+        "upper_neck_front_cover_bridge_m3x16_1",
+        "harness/head_pitch_power/3",
+        "harness/beak_hinge_power/3",
+        "harness/can_a_mainline/6",
+        "harness/head_pitch_original_can_stub",
+        "harness/head_pitch_xt30_2p2_mate",
+        "upper_neck_output_fork_plate"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "head_pitch",
+      "mass_kg": 0.3246059855586802,
+      "centre_world_zero_m": [
+        0.04831561715169915,
+        0.013552493370887013,
+        0.6273211651880438
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.00026876459539659846,
+          3.3339442185818405e-05,
+          3.301162586154483e-05
+        ],
+        [
+          3.3339442185818405e-05,
+          0.00037111809397287764,
+          -2.1882565983506727e-05
+        ],
+        [
+          3.301162586154483e-05,
+          -2.1882565983506727e-05,
+          0.0003981124367844009
+        ]
+      ],
+      "item_count": 41,
+      "origin_world_zero_m": [
+        0.028449999999999996,
+        0.0,
+        0.637305
+      ],
+      "com_local_m": [
+        0.019865617151699155,
+        0.013552493370887013,
+        -0.009983834811956194
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.00026876459539659846,
+          3.3339442185818405e-05,
+          3.301162586154483e-05
+        ],
+        [
+          3.3339442185818405e-05,
+          0.00037111809397287764,
+          -2.1882565983506727e-05
+        ],
+        [
+          3.301162586154483e-05,
+          -2.1882565983506727e-05,
+          0.0003981124367844009
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/head_pitch_structure_allocation",
+        "head_hood_compression_tube_0",
+        "head_hood_retainer_washer_0",
+        "head_hood_compression_tube_1",
+        "head_hood_retainer_washer_1",
+        "head_hood_compression_tube_2",
+        "head_hood_retainer_washer_2",
+        "compact_head_hood_screw_m2x4_0",
+        "compact_head_hood_screw_m2x4_1",
+        "compact_head_hood_screw_m2x4_2",
+        "head_pitch_true_output_OEM_M2p5x8_0",
+        "head_pitch_true_output_OEM_washer_0",
+        "head_pitch_true_output_OEM_M2p5x8_1",
+        "head_pitch_true_output_OEM_washer_1",
+        "head_pitch_true_output_OEM_M2p5x8_2",
+        "head_pitch_true_output_OEM_washer_2",
+        "head_rear_cover_compression_tube_0",
+        "head_rear_cover_retainer_washer_0",
+        "head_rear_cover_screw_M2x6_0",
+        "head_rear_cover_nut_M2_0",
+        "head_rear_cover_compression_tube_1",
+        "head_rear_cover_retainer_washer_1",
+        "head_rear_cover_screw_M2x6_1",
+        "head_rear_cover_nut_M2_1",
+        "head_rear_cover_compression_tube_2",
+        "head_rear_cover_retainer_washer_2",
+        "head_rear_cover_screw_M2x6_2",
+        "head_rear_cover_nut_M2_2",
+        "head_roll_catalog_case",
+        "clocked_XC330_front_frame_PHS_M2x8_TAP_0",
+        "clocked_XC330_front_frame_PHS_M2x8_TAP_1",
+        "clocked_XC330_front_frame_PHS_M2x8_TAP_2",
+        "clocked_XC330_front_frame_PHS_M2x8_TAP_3",
+        "head_pitch_to_roll_stator_bracket",
+        "head_roll_CRBT205A_C1_installation",
+        "head_CRBT_front_outer_retainer",
+        "head_CRBT_front_cover_M2x4_0",
+        "head_CRBT_front_cover_M2x4_1",
+        "head_CRBT_front_cover_M2x4_2",
+        "head_pitch_joint_front_hood",
+        "head_pitch_joint_rear_hood"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "head_roll",
+      "mass_kg": 0.6740421096762732,
+      "centre_world_zero_m": [
+        0.1277444418079009,
+        -0.0013230568559439123,
+        0.6267747555074052
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0004425839689685075,
+          -9.86301685198394e-06,
+          0.0001216921527047711
+        ],
+        [
+          -9.86301685198394e-06,
+          0.0008129453188727659,
+          2.9032178104695913e-06
+        ],
+        [
+          0.0001216921527047711,
+          2.9032178104695913e-06,
+          0.0007893367441478792
+        ]
+      ],
+      "item_count": 86,
+      "origin_world_zero_m": [
+        0.06744999999999998,
+        0.0,
+        0.617805
+      ],
+      "com_local_m": [
+        0.06029444180790092,
+        -0.0013230568559439123,
+        0.008969755507405197
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0004425839689685075,
+          -9.86301685198394e-06,
+          0.0001216921527047711
+        ],
+        [
+          -9.86301685198394e-06,
+          0.0008129453188727659,
+          2.9032178104695913e-06
+        ],
+        [
+          0.0001216921527047711,
+          2.9032178104695913e-06,
+          0.0007893367441478792
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/camera_module",
+        "frozen_upper/head_internal_frame_reserve",
+        "frozen_upper/head_roll_structure_allocation",
+        "frozen_upper/jaw_front_bearing",
+        "frozen_upper/jaw_rear_bearing",
+        "frozen_upper/beak_motor_catalog_case",
+        "frozen_upper/jaw_front_outer_race_cap",
+        "frozen_upper/jaw_rear_outer_race_cap",
+        "frozen_upper/jaw_front_cap_washer_0",
+        "frozen_upper/jaw_front_cap_screw_0",
+        "frozen_upper/jaw_front_cap_washer_1",
+        "frozen_upper/jaw_front_cap_screw_1",
+        "frozen_upper/jaw_front_cap_washer_2",
+        "frozen_upper/jaw_front_cap_screw_2",
+        "frozen_upper/jaw_rear_cap_washer_0",
+        "frozen_upper/jaw_rear_cap_screw_0",
+        "frozen_upper/jaw_rear_cap_washer_1",
+        "frozen_upper/jaw_rear_cap_screw_1",
+        "frozen_upper/jaw_rear_cap_washer_2",
+        "frozen_upper/jaw_rear_cap_screw_2",
+        "frozen_upper/upper_grip_backbone",
+        "frozen_upper/upper_grip_flat_screw_0",
+        "frozen_upper/upper_grip_nut_0",
+        "frozen_upper/upper_grip_flat_screw_1",
+        "frozen_upper/upper_grip_nut_1",
+        "frozen_upper/upper_grip_flat_screw_2",
+        "frozen_upper/upper_grip_nut_2",
+        "frozen_upper/upper_grip_flat_screw_3",
+        "frozen_upper/upper_grip_nut_3",
+        "frozen_upper/upper_bill_front_mount_0_washer",
+        "frozen_upper/upper_bill_front_mount_0_screw",
+        "frozen_upper/upper_bill_front_mount_0_nut",
+        "frozen_upper/upper_bill_front_mount_1_washer",
+        "frozen_upper/upper_bill_front_mount_1_screw",
+        "frozen_upper/upper_bill_front_mount_1_nut",
+        "frozen_upper/upper_bill_rear_mount_0_washer",
+        "frozen_upper/upper_bill_rear_mount_0_screw",
+        "frozen_upper/upper_bill_rear_mount_0_nut",
+        "frozen_upper/upper_bill_rear_mount_1_washer",
+        "frozen_upper/upper_bill_rear_mount_1_screw",
+        "frozen_upper/upper_bill_rear_mount_1_nut",
+        "frozen_upper/upper_grip_shell",
+        "frozen_upper/upper_grip_carrier",
+        "frozen_upper/upper_grip_cassette_pad",
+        "frozen_upper/camera_open_eye_bezel",
+        "frozen_upper/camera_fastened_open_face",
+        "frozen_upper/camera_pcb_0_head_nylon_washer",
+        "frozen_upper/camera_pcb_0_front_nylon_washer",
+        "frozen_upper/camera_pcb_0_m2x10",
+        "frozen_upper/camera_pcb_1_head_nylon_washer",
+        "frozen_upper/camera_pcb_1_front_nylon_washer",
+        "frozen_upper/camera_pcb_1_m2x10",
+        "frozen_upper/camera_pcb_2_head_nylon_washer",
+        "frozen_upper/camera_pcb_2_front_nylon_washer",
+        "frozen_upper/camera_pcb_2_m2x10",
+        "frozen_upper/camera_pcb_3_head_nylon_washer",
+        "frozen_upper/camera_pcb_3_front_nylon_washer",
+        "frozen_upper/camera_pcb_3_m2x10",
+        "frozen_upper/camera_face_0_front_nylon_washer",
+        "frozen_upper/camera_face_0_rear_nylon_washer",
+        "frozen_upper/camera_face_0_m2x10",
+        "frozen_upper/camera_face_1_front_nylon_washer",
+        "frozen_upper/camera_face_1_rear_nylon_washer",
+        "frozen_upper/camera_face_1_m2x10",
+        "frozen_upper/camera_face_2_front_nylon_washer",
+        "frozen_upper/camera_face_2_rear_nylon_washer",
+        "frozen_upper/camera_face_2_m2x10",
+        "frozen_upper/camera_face_3_front_nylon_washer",
+        "frozen_upper/camera_face_3_rear_nylon_washer",
+        "frozen_upper/camera_face_3_m2x10",
+        "frozen_upper/head_integral_print_shell",
+        "harness/beak_hinge_power/4",
+        "harness/can_a_mainline/7",
+        "harness/beak_hinge_original_can_stub",
+        "harness/beak_hinge_xt30_2p2_mate",
+        "head_frame_camera_fastened_carrier",
+        "head_CRBT_inner_positive_split_retainer_negative",
+        "head_CRBT_inner_positive_split_retainer_positive",
+        "head_roll_torque_OEM_M2x6_0",
+        "head_roll_torque_M2_washer_0",
+        "head_roll_torque_OEM_M2x6_1",
+        "head_roll_torque_M2_washer_1",
+        "head_roll_torque_OEM_M2x6_2",
+        "head_roll_torque_M2_washer_2",
+        "head_roll_torque_OEM_M2x6_3",
+        "head_roll_torque_M2_washer_3"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "beak_hinge",
+      "mass_kg": 0.12444184333803009,
+      "centre_world_zero_m": [
+        0.1685553497386029,
+        0.0021783860398677996,
+        0.5924762181600223
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          5.981546379393213e-05,
+          6.670548639629917e-06,
+          3.1879502956955006e-05
+        ],
+        [
+          6.670548639629917e-06,
+          0.0001014437818916172,
+          -3.102445199462776e-06
+        ],
+        [
+          3.1879502956955006e-05,
+          -3.102445199462776e-06,
+          0.00011603177618500177
+        ]
+      ],
+      "item_count": 25,
+      "origin_world_zero_m": [
+        0.14645,
+        0.0,
+        0.6083050000000001
+      ],
+      "com_local_m": [
+        0.022105349738602897,
+        0.0021783860398677996,
+        -0.015828781839977824
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          5.981546379393213e-05,
+          6.670548639629917e-06,
+          3.1879502956955006e-05
+        ],
+        [
+          6.670548639629917e-06,
+          0.0001014437818916172,
+          -3.102445199462776e-06
+        ],
+        [
+          3.1879502956955006e-05,
+          -3.102445199462776e-06,
+          0.00011603177618500177
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/beak_native_output_arm",
+        "frozen_upper/beak_output_steel_sleeve",
+        "frozen_upper/beak_output_washer",
+        "frozen_upper/beak_output_button_screw",
+        "frozen_upper/beak_retained_d_shaft",
+        "frozen_upper/jaw_rear_din471_ring",
+        "frozen_upper/jaw_rear_outer_spacer",
+        "frozen_upper/jaw_rear_inner_spacer",
+        "frozen_upper/jaw_front_inner_spacer",
+        "frozen_upper/jaw_front_bearing_to_arm_spacer",
+        "frozen_upper/jaw_front_arm_to_stop_spacer",
+        "frozen_upper/jaw_front_axial_stop_washer",
+        "frozen_upper/jaw_front_axial_stop_screw",
+        "frozen_upper/lower_grip_backbone",
+        "frozen_upper/lower_grip_flat_screw_0",
+        "frozen_upper/lower_grip_nut_0",
+        "frozen_upper/lower_grip_flat_screw_1",
+        "frozen_upper/lower_grip_nut_1",
+        "frozen_upper/lower_grip_flat_screw_2",
+        "frozen_upper/lower_grip_nut_2",
+        "frozen_upper/lower_grip_flat_screw_3",
+        "frozen_upper/lower_grip_nut_3",
+        "frozen_upper/lower_grip_shell",
+        "frozen_upper/lower_grip_carrier",
+        "frozen_upper/lower_grip_cassette_pad"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_hip_yaw",
+      "mass_kg": 0.7281842325889366,
+      "centre_world_zero_m": [
+        0.017851897678977425,
+        -0.05459879231301332,
+        0.3227476059880656
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0012714220851790354,
+          3.586675635760226e-05,
+          -0.00013608468643861525
+        ],
+        [
+          3.586675635760226e-05,
+          0.0013747571060393079,
+          0.00027810349433966185
+        ],
+        [
+          -0.00013608468643861525,
+          0.00027810349433966185,
+          0.0005172923698724688
+        ]
+      ],
+      "item_count": 16,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        -0.08,
+        0.361675
+      ],
+      "com_local_m": [
+        0.005095822969890935,
+        0.025401207686986685,
+        -0.0389273940119344
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0012714220851790354,
+          3.586675635760226e-05,
+          -0.00013608468643861525
+        ],
+        [
+          3.586675635760226e-05,
+          0.0013747571060393079,
+          0.00027810349433966185
+        ],
+        [
+          -0.00013608468643861525,
+          0.00027810349433966185,
+          0.0005172923698724688
+        ]
+      ],
+      "source_mass_items": [
+        "right_hip_roll_catalog_case",
+        "right_new_yaw_to_roll_integral_C45_gimbal",
+        "right_main_yaw_inner_ring_ground_clamp_washer",
+        "right_yaw_drive_main_GPA20GT3090_A_H8_keyed",
+        "right_yaw_drive_main_parallel_key_3x3x12",
+        "right_yaw_drive_main_C45_clamp_washer",
+        "right_yaw_drive_main_M4x12_CSK",
+        "right_yaw_drive_main_stepped_inner_clamp_spacer",
+        "harness/right_hip_roll_power/1",
+        "harness/right_hip_pitch_power/1",
+        "harness/right_knee_pitch_power/1",
+        "harness/right_ankle_pitch_power/1",
+        "harness/right_ankle_roll_power/1",
+        "harness/can_a_mainline/2",
+        "harness/right_hip_roll_original_can_stub",
+        "harness/right_hip_roll_xt30_2p2_mate"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_hip_roll",
+      "mass_kg": 0.5299199923876452,
+      "centre_world_zero_m": [
+        0.0009273573417362237,
+        -0.09894535446626412,
+        0.32807490477387063
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0005394741720253641,
+          0.00024872872527529006,
+          -4.572595075841128e-05
+        ],
+        [
+          0.00024872872527529006,
+          0.0004467748776516015,
+          7.467094559052452e-05
+        ],
+        [
+          -4.572595075841128e-05,
+          7.467094559052452e-05,
+          0.0007320066992331997
+        ]
+      ],
+      "item_count": 22,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        -0.048,
+        0.3
+      ],
+      "com_local_m": [
+        -0.011828717367350267,
+        -0.05094535446626412,
+        0.028074904773870646
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0005394741720253641,
+          0.00024872872527529006,
+          -4.572595075841128e-05
+        ],
+        [
+          0.00024872872527529006,
+          0.0004467748776516015,
+          7.467094559052452e-05
+        ],
+        [
+          -4.572595075841128e-05,
+          7.467094559052452e-05,
+          0.0007320066992331997
+        ]
+      ],
+      "source_mass_items": [
+        "right_hip_pitch_catalog_case",
+        "right_thigh_proximal_rear_spacer_0",
+        "right_thigh_proximal_rear_spacer_1",
+        "right_thigh_proximal_rear_spacer_2",
+        "right_thigh_proximal_rear_spacer_3",
+        "right_thigh_shaft_end_washer",
+        "right_hip_roll_output_adapter",
+        "right_hip_guard_stator_csk_m3x8_0",
+        "right_hip_guard_stator_csk_m3x8_1",
+        "right_hip_guard_stator_csk_m3x8_2",
+        "right_hip_guard_stator_csk_m3x8_3",
+        "right_hip_guard_stator_csk_m3x8_4",
+        "right_hip_guard_stator_csk_m3x8_5",
+        "right_hip_inner_core",
+        "right_visible_thigh_shaft_stop_M3x6",
+        "harness/right_hip_pitch_power/2",
+        "harness/right_knee_pitch_power/2",
+        "harness/right_ankle_pitch_power/2",
+        "harness/right_ankle_roll_power/2",
+        "harness/right_hip_pitch_original_can_stub",
+        "harness/right_hip_pitch_xt30_2p2_mate",
+        "right_hip_roll_carrier_arm"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_hip_pitch",
+      "mass_kg": 0.9224645762705135,
+      "centre_world_zero_m": [
+        -0.00736496265027112,
+        -0.12633585621314805,
+        0.25903744495317815
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.002454065594083223,
+          1.3321441715003274e-05,
+          -0.000514709846649606
+        ],
+        [
+          1.3321441715003274e-05,
+          0.002415984749557255,
+          4.829206596105817e-05
+        ],
+        [
+          -0.000514709846649606,
+          4.829206596105817e-05,
+          0.0008665528091603768
+        ]
+      ],
+      "item_count": 82,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        -0.125,
+        0.3306454814052301
+      ],
+      "com_local_m": [
+        -0.02012103735935761,
+        -0.0013358562131480511,
+        -0.07160803645205194
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.002454065594083223,
+          1.3321441715003274e-05,
+          -0.000514709846649606
+        ],
+        [
+          1.3321441715003274e-05,
+          0.002415984749557255,
+          4.829206596105817e-05
+        ],
+        [
+          -0.000514709846649606,
+          4.829206596105817e-05,
+          0.0008665528091603768
+        ]
+      ],
+      "source_mass_items": [
+        "right_knee_pitch_catalog_case",
+        "right_thigh_output_adapter",
+        "right_thigh_distal_front_spacer_0",
+        "right_thigh_distal_front_spacer_1",
+        "right_thigh_distal_front_spacer_2",
+        "right_thigh_distal_front_spacer_3",
+        "right_thigh_distal_front_spacer_4",
+        "right_thigh_distal_front_spacer_5",
+        "right_thigh_distal_rear_spacer_inner_0",
+        "right_thigh_distal_rear_spacer_inner_1",
+        "right_thigh_distal_rear_spacer_inner_2",
+        "right_thigh_distal_rear_spacer_inner_3",
+        "right_thigh_idler_bearing_installation",
+        "right_thigh_bearing_outer_retainer",
+        "right_shin_stationary_idler_spider",
+        "right_shin_shaft_end_washer",
+        "right_thigh_rear_case_clamp_low_head_0_screw",
+        "right_thigh_rear_case_clamp_low_head_0_washer",
+        "right_thigh_rear_case_clamp_low_head_1_screw",
+        "right_thigh_rear_case_clamp_low_head_1_washer",
+        "right_thigh_rear_case_clamp_low_head_2_screw",
+        "right_thigh_rear_case_clamp_low_head_2_washer",
+        "right_thigh_rear_case_clamp_low_head_3_screw",
+        "right_thigh_rear_case_clamp_low_head_3_washer",
+        "right_visible_thigh_cover_M3_0_screw",
+        "right_visible_thigh_cover_M3_0_washer",
+        "right_visible_thigh_cover_M3_1_screw",
+        "right_visible_thigh_cover_M3_1_washer",
+        "right_visible_thigh_cover_M3_2_screw",
+        "right_visible_thigh_cover_M3_2_washer",
+        "right_visible_thigh_cover_M3_3_screw",
+        "right_visible_thigh_cover_M3_3_washer",
+        "right_visible_thigh_cover_M3_4_screw",
+        "right_visible_thigh_cover_M3_4_washer",
+        "right_visible_thigh_cover_M3_5_screw",
+        "right_visible_thigh_cover_M3_5_washer",
+        "right_visible_thigh_HP_PCD32_M3_0_screw",
+        "right_visible_thigh_HP_PCD32_M3_0_washer",
+        "right_visible_thigh_HP_PCD32_M3_1_screw",
+        "right_visible_thigh_HP_PCD32_M3_1_washer",
+        "right_visible_thigh_HP_PCD32_M3_2_screw",
+        "right_visible_thigh_HP_PCD32_M3_2_washer",
+        "right_visible_thigh_K_stator_PCD48_M3_0_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_0_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_0_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_0_washer_2",
+        "right_visible_thigh_K_stator_PCD48_M3_1_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_1_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_1_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_1_washer_2",
+        "right_visible_thigh_K_stator_PCD48_M3_2_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_2_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_2_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_2_washer_2",
+        "right_visible_thigh_K_stator_PCD48_M3_3_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_3_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_3_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_3_washer_2",
+        "right_visible_thigh_K_stator_PCD48_M3_4_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_4_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_4_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_4_washer_2",
+        "right_visible_thigh_K_stator_PCD48_M3_5_screw",
+        "right_visible_thigh_K_stator_PCD48_M3_5_washer_0",
+        "right_visible_thigh_K_stator_PCD48_M3_5_washer_1",
+        "right_visible_thigh_K_stator_PCD48_M3_5_washer_2",
+        "right_visible_thigh_HP_small_service_cap",
+        "right_visible_thigh_HP_service_M2p5_0",
+        "right_visible_thigh_HP_service_M2p5_1",
+        "right_visible_thigh_HP_service_M2p5_2",
+        "right_visible_thigh_outer_retainer_M2p5x5_0",
+        "right_visible_thigh_outer_retainer_M2p5x5_1",
+        "right_visible_thigh_outer_retainer_M2p5x5_2",
+        "right_visible_shin_shaft_stop_M3x6",
+        "harness/right_knee_pitch_power/3",
+        "harness/right_ankle_pitch_power/3",
+        "harness/right_ankle_roll_power/3",
+        "harness/can_b_mainline/2",
+        "harness/right_knee_pitch_original_can_stub",
+        "harness/right_knee_pitch_xt30_2p2_mate",
+        "right_visible_structural_thigh_inner_cover",
+        "right_visible_structural_thigh_primary_shell"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_knee_pitch",
+      "mass_kg": 0.8776014572273547,
+      "centre_world_zero_m": [
+        -0.00031861137907851066,
+        -0.12144489552076096,
+        0.14121476918454473
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.003603138723139056,
+          -9.953523164167875e-06,
+          0.0005416950454761782
+        ],
+        [
+          -9.953523164167875e-06,
+          0.003222283267318181,
+          4.054312532941913e-05
+        ],
+        [
+          0.0005416950454761782,
+          4.054312532941913e-05,
+          0.0009649224631702967
+        ]
+      ],
+      "item_count": 51,
+      "origin_world_zero_m": [
+        -0.017174829893573926,
+        -0.125,
+        0.22632476182851138
+      ],
+      "com_local_m": [
+        0.016856218514495414,
+        0.0035551044792390407,
+        -0.08510999264396665
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.003603138723139056,
+          -9.953523164167875e-06,
+          0.0005416950454761782
+        ],
+        [
+          -9.953523164167875e-06,
+          0.003222283267318181,
+          4.054312532941913e-05
+        ],
+        [
+          0.0005416950454761782,
+          4.054312532941913e-05,
+          0.0009649224631702967
+        ]
+      ],
+      "source_mass_items": [
+        "right_ankle_pitch_catalog_case",
+        "right_shin_output_adapter",
+        "right_shin_idler_bearing_installation",
+        "right_shin_bearing_outer_retainer",
+        "right_compact_ap_stator_front_csk_0",
+        "right_compact_ap_stator_front_csk_1",
+        "right_compact_ap_stator_front_csk_2",
+        "right_compact_ap_stator_front_csk_3",
+        "right_compact_ap_stator_front_csk_4",
+        "right_compact_ap_stator_front_csk_5",
+        "right_compact_ap_stator_rear_csk_0",
+        "right_compact_ap_stator_rear_csk_1",
+        "right_compact_ap_stator_rear_csk_2",
+        "right_compact_ap_stator_rear_csk_3",
+        "right_compact_ap_axial_bearing_clamp",
+        "right_compact_ap_axial_clamp_csk",
+        "right_visible_shin_K_PCD32_M3_0_screw",
+        "right_visible_shin_K_PCD32_M3_0_washer_0",
+        "right_visible_shin_K_PCD32_M3_0_washer_1",
+        "right_visible_shin_K_PCD32_M3_1_screw",
+        "right_visible_shin_K_PCD32_M3_1_washer_0",
+        "right_visible_shin_K_PCD32_M3_1_washer_1",
+        "right_visible_shin_K_PCD32_M3_2_screw",
+        "right_visible_shin_K_PCD32_M3_2_washer_0",
+        "right_visible_shin_K_PCD32_M3_2_washer_1",
+        "right_visible_shin_K_small_service_cap",
+        "right_visible_shin_K_service_M2p5_0",
+        "right_visible_shin_K_service_M2p5_1",
+        "right_visible_shin_K_service_M2p5_2",
+        "right_visible_shin_outer_retainer_M2p5x5_0",
+        "right_visible_shin_outer_retainer_M2p5x5_1",
+        "right_visible_shin_outer_retainer_M2p5x5_2",
+        "harness/right_ankle_pitch_power/4",
+        "harness/right_ankle_roll_power/4",
+        "harness/can_b_mainline/1",
+        "harness/right_ankle_pitch_original_can_stub",
+        "harness/right_ankle_pitch_xt30_2p2_mate",
+        "right_visible_shin_cover_M3_0_screw",
+        "right_visible_shin_cover_M3_0_washer",
+        "right_visible_shin_cover_M3_1_screw",
+        "right_visible_shin_cover_M3_1_washer",
+        "right_visible_shin_cover_M3_2_screw",
+        "right_visible_shin_cover_M3_2_washer",
+        "right_visible_shin_cover_M3_3_screw",
+        "right_visible_shin_cover_M3_3_washer",
+        "right_visible_shin_cover_M3_4_screw",
+        "right_visible_shin_cover_M3_4_washer",
+        "right_visible_shin_cover_M3_5_screw",
+        "right_visible_shin_cover_M3_5_washer",
+        "right_visible_structural_shin_primary_shell",
+        "right_visible_structural_shin_inner_C45_cover"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_ankle_pitch",
+      "mass_kg": 0.5654759215726818,
+      "centre_world_zero_m": [
+        0.041972929376092184,
+        -0.1264776983183649,
+        0.05548178164992065
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0006050904804589056,
+          2.5712974808669997e-05,
+          0.00019321471738868072
+        ],
+        [
+          2.5712974808669997e-05,
+          0.0006525972460770884,
+          -5.1204420695304605e-06
+        ],
+        [
+          0.00019321471738868072,
+          -5.1204420695304605e-06,
+          0.0006278943120862645
+        ]
+      ],
+      "item_count": 41,
+      "origin_world_zero_m": [
+        0.009576627833366786,
+        -0.125,
+        0.09100664866719005
+      ],
+      "com_local_m": [
+        0.032396301542725395,
+        -0.0014776983183648895,
+        -0.035524867017269396
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0006050904804589056,
+          2.5712974808669997e-05,
+          0.00019321471738868072
+        ],
+        [
+          2.5712974808669997e-05,
+          0.0006525972460770884,
+          -5.1204420695304605e-06
+        ],
+        [
+          0.00019321471738868072,
+          -5.1204420695304605e-06,
+          0.0006278943120862645
+        ]
+      ],
+      "source_mass_items": [
+        "right_ankle_roll_stationary_spider",
+        "right_ankle_roll_catalog_case",
+        "right_ankle_pitch_rear_fork",
+        "right_ankle_pitch_bearing",
+        "right_ankle_pitch_bearing_cover",
+        "right_compact_ap_rear_bridge_csk_0",
+        "right_compact_ap_rear_bridge_csk_1",
+        "right_compact_ap_outer_retainer_m2p5x5_0",
+        "right_compact_ap_outer_retainer_m2p5x5_1",
+        "right_compact_ap_outer_retainer_m2p5x5_2",
+        "right_compact_ap_rear_cap_radial_csk_0",
+        "right_compact_ap_rear_cap_radial_csk_1",
+        "right_AR_rear_stator_M2p5x6_0",
+        "right_AR_rear_stator_M2p5x6_1",
+        "right_AR_rear_stator_M2p5x6_2",
+        "right_AR_rear_stator_M2p5x6_3",
+        "right_compact_AR_inner_race_clamp",
+        "right_AR_inner_race_clamp_M3x6",
+        "harness/right_ankle_roll_power/5",
+        "harness/can_b_mainline/0",
+        "harness/right_ankle_roll_original_can_stub",
+        "harness/right_ankle_roll_xt30_2p2_mate",
+        "right_compact_ap_output_csk_0",
+        "right_compact_ap_output_csk_1",
+        "right_compact_ap_output_csk_2",
+        "right_compact_ap_output_csk_3",
+        "right_compact_ap_output_csk_4",
+        "right_compact_ap_output_csk_5",
+        "right_compact_ap_front_cap_csk_0",
+        "right_compact_ap_front_cap_csk_1",
+        "right_compact_ap_front_cap_csk_2",
+        "right_ankle_pitch_7075_load_body_009_c02",
+        "right_ankle_pitch_qt_steel_collector_009_c02",
+        "right_AR_front_stator_M2p5x10_009_0",
+        "right_AR_front_stator_M2p5x10_009_1",
+        "right_AR_front_stator_M2p5x10_009_2",
+        "right_AR_front_stator_M2p5x10_009_3",
+        "right_AR_front_stator_M2p5x10_009_4",
+        "right_AR_front_stator_M2p5x10_009_5",
+        "right_visible_AP_inboard_coaxial_service_shell_clearance_009_c09",
+        "right_visible_AP_outboard_coaxial_service_shell_clearance_009_c09"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_ankle_roll",
+      "mass_kg": 0.3710953811304649,
+      "centre_world_zero_m": [
+        0.049103986517907504,
+        -0.12439074005172308,
+        0.013652127393525823
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.00022932858175558156,
+          -8.632433973291534e-07,
+          -1.5668480587596184e-05
+        ],
+        [
+          -8.632433973291534e-07,
+          0.0006797153777983718,
+          -7.0762322122250826e-06
+        ],
+        [
+          -1.5668480587596184e-05,
+          -7.0762322122250826e-06,
+          0.0006971471773818866
+        ]
+      ],
+      "item_count": 53,
+      "origin_world_zero_m": [
+        0.07014999999999999,
+        -0.125,
+        0.040655
+      ],
+      "com_local_m": [
+        -0.021046013482092486,
+        0.0006092599482769162,
+        -0.027002872606474174
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.00022932858175558156,
+          -8.632433973291534e-07,
+          -1.5668480587596184e-05
+        ],
+        [
+          -8.632433973291534e-07,
+          0.0006797153777983718,
+          -7.0762322122250826e-06
+        ],
+        [
+          -1.5668480587596184e-05,
+          -7.0762322122250826e-06,
+          0.0006971471773818866
+        ]
+      ],
+      "source_mass_items": [
+        "right_ankle_roll_output_adapter",
+        "right_ankle_roll_bearing",
+        "right_ankle_roll_bearing_cover",
+        "right_ankle_tapped_load_plate",
+        "right_foot_front_saddle",
+        "right_foot_rear_saddle",
+        "right_sole_mount_screw_0",
+        "right_sole_mount_washer_0",
+        "right_sole_compression_sleeve_0",
+        "right_shoe_retention_clip_0",
+        "right_sole_mount_screw_1",
+        "right_sole_mount_washer_1",
+        "right_sole_compression_sleeve_1",
+        "right_shoe_retention_clip_1",
+        "right_sole_mount_screw_2",
+        "right_sole_mount_washer_2",
+        "right_sole_compression_sleeve_2",
+        "right_shoe_retention_clip_2",
+        "right_sole_mount_screw_3",
+        "right_sole_mount_washer_3",
+        "right_sole_compression_sleeve_3",
+        "right_shoe_retention_clip_3",
+        "right_flat_rounded_sole",
+        "right_compact_saddle_plate_m3x8_0",
+        "right_compact_saddle_plate_washer_0",
+        "right_compact_saddle_plate_m3x8_1",
+        "right_compact_saddle_plate_washer_1",
+        "right_compact_saddle_plate_m3x8_2",
+        "right_compact_saddle_plate_m3x8_3",
+        "right_compact_saddle_plate_m3x8_4",
+        "right_compact_saddle_plate_washer_4",
+        "right_compact_saddle_plate_m3x8_5",
+        "right_compact_saddle_plate_washer_5",
+        "right_compact_saddle_plate_m3x8_6",
+        "right_compact_saddle_plate_washer_6",
+        "right_compact_saddle_plate_m3x8_7",
+        "right_compact_saddle_plate_washer_7",
+        "right_AR_rotor_M2p5x8_0",
+        "right_AR_rotor_M2p5x8_1",
+        "right_AR_rotor_M2p5x8_2",
+        "right_AR_adapter_to_front_saddle_M3x10_0",
+        "right_AR_adapter_to_front_saddle_washer_0",
+        "right_AR_adapter_to_front_saddle_M3x10_1",
+        "right_AR_adapter_to_front_saddle_washer_1",
+        "right_AR_adapter_to_front_saddle_M3x10_2",
+        "right_AR_adapter_to_front_saddle_washer_2",
+        "right_AR_outer_retainer_M2p5x6_0",
+        "right_AR_outer_retainer_washer_0",
+        "right_AR_outer_retainer_M2p5x6_1",
+        "right_AR_outer_retainer_washer_1",
+        "right_AR_outer_retainer_M2p5x6_2",
+        "right_AR_outer_retainer_washer_2",
+        "right_integrated_AR_shoe_crown_continuous_009_c03"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_hip_yaw",
+      "mass_kg": 0.7281897695388784,
+      "centre_world_zero_m": [
+        0.017851782917231263,
+        0.054598742196633854,
+        0.3227475790159045
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.001271423077794949,
+          -3.586730915079179e-05,
+          -0.00013608498137895387
+        ],
+        [
+          -3.586730915079179e-05,
+          0.001374759084790501,
+          -0.00027810365935954155
+        ],
+        [
+          -0.00013608498137895387,
+          -0.00027810365935954155,
+          0.0005172939074236394
+        ]
+      ],
+      "item_count": 16,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        0.08,
+        0.361675
+      ],
+      "com_local_m": [
+        0.005095708208144773,
+        -0.025401257803366148,
+        -0.03892742098409552
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.001271423077794949,
+          -3.586730915079179e-05,
+          -0.00013608498137895387
+        ],
+        [
+          -3.586730915079179e-05,
+          0.001374759084790501,
+          -0.00027810365935954155
+        ],
+        [
+          -0.00013608498137895387,
+          -0.00027810365935954155,
+          0.0005172939074236394
+        ]
+      ],
+      "source_mass_items": [
+        "left_hip_roll_catalog_case",
+        "left_new_yaw_to_roll_integral_C45_gimbal",
+        "left_main_yaw_inner_ring_ground_clamp_washer",
+        "left_yaw_drive_main_GPA20GT3090_A_H8_keyed",
+        "left_yaw_drive_main_parallel_key_3x3x12",
+        "left_yaw_drive_main_C45_clamp_washer",
+        "left_yaw_drive_main_M4x12_CSK",
+        "left_yaw_drive_main_stepped_inner_clamp_spacer",
+        "harness/left_hip_roll_power/1",
+        "harness/left_hip_pitch_power/1",
+        "harness/left_knee_pitch_power/1",
+        "harness/left_ankle_pitch_power/1",
+        "harness/left_ankle_roll_power/1",
+        "harness/can_a_mainline/0",
+        "harness/left_hip_roll_original_can_stub",
+        "harness/left_hip_roll_xt30_2p2_mate"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_hip_roll",
+      "mass_kg": 0.5294860413985729,
+      "centre_world_zero_m": [
+        0.0009794037627565454,
+        0.09895277985188387,
+        0.32807851259605597
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0005403291846861558,
+          -0.0002481418534096041,
+          -4.5490495366070185e-05
+        ],
+        [
+          -0.0002481418534096041,
+          0.00044530515240623353,
+          -7.48624760678099e-05
+        ],
+        [
+          -4.5490495366070185e-05,
+          -7.48624760678099e-05,
+          0.0007311229777699771
+        ]
+      ],
+      "item_count": 22,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        0.048,
+        0.3
+      ],
+      "com_local_m": [
+        -0.011776670946329944,
+        0.05095277985188387,
+        0.028078512596055982
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0005403291846861558,
+          -0.0002481418534096041,
+          -4.5490495366070185e-05
+        ],
+        [
+          -0.0002481418534096041,
+          0.00044530515240623353,
+          -7.48624760678099e-05
+        ],
+        [
+          -4.5490495366070185e-05,
+          -7.48624760678099e-05,
+          0.0007311229777699771
+        ]
+      ],
+      "source_mass_items": [
+        "left_hip_pitch_catalog_case",
+        "left_thigh_proximal_rear_spacer_0",
+        "left_thigh_proximal_rear_spacer_1",
+        "left_thigh_proximal_rear_spacer_2",
+        "left_thigh_proximal_rear_spacer_3",
+        "left_thigh_shaft_end_washer",
+        "left_hip_roll_output_adapter",
+        "left_hip_guard_stator_csk_m3x8_0",
+        "left_hip_guard_stator_csk_m3x8_1",
+        "left_hip_guard_stator_csk_m3x8_2",
+        "left_hip_guard_stator_csk_m3x8_3",
+        "left_hip_guard_stator_csk_m3x8_4",
+        "left_hip_guard_stator_csk_m3x8_5",
+        "left_hip_inner_core",
+        "left_visible_thigh_shaft_stop_M3x6",
+        "harness/left_hip_pitch_power/2",
+        "harness/left_knee_pitch_power/2",
+        "harness/left_ankle_pitch_power/2",
+        "harness/left_ankle_roll_power/2",
+        "harness/left_hip_pitch_original_can_stub",
+        "harness/left_hip_pitch_xt30_2p2_mate",
+        "left_hip_roll_carrier_arm"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_hip_pitch",
+      "mass_kg": 0.9220472585751143,
+      "centre_world_zero_m": [
+        -0.0073765467126083225,
+        0.12632979454264529,
+        0.25899177309881466
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.002449744928455813,
+          -1.3209497011839487e-05,
+          -0.0005136948320537214
+        ],
+        [
+          -1.3209497011839487e-05,
+          0.002411466861911516,
+          -4.7766142175238755e-05
+        ],
+        [
+          -0.0005136948320537214,
+          -4.7766142175238755e-05,
+          0.0008661656227566789
+        ]
+      ],
+      "item_count": 82,
+      "origin_world_zero_m": [
+        0.01275607470908649,
+        0.125,
+        0.3306454814052301
+      ],
+      "com_local_m": [
+        -0.020132621421694814,
+        0.001329794542645285,
+        -0.07165370830641543
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.002449744928455813,
+          -1.3209497011839487e-05,
+          -0.0005136948320537214
+        ],
+        [
+          -1.3209497011839487e-05,
+          0.002411466861911516,
+          -4.7766142175238755e-05
+        ],
+        [
+          -0.0005136948320537214,
+          -4.7766142175238755e-05,
+          0.0008661656227566789
+        ]
+      ],
+      "source_mass_items": [
+        "left_knee_pitch_catalog_case",
+        "left_thigh_output_adapter",
+        "left_thigh_distal_front_spacer_0",
+        "left_thigh_distal_front_spacer_1",
+        "left_thigh_distal_front_spacer_2",
+        "left_thigh_distal_front_spacer_3",
+        "left_thigh_distal_front_spacer_4",
+        "left_thigh_distal_front_spacer_5",
+        "left_thigh_distal_rear_spacer_inner_0",
+        "left_thigh_distal_rear_spacer_inner_1",
+        "left_thigh_distal_rear_spacer_inner_2",
+        "left_thigh_distal_rear_spacer_inner_3",
+        "left_thigh_idler_bearing_installation",
+        "left_thigh_bearing_outer_retainer",
+        "left_shin_stationary_idler_spider",
+        "left_shin_shaft_end_washer",
+        "left_thigh_rear_case_clamp_low_head_0_screw",
+        "left_thigh_rear_case_clamp_low_head_0_washer",
+        "left_thigh_rear_case_clamp_low_head_1_screw",
+        "left_thigh_rear_case_clamp_low_head_1_washer",
+        "left_thigh_rear_case_clamp_low_head_2_screw",
+        "left_thigh_rear_case_clamp_low_head_2_washer",
+        "left_thigh_rear_case_clamp_low_head_3_screw",
+        "left_thigh_rear_case_clamp_low_head_3_washer",
+        "left_visible_thigh_cover_M3_0_screw",
+        "left_visible_thigh_cover_M3_0_washer",
+        "left_visible_thigh_cover_M3_1_screw",
+        "left_visible_thigh_cover_M3_1_washer",
+        "left_visible_thigh_cover_M3_2_screw",
+        "left_visible_thigh_cover_M3_2_washer",
+        "left_visible_thigh_cover_M3_3_screw",
+        "left_visible_thigh_cover_M3_3_washer",
+        "left_visible_thigh_cover_M3_4_screw",
+        "left_visible_thigh_cover_M3_4_washer",
+        "left_visible_thigh_cover_M3_5_screw",
+        "left_visible_thigh_cover_M3_5_washer",
+        "left_visible_thigh_HP_PCD32_M3_0_screw",
+        "left_visible_thigh_HP_PCD32_M3_0_washer",
+        "left_visible_thigh_HP_PCD32_M3_1_screw",
+        "left_visible_thigh_HP_PCD32_M3_1_washer",
+        "left_visible_thigh_HP_PCD32_M3_2_screw",
+        "left_visible_thigh_HP_PCD32_M3_2_washer",
+        "left_visible_thigh_K_stator_PCD48_M3_0_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_0_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_0_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_0_washer_2",
+        "left_visible_thigh_K_stator_PCD48_M3_1_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_1_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_1_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_1_washer_2",
+        "left_visible_thigh_K_stator_PCD48_M3_2_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_2_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_2_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_2_washer_2",
+        "left_visible_thigh_K_stator_PCD48_M3_3_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_3_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_3_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_3_washer_2",
+        "left_visible_thigh_K_stator_PCD48_M3_4_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_4_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_4_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_4_washer_2",
+        "left_visible_thigh_K_stator_PCD48_M3_5_screw",
+        "left_visible_thigh_K_stator_PCD48_M3_5_washer_0",
+        "left_visible_thigh_K_stator_PCD48_M3_5_washer_1",
+        "left_visible_thigh_K_stator_PCD48_M3_5_washer_2",
+        "left_visible_thigh_HP_small_service_cap",
+        "left_visible_thigh_HP_service_M2p5_0",
+        "left_visible_thigh_HP_service_M2p5_1",
+        "left_visible_thigh_HP_service_M2p5_2",
+        "left_visible_thigh_outer_retainer_M2p5x5_0",
+        "left_visible_thigh_outer_retainer_M2p5x5_1",
+        "left_visible_thigh_outer_retainer_M2p5x5_2",
+        "left_visible_shin_shaft_stop_M3x6",
+        "harness/left_knee_pitch_power/3",
+        "harness/left_ankle_pitch_power/3",
+        "harness/left_ankle_roll_power/3",
+        "harness/can_b_mainline/4",
+        "harness/left_knee_pitch_original_can_stub",
+        "harness/left_knee_pitch_xt30_2p2_mate",
+        "left_visible_structural_thigh_inner_cover",
+        "left_visible_structural_thigh_primary_shell"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_knee_pitch",
+      "mass_kg": 0.877705890856404,
+      "centre_world_zero_m": [
+        -0.0003262789396444077,
+        0.12143307163216999,
+        0.1412478851279874
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0036059679824242802,
+          9.862467274252408e-06,
+          0.0005417774119652809
+        ],
+        [
+          9.862467274252408e-06,
+          0.0032245418261896723,
+          -3.948877843185951e-05
+        ],
+        [
+          0.0005417774119652809,
+          -3.948877843185951e-05,
+          0.0009652170631648555
+        ]
+      ],
+      "item_count": 51,
+      "origin_world_zero_m": [
+        -0.017174829893573926,
+        0.125,
+        0.22632476182851138
+      ],
+      "com_local_m": [
+        0.01684855095392952,
+        -0.0035669283678300134,
+        -0.085076876700524
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0036059679824242802,
+          9.862467274252408e-06,
+          0.0005417774119652809
+        ],
+        [
+          9.862467274252408e-06,
+          0.0032245418261896723,
+          -3.948877843185951e-05
+        ],
+        [
+          0.0005417774119652809,
+          -3.948877843185951e-05,
+          0.0009652170631648555
+        ]
+      ],
+      "source_mass_items": [
+        "left_ankle_pitch_catalog_case",
+        "left_shin_output_adapter",
+        "left_shin_idler_bearing_installation",
+        "left_shin_bearing_outer_retainer",
+        "left_compact_ap_stator_front_csk_0",
+        "left_compact_ap_stator_front_csk_1",
+        "left_compact_ap_stator_front_csk_2",
+        "left_compact_ap_stator_front_csk_3",
+        "left_compact_ap_stator_front_csk_4",
+        "left_compact_ap_stator_front_csk_5",
+        "left_compact_ap_stator_rear_csk_0",
+        "left_compact_ap_stator_rear_csk_1",
+        "left_compact_ap_stator_rear_csk_2",
+        "left_compact_ap_stator_rear_csk_3",
+        "left_compact_ap_axial_bearing_clamp",
+        "left_compact_ap_axial_clamp_csk",
+        "left_visible_shin_K_PCD32_M3_0_screw",
+        "left_visible_shin_K_PCD32_M3_0_washer_0",
+        "left_visible_shin_K_PCD32_M3_0_washer_1",
+        "left_visible_shin_K_PCD32_M3_1_screw",
+        "left_visible_shin_K_PCD32_M3_1_washer_0",
+        "left_visible_shin_K_PCD32_M3_1_washer_1",
+        "left_visible_shin_K_PCD32_M3_2_screw",
+        "left_visible_shin_K_PCD32_M3_2_washer_0",
+        "left_visible_shin_K_PCD32_M3_2_washer_1",
+        "left_visible_shin_K_small_service_cap",
+        "left_visible_shin_K_service_M2p5_0",
+        "left_visible_shin_K_service_M2p5_1",
+        "left_visible_shin_K_service_M2p5_2",
+        "left_visible_shin_outer_retainer_M2p5x5_0",
+        "left_visible_shin_outer_retainer_M2p5x5_1",
+        "left_visible_shin_outer_retainer_M2p5x5_2",
+        "harness/left_ankle_pitch_power/4",
+        "harness/left_ankle_roll_power/4",
+        "harness/can_b_mainline/5",
+        "harness/left_ankle_pitch_original_can_stub",
+        "harness/left_ankle_pitch_xt30_2p2_mate",
+        "left_visible_shin_cover_M3_0_screw",
+        "left_visible_shin_cover_M3_0_washer",
+        "left_visible_shin_cover_M3_1_screw",
+        "left_visible_shin_cover_M3_1_washer",
+        "left_visible_shin_cover_M3_2_screw",
+        "left_visible_shin_cover_M3_2_washer",
+        "left_visible_shin_cover_M3_3_screw",
+        "left_visible_shin_cover_M3_3_washer",
+        "left_visible_shin_cover_M3_4_screw",
+        "left_visible_shin_cover_M3_4_washer",
+        "left_visible_shin_cover_M3_5_screw",
+        "left_visible_shin_cover_M3_5_washer",
+        "left_visible_structural_shin_primary_shell",
+        "left_visible_structural_shin_inner_C45_cover"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_ankle_pitch",
+      "mass_kg": 0.5654776419762635,
+      "centre_world_zero_m": [
+        0.04197176715783911,
+        0.1264777703381428,
+        0.05548164122912376
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0006050806246291813,
+          -2.5695251784872073e-05,
+          0.00019324261498432108
+        ],
+        [
+          -2.5695251784872073e-05,
+          0.0006526329998419046,
+          5.1226388015055104e-06
+        ],
+        [
+          0.00019324261498432108,
+          5.1226388015055104e-06,
+          0.0006279417321835509
+        ]
+      ],
+      "item_count": 41,
+      "origin_world_zero_m": [
+        0.009576627833366786,
+        0.125,
+        0.09100664866719005
+      ],
+      "com_local_m": [
+        0.03239513932447233,
+        0.0014777703381428087,
+        -0.03552500743806629
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0006050806246291813,
+          -2.5695251784872073e-05,
+          0.00019324261498432108
+        ],
+        [
+          -2.5695251784872073e-05,
+          0.0006526329998419046,
+          5.1226388015055104e-06
+        ],
+        [
+          0.00019324261498432108,
+          5.1226388015055104e-06,
+          0.0006279417321835509
+        ]
+      ],
+      "source_mass_items": [
+        "left_ankle_roll_stationary_spider",
+        "left_ankle_roll_catalog_case",
+        "left_ankle_pitch_rear_fork",
+        "left_ankle_pitch_bearing",
+        "left_ankle_pitch_bearing_cover",
+        "left_compact_ap_rear_bridge_csk_0",
+        "left_compact_ap_rear_bridge_csk_1",
+        "left_compact_ap_outer_retainer_m2p5x5_0",
+        "left_compact_ap_outer_retainer_m2p5x5_1",
+        "left_compact_ap_outer_retainer_m2p5x5_2",
+        "left_compact_ap_rear_cap_radial_csk_0",
+        "left_compact_ap_rear_cap_radial_csk_1",
+        "left_AR_rear_stator_M2p5x6_0",
+        "left_AR_rear_stator_M2p5x6_1",
+        "left_AR_rear_stator_M2p5x6_2",
+        "left_AR_rear_stator_M2p5x6_3",
+        "left_compact_AR_inner_race_clamp",
+        "left_AR_inner_race_clamp_M3x6",
+        "harness/left_ankle_roll_power/5",
+        "harness/can_b_mainline/6",
+        "harness/left_ankle_roll_original_can_stub",
+        "harness/left_ankle_roll_xt30_2p2_mate",
+        "left_compact_ap_output_csk_0",
+        "left_compact_ap_output_csk_1",
+        "left_compact_ap_output_csk_2",
+        "left_compact_ap_output_csk_3",
+        "left_compact_ap_output_csk_4",
+        "left_compact_ap_output_csk_5",
+        "left_compact_ap_front_cap_csk_0",
+        "left_compact_ap_front_cap_csk_1",
+        "left_compact_ap_front_cap_csk_2",
+        "left_ankle_pitch_7075_load_body_009_c02",
+        "left_ankle_pitch_qt_steel_collector_009_c02",
+        "left_AR_front_stator_M2p5x10_009_0",
+        "left_AR_front_stator_M2p5x10_009_1",
+        "left_AR_front_stator_M2p5x10_009_2",
+        "left_AR_front_stator_M2p5x10_009_3",
+        "left_AR_front_stator_M2p5x10_009_4",
+        "left_AR_front_stator_M2p5x10_009_5",
+        "left_visible_AP_inboard_coaxial_service_shell_clearance_009_c09",
+        "left_visible_AP_outboard_coaxial_service_shell_clearance_009_c09"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_ankle_roll",
+      "mass_kg": 0.3711383050370359,
+      "centre_world_zero_m": [
+        0.049107506307932876,
+        0.12439420632243534,
+        0.013652359092173714
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          0.0002293685211635448,
+          8.247809957806561e-07,
+          -1.5671112079744197e-05
+        ],
+        [
+          8.247809957806561e-07,
+          0.0006797551772293112,
+          7.073519510572247e-06
+        ],
+        [
+          -1.5671112079744197e-05,
+          7.073519510572247e-06,
+          0.000697226976791358
+        ]
+      ],
+      "item_count": 53,
+      "origin_world_zero_m": [
+        0.07014999999999999,
+        0.125,
+        0.040655
+      ],
+      "com_local_m": [
+        -0.021042493692067114,
+        -0.0006057936775646644,
+        -0.02700264090782628
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          0.0002293685211635448,
+          8.247809957806561e-07,
+          -1.5671112079744197e-05
+        ],
+        [
+          8.247809957806561e-07,
+          0.0006797551772293112,
+          7.073519510572247e-06
+        ],
+        [
+          -1.5671112079744197e-05,
+          7.073519510572247e-06,
+          0.000697226976791358
+        ]
+      ],
+      "source_mass_items": [
+        "left_ankle_roll_output_adapter",
+        "left_ankle_roll_bearing",
+        "left_ankle_roll_bearing_cover",
+        "left_ankle_tapped_load_plate",
+        "left_foot_front_saddle",
+        "left_foot_rear_saddle",
+        "left_sole_mount_screw_0",
+        "left_sole_mount_washer_0",
+        "left_sole_compression_sleeve_0",
+        "left_shoe_retention_clip_0",
+        "left_sole_mount_screw_1",
+        "left_sole_mount_washer_1",
+        "left_sole_compression_sleeve_1",
+        "left_shoe_retention_clip_1",
+        "left_sole_mount_screw_2",
+        "left_sole_mount_washer_2",
+        "left_sole_compression_sleeve_2",
+        "left_shoe_retention_clip_2",
+        "left_sole_mount_screw_3",
+        "left_sole_mount_washer_3",
+        "left_sole_compression_sleeve_3",
+        "left_shoe_retention_clip_3",
+        "left_flat_rounded_sole",
+        "left_compact_saddle_plate_m3x8_0",
+        "left_compact_saddle_plate_washer_0",
+        "left_compact_saddle_plate_m3x8_1",
+        "left_compact_saddle_plate_washer_1",
+        "left_compact_saddle_plate_m3x8_2",
+        "left_compact_saddle_plate_m3x8_3",
+        "left_compact_saddle_plate_m3x8_4",
+        "left_compact_saddle_plate_washer_4",
+        "left_compact_saddle_plate_m3x8_5",
+        "left_compact_saddle_plate_washer_5",
+        "left_compact_saddle_plate_m3x8_6",
+        "left_compact_saddle_plate_washer_6",
+        "left_compact_saddle_plate_m3x8_7",
+        "left_compact_saddle_plate_washer_7",
+        "left_AR_rotor_M2p5x8_0",
+        "left_AR_rotor_M2p5x8_1",
+        "left_AR_rotor_M2p5x8_2",
+        "left_AR_adapter_to_front_saddle_M3x10_0",
+        "left_AR_adapter_to_front_saddle_washer_0",
+        "left_AR_adapter_to_front_saddle_M3x10_1",
+        "left_AR_adapter_to_front_saddle_washer_1",
+        "left_AR_adapter_to_front_saddle_M3x10_2",
+        "left_AR_adapter_to_front_saddle_washer_2",
+        "left_AR_outer_retainer_M2p5x6_0",
+        "left_AR_outer_retainer_washer_0",
+        "left_AR_outer_retainer_M2p5x6_1",
+        "left_AR_outer_retainer_washer_1",
+        "left_AR_outer_retainer_M2p5x6_2",
+        "left_AR_outer_retainer_washer_2",
+        "left_integrated_AR_shoe_crown_continuous_009_c03"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "beak_input_rotor",
+      "mass_kg": 0.01713015122738488,
+      "centre_world_zero_m": [
+        0.1147270879629855,
+        0.03003717925488145,
+        0.6320528796224877
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          1.5634736654262069e-06,
+          7.115889094387172e-08,
+          -1.1318918128567366e-07
+        ],
+        [
+          7.115889094387172e-08,
+          2.7057723164570136e-06,
+          1.2325081452502557e-07
+        ],
+        [
+          -1.1318918128567366e-07,
+          1.2325081452502557e-07,
+          1.4327800005069282e-06
+        ]
+      ],
+      "item_count": 4,
+      "origin_world_zero_m": [
+        0.11544999999999998,
+        0.0,
+        0.633305
+      ],
+      "com_local_m": [
+        -0.0007229120370144809,
+        0.03003717925488145,
+        -0.0012521203775123224
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          1.5634736654262069e-06,
+          7.115889094387172e-08,
+          -1.1318918128567366e-07
+        ],
+        [
+          7.115889094387172e-08,
+          2.7057723164570136e-06,
+          1.2325081452502557e-07
+        ],
+        [
+          -1.1318918128567366e-07,
+          1.2325081452502557e-07,
+          1.4327800005069282e-06
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/beak_native_input_flange",
+        "frozen_upper/beak_input_steel_sleeve",
+        "frozen_upper/beak_input_washer",
+        "frozen_upper/beak_input_button_screw"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "beak_coupler_link",
+      "mass_kg": 0.005177307249452544,
+      "centre_world_zero_m": [
+        0.1249499998884873,
+        0.034964001297447034,
+        0.610412694785926
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          4.491418684817478e-07,
+          2.0788191336678674e-17,
+          4.86899471599082e-07
+        ],
+        [
+          2.0788191336678674e-17,
+          1.0949643091432264e-06,
+          6.878909578298965e-17
+        ],
+        [
+          4.86899471599082e-07,
+          6.878909578298965e-17,
+          6.602364291911629e-07
+        ]
+      ],
+      "item_count": 3,
+      "origin_world_zero_m": [
+        0.10944999999999998,
+        0.0,
+        0.6229126951545867
+      ],
+      "com_local_m": [
+        0.015499999888487326,
+        0.034964001297447034,
+        -0.012500000368660724
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          4.491418684817478e-07,
+          2.0788191336678674e-17,
+          4.86899471599082e-07
+        ],
+        [
+          2.0788191336678674e-17,
+          1.0949643091432264e-06,
+          6.878909578298965e-17
+        ],
+        [
+          4.86899471599082e-07,
+          6.878909578298965e-17,
+          6.602364291911629e-07
+        ]
+      ],
+      "source_mass_items": [
+        "frozen_upper/beak_native_coupler",
+        "frozen_upper/beak_input_bush_candidate",
+        "frozen_upper/beak_output_bush_candidate"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "left_yaw_input_rotor",
+      "mass_kg": 0.0629899297483423,
+      "centre_world_zero_m": [
+        -0.03576971125834765,
+        0.059999999994903956,
+        0.41473416951611247
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          1.324370827115103e-05,
+          -3.618439302653272e-14,
+          3.6292054301595423e-09
+        ],
+        [
+          -3.618439302653272e-14,
+          1.3248962059897688e-05,
+          -9.589850016082976e-16
+        ],
+        [
+          3.6292054301595423e-09,
+          -9.589850016082976e-16,
+          4.201878066145522e-06
+        ]
+      ],
+      "item_count": 18,
+      "origin_world_zero_m": [
+        -0.03578514488828251,
+        0.06,
+        0.38
+      ],
+      "com_local_m": [
+        1.5433629934856474e-05,
+        -5.096041644225835e-12,
+        0.03473416951611247
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          1.324370827115103e-05,
+          -3.618439302653272e-14,
+          3.6292054301595423e-09
+        ],
+        [
+          -3.618439302653272e-14,
+          1.3248962059897688e-05,
+          -9.589850016082976e-16
+        ],
+        [
+          3.6292054301595423e-09,
+          -9.589850016082976e-16,
+          4.201878066145522e-06
+        ]
+      ],
+      "source_mass_items": [
+        "left_driver_true_output_C45_flange",
+        "left_yaw_drive_input_shaft_C45",
+        "left_yaw_drive_rotor_M2p5_0",
+        "left_yaw_drive_rotor_M2p5_0_washer",
+        "left_yaw_drive_rotor_M2p5_1",
+        "left_yaw_drive_rotor_M2p5_1_washer",
+        "left_yaw_drive_rotor_M2p5_2",
+        "left_yaw_drive_rotor_M2p5_2_washer",
+        "left_yaw_drive_inner_race_stepped_sleeve_C45",
+        "left_yaw_drive_inner_ground_spacer",
+        "left_yaw_drive_inner_ground_washer",
+        "left_yaw_drive_inner_locknut_M12x0p5",
+        "left_yaw_drive_input_GPA20GT3090_A_H8_keyed",
+        "left_yaw_drive_input_parallel_key_3x3x12",
+        "left_yaw_drive_input_C45_clamp_washer",
+        "left_yaw_drive_input_M4x12_CSK",
+        "left_hip_yaw_ak45_10_output_disc_009_c01",
+        "left_yaw_drive_oldham_17_4ph_h900_009_c01"
+      ],
+      "mass_and_inertia_measured": false
+    },
+    {
+      "name": "right_yaw_input_rotor",
+      "mass_kg": 0.0629899297483423,
+      "centre_world_zero_m": [
+        -0.035769711258347645,
+        -0.060000000005096046,
+        0.41473416951611247
+      ],
+      "inertia_at_com_world_zero_kg_m2": [
+        [
+          1.3243708271149619e-05,
+          -3.618435321922361e-14,
+          3.6292054302167737e-09
+        ],
+        [
+          -3.618435321922361e-14,
+          1.3248962059896462e-05,
+          -9.590760190288873e-16
+        ],
+        [
+          3.6292054302167737e-09,
+          -9.590760190288873e-16,
+          4.201878066145558e-06
+        ]
+      ],
+      "item_count": 18,
+      "origin_world_zero_m": [
+        -0.03578514488828251,
+        -0.06,
+        0.38
+      ],
+      "com_local_m": [
+        1.5433629934863413e-05,
+        -5.096048583119739e-12,
+        0.03473416951611247
+      ],
+      "inertia_at_com_body_kg_m2": [
+        [
+          1.3243708271149619e-05,
+          -3.618435321922361e-14,
+          3.6292054302167737e-09
+        ],
+        [
+          -3.618435321922361e-14,
+          1.3248962059896462e-05,
+          -9.590760190288873e-16
+        ],
+        [
+          3.6292054302167737e-09,
+          -9.590760190288873e-16,
+          4.201878066145558e-06
+        ]
+      ],
+      "source_mass_items": [
+        "right_driver_true_output_C45_flange",
+        "right_yaw_drive_input_shaft_C45",
+        "right_yaw_drive_rotor_M2p5_0",
+        "right_yaw_drive_rotor_M2p5_0_washer",
+        "right_yaw_drive_rotor_M2p5_1",
+        "right_yaw_drive_rotor_M2p5_1_washer",
+        "right_yaw_drive_rotor_M2p5_2",
+        "right_yaw_drive_rotor_M2p5_2_washer",
+        "right_yaw_drive_inner_race_stepped_sleeve_C45",
+        "right_yaw_drive_inner_ground_spacer",
+        "right_yaw_drive_inner_ground_washer",
+        "right_yaw_drive_inner_locknut_M12x0p5",
+        "right_yaw_drive_input_GPA20GT3090_A_H8_keyed",
+        "right_yaw_drive_input_parallel_key_3x3x12",
+        "right_yaw_drive_input_C45_clamp_washer",
+        "right_yaw_drive_input_M4x12_CSK",
+        "right_hip_yaw_ak45_10_output_disc_009_c01",
+        "right_yaw_drive_oldham_17_4ph_h900_009_c01"
+      ],
+      "mass_and_inertia_measured": false
+    }
+  ],
+  "joint_order": [
+    "neck_yaw",
+    "neck_pitch",
+    "neck_mid_pitch",
+    "head_pitch",
+    "head_roll",
+    "beak_hinge",
+    "right_hip_yaw",
+    "right_hip_roll",
+    "right_hip_pitch",
+    "right_knee_pitch",
+    "right_ankle_pitch",
+    "right_ankle_roll",
+    "left_hip_yaw",
+    "left_hip_roll",
+    "left_hip_pitch",
+    "left_knee_pitch",
+    "left_ankle_pitch",
+    "left_ankle_roll"
+  ],
+  "nominal_robot_mass_kg": 16.728453579903107,
+  "grip_reference_zero_m": [
+    0.2049500197172165,
+    0.0,
+    0.5853050351142883
+  ],
+  "source_identity": {
+    "active_mass_ledger": {
+      "file": "mass_ledger.json",
+      "sha256": "509a2e2d63468df130856c4d26c0b44cd1ae31b5ff0f7db4e1f238c8f86b75a8"
+    },
+    "native_assembly": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_08/assembly_index.json",
+      "sha256": "a4fc5d029343e9deebc0b2eac970ef560015c3e4451ca2fcdc50f4e36a53bd34",
+      "bytes": 6930356
+    },
+    "selected_sources": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+      "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+      "bytes": 33308
+    }
+  },
+  "status": "FINITE_STATIC_HARDWARE_UPGRADE_PROTOTYPE_NOT_ACTUAL_OR_MANUFACTURING_QUALIFIED",
+  "schema": "goose_v0_2_frozen_design_physics_v1",
+  "release_id": "physics_v0_2_20261020_08_candidate",
+  "contract_revision": 7,
+  "head_roll_CRBT_once_only_frictionloss_nm": 0.03,
+  "physics_dt_s": 0.005,
+  "torque_dt_s": 0.005,
+  "policy_dt_s": 0.02,
+  "physics_steps_per_tick": 4,
+  "torque_updates_per_tick": 4,
+  "policy_calls_per_tick": 1,
+  "action_size": 18,
+  "root_origin_at_zero_m": [
+    0,
+    0,
+    0
+  ],
+  "observation_size": 65,
+  "observation_layout": [
+    {
+      "name": "body_angular_velocity_rad_s",
+      "start": 0,
+      "length": 3,
+      "scale": 0.25
+    },
+    {
+      "name": "projected_gravity_unit",
+      "start": 3,
+      "length": 3,
+      "scale": 1
+    },
+    {
+      "name": "command_vx_vy_yaw_rate",
+      "start": 6,
+      "length": 3,
+      "scale": 1
+    },
+    {
+      "name": "joint_q_minus_neutral_rad",
+      "start": 9,
+      "length": 18,
+      "scale": 1
+    },
+    {
+      "name": "joint_velocity_rad_s",
+      "start": 27,
+      "length": 18,
+      "scale": 0.1
+    },
+    {
+      "name": "previous_clipped_action",
+      "start": 45,
+      "length": 18,
+      "scale": 1
+    },
+    {
+      "name": "phase_sin_cos",
+      "start": 63,
+      "length": 2,
+      "scale": 1
+    }
+  ],
+  "action_semantics": "18 normalized positiontargets; clamp[-1,1], rangeclamp, slew byselectedspeed; 200Hz PD effort on actualmotor/input coordinate; continuous caps, torque-speed and350W positive mechanical power; no gravityfeedforward/reward/task in referenceadapter",
+  "beak_transmission": {
+    "type": "uncrossed_equal_parallel_cranks",
+    "drive_axis_world_m": [
+      0.11544999999999998,
+      0.0,
+      0.633305
+    ],
+    "jaw_axis_world_m": [
+      0.14645,
+      0.0,
+      0.6083050000000001
+    ],
+    "crank_radius_m": 0.012,
+    "closed_crank_angle_in_xz_rad": 4.1887902047863905,
+    "coupler_pin_spacing_m": 0.039824615503479766,
+    "ideal_angle_ratio": 1.0,
+    "efficiency_design_assumption": 0.85,
+    "output_design_continuous_nm": 4.4,
+    "output_peak_limit_nm": 4.5,
+    "thermal_status": "manufacturer rated8Nm at40rpm; stationary enclosed-head thermal hold still requires bench test",
+    "lumped_mass_status": "Native input rotor and translating coupler are explicit passive bodies; closed-pose static ledger is a separate reduction.",
+    "head_shell_required_local_wall_m": 0.002,
+    "connector_clearance_status": "main case and mechanism screened; actual mating plug and bend radius still pending",
+    "passive_constraints": "qin=qjaw; qcoupler=-qjaw; URDF mimic and neutral SI authoritative; backend enforcement required."
+  },
+  "sources": [
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05_mass/conditional_mass_ledger.json",
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole05_complete_counterbalance_readback_01/whole05_full_SI_contract.json",
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/simulation_mass_contract_0519_01/E_simulation_mass_contract.json",
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "robots/goose_v0_2/configs/v01_frozen_reference_contract.json",
+      "sha256": "8b17aa7d7316c3f36d6949fe79a6392cc6c216f0ea7aa4b82c100c3337116794",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "robots/goose_v0_2/hardware/actuator_facts.json",
+      "sha256": "70ad35be8984d6cb3d40869e74bb9b67a03b917bb78a9299777b2aa095563f79",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+      "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/CRBT_real_head_roll_drive_loss_budget_01/head_roll_once_only_loss_and_fit_budget.json",
+      "sha256": "f5da08811a8b492a5c5d3bf8a0e5bd9a2c5ed4118ab9c595fa7524cc369fe607",
+      "required_at_runtime": false
+    },
+    {
+      "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_material_adoption_01/hip_carrier_light_material_patch.json",
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+      "required_at_runtime": false
+    }
+  ],
+  "engineering_allocation_delta_kg": 0.045695761845315985,
+  "mass_and_inertia_measured": false,
+  "hardware_manufacturing_released": false,
+  "training_task_policy_or_rewards_included": false,
+  "hardware_followup_rule": "No change to saved rigidmass/COM/fullI/axes/outercontacts/actuatorcontract. Future hardwarechanges require a separately versioned physics package; never overwrite this release.",
+  "previous_unpublished_baseline": {
+    "release_id": "physics_v0_2_20261018_01",
+    "physical_contract_sha256": "56c46c494973b6bd75fe5342d7cfe37e2b56f95f71bd251faf6b96fc7690c285",
+    "mass_kg": 17.41127300511843
+  },
+  "selected_material_revision": {
+    "repository_path": "artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_material_adoption_01/hip_carrier_light_material_patch.json",
+    "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+    "required_at_runtime": false
+  },
+  "actuator_capabilities_changed": true,
+  "source_native_whole": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_08/assembly_index.json",
+    "sha256": "a4fc5d029343e9deebc0b2eac970ef560015c3e4451ca2fcdc50f4e36a53bd34",
+    "bytes": 6930356
+  },
+  "source_native_replacement_packet": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+    "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+    "bytes": 33308
+  },
+  "parent_frozen_physics": {
+    "release_id": "physics_v0_2_20261020_07_candidate",
+    "model_sha256": "bdc8216da22fab8037e343293b5e52481e43a7ebe897801d5a9c3ac64d9491e4",
+    "physical_contract_sha256": "7aa92f27040b966f343187898702654a7b781912a5ce590bba204deda0d64cce"
+  },
+  "joint_axes_or_contact_geometry_changed": false,
+  "historical_parent_source_identity": {
+    "assembly": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+      "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860"
+    },
+    "ledger": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05_mass/conditional_mass_ledger.json",
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+    }
+  },
+  "joint_axes_or_contact_materials_changed": false
+}

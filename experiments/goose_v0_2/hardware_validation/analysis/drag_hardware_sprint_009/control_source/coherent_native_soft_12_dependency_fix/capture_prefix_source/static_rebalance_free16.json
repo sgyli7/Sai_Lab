@@ -1,0 +1,996 @@
+{
+  "physics_steps": 0,
+  "success": true,
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "scope": "full49DOF free robot/cart/free20kg cargo static rigid equilibrium including original internal equality reactions and all actual cold contacts plus finite native sole-box support patch; no stale prescribed rod wrench",
+  "qpos_unchanged": true,
+  "frontend_fixed_tau18_Nm": [
+    -0.0,
+    -1.4581391244146287,
+    -0.8622171875050766,
+    -0.0,
+    0.000723095532870306,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "point": [
+        0.7261259770181133,
+        -0.2025,
+        -2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "point": [
+        0.7261259770181133,
+        -0.1775,
+        2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "point": [
+        0.7261259770181133,
+        0.1775,
+        -2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "point": [
+        0.7261259770181133,
+        0.2025,
+        2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "point": [
+        1.2161259770181134,
+        -0.2025,
+        -2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "point": [
+        1.2161259770181134,
+        -0.1775,
+        2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "point": [
+        1.2161259770181134,
+        0.1775,
+        -2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "point": [
+        1.2161259770181134,
+        0.2025,
+        2.7755575615628915e-18
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "point": [
+        0.6711259770181133,
+        -0.2,
+        0.1815
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "point": [
+        1.2711259770181134,
+        -0.2,
+        0.1815
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "point": [
+        0.6711259770181133,
+        0.2,
+        0.1815
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "point": [
+        1.2711259770181134,
+        0.2,
+        0.1815
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "actual cold native contact"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "right_actual_sole",
+      "point": [
+        0.12314250172588685,
+        -0.07055152908478472,
+        0.0
+      ],
+      "frame": [
+        [
+          3.449404180280857e-08,
+          1.220720498836064e-08,
+          0.9999999999999993
+        ],
+        [
+          -4.210758391639653e-16,
+          1.0,
+          -1.2207204988360635e-08
+        ],
+        [
+          -0.9999999999999994,
+          3.3973822170349913e-32,
+          3.449404180280858e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "right_actual_sole",
+      "point": [
+        -0.01933233744544689,
+        -0.05545409444791468,
+        0.0
+      ],
+      "frame": [
+        [
+          3.449406955907275e-08,
+          1.220720498836064e-08,
+          0.9999999999999993
+        ],
+        [
+          -4.210761779903719e-16,
+          1.0,
+          -1.2207204988360635e-08
+        ],
+        [
+          -0.9999999999999994,
+          -1.5329758702236556e-32,
+          3.449406955907276e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "right_actual_sole",
+      "point": [
+        0.0930429337127979,
+        -0.022982737681916693,
+        0.0
+      ],
+      "frame": [
+        [
+          3.449404180280857e-08,
+          1.2207191110228548e-08,
+          0.9999999999999993
+        ],
+        [
+          -4.2107536045109678e-16,
+          1.0,
+          -1.2207191110228543e-08
+        ],
+        [
+          -0.9999999999999994,
+          3.397350328352062e-32,
+          3.449404180280858e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "right_actual_sole",
+      "point": [
+        0.003398941289161339,
+        -0.11544432838912143,
+        0.0
+      ],
+      "frame": [
+        [
+          3.449406435477322e-08,
+          1.220720498836064e-08,
+          0.9999999999999993
+        ],
+        [
+          -4.2107611446042066e-16,
+          1.0,
+          -1.2207204988360635e-08
+        ],
+        [
+          -0.9999999999999994,
+          -1.5329801021685323e-32,
+          3.4494064354773223e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "left_actual_sole",
+      "point": [
+        0.1133279285985529,
+        0.03211619566919686,
+        0.0
+      ],
+      "frame": [
+        [
+          3.454540790994673e-08,
+          -1.2220902965050687e-08,
+          0.9999999999999993
+        ],
+        [
+          4.2217607795555357e-16,
+          1.0,
+          1.2220902965050682e-08
+        ],
+        [
+          -0.9999999999999994,
+          -3.4706728433754146e-32,
+          3.454540790994674e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "left_actual_sole",
+      "point": [
+        -0.004467416712024989,
+        0.11367150911356425,
+        0.0
+      ],
+      "frame": [
+        [
+          3.454541137947589e-08,
+          -1.2220902965050687e-08,
+          0.9999999999999993
+        ],
+        [
+          4.221761203563327e-16,
+          1.0,
+          1.2220902965050682e-08
+        ],
+        [
+          -0.9999999999999994,
+          -3.4706756678346903e-32,
+          3.4545411379475893e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "left_actual_sole",
+      "point": [
+        0.10971876221695814,
+        0.08829223715094794,
+        0.0
+      ],
+      "frame": [
+        [
+          3.454540790994673e-08,
+          -1.2220902965050687e-08,
+          0.9999999999999993
+        ],
+        [
+          4.2217607795555357e-16,
+          1.0,
+          1.2220902965050682e-08
+        ],
+        [
+          -0.9999999999999994,
+          -3.4706728433754146e-32,
+          3.454540790994674e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    },
+    {
+      "a": "sole_ground_box",
+      "b": "left_actual_sole",
+      "point": [
+        -0.013279687646419555,
+        0.05012717462623301,
+        0.0
+      ],
+      "frame": [
+        [
+          3.454540790994673e-08,
+          -1.2220902965050687e-08,
+          0.9999999999999993
+        ],
+        [
+          4.2217607795555357e-16,
+          1.0,
+          1.2220902965050682e-08
+        ],
+        [
+          -0.9999999999999994,
+          -3.4706728433754146e-32,
+          3.454540790994674e-08
+        ]
+      ],
+      "mu": 0.65,
+      "provenance": "scratch same pose horizontal sole footprint, actual sole-box native manifold at -0.25mm; projected topZ0; finite contact potential, not a loaded support certificate"
+    }
+  ],
+  "old_tau18_Nm": [
+    -0.0,
+    -1.4581391244146287,
+    -0.8622171875050766,
+    -0.0,
+    0.000723095532870306,
+    -0.01746903090273212,
+    -0.0,
+    -0.0,
+    -0.0,
+    -2.7288846110914653,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    2.5466686421675644,
+    -0.0,
+    -0.0
+  ],
+  "objective": "sum normalized absolute leg torque +0.002 absolute tangential forces +0.0001 total absolute contact forces; no imposed yaw zero; conservative inscribed8face friction cone, real mu unchanged",
+  "old_scene_static_FF_not_native_acceleration_prediction": true,
+  "new_tau18_Nm": [
+    -0.0,
+    -2.081887156425017,
+    -2.0283111546826182,
+    -0.8110172214009652,
+    0.000723095532870306,
+    0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -2.6966043261132087,
+    0.1608206338190036,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    2.434148099811124,
+    -0.4227661175836752,
+    -0.0
+  ],
+  "old_utilization18": [
+    0.0,
+    0.2278342381897857,
+    0.13472143554766822,
+    0.0,
+    0.005164968091930757,
+    0.003970234296075482,
+    0.0,
+    0.0,
+    0.0,
+    0.4263882204830414,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3979169753386819,
+    0.0,
+    0.0
+  ],
+  "new_utilization18": [
+    0.0,
+    0.3252948681914089,
+    0.3169236179191591,
+    0.4055086107004826,
+    0.005164968091930757,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.42134442595518884,
+    0.025128224034219312,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3803356405954881,
+    0.06605720587244925,
+    0.0
+  ],
+  "max_balance_residual": 3.231968999720114e-08,
+  "max_friction_inequality_residual": 0.0,
+  "contact_force_contact3": [
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      137.1303431123678,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      10.088601883858974,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      125.64956436721539,
+      -0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      98.10000000000001,
+      -0.0,
+      -0.0
+    ],
+    [
+      98.10000000000001,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      30.80285545595777,
+      -0.0,
+      -0.0
+    ],
+    [
+      11.534413193694132,
+      0.7389241086956491,
+      -0.0
+    ],
+    [
+      39.72117958077972,
+      0.9967059755939436,
+      -0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      33.92397099434683,
+      -1.035952766053548,
+      -0.0
+    ],
+    [
+      9.306209195436201,
+      -0.6996773172434299,
+      -0.0
+    ],
+    [
+      38.817501241032886,
+      -0.0,
+      5.664900035090051e-06
+    ]
+  ],
+  "contact_force_world_on_b": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      137.1303431123678
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      10.088601883858974
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      125.64956436721539
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      98.10000000000001
+    ],
+    [
+      0.0,
+      0.0,
+      98.10000000000001
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0625158387158708e-06,
+      3.7601677077771943e-07,
+      30.802855455957747
+    ],
+    [
+      3.9786853056300937e-07,
+      0.7389242494984353,
+      11.534413184673937
+    ],
+    [
+      1.3701449242872303e-06,
+      0.9967064604785251,
+      39.7211795686127
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.1719175331877645e-06,
+      -1.0359531806351057,
+      33.92397098168653
+    ],
+    [
+      3.214867924562538e-07,
+      -0.6996774309737094,
+      9.306209186885507
+    ],
+    [
+      -4.323933620673703e-06,
+      -4.7438491601239753e-07,
+      38.81750124103306
+    ]
+  ],
+  "joint_static_friction": [
+    {
+      "dof": 6,
+      "force": -0.0,
+      "original_cap": 0.03
+    },
+    {
+      "dof": 7,
+      "force": -0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 8,
+      "force": -0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 9,
+      "force": -0.05,
+      "original_cap": 0.05
+    },
+    {
+      "dof": 10,
+      "force": -0.0,
+      "original_cap": 0.036
+    },
+    {
+      "dof": 12,
+      "force": -0.01475724384854399,
+      "original_cap": 0.08
+    },
+    {
+      "dof": 15,
+      "force": 0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 16,
+      "force": 0.06250981101260959,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 17,
+      "force": -0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 18,
+      "force": 0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 19,
+      "force": -0.05,
+      "original_cap": 0.05
+    },
+    {
+      "dof": 21,
+      "force": -0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 22,
+      "force": -0.3242632797826052,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 23,
+      "force": 0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 24,
+      "force": -0.4,
+      "original_cap": 0.4
+    },
+    {
+      "dof": 25,
+      "force": 0.05,
+      "original_cap": 0.05
+    },
+    {
+      "dof": 26,
+      "force": 0.05,
+      "original_cap": 0.05
+    },
+    {
+      "dof": 27,
+      "force": -0.049999590815763904,
+      "original_cap": 0.05
+    },
+    {
+      "dof": 35,
+      "force": -0.0,
+      "original_cap": 0.125
+    },
+    {
+      "dof": 37,
+      "force": -0.0,
+      "original_cap": 0.125
+    },
+    {
+      "dof": 38,
+      "force": -0.0,
+      "original_cap": 0.125
+    },
+    {
+      "dof": 39,
+      "force": -0.0,
+      "original_cap": 0.125
+    }
+  ],
+  "equality_reactions": [
+    0.8413804755938308,
+    0.0,
+    -0.9893605673422206,
+    -0.05,
+    0.049999590815763904
+  ]
+}

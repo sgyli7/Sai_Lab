@@ -1,0 +1,252 @@
+{
+  "physics_steps": 0,
+  "source_manifest_entries": 79,
+  "source_mass_kg": 16.728453579903107,
+  "scene_mass_robot_kg": 16.72845357990311,
+  "robot_bodies": 23,
+  "actuators": 18,
+  "equalities": 3,
+  "robot_hulls": 28,
+  "supports": 1565,
+  "faces": 3018,
+  "maxsupport": 64,
+  "hulls": [
+    {
+      "name": "torso_skin_rear0",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_rear1",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector0",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector1",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector2",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector3",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector4",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector5",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector0",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector1",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector2",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector3",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector4",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector5",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "neck_pitch_envelope",
+      "support": 39,
+      "faces": 74
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "support": 35,
+      "faces": 66
+    },
+    {
+      "name": "upper_bill_envelope",
+      "support": 45,
+      "faces": 86
+    },
+    {
+      "name": "lower_bill_envelope",
+      "support": 44,
+      "faces": 84
+    },
+    {
+      "name": "right_hip_envelope",
+      "support": 28,
+      "faces": 52
+    },
+    {
+      "name": "right_thigh_envelope",
+      "support": 34,
+      "faces": 64
+    },
+    {
+      "name": "right_shin_outer",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "right_shin_C45",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "right_actual_sole",
+      "support": 63,
+      "faces": 122
+    },
+    {
+      "name": "left_hip_envelope",
+      "support": 28,
+      "faces": 52
+    },
+    {
+      "name": "left_thigh_envelope",
+      "support": 34,
+      "faces": 64
+    },
+    {
+      "name": "left_shin_outer",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "left_shin_C45",
+      "support": 64,
+      "faces": 124
+    },
+    {
+      "name": "left_actual_sole",
+      "support": 63,
+      "faces": 122
+    }
+  ],
+  "source_arrays_vs07": {
+    "jnt_type": true,
+    "jnt_qposadr": true,
+    "jnt_dofadr": true,
+    "jnt_bodyid": true,
+    "jnt_pos": true,
+    "jnt_axis": true,
+    "jnt_range": true,
+    "dof_armature": false,
+    "dof_damping": true,
+    "dof_frictionloss": false,
+    "actuator_trnid": true,
+    "actuator_gear": true,
+    "actuator_ctrlrange": false,
+    "actuator_forcerange": false,
+    "actuator_gainprm": true,
+    "actuator_biasprm": true,
+    "eq_type": true,
+    "eq_obj1id": true,
+    "eq_obj2id": true,
+    "eq_data": true,
+    "eq_solref": true,
+    "eq_solimp": true
+  },
+  "exact_same_28collision_arrays": {
+    "geom_type": true,
+    "geom_size": true,
+    "geom_pos": true,
+    "geom_quat": true,
+    "geom_bodyid": true,
+    "geom_contype": true,
+    "geom_conaffinity": true,
+    "geom_condim": true,
+    "geom_friction": true,
+    "geom_solref": true,
+    "geom_solimp": true,
+    "geom_margin": true,
+    "pair_geom1": true,
+    "pair_geom2": true,
+    "pair_friction": true,
+    "pair_solref": true,
+    "pair_solimp": true,
+    "exclude_signature": true,
+    "mesh_vert": true,
+    "mesh_face": true
+  },
+  "yaw_actual_cap": [
+    1.8,
+    1.8
+  ],
+  "yaw_selected_target_slew": [
+    11.623892818282233,
+    11.623892818282233
+  ],
+  "MCI_changed_vs07": [
+    "torso",
+    "left_yaw_input_rotor",
+    "right_yaw_input_rotor"
+  ],
+  "cold_state_unchanged": true,
+  "target_equals_fresh_cold": true,
+  "first_qref_minus_cold": 0.0,
+  "first_FF_max": 0.0,
+  "first_total_tau_max": 0.0,
+  "cold_max_eq_residual": 2.350988701644575e-38,
+  "first_neck_qref": [
+    1.6923371454440423e-23,
+    0.6326118004903961,
+    0.7618887940675283,
+    -1.219967643534342,
+    2.958741988198806e-21
+  ],
+  "first_qd18": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "foot_ground_names": [
+    "ground",
+    "sole_ground_box"
+  ],
+  "source08_mass_not07": true
+}

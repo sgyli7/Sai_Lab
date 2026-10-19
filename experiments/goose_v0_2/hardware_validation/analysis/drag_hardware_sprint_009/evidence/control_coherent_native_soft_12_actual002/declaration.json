@@ -1,0 +1,157 @@
+{
+  "attempt": 2,
+  "causal_cell": {
+    "id": "old_legs_old_neck",
+    "legs": "old_fixed_double_support",
+    "neck": "old_cold_world_anchor"
+  },
+  "runner_sha256": "6b9c2cb006876d30f5975f246929d87622be106a05cc949fc2dceba59666a5f6",
+  "diagnostic_pregrip_not_active_capture": false,
+  "mode": "LOADED_ONLINE_TEACHER_PHYSICS1000_DRIVE200_COMMAND50",
+  "source_model_sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18",
+  "frozen_provider_sha256": "2629058febf341a1fbd4c43a7e973d40fda4bc42be97f3fcbee1606092a8c68a",
+  "frozen_input_sha256": "bfc5216654422510833645dc296c220bb15374580ac17e83305695b49fba5295",
+  "static_bias": true,
+  "order009_sha256": "b0eb64c05640fb873681e5978bcf227114753b769374b3a7ae36836190dbf617",
+  "qualification_5mm_unchanged_diagnostic_gross_abort20mm": true,
+  "declared_bias_multiplier": 1.0,
+  "gait_program_sha256": "d92fae6e155878396e1e01a6c684f99d0f1a0a0f1f135313a6ee27ff59e4b455",
+  "gait_provider_sha256": "2629058febf341a1fbd4c43a7e973d40fda4bc42be97f3fcbee1606092a8c68a",
+  "bias_variant": "physical08_native_soft12_coherentlegs_segmentdrive_samecapture",
+  "static_bias_program_sha256": "d92fae6e155878396e1e01a6c684f99d0f1a0a0f1f135313a6ee27ff59e4b455",
+  "root_and_feet_fixture": "NONE",
+  "equalities": [
+    "beak_distal_pin",
+    "left_yaw_input_rotor_belt_relation",
+    "right_yaw_input_rotor_belt_relation"
+  ],
+  "initial_root": [
+    0.0,
+    0.0,
+    -0.004999997194265434,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_public_q18": [
+    -2.842672116433074e-27,
+    0.6274560381348869,
+    0.7483436266927592,
+    -1.2012667396282133,
+    2.000189571413608e-26,
+    0.29,
+    0.24999998403286866,
+    0.1905506271607521,
+    -0.2667807070138728,
+    0.479089611274428,
+    -0.21230894137414183,
+    -0.1905506304544901,
+    -0.24999998400821685,
+    -0.19056727979312552,
+    0.26678787546237326,
+    -0.47909879431460684,
+    0.21231095602005914,
+    0.19056728308742474
+  ],
+  "initial_target18": [
+    -2.842672116433074e-27,
+    0.6274560381348869,
+    0.7483436266927592,
+    -1.2012667396282133,
+    2.000189571413608e-26,
+    0.29,
+    0.24999998403286866,
+    0.1905506271607521,
+    -0.2667807070138728,
+    0.479089611274428,
+    -0.21230894137414183,
+    -0.1905506304544901,
+    -0.24999998400821685,
+    -0.19056727979312552,
+    0.26678787546237326,
+    -0.47909879431460684,
+    0.21231095602005914,
+    0.19056728308742474
+  ],
+  "initial_contacts": [
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_80_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_-190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "ground",
+      "b": "cart_wheel_570_190",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    },
+    {
+      "a": "cart_deck_frame",
+      "b": "probe_cargo_box",
+      "dist_m": 0.0
+    }
+  ],
+  "hold_time_window_pre_s": [
+    4.90625,
+    15.0
+  ],
+  "gates": {
+    "root_back_hold_min_m": 0.015,
+    "hold_duration_s_min": 2.0,
+    "foot_material_slip_limit_m": 0.005,
+    "tilt_max_deg": 25.0,
+    "dual_support_each_normal_N_min": 2.0,
+    "settling_s": 1.0,
+    "numerical_hold_max_closure_or_contact_pen_m": 0.0005
+  },
+  "jointtarget_only": false,
+  "original_motor_interfaces_q_qd_FF_only": true,
+  "stance_epoch_guard": "reset only actual N<=2N+soleclearance>1mm for50ms followed by actual landing; no planned-phase reset",
+  "hardstop_latency": "terminal prestate checked before next1ms integration; terminal_abort_prestate.json preserves trigger; no remaining50Hz substeps",
+  "TCP_error_policy": "actual>5mm for200ms explicitly measured diagnostic; no silent success"
+}

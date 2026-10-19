@@ -1,0 +1,64 @@
+{
+  "physics_steps": 0,
+  "cases": [
+    {
+      "case": "cold_open",
+      "complete_guard_and_json_reached_physical_step_stub": true,
+      "stub_calls": 1,
+      "actual_physical_steps": 0,
+      "actual_time_unchanged": true,
+      "qpos_unchanged": true,
+      "qvel_unchanged": true,
+      "error": null,
+      "all_guard_imports_including_centroidal_helper_resolved": true
+    },
+    {
+      "case": "saved_capture_hold",
+      "complete_guard_and_json_reached_physical_step_stub": true,
+      "stub_calls": 1,
+      "actual_physical_steps": 0,
+      "actual_time_unchanged": true,
+      "qpos_unchanged": true,
+      "qvel_unchanged": true,
+      "error": null,
+      "all_guard_imports_including_centroidal_helper_resolved": true
+    },
+    {
+      "case": "motion_0",
+      "complete_guard_and_json_reached_physical_step_stub": true,
+      "stub_calls": 1,
+      "actual_physical_steps": 0,
+      "actual_time_unchanged": true,
+      "qpos_unchanged": true,
+      "qvel_unchanged": true,
+      "error": null,
+      "all_guard_imports_including_centroidal_helper_resolved": true
+    },
+    {
+      "case": "motion_0p9",
+      "complete_guard_and_json_reached_physical_step_stub": true,
+      "stub_calls": 1,
+      "actual_physical_steps": 0,
+      "actual_time_unchanged": true,
+      "qpos_unchanged": true,
+      "qvel_unchanged": true,
+      "error": null,
+      "all_guard_imports_including_centroidal_helper_resolved": true
+    },
+    {
+      "case": "motion_STOP",
+      "complete_guard_and_json_reached_physical_step_stub": true,
+      "stub_calls": 1,
+      "actual_physical_steps": 0,
+      "actual_time_unchanged": true,
+      "qpos_unchanged": true,
+      "qvel_unchanged": true,
+      "error": null,
+      "all_guard_imports_including_centroidal_helper_resolved": true
+    }
+  ],
+  "source_runner_sha256": "6b9c2cb006876d30f5975f246929d87622be106a05cc949fc2dceba59666a5f6",
+  "logging_helper_sha256": "4f635bc615a6cf63c056dfbea7a09d7db990b7b8be7ddaeb2c692bf8ae414f55",
+  "runner_control_guard_bytes_unchanged_except_attempt_index": true,
+  "archived_hold_used_only_for_OFFLINE_fixture_NOT_actual_restart": true
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "goose_hip_yaw_oldham_17_4ph_h900_two_mesh_screen_009_c01",
+  "status": "TWO_MESH_STATIC_SCREEN_COMPLETE_NOT_FATIGUE_OR_MANUFACTURING_RELEASE",
+  "source_script": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/check_goose_hip_yaw_oldham_steel_009.py",
+    "sha256": "92b2a4fc44aa514117208a4e2756b42ff6539ca4212971056294111b40d1757f"
+  },
+  "original_screen": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_oldham_fe_04/actual_oldham_fe_screen.json",
+    "sha256": "ebc98f9c82e7a3cf258ddf51619c1859258b260c7974aa513d96b6f5a11d43e2"
+  },
+  "geometry": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_actual_drive_08/left_yaw_drive_oldham_FCD400_cross_slider.brep",
+    "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+  },
+  "boundary": "Lower straight tongue flanks receive equal/opposite distributedY traction on2<absX<7.25; true actual surface area used and resultant torque normalized exactly2Nm. Upper orthogonal straight tongue active flanks constrain normalUX only. OneUY and threeUZ point gauges remove remaining rigid modes, not an all-face clamp. Linear bilateral contact approximation; tensile reaction fraction explicitly reported.",
+  "material": {
+    "name": "wrought UNS S17400 / 17-4PH Condition H900",
+    "E_MPa": 197000.0,
+    "poisson": 0.272,
+    "density_kg_m3": 7800.0,
+    "procurement_required_minimum_yield_MPa": 1170.0,
+    "yield_design_safety_factor": 2.0,
+    "allowable_static_MPa": 585.0,
+    "property_sources": [
+      "https://www.carpentertechnology.com/hubfs/7407324/Material%20Saftey%20Data%20Sheets/Custom%20630%20%2817-4%20PH%29.pdf",
+      "https://www.atimaterials.com/Products/Documents/datasheets/stainless-specialty-steel/precipitationhardening/ati_17-4_tds_en_v2.pdf"
+    ],
+    "actual_mill_certificate_received": false
+  },
+  "applied_torque_Nm": 2.0,
+  "physics_steps": 0,
+  "runtime_modified": false,
+  "fatigue_wear_impact_manufacturing_released": false,
+  "cases": [
+    {
+      "mesh_size_mm": 0.45,
+      "status": "SOLVED_CONDITIONAL_STATIC_ONLY",
+      "input": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_001/mesh_0p45/oldham_h900.inp",
+        "sha256": "f221d8144d137355d8c54e9e159653d09478cbfd0382756d16684d508987d9ca"
+      },
+      "original_input": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_oldham_fe_04/mesh_0p45/actual_oldham.inp",
+        "sha256": "0fc51c958ddae14d1691dc4d8e4dfab7312a64bd782a7121c6e5afcca4d132ee"
+      },
+      "mesh_reused_exact": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_oldham_fe_04/mesh_0p45/disc.msh",
+        "sha256": "b4932be8aff3308a64c279a235bef17367bfb562e4d7dd232ce13517130ecac5"
+      },
+      "nodes": 119463,
+      "linear_tetrahedra": 609988,
+      "applied_torque_Z_Nmm": 1999.9999999999998,
+      "contact_area_per_flank_mm2": [
+        6.854793801678055,
+        6.8317663636675
+      ],
+      "force_per_flank_N": 216.55293755040051,
+      "mean_pressure_per_flank_MPa": [
+        31.59145903081553,
+        31.69794252655741
+      ],
+      "solve_wall_s": 56.16957981605083,
+      "solver_return_code": 0,
+      "max_displacement_mm": 0.0025829053349546607,
+      "strain_energy_Nmm": 0.3244940905572757,
+      "von_mises_MPa": {
+        "max": 440.3967497042184,
+        "p95": 70.43048524308247,
+        "p99": 110.38451010080092
+      },
+      "max_vm_element": 576541,
+      "nominal_yield_safety_factor": 2.6566953565978895,
+      "reaction_sum_N": [
+        6.390000044636143e-07,
+        2.5732647008055004e-12,
+        -3.100005790609983e-08
+      ],
+      "reaction_moment_Nmm": [
+        -0.038844039932368034,
+        0.0002588184689955174,
+        -1999.9999964117524
+      ],
+      "torque_balance_relative_error": 1.7941238183993847e-09,
+      "force_balance_N": 6.397515215271308e-07,
+      "tensile_normal_reaction_fraction": 0.0071631500755381895,
+      "results_dat": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_001/mesh_0p45/oldham_h900.dat",
+        "sha256": "595c3169be81a9ec95a08876b3f41c851274c065404a9bd639d64d257956703e"
+      },
+      "results_frd": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_001/mesh_0p45/oldham_h900.frd",
+        "sha256": "0d32a1ca42dc91f4749812e541461368be86c8dc230834315e5beac64d150436"
+      }
+    },
+    {
+      "mesh_size_mm": 0.3,
+      "status": "SOLVED_CONDITIONAL_STATIC_ONLY",
+      "input": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_002/mesh_0p3/oldham_h900.inp",
+        "sha256": "8e89b5985ed0a62614382a5988271944d71fa2058ccded86e0592bffe6a4842d"
+      },
+      "original_input": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_oldham_fe_04/mesh_0p3/actual_oldham.inp",
+        "sha256": "c42fefd69d141e4d01c295afb67920500b37cecf4f3a35ba0bc5393a7460031e"
+      },
+      "mesh_reused_exact": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/upper_short_yaw_delivery_47_oldham_fe_04/mesh_0p3/disc.msh",
+        "sha256": "4a965b45cd8ea6ebd0f9b11c901e47c55b1a1e4006bf4b1e0de9d4fe7873197c"
+      },
+      "nodes": 203120,
+      "linear_tetrahedra": 1085607,
+      "applied_torque_Z_Nmm": 2000.0,
+      "contact_area_per_flank_mm2": [
+        6.831340793879828,
+        6.827760751590857
+      ],
+      "force_per_flank_N": 216.30309631425334,
+      "mean_pressure_per_flank_MPa": [
+        31.663344406421427,
+        31.679946644857917
+      ],
+      "linear_solver": "ITERATIVE CHOLESKY",
+      "solve_wall_s": 32.325377666042186,
+      "solver_return_code": 0,
+      "max_displacement_mm": 0.002655869378858985,
+      "strain_energy_Nmm": 0.3314847851096442,
+      "von_mises_MPa": {
+        "max": 481.7423838582908,
+        "p95": 61.74861269963412,
+        "p99": 98.62615242628974
+      },
+      "max_vm_element": 1028815,
+      "nominal_yield_safety_factor": 2.428683958902331,
+      "reaction_sum_N": [
+        0.2695519954099361,
+        -0.012705673564138846,
+        -0.15717800160173426
+      ],
+      "reaction_moment_Nmm": [
+        4.728556109536862,
+        110.93304323416834,
+        -2000.8096045783684
+      ],
+      "torque_balance_relative_error": 0.0004048022891842038,
+      "force_balance_N": 0.312289347493445,
+      "tensile_normal_reaction_fraction": 0.008148946711335292,
+      "results_dat": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_002/mesh_0p3/oldham_h900.dat",
+        "sha256": "f100cf6a97f1adcfa8e32c2866d460b1ccd94e0d4ec864dcf3fe2ca48697cb2b"
+      },
+      "results_frd": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_002/mesh_0p3/oldham_h900.frd",
+        "sha256": "6dd0e0bdf924d221a59669162158ec49c1b530d2595c8e5dca5f6f7353f5bd59"
+      }
+    }
+  ],
+  "elapsed_s": 36.98981234896928,
+  "reused_completed_coarse_report": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/hip_yaw_oldham_steel_009/attempt_001/two_mesh_screen.json",
+    "sha256": "112a153a7876cd04a6984f4343151fdc7a785ee26f1b5b26fc8ad8c0d5cfb200"
+  },
+  "previous_fine_direct_memory_failure_preserved": true,
+  "two_mesh_relative_change_vs_finer": {
+    "peak_vm": 0.08582519524841024,
+    "displacement": 0.027472753172699715,
+    "strain_energy": 0.021089035956978277
+  },
+  "mesh_allowance_screen": {
+    "factor": 1.2,
+    "engineering_guard_not_rigorous_convergence_bound": true,
+    "guarded_stress_MPa": 578.0908606299489,
+    "yield_safety_factor_after_guard": 2.023903299085276,
+    "guarded_stress_below_SF2_allowable": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "IMMUTABLE_READONLY_SUPPLEMENT",
+  "files": {
+    "phase_force_summary.json": {
+      "sha256": "def1b80c4719bda56d1bb3f392418dc97426323de4377dd3c3489f767baec67e",
+      "bytes": 2044
+    },
+    "phase_force_command_readback.json": {
+      "sha256": "dd20657679076f398a018701ea0f0349e68f001fde0f9c5e3f83d17c468c01cc",
+      "bytes": 36746
+    },
+    "REPORT.md": {
+      "sha256": "fddf235351b9eee4d9b2e828ca7c03720ed2a7ca3561d48cfa2fb04c3f355713",
+      "bytes": 1198
+    }
+  }
+}

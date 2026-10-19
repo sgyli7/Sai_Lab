@@ -1,0 +1,19 @@
+{
+  "source_unchanged": true,
+  "cases": [
+    {
+      "mesh_mm": 0.45,
+      "only_material_header_and_numerical_solver_changed": true,
+      "original_input_sha256": "0fc51c958ddae14d1691dc4d8e4dfab7312a64bd782a7121c6e5afcca4d132ee",
+      "new_input_sha256": "f221d8144d137355d8c54e9e159653d09478cbfd0382756d16684d508987d9ca",
+      "nodes_elements_loads_BCs_byte_equal_after_explicit_3_replacements": true
+    },
+    {
+      "mesh_mm": 0.3,
+      "only_material_header_and_numerical_solver_changed": true,
+      "original_input_sha256": "c42fefd69d141e4d01c295afb67920500b37cecf4f3a35ba0bc5393a7460031e",
+      "new_input_sha256": "8e89b5985ed0a62614382a5988271944d71fa2058ccded86e0592bffe6a4842d",
+      "nodes_elements_loads_BCs_byte_equal_after_explicit_3_replacements": true
+    }
+  ]
+}

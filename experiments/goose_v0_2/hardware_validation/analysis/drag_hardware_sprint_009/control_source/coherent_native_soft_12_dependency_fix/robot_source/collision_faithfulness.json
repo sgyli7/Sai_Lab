@@ -1,0 +1,69 @@
+{
+  "status": "INHERITED07_FINITE28_SOURCE_PROXY_SCOPE_UNCHANGED_BY_INTERNAL_DRIVE_UPGRADE",
+  "active_source_native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+    "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+  },
+  "active_source_packet": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/frozen_native_handoff.json",
+    "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001",
+    "bytes": 34839
+  },
+  "active_native_index": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_07/assembly_index.json",
+    "sha256": "d4ebceae9041c2659b90ba5d14a32e7ba625424bd7f1953a74ff60a1f21add8a",
+    "bytes": 6908317
+  },
+  "active28_geometry_recipe": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/whole_candidate_07/geometry_r02/proxy_roles.json",
+    "sha256": "7938e5237c0af686232f5dc226221d9ebf3e4fdddb42a86f3e7059e2eafddfb1",
+    "bytes": 44624
+  },
+  "source_point_error": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/c06_refreshed_same28_error_07.json",
+    "sha256": "6279b126a7e13b392f99510c4d2568852e65fb8033e785015d4be86542b34a30",
+    "bytes": 9852
+  },
+  "owner_exception": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/owner_proxy_adoption_07.json",
+    "sha256": "de90a4d3b13422b315d8b940be98903d9b9ed8157662911be5def9c00d759220",
+    "bytes": 1292
+  },
+  "actual_same_source_query": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_joint_proxy_009_07/whole_candidate_07/geometry_r02_query.json",
+    "sha256": "cbccef34b16b0ac75712671f0dde2f16ba2231b89d58fe9a82951dffef75e5af",
+    "bytes": 7102
+  },
+  "source_outerstock_sampling_correction": {
+    "old_failed_c06_max_mm": 3.34177888164,
+    "reason": "FinalC06export exposed native-valid saved vertices absent oldC05sampledstock. OneRoot-authorized same-role stock refresh; old28 frozen candidate untouched.",
+    "native_point_probe": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/new_c06_vertex_native_probe_07.json",
+      "sha256": "196091879597ef682225c15977c8996b93311cb1d902767fa2b715c4cbce70a4",
+      "bytes": 1472
+    },
+    "stock_probe": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/new_c06_vertex_stock_probe_07.json",
+      "sha256": "1db6f7514ae1bc8b706a70fdfd0f14f398e8845efb95084554901028e1b05f80",
+      "bytes": 1420
+    },
+    "final_max_mm": 2.121200168211175
+  },
+  "critical_contact_preservation": "Exact original10neck/mouth/hip/thigh/sole collision assets. Foot bottom and mouth contacts not traded for error allowance. No new pair mask or mass from proxies.",
+  "domain_comparison": "Inherited14 falseblocking in source-positive341domain and missed source06new08trueintersection motivated replacement. FinalC06 source removed those native conflicts in covered833poses and refreshed28 yields0torso-shin narrowphase contacts in492 plus0C45contacts341. This does not imply global selfcollision-free or executable gait.",
+  "scope": "Finite source saved-point and833 pose-domain checks only; not all exposed OEM/environment/continuous-surface certificate. Original2mm and2.1mm gatesFAIL; Owner finite2.13mm exception.",
+  "mj_step_calls": 0,
+  "release_id": "physics_v0_2_20261020_08_candidate",
+  "exact_external28_assets_inherited_from07": true,
+  "previous07": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261020_07_candidate/manifest.json",
+    "sha256": "43d26d289bb7b075c50c007fbe8d299c543b32430c4cea1e37bf2ca4c39f2e35",
+    "bytes": 12258
+  },
+  "current_source_native_upgrade": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+    "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+    "bytes": 33308
+  },
+  "current_upgrade_geometry_scope": "Six internal motor/couplerparts; externalfront/AR/foot/mouth/torso+shin proxy sources andallcontactparameters unchanged. Sourcefit fromfrozen motorpacket only; no globalhardwarecontactcertificate."
+}

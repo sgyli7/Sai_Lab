@@ -1,0 +1,151 @@
+{
+  "status": "PASS_THREE_ADOPTED_SOURCE_GLBS_NATIVE_ZERO_FRAME",
+  "parts": [
+    {
+      "occurrence": "front_main_shell",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c03/front_main_shell_native_recovery_009_c03_feature_preserved.brep",
+        "sha256": "00e1647ce33ff71679e351a4f53d7e7eb11c9deaecc0e0fe74ae9182b6d061ea",
+        "bytes": 2508569
+      },
+      "source_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c03/front_main_shell_native_recovery_009_c03_feature_preserved.glb",
+        "sha256": "a556b298554e40eb90415a13cb38c2e6236e18bda413725095ca00bcd1bded92",
+        "bytes": 516920
+      },
+      "native_bounds_mm": [
+        [
+          -81.0000001,
+          -111.5525697550489,
+          236.9999999
+        ],
+        [
+          100.0000001,
+          111.5525697551162,
+          453.8693659371409
+        ]
+      ],
+      "GLB_bounds_mm": [
+        [
+          -81.00000023841858,
+          -111.55256628990179,
+          237.00000345706934
+        ],
+        [
+          100.00000149011612,
+          111.55256628990162,
+          453.86937260627735
+        ]
+      ],
+      "max_bounds_error_mm": 6.669136439541035e-06,
+      "finite_vertices_and_valid_indices": true,
+      "complete_source_matrix_preserved_in_whole": true,
+      "vertex_count": 10681,
+      "triangle_count": 10248,
+      "render_primitives": 451
+    },
+    {
+      "occurrence": "left_integrated_AR_shoe_crown_continuous_009_c03",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_ar_continuous_clearance_009/c03/left/left_integrated_ar_shoe_crown_continuous_009_c03.brep",
+        "sha256": "5adc1166bdc39b603b10201621cccd79874682e570be771743ca4aefda5966c1",
+        "bytes": 1477593
+      },
+      "source_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_ar_continuous_clearance_009/c03/left/left_integrated_ar_shoe_crown_continuous_009_c03.glb",
+        "sha256": "440d15b39c2d1e55cbcf7152f31c5c078287e6bd080e66ef7d5eef12f74062dd",
+        "bytes": 352312
+      },
+      "native_bounds_mm": [
+        [
+          -28.9000001,
+          89.9999999,
+          2.980316358269467
+        ],
+        [
+          125.5335501,
+          160.00000010000008,
+          75.56130475991375
+        ]
+      ],
+      "GLB_bounds_mm": [
+        [
+          -28.89999933540821,
+          90.00000357627867,
+          2.9803265351802377
+        ],
+        [
+          125.53355097770691,
+          159.99999642372129,
+          75.559139251709
+        ]
+      ],
+      "max_bounds_error_mm": 0.002165508204754474,
+      "finite_vertices_and_valid_indices": true,
+      "complete_source_matrix_preserved_in_whole": true,
+      "vertex_count": 6817,
+      "triangle_count": 7201,
+      "render_primitives": 329
+    },
+    {
+      "occurrence": "right_integrated_AR_shoe_crown_continuous_009_c03",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_ar_continuous_clearance_009/c03/right/right_integrated_ar_shoe_crown_continuous_009_c03.brep",
+        "sha256": "3a7398a46aaf6f11eaedfcd3b4c331fbeab2469e1c84abd270a826047db46501",
+        "bytes": 1532983
+      },
+      "source_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_ar_continuous_clearance_009/c03/right/right_integrated_ar_shoe_crown_continuous_009_c03.glb",
+        "sha256": "c8cdf57b4530f6b7221a512b02523c72c5d1543c0ca04eab25f81d53529bcec4",
+        "bytes": 385148
+      },
+      "native_bounds_mm": [
+        [
+          -28.9000001,
+          -160.00000010000014,
+          2.980316358269467
+        ],
+        [
+          125.5335501,
+          -89.9999999,
+          75.5613047599149
+        ]
+      ],
+      "GLB_bounds_mm": [
+        [
+          -28.89999933540821,
+          -159.99999642372129,
+          2.980326535180182
+        ],
+        [
+          125.53355097770691,
+          -90.00000357627867,
+          75.55913925170894
+        ]
+      ],
+      "max_bounds_error_mm": 0.0021655082059623965,
+      "finite_vertices_and_valid_indices": true,
+      "complete_source_matrix_preserved_in_whole": true,
+      "vertex_count": 7226,
+      "triangle_count": 7529,
+      "render_primitives": 373
+    }
+  ],
+  "whole_visual_binding": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_06/actual_visual_binding_06.json",
+    "sha256": "0b6cc042fd420e7ef72a3281e76e6c5f29f76f26fd6337698573bcb1558f3023",
+    "bytes": 119923
+  },
+  "actual06_native_index": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_06/assembly_index.json",
+    "sha256": "7a7c775532ce18af8da645bbd6a3b1ec0f73d7a2be076b8def91f83370a02af9",
+    "bytes": 6913886
+  },
+  "unmodified_display02_BIN_preserved": true,
+  "mj_step_calls": 0,
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_06_visual_source_check.py",
+    "sha256": "027e2b56463be43a68a05fd4954ddd8b1e295d8c07dba49ae6b0535aa7187f85",
+    "bytes": 1730
+  }
+}
