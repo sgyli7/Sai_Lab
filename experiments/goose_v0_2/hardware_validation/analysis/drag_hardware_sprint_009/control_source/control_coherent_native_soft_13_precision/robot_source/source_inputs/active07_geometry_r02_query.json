@@ -1,0 +1,232 @@
+{
+  "status": "PRIVATE_SOURCE06_PROXY_DIAGNOSTIC_NOT07_ADOPTED",
+  "candidate_case": "whole_candidate_07/geometry_r02",
+  "actual_robot_leaves": 28,
+  "compiled_robot_mass_kg": 16.59112492671003,
+  "mesh_counts": [
+    {
+      "name": "neck_pitch_envelope",
+      "loaded_vertices": 39,
+      "loaded_faces": 74,
+      "actual_convex_support_vertices": 39,
+      "actual_convex_hull_faces": 74
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "loaded_vertices": 35,
+      "loaded_faces": 66,
+      "actual_convex_support_vertices": 35,
+      "actual_convex_hull_faces": 66
+    },
+    {
+      "name": "upper_bill_envelope",
+      "loaded_vertices": 45,
+      "loaded_faces": 86,
+      "actual_convex_support_vertices": 45,
+      "actual_convex_hull_faces": 86
+    },
+    {
+      "name": "lower_bill_envelope",
+      "loaded_vertices": 45,
+      "loaded_faces": 86,
+      "actual_convex_support_vertices": 44,
+      "actual_convex_hull_faces": 84
+    },
+    {
+      "name": "left_hip_envelope",
+      "loaded_vertices": 28,
+      "loaded_faces": 52,
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_faces": 52
+    },
+    {
+      "name": "left_thigh_envelope",
+      "loaded_vertices": 34,
+      "loaded_faces": 64,
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_faces": 64
+    },
+    {
+      "name": "left_actual_sole",
+      "loaded_vertices": 63,
+      "loaded_faces": 122,
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_faces": 122
+    },
+    {
+      "name": "right_hip_envelope",
+      "loaded_vertices": 28,
+      "loaded_faces": 52,
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_faces": 52
+    },
+    {
+      "name": "right_thigh_envelope",
+      "loaded_vertices": 34,
+      "loaded_faces": 64,
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_faces": 64
+    },
+    {
+      "name": "right_actual_sole",
+      "loaded_vertices": 63,
+      "loaded_faces": 122,
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_faces": 122
+    },
+    {
+      "name": "torso_skin_rear0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_rear1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector2",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector3",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector4",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector5",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector2",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector3",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector4",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector5",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "left_shin_outer",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "left_shin_C45",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "right_shin_outer",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    },
+    {
+      "name": "right_shin_C45",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_faces": 124
+    }
+  ],
+  "max_supports": 64,
+  "total_supports": 1565,
+  "total_convex_hull_triangles": 3018,
+  "reference08": {
+    "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/shortstride_entry_revision_08/complete_reference.npz",
+    "sha256": "27a9deb3b3a9761f0623740d6f9c5e9eb145768b846b5b48a4f66a88ba1c067f",
+    "bytes": 479962
+  },
+  "reference08_torso_shin_contact_frames": [],
+  "fullmodel492_query_elapsed_s": 0.03867309098131955,
+  "old341_relative": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c03/actual_relative_341_pose_inputs_with_terminal.npz",
+    "sha256": "d34b0e40fa9770cf5df2b1ceb9a81450ce63a3339b6d2a9b12db2a0f13fbc4d5",
+    "bytes": 64732
+  },
+  "old341_relative_geometry_C45_contact_frames": [],
+  "old341_query_elapsed_s": 0.10264740500133485,
+  "query_scene_is_not_physical_robot": true,
+  "source_fidelity_note": "Old341 front-shell/C45 native gap is certified, not all rear cap or outer-shin pair domains. These full scene proxy contacts must be mapped to actual source surfaces before concluding all native-overfill cases. New08 native3.49893mm3 is a known true conflict under source06, not hardware clearance.",
+  "mj_fwdPosition_calls": 833,
+  "mj_step_calls": 0,
+  "training_updates": 0,
+  "GPU": 0,
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_joint_proxy_009_07_query.py",
+    "sha256": "338c70ac3499f4a91c3a14ad5494b83ae795cedb0178d86252fa00d453516dfc",
+    "bytes": 4886
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "schema": "goose_hip_carrier_material_adoption_six_actual_replacements_v1",
+  "status": "ROOT_ACCEPTED_LIMITED_DESIGN_SCREEN_SOURCE_PATCH_NOT_WHOLE_HARDWARE_FREEZE",
+  "parts": [
+    {
+      "name": "left_hip_roll_carrier_arm",
+      "body": "left_hip_roll",
+      "material": "Kaiser7075_T651_63p5_plate_min64ksi_source_specific",
+      "density_kg_m3": 2810.0,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_left_B03/left_hip_roll_carrier_arm.brep",
+        "sha256": "bb379bde7f5640d37cdee259d86860d117a8b080e88cc1d868d3fba003cf99ba"
+      },
+      "native_part_index": 0,
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 5e-06,
+          "vertex_max_mm": 2.61870835739245e-05
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          43800.65801150547
+        ]
+      },
+      "native_bounds_mm": [
+        [
+          -57.00000010000001,
+          26.499999899999995,
+          278.4999999
+        ],
+        [
+          34.00000000000007,
+          84.2500001,
+          359.4454814052301
+        ]
+      ],
+      "native_volume_mm3": 43800.65801150547,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufacturing_released": false,
+      "physical_mass_integration_volume_mm3": 43800.69567587902,
+      "mass_kg": 0.12307995484922005,
+      "center_of_mass_world_m": [
+        -0.028391870596285486,
+        0.06436784851533128,
+        0.3233739586088028
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          6.720972168194746e-05,
+          -2.3817445143192332e-05,
+          -6.508489657610013e-06
+        ],
+        [
+          -2.3817445143192332e-05,
+          9.673235481621559e-05,
+          -2.1426253792905817e-05
+        ],
+        [
+          -6.508489657610013e-06,
+          -2.1426253792905817e-05,
+          9.067335019977057e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 1.326574008101904e-08,
+      "mass_integration_method": "OCP VolumePropertiesGK closed-solid spans relative1e-8; estimator is not a rigorous global bound",
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "current_bounds_from_actual_saved_native": true,
+      "source_mass_properties_preserved_on_unchanged_native": true,
+      "source_whole": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+        "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860"
+      },
+      "source_original_native_part_index": 554,
+      "strength_screen_contract": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_same_native_light_material_candidates_02/left_hip_roll_carrier_arm_7075_material_contract.json",
+        "sha256": "1b552596313586630e8036eff48cabe0fb9dad09519282f9942b8149ea3b2651"
+      },
+      "old_full_MCI": {
+        "name": "left_hip_roll_carrier_arm",
+        "body": "left_hip_roll",
+        "material": "C45_source_intent_supply_certificate_and_heat_treatment_unqualified",
+        "density_kg_m3": 7850.0,
+        "native": {
+          "path": "artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_left_B03/left_hip_roll_carrier_arm.brep",
+          "sha256": "bb379bde7f5640d37cdee259d86860d117a8b080e88cc1d868d3fba003cf99ba"
+        },
+        "native_part_index": 554,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 5e-06,
+            "vertex_max_mm": 2.61870835739245e-05
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            43800.65801150547
+          ]
+        },
+        "native_bounds_mm": [
+          [
+            -57.00000010000001,
+            26.499999899999995,
+            278.4999999
+          ],
+          [
+            34.00000000000007,
+            84.2500001,
+            359.4454814052301
+          ]
+        ],
+        "native_volume_mm3": 43800.65801150547,
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "manufacturing_released": false,
+        "physical_mass_integration_volume_mm3": 43800.69567587902,
+        "mass_kg": 0.3438354610556503,
+        "center_of_mass_world_m": [
+          -0.028391870596285486,
+          0.06436784851533128,
+          0.3233739586088028
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            0.0001877566958018817,
+            -6.653627913667608e-05,
+            -1.8182079648483487e-05
+          ],
+          [
+            -6.653627913667608e-05,
+            0.000270230955625371,
+            -5.985626059584009e-05
+          ],
+          [
+            -1.8182079648483487e-05,
+            -5.985626059584009e-05,
+            0.00025330455482854057
+          ]
+        ],
+        "adaptive_volume_integration_error": 1.326574008101904e-08,
+        "mass_integration_method": "OCP VolumePropertiesGK closed-solid spans relative1e-8; estimator is not a rigorous global bound",
+        "mesh_watertight": true,
+        "mesh_winding_consistent": true,
+        "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+        "current_bounds_from_actual_saved_native": true,
+        "source_mass_properties_preserved_on_unchanged_native": true
+      },
+      "mass_delta_kg": -0.22075550620643028,
+      "material_candidate_only_not_strength_or_fit_qualified": true,
+      "old_baseline_row": {
+        "name": "left_hip_roll_carrier_arm",
+        "body": "left_hip_roll",
+        "mass_kg": 0.3438354610556503,
+        "centre_zero_mm": [
+          -28.391870596285486,
+          64.36784851533129,
+          323.3739586088028
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            0.0001877566958018817,
+            -6.653627913667608e-05,
+            -1.8182079648483487e-05
+          ],
+          [
+            -6.653627913667608e-05,
+            0.000270230955625371,
+            -5.985626059584009e-05
+          ],
+          [
+            -1.8182079648483487e-05,
+            -5.985626059584009e-05,
+            0.00025330455482854057
+          ]
+        ],
+        "mass_interval_kg": [
+          0.29226014189730276,
+          0.39541078021399784
+        ],
+        "positional_uncertainty_mm": 3.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "left_hip_roll_carrier_arm"
+        ],
+        "inertia_basis": "Sealed source full MCI, copied exactly from current saved native packet; supplier allocated mass retained where specified",
+        "source_actual_packet_item_name": "left_hip_roll_carrier_arm",
+        "measured_mass_or_inertia": false
+      }
+    },
+    {
+      "name": "right_hip_roll_carrier_arm",
+      "body": "right_hip_roll",
+      "material": "Kaiser7075_T651_63p5_plate_min64ksi_source_specific",
+      "density_kg_m3": 2810.0,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_right_B04/right_hip_roll_carrier_arm.brep",
+        "sha256": "c69874bf807ca041bcd466e6d3e360044a37627c4e563b47b8253d5894c3454c"
+      },
+      "native_part_index": 0,
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 5e-06,
+          "vertex_max_mm": 2.61417712863252e-05
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          43957.9783043832
+        ]
+      },
+      "native_bounds_mm": [
+        [
+          -57.00000010000001,
+          -84.2500001,
+          278.4999999
+        ],
+        [
+          34.00000000000007,
+          -26.499999899999995,
+          359.4454814052301
+        ]
+      ],
+      "native_volume_mm3": 43957.9783043832,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufacturing_released": false,
+      "physical_mass_integration_volume_mm3": 43957.97351962349,
+      "mass_kg": 0.12352190559014202,
+      "center_of_mass_world_m": [
+        -0.028511455764677392,
+        -0.06445823539673567,
+        0.32337523998566864
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          6.659720828489079e-05,
+          2.3781291184832805e-05,
+          -6.618673007229582e-06
+        ],
+        [
+          2.3781291184832805e-05,
+          9.695116806326013e-05,
+          2.1221395293240004e-05
+        ],
+        [
+          -6.618673007229582e-06,
+          2.1221395293240004e-05,
+          9.056513688668546e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 1.290599970153798e-08,
+      "mass_integration_method": "OCP VolumePropertiesGK closed-solid spans relative1e-8; estimator is not a rigorous global bound",
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "current_bounds_from_actual_saved_native": true,
+      "source_mass_properties_preserved_on_unchanged_native": true,
+      "source_whole": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+        "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860"
+      },
+      "source_original_native_part_index": 558,
+      "strength_screen_contract": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_same_native_light_material_candidates_02/right_hip_roll_carrier_arm_7075_material_contract.json",
+        "sha256": "ef17a74ae13dd0404472ef90d0679cec265b560be1ed689cda3af4071f70a3f3"
+      },
+      "old_full_MCI": {
+        "name": "right_hip_roll_carrier_arm",
+        "body": "right_hip_roll",
+        "material": "C45_source_intent_supply_certificate_and_heat_treatment_unqualified",
+        "density_kg_m3": 7850.0,
+        "native": {
+          "path": "artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/complete_c45_right_B04/right_hip_roll_carrier_arm.brep",
+          "sha256": "c69874bf807ca041bcd466e6d3e360044a37627c4e563b47b8253d5894c3454c"
+        },
+        "native_part_index": 558,
+        "native_quality": {
+          "strict": true,
+          "BOP_including_self_intersection_valid": true,
+          "BOP_faults": [],
+          "actual_tolerances": {
+            "edge_max_mm": 5e-06,
+            "vertex_max_mm": 2.61417712863252e-05
+          },
+          "solid_count": 1,
+          "signed_volumes_mm3": [
+            43957.9783043832
+          ]
+        },
+        "native_bounds_mm": [
+          [
+            -57.00000010000001,
+            -84.2500001,
+            278.4999999
+          ],
+          [
+            34.00000000000007,
+            -26.499999899999995,
+            359.4454814052301
+          ]
+        ],
+        "native_volume_mm3": 43957.9783043832,
+        "source_to_target_world_zero_4x4": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "manufacturing_released": false,
+        "physical_mass_integration_volume_mm3": 43957.97351962349,
+        "mass_kg": 0.34507009212904444,
+        "center_of_mass_world_m": [
+          -0.028511455764677392,
+          -0.06445823539673567,
+          0.32337523998566864
+        ],
+        "inertia_at_com_world_kg_m2": [
+          [
+            0.0001860455818634849,
+            6.643527964446174e-05,
+            -1.8489887226602213e-05
+          ],
+          [
+            6.643527964446174e-05,
+            0.00027084223106640286,
+            5.928396905762776e-05
+          ],
+          [
+            -1.8489887226602213e-05,
+            5.928396905762776e-05,
+            0.0002530022507332672
+          ]
+        ],
+        "adaptive_volume_integration_error": 1.290599970153798e-08,
+        "mass_integration_method": "OCP VolumePropertiesGK closed-solid spans relative1e-8; estimator is not a rigorous global bound",
+        "mesh_watertight": true,
+        "mesh_winding_consistent": true,
+        "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+        "current_bounds_from_actual_saved_native": true,
+        "source_mass_properties_preserved_on_unchanged_native": true
+      },
+      "mass_delta_kg": -0.2215481865389024,
+      "material_candidate_only_not_strength_or_fit_qualified": true,
+      "old_baseline_row": {
+        "name": "right_hip_roll_carrier_arm",
+        "body": "right_hip_roll",
+        "mass_kg": 0.34507009212904444,
+        "centre_zero_mm": [
+          -28.511455764677393,
+          -64.45823539673567,
+          323.37523998566866
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            0.0001860455818634849,
+            6.643527964446174e-05,
+            -1.8489887226602213e-05
+          ],
+          [
+            6.643527964446174e-05,
+            0.00027084223106640286,
+            5.928396905762776e-05
+          ],
+          [
+            -1.8489887226602213e-05,
+            5.928396905762776e-05,
+            0.0002530022507332672
+          ]
+        ],
+        "mass_interval_kg": [
+          0.29330957830968774,
+          0.3968306059484011
+        ],
+        "positional_uncertainty_mm": 3.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "right_hip_roll_carrier_arm"
+        ],
+        "inertia_basis": "Sealed source full MCI, copied exactly from current saved native packet; supplier allocated mass retained where specified",
+        "source_actual_packet_item_name": "right_hip_roll_carrier_arm",
+        "measured_mass_or_inertia": false
+      }
+    },
+    {
+      "operation": "entire_native_component_rigid_remount",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        30.75607470908649,
+        70.14999990000004,
+        59.94548140523011
+      ],
+      "axis_interface_geometry_unchanged": true,
+      "name": "left_thigh_shaft_end_washer",
+      "body": "left_hip_roll",
+      "material": "C45_min370_positive_inner_ring_clamping_cap",
+      "role": "candidate_native_leg_load_path",
+      "source": {
+        "path": "robots/Goose_V0.1/cad/source/body_bay_pitch_forks/left_thigh_shaft_end_washer.brep",
+        "sha256": "e4bbe2f2ca89abb9cd9f4612ec4fcbf5fba98c209ba5bc0a1dc78a631c9aaa92",
+        "manifest": "robots/Goose_V0.1/cad/exports/body_bay_pitch_forks/manifest.json",
+        "manifest_sha256": "a6f2e54322213a9b786f1dadb23bb2ae79b880e4d45f40e91fcf7f8849409fb6",
+        "local_to_frozen_world_mm": {
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation": [
+            15.0,
+            76.0,
+            270.7
+          ]
+        },
+        "neutral_to_frozen_contact_lift_mm": 3.7,
+        "source_volume_mm3": 57.33799291883075,
+        "frozen_mesh_bound_mismatch_mm": 0.007769107818603516,
+        "frozen_npz_path": "robots/Goose_V0.1/cad/source/body_bay_pitch_forks/left_thigh_shaft_end_washer_quad.npz",
+        "frozen_npz_sha256": "78be44f7aece97f537795c3676a248350fb9ce14a09e37d1e9c505b94d767615"
+      },
+      "native_bounds_mm": [
+        [
+          6.5060747090865,
+          71.0,
+          324.39548140523
+        ],
+        [
+          19.006074709086498,
+          72.5,
+          336.89548140523
+        ]
+      ],
+      "native_volume_mm3": 57.33799291883075,
+      "native_strict_valid": true,
+      "purchased_geometry_scaled": false,
+      "candidate_mass_basis": "actual candidate native volume times frozen source candidate material density",
+      "mesh_watertight": true,
+      "mesh_volume_relative_error": 0.0003356670230773018,
+      "assembly_group": "mechanics",
+      "native_part_index": 0,
+      "source34_occurrence": {
+        "receipt": {
+          "path": "artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/integration.json",
+          "sha256": "55b82115695ffda05c6bed4d583baab1fd09541a6aa839538ed5c326d41c3498"
+        },
+        "part_index": 99,
+        "name": "left_thigh_shaft_end_washer"
+      },
+      "old_mass_and_full_fit_or_physics_qualification_not_inherited": true,
+      "saved_native_bounds_residual_mm": 0.0,
+      "saved_native_volume_residual_mm3": 0.0,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "source05_to_target47_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -33.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -31.89999990000001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1368683772161603e-13
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_owner_M47_applied_exactly_once": true,
+      "current_bounds_from_actual_saved_native": true,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/left_thigh_shaft_end_washer.brep",
+        "sha256": "eaa99bc6199271918824262c70ce34bb66a6a6c6800976f3c7aeec983e477dfe"
+      },
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1.00000014210855e-07,
+          "vertex_max_mm": 1.00000014210855e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          135.97598402900036
+        ]
+      },
+      "density_kg_m3": 7850.0,
+      "mass_kg": 0.0010674114746276517,
+      "center_of_mass_world_m": [
+        0.01275607470908649,
+        0.07161748397158205,
+        0.3306454814052301
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.2223929142132729e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.4132217244726017e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.2223929142132729e-08
+        ]
+      ],
+      "MCI_basis": "Exact two annular-cylinder physical integrals independently checked against saved closed native volume.",
+      "old_baseline_row": {
+        "name": "left_thigh_shaft_end_washer",
+        "body": "left_hip_roll",
+        "mass_kg": 0.00045010324441282135,
+        "centre_zero_mm": [
+          12.756074709086503,
+          71.85,
+          330.6454814052302
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            4.692983417196569e-09,
+            -5.4094878548094454e-24,
+            -1.97487964927264e-23
+          ],
+          [
+            -5.4094878548094454e-24,
+            9.367211145286335e-09,
+            1.9701477317848245e-22
+          ],
+          [
+            -1.97487964927264e-23,
+            1.9701477317848245e-22,
+            4.692982029940448e-09
+          ]
+        ],
+        "inertia_basis": "Retained source/component mass, uniform current native-shape tensor budget",
+        "mass_interval_kg": [
+          0.00038258775775089815,
+          0.0005176187310747445
+        ],
+        "positional_uncertainty_mm": 0.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "left_thigh_shaft_end_washer"
+        ]
+      },
+      "mass_delta_kg": 0.0006173082302148304,
+      "manufacturing_released": false
+    },
+    {
+      "name": "left_visible_thigh_shaft_stop_M3x6",
+      "body": "left_hip_roll",
+      "material": "steel_class10p9",
+      "density_kg_m3": 7850.0,
+      "native_part_index": 0,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/left_visible_thigh_shaft_stop_M3x6.brep",
+        "sha256": "77a646af410d8a1e91f86dea11cd3d47b6c849487b4cb74d5c946f7409af4f3e"
+      },
+      "native_bounds_mm": [
+        [
+          9.9060747090865,
+          69.35,
+          327.79548140522996
+        ],
+        [
+          15.606074709086643,
+          77.0,
+          333.49548140523
+        ]
+      ],
+      "native_volume_mm3": 51.54331284054829,
+      "mass_kg": 0.00040461499082607307,
+      "center_of_mass_world_m": [
+        0.012756151910570048,
+        0.07240188330623229,
+        0.33064548140523
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          2.3656298933367357e-09,
+          6.371626894037802e-14,
+          -3.2554527335265185e-24
+        ],
+        [
+          6.371626894037802e-14,
+          7.724101818818851e-10,
+          2.155768205563976e-24
+        ],
+        [
+          -3.2554527335265185e-24,
+          2.155768205563976e-24,
+          2.3619209148394208e-09
+        ]
+      ],
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1e-07,
+          "vertex_max_mm": 1e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          51.54331284054829
+        ]
+      },
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "tessellation_attempts": [
+        {
+          "absolute_deflection_mm": 0.04,
+          "all_native_faces_triangulated": true
+        }
+      ],
+      "zero_area_pole_triangles_removed": 0,
+      "holes_filled": false,
+      "mesh_vertices_displaced": false,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "Actual ISO7380 M3x6 with retained0.5mm source washer, nominal5.5mm existing C45 end tap; original0.4mm axial float, a shaft stop rather than a bearing preload clamp",
+      "manufacturing_released": false,
+      "adaptive_volume_integration_error": 4.667809446015521e-16,
+      "mass_integration_method": "OCP VolumeProperties default adaptive closed-volume integration at relative target1e-9 on catalogue or analytic cylindrical service stock; estimator is not a rigorous global error bound",
+      "mass_material_budget_not_replaced_by_integrator_error_estimate": true,
+      "catalogue_receipt": {
+        "record": {
+          "id": "button_head_screw_m3_l0006_simple",
+          "name": "ISO 7380 button head socket screw, M3 x 6 mm",
+          "description": "ISO 7380 button head socket screw, M3 x 6 mm.",
+          "category": "fastener",
+          "family": "button-head-screw",
+          "tags": [
+            "screw",
+            "button-head",
+            "metric"
+          ],
+          "aliases": [
+            "button_head_screw_M3_L0006_simple",
+            "M3 x 6 mm"
+          ],
+          "standard": {
+            "body": "ISO",
+            "number": "7380",
+            "designation": "ISO 7380"
+          },
+          "attributes": {
+            "thread": "M3",
+            "lengthMm": 6,
+            "nominalSize": "M3 x 6 mm",
+            "headStyle": "button-head",
+            "driveStyle": "hex-socket",
+            "threadRepresentation": "simplified"
+          },
+          "stepUrl": "https://media.githubusercontent.com/media/earthtojake/step.parts/c6113328a5695b976a010a203a90fe86191769bf/catalog/step/button_head_screw_m3_l0006_simple.step",
+          "glbUrl": "https://8ljrorjug0ps5al0.public.blob.vercel-storage.com/preview/glb/button_head_screw_m3_l0006_simple-5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49.glb",
+          "pngUrl": "https://8ljrorjug0ps5al0.public.blob.vercel-storage.com/preview/png/button_head_screw_m3_l0006_simple-5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49.png",
+          "byteSize": 32164,
+          "sha256": "5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49",
+          "pageUrl": "https://www.step.parts/parts/button_head_screw_m3_l0006_simple",
+          "apiUrl": "https://api.step.parts/v1/parts/button_head_screw_m3_l0006_simple"
+        },
+        "local_path": "artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/compact_AR_fixing_interface_audit_01/catalog/button_head_screw_m3_l0006_simple.step",
+        "sha256": "5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49"
+      },
+      "underhead_world_mm": [
+        12.75607470908649,
+        71.0,
+        330.6454814052301
+      ],
+      "axis_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "actual_thread_engagement_mm": 4.9,
+      "nominal_thread_mate": "left_hip_roll_carrier_arm",
+      "retained_actual_washer": "left_thigh_shaft_end_washer",
+      "original_axial_float_to_bearing_mm": 0.4,
+      "source_hole_geometry_not_changed": true,
+      "source_packet": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/visible_structural_thigh_16/visible_structural_thigh_metadata.json",
+        "sha256": "6840c9838a9c27d81ff7e795314167b5eff23d1b4020a30bac6b1364efa1c3b3"
+      },
+      "source_native_part_index": 51,
+      "original_native_tolerance_budget_passed": true,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "current_bounds_from_actual_saved_native": true,
+      "source_mass_properties_preserved_on_unchanged_native": true,
+      "selected_minimum_full_formed_engagement_mm": 3.4,
+      "normal_rigid_shift_mm": [
+        0.0,
+        -0.6,
+        0.0
+      ],
+      "MCI_basis": "Exact actual baseline centroidal mass/tensor preserved by a0.6mm rigid translation, COM translated; original real ISO7380 M3x6 SKU and source native preserved.",
+      "old_baseline_row": {
+        "name": "left_visible_thigh_shaft_stop_M3x6",
+        "body": "left_hip_roll",
+        "mass_kg": 0.00040461499082607307,
+        "centre_zero_mm": [
+          12.756151910570049,
+          73.00188330623229,
+          330.64548140523
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            2.3656298933367357e-09,
+            6.371626894037802e-14,
+            -3.2554527335265185e-24
+          ],
+          [
+            6.371626894037802e-14,
+            7.724101818818851e-10,
+            2.155768205563976e-24
+          ],
+          [
+            -3.2554527335265185e-24,
+            2.155768205563976e-24,
+            2.3619209148394208e-09
+          ]
+        ],
+        "inertia_basis": "Exact current native COM/tensor with declared material density or component mass budget",
+        "mass_interval_kg": [
+          0.0003439227422021621,
+          0.000465307239449984
+        ],
+        "positional_uncertainty_mm": 3.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "left_visible_thigh_shaft_stop_M3x6"
+        ]
+      },
+      "mass_delta_kg": 0.0
+    },
+    {
+      "operation": "entire_native_component_rigid_remount",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        30.75607470908649,
+        -70.14999990000004,
+        59.94548140523011
+      ],
+      "axis_interface_geometry_unchanged": true,
+      "name": "right_thigh_shaft_end_washer",
+      "body": "right_hip_roll",
+      "material": "C45_min370_positive_inner_ring_clamping_cap",
+      "role": "candidate_native_leg_load_path",
+      "source": {
+        "path": "robots/Goose_V0.1/cad/source/body_bay_pitch_forks/right_thigh_shaft_end_washer.brep",
+        "sha256": "e4bbe2f2ca89abb9cd9f4612ec4fcbf5fba98c209ba5bc0a1dc78a631c9aaa92",
+        "manifest": "robots/Goose_V0.1/cad/exports/body_bay_pitch_forks/manifest.json",
+        "manifest_sha256": "a6f2e54322213a9b786f1dadb23bb2ae79b880e4d45f40e91fcf7f8849409fb6",
+        "local_to_frozen_world_mm": {
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation": [
+            15.0,
+            -76.0,
+            270.7
+          ]
+        },
+        "neutral_to_frozen_contact_lift_mm": 3.7,
+        "source_volume_mm3": 57.33799291883075,
+        "frozen_mesh_bound_mismatch_mm": 0.007769107818603516,
+        "frozen_npz_path": "robots/Goose_V0.1/cad/source/body_bay_pitch_forks/right_thigh_shaft_end_washer_quad.npz",
+        "frozen_npz_sha256": "96725fc5f1b45c7db4f495368cc221682f70ddb3606688c45309767f9cee9b12"
+      },
+      "native_bounds_mm": [
+        [
+          6.5060747090865,
+          -72.5,
+          324.39548140523
+        ],
+        [
+          19.006074709086498,
+          -71.0,
+          336.89548140523
+        ]
+      ],
+      "native_volume_mm3": 57.33799291883075,
+      "native_strict_valid": true,
+      "purchased_geometry_scaled": false,
+      "candidate_mass_basis": "actual candidate native volume times frozen source candidate material density",
+      "mesh_watertight": true,
+      "mesh_volume_relative_error": 0.0003356670230773018,
+      "assembly_group": "mechanics",
+      "native_part_index": 0,
+      "source34_occurrence": {
+        "receipt": {
+          "path": "artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/integration.json",
+          "sha256": "55b82115695ffda05c6bed4d583baab1fd09541a6aa839538ed5c326d41c3498"
+        },
+        "part_index": 52,
+        "name": "right_thigh_shaft_end_washer"
+      },
+      "old_mass_and_full_fit_or_physics_qualification_not_inherited": true,
+      "saved_native_bounds_residual_mm": 0.0,
+      "saved_native_volume_residual_mm3": 0.0,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "source05_to_target47_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -33.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          31.89999990000001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1368683772161603e-13
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_owner_M47_applied_exactly_once": true,
+      "current_bounds_from_actual_saved_native": true,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/right_thigh_shaft_end_washer.brep",
+        "sha256": "67e080998621da68c06176b12aa5642278ed6035acc3e435a53786dfdd460443"
+      },
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1.00000014210855e-07,
+          "vertex_max_mm": 1.00000014210855e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          135.97598402900033
+        ]
+      },
+      "density_kg_m3": 7850.0,
+      "mass_kg": 0.0010674114746276517,
+      "center_of_mass_world_m": [
+        0.01275607470908649,
+        -0.07161748397158205,
+        0.3306454814052301
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.2223929142132729e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.4132217244726017e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.2223929142132729e-08
+        ]
+      ],
+      "MCI_basis": "Exact two annular-cylinder physical integrals independently checked against saved closed native volume.",
+      "old_baseline_row": {
+        "name": "right_thigh_shaft_end_washer",
+        "body": "right_hip_roll",
+        "mass_kg": 0.00045010324441282135,
+        "centre_zero_mm": [
+          12.756074709086503,
+          -71.85,
+          330.6454814052302
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            4.6929834171965695e-09,
+            7.271542855972911e-24,
+            -1.365313224159049e-23
+          ],
+          [
+            7.271542855972911e-24,
+            9.367211145286338e-09,
+            -1.5892782507901045e-22
+          ],
+          [
+            -1.365313224159049e-23,
+            -1.5892782507901045e-22,
+            4.692982029940449e-09
+          ]
+        ],
+        "inertia_basis": "Retained source/component mass, uniform current native-shape tensor budget",
+        "mass_interval_kg": [
+          0.00038258775775089815,
+          0.0005176187310747445
+        ],
+        "positional_uncertainty_mm": 0.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "right_thigh_shaft_end_washer"
+        ]
+      },
+      "mass_delta_kg": 0.0006173082302148304,
+      "manufacturing_released": false
+    },
+    {
+      "name": "right_visible_thigh_shaft_stop_M3x6",
+      "body": "right_hip_roll",
+      "material": "steel_class10p9",
+      "density_kg_m3": 7850.0,
+      "native_part_index": 0,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/hip_7075_positive_inner_ring_clamp_03/right_visible_thigh_shaft_stop_M3x6.brep",
+        "sha256": "6275225885f9f44977b7471d8b05e0619fd21b03e664ba4682363f0ec43dd85d"
+      },
+      "native_bounds_mm": [
+        [
+          9.9060747090865,
+          -77.0,
+          327.79548140522996
+        ],
+        [
+          15.606074709086643,
+          -69.35,
+          333.49548140523
+        ]
+      ],
+      "native_volume_mm3": 51.54331284054829,
+      "mass_kg": 0.000404614990826073,
+      "center_of_mass_world_m": [
+        0.012756151910570048,
+        -0.07240188330623229,
+        0.33064548140523
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          2.3656298933367353e-09,
+          -6.371626894040448e-14,
+          2.582243995783149e-24
+        ],
+        [
+          -6.371626894040448e-14,
+          7.72410181881885e-10,
+          2.9893740865412246e-24
+        ],
+        [
+          2.582243995783149e-24,
+          2.9893740865412246e-24,
+          2.361920914839421e-09
+        ]
+      ],
+      "native_quality": {
+        "strict": true,
+        "BOP_including_self_intersection_valid": true,
+        "BOP_faults": [],
+        "actual_tolerances": {
+          "edge_max_mm": 1e-07,
+          "vertex_max_mm": 1e-07
+        },
+        "solid_count": 1,
+        "signed_volumes_mm3": [
+          51.54331284054829
+        ]
+      },
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "tessellation_attempts": [
+        {
+          "absolute_deflection_mm": 0.04,
+          "all_native_faces_triangulated": true
+        }
+      ],
+      "zero_area_pole_triangles_removed": 0,
+      "holes_filled": false,
+      "mesh_vertices_displaced": false,
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "Actual ISO7380 M3x6 with retained0.5mm source washer, nominal5.5mm existing C45 end tap; original0.4mm axial float, a shaft stop rather than a bearing preload clamp",
+      "manufacturing_released": false,
+      "adaptive_volume_integration_error": 4.667809446015521e-16,
+      "mass_integration_method": "OCP VolumeProperties default adaptive closed-volume integration at relative target1e-9 on catalogue or analytic cylindrical service stock; estimator is not a rigorous global error bound",
+      "mass_material_budget_not_replaced_by_integrator_error_estimate": true,
+      "catalogue_receipt": {
+        "record": {
+          "id": "button_head_screw_m3_l0006_simple",
+          "name": "ISO 7380 button head socket screw, M3 x 6 mm",
+          "description": "ISO 7380 button head socket screw, M3 x 6 mm.",
+          "category": "fastener",
+          "family": "button-head-screw",
+          "tags": [
+            "screw",
+            "button-head",
+            "metric"
+          ],
+          "aliases": [
+            "button_head_screw_M3_L0006_simple",
+            "M3 x 6 mm"
+          ],
+          "standard": {
+            "body": "ISO",
+            "number": "7380",
+            "designation": "ISO 7380"
+          },
+          "attributes": {
+            "thread": "M3",
+            "lengthMm": 6,
+            "nominalSize": "M3 x 6 mm",
+            "headStyle": "button-head",
+            "driveStyle": "hex-socket",
+            "threadRepresentation": "simplified"
+          },
+          "stepUrl": "https://media.githubusercontent.com/media/earthtojake/step.parts/c6113328a5695b976a010a203a90fe86191769bf/catalog/step/button_head_screw_m3_l0006_simple.step",
+          "glbUrl": "https://8ljrorjug0ps5al0.public.blob.vercel-storage.com/preview/glb/button_head_screw_m3_l0006_simple-5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49.glb",
+          "pngUrl": "https://8ljrorjug0ps5al0.public.blob.vercel-storage.com/preview/png/button_head_screw_m3_l0006_simple-5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49.png",
+          "byteSize": 32164,
+          "sha256": "5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49",
+          "pageUrl": "https://www.step.parts/parts/button_head_screw_m3_l0006_simple",
+          "apiUrl": "https://api.step.parts/v1/parts/button_head_screw_m3_l0006_simple"
+        },
+        "local_path": "artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/compact_AR_fixing_interface_audit_01/catalog/button_head_screw_m3_l0006_simple.step",
+        "sha256": "5a37f6e6a7746e11628e16797b36d9a55c960fd93d6215ee36c69a0a28199b49"
+      },
+      "underhead_world_mm": [
+        12.75607470908649,
+        -71.0,
+        330.6454814052301
+      ],
+      "axis_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "actual_thread_engagement_mm": 4.9,
+      "nominal_thread_mate": "right_hip_roll_carrier_arm",
+      "retained_actual_washer": "right_thigh_shaft_end_washer",
+      "original_axial_float_to_bearing_mm": 0.4,
+      "source_hole_geometry_not_changed": true,
+      "source_packet": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/tangpa_mango_ankle_integration_34/whole_stage_01/mango_primary_form_reset_01/whole_body_architecture_05/visible_structural_thigh_16/visible_structural_thigh_metadata.json",
+        "sha256": "6840c9838a9c27d81ff7e795314167b5eff23d1b4020a30bac6b1364efa1c3b3"
+      },
+      "source_native_part_index": 103,
+      "original_native_tolerance_budget_passed": true,
+      "old_whole_fit_ROM_mass_or_manufacturing_qualification_not_inherited": true,
+      "current_bounds_from_actual_saved_native": true,
+      "source_mass_properties_preserved_on_unchanged_native": true,
+      "selected_minimum_full_formed_engagement_mm": 3.4,
+      "normal_rigid_shift_mm": [
+        0.0,
+        0.6,
+        0.0
+      ],
+      "MCI_basis": "Exact actual baseline centroidal mass/tensor preserved by a0.6mm rigid translation, COM translated; original real ISO7380 M3x6 SKU and source native preserved.",
+      "old_baseline_row": {
+        "name": "right_visible_thigh_shaft_stop_M3x6",
+        "body": "right_hip_roll",
+        "mass_kg": 0.000404614990826073,
+        "centre_zero_mm": [
+          12.756151910570049,
+          -73.00188330623229,
+          330.64548140523
+        ],
+        "inertia_at_com_zero_kg_m2": [
+          [
+            2.3656298933367353e-09,
+            -6.371626894040448e-14,
+            2.582243995783149e-24
+          ],
+          [
+            -6.371626894040448e-14,
+            7.72410181881885e-10,
+            2.9893740865412246e-24
+          ],
+          [
+            2.582243995783149e-24,
+            2.9893740865412246e-24,
+            2.361920914839421e-09
+          ]
+        ],
+        "inertia_basis": "Exact current native COM/tensor with declared material density or component mass budget",
+        "mass_interval_kg": [
+          0.00034392274220216207,
+          0.0004653072394499839
+        ],
+        "positional_uncertainty_mm": 3.0,
+        "group": "actual_native",
+        "native_mass_coverage": [
+          "right_visible_thigh_shaft_stop_M3x6"
+        ]
+      },
+      "mass_delta_kg": 0.0
+    }
+  ],
+  "replaces_occurrences": [
+    "left_hip_roll_carrier_arm",
+    "right_hip_roll_carrier_arm",
+    "left_thigh_shaft_end_washer",
+    "left_visible_thigh_shaft_stop_M3x6",
+    "right_thigh_shaft_end_washer",
+    "right_visible_thigh_shaft_stop_M3x6"
+  ],
+  "additional_occurrences": [],
+  "removed_occurrences": [],
+  "source_whole": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole_core_review_05/integration.json",
+    "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860"
+  },
+  "actual_old_baseline": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/hip_material_six_exact_baseline_rows.json",
+    "sha256": "a623d4130919b2c8c75ba3e18fac79a5aee3a0d8d3fd5915c496921f850c333c"
+  },
+  "material_candidate": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_same_native_light_material_candidates_02/same_native_light_material_candidates.json",
+    "sha256": "c02800cb11028dc7273f38130630010de4f8e1d3fb30fe2b3b496f3550736973"
+  },
+  "peak_screens": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_left_hip_carrier_7075_actual_peak_screen_01/component_screen.json",
+      "sha256": "3410341b2462eeaf14db243586269e6025315b4eb44ecb484b57e72e7a17d337"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_right_hip_carrier_7075_actual_peak_screen_01/component_screen.json",
+      "sha256": "eb0485f7799d64dd84a363c6aae274819c6fb877c5af10feb4b8f6d8af821049"
+    }
+  ],
+  "signed_gap_contribution": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/structural_topology/whole05_carrier_7075_actual_port_direction_field_01/actual_HP_port_and_gap_direction_contributions.json",
+    "sha256": "4e7c7d04c351be46615323bab0d38962d5851b545377fbce402f763fcd0da497"
+  },
+  "signed_gap_summary": [
+    {
+      "side": "left",
+      "maximum_closing_contribution_with_pad_fit_residual_mm": -0.12064421435671098
+    },
+    {
+      "side": "right",
+      "maximum_closing_contribution_with_pad_fit_residual_mm": -0.12415119909683742
+    }
+  ],
+  "positive_clamp_native_checks": [
+    {
+      "side": "left",
+      "constructor": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/build_goose_hip_inner_ring_clamping_caps.py",
+        "sha256": "21dcc6b2e5b6c6f568b93109a993c42ab5413951e32ddf60ee4a9afc97357652"
+      },
+      "constructor_checks_completed_before_only_old_mass_metadata_KeyError": true,
+      "actual_constructor_common_with_whole05_carrier_bearing_and_outer_retainer_below_1e_6_mm3": true,
+      "actual_bearing_face_native_circles_R_mm": [
+        5.0,
+        9.5
+      ],
+      "cap_true_bearing_inner_face_contact_area_mm2": 42.5999963826776,
+      "central_underside_to_journal_tip_gap_mm": 0.1,
+      "cap_raised_annulus_to_true_journal_radial_gap_mm": 0.054,
+      "cap_strip_VM_MPa": 185.8643730043305,
+      "cap_C45_allow_MPa": 246.66666666666666,
+      "selected_inner_ring_clamp_N": 250.0,
+      "inner_face_mean_pressure_MPa": 5.868545099258677,
+      "geometric_M3_engagement_mm": 4.9,
+      "minimum_actual_full_formed_thread_condition_mm": 3.4,
+      "thread_tip_entry_runout_and_axial_tolerance_total_limit_mm": 1.5,
+      "original_axial_float_mm": 0.4,
+      "controlled_positive_inner_ring_clamp_is_explicit_change": true
+    },
+    {
+      "side": "right",
+      "constructor": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/build_goose_hip_inner_ring_clamping_caps.py",
+        "sha256": "21dcc6b2e5b6c6f568b93109a993c42ab5413951e32ddf60ee4a9afc97357652"
+      },
+      "constructor_checks_completed_before_only_old_mass_metadata_KeyError": true,
+      "actual_constructor_common_with_whole05_carrier_bearing_and_outer_retainer_below_1e_6_mm3": true,
+      "actual_bearing_face_native_circles_R_mm": [
+        5.0,
+        9.5
+      ],
+      "cap_true_bearing_inner_face_contact_area_mm2": 42.5999963826776,
+      "central_underside_to_journal_tip_gap_mm": 0.1,
+      "cap_raised_annulus_to_true_journal_radial_gap_mm": 0.054,
+      "cap_strip_VM_MPa": 185.8643730043305,
+      "cap_C45_allow_MPa": 246.66666666666666,
+      "selected_inner_ring_clamp_N": 250.0,
+      "inner_face_mean_pressure_MPa": 5.868545099258677,
+      "geometric_M3_engagement_mm": 4.9,
+      "minimum_actual_full_formed_thread_condition_mm": 3.4,
+      "thread_tip_entry_runout_and_axial_tolerance_total_limit_mm": 1.5,
+      "original_axial_float_mm": 0.4,
+      "controlled_positive_inner_ring_clamp_is_explicit_change": true
+    }
+  ],
+  "net_mass_delta_kg": -0.441069076284903,
+  "all_18_drives_axes_and_major_collision_geometry_unchanged": true,
+  "journal_design": {
+    "D_mm": 9.992,
+    "central_hole_conservative_D_mm": 3.0,
+    "full_cantilever_length_mm": 5.4,
+    "declared_radial_reaction_envelope_N": 600.0,
+    "declared_total_axial_and_clamp_envelope_N": 450.0,
+    "VM_MPa": 44.16010794860762,
+    "allow_MPa": 294.176311175168,
+    "projected_bearing_pressure_MPa": 12.009607686148918,
+    "basis": "Individual journal local material bound; true original motor/front support and rear61800 share remains the prior mechanical architecture. This is not an invented OEM off-axis bearing rating."
+  },
+  "fit_and_procurement_conditions": {
+    "alloy_stock": "Actual63.5mm7075-T651 plate: manufacturer minimum64ksi, native containment and grain directions in each strength_screen_contract. No certificate in hand claimed.",
+    "journal_finished_D_mm": [
+      9.989,
+      9.992
+    ],
+    "surface": "Journal-only masked hard anodize/finish to the stated final g6 subrange; no coating build added to bearing fit. Coating nominal mass uncertainty<=0.05g/arm.",
+    "bearing": "Actual registered SKF61800 Normal, select measured unmounted radial clearance>=9um from official Normal2..13um interval for6<d<=10mm; maintain positive housing bore clearance and verify hot free rotation.",
+    "bearing_clearance_primary_URL": "https://cdn.skfmediahub.skf.com/api/public/0901d196802809de/pdf_preview_medium/0901d196802809de_pdf_preview_medium.pdf",
+    "shaft_to_inner_temperature_difference_max_K": 30.0,
+    "inner_to_outer_temperature_difference_max_K": 10.0,
+    "engineering_thermal_expansion_per_K": {
+      "Al": 2.4e-05,
+      "steel": 1.2e-05
+    },
+    "conservative_radial_clearance_remaining_um": 2.379999999999999,
+    "M3": "Real same ISO7380M3x6 with selected grade10.9/equivalent reduced-head capacity, full formed actual female thread>=3.4mm and controlled250N clamp. Finished stack and temperature/free-running verification required.",
+    "cap_C45_min_yield_MPa": 370.0,
+    "thread_grade_and_temperature_process_not_measured": true
+  },
+  "applicability": "Only the two stated actual whole05 complete-pose6D cases with total HP axis +/-12Nm, fullS/6D balance; signed gap carrier contribution opens the declared geometry witness in both. Not a wholeROM/actualpose7support/impact/3g proof. Foreign gimbal/unchanged main load chain and remaining mechanical validation retain their prior explicit conditions.",
+  "other_heavy_material_decisions": {
+    "bridge": "RETAIN7225QT: old18kg3g~424.7MPa exceeds7075allow294.176. Actual ordinary-task75MPa is a different scope and does not delete impact.",
+    "AP": "RETAIN7225QT: actualHP/AP total12Nm408.505MPa exceeds7075allow280.387; rejectedAl/Ro33 experiments remain rejected.",
+    "gimbal": "RETAINC45: D16crosscut46.708MPa does not close all true D15journal/key/elbow/local-stiffness/fit paths. No density-only adoption.",
+    "shin_journal_cover": "RETAINC45 real male10g6 source; no unbuilt hybrid interface.",
+    "topology": "Historical11BESO/6pockets rejected at451.98>433.33MPa retained. No new successful topology optimization claimed."
+  },
+  "stable_physics_freeze_or_fatigue_or_hardware_thermal_validation": false
+}

@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-19T22:10:00Z",
+  "sources": [
+    {
+      "publisher": "ATI",
+      "url": "https://www.atimaterials.com/Products/Documents/datasheets/stainless-specialty-steel/precipitationhardening/ati_17-4_tds_en_v2.pdf",
+      "version": "2016-08-18",
+      "scope": "Wrought17-4 sheet/bar forms;H900minimumtable1170MPa yield/1310MPa tensile/40\u201347HRC as AMS5604 sheet minimum; supplier bar certificate must independently meet requested1170MPa. H900482\u00b15\u00b0C60\u00b15min then air cool; unaged condition not approved. Typical data not lot certificate."
+    },
+    {
+      "publisher": "Carpenter Technology",
+      "url": "https://www.carpentertechnology.com/hubfs/7407324/Material%20Saftey%20Data%20Sheets/Custom%20630%20%2817-4%20PH%29.pdf",
+      "scope": "Custom630 wrought bar/flats/rounds, ASTM A564/AMS5643. H900 density7800kg/m\u00b3,E197GPa,\u03bd.272; ConditionA\u2192H900 shrinkage.0004\u2013.0006. H900 typical yield1262MPa deliberately not used as certified minimum; primary heat-treatment/machinability source."
+    }
+  ],
+  "quote_received": false,
+  "actual_order_or_certificate_received": false
+}

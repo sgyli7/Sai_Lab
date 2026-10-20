@@ -1,0 +1,75 @@
+{
+  "physical_steps": 0,
+  "LP_calls": 2,
+  "saved_failed_hard_eq": 3.42343136370311e-06,
+  "original_reproduced": true,
+  "same_exact_LP_matrix": true,
+  "method": "highs unchanged (not forced IPM)",
+  "calls": [
+    {
+      "label": "original",
+      "matrix_sha256": "64528aae00651a92362ba08922e6dd56fac16d30bb6e3bedfd01c64c3f86b434",
+      "method": "highs",
+      "options": {
+        "time_limit": 0.8,
+        "threads": 1,
+        "primal_feasibility_tolerance": 1e-06,
+        "presolve": false
+      }
+    },
+    {
+      "label": "tight_1e9",
+      "matrix_sha256": "64528aae00651a92362ba08922e6dd56fac16d30bb6e3bedfd01c64c3f86b434",
+      "method": "highs",
+      "options": {
+        "time_limit": 0.8,
+        "threads": 1,
+        "primal_feasibility_tolerance": 1e-09,
+        "presolve": false,
+        "dual_feasibility_tolerance": 1e-09
+      }
+    }
+  ],
+  "results": [
+    {
+      "label": "original",
+      "abort": "native_LP_hard_physical_readback",
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "hard_eq": 3.42343136370311e-06,
+      "hard_ineq": 1.8100188015068852e-11,
+      "circle": 0.0,
+      "source_model_error": 0.0,
+      "LP_wall_s": 0.01538180303759873,
+      "native_witness": {
+        "force_balance_max": 7.105427357601002e-14,
+        "equality_acceleration_max": 3.5128150388530344e-16,
+        "contact_KKT_max": 1.7763568394002505e-15,
+        "contact_circle_excess_max": 0.0,
+        "dry_friction_mode_max": 1.7763568394002505e-15,
+        "source_legal": true
+      }
+    },
+    {
+      "label": "tight_1e9",
+      "abort": null,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "success": true,
+      "hard_eq": 3.959598871006165e-09,
+      "hard_ineq": 2.093297757355117e-12,
+      "circle": 0.0,
+      "source_model_error": 0.0,
+      "LP_wall_s": 0.012035932042635977,
+      "native_witness": {
+        "force_balance_max": 7.105427357601002e-14,
+        "equality_acceleration_max": 1.3444106938820255e-16,
+        "contact_KKT_max": 1.7763568394002505e-15,
+        "contact_circle_excess_max": 0.0,
+        "dry_friction_mode_max": 1.7763568394002505e-15,
+        "source_legal": true
+      }
+    }
+  ],
+  "same_qv_target_packet_reference_caps_weights": true,
+  "source_actual13_unchanged": true
+}

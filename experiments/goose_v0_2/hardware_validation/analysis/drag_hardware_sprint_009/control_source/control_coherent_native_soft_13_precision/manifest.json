@@ -1,0 +1,1493 @@
+{
+  "status": "IMMUTABLE_PRECISION_VARIANT",
+  "files": {
+    "capture_alignment_entry_readback.json": {
+      "sha256": "280eb0641b9262d336e75d9dcab3984784f0e862683c794bec6401a07ea843df",
+      "bytes": 12592
+    },
+    "preflight13.py": {
+      "sha256": "4a1942b6bd6a121f522c547cd99f3d4d0c39556f7a68b1c5e843b04b3fe72831",
+      "bytes": 4868
+    },
+    "foot_ground_names.json": {
+      "sha256": "b02dda6bad855aacb7d73c841be6e689b4aa0b47b7d209baa664a46bae789fac",
+      "bytes": 36
+    },
+    "declaration13.json": {
+      "sha256": "ffa7ca899507e3fff466561669c5b15a3c3a82d7c8182bafb4dc9a8aef450c55",
+      "bytes": 2337
+    },
+    "dispatch_segment_readback.json": {
+      "sha256": "ebf19c550fdb272a8babefac0766a85f8e4383bb30464a5eb373901de2ff590b",
+      "bytes": 3095167
+    },
+    "check_refsafe_lock.py": {
+      "sha256": "8a1ffc23889f4608465855b680bf97158a8190e45e75510a2233f595f49a9f5e",
+      "bytes": 2322
+    },
+    "exact_delta13.diff": {
+      "sha256": "7af934de35fa2e364a8e854d380904822ff5253d4a800edb837b378a71854fd4",
+      "bytes": 14562
+    },
+    "preflight13_readback.json": {
+      "sha256": "cb69c8b8ba82b458684bf8ba3bcb123f8ec4415168e0244d534c82d27f5ac946",
+      "bytes": 3178
+    },
+    "motion_stop_reference.py": {
+      "sha256": "f4d7fe3a4c9dc83bd472a78eaa03d32700f6f61a4c1868c27d697128fda0f39b",
+      "bytes": 1067
+    },
+    "three_state_readback.json": {
+      "sha256": "caaf015d6bff3ae518f3208026907662ae0a691dccbe3c47aa575eb2ed119ac3",
+      "bytes": 8073
+    },
+    "precision_only.diff": {
+      "sha256": "e45a3258201b08b061fcd74e674fc0fba4b32130d4010d9270b898cf8dec3f83",
+      "bytes": 2946
+    },
+    "declaration.json": {
+      "sha256": "482e269c87175166ca3e1785aade6cb6a9ee55f2a18af9c93e0cdebb8d6e04e7",
+      "bytes": 1692
+    },
+    "preflight_three_states.py": {
+      "sha256": "c50d9be95026ea1f231d660dece8369616ef5544fae3080c5ee4840e6925efdf",
+      "bytes": 4561
+    },
+    "check_capture_entry.py": {
+      "sha256": "213b2aa6e412d4eacb513f83ee6a301e3dc2bd858ae192e3cc65f8e7852a4b52",
+      "bytes": 3461
+    },
+    "complete_cycle_plan.py": {
+      "sha256": "64bd73495b5723a679c424ce06a96d7eb74863e45d5136dd0917db9e1cf12fed",
+      "bytes": 3986
+    },
+    "run_support.py": {
+      "sha256": "69946d6e4ca2f5d87deea5994488a40cbc46860998d9a48b24ccd2f80223bf56",
+      "bytes": 34134
+    },
+    "capture_plan_entry.py": {
+      "sha256": "a5850fbeaa961860595f321560a456c0b3748743917a576e1d15696b48ff0b90",
+      "bytes": 3621
+    },
+    "aligned_capture_plan.py": {
+      "sha256": "a38832a11ef171582e164e914126382471c2e121fc3e811cf3747d12402bf731",
+      "bytes": 2528
+    },
+    "complete_reference.npz": {
+      "sha256": "25e5d4a7c4500a4dd258c34204c28576775f508f827ac94d72e677727b72d1f5",
+      "bytes": 479943
+    },
+    "render_replay.py": {
+      "sha256": "9c0b87d2282508fa7af9b1396afc8e78b747f6377d9a340d38a9f3215b485734",
+      "bytes": 1581
+    },
+    "teacher_drive_segment.py": {
+      "sha256": "269252154f09431245349e5ac31b39f7c79e6288d9ed80bb956cc1579d4707cc",
+      "bytes": 3632
+    },
+    "world_neck_qonly.py": {
+      "sha256": "6d3cc56ada84a65ecd6df112d4feae717e844de8ea064778eb163e6fdd9825e1",
+      "bytes": 1488
+    },
+    "zero_step_fineguard_preflight.py": {
+      "sha256": "efe12d20e3058910f60e80d63e2a9734ceeb6f2e74e5577a36d096612704168f",
+      "bytes": 5114
+    },
+    "coherent_plan_sampler.py": {
+      "sha256": "bee2b645e0bdf95e5df195dd705d6f8c278a91075ff47600ba13a40103becab6",
+      "bytes": 3898
+    },
+    "root_pose_feedback.py": {
+      "sha256": "200870143d45923f9b4ee9835fb13377e1bc5baa468a9a6a38ca03f4336506a1",
+      "bytes": 1146
+    },
+    "REPORT.md": {
+      "sha256": "3c6bad41edcf6c734ea28b9bb2c0081219abdc5ab6faf62d59299ff8213aa1b0",
+      "bytes": 5308
+    },
+    "packets50Hz.json": {
+      "sha256": "d13d383cd13fab244eca335d13ad2808ebd2d0b7a5f98c251a5fcb4b05e35e6d",
+      "bytes": 1889080
+    },
+    "actual_centroidal_wrench.py": {
+      "sha256": "4f635bc615a6cf63c056dfbea7a09d7db990b7b8be7ddaeb2c692bf8ae414f55",
+      "bytes": 1920
+    },
+    "drive_ff200.py": {
+      "sha256": "ed709d18f582d2a1118a1fbdfad214724d2addff44fd903e8f3f94cbcd3846c8",
+      "bytes": 3908
+    },
+    "driver_fullguard_zero13.py": {
+      "sha256": "bd814cc65b2e65ed8e6f67bb287803e02afd52a2ab3c4f0094e78a84d435c430",
+      "bytes": 6814
+    },
+    "runner_segment_dispatch.py": {
+      "sha256": "15fe425ed5c5f9fc89170535d2b9ed10ed284e430afd8659c92640d89cc36d80",
+      "bytes": 2524
+    },
+    "seal_candidate12.py": {
+      "sha256": "6edbfbec9d0cee844dbb46192494ef079e17f0df9cb67fada11b3f2c48fec631",
+      "bytes": 10121
+    },
+    "native_coherent_motion.py": {
+      "sha256": "71fcf3d0097247e4dd66ceb4ca5f6755bcf6bc5ab323a904a1fb7c1e780b7e5b",
+      "bytes": 8643
+    },
+    "rebuild_capture_plan.py": {
+      "sha256": "4f09d6a15e9f3af857ae721f6742a0216e5ea47b29701934f3d26d2c5cdfe7b9",
+      "bytes": 3574
+    },
+    "driver_fullguard_zero13_readback.json": {
+      "sha256": "9b68533b19d5389dd707680ca17d495b56a9f3eee40115595a8d981ecfba65f7",
+      "bytes": 1425
+    },
+    "dependency_fix_receipt.json": {
+      "sha256": "cb29d2cfe8484f8722f185693db018811f1cf87bcc739ff09a2beccc3421cedb",
+      "bytes": 926
+    },
+    "REPORT13.md": {
+      "sha256": "025eeab84cb76296b9c8b0c17750f5f9f4c556194f054ac0d3ae49ed7b88691a",
+      "bytes": 2017
+    },
+    "foot_ik_reference.py": {
+      "sha256": "0bca0a8048f076749d756fc658d529ce797d0ba9ae0503405e1d4e244ce0a33a",
+      "bytes": 2593
+    },
+    "fineguard_zero_step_readback.json": {
+      "sha256": "b9df62e2ceecd071ce5d82947cb1ae729c3905fd18c96350fe7a649c3f3f5bdb",
+      "bytes": 2134
+    },
+    "check_dispatch_segment.py": {
+      "sha256": "a793530dab78936999d27ce41536a214eff461ad63815fe0b1afd39ad3717d1e",
+      "bytes": 4105
+    },
+    "dynamic_support_teacher.py": {
+      "sha256": "2629058febf341a1fbd4c43a7e973d40fda4bc42be97f3fcbee1606092a8c68a",
+      "bytes": 3211
+    },
+    "declaration13_precision.json": {
+      "sha256": "16753defd0404a66d7a89b5ea4df5dea77c58343acad7a251fa940099e9520a0",
+      "bytes": 3067
+    },
+    "soft_phase_model.py": {
+      "sha256": "75ce6ba293b9c1e1bbf81008534fcf4eca88d81cac9a41d0a5378d2f540dd878",
+      "bytes": 14932
+    },
+    "four_state_summary.json": {
+      "sha256": "08447a8584765f9007dc717cd51c826d498e222aabbdfe224c468c4325d0ff40",
+      "bytes": 2398
+    },
+    "runner_dependency_repair.diff": {
+      "sha256": "4c672dab762de6e501db3174f41c39cc9f8ba764b615e996597da5726ef84bcd",
+      "bytes": 4551
+    },
+    "native_dispatch_witness.py": {
+      "sha256": "f9e91a4820082c8af9c9a31ed8366bf6cf9a3c3a8e3078a757f5bb6892c3fe36",
+      "bytes": 2654
+    },
+    "teacher_mit_profile.py": {
+      "sha256": "77f6c1ea49722376291e31d58d9320bb9cb65bb3db973693ade7c35ecf9c73a9",
+      "bytes": 3368
+    },
+    "rebuild_capture_readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "cold_live_construction_readback.json": {
+      "sha256": "f89173778b4bfa6588c38334be11876154cc7228f945e06b8d857c6f69d7fb4e",
+      "bytes": 1375
+    },
+    "parent_inputs/runtime_context.json": {
+      "sha256": "aa3f62105d6b23bcbd1cb0e4ce27ce4935d22337590f8b81448a83524a5ffccc",
+      "bytes": 3168
+    },
+    "parent_inputs/source_and_cold_admission.json": {
+      "sha256": "88ece503bcb350fa07d4372432c2f64376b042543384a9e52f3266fc912004e9",
+      "bytes": 4830
+    },
+    "parent_inputs/static_bias_COM_readback.json": {
+      "sha256": "a6662a9fadf5f8c0bf52ed007210254a6d3f8d499cca4b70b16d7d27751dbb13",
+      "bytes": 12815
+    },
+    "parent_inputs/check_refsafe_lock.py": {
+      "sha256": "8a1ffc23889f4608465855b680bf97158a8190e45e75510a2233f595f49a9f5e",
+      "bytes": 2322
+    },
+    "parent_inputs/complete_cycle_plan.py": {
+      "sha256": "64bd73495b5723a679c424ce06a96d7eb74863e45d5136dd0917db9e1cf12fed",
+      "bytes": 3986
+    },
+    "parent_inputs/complete_reference.npz": {
+      "sha256": "25e5d4a7c4500a4dd258c34204c28576775f508f827ac94d72e677727b72d1f5",
+      "bytes": 479943
+    },
+    "parent_inputs/baseline_causal_program.json": {
+      "sha256": "2dcc86cfd41cfb26168388df1f0d13d5d8a76f7af9180dbb8244a1a00a823a48",
+      "bytes": 206584
+    },
+    "parent_inputs/fresh_cold_state.npz": {
+      "sha256": "a76a414cc6d39c85a4feef0128ed8afc30b2e000fda4bf3a55d8506f7209be9d",
+      "bytes": 597
+    },
+    "parent_inputs/soft_phase_model.py": {
+      "sha256": "3b552c0c2ad43989459132f2aea7c1ee8f7a6628a726452930ace35fe162a414",
+      "bytes": 14898
+    },
+    "parent_inputs/teacher_mit_profile.py": {
+      "sha256": "77f6c1ea49722376291e31d58d9320bb9cb65bb3db973693ade7c35ecf9c73a9",
+      "bytes": 3368
+    },
+    "robot_source/runtime_adapter.py": {
+      "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "bytes": 9449
+    },
+    "robot_source/compiled_readback.json": {
+      "sha256": "9004c3036a1d2166b26fd13791e79ef345d0ca8e0125a910b7b8d4b61484cb06",
+      "bytes": 20994
+    },
+    "robot_source/actuator_source_facts.json": {
+      "sha256": "8294d0d075a96120922af994d57ebbbea3fb5622cea570cfa5dddb20f135a15b",
+      "bytes": 5869
+    },
+    "robot_source/reset_pose_seeds.json": {
+      "sha256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9",
+      "bytes": 2292
+    },
+    "robot_source/manifest.json": {
+      "sha256": "264cf521b5da0a4f969337f704db3c2a397fc2b155f6d20037ff100ab2b99ce6",
+      "bytes": 13930
+    },
+    "robot_source/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "robot_source/robot.xml": {
+      "sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18",
+      "bytes": 28309
+    },
+    "robot_source/verify_package.py": {
+      "sha256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef",
+      "bytes": 1025
+    },
+    "robot_source/requirements_rebuild.txt": {
+      "sha256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09",
+      "bytes": 42
+    },
+    "robot_source/mass_ledger.json": {
+      "sha256": "509a2e2d63468df130856c4d26c0b44cd1ae31b5ff0f7db4e1f238c8f86b75a8",
+      "bytes": 2141055
+    },
+    "robot_source/engineering_mass_patch.json": {
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+      "bytes": 44495
+    },
+    "robot_source/THIRD_PARTY_NOTICES.md": {
+      "sha256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead",
+      "bytes": 3880
+    },
+    "robot_source/runtime_interface.json": {
+      "sha256": "7505e2ef4439831dcf3e049aefde48672e7073411620e0a325b43bd4ef2f70ab",
+      "bytes": 5244
+    },
+    "robot_source/source_snapshot.json": {
+      "sha256": "6b1fa886e1fc5da4eb47dc4cc7aa80f19ff6384997d5ad6e1a2e5fa2a795426e",
+      "bytes": 2421
+    },
+    "robot_source/qualification_limits.json": {
+      "sha256": "c971debac6a3fd7bdc01df9b734178de28ad73f9dde705f58599471a559b2597",
+      "bytes": 3369
+    },
+    "robot_source/hardware_change_receipt.json": {
+      "sha256": "379e82b0076f1b04c0f7283fa6292c06c576a407e6a751d4918f09043c99d288",
+      "bytes": 150498
+    },
+    "robot_source/requirements.txt": {
+      "sha256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c",
+      "bytes": 29
+    },
+    "robot_source/material_mass_patch.json": {
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+      "bytes": 51558
+    },
+    "robot_source/collision_manifest.json": {
+      "sha256": "f48b371f39ada05cbd162acae278726f1c5e1edd4073bcc8a337d66087e6d20e",
+      "bytes": 45189
+    },
+    "robot_source/collision_faithfulness.json": {
+      "sha256": "2e6efa1d054363d596c10597227d53507c053d4cadc72aa5d3885767e87df359",
+      "bytes": 4916
+    },
+    "robot_source/actuator_contract.json": {
+      "sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187",
+      "bytes": 34046
+    },
+    "robot_source/README.md": {
+      "sha256": "ca6ad14773ce8cab9d12f61a7f47f8b68704ea6f0425a1dd5064cee7133c6f7c",
+      "bytes": 2682
+    },
+    "robot_source/physical_contract.json": {
+      "sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85",
+      "bytes": 153482
+    },
+    "capture_prefix_source/capture_reference.py": {
+      "sha256": "474ae7a456402d35f9aff217922293ba729090ccea311d6cfc1380334844747b",
+      "bytes": 277
+    },
+    "capture_prefix_source/closed_reference_cold.npz": {
+      "sha256": "a76a414cc6d39c85a4feef0128ed8afc30b2e000fda4bf3a55d8506f7209be9d",
+      "bytes": 597
+    },
+    "capture_prefix_source/closed_static_rebalance.json": {
+      "sha256": "ffea9cc228dd3cfe817b109a00c083e2b55f06e8208975c9fb0e1fd6fe964187",
+      "bytes": 23698
+    },
+    "capture_prefix_source/static_rebalance_free16.json": {
+      "sha256": "97368d40132dca442a579b841d86bb376443cc5c4a3372556089f0b700d60c4d",
+      "bytes": 18033
+    },
+    "capture_prefix_source/capture_provider.py": {
+      "sha256": "78c5408b2754438e5951935daa032b2e62085546c20fbbd0de3200dfd271a338",
+      "bytes": 2390
+    },
+    "capture_prefix_source/capture_preflight.json": {
+      "sha256": "a46393d11e5589f81d0c05dcf1647d7bcc131154b9af10a307b36c969bd4ef00",
+      "bytes": 11696
+    },
+    "capture_prefix_source/cold_state.npz": {
+      "sha256": "bfc5216654422510833645dc296c220bb15374580ac17e83305695b49fba5295",
+      "bytes": 592
+    },
+    "precision_readback/original.json": {
+      "sha256": "218fd377dd1ce4c64b1c1613e0e871fd5e24d31aab41de0dff9159de2fab3e2d",
+      "bytes": 36095
+    },
+    "precision_readback/original_matrix.npz": {
+      "sha256": "06e8ce656ec16d766e5ea190c65ce30cfd93e60231985730a52a77e13cbf6016",
+      "bytes": 20531
+    },
+    "precision_readback/producer.py": {
+      "sha256": "9d686569ebe20939bcfec9e8e15925745c827dc6af12586c4465529f0e1000a5",
+      "bytes": 3825
+    },
+    "precision_readback/comparison.json": {
+      "sha256": "582b910c4f16e82e825314a192bc36edc2829c98addd826a8f3352d6a7d3e407",
+      "bytes": 2362
+    },
+    "precision_readback/tight_1e9_matrix.npz": {
+      "sha256": "06e8ce656ec16d766e5ea190c65ce30cfd93e60231985730a52a77e13cbf6016",
+      "bytes": 20531
+    },
+    "precision_readback/tight_1e9.json": {
+      "sha256": "99c36b75cbd831c492c69da6a7f2d87ec52cd49cec38259aed3c462f182915b9",
+      "bytes": 36085
+    },
+    "readbacks/state_03.npz": {
+      "sha256": "95658005ec877770553475581be84a4a0b51653e1b59614f1babe3d1b7c7ab9b",
+      "bytes": 4256
+    },
+    "readbacks/state_03.json": {
+      "sha256": "90df3c1280e692afd11ef9effe112f12242a172f96acce29562e281825a73465",
+      "bytes": 55786
+    },
+    "readbacks/state_00.json": {
+      "sha256": "9896d102077af400b940fbe4734ea6dc61cd0577e2cfa565ab63c3d01668fe3c",
+      "bytes": 46934
+    },
+    "readbacks/state_01.json": {
+      "sha256": "c23a1fcd9034a61cd254c5af129bfcda1076c801e28f2287cf5b9892ab20cadd",
+      "bytes": 60709
+    },
+    "readbacks/state_01.npz": {
+      "sha256": "a507ea8dcf870af3c0450ce92416abdbc011dc67589c9ce6a8a7a962be6e6116",
+      "bytes": 4432
+    },
+    "readbacks/state_00.npz": {
+      "sha256": "3960cfdb140b12acd74de207f240416385b09e8c07d2afa00014aac67e4fbd57",
+      "bytes": 3217
+    },
+    "readbacks/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks/state_02.json": {
+      "sha256": "63b32c7f11b26cdf91ab9bc73f168a4d827d791371f1a3cc5d9ff2ede32c5dab",
+      "bytes": 61346
+    },
+    "readbacks/state_02.npz": {
+      "sha256": "38c2f2594c086468ba613d85bdfba85e3e07ca5414a2581c69ad99058f80d335",
+      "bytes": 4495
+    },
+    "actual_capture_context/true_terminal_poststate.json": {
+      "sha256": "8f706e5ae032476141ec8bb545c1462736a6a182cce949913d07ba9d16573365",
+      "bytes": 23423
+    },
+    "actual_capture_context/true_terminal_poststate.npz": {
+      "sha256": "9c970ff704c9cf41b53383625e81c482157f123b3d7ae59f2497c9250b2338b0",
+      "bytes": 13127
+    },
+    "actual_capture_context/handoff_bumpless_and_ready.json": {
+      "sha256": "d595f7241b1915b4e71e08bbe5e90df705be902a535a41fcd4a65a12771ad96e",
+      "bytes": 14643
+    },
+    "actual_capture_context/capture_handoff_context.json": {
+      "sha256": "ec231fca825ffda2cdef18e3837dc918ee6a19a0c08a3d8c884e3f5ab49408d4",
+      "bytes": 9086
+    },
+    "actual_capture_context/summary.json": {
+      "sha256": "955697fda1ebbd16989a1a00560337da62ddc7a50c6d32f4efaba1dc3e6bc80d",
+      "bytes": 3639
+    },
+    "scene/robot.xml": {
+      "sha256": "8bab0e21b6fb560b8c7fe2e91da458f151e54562b961af57a888bf98873f2574",
+      "bytes": 41573
+    },
+    "scene/original_plane_parent.xml": {
+      "sha256": "015449aba8c10eb011217cb370002b4c81735a94b419c59ed09b6d05595aee36",
+      "bytes": 39847
+    },
+    "scene/actuator_contract.json": {
+      "sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187",
+      "bytes": 34046
+    },
+    "scene/physical_contract.json": {
+      "sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85",
+      "bytes": 153482
+    },
+    "readbacks13/drive_6.265.json": {
+      "sha256": "635bcc21582b0aadc7ebac7b9dfb9d9255047eaf6da425719b1788c333f2bafc",
+      "bytes": 37762
+    },
+    "readbacks13/drive_5.800.json": {
+      "sha256": "939882f09a19033925430d853095631a34ee08a6c79cdf5f30396fac1aa43fc7",
+      "bytes": 37353
+    },
+    "readbacks13/drive_6.700.json": {
+      "sha256": "aa1733c3247dd573f269b3f3431b2fd558cbc640b2b586d1d162a7c09b91b6ac",
+      "bytes": 34379
+    },
+    "readbacks13/generated_reference/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks13/generated_reference/observed_capture_reference.readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "scene/meshes/source_right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "scene/meshes/source_right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "scene/meshes/upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "scene/meshes/source_neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "scene/meshes/cart_pitch_offset_plate_yminus12p5.obj": {
+      "sha256": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688",
+      "bytes": 658
+    },
+    "scene/meshes/source_torso_skin_rear0.obj": {
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+      "bytes": 4460
+    },
+    "scene/meshes/source_lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "scene/meshes/cart_bite_yoke_left.obj": {
+      "sha256": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8",
+      "bytes": 2147
+    },
+    "scene/meshes/source_torso_skin_left_sector1.obj": {
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+      "bytes": 4381
+    },
+    "scene/meshes/left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "scene/meshes/right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "scene/meshes/right_shin_envelope.obj": {
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+      "bytes": 1835
+    },
+    "scene/meshes/cart_pitch_offset_plate_y12p5.obj": {
+      "sha256": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532",
+      "bytes": 646
+    },
+    "scene/meshes/source_upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "scene/meshes/source_torso_skin_right_sector0.obj": {
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+      "bytes": 4425
+    },
+    "scene/meshes/source_torso_skin_left_sector5.obj": {
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+      "bytes": 4380
+    },
+    "scene/meshes/source_right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "scene/meshes/source_left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "scene/meshes/torso_central_keel.obj": {
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+      "bytes": 2737
+    },
+    "scene/meshes/cart_rotating_shaft.obj": {
+      "sha256": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1",
+      "bytes": 3681
+    },
+    "scene/meshes/left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "scene/meshes/right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "scene/meshes/source_torso_skin_rear1.obj": {
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+      "bytes": 4459
+    },
+    "scene/meshes/source_torso_skin_right_sector1.obj": {
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+      "bytes": 4434
+    },
+    "scene/meshes/source_neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "scene/meshes/neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "scene/meshes/cart_drawbar.obj": {
+      "sha256": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833",
+      "bytes": 2747
+    },
+    "scene/meshes/source_torso_skin_right_sector2.obj": {
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+      "bytes": 4428
+    },
+    "scene/meshes/source_torso_skin_left_sector3.obj": {
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+      "bytes": 4381
+    },
+    "scene/meshes/source_right_shin_C45.obj": {
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+      "bytes": 4419
+    },
+    "scene/meshes/source_torso_skin_right_sector4.obj": {
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+      "bytes": 4428
+    },
+    "scene/meshes/source_torso_skin_left_sector4.obj": {
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+      "bytes": 4395
+    },
+    "scene/meshes/cart_bite_yoke_right.obj": {
+      "sha256": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e",
+      "bytes": 2174
+    },
+    "scene/meshes/source_torso_skin_right_sector3.obj": {
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+      "bytes": 4427
+    },
+    "scene/meshes/source_right_shin_outer.obj": {
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+      "bytes": 4468
+    },
+    "scene/meshes/torso_upper_envelope.obj": {
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+      "bytes": 2666
+    },
+    "scene/meshes/source_left_shin_C45.obj": {
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+      "bytes": 4490
+    },
+    "scene/meshes/source_left_shin_outer.obj": {
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+      "bytes": 4427
+    },
+    "scene/meshes/right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "scene/meshes/source_torso_skin_right_sector5.obj": {
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+      "bytes": 4426
+    },
+    "scene/meshes/lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "scene/meshes/source_torso_skin_left_sector2.obj": {
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+      "bytes": 4389
+    },
+    "scene/meshes/neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "scene/meshes/left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "scene/meshes/source_left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "scene/meshes/source_left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "scene/meshes/source_torso_skin_left_sector0.obj": {
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+      "bytes": 4387
+    },
+    "scene/meshes/left_shin_envelope.obj": {
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+      "bytes": 1912
+    },
+    "readbacks/generated_01/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks/generated_01/observed_capture_reference.readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "readbacks/generated_00/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks/generated_00/observed_capture_reference.readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "readbacks/generated_03/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks/generated_03/observed_capture_reference.readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "readbacks/generated_02/observed_capture_reference.npz": {
+      "sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+      "bytes": 540083
+    },
+    "readbacks/generated_02/observed_capture_reference.readback.json": {
+      "sha256": "d069b6b574fb1fa43afd0977ea105e0d73042b7d061b1081991d8c436b5f50b1",
+      "bytes": 111102
+    },
+    "capture_prefix_source/baseline_capture/foot_ground_names.json": {
+      "sha256": "b02dda6bad855aacb7d73c841be6e689b4aa0b47b7d209baa664a46bae789fac",
+      "bytes": 36
+    },
+    "capture_prefix_source/baseline_capture/plan.py": {
+      "sha256": "a08cbdb67e20a953570aeb8592e82b709a253317443081fd5c5698f70e19e630",
+      "bytes": 1303
+    },
+    "capture_prefix_source/baseline_capture/base_cycle_plan.py": {
+      "sha256": "327d048fb834093fa8cd4dab20dafed84eb54d89a4a0079b8c9fa4fb1b134f86",
+      "bytes": 3669
+    },
+    "capture_prefix_source/baseline_capture/causal_program.json": {
+      "sha256": "d92fae6e155878396e1e01a6c684f99d0f1a0a0f1f135313a6ee27ff59e4b455",
+      "bytes": 206574
+    },
+    "capture_prefix_source/baseline_capture/causal_target_provider.py": {
+      "sha256": "3ae3513a1b08417f5fe55a40f59f2df567f7fc99361852857825e36d6edab339",
+      "bytes": 4677
+    },
+    "capture_prefix_source/baseline_capture/legacy_position_teacher.py": {
+      "sha256": "389d921531d18e6d287b5a3b92719bfa269c8ef6372e064778757d0d92a11f1c",
+      "bytes": 16311
+    },
+    "capture_prefix_source/baseline_capture/foot_ik_reference.py": {
+      "sha256": "0bca0a8048f076749d756fc658d529ce797d0ba9ae0503405e1d4e244ce0a33a",
+      "bytes": 2593
+    },
+    "capture_prefix_source/baseline_capture/causal_design.json": {
+      "sha256": "e6f225efd391b9d4c70d5b3a2b3f37d66909716971cb17d597ebcd009968f606",
+      "bytes": 1237
+    },
+    "robot_source/source_inputs/whole05_full_SI_contract.json": {
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+      "bytes": 143836
+    },
+    "robot_source/source_inputs/active07_frozen_native_handoff.json": {
+      "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001",
+      "bytes": 34839
+    },
+    "robot_source/source_inputs/active07_visual_source_frame_readback_07.json": {
+      "sha256": "9de9f944751dec30989533542df6f92cfb4bd289ad9b439640e33f599b02263f",
+      "bytes": 1545
+    },
+    "robot_source/source_inputs/active08_visual_source_frame_readback_08.json": {
+      "sha256": "3952bdfdd21a06fa9df47d275723d6b5c8001826b3cabe0423c130fd25dfe127",
+      "bytes": 13428
+    },
+    "robot_source/source_inputs/active07_owner_proxy_adoption_07.json": {
+      "sha256": "de90a4d3b13422b315d8b940be98903d9b9ed8157662911be5def9c00d759220",
+      "bytes": 1292
+    },
+    "robot_source/source_inputs/active08_native_readback_08.json": {
+      "sha256": "189991eccea2a4b167cdf53d81dc51518c342557d862b84d3879ddfe259612dd",
+      "bytes": 15433
+    },
+    "robot_source/source_inputs/active07_front_MCI_precision_07.json": {
+      "sha256": "b4db99eb88ba0714ef6c0490637b03c674c4cda7f1729d3ec0a16b27e21c5bd0",
+      "bytes": 2877
+    },
+    "robot_source/source_inputs/active07_owner_selected_sources_07.json": {
+      "sha256": "526b9af76783bbae6612b3faab67437b9cf5f35698b31134503af0b132b45de5",
+      "bytes": 3464
+    },
+    "robot_source/source_inputs/active08_manifest.json": {
+      "sha256": "ee7716dd4c9962332d45924f5cf3924925dfea46a5e43a509ed9c8212cb0dda0",
+      "bytes": 2790
+    },
+    "robot_source/source_inputs/active08_original_motor_fit_packet.json": {
+      "sha256": "ceecfda6a9fb506a6f7f6c9921898815feee8f2b2154516e131ef979d9a418b1",
+      "bytes": 27896
+    },
+    "robot_source/source_inputs/active08_unchanged_geometry_load_boundary_receipt.json": {
+      "sha256": "f89ee21d15ca85372701912db0595dd4ca4727d2c0aca46b3989e60e881ffdea",
+      "bytes": 795
+    },
+    "robot_source/source_inputs/active07_c06_refreshed_same28_error_07.json": {
+      "sha256": "6279b126a7e13b392f99510c4d2568852e65fb8033e785015d4be86542b34a30",
+      "bytes": 9852
+    },
+    "robot_source/source_inputs/conditional_mass_ledger.json": {
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+      "bytes": 2070140
+    },
+    "robot_source/source_inputs/visual_source_frame_readback_01.json": {
+      "sha256": "ee5aa26590aaccd751ec1078c4776cd51a9b0ea841f52c4c5eef624f7e146016",
+      "bytes": 5545
+    },
+    "robot_source/source_inputs/active08_material_sources.json": {
+      "sha256": "0ae8d901efc2c9dd2061b49689800d74e6155ef21c8547bd5a1d2a3dcd8f75d8",
+      "bytes": 1141
+    },
+    "robot_source/source_inputs/owner_selected_inputs_02.json": {
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a",
+      "bytes": 23663
+    },
+    "robot_source/source_inputs/active07_proxy_roles.json": {
+      "sha256": "7938e5237c0af686232f5dc226221d9ebf3e4fdddb42a86f3e7059e2eafddfb1",
+      "bytes": 44624
+    },
+    "robot_source/source_inputs/selected_native_sources_06.json": {
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a",
+      "bytes": 23663
+    },
+    "robot_source/source_inputs/active08_owner_selected_inputs_08.json": {
+      "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+      "bytes": 33308
+    },
+    "robot_source/source_inputs/active08_two_mesh_screen.json": {
+      "sha256": "7ddbf62cd2c096d54090d66fbb5b069afcf136169901fc3476e41182d29be810",
+      "bytes": 9300
+    },
+    "robot_source/source_inputs/active08_integration_handoff.json": {
+      "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+      "bytes": 67895
+    },
+    "robot_source/source_inputs/native_replacement_packet_009.json": {
+      "sha256": "2d796df484fa76d7670c7ccf5cf7d85ce24f8b2553fb40a2f7dd1a4d7360920f",
+      "bytes": 93056
+    },
+    "robot_source/source_inputs/front_independent_MCI_precision_01.json": {
+      "sha256": "321d9f321d6a0fd4103e414a9b0cf6169935e18d55381f1e02d85c170a07afa4",
+      "bytes": 2345
+    },
+    "robot_source/source_inputs/active07_geometry_r02_query.json": {
+      "sha256": "cbccef34b16b0ac75712671f0dde2f16ba2231b89d58fe9a82951dffef75e5af",
+      "bytes": 7102
+    },
+    "robot_source/source_inputs/owner_selected_inputs_01.json": {
+      "sha256": "67859d696d244c97da455be9dbe36421a5231e2b19726a00418af4489250cda8",
+      "bytes": 22978
+    },
+    "robot_source/meshes/right_shin_C45.obj": {
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+      "bytes": 4419
+    },
+    "robot_source/meshes/upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "robot_source/meshes/torso_skin_right_sector5.obj": {
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+      "bytes": 4426
+    },
+    "robot_source/meshes/torso_skin_left_sector1.obj": {
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+      "bytes": 4381
+    },
+    "robot_source/meshes/torso_skin_right_sector0.obj": {
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+      "bytes": 4425
+    },
+    "robot_source/meshes/left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "robot_source/meshes/right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "robot_source/meshes/right_shin_outer.obj": {
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+      "bytes": 4468
+    },
+    "robot_source/meshes/torso_skin_left_sector5.obj": {
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+      "bytes": 4380
+    },
+    "robot_source/meshes/left_shin_C45.obj": {
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+      "bytes": 4490
+    },
+    "robot_source/meshes/torso_skin_left_sector3.obj": {
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+      "bytes": 4381
+    },
+    "robot_source/meshes/left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "robot_source/meshes/right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "robot_source/meshes/neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "robot_source/meshes/torso_skin_right_sector4.obj": {
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+      "bytes": 4428
+    },
+    "robot_source/meshes/torso_skin_left_sector4.obj": {
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+      "bytes": 4395
+    },
+    "robot_source/meshes/torso_skin_right_sector1.obj": {
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+      "bytes": 4434
+    },
+    "robot_source/meshes/torso_skin_right_sector2.obj": {
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+      "bytes": 4428
+    },
+    "robot_source/meshes/torso_skin_rear0.obj": {
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+      "bytes": 4460
+    },
+    "robot_source/meshes/right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "robot_source/meshes/lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "robot_source/meshes/left_shin_outer.obj": {
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+      "bytes": 4427
+    },
+    "robot_source/meshes/neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "robot_source/meshes/torso_skin_left_sector2.obj": {
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+      "bytes": 4389
+    },
+    "robot_source/meshes/torso_skin_right_sector3.obj": {
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+      "bytes": 4427
+    },
+    "robot_source/meshes/left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "robot_source/meshes/torso_skin_rear1.obj": {
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+      "bytes": 4459
+    },
+    "robot_source/meshes/torso_skin_left_sector0.obj": {
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+      "bytes": 4387
+    },
+    "robot_source/source_inputs/native_contact/lower_bill_parent03.obj": {
+      "sha256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab",
+      "bytes": 2842
+    },
+    "robot_source/source_inputs/native_contact/upper_grip_cassette_pad.brep": {
+      "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2",
+      "bytes": 24350
+    },
+    "robot_source/source_inputs/native_contact/lower_grip_cassette_pad.brep": {
+      "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69",
+      "bytes": 23866
+    },
+    "robot_source/source_inputs/native_contact/lower_pad_contact_face.json": {
+      "sha256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082",
+      "bytes": 1576
+    },
+    "parent_inputs/robot_source/runtime_adapter.py": {
+      "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9",
+      "bytes": 9449
+    },
+    "parent_inputs/robot_source/compiled_readback.json": {
+      "sha256": "9004c3036a1d2166b26fd13791e79ef345d0ca8e0125a910b7b8d4b61484cb06",
+      "bytes": 20994
+    },
+    "parent_inputs/robot_source/actuator_source_facts.json": {
+      "sha256": "8294d0d075a96120922af994d57ebbbea3fb5622cea570cfa5dddb20f135a15b",
+      "bytes": 5869
+    },
+    "parent_inputs/robot_source/reset_pose_seeds.json": {
+      "sha256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9",
+      "bytes": 2292
+    },
+    "parent_inputs/robot_source/manifest.json": {
+      "sha256": "264cf521b5da0a4f969337f704db3c2a397fc2b155f6d20037ff100ab2b99ce6",
+      "bytes": 13930
+    },
+    "parent_inputs/robot_source/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "parent_inputs/robot_source/robot.xml": {
+      "sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18",
+      "bytes": 28309
+    },
+    "parent_inputs/robot_source/verify_package.py": {
+      "sha256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef",
+      "bytes": 1025
+    },
+    "parent_inputs/robot_source/requirements_rebuild.txt": {
+      "sha256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09",
+      "bytes": 42
+    },
+    "parent_inputs/robot_source/mass_ledger.json": {
+      "sha256": "509a2e2d63468df130856c4d26c0b44cd1ae31b5ff0f7db4e1f238c8f86b75a8",
+      "bytes": 2141055
+    },
+    "parent_inputs/robot_source/engineering_mass_patch.json": {
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5",
+      "bytes": 44495
+    },
+    "parent_inputs/robot_source/THIRD_PARTY_NOTICES.md": {
+      "sha256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead",
+      "bytes": 3880
+    },
+    "parent_inputs/robot_source/runtime_interface.json": {
+      "sha256": "7505e2ef4439831dcf3e049aefde48672e7073411620e0a325b43bd4ef2f70ab",
+      "bytes": 5244
+    },
+    "parent_inputs/robot_source/source_snapshot.json": {
+      "sha256": "6b1fa886e1fc5da4eb47dc4cc7aa80f19ff6384997d5ad6e1a2e5fa2a795426e",
+      "bytes": 2421
+    },
+    "parent_inputs/robot_source/qualification_limits.json": {
+      "sha256": "c971debac6a3fd7bdc01df9b734178de28ad73f9dde705f58599471a559b2597",
+      "bytes": 3369
+    },
+    "parent_inputs/robot_source/hardware_change_receipt.json": {
+      "sha256": "379e82b0076f1b04c0f7283fa6292c06c576a407e6a751d4918f09043c99d288",
+      "bytes": 150498
+    },
+    "parent_inputs/robot_source/requirements.txt": {
+      "sha256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c",
+      "bytes": 29
+    },
+    "parent_inputs/robot_source/material_mass_patch.json": {
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0",
+      "bytes": 51558
+    },
+    "parent_inputs/robot_source/collision_manifest.json": {
+      "sha256": "f48b371f39ada05cbd162acae278726f1c5e1edd4073bcc8a337d66087e6d20e",
+      "bytes": 45189
+    },
+    "parent_inputs/robot_source/collision_faithfulness.json": {
+      "sha256": "2e6efa1d054363d596c10597227d53507c053d4cadc72aa5d3885767e87df359",
+      "bytes": 4916
+    },
+    "parent_inputs/robot_source/actuator_contract.json": {
+      "sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187",
+      "bytes": 34046
+    },
+    "parent_inputs/robot_source/README.md": {
+      "sha256": "ca6ad14773ce8cab9d12f61a7f47f8b68704ea6f0425a1dd5064cee7133c6f7c",
+      "bytes": 2682
+    },
+    "parent_inputs/robot_source/physical_contract.json": {
+      "sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85",
+      "bytes": 153482
+    },
+    "parent_inputs/scene/robot.xml": {
+      "sha256": "8bab0e21b6fb560b8c7fe2e91da458f151e54562b961af57a888bf98873f2574",
+      "bytes": 41573
+    },
+    "parent_inputs/scene/original_plane_parent.xml": {
+      "sha256": "015449aba8c10eb011217cb370002b4c81735a94b419c59ed09b6d05595aee36",
+      "bytes": 39847
+    },
+    "parent_inputs/scene/actuator_contract.json": {
+      "sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187",
+      "bytes": 34046
+    },
+    "parent_inputs/scene/physical_contract.json": {
+      "sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85",
+      "bytes": 153482
+    },
+    "parent_inputs/scene/meshes/source_right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "parent_inputs/scene/meshes/source_right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "parent_inputs/scene/meshes/upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "parent_inputs/scene/meshes/source_neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "parent_inputs/scene/meshes/cart_pitch_offset_plate_yminus12p5.obj": {
+      "sha256": "458894040bf889e1ef0edeb0fb0fe121b71dea323a6e70f3f2440c3970be0688",
+      "bytes": 658
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_rear0.obj": {
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+      "bytes": 4460
+    },
+    "parent_inputs/scene/meshes/source_lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "parent_inputs/scene/meshes/cart_bite_yoke_left.obj": {
+      "sha256": "74b57b513c072ef3542bd981f457e3605a09335fdaada6effa8756f2a1b955d8",
+      "bytes": 2147
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector1.obj": {
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+      "bytes": 4381
+    },
+    "parent_inputs/scene/meshes/left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "parent_inputs/scene/meshes/right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "parent_inputs/scene/meshes/right_shin_envelope.obj": {
+      "sha256": "fd6c73caf69a40abbe9b9a94b7baaaaa28c3aead17e81aa2257ff0a7b6fbf836",
+      "bytes": 1835
+    },
+    "parent_inputs/scene/meshes/cart_pitch_offset_plate_y12p5.obj": {
+      "sha256": "ca166389d36ae449b459ad71f8135ec02ffa6940483d3a6bfa87734d38df3532",
+      "bytes": 646
+    },
+    "parent_inputs/scene/meshes/source_upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector0.obj": {
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+      "bytes": 4425
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector5.obj": {
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+      "bytes": 4380
+    },
+    "parent_inputs/scene/meshes/source_right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "parent_inputs/scene/meshes/source_left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "parent_inputs/scene/meshes/torso_central_keel.obj": {
+      "sha256": "d1637074c69fe1a1187ec3ef178216876d499f5fa5913df3e51e8b10205f7c42",
+      "bytes": 2737
+    },
+    "parent_inputs/scene/meshes/cart_rotating_shaft.obj": {
+      "sha256": "82a76ae9dfc0a430f87caa671c3b45386d2081ec221d5173a6bbb9a8379a78d1",
+      "bytes": 3681
+    },
+    "parent_inputs/scene/meshes/left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "parent_inputs/scene/meshes/right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_rear1.obj": {
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+      "bytes": 4459
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector1.obj": {
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+      "bytes": 4434
+    },
+    "parent_inputs/scene/meshes/source_neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "parent_inputs/scene/meshes/neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "parent_inputs/scene/meshes/cart_drawbar.obj": {
+      "sha256": "39d23bec6c0e03c261f49686f3f601d3edd795ba855c5c671db2c1ab43620833",
+      "bytes": 2747
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector2.obj": {
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+      "bytes": 4428
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector3.obj": {
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+      "bytes": 4381
+    },
+    "parent_inputs/scene/meshes/source_right_shin_C45.obj": {
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+      "bytes": 4419
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector4.obj": {
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+      "bytes": 4428
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector4.obj": {
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+      "bytes": 4395
+    },
+    "parent_inputs/scene/meshes/cart_bite_yoke_right.obj": {
+      "sha256": "e21394472c3a856d5ff6a6800e8b0761d478ee555fcdb30fff809daccb96b82e",
+      "bytes": 2174
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector3.obj": {
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+      "bytes": 4427
+    },
+    "parent_inputs/scene/meshes/source_right_shin_outer.obj": {
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+      "bytes": 4468
+    },
+    "parent_inputs/scene/meshes/torso_upper_envelope.obj": {
+      "sha256": "f310b962f25612d7d00e50f13528d3ceab61a9dec3acd92c1769c70021861bf6",
+      "bytes": 2666
+    },
+    "parent_inputs/scene/meshes/source_left_shin_C45.obj": {
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+      "bytes": 4490
+    },
+    "parent_inputs/scene/meshes/source_left_shin_outer.obj": {
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+      "bytes": 4427
+    },
+    "parent_inputs/scene/meshes/right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_right_sector5.obj": {
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+      "bytes": 4426
+    },
+    "parent_inputs/scene/meshes/lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector2.obj": {
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+      "bytes": 4389
+    },
+    "parent_inputs/scene/meshes/neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "parent_inputs/scene/meshes/left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "parent_inputs/scene/meshes/source_left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "parent_inputs/scene/meshes/source_left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "parent_inputs/scene/meshes/source_torso_skin_left_sector0.obj": {
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+      "bytes": 4387
+    },
+    "parent_inputs/scene/meshes/left_shin_envelope.obj": {
+      "sha256": "0e0a6d30a70817705b47fda9a11c61b335159e02ef2542b97215bc7d5a52bfdf",
+      "bytes": 1912
+    },
+    "parent_inputs/robot_source/source_inputs/whole05_full_SI_contract.json": {
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47",
+      "bytes": 143836
+    },
+    "parent_inputs/robot_source/source_inputs/active07_frozen_native_handoff.json": {
+      "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001",
+      "bytes": 34839
+    },
+    "parent_inputs/robot_source/source_inputs/active07_visual_source_frame_readback_07.json": {
+      "sha256": "9de9f944751dec30989533542df6f92cfb4bd289ad9b439640e33f599b02263f",
+      "bytes": 1545
+    },
+    "parent_inputs/robot_source/source_inputs/active08_visual_source_frame_readback_08.json": {
+      "sha256": "3952bdfdd21a06fa9df47d275723d6b5c8001826b3cabe0423c130fd25dfe127",
+      "bytes": 13428
+    },
+    "parent_inputs/robot_source/source_inputs/active07_owner_proxy_adoption_07.json": {
+      "sha256": "de90a4d3b13422b315d8b940be98903d9b9ed8157662911be5def9c00d759220",
+      "bytes": 1292
+    },
+    "parent_inputs/robot_source/source_inputs/active08_native_readback_08.json": {
+      "sha256": "189991eccea2a4b167cdf53d81dc51518c342557d862b84d3879ddfe259612dd",
+      "bytes": 15433
+    },
+    "parent_inputs/robot_source/source_inputs/active07_front_MCI_precision_07.json": {
+      "sha256": "b4db99eb88ba0714ef6c0490637b03c674c4cda7f1729d3ec0a16b27e21c5bd0",
+      "bytes": 2877
+    },
+    "parent_inputs/robot_source/source_inputs/active07_owner_selected_sources_07.json": {
+      "sha256": "526b9af76783bbae6612b3faab67437b9cf5f35698b31134503af0b132b45de5",
+      "bytes": 3464
+    },
+    "parent_inputs/robot_source/source_inputs/active08_manifest.json": {
+      "sha256": "ee7716dd4c9962332d45924f5cf3924925dfea46a5e43a509ed9c8212cb0dda0",
+      "bytes": 2790
+    },
+    "parent_inputs/robot_source/source_inputs/active08_original_motor_fit_packet.json": {
+      "sha256": "ceecfda6a9fb506a6f7f6c9921898815feee8f2b2154516e131ef979d9a418b1",
+      "bytes": 27896
+    },
+    "parent_inputs/robot_source/source_inputs/active08_unchanged_geometry_load_boundary_receipt.json": {
+      "sha256": "f89ee21d15ca85372701912db0595dd4ca4727d2c0aca46b3989e60e881ffdea",
+      "bytes": 795
+    },
+    "parent_inputs/robot_source/source_inputs/active07_c06_refreshed_same28_error_07.json": {
+      "sha256": "6279b126a7e13b392f99510c4d2568852e65fb8033e785015d4be86542b34a30",
+      "bytes": 9852
+    },
+    "parent_inputs/robot_source/source_inputs/conditional_mass_ledger.json": {
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e",
+      "bytes": 2070140
+    },
+    "parent_inputs/robot_source/source_inputs/visual_source_frame_readback_01.json": {
+      "sha256": "ee5aa26590aaccd751ec1078c4776cd51a9b0ea841f52c4c5eef624f7e146016",
+      "bytes": 5545
+    },
+    "parent_inputs/robot_source/source_inputs/active08_material_sources.json": {
+      "sha256": "0ae8d901efc2c9dd2061b49689800d74e6155ef21c8547bd5a1d2a3dcd8f75d8",
+      "bytes": 1141
+    },
+    "parent_inputs/robot_source/source_inputs/owner_selected_inputs_02.json": {
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a",
+      "bytes": 23663
+    },
+    "parent_inputs/robot_source/source_inputs/active07_proxy_roles.json": {
+      "sha256": "7938e5237c0af686232f5dc226221d9ebf3e4fdddb42a86f3e7059e2eafddfb1",
+      "bytes": 44624
+    },
+    "parent_inputs/robot_source/source_inputs/selected_native_sources_06.json": {
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a",
+      "bytes": 23663
+    },
+    "parent_inputs/robot_source/source_inputs/active08_owner_selected_inputs_08.json": {
+      "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+      "bytes": 33308
+    },
+    "parent_inputs/robot_source/source_inputs/active08_two_mesh_screen.json": {
+      "sha256": "7ddbf62cd2c096d54090d66fbb5b069afcf136169901fc3476e41182d29be810",
+      "bytes": 9300
+    },
+    "parent_inputs/robot_source/source_inputs/active08_integration_handoff.json": {
+      "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614",
+      "bytes": 67895
+    },
+    "parent_inputs/robot_source/source_inputs/native_replacement_packet_009.json": {
+      "sha256": "2d796df484fa76d7670c7ccf5cf7d85ce24f8b2553fb40a2f7dd1a4d7360920f",
+      "bytes": 93056
+    },
+    "parent_inputs/robot_source/source_inputs/front_independent_MCI_precision_01.json": {
+      "sha256": "321d9f321d6a0fd4103e414a9b0cf6169935e18d55381f1e02d85c170a07afa4",
+      "bytes": 2345
+    },
+    "parent_inputs/robot_source/source_inputs/active07_geometry_r02_query.json": {
+      "sha256": "cbccef34b16b0ac75712671f0dde2f16ba2231b89d58fe9a82951dffef75e5af",
+      "bytes": 7102
+    },
+    "parent_inputs/robot_source/source_inputs/owner_selected_inputs_01.json": {
+      "sha256": "67859d696d244c97da455be9dbe36421a5231e2b19726a00418af4489250cda8",
+      "bytes": 22978
+    },
+    "parent_inputs/robot_source/meshes/right_shin_C45.obj": {
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+      "bytes": 4419
+    },
+    "parent_inputs/robot_source/meshes/upper_bill_envelope.obj": {
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "bytes": 3130
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector5.obj": {
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+      "bytes": 4426
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector1.obj": {
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+      "bytes": 4381
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector0.obj": {
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+      "bytes": 4425
+    },
+    "parent_inputs/robot_source/meshes/left_hip_envelope.obj": {
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "bytes": 1894
+    },
+    "parent_inputs/robot_source/meshes/right_thigh_envelope.obj": {
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "bytes": 2344
+    },
+    "parent_inputs/robot_source/meshes/right_shin_outer.obj": {
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+      "bytes": 4468
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector5.obj": {
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+      "bytes": 4380
+    },
+    "parent_inputs/robot_source/meshes/left_shin_C45.obj": {
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+      "bytes": 4490
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector3.obj": {
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+      "bytes": 4381
+    },
+    "parent_inputs/robot_source/meshes/left_thigh_envelope.obj": {
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "bytes": 2345
+    },
+    "parent_inputs/robot_source/meshes/right_hip_envelope.obj": {
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "bytes": 1922
+    },
+    "parent_inputs/robot_source/meshes/neck_pitch_envelope.obj": {
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "bytes": 2686
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector4.obj": {
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+      "bytes": 4428
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector4.obj": {
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+      "bytes": 4395
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector1.obj": {
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+      "bytes": 4434
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector2.obj": {
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+      "bytes": 4428
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_rear0.obj": {
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+      "bytes": 4460
+    },
+    "parent_inputs/robot_source/meshes/right_actual_sole.obj": {
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "bytes": 4410
+    },
+    "parent_inputs/robot_source/meshes/lower_bill_envelope.obj": {
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "bytes": 3128
+    },
+    "parent_inputs/robot_source/meshes/left_shin_outer.obj": {
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+      "bytes": 4427
+    },
+    "parent_inputs/robot_source/meshes/neck_mid_pitch_envelope.obj": {
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "bytes": 2399
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector2.obj": {
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+      "bytes": 4389
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_right_sector3.obj": {
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+      "bytes": 4427
+    },
+    "parent_inputs/robot_source/meshes/left_actual_sole.obj": {
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "bytes": 4410
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_rear1.obj": {
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+      "bytes": 4459
+    },
+    "parent_inputs/robot_source/meshes/torso_skin_left_sector0.obj": {
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+      "bytes": 4387
+    },
+    "parent_inputs/robot_source/source_inputs/native_contact/lower_bill_parent03.obj": {
+      "sha256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab",
+      "bytes": 2842
+    },
+    "parent_inputs/robot_source/source_inputs/native_contact/upper_grip_cassette_pad.brep": {
+      "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2",
+      "bytes": 24350
+    },
+    "parent_inputs/robot_source/source_inputs/native_contact/lower_grip_cassette_pad.brep": {
+      "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69",
+      "bytes": 23866
+    },
+    "parent_inputs/robot_source/source_inputs/native_contact/lower_pad_contact_face.json": {
+      "sha256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082",
+      "bytes": 1576
+    },
+    "frozen_admission_manifest.json": {
+      "sha256": "d5470aceb7a01914af56ea6b9efca538fc9a879d5384ca52357e9d8004b6504e",
+      "bytes": 62294
+    }
+  }
+}

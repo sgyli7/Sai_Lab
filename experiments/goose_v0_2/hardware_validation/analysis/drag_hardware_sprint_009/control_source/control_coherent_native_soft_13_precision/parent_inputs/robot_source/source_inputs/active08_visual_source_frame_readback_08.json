@@ -1,0 +1,300 @@
+{
+  "status": "PASS_SIX_REAL_NATIVE_GLB_WORLDZERO_FRAMES",
+  "source_checks": [
+    {
+      "name": "left_hip_yaw_ak45_10_case_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/left_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "a469507b064639231afadb0139a93e7f19929264d17e8b067abfb38cf65af150",
+        "bytes": 6952
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/left_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "a469507b064639231afadb0139a93e7f19929264d17e8b067abfb38cf65af150",
+        "bytes": 6952
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "b223dd555f298069df3b441166ab5be2258af1396020edd132da059193909f48",
+        "bytes": 32100
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "44a0ea3f935ff5e12ba4fdf5d1dd91f072cec2e100c597e956625999c487a1f9"
+      },
+      "max_bbox_error_mm": 5.781650997960242e-07,
+      "native_bbox_mm": [
+        [
+          -62.2851448882825,
+          33.5,
+          354.9
+        ],
+        [
+          -9.285144888282503,
+          86.5,
+          399.09999999999997
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -62.28514457535812,
+          33.500000312924286,
+          354.8999999999999
+        ],
+        [
+          -9.285145201206886,
+          86.49999968707552,
+          399.09999942183487
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    },
+    {
+      "name": "left_hip_yaw_ak45_10_output_disc_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "22e5332dc3f33557cdb908a37907891694c2f1269d1ece7e48df0a458329e8dc",
+        "bytes": 6968
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/left_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "22e5332dc3f33557cdb908a37907891694c2f1269d1ece7e48df0a458329e8dc",
+        "bytes": 6968
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "c87c2de7c029665fc505722581775af9ba745f7977ba069864834f589f2294d3",
+        "bytes": 32072
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "fd0ad7790a5798ed510c938e7791a810f2f4424af4094903ccb70881fc201f31"
+      },
+      "max_bbox_error_mm": 2.384186785775455e-07,
+      "native_bbox_mm": [
+        [
+          -54.2851448882825,
+          41.5,
+          399.1
+        ],
+        [
+          -17.285144888282503,
+          78.5,
+          400.1
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -54.28514512670108,
+          41.49999976158132,
+          399.09999999999997
+        ],
+        [
+          -17.285144649863923,
+          78.50000023841847,
+          400.1000000474974
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_case_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "ddaeda43a8fa8fd9bcc79113c673a2807ced32f10ef447f5fef6caac51512b83",
+        "bytes": 6968
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/right_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "ddaeda43a8fa8fd9bcc79113c673a2807ced32f10ef447f5fef6caac51512b83",
+        "bytes": 6968
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "4519054b68f841f8323b6da08eee299a106eef1371c8d0f3448ffdcb1e388856",
+        "bytes": 32104
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "ac0a901e893f4b4e18086addc7cb19792a14a16b94d1be79137525ac3c1b8c7b"
+      },
+      "max_bbox_error_mm": 5.78165156639443e-07,
+      "native_bbox_mm": [
+        [
+          -62.2851448882825,
+          -86.5,
+          354.9
+        ],
+        [
+          -9.285144888282503,
+          -33.5,
+          399.09999999999997
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -62.28514457535812,
+          -86.49999968707569,
+          354.89999999999986
+        ],
+        [
+          -9.285145201206886,
+          -33.50000031292445,
+          399.0999994218348
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_output_disc_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "4418d086e05eef14de03bc95cc05744edc8a3f73e1e2d4cc4ebe92c4fb78afb7",
+        "bytes": 6972
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/right_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "4418d086e05eef14de03bc95cc05744edc8a3f73e1e2d4cc4ebe92c4fb78afb7",
+        "bytes": 6972
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "aa47d7ec42f4820619f389502f9609719fec53024b161c18da8109b20a83f0e2",
+        "bytes": 32076
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "858f1b047c84935164c723e33256201fdf8ff524ab7a480ccafa45cd237562c6"
+      },
+      "max_bbox_error_mm": 2.384186501558361e-07,
+      "native_bbox_mm": [
+        [
+          -54.2851448882825,
+          -78.5,
+          399.1
+        ],
+        [
+          -17.285144888282503,
+          -41.5,
+          400.1
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -54.28514512670108,
+          -78.50000023841865,
+          399.0999999999999
+        ],
+        [
+          -17.285144649863923,
+          -41.4999997615815,
+          400.10000004749736
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    },
+    {
+      "name": "left_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "9552fcd0f67e1536d9ef006e94fbf960caa812c6d7431215b856425d322a916d",
+        "bytes": 76420
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/left_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "9552fcd0f67e1536d9ef006e94fbf960caa812c6d7431215b856425d322a916d",
+        "bytes": 76420
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "1ce5b8d08cb92d63352534c0745d38ca89c88bd114a1baf0157f2ee777f51fa4",
+        "bytes": 1316100
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+      },
+      "max_bbox_error_mm": 1.0299682742243021e-05,
+      "native_bbox_mm": [
+        [
+          -44.7851448882825,
+          51.0,
+          400.8
+        ],
+        [
+          -26.785144888282503,
+          69.0,
+          404.59999999999997
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -44.78514450085231,
+          51.000000387430084,
+          400.79998970031727
+        ],
+        [
+          -26.785145275712694,
+          68.9999996125697,
+          404.59999442100514
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    },
+    {
+      "name": "right_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "failed_single_shape_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "ec42999dd4c80e798e62b06457fa9e318a4672f78f0d5001216bbc585d44876a",
+        "bytes": 76436
+      },
+      "failed_copy": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/right_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "ec42999dd4c80e798e62b06457fa9e318a4672f78f0d5001216bbc585d44876a",
+        "bytes": 76436
+      },
+      "correct_compound_GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "346e1557fd18fc0c689ba320e72df0e315e4afc41389386da60bb466677096c7",
+        "bytes": 1316100
+      },
+      "same_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+      },
+      "max_bbox_error_mm": 1.0299682742243021e-05,
+      "native_bbox_mm": [
+        [
+          -44.7851448882825,
+          -69.0,
+          400.8
+        ],
+        [
+          -26.785144888282503,
+          -51.0,
+          404.59999999999997
+        ]
+      ],
+      "correct_GLB_bbox_mm": [
+        [
+          -44.78514450085231,
+          -68.99999961256988,
+          400.79998970031727
+        ],
+        [
+          -26.785145275712694,
+          -51.00000038743026,
+          404.59999442100514
+        ]
+      ],
+      "cause": "SinglelocatedSolidroot GLTF changes source transform; same existing Compound(children=[solid])export usedbyparent assemblies preservesCADframe. No source geometry/MCI ortransforms werealtered."
+    }
+  ],
+  "max_bbox_error_mm": 1.0299682742243021e-05,
+  "correction_receipt": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/source_GLB_frame_correction_08.json",
+    "sha256": "aa5afe7f73bc48e9b39eeb14e818a3fb6efbd7ee14e9d1aef71416d535851eba",
+    "bytes": 13468
+  },
+  "mj_step_calls": 0
+}

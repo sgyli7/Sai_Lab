@@ -1,0 +1,341 @@
+{
+  "status": "FAIL_FINITE2P1MM",
+  "actual_c06_native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+    "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+  },
+  "actual_c06_GLB": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.glb",
+    "sha256": "570852ff7fda6f6d888d21d0701b13c7eb625760ba6063e2a46a5bb498f548a6"
+  },
+  "source_recipe": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/whole_candidate_07/geometry_r02/proxy_roles.json",
+    "sha256": "7938e5237c0af686232f5dc226221d9ebf3e4fdddb42a86f3e7059e2eafddfb1",
+    "bytes": 44624
+  },
+  "source_rows": [
+    {
+      "occurrence": "front_main_shell",
+      "saved_vertices": 5885,
+      "outside_proxy_vertices": 2005,
+      "max_vertex_to_union_euclidean_mm": 2.121200168211175
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "saved_vertices": 8770,
+      "outside_proxy_vertices": 2194,
+      "max_vertex_to_union_euclidean_mm": 2.082938866262127
+    },
+    {
+      "occurrence": "front_T1_service_door_curved_mother_patch",
+      "saved_vertices": 3029,
+      "outside_proxy_vertices": 917,
+      "max_vertex_to_union_euclidean_mm": 1.1664425005824552
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "saved_vertices": 3485,
+      "outside_proxy_vertices": 1245,
+      "max_vertex_to_union_euclidean_mm": 1.7189610543141183
+    },
+    {
+      "occurrence": "rear_cap_lower_power_isolation_curved_service_lid",
+      "saved_vertices": 2721,
+      "outside_proxy_vertices": 231,
+      "max_vertex_to_union_euclidean_mm": 1.6908528698872491
+    },
+    {
+      "occurrence": "rear_cap_12p_curved_flush_service_lid",
+      "saved_vertices": 4343,
+      "outside_proxy_vertices": 1706,
+      "max_vertex_to_union_euclidean_mm": 1.6714134292169827
+    },
+    {
+      "occurrence": "passive_cold_hood",
+      "saved_vertices": 1073,
+      "outside_proxy_vertices": 0,
+      "max_vertex_to_union_euclidean_mm": 0.0
+    }
+  ],
+  "all7_max_saved_vertex_union_euclidean_mm": 2.121200168211175,
+  "worst_witnesses": [
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0572968647,
+        -0.0568722375,
+        0.2528680861
+      ],
+      "missing_material_gap_mm": 2.121200168211175
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0589742847,
+        -0.0588691384,
+        0.2545737624
+      ],
+      "missing_material_gap_mm": 2.095601421293658
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0602186583,
+        -0.0607693233,
+        0.2562192678
+      ],
+      "missing_material_gap_mm": 2.0892207489901957
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.2334842384,
+        0.0413040034,
+        0.3875462413
+      ],
+      "missing_material_gap_mm": 2.082938866262127
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0611898676,
+        -0.0627464056,
+        0.2579554617
+      ],
+      "missing_material_gap_mm": 2.0654327948970157
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0618724786,
+        -0.0647778884,
+        0.2597647309
+      ],
+      "missing_material_gap_mm": 2.0229019071502474
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0489184707,
+        -0.0508070253,
+        0.2477819473
+      ],
+      "missing_material_gap_mm": 2.0204186114171776
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.2340610772,
+        -0.0405557975,
+        0.3864566088
+      ],
+      "missing_material_gap_mm": 2.018190992012057
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.2334842384,
+        -0.0413040034,
+        0.3875462413
+      ],
+      "missing_material_gap_mm": 2.0137682964446655
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0508262739,
+        -0.0858376622,
+        0.2792598903
+      ],
+      "missing_material_gap_mm": 2.0076101193659492
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.234348312,
+        0.0401038975,
+        0.3857860863
+      ],
+      "missing_material_gap_mm": 2.0004400260763915
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.216749981,
+        -0.0447177812,
+        0.3552279174
+      ],
+      "missing_material_gap_mm": 1.981869134598635
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.2162861824,
+        -0.0450788252,
+        0.3549999893
+      ],
+      "missing_material_gap_mm": 1.9791150288790502
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.1981921494,
+        0.0428649001,
+        0.3269999921
+      ],
+      "missing_material_gap_mm": 1.9778510349718887
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0508262739,
+        -0.085703738,
+        0.2791888416
+      ],
+      "missing_material_gap_mm": 1.9777170992274768
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.1991063803,
+        0.0426990129,
+        0.3279315829
+      ],
+      "missing_material_gap_mm": 1.9754435814318632
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0452204943,
+        -0.0491745025,
+        0.2463918924
+      ],
+      "missing_material_gap_mm": 1.9740537738323813
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.1996973753,
+        0.0425369665,
+        0.3284800947
+      ],
+      "missing_material_gap_mm": 1.9722904552507436
+    },
+    {
+      "occurrence": "rear_service_cap",
+      "source_point_torso_m": [
+        -0.2003001869,
+        0.0423307791,
+        0.3289999962
+      ],
+      "missing_material_gap_mm": 1.9676165389365097
+    },
+    {
+      "occurrence": "front_main_shell",
+      "source_point_torso_m": [
+        -0.0523383841,
+        -0.0527736507,
+        0.2494265437
+      ],
+      "missing_material_gap_mm": 1.9630676931041833
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1626417935,
+        -0.0324216075,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7189610543141183
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1625753492,
+        -0.0325386971,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7184899332957557
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1627029032,
+        -0.0323016495,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7173633756990168
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1625037193,
+        -0.032652691,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.715956907721978
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1627585888,
+        -0.0321790762,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.713712051780567
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1624270529,
+        -0.0327633545,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7113676775913982
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1628087014,
+        -0.0320541263,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7080021044610063
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1623454988,
+        -0.0328704678,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7047303197354282
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1628531665,
+        -0.0319270492,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.7002525575913463
+    },
+    {
+      "occurrence": "rear_cap_upper_balance_and_meter_curved_service_lid",
+      "source_point_torso_m": [
+        -0.1622592211,
+        -0.0329738148,
+        0.4438439608
+      ],
+      "missing_material_gap_mm": 1.6960580951062165
+    }
+  ],
+  "scope": "All saved vertices of currentfinalC06front plus6exactretained source skin pointsets; no globalintervertex/all-environment/fullROM certificate. Positivegap is missing native material, not voidoverfill. Original2mmtarget remainsFAIL unless this finitevalue<=2; Ownerfinite2.1mmexception is separate.",
+  "sphere_parameters_and_normal_planes_unchanged": true,
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_07_refreshed_error.py",
+    "sha256": "4f637898c9165f47cc6701024dfae185348c51c63a52b24ff15fc55cd4c5be70",
+    "bytes": 2316
+  },
+  "mj_step_calls": 0
+}

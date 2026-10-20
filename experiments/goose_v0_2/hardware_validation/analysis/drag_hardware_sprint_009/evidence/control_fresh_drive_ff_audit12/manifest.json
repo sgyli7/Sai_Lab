@@ -1,0 +1,49 @@
+{
+  "status": "IMMUTABLE_FINAL",
+  "files": {
+    "state_6.433_EXACT_HELD_TARGET_QD.json": {
+      "sha256": "b1f562612228f2aa6d313a0c34a8f0d9e305a1cbc4345bccae85537a4a49313d",
+      "bytes": 41443
+    },
+    "state_6.265.json": {
+      "sha256": "55c30759c2ed4666b4be563fae392afc0c46c9501a5571d7a36ce394dd892f7b",
+      "bytes": 56600
+    },
+    "final_comparison.json": {
+      "sha256": "47462da5053df2520bf944547ecead475beab7528982544b105f9a8f5788f0f8",
+      "bytes": 11080
+    },
+    "state_6.290.json": {
+      "sha256": "c089c0d14e24cbe0fb605b4a0d23d4abfcb87d09a8c0341c75b5c315f06fd927",
+      "bytes": 55696
+    },
+    "state_6.433.json": {
+      "sha256": "569c5f759e8bcc3fe3b37e5b5e156c1929e5b3a64938eaafb26bce5f56526ec3",
+      "bytes": 56329
+    },
+    "state_6.355.json": {
+      "sha256": "15cc1abd5e4f26eddfe38c72093398e3ccf0a1c6839db6dea37d29968d4f3e4d",
+      "bytes": 54426
+    },
+    "receipt.json": {
+      "sha256": "18521825af4bc6bb25900d428d2ea77a40cddfb369300612bca9bc5963d03a75",
+      "bytes": 1466
+    },
+    "REPORT.md": {
+      "sha256": "8f8bbb22ef767ede49150071dfd3713ee6ce07f347956c0553f4b4b1f84ecaa4",
+      "bytes": 2820
+    },
+    "replacement_fourth.py": {
+      "sha256": "34d26958fa92f03bb18ffe5644b132e50b05fde94e6ce71ea8da2ce98d429bee",
+      "bytes": 3711
+    },
+    "producer.py": {
+      "sha256": "128a552ae981ff9aca8bca2a577e5efd8b00d592e35eed0ee8e68b2566a1c6d9",
+      "bytes": 5778
+    },
+    "summary.json": {
+      "sha256": "250e5a20e0c4f21ad831acbfc63e195a1c04309b5d4652a39f7bba0044ed831f",
+      "bytes": 3546
+    }
+  }
+}

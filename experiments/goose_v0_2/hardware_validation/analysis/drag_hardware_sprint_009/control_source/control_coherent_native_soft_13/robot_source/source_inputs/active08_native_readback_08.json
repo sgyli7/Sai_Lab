@@ -1,0 +1,410 @@
+{
+  "schema": "goose08_actual_native_whole_source_v1",
+  "candidate_id": "physics_v0_2_20261020_08_candidate",
+  "native_parts": 1827,
+  "native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_08/goose_drag_hardware_integration_009_08.brep.gz",
+    "sha256": "f3838250d0361b6c56e5a376fceb4552b5b7b5e73a905f0cb9d6609d813ed321",
+    "bytes": 33054988
+  },
+  "uncompressed_native_sha256": "9dc63f801597d4c7f26b1890f16f1bc878f1249d73f90a9aaabfacf6e4de0db9",
+  "parent07_native_index": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_07/assembly_index.json",
+    "sha256": "d4ebceae9041c2659b90ba5d14a32e7ba625424bd7f1953a74ff60a1f21add8a",
+    "bytes": 6908317
+  },
+  "selected_inputs": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+    "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+    "bytes": 33308
+  },
+  "actual_replacement_checks": [
+    {
+      "name": "left_hip_yaw_ak45_10_case_009_c01",
+      "body": "torso",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "44a0ea3f935ff5e12ba4fdf5d1dd91f072cec2e100c597e956625999c487a1f9"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          97513.30809146777
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 97513.30809146777,
+      "MCI_source": {
+        "mass_kg": 0.2591426181500683,
+        "COM_m": [
+          -0.0357851448882825,
+          0.06,
+          0.377
+        ],
+        "fullI_kg_m2": [
+          [
+            8.7685018807687e-05,
+            1.6163306823549797e-20,
+            -6.496873191062848e-20
+          ],
+          [
+            1.6163306823549797e-20,
+            8.768499707737224e-05,
+            -1.7449470239165723e-21
+          ],
+          [
+            -6.496873191062848e-20,
+            -1.7449470239165723e-21,
+            9.099145179794279e-05
+          ]
+        ],
+        "density_kg_m3": null,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "b223dd555f298069df3b441166ab5be2258af1396020edd132da059193909f48",
+        "bytes": 32100
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_case_009_c01.step",
+        "sha256": "0fa94ab7969ad193f476d06dc6fde35e6413ed1c5d20a2819636f477e5ba88ff",
+        "bytes": 7322
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": -5.820766091346741e-11
+      }
+    },
+    {
+      "name": "left_hip_yaw_ak45_10_output_disc_009_c01",
+      "body": "left_yaw_input_rotor",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/left_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "fd0ad7790a5798ed510c938e7791a810f2f4424af4094903ccb70881fc201f31"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          1075.2100856911075
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 1075.2100856911075,
+      "MCI_source": {
+        "mass_kg": 0.002857381849931648,
+        "COM_m": [
+          -0.0357851448882825,
+          0.06,
+          0.3996
+        ],
+        "fullI_kg_m2": [
+          [
+            2.447229080760729e-07,
+            5.2447541451154004e-23,
+            -7.494939624595033e-22
+          ],
+          [
+            5.2447541451154004e-23,
+            2.4472279130180255e-07,
+            -3.1156531241950707e-25
+          ],
+          [
+            -7.494939624595033e-22,
+            -3.1156531241950707e-25,
+            4.889694690695538e-07
+          ]
+        ],
+        "density_kg_m3": null,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "c87c2de7c029665fc505722581775af9ba745f7977ba069864834f589f2294d3",
+        "bytes": 32072
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_hip_yaw_ak45_10_output_disc_009_c01.step",
+        "sha256": "15e8aebfbc8fc8dc8a7c7388c7c6744c1c0c4e3534b010a0dbab83d31d7fcca3",
+        "bytes": 7354
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": -6.821210263296962e-13
+      }
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_case_009_c01",
+      "body": "torso",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_case_009_c01.brep",
+        "sha256": "ac0a901e893f4b4e18086addc7cb19792a14a16b94d1be79137525ac3c1b8c7b"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          97513.30809146777
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 97513.30809146777,
+      "MCI_source": {
+        "mass_kg": 0.2591426181500683,
+        "COM_m": [
+          -0.0357851448882825,
+          -0.06,
+          0.377
+        ],
+        "fullI_kg_m2": [
+          [
+            8.768501880768699e-05,
+            1.1035417626318046e-20,
+            -6.496873191062848e-20
+          ],
+          [
+            1.1035417626318046e-20,
+            8.768499707737224e-05,
+            -2.6707756235549326e-23
+          ],
+          [
+            -6.496873191062848e-20,
+            -2.6707756235549326e-23,
+            9.099145179794279e-05
+          ]
+        ],
+        "density_kg_m3": null,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_case_009_c01.glb",
+        "sha256": "4519054b68f841f8323b6da08eee299a106eef1371c8d0f3448ffdcb1e388856",
+        "bytes": 32104
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_case_009_c01.step",
+        "sha256": "fa557bd50e4a213fa3653bd729f874de6571a33b47d59860ff66bef3db87ae07",
+        "bytes": 7329
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": -5.820766091346741e-11
+      }
+    },
+    {
+      "name": "right_hip_yaw_ak45_10_output_disc_009_c01",
+      "body": "right_yaw_input_rotor",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_ak45_upgrade_009/c01/right_hip_yaw_ak45_10_output_disc_009_c01.brep",
+        "sha256": "858f1b047c84935164c723e33256201fdf8ff524ab7a480ccafa45cd237562c6"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          1075.2100856911075
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 1075.2100856911075,
+      "MCI_source": {
+        "mass_kg": 0.002857381849931648,
+        "COM_m": [
+          -0.0357851448882825,
+          -0.06,
+          0.3996
+        ],
+        "fullI_kg_m2": [
+          [
+            2.447229080760729e-07,
+            -1.0731794648782608e-22,
+            -7.494939624595033e-22
+          ],
+          [
+            -1.0731794648782608e-22,
+            2.4472279130180255e-07,
+            -4.295824762142607e-25
+          ],
+          [
+            -7.494939624595033e-22,
+            -4.295824762142607e-25,
+            4.889694690695537e-07
+          ]
+        ],
+        "density_kg_m3": null,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_output_disc_009_c01.glb",
+        "sha256": "aa47d7ec42f4820619f389502f9609719fec53024b161c18da8109b20a83f0e2",
+        "bytes": 32076
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_hip_yaw_ak45_10_output_disc_009_c01.step",
+        "sha256": "465606756fa12f3dcb4fdba93c9b32e195e61e52f45253472a90da54d9b159af",
+        "bytes": 7361
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": -6.821210263296962e-13
+      }
+    },
+    {
+      "name": "left_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "body": "left_yaw_input_rotor",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/left_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "a1474434d28ce24af45793cb25dc22fd31452d89b1177019c1d9085b84b23389"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          396.22656158792466
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 396.22656158792466,
+      "MCI_source": {
+        "mass_kg": 0.003090567180385561,
+        "COM_m": [
+          -0.03578514488820349,
+          0.06000000000006926,
+          0.40270000000000006
+        ],
+        "fullI_kg_m2": [
+          [
+            5.568617753989398e-08,
+            -6.49947976481818e-16,
+            2.829186595035233e-19
+          ],
+          [
+            -6.49947976481818e-16,
+            5.56861753327623e-08,
+            -2.697893734290969e-19
+          ],
+          [
+            2.829186595035233e-19,
+            -2.697893734290969e-19,
+            1.074993378981669e-07
+          ]
+        ],
+        "density_kg_m3": 7800.0,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "1ce5b8d08cb92d63352534c0745d38ca89c88bd114a1baf0157f2ee777f51fa4",
+        "bytes": 1316100
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/left_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+        "sha256": "0167cf0972f1a19df843d54d19efae331df7fcfb77f7ba01c5eaffa9263eb961",
+        "bytes": 84874
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": 1.9326762412674725e-11
+      }
+    },
+    {
+      "name": "right_yaw_drive_oldham_17_4ph_h900_009_c01",
+      "body": "right_yaw_input_rotor",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/hip_yaw_oldham_steel_009/c01/right_yaw_drive_oldham_17_4ph_h900_009_c01.brep",
+        "sha256": "4f5948b27c37d0b51e999ea9d8ab213d692c412c50cbb9465b72ae17dae466de"
+      },
+      "strict_SI": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          396.2265615879246
+        ],
+        "edge_tolerance_max_mm": 1e-07
+      },
+      "volume_mm3": 396.2265615879246,
+      "MCI_source": {
+        "mass_kg": 0.003090567180385561,
+        "COM_m": [
+          -0.03578514488820349,
+          -0.059999999999930734,
+          0.40270000000000006
+        ],
+        "fullI_kg_m2": [
+          [
+            5.568617753989398e-08,
+            -6.499479835897324e-16,
+            2.795286596493617e-19
+          ],
+          [
+            -6.499479835897324e-16,
+            5.5686175332587956e-08,
+            -2.712588005684986e-19
+          ],
+          [
+            2.795286596493617e-19,
+            -2.712588005684986e-19,
+            1.0749933789816694e-07
+          ]
+        ],
+        "density_kg_m3": 7800.0,
+        "not_measured": true
+      },
+      "source_shape_not_modified": true,
+      "GLB": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_yaw_drive_oldham_17_4ph_h900_009_c01.glb",
+        "sha256": "346e1557fd18fc0c689ba320e72df0e315e4afc41389386da60bb466677096c7",
+        "bytes": 1316100
+      },
+      "STEP": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_hardware_integration_009_08/right_yaw_drive_oldham_17_4ph_h900_009_c01.step",
+        "sha256": "aa53b12a7eb09102b161c1228236b52a63f8cf1a222f08980bb6a3f712d7ea37",
+        "bytes": 84881
+      },
+      "STEP_readback": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "SI_valid": true,
+        "volume_error_mm3": 1.944044925039634e-11
+      }
+    }
+  ],
+  "all1827_volume_readbacks_pass": true,
+  "source_zero_frame": "NativeCADmm,+Xforward/+Yleft/+Zup,identity placements.",
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_08_source.py",
+    "sha256": "4223c916956e264948452a387b1b1d11250f2c89fcb7c2aa52424c8894625444",
+    "bytes": 9857
+  },
+  "elapsed_s": 26.663168683997355,
+  "mj_step_calls": 0,
+  "display_frame_correction_receipt": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/source_GLB_frame_correction_08.json",
+  "native_generation_source_snapshot_before_display_fix": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration08/single_shape_gltf_frame_failure_01/original_source_script.py",
+    "sha256": "7f30b45f9ea43c40daef0c152ec13e56337471e5f5a2c20f9389d8fd5ba1a07a",
+    "bytes": 9831
+  }
+}

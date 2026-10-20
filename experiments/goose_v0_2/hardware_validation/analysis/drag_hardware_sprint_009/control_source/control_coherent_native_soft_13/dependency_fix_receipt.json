@@ -1,0 +1,24 @@
+{
+  "status": "ZERO_STEP_FULL_GUARD_PASS",
+  "physics_steps": 0,
+  "source_changes": [
+    "exact original readonly actual_centroidal_wrench.py",
+    "runner output index1 to2",
+    "runner readonly motion-log requires capture_context"
+  ],
+  "dryrun_harness_only": "zero_step_fineguard_preflight.py",
+  "runner_sha256": "6b9c2cb006876d30f5975f246929d87622be106a05cc949fc2dceba59666a5f6",
+  "helper_sha256": "4f635bc615a6cf63c056dfbea7a09d7db990b7b8be7ddaeb2c692bf8ae414f55",
+  "dryrun_sha256": "cee108c367c2f97a43968248f729e9c0d69117d876c99f28020ff47e145e67b8",
+  "global_physical_attempt": "002",
+  "original_attempt001_physics_steps": 0,
+  "deadline_UTC": "2026-10-19T23:52:00+00:00",
+  "fullguard_cases": [
+    "coldopen",
+    "capturehold",
+    "motion0",
+    "motion.9",
+    "STOP"
+  ],
+  "motion_metadata_note": "saved hold physical scratch, full12 context/phase packet shape; no LP recompute or claimed motion state"
+}

@@ -1,0 +1,104 @@
+{
+  "candidate_id": "physics_v0_2_20261020_07_candidate",
+  "status": "ROOT_ADOPTED_FINITE_MOTION_PROTOTYPE_NOT_MANUFACTURING_STABLE_TRAINING_OR_FULLROM",
+  "source_handoff": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/frozen_native_handoff.json",
+    "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001",
+    "bytes": 34839
+  },
+  "precision_authority": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_07/front_MCI_precision_07.json",
+    "sha256": "b4db99eb88ba0714ef6c0490637b03c674c4cda7f1729d3ec0a16b27e21c5bd0",
+    "bytes": 2877
+  },
+  "replacement_parts": [
+    {
+      "name": "front_main_shell",
+      "body": "torso",
+      "material": "PETG",
+      "density_kg_m3": 1270.0,
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+        "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c",
+        "bytes": 2700626
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          359394.31646708987
+        ],
+        "edge_tolerance_max_mm": 0.000931070799370162
+      },
+      "native_volume_mm3": 359391.51852520136,
+      "mass_kg": 0.45642722852700573,
+      "center_of_mass_world_m": [
+        0.0317099084319911,
+        0.00011867197506614392,
+        0.34860459025861934
+      ],
+      "center_of_mass_world_mm": [
+        31.7099084319911,
+        0.11867197506614392,
+        348.60459025861934
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          0.0042728528366152655,
+          5.740257019412318e-06,
+          0.0003331888406328809
+        ],
+        [
+          5.740257019412318e-06,
+          0.003581762588645214,
+          7.237231247053591e-06
+        ],
+        [
+          0.0003331888406328809,
+          7.237231247053591e-06,
+          0.0033431178318232527
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_parent_occurrence": "front_main_shell",
+      "retired_native_part_index": 656
+    }
+  ],
+  "proxy_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_joint_proxy_009_07/collision28_frozen_manifest_01.json",
+    "sha256": "6cecba7fa88d7ccd619fe9d3511715a908cab0b033cf1ed0cc6c0c78c0dd4dd5",
+    "bytes": 12332
+  },
+  "Owner_decision": "Explicit Root adoption of4dc59c6b native,570852ff GLB;28geometry finite2.1mm exception; all inherited manufacture/fullROM/actual-motion limits retained.",
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_07_source.py",
+    "sha256": "b09efb0794570529013a7b05a6fe7105a742ed5df7b18f76435c620a6d812e6d",
+    "bytes": 8907
+  }
+}

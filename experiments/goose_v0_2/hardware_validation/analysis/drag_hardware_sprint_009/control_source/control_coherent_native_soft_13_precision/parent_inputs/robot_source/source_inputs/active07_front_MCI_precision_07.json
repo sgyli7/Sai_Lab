@@ -1,0 +1,106 @@
+{
+  "status": "SAME_NATIVE_ROOT_AUTHORIZED_TIGHTER_EPS_NUMERICAL_AUTHORITY",
+  "native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+    "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c",
+    "bytes": 2700626
+  },
+  "material": "PETG",
+  "density_kg_m3": 1270,
+  "original_C06_tuple": {
+    "volume_mm3": 359391.59031824605,
+    "mass_kg": 0.45642731970417244,
+    "COM_mm": [
+      31.709907004619776,
+      0.1186577590728196,
+      348.60457731871946
+    ],
+    "full_I_at_COM_kg_m2": [
+      [
+        0.004272853477811495,
+        5.740099696479248e-06,
+        0.0003331886638683222
+      ],
+      [
+        5.740099696479248e-06,
+        0.0035817631457888805,
+        7.2368260633766265e-06
+      ],
+      [
+        0.0003331886638683222,
+        7.2368260633766265e-06,
+        0.0033431180373622743
+      ]
+    ],
+    "integration_error": 2.197932958207077e-06,
+    "density_kg_m3": 1270.0
+  },
+  "authoritative_07_tuple": {
+    "native_volume_mm3": 359391.51852520136,
+    "mass_kg": 0.45642722852700573,
+    "density_kg_m3": 1270,
+    "center_of_mass_world_mm": [
+      31.7099084319911,
+      0.11867197506614392,
+      348.60459025861934
+    ],
+    "center_of_mass_world_m": [
+      0.0317099084319911,
+      0.00011867197506614392,
+      0.34860459025861934
+    ],
+    "inertia_at_com_world_kg_m2": [
+      [
+        0.0042728528366152655,
+        5.740257019412318e-06,
+        0.0003331888406328809
+      ],
+      [
+        5.740257019412318e-06,
+        0.003581762588645214,
+        7.237231247053591e-06
+      ],
+      [
+        0.0003331888406328809,
+        7.237231247053591e-06,
+        0.0033431178318232527
+      ]
+    ],
+    "adaptive_volume_integration_error": 1.6405733355071344e-09
+  },
+  "mass_difference_kg": -9.117716670559162e-08,
+  "COM_difference_mm": [
+    1.4273713233592389e-06,
+    1.421599332432355e-05,
+    1.2939899875163974e-05
+  ],
+  "fullI_difference_kg_m2": [
+    [
+      -6.411962297919738e-10,
+      1.5732293306989147e-10,
+      1.767645587194555e-10
+    ],
+    [
+      1.5732293306989147e-10,
+      -5.571436667052565e-10,
+      4.0518367696470406e-10
+    ],
+    [
+      1.767645587194555e-10,
+      4.0518367696470406e-10,
+      -2.055390215666142e-10
+    ]
+  ],
+  "fullI_max_error_relative_scale": 1.5006277025918213e-07,
+  "owner_limits": {
+    "mass_kg": 0.0001,
+    "COM_mm": 0.01,
+    "tensor_relative_scale": 0.001
+  },
+  "no_geometry_or_material_changes": true,
+  "source": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_07_source.py",
+    "sha256": "b09efb0794570529013a7b05a6fe7105a742ed5df7b18f76435c620a6d812e6d",
+    "bytes": 8907
+  }
+}

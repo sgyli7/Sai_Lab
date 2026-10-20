@@ -1,0 +1,409 @@
+{
+  "status": "OFFLINE_CAUSAL_AUDIT_NOT_ACTUAL_PASS",
+  "physical_steps": 0,
+  "LP_calls": 5,
+  "valid_states": 4,
+  "original_fourth_extra_segment_advance_rejected": true,
+  "source_caps_or_weights_changes": false,
+  "rows": [
+    {
+      "time_s": 6.265,
+      "LP_wall_ms": 10.663040913641453,
+      "FF_age_ms": 4.999999999574456,
+      "goal_Y_roll_yaw": [
+        0.23258378192176027,
+        1.5051524252604607,
+        -2.9782621887457372
+      ],
+      "old_actual_native_Y_roll_yaw": [
+        1.0540887613912584,
+        4.8446572780442665,
+        -2.397988634335336
+      ],
+      "fresh_same_entry_native_Y_roll_yaw": [
+        0.2490764547364703,
+        1.5221253779575534,
+        -5.42914255264886
+      ],
+      "old_N_R_L": [
+        69.12576471998035,
+        100.21982461430207
+      ],
+      "fresh_N_R_L": [
+        82.63245007856685,
+        80.32540524874753
+      ],
+      "raw_LP_goal_not_hard": true,
+      "source_legal": true,
+      "goal_error_old": [
+        0.8215049794694982,
+        3.339504852783806,
+        0.5802735544104012
+      ],
+      "goal_error_fresh": [
+        0.016492672814710035,
+        0.016972952697092758,
+        -2.4508803639031225
+      ],
+      "saved_actual_centroidal_wrench": {
+        "scope": "same actualPRE state only, not fixed future mouthwrench",
+        "COM_acceleration_world_m_s2": [
+          0.05747561704806428,
+          -0.7075219741613353,
+          0.5888856308616139
+        ],
+        "ground_force_world_N": [
+          2.3778871143593077,
+          -11.61816203493974,
+          169.34558933427894
+        ],
+        "ground_torque_about_COM_Nm": [
+          -0.18120094800398245,
+          1.4986246060188708,
+          -0.08220420118181426
+        ],
+        "mouth_force_on_robot_world_N": [
+          -1.4164089225944685,
+          -0.21758646657955172,
+          4.611686224310985
+        ],
+        "mouth_torque_about_COM_Nm": [
+          0.016812581429681894,
+          -1.547443276068749,
+          -0.08137186741757113
+        ],
+        "other_external_contact_force_world_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "other_external_contact_torque_COM_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gravity_world_N": [
+          0.0,
+          0.0,
+          -164.10612961884948
+        ],
+        "actual_Hdot_world_Nm": [
+          -0.16441065121614526,
+          -0.0487850630605471,
+          -0.1635937340488475
+        ],
+        "force_balance_residual_N": [
+          8.215650382226158e-15,
+          1.2434497875801753e-14,
+          -3.197442310920451e-14
+        ],
+        "moment_balance_residual_Nm": [
+          2.2284641844699804e-05,
+          -3.3606989331178005e-05,
+          1.7665449462106464e-05
+        ]
+      }
+    },
+    {
+      "time_s": 6.29,
+      "LP_wall_ms": 8.740422083064914,
+      "FF_age_ms": 9.999999999568132,
+      "goal_Y_roll_yaw": [
+        -0.1519546351279331,
+        -0.32490715179062735,
+        -3.8449221409575007
+      ],
+      "old_actual_native_Y_roll_yaw": [
+        -1.1419193165188706,
+        -2.548714767396554,
+        -6.614302000420577
+      ],
+      "fresh_same_entry_native_Y_roll_yaw": [
+        -0.28517463914297675,
+        -0.3253295978028695,
+        -5.894094985138365
+      ],
+      "old_N_R_L": [
+        85.11275971890863,
+        75.57082506326634
+      ],
+      "fresh_N_R_L": [
+        87.00039876247887,
+        75.05074741728079
+      ],
+      "raw_LP_goal_not_hard": true,
+      "source_legal": true,
+      "goal_error_old": [
+        -0.9899646813909375,
+        -2.2238076156059265,
+        -2.769379859463076
+      ],
+      "goal_error_fresh": [
+        -0.13322000401504364,
+        -0.0004224460122421725,
+        -2.049172844180864
+      ],
+      "saved_actual_centroidal_wrench": {
+        "scope": "same actualPRE state only, not fixed future mouthwrench",
+        "COM_acceleration_world_m_s2": [
+          -0.1362374032160391,
+          -0.1706075912812108,
+          0.06302678024947797
+        ],
+        "ground_force_world_N": [
+          -2.426424784576784,
+          -2.7099405021966643,
+          160.68358478215916
+        ],
+        "ground_torque_about_COM_Nm": [
+          -0.7812776450033623,
+          0.9138610080112715,
+          -1.1752960543379165
+        ],
+        "mouth_force_on_robot_world_N": [
+          0.14738370903084297,
+          -0.14406066892630964,
+          4.476885404387108
+        ],
+        "mouth_torque_about_COM_Nm": [
+          0.02832053915492394,
+          -1.327716452906571,
+          -0.09328870947499825
+        ],
+        "other_external_contact_force_world_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "other_external_contact_torque_COM_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gravity_world_N": [
+          0.0,
+          0.0,
+          -164.10612961884948
+        ],
+        "actual_Hdot_world_Nm": [
+          -0.7530428568091513,
+          -0.41177118635921295,
+          -1.2685940558352244
+        ],
+        "force_balance_residual_N": [
+          1.1146639167236572e-13,
+          3.843148022042442e-12,
+          2.637445817299522e-12
+        ],
+        "moment_balance_residual_Nm": [
+          8.575096071294919e-05,
+          -0.002084258536086625,
+          9.292022309592696e-06
+        ]
+      }
+    },
+    {
+      "time_s": 6.355,
+      "LP_wall_ms": 7.728904951363802,
+      "FF_age_ms": 14.999999999548486,
+      "goal_Y_roll_yaw": [
+        -0.20731155037390459,
+        0.24809402508492334,
+        -1.9736711622483856
+      ],
+      "old_actual_native_Y_roll_yaw": [
+        -1.3622787112515151,
+        -5.7292890808527375,
+        -4.7999785918895626
+      ],
+      "fresh_same_entry_native_Y_roll_yaw": [
+        -0.20731155038261606,
+        -2.484372595401978,
+        -3.2299813583397183
+      ],
+      "old_N_R_L": [
+        112.17095884207924,
+        44.24659000637524
+      ],
+      "fresh_N_R_L": [
+        113.2986109735791,
+        47.32584612277197
+      ],
+      "raw_LP_goal_not_hard": true,
+      "source_legal": true,
+      "goal_error_old": [
+        -1.1549671608776104,
+        -5.977383105937661,
+        -2.8263074296411768
+      ],
+      "goal_error_fresh": [
+        -8.711475985023753e-12,
+        -2.7324666204869015,
+        -1.2563101960913328
+      ],
+      "saved_actual_centroidal_wrench": {
+        "scope": "same actualPRE state only, not fixed future mouthwrench",
+        "COM_acceleration_world_m_s2": [
+          -0.388687522348935,
+          0.6204206505596186,
+          -0.25571873285846725
+        ],
+        "ground_force_world_N": [
+          -11.393953772573408,
+          10.109871121554876,
+          156.4175488483762
+        ],
+        "ground_torque_about_COM_Nm": [
+          -0.9499854033444701,
+          0.2642359431476179,
+          -0.7492704902818994
+        ],
+        "mouth_force_on_robot_world_N": [
+          4.891812597871693,
+          0.26880693134499556,
+          3.410801818338765
+        ],
+        "mouth_torque_about_COM_Nm": [
+          -0.033778056431160844,
+          -0.4696120477993295,
+          0.09408825770635987
+        ],
+        "other_external_contact_force_world_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "other_external_contact_torque_COM_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gravity_world_N": [
+          0.0,
+          0.0,
+          -164.10612961884948
+        ],
+        "actual_Hdot_world_Nm": [
+          -0.9836002539113999,
+          -0.21039574027756813,
+          -0.655286724017401
+        ],
+        "force_balance_residual_N": [
+          -3.552713678800501e-15,
+          5.329070518200751e-15,
+          1.5987211554602254e-14
+        ],
+        "moment_balance_residual_Nm": [
+          -0.00016320586423101968,
+          0.0050196356258565,
+          0.00010449144186142068
+        ]
+      }
+    },
+    {
+      "time_s": 6.433,
+      "last_drive_s": 6.43,
+      "no_target_advance": true,
+      "LP_wall_ms": 11.768383905291557,
+      "FF_age_ms": 13.0,
+      "goal_Y_roll_yaw": [
+        -0.3921856808871716,
+        2.7895566032397703,
+        4.478660935991
+      ],
+      "old_actual_native_Y_roll_yaw": [
+        -0.7673434891164903,
+        -0.3542487859594418,
+        -3.364846310044833
+      ],
+      "current_PD_old_FF_Y_roll_yaw": [
+        -0.7507620364188055,
+        -0.41846193145878435,
+        -2.73657547653993
+      ],
+      "fresh_same_entry_native_Y_roll_yaw": [
+        0.09965809803287956,
+        2.789556603239794,
+        0.00014191235209529393
+      ],
+      "old_N_R_L": [
+        81.86261351637722,
+        84.02033555838771
+      ],
+      "fresh_N_R_L": [
+        79.97533642110413,
+        81.73786352178516
+      ],
+      "source_legal": true,
+      "goal_error_old": [
+        -0.3751578082293187,
+        -3.143805389199212,
+        -7.843507246035832
+      ],
+      "goal_error_fresh": [
+        0.49184377892005116,
+        2.353672812205332e-14,
+        -4.4785190236389045
+      ],
+      "saved_actual_centroidal_wrench": {
+        "scope": "same actualPRE state only, not fixed future mouthwrench",
+        "COM_acceleration_world_m_s2": [
+          -0.5402737572360785,
+          -0.44127591183945847,
+          0.25154836718741636
+        ],
+        "ground_force_world_N": [
+          -19.560032066542746,
+          -7.506812975102187,
+          165.88294908835385
+        ],
+        "ground_torque_about_COM_Nm": [
+          0.2588798194285653,
+          -0.08537576130159613,
+          -0.21991785144355602
+        ],
+        "mouth_force_on_robot_world_N": [
+          10.522087597017634,
+          0.12494935928075326,
+          2.4311957282526535
+        ],
+        "mouth_torque_about_COM_Nm": [
+          -0.0006083575078037473,
+          0.43118476492366753,
+          -0.0009447861342847599
+        ],
+        "other_external_contact_force_world_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "other_external_contact_torque_COM_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gravity_world_N": [
+          0.0,
+          0.0,
+          -164.10612961884948
+        ],
+        "actual_Hdot_world_Nm": [
+          0.25796150723994077,
+          0.3548413047512834,
+          -0.22078690641287824
+        ],
+        "force_balance_residual_N": [
+          -1.1615313155743934e-09,
+          -8.685636210259418e-09,
+          1.416190453795707e-08
+        ],
+        "moment_balance_residual_Nm": [
+          0.0003099546808207898,
+          -0.009032301129211995,
+          -7.573116496253918e-05
+        ]
+      }
+    }
+  ],
+  "recommendation": "Worth one separately declared non-real-time simulation comparison of FF refresh at200Hz, with unchanged50Hz plan/200Hz originalPD/1000Hz physics, because heldFF staleness changes actual source clipping and support response. This is not approval to run, not guaranteed improvement, and not real-time deployable at measured7.7\u201311.8ms/solve. Rootyaw/soft competition and insufficient physical foot clearance remain."
+}

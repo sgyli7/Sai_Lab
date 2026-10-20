@@ -1,0 +1,23 @@
+{
+  "scope": "four actual-state heldFF causal audit",
+  "physical_steps": 0,
+  "LP_calls_total": 5,
+  "original_fourth_invalid_mapping_preserved": true,
+  "replacement_fourth_LP_calls": 1,
+  "source_model_profile_and_controls_unchanged": true,
+  "source": {
+    "soft_phase_model.py": "3b552c0c2ad43989459132f2aea7c1ee8f7a6628a726452930ace35fe162a414",
+    "teacher_drive_segment.py": "269252154f09431245349e5ac31b39f7c79e6288d9ed80bb956cc1579d4707cc",
+    "coherent_plan_sampler.py": "bee2b645e0bdf95e5df195dd705d6f8c278a91075ff47600ba13a40103becab6",
+    "capture_plan_entry.py": "a5850fbeaa961860595f321560a456c0b3748743917a576e1d15696b48ff0b90",
+    "motion_stop_reference.py": "f4d7fe3a4c9dc83bd472a78eaa03d32700f6f61a4c1868c27d697128fda0f39b",
+    "teacher_mit_profile.py": "77f6c1ea49722376291e31d58d9320bb9cb65bb3db973693ade7c35ecf9c73a9",
+    "complete_cycle_plan.py": "64bd73495b5723a679c424ce06a96d7eb74863e45d5136dd0917db9e1cf12fed"
+  },
+  "actual_trace_sha256": "25306d990bd80d39e105b66411339beca4e3b0c80047546131d9f590672ba784",
+  "actual_scene_sha256": "3344e5a2dcf86f85640e9b4fda2ac0fd6a65b8b18802e5888f61824fa40c8528",
+  "actual_capture_context_sha256": "e014cba6e7cc9d7a8b745bf21c4b72025e0eb37fef8bbf75b218a8cc07708c1d",
+  "actual_rebuilt_reference_sha256": "29844046f90ac575a6904de89c8eede558430b1ff27200021afe8742e5cbd95c",
+  "actual_frozen_manifest_sha256": "fa30736fe2d69ef256fd1f968bbf770a5b1fece286fa937a03ac05d5637281de",
+  "NO_JOBS": true
+}

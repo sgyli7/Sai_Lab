@@ -1,0 +1,913 @@
+{
+  "passed": true,
+  "model": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261020_08_candidate/robot.xml",
+    "sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18",
+    "bytes": 28309
+  },
+  "mujoco_version": "3.10.0",
+  "compiled_mass_kg": 16.728453579903107,
+  "robot_bodies": 23,
+  "controlled_axes": 18,
+  "internal_coordinates": 4,
+  "equalities": 3,
+  "collision_leaves": 28,
+  "support_vertices": 1565,
+  "hull_faces": 3018,
+  "max_support_vertices": 64,
+  "changed_MCI_bodies": [
+    "left_yaw_input_rotor",
+    "right_yaw_input_rotor",
+    "torso"
+  ],
+  "unchanged_bodies_exact": 20,
+  "bodies": [
+    {
+      "name": "torso",
+      "mass_kg": 5.623838170175933,
+      "COM_body_m": [
+        -0.054785952097222486,
+        0.00045243333367835916,
+        0.3618953046164917
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.02418862790156388,
+          -0.00024885006009689437,
+          0.002061154152903909
+        ],
+        [
+          -0.00024885006009689415,
+          0.0437789732960067,
+          -0.0001235292508437653
+        ],
+        [
+          0.002061154152903909,
+          -0.00012352925084376686,
+          0.0440055017597707
+        ]
+      ],
+      "changed_vs07": true
+    },
+    {
+      "name": "neck_yaw",
+      "mass_kg": 0.539389667863588,
+      "COM_body_m": [
+        -0.00471179050127116,
+        -0.0005116951632101441,
+        0.05424663020067422
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0005831473006753422,
+          3.4322316262809237e-06,
+          -0.00016455806441416544
+        ],
+        [
+          3.4322316262809495e-06,
+          0.0006653417953657237,
+          1.4231101144545247e-05
+        ],
+        [
+          -0.0001645580644141654,
+          1.4231101144545262e-05,
+          0.0004447529373784999
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "neck_pitch",
+      "mass_kg": 0.7616998700551401,
+      "COM_body_m": [
+        -0.054450535052002876,
+        -0.0014782902019538748,
+        0.0798848302070661
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.001557953190845176,
+          -4.513594323842553e-05,
+          0.0006357858880892417
+        ],
+        [
+          -4.513594323842553e-05,
+          0.0018239288062085908,
+          6.197749497215939e-05
+        ],
+        [
+          0.0006357858880892417,
+          6.19774949721594e-05,
+          0.001250097101466532
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "neck_mid_pitch",
+      "mass_kg": 0.543362146702074,
+      "COM_body_m": [
+        0.04864225194083739,
+        0.0020151552635870058,
+        0.06408439987476366
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0011770263733292903,
+          5.980797581083998e-05,
+          -0.0005727071049568014
+        ],
+        [
+          5.9807975810839994e-05,
+          0.001352276963776927,
+          7.95714869156785e-05
+        ],
+        [
+          -0.0005727071049568013,
+          7.957148691567849e-05,
+          0.0009354301253478404
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "head_pitch",
+      "mass_kg": 0.3246059855586802,
+      "COM_body_m": [
+        0.019865617151699155,
+        0.013552493370887013,
+        -0.009983834811956194
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.00026876459539659846,
+          3.3339442185818405e-05,
+          3.301162586154485e-05
+        ],
+        [
+          3.3339442185818425e-05,
+          0.0003711180939728776,
+          -2.1882565983506754e-05
+        ],
+        [
+          3.3011625861544854e-05,
+          -2.1882565983506744e-05,
+          0.0003981124367844009
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "head_roll",
+      "mass_kg": 0.6740421096762732,
+      "COM_body_m": [
+        0.06029444180790092,
+        -0.0013230568559439123,
+        0.008969755507405197
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.00044258396896850746,
+          -9.863016851983933e-06,
+          0.00012169215270477119
+        ],
+        [
+          -9.863016851983933e-06,
+          0.0008129453188727652,
+          2.903217810469855e-06
+        ],
+        [
+          0.00012169215270477118,
+          2.903217810469856e-06,
+          0.0007893367441478791
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "beak_hinge",
+      "mass_kg": 0.12444184333803009,
+      "COM_body_m": [
+        0.022105349738602897,
+        0.0021783860398677996,
+        -0.015828781839977824
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          5.981546379393212e-05,
+          6.6705486396299205e-06,
+          3.1879502956955006e-05
+        ],
+        [
+          6.670548639629921e-06,
+          0.00010144378189161722,
+          -3.1024451994627755e-06
+        ],
+        [
+          3.187950295695501e-05,
+          -3.102445199462776e-06,
+          0.0001160317761850018
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_hip_yaw",
+      "mass_kg": 0.7281842325889366,
+      "COM_body_m": [
+        0.005095822969890935,
+        0.025401207686986685,
+        -0.0389273940119344
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.001271422085179035,
+          3.5866756357602294e-05,
+          -0.00013608468643861517
+        ],
+        [
+          3.5866756357602294e-05,
+          0.0013747571060393072,
+          0.00027810349433966217
+        ],
+        [
+          -0.00013608468643861517,
+          0.00027810349433966217,
+          0.000517292369872469
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_hip_roll",
+      "mass_kg": 0.5299199923876452,
+      "COM_body_m": [
+        -0.011828717367350267,
+        -0.05094535446626412,
+        0.028074904773870646
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0005394741720253643,
+          0.00024872872527529006,
+          -4.572595075841146e-05
+        ],
+        [
+          0.00024872872527529006,
+          0.0004467748776516013,
+          7.467094559052454e-05
+        ],
+        [
+          -4.572595075841145e-05,
+          7.467094559052453e-05,
+          0.0007320066992331999
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_hip_pitch",
+      "mass_kg": 0.9224645762705135,
+      "COM_body_m": [
+        -0.02012103735935761,
+        -0.0013358562131480511,
+        -0.07160803645205194
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0024540655940832224,
+          1.3321441715003262e-05,
+          -0.0005147098466496061
+        ],
+        [
+          1.3321441715003263e-05,
+          0.0024159847495572543,
+          4.829206596105817e-05
+        ],
+        [
+          -0.0005147098466496062,
+          4.829206596105816e-05,
+          0.0008665528091603771
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_knee_pitch",
+      "mass_kg": 0.8776014572273547,
+      "COM_body_m": [
+        0.016856218514495414,
+        0.0035551044792390407,
+        -0.08510999264396665
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.003603138723139057,
+          -9.95352316416782e-06,
+          0.0005416950454761784
+        ],
+        [
+          -9.953523164167821e-06,
+          0.00322228326731818,
+          4.054312532942075e-05
+        ],
+        [
+          0.0005416950454761784,
+          4.054312532942075e-05,
+          0.0009649224631702961
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_ankle_pitch",
+      "mass_kg": 0.5654759215726818,
+      "COM_body_m": [
+        0.032396301542725395,
+        -0.0014776983183648895,
+        -0.035524867017269396
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0006050904802599511,
+          2.5712974808650393e-05,
+          0.00019321471737740567
+        ],
+        [
+          2.571297480865039e-05,
+          0.0006525972460803395,
+          -5.12044204428638e-06
+        ],
+        [
+          0.00019321471737740567,
+          -5.120442044286375e-06,
+          0.0006278943122819836
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "right_ankle_roll",
+      "mass_kg": 0.3710953811304649,
+      "COM_body_m": [
+        -0.021046013482092486,
+        0.0006092599482769162,
+        -0.027002872606474174
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.00022932858177234205,
+          -8.632439956927271e-07,
+          -1.5668480793912736e-05
+        ],
+        [
+          -8.632439956927262e-07,
+          0.0006797153777954242,
+          -7.076232232728779e-06
+        ],
+        [
+          -1.566848079391274e-05,
+          -7.0762322327287805e-06,
+          0.0006971471773680857
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_hip_yaw",
+      "mass_kg": 0.7281897695388784,
+      "COM_body_m": [
+        0.005095708208144773,
+        -0.025401257803366148,
+        -0.03892742098409552
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0012714230777949483,
+          -3.586730915079173e-05,
+          -0.00013608498137895363
+        ],
+        [
+          -3.586730915079172e-05,
+          0.0013747590847904994,
+          -0.00027810365935954155
+        ],
+        [
+          -0.00013608498137895363,
+          -0.0002781036593595416,
+          0.0005172939074236387
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_hip_roll",
+      "mass_kg": 0.5294860413985729,
+      "COM_body_m": [
+        -0.011776670946329944,
+        0.05095277985188387,
+        0.028078512596055982
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.000540329184686156,
+          -0.0002481418534096043,
+          -4.549049536607023e-05
+        ],
+        [
+          -0.0002481418534096043,
+          0.0004453051524062338,
+          -7.486247606781e-05
+        ],
+        [
+          -4.5490495366070266e-05,
+          -7.486247606781e-05,
+          0.0007311229777699776
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_hip_pitch",
+      "mass_kg": 0.9220472585751143,
+      "COM_body_m": [
+        -0.020132621421694814,
+        0.001329794542645285,
+        -0.07165370830641543
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0024497449284558146,
+          -1.3209497011839457e-05,
+          -0.0005136948320537219
+        ],
+        [
+          -1.3209497011839457e-05,
+          0.0024114668619115175,
+          -4.776614217523837e-05
+        ],
+        [
+          -0.0005136948320537219,
+          -4.776614217523837e-05,
+          0.0008661656227566792
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_knee_pitch",
+      "mass_kg": 0.877705890856404,
+      "COM_body_m": [
+        0.01684855095392952,
+        -0.0035669283678300134,
+        -0.085076876700524
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.003605967982424282,
+          9.862467274252449e-06,
+          0.000541777411965281
+        ],
+        [
+          9.86246727425245e-06,
+          0.003224541826189674,
+          -3.9488778431858935e-05
+        ],
+        [
+          0.000541777411965281,
+          -3.948877843185894e-05,
+          0.0009652170631648571
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_ankle_pitch",
+      "mass_kg": 0.5654776419762635,
+      "COM_body_m": [
+        0.03239513932447233,
+        0.0014777703381428087,
+        -0.03552500743806629
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.0006050806244319076,
+          -2.5695251790268703e-05,
+          0.000193242614972455
+        ],
+        [
+          -2.5695251790268696e-05,
+          0.0006526329998465472,
+          5.1226387707502236e-06
+        ],
+        [
+          0.00019324261497245498,
+          5.122638770750222e-06,
+          0.0006279417323761979
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_ankle_roll",
+      "mass_kg": 0.3711383050370359,
+      "COM_body_m": [
+        -0.021042493692067114,
+        -0.0006057936775646644,
+        -0.02700264090782628
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          0.00022936852117843947,
+          8.247815317800104e-07,
+          -1.5671112264134905e-05
+        ],
+        [
+          8.247815317800104e-07,
+          0.0006797551772267693,
+          7.073519528929359e-06
+        ],
+        [
+          -1.5671112264134905e-05,
+          7.073519528929351e-06,
+          0.0006972269767790197
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "beak_input_rotor",
+      "mass_kg": 0.01713015122738488,
+      "COM_body_m": [
+        -0.0007229120370144809,
+        0.03003717925488145,
+        -0.0012521203775123224
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          1.5634736654262067e-06,
+          7.115889094387143e-08,
+          -1.1318918128567384e-07
+        ],
+        [
+          7.115889094387141e-08,
+          2.7057723164570128e-06,
+          1.2325081452502547e-07
+        ],
+        [
+          -1.1318918128567371e-07,
+          1.2325081452502547e-07,
+          1.432780000506928e-06
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "beak_coupler_link",
+      "mass_kg": 0.005177307249452544,
+      "COM_body_m": [
+        0.015499999888487326,
+        0.034964001297447034,
+        -0.012500000368660724
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          4.4914186848174735e-07,
+          2.07882548902493e-17,
+          4.868994715990815e-07
+        ],
+        [
+          2.0788254890249515e-17,
+          1.0949643091432258e-06,
+          6.878878538666374e-17
+        ],
+        [
+          4.868994715990815e-07,
+          6.878878538666371e-17,
+          6.602364291911624e-07
+        ]
+      ],
+      "changed_vs07": false
+    },
+    {
+      "name": "left_yaw_input_rotor",
+      "mass_kg": 0.0629899297483423,
+      "COM_body_m": [
+        1.5433629934856474e-05,
+        -5.096041644225835e-12,
+        0.03473416951611247
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          1.3243708271151064e-05,
+          0.0,
+          3.6292054320283207e-09
+        ],
+        [
+          0.0,
+          1.3248962059897722e-05,
+          0.0
+        ],
+        [
+          3.6292054320283203e-09,
+          0.0,
+          4.201878066145535e-06
+        ]
+      ],
+      "changed_vs07": true
+    },
+    {
+      "name": "right_yaw_input_rotor",
+      "mass_kg": 0.0629899297483423,
+      "COM_body_m": [
+        1.5433629934863413e-05,
+        -5.096048583119739e-12,
+        0.03473416951611247
+      ],
+      "fullI_at_COM_body_kg_m2": [
+        [
+          1.3243708271149653e-05,
+          0.0,
+          3.6292054320277396e-09
+        ],
+        [
+          0.0,
+          1.3248962059896496e-05,
+          0.0
+        ],
+        [
+          3.6292054320277396e-09,
+          0.0,
+          4.2018780661455705e-06
+        ]
+      ],
+      "changed_vs07": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "neck_pitch_envelope",
+      "loaded_vertices": 39,
+      "loaded_faces": 74,
+      "supports": 39,
+      "hull_faces": 74
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "loaded_vertices": 35,
+      "loaded_faces": 66,
+      "supports": 35,
+      "hull_faces": 66
+    },
+    {
+      "name": "upper_bill_envelope",
+      "loaded_vertices": 45,
+      "loaded_faces": 86,
+      "supports": 45,
+      "hull_faces": 86
+    },
+    {
+      "name": "lower_bill_envelope",
+      "loaded_vertices": 45,
+      "loaded_faces": 86,
+      "supports": 44,
+      "hull_faces": 84
+    },
+    {
+      "name": "left_hip_envelope",
+      "loaded_vertices": 28,
+      "loaded_faces": 52,
+      "supports": 28,
+      "hull_faces": 52
+    },
+    {
+      "name": "left_thigh_envelope",
+      "loaded_vertices": 34,
+      "loaded_faces": 64,
+      "supports": 34,
+      "hull_faces": 64
+    },
+    {
+      "name": "left_actual_sole",
+      "loaded_vertices": 63,
+      "loaded_faces": 122,
+      "supports": 63,
+      "hull_faces": 122
+    },
+    {
+      "name": "right_hip_envelope",
+      "loaded_vertices": 28,
+      "loaded_faces": 52,
+      "supports": 28,
+      "hull_faces": 52
+    },
+    {
+      "name": "right_thigh_envelope",
+      "loaded_vertices": 34,
+      "loaded_faces": 64,
+      "supports": 34,
+      "hull_faces": 64
+    },
+    {
+      "name": "right_actual_sole",
+      "loaded_vertices": 63,
+      "loaded_faces": 122,
+      "supports": 63,
+      "hull_faces": 122
+    },
+    {
+      "name": "torso_skin_rear0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_rear1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector2",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector3",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector4",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_left_sector5",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector0",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector1",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector2",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector3",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector4",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "torso_skin_right_sector5",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "left_shin_outer",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "left_shin_C45",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "right_shin_outer",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    },
+    {
+      "name": "right_shin_C45",
+      "loaded_vertices": 64,
+      "loaded_faces": 124,
+      "supports": 64,
+      "hull_faces": 124
+    }
+  ],
+  "exact_unchanged_compiled_fields": {
+    "body_pos": true,
+    "body_quat": true,
+    "qpos0": true,
+    "jnt_type": true,
+    "jnt_bodyid": true,
+    "jnt_pos": true,
+    "jnt_axis": true,
+    "jnt_range": true,
+    "jnt_limited": true,
+    "jnt_qposadr": true,
+    "jnt_dofadr": true,
+    "dof_damping": true,
+    "actuator_trnid": true,
+    "actuator_gear": true,
+    "actuator_gainprm": true,
+    "actuator_biasprm": true,
+    "eq_type": true,
+    "eq_obj1id": true,
+    "eq_obj2id": true,
+    "eq_data": true,
+    "eq_solref": true,
+    "eq_solimp": true,
+    "exclude_signature": true,
+    "geom_type": true,
+    "geom_bodyid": true,
+    "geom_pos": true,
+    "geom_quat": true,
+    "geom_friction": true,
+    "geom_solref": true,
+    "geom_solimp": true,
+    "geom_margin": true,
+    "geom_gap": true,
+    "geom_contype": true,
+    "geom_conaffinity": true,
+    "geom_condim": true,
+    "mesh_vert": true,
+    "mesh_face": true
+  },
+  "allowed_changed_arrays": {
+    "dof_armature": [
+      26,
+      27
+    ],
+    "dof_frictionloss": [
+      26,
+      27
+    ],
+    "actuator_ctrlrange": [
+      6,
+      12
+    ],
+    "actuator_forcerange": [
+      6,
+      12
+    ]
+  },
+  "source_input_armature_once": true,
+  "logical_yaw_armature_unchanged_zero": true,
+  "power_limit_W": 350,
+  "bus_V": 22.2,
+  "peak_enabled": false,
+  "all_execution_modes_yaw_chain_cap_Nm": 1.8,
+  "physics_dt_s": 0.005,
+  "controller_PD_timing_unchanged": true,
+  "mj_step_calls": 0,
+  "forward_calls": 1,
+  "independent_final_directory_load": true
+}

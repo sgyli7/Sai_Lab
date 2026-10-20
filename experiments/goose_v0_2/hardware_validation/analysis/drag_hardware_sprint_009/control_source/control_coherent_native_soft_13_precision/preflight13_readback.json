@@ -1,0 +1,141 @@
+{
+  "physical_steps": 0,
+  "nonFF50Hz_shadow": [
+    {
+      "time_s": 5.8,
+      "packet_nonFF_coefficients_error": 0.0,
+      "qref_error": 0.0,
+      "front_q_only_FF0": true,
+      "LP_result_is_None": true,
+      "qv_unchanged": true
+    },
+    {
+      "time_s": 6.2,
+      "packet_nonFF_coefficients_error": 0.0,
+      "qref_error": 0.0,
+      "front_q_only_FF0": true,
+      "LP_result_is_None": true,
+      "qv_unchanged": true
+    },
+    {
+      "time_s": 6.4,
+      "packet_nonFF_coefficients_error": 0.0,
+      "qref_error": 0.0,
+      "front_q_only_FF0": true,
+      "LP_result_is_None": true,
+      "qv_unchanged": true
+    },
+    {
+      "time_s": 6.7,
+      "packet_nonFF_coefficients_error": 0.0,
+      "qref_error": 0.0,
+      "front_q_only_FF0": true,
+      "LP_result_is_None": true,
+      "qv_unchanged": true
+    }
+  ],
+  "drive200Hz_shadow": [
+    {
+      "time_s": 5.8,
+      "abort_reason": null,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "LP_wall_s": 0.01015832694247365,
+      "entry_blend": 0.0,
+      "same_drive_source_shadow_error": 0.0,
+      "source_legal": true,
+      "hard_max": 1.4210854715202004e-13,
+      "qv_unchanged": true
+    },
+    {
+      "time_s": 6.265,
+      "abort_reason": null,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "LP_wall_s": 0.008822634001262486,
+      "entry_blend": 0.9969200658000377,
+      "same_drive_source_shadow_error": 0.0,
+      "source_legal": true,
+      "hard_max": 5.684341886080802e-14,
+      "qv_unchanged": true
+    },
+    {
+      "time_s": 6.7,
+      "abort_reason": null,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "LP_wall_s": 0.007351518026553094,
+      "entry_blend": 1.0,
+      "same_drive_source_shadow_error": 0.0,
+      "source_legal": true,
+      "hard_max": 3.5704772471945034e-13,
+      "qv_unchanged": true
+    }
+  ],
+  "fallback_branch_readback": [
+    {
+      "accepted": true,
+      "witness_hold": true,
+      "consecutive": 1,
+      "total": 1,
+      "FF18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reason": null,
+      "optimizer_status": "synthetic_only_NotSet"
+    },
+    {
+      "accepted": true,
+      "witness_hold": true,
+      "consecutive": 2,
+      "total": 2,
+      "FF18": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reason": null,
+      "optimizer_status": "synthetic_only_NotSet"
+    },
+    {
+      "accepted": false,
+      "witness_hold": false,
+      "consecutive": 2,
+      "total": 2,
+      "FF18": null,
+      "reason": "validated_witness_hold_consecutive_limit2",
+      "optimizer_status": "synthetic_only_NotSet"
+    }
+  ],
+  "fallback_time_bound_s": 0.01,
+  "no_new_actual_authorization": true
+}
