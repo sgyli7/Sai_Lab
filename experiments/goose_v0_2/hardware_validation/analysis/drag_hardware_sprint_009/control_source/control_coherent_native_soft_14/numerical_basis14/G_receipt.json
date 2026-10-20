@@ -1,0 +1,119 @@
+{
+  "schema": "goose_native_witness_error_budget_009_v1",
+  "status": "closed_readonly_numerical_audit_no_live_gate_change",
+  "frozen_utc": "2026-10-20T00:22:58Z",
+  "owner": "/root",
+  "reviewer": "/root/cart_low_handle_geometry",
+  "actual_time_s": 6.290000000000435,
+  "inputs": [
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/manifest.json",
+      "sha256": "d3185958966533da1d0eeae9b5c81522c1b07ece1d67a5ab9f29b8931637f9ca",
+      "bytes": 62450
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/attempt_001/manifest.json",
+      "sha256": "12404945c0e9f2e0be17e4727721d0db69951eec94fb454fa76dce965a398361",
+      "bytes": 3049
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/attempt_001/true_terminal_poststate.json",
+      "sha256": "180bdaf900b1495f86581275ca9862a667cad89ab623828ef8470f984c10ad76",
+      "bytes": 140724
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/attempt_001/actual_scene.mjb",
+      "sha256": "3344e5a2dcf86f85640e9b4fda2ac0fd6a65b8b18802e5888f61824fa40c8528",
+      "bytes": 5674853
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/native_dispatch_witness.py",
+      "sha256": "f9e91a4820082c8af9c9a31ed8366bf6cf9a3c3a8e3078a757f5bb6892c3fe36",
+      "bytes": 2654
+    },
+    {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_13_precision_online1000/drive_ff200.py",
+      "sha256": "ed709d18f582d2a1118a1fbdfad214724d2addff44fd903e8f3f94cbcd3846c8",
+      "bytes": 3908
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/goose_native_witness_error_budget_009.py",
+      "sha256": "aeb944774fdfd57a881a479a80ea2ced7ff2a2a358622c550a5d84aefccb9677",
+      "bytes": 8351
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/goose_native_witness_error_budget_points_009.py",
+      "sha256": "be936e686327498449d804dbd0e83b42a5ace89253bd9a3437cf84c40d5534fc",
+      "bytes": 4179
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/mouth/native_witness_error_budget_009/attempt_002/readback.json",
+      "sha256": "bdbd4b4ad7fccbb7659287aae6e9b4d3a923fe6ad756d664ca1d1cf86971e158",
+      "bytes": 35239
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/mouth/native_witness_error_budget_009/attempt_002/native_candidate_arrays.npz",
+      "sha256": "6634f374b7bb3857e9b1e27e0d34000ccb763bc1c249dc756f55cb8f793e9566",
+      "bytes": 66616
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/mouth/native_witness_error_budget_009/conservative_point_budget.json",
+      "sha256": "6d65c0c47e1f004a0f4532de9f9d5a204ca6410ffd08896f52bf188033ba50ca",
+      "bytes": 10970
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/native_witness_error_budget_009/report.md",
+      "sha256": "e5bd487bdcec0ec0e89af3452b824106829abba1c92514c9426d029cb490aae9",
+      "bytes": 5465
+    }
+  ],
+  "physics_steps": 0,
+  "LP_calls": 0,
+  "total_pure_forward_calls_this_task": 2,
+  "additional_kinematics_only_calls": 1,
+  "hardware_source_modified": false,
+  "live_source_modified": false,
+  "actual_criteria_modified": false,
+  "exact_candidate_reproduction": {
+    "qacc_difference": 0.0,
+    "native_force_difference": 0.0
+  },
+  "decision": "Original absolute mixed-unit force_balance gate tripped on legal finite-convergence native solver gradient; no observed formula mismatch or physical-cap violation. Historical FAIL and undispatched status retained. No hardware failure inferred.",
+  "numbers": {
+    "max_generalized_residual_N": 1.3998060602204987e-05,
+    "dominant_row": "root/ty",
+    "source_options": {
+      "solver": 2,
+      "integrator": 3,
+      "tolerance": 1e-08,
+      "iterations": 100,
+      "ls_tolerance": 0.01,
+      "ls_iterations": 50,
+      "noslip_iterations": 0,
+      "noslip_tolerance": 1e-06,
+      "disableflags": 65536,
+      "enableflags": 0,
+      "cone": 1,
+      "timestep": 0.001
+    },
+    "final_normalized_gradient": 1.3229387427342358e-07,
+    "final_normalized_improvement": 3.7987269076129365e-09,
+    "rho_mass_dual_norm": 0.00024813200276722046
+  },
+  "candidate_numerical_allocation_NOT_implemented": {
+    "short_horizon_s": 0.005,
+    "point_displacement_budget_m": 1e-06,
+    "basis": "0.1% of existing 1mm whole-sole-air geometric threshold; allocation proposal for Owner review, not an altered physical gate.",
+    "long_horizon_error_not_certified": true
+  },
+  "old_attempt_001_preserved": "First exact same native reconstruction had a statistics-array display indexing issue only. Attempt002 repeats identical physics to complete statistics and is the selected source-bound readback. No original failure overwritten.",
+  "scope_limits": [
+    "Only instantaneous same-state numerical optimization error, no full-trajectory integration error bound.",
+    "The dt^2 local Taylor budget is not a rigorous finite-horizon bound across moving M/J, changing contact sets, or feedback.",
+    "M^-1 r alone is a force-frozen algebraic correction, not the exact constrained optimum displacement.",
+    "No actual or hypothetical trajectory has been stepped or reset."
+  ],
+  "mujoco_version": "3.10.0"
+}

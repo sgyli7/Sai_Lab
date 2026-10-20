@@ -1,0 +1,17 @@
+# Controller14 actual001 — FAIL, no actual step
+
+Physical08 + original004 cart + freely supported20kg cargo; true free roots, original source continuous torque–speed/22.2V/350W and contact material. Numerical sole-only floor profile and1000Hz physics/200Hz drive/50Hz non-FF Teacher remain declared. LegFF is recomputed200Hz by a non-real-time Teacher; this is not a board real-time claim.
+
+6605 completed1ms steps, truePOST6.605s, last loggedPRE6.604s. Genuine open-mouth capture and5000fine-step/5s loaded grip hold completed. Actual certified air/backlanding steps=0, stable support exchanges=0. No half-metre transport or parking completion.
+
+First irreversible5mm material-slip FAIL occurred at6.404s(R5.001008/L4.696814mm), before planned left swing6.547449s. Lifetime/epoch material slip was not reset. Final logged R/L slips6.118439/5.519938mm. Feet never cleared1mm; motion minimum normal forces R10.110/L31.433N. Both feet remained physically contacting.
+
+Actual source-cap utilization first exceeded98% at6.235s on rightankleroll(−1.96735/2Nm), then left hiproll6.255, right hiproll6.270, rightknee6.355. This precedes slip FAIL. Dispatch requested-minus-applied torque is zero because the LP already selected capped totals; it does not mean capacity was unused. During DS unload weight is0; at6.600 the left normal target30.749N remained prediction60.473N and actual60.495N. This soft preference was not achieved; neither that result nor a local capped allocation proves global hardware insufficiency.
+
+At6.605 the next command was NOT dispatched. HiGHS status isNotSet, not proven Infeasible. The previous-FF fresh-native hold witness failed unchanged LP hard-equality threshold:1.076847212e−6 at row2(root-z balance), versus1e−6; inequality7.1e−15,bounds0,FF/source legal. It was not the controller14 mass-metric intrinsic Newton certificate gate. One earlier fallback was used; no automatic retry or subsequent integration occurred.
+
+TruePOST root/cart/cargo back distances24.382299/2.580502/2.612973mm. LastPRE values24.304317/2.490899/2.523630mm. summary.json final_* retains its original last-PRE semantics. No summary or prior run was overwritten. Source80/80 byte hashes are unchanged. Max recorded tilt2.88664deg, positive power11.1251W. Native mechanical/finite coverage/manufacturing/thermal limitations remain; this proxy control diagnosis grants no hardware/task qualification.
+
+The continuous neutral proxy video is original speed and includes Goose, mouth, both feet, entire cart and cargo. It is a failed trajectory, not a successful short drag. Large synchronized PRE-state contacts/q/v/qacc trace remains at the raw path in raw_log_locator.json; selected_native_PRE14.json supplies11 exact samples including pre-FAIL and lift-window entry. true_terminal_poststate retains actual finally-forward state; metadata includes the rejected next command separately.
+
+Next causal hypothesis for Owner review only: joint soft-acceleration goals still combine coherent-plan acceleration with a native joint-PD acceleration increment while root goals are separately replaced. At6.290 predicted/actual yaw acceleration+4.627rad/s² opposes root goal−1.895;6.355+11.826 opposes−.175 before unload weight begins. A same-domain target-layer comparison could distinguish competing joint recovery from unavailable physical wrench. No new LP, profile or physics was performed for this hypothesis.

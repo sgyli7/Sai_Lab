@@ -1,0 +1,954 @@
+{
+  "status": "FINAL_C06_FROZEN_FINITE_MOTION_PROTOTYPE_CANDIDATE_PENDING_OWNER_PACKET_ADOPTION",
+  "frozen_UTC": "2026-10-19T21:44:52.481811+00:00",
+  "Owner_direction": "Root reviewed actual red-retired before-after and authorized this pureCUT direction; formal whole-source adoption/integration waits for packet hash review. No more geometry jobs.",
+  "unique_final_native": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+    "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+  },
+  "unique_final_GLB": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.glb",
+    "sha256": "570852ff7fda6f6d888d21d0701b13c7eb625760ba6063e2a46a5bb498f548a6"
+  },
+  "native_quality": {
+    "solid_count": 1,
+    "strict_valid": true,
+    "self_intersection_valid": true,
+    "signed_volumes_mm3": [
+      359394.3164670898
+    ],
+    "edge_tolerance_max_mm": 0.000931070799370162
+  },
+  "MCI": {
+    "volume_mm3": 359391.59031824605,
+    "mass_kg": 0.45642731970417244,
+    "COM_mm": [
+      31.709907004619776,
+      0.1186577590728196,
+      348.60457731871946
+    ],
+    "full_I_at_COM_kg_m2": [
+      [
+        0.004272853477811495,
+        5.740099696479248e-06,
+        0.0003331886638683222
+      ],
+      [
+        5.740099696479248e-06,
+        0.0035817631457888805,
+        7.2368260633766265e-06
+      ],
+      [
+        0.0003331886638683222,
+        7.2368260633766265e-06,
+        0.0033431180373622743
+      ]
+    ],
+    "integration_error": 2.197932958207077e-06,
+    "density_kg_m3": 1270.0
+  },
+  "MCI_units": {
+    "volume": "mm3",
+    "COM": "native CAD worldzero millimetres",
+    "fullI": "kg*m^2 aboutCOM, complete symmetric tensor in unchanged native axes"
+  },
+  "MCI_method": "OCP BRepGProp span-aware adaptiveGaussKronrod eps1e-7; PETG nominalrho1270kg/m3, not weighed hardware. Signed default native volume separately retained.",
+  "owner": "torso",
+  "material": "PETG",
+  "density_kg_m3": 1270.0,
+  "native_zero_placement": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "part_identity": {
+    "new_native_part": "front_main_shell_native_recovery_009_c06_cut_proposal",
+    "replaced_occurrence": "front_main_shell",
+    "retired_original05_native_index": 656,
+    "healthy_pre3cup_native_index": 658,
+    "other_parts_not_modified": true
+  },
+  "mass_delta_vs_original05_front_kg": -0.011524496548848406,
+  "mass_delta_vs_adopted_c03_front_kg": -0.007226055009774246,
+  "mass_delta_vs_c05_kg": -0.0022262688407094777,
+  "actual_retired_stock_volume_mm3": 1752.9621149960433,
+  "retired_stock_MCI": {
+    "volume_mm3": 1752.962052588565,
+    "mass_kg": 0.0022262618067874773,
+    "COM_mm": [
+      -34.72615715634259,
+      -63.844024644224724,
+      263.2181030849901
+    ],
+    "full_I_at_COM_kg_m2": [
+      [
+        2.1843760409626827e-07,
+        1.8233687327546008e-07,
+        6.415633326747712e-08
+      ],
+      [
+        1.8233687327546008e-07,
+        1.3733125816434086e-06,
+        7.2974580850209e-08
+      ],
+      [
+        6.415633326747712e-08,
+        7.2974580850209e-08,
+        1.421191713323303e-06
+      ]
+    ],
+    "integration_error": 1.0221153314270335e-07,
+    "density_kg_m3": 1270.0
+  },
+  "retired_Common_original_healthy_material_mm3": 0,
+  "complete_native_subset_and_material_identity": {
+    "status": "COMPLETE_NATIVE_CUT_SUBSET_IDENTITY_PROVEN",
+    "candidate": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+      "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+    },
+    "c05_source": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c05/front_main_shell_native_recovery_009_c05.brep",
+      "sha256": "ad9442af3548cf6b358aeaca049697bf72b33a149d9439170367986b99b58639"
+    },
+    "retired_source": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/proposed_only_new_backing_retired_stock.brep",
+      "sha256": "2ce9e1e983a8065d9ed3557f35d7454cb8c194517fba41b2235fc666a252f7f1"
+    },
+    "source": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_subset_proof.py",
+      "sha256": "f6abc6693f83a3a01080d5998b41bda2f1a396af498ea035cf7057f9b5918d49"
+    },
+    "physics_steps": 0,
+    "whole_c06_minus_c05_mm3": 0,
+    "elapsed_s": 130.8079676569905,
+    "whole_c05_minus_c06_mm3": 1752.9621149960606,
+    "actual_retired_readback_native": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/whole_native_c05_minus_c06_actual_retired.brep",
+      "sha256": "b840de2734508903d5585052d4b6d8f22157c6a7972dab53c07af49c6eaf41cb"
+    },
+    "actual_retired_minus_proposed_retired_mm3": 0,
+    "proposed_retired_minus_actual_retired_mm3": 0,
+    "all_changes_are_CUT_only": true
+  },
+  "mechanical_inheritance": {
+    "source_c05": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c05/frozen_native_handoff.json",
+      "sha256": "4770bdab2229ed2c4a1b6f164355bc69722e702215fd2675209fc5132885154f"
+    },
+    "complete833_source_evidence": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c05/all833_adaptive_native_clearance.json",
+      "sha256": "89c1644d0e8b6b5aeaca1924a62f830a4a7052258c9a57a09d827deb477be8f4"
+    },
+    "left_complete_native_inheritance": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c05/left_frozen_c04_complete833_inheritance.json",
+      "sha256": "eedb0604f37f074df3cfa426263a64c8c1a55ad5f927ca1a5c40b7435ee776c7"
+    },
+    "coverage": {
+      "right": {
+        "query_count": 85,
+        "minimum_all833_bound_mm": 0.9145177459174936,
+        "minimum_reference492_bound_mm": 0.9145177459174936,
+        "minimum_actual341_bound_mm": 1.0244745246581535
+      },
+      "left": {
+        "query_count": 67,
+        "minimum_all833_bound_mm": 0.8265722076782902,
+        "minimum_reference492_bound_mm": 0.8921158296515579,
+        "minimum_actual341_bound_mm": 0.8265722076782902
+      }
+    },
+    "finalc06_relation": "Whole native c06 minusc05=0; wholec05 minusc06 equals actual retired1752.962114996mm3; actual/proposed retired bidirectional differences0. Distance of completeC45 to native c06 is therefore no less than to c05 at all covered inputs.",
+    "scope": "492 complete HEIGHT0 control08 FK reference inputs plus340 recorded failed-run actual poses+separately saved terminal1=341. Every declared833 matrix covered by exact-native/complete-rigid-AABB lower bounds. This does not certify unobserved interpolation, fullROM,13mm reference, new physical trajectory, task success or stable training.",
+    "planned08_identity": {
+      "path": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/shortstride_entry_revision_08/manifest.json",
+      "sha256": "6af27e5a939203bc7bc401127b88da5ecb5b2896125ede3dcec24674fb70d8ed"
+    },
+    "canonical_input_provenance": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c04/complete_input_provenance.json",
+      "sha256": "d799928949d25a714d18b16ab866f4d2911da26a9c51bccc023b43924c541f46"
+    }
+  },
+  "unchanged_analytic_cavities": {
+    "left": {
+      "center_mm": [
+        -36.53911864752302,
+        157.1345981425682,
+        232.07554313252405
+      ],
+      "cavity_radius_mm": 101.57759916537167,
+      "normal_backing_mm": 3.0,
+      "clearance_target_mm": 0.8,
+      "draft_mesh_allowance_mm": 0.12
+    },
+    "right": {
+      "center_mm": [
+        -30.945958939226312,
+        -129.7682307437694,
+        196.28718269105457
+      ],
+      "cavity_radius_mm": 95.96662726703808,
+      "normal_backing_mm": 3.0,
+      "clearance_target_mm": 0.8,
+      "draft_mesh_allowance_mm": 0.12
+    },
+    "C06_does_not_refit_or_add_spheres": true
+  },
+  "protected_features": {
+    "actual05_door8axes": {
+      "actual_retired_Common_mm3": 0,
+      "inheritance": "Parentc05 exact native proof plus only-CUT final. No additions or displacement."
+    },
+    "all_positiveY_left_half": {
+      "actual_retired_Common_mm3": 0,
+      "inheritance": "Parentc05 exact native proof plus only-CUT final. No additions or displacement."
+    },
+    "outboard_original_parting_tabs": {
+      "actual_retired_Common_mm3": 0,
+      "inheritance": "Parentc05 exact native proof plus only-CUT final. No additions or displacement."
+    },
+    "main_hip_upper_region": {
+      "actual_retired_Common_mm3": 0,
+      "inheritance": "Parentc05 exact native proof plus only-CUT final. No additions or displacement."
+    },
+    "original3_plus2mm_tools": [
+      {
+        "source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/closed_body_task_wells_01/move358_K_OEM_clearance_tool.brep",
+          "sha256": "484dafa2fbed47ac7b29f30de967de79b3fd4d758dd0240d96fa1c60bdf63117",
+          "bytes": 2006
+        },
+        "final_Common_mm3": 0
+      },
+      {
+        "source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/closed_body_task_wells_01/right901_K_OEM_clearance_tool.brep",
+          "sha256": "cc43a81c472988c5f5a023fd7986b570a7c4cd590359889c0813f6aede6a351b",
+          "bytes": 2010
+        },
+        "final_Common_mm3": 0
+      },
+      {
+        "source": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/thermal_manufacturing/closed_body_task_wells_01/right901_true_K_rear_pressure2_clearance_tool.brep",
+          "sha256": "c72d980214ac1b4d9700392e4ba10c646b40e645774b43958270fc8fada9c63e",
+          "bytes": 2072
+        },
+        "final_Common_mm3": 0
+      }
+    ],
+    "ten_original_vents": [
+      {
+        "Y_mm": -77,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": -69,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": -61,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": -53,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": -45,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": 45,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": 53,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": 61,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": 69,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      },
+      {
+        "Y_mm": 77,
+        "final_Common_original_5mm_vent_mm3": 0,
+        "final_Common_original20mm_aircorridor_mm3": 0
+      }
+    ]
+  },
+  "protected_source_zero_differences": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c05/native_feature_wall_exchange_checks.json",
+    "sha256": "6c531ab3c802f2e6be96250a1ffd0ac10cff9650c0d5412d2370c8c5638dbf05"
+  },
+  "C06_protected_retired_zero_common_and_tool_replay": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/final_feature_MCI_STEP_checks.json",
+    "sha256": "ed6277d2382e537795a448496792a23f2f8d2a8afeee676073c2533af37825f3"
+  },
+  "manufacturing": {
+    "status": "FAIL_NOT_RELEASED",
+    "mother_wall": "Original .97 homothetic cavity has variable wall; no uniform3mm claim.",
+    "new_ideal_spherical_band": "3mm concentric before aperture/vent clipping, not globalphysical3mm.",
+    "remaining_left_boundary_sample": {
+      "native_face_index": 376,
+      "point_mm": [
+        -3.250035213361386,
+        63.57965394626564,
+        253.4605377021061
+      ],
+      "radial_normal": [
+        0.32772071507583,
+        -0.9210194468565066,
+        0.2105286475098373
+      ],
+      "native_face_edge_distance_mm": 0.09529272382754829,
+      "near_opening_or_feature_edge": true,
+      "first_material_exit_mm": 0.0864845422765131
+    },
+    "remaining_right_boundary_sample": {
+      "native_face_index": 435,
+      "point_mm": [
+        -46.12154684780026,
+        -53.18419312072244,
+        252.09202353834567
+      ],
+      "radial_normal": [
+        -0.15813401325802717,
+        0.7980278124179894,
+        0.581502574764952
+      ],
+      "native_face_edge_distance_mm": 0.04569308766344902,
+      "near_opening_or_feature_edge": true,
+      "first_material_exit_mm": 0.0284074800558689
+    },
+    "sampled_left_min_mm": 0.0864845422765131,
+    "sampled_right_min_mm": 0.0284074800558689,
+    "globalminimum_wall_certified": false,
+    "stress_impact_fatigue_certified": false,
+    "cosmetic_status": "Prominent newly added right knives removed by realCUT; original vent/port steps and remaining thin edges remain. Not wholly rounded or fabrication ready.",
+    "STEP": {
+      "source": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06.step",
+        "sha256": "985143cddd77989aa183b0761ff4f6d93779b14c2baf85aed98331cd67ebc149"
+      },
+      "readback_solid_count": 1,
+      "strict_valid": false,
+      "strict_problem_faces": [
+        {
+          "index": 0,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 1,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 2,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 3,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 6,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 9,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 12,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 13,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 19,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 23,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 25,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 27,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 29,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 31,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 33,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 35,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 37,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 41,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 45,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 47,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 51,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 55,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 56,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 58,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 59,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 60,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 65,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 68,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 71,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 72,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 73,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 74,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 75,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 81,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 82,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 88,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 90,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 92,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 94,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 96,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 98,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 100,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 102,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 104,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 106,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 113,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 117,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 120,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 135,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 140,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 142,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 143,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 152,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 156,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 164,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 165,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 177,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 185,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 186,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 187,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 190,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 192,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 193,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 195,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 200,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 203,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 204,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 205,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 207,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 210,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 232,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 234,
+          "type": "GeomType.SPHERE"
+        },
+        {
+          "index": 256,
+          "type": "GeomType.EXTRUSION"
+        },
+        {
+          "index": 274,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 280,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 281,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 287,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 291,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 312,
+          "type": "GeomType.SPHERE"
+        },
+        {
+          "index": 313,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 315,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 319,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 325,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 339,
+          "type": "GeomType.EXTRUSION"
+        },
+        {
+          "index": 340,
+          "type": "GeomType.EXTRUSION"
+        },
+        {
+          "index": 372,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 373,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 384,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 389,
+          "type": "GeomType.SPHERE"
+        },
+        {
+          "index": 392,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 433,
+          "type": "GeomType.CYLINDER"
+        },
+        {
+          "index": 441,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 445,
+          "type": "GeomType.BSPLINE"
+        },
+        {
+          "index": 454,
+          "type": "GeomType.SPHERE"
+        },
+        {
+          "index": 462,
+          "type": "GeomType.EXTRUSION"
+        }
+      ],
+      "native_signed_volume_mm3": 359394.31646708987,
+      "readback_signed_volume_mm3": 359392.674688149,
+      "volume_delta_mm3": -1.641778940858785,
+      "COM_shift_mm": [
+        2.0299740803864097e-06,
+        1.4235999574771507e-05,
+        1.0205680666786066e-05
+      ],
+      "readback_MCI": {
+        "volume_mm3": 359391.54490199673,
+        "mass_kg": 0.4564272620255358,
+        "COM_mm": [
+          31.709909034593856,
+          0.11867199507239437,
+          348.60458752440013
+        ],
+        "full_I_at_COM_kg_m2": [
+          [
+            0.00427285301515554,
+            5.740310969180198e-06,
+            0.00033318868223970445
+          ],
+          [
+            5.740310969180198e-06,
+            0.0035817626194209807,
+            7.237204557198514e-06
+          ],
+          [
+            0.00033318868223970445,
+            7.237204557198514e-06,
+            0.0033431179141999853
+          ]
+        ],
+        "integration_error": 1.1315529371720141e-06,
+        "density_kg_m3": 1270.0
+      },
+      "self_intersection_not_evaluated": "Native strict/SI measured. STEP inherited strict issues remain; no codec/library repair.",
+      "manufacturing_released": false
+    }
+  },
+  "whole_three_views": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/whole_three_views.png",
+    "sha256": "dc64349428e71741bc80efde9517fa4cfe46457937af201a78448152af4ad627"
+  },
+  "before_after_actual_red_retirement": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/proposed_retirement_and_both_sides.png",
+    "sha256": "15d4936a8809162b7717a451cf36fb93d82a81f78630adbb0c1b3cbf3f2ba72a"
+  },
+  "source_lineage": {
+    "c05_mechanical_reference": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c05/frozen_native_handoff.json",
+      "sha256": "4770bdab2229ed2c4a1b6f164355bc69722e702215fd2675209fc5132885154f"
+    },
+    "c04_left_source": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c04/frozen_native_handoff.json",
+      "sha256": "ac4e2eeed54db47be664dfb82b6560dcbd1223d20168cf527f34aaf448eda7e6"
+    },
+    "original_handoff": {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/../drag_shell_bilateral_repair_009/c01/handoff.json",
+      "sha256": "5aea00ba78762a22ab4899aaf453b91425a5cd3bda9fec0103fa61d8eb7941be"
+    }
+  },
+  "no_hiding": "Final native is one actual positive solid. No deleted display triangles, hidden old parts, dummy collision changes or mass-contract patch. Full compounds and actually retired natives retained.",
+  "physics_steps": 0,
+  "training_updates": 0,
+  "FK_calls_this_hardware_revision": 0,
+  "GPU": 0,
+  "running_jobs": 0,
+  "files": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+      "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/one_continuous_rounded_lower_rim_review_die.brep",
+      "sha256": "ce7b81171a3d2482236402d1b2c5f0697f84a67c268f96a1ee9211824ebf510a"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/proposed_only_new_backing_retired_stock.brep",
+      "sha256": "2ce9e1e983a8065d9ed3557f35d7454cb8c194517fba41b2235fc666a252f7f1"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/whole_native_c05_minus_c06_actual_retired.brep",
+      "sha256": "b840de2734508903d5585052d4b6d8f22157c6a7972dab53c07af49c6eaf41cb"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/whole_native_c06_minus_c05.brep",
+      "sha256": "fdc75bfe05a54932b6580d63f4b6c2252e66e24302a5c754eeeb1b59d04840bc"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/boundary_radial_wall_audit.json",
+      "sha256": "811d100961b0539586f2891eafea73f9655a51058144c42d3e09b86718538a75"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/complete_native_c05_c06_subset_and_retired_identity.json",
+      "sha256": "021109df8656b7ff0fb81a136c29d7005cb49e6bf4fb80380318a0b27d780794"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/cut_proposal_receipt.json",
+      "sha256": "f89a7e22a93cb739d5fd891c631333e001cf6a49ff5dc5eafe760eed06e87eed"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/cut_review_images.json",
+      "sha256": "3bcc8cb93fb8e19da490701bc7f8f42a8b401fe332f46e5e93fcf8738b3a04bf"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/final_feature_MCI_STEP_checks.json",
+      "sha256": "ed6277d2382e537795a448496792a23f2f8d2a8afeee676073c2533af37825f3"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/native_override.json",
+      "sha256": "764483dcfb9cf539c2ef4b71ea297df136887054302ea963aa44b99cad7911ba"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06.step",
+      "sha256": "985143cddd77989aa183b0761ff4f6d93779b14c2baf85aed98331cd67ebc149"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.glb",
+      "sha256": "570852ff7fda6f6d888d21d0701b13c7eb625760ba6063e2a46a5bb498f548a6"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/proposed_only_new_backing_retired_stock_red.glb",
+      "sha256": "df9db6853db6c018d21a3e3906eea7865f1d43c6766e6355d4d09b68e292e3d4"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_shell_native_recovery_009/c06/review_c05_actual_split_retired_red.glb",
+      "sha256": "8958204782b1256ce698257269b50ea441340da5d702ef53424aab09babd31b9"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case0_left.png",
+      "sha256": "b4d8766c14ea369466dac031e307a8af108780bba568848ee4ede1f5c1cc6a66"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case0_right.png",
+      "sha256": "f870daca42369a442f4a1929b70bc86781f325fffd38ec57c0cfac994680a5b0"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case1_left.png",
+      "sha256": "e27071d7be51f04f31573fac7787b9fd50aadd342423639da1222f28c0639a6a"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case1_right.png",
+      "sha256": "32d394a8297d20c5190bd992134099b3c35e8697e5d15695983ce9738c201ba9"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case2_left.png",
+      "sha256": "eeaa2b631d32fda60c6f3f9911f981761e618b1765b355b56bce6b217a33d5c5"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/case2_right.png",
+      "sha256": "b5128278ceda435a53e035ea4cb52cd3052df0538d8bf7d017b832add94ef59b"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/cut_review/proposed_retirement_and_both_sides.png",
+      "sha256": "15d4936a8809162b7717a451cf36fb93d82a81f78630adbb0c1b3cbf3f2ba72a"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/front.png",
+      "sha256": "8a5dd883561cd1b55edb00dff722089804b149b412d97f7f248e221714a1a01e"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/oblique.png",
+      "sha256": "2c6926e6df6420ee8fc1360f69a1372c48a588f483048eccdf41d53d0fbebc55"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/right_side.png",
+      "sha256": "b305150a9a538a14a3d4ba149b98df19e42d936cf90e4ee01252148a99b69c48"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/visual_review.json",
+      "sha256": "fba4a06344fa1f508b300438bc9253a16f1d8382e4abd3b20ded5ddd10dfbf86"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_shell_native_recovery_009/c06/final_whole_review/whole_three_views.png",
+      "sha256": "dc64349428e71741bc80efde9517fa4cfe46457937af201a78448152af4ad627"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_boundary_wall_audit.py",
+      "sha256": "6110c7313d6166d89f14e30fa3262e321698edb24d61de9795c33892753d2bff"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_cut_proposal.py",
+      "sha256": "ef1e74f868d51442f4fb160762bb37427d2fb06f1988e4be9f50f475ad50520e"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_final_checks.py",
+      "sha256": "3051c5be9c76dee7622fa66ed49f16059dcda48e3d16187e094be8dd8ddda67b"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_freeze.py",
+      "sha256": "67adfff76c811ec05c2d4e50a42b2d3d5265b46ff7d196726a63b9679a9e7219"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_shell_native_recovery_009_c06_subset_proof.py",
+      "sha256": "f6abc6693f83a3a01080d5998b41bda2f1a396af498ea035cf7057f9b5918d49"
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_shell_native_recovery_009_c06_cut_review.py",
+      "sha256": "6a161bcd92b3b012dbd16c899fd5420b9321a85ce9f7a0f7b196ba0c09a4ef41"
+    }
+  ]
+}

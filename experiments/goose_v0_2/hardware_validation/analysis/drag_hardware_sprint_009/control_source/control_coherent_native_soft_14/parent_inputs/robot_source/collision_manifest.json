@@ -1,0 +1,1060 @@
+{
+  "schema": "goose_source_native_finite_convex28_runtime_composition_v1",
+  "release_id": "physics_v0_2_20261020_08_candidate",
+  "physical_contract_sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85",
+  "actuator_contract_sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187",
+  "robot_xml_sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18",
+  "collision_geometries": [
+    {
+      "name": "neck_pitch_envelope",
+      "body": "neck_pitch",
+      "asset": "meshes/neck_pitch_envelope.obj",
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d",
+      "actual_convex_support_vertices": 39,
+      "actual_convex_hull_triangles": 74,
+      "loaded_vertices": 39,
+      "loaded_triangles": 74,
+      "source_role": {
+        "name": "neck_pitch_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "neck_mid_pitch_envelope",
+      "body": "neck_mid_pitch",
+      "asset": "meshes/neck_mid_pitch_envelope.obj",
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031",
+      "actual_convex_support_vertices": 35,
+      "actual_convex_hull_triangles": 66,
+      "loaded_vertices": 35,
+      "loaded_triangles": 66,
+      "source_role": {
+        "name": "neck_mid_pitch_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "upper_bill_envelope",
+      "body": "head_roll",
+      "asset": "meshes/upper_bill_envelope.obj",
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59",
+      "actual_convex_support_vertices": 45,
+      "actual_convex_hull_triangles": 86,
+      "loaded_vertices": 45,
+      "loaded_triangles": 86,
+      "source_role": {
+        "name": "upper_bill_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "lower_bill_envelope",
+      "body": "beak_hinge",
+      "asset": "meshes/lower_bill_envelope.obj",
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a",
+      "actual_convex_support_vertices": 44,
+      "actual_convex_hull_triangles": 84,
+      "loaded_vertices": 45,
+      "loaded_triangles": 86,
+      "source_role": {
+        "name": "lower_bill_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "left_hip_envelope",
+      "body": "left_hip_roll",
+      "asset": "meshes/left_hip_envelope.obj",
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b",
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_triangles": 52,
+      "loaded_vertices": 28,
+      "loaded_triangles": 52,
+      "source_role": {
+        "name": "left_hip_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "left_thigh_envelope",
+      "body": "left_hip_pitch",
+      "asset": "meshes/left_thigh_envelope.obj",
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65",
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_triangles": 64,
+      "loaded_vertices": 34,
+      "loaded_triangles": 64,
+      "source_role": {
+        "name": "left_thigh_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "left_actual_sole",
+      "body": "left_ankle_roll",
+      "asset": "meshes/left_actual_sole.obj",
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573",
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_triangles": 122,
+      "loaded_vertices": 63,
+      "loaded_triangles": 122,
+      "source_role": {
+        "name": "left_actual_sole",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "right_hip_envelope",
+      "body": "right_hip_roll",
+      "asset": "meshes/right_hip_envelope.obj",
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d",
+      "actual_convex_support_vertices": 28,
+      "actual_convex_hull_triangles": 52,
+      "loaded_vertices": 28,
+      "loaded_triangles": 52,
+      "source_role": {
+        "name": "right_hip_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "right_thigh_envelope",
+      "body": "right_hip_pitch",
+      "asset": "meshes/right_thigh_envelope.obj",
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c",
+      "actual_convex_support_vertices": 34,
+      "actual_convex_hull_triangles": 64,
+      "loaded_vertices": 34,
+      "loaded_triangles": 64,
+      "source_role": {
+        "name": "right_thigh_envelope",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "right_actual_sole",
+      "body": "right_ankle_roll",
+      "asset": "meshes/right_actual_sole.obj",
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3",
+      "actual_convex_support_vertices": 63,
+      "actual_convex_hull_triangles": 122,
+      "loaded_vertices": 63,
+      "loaded_triangles": 122,
+      "source_role": {
+        "name": "right_actual_sole",
+        "retained_parent06_asset_byte_exact": true
+      }
+    },
+    {
+      "name": "torso_skin_rear0",
+      "body": "torso",
+      "asset": "meshes/torso_skin_rear0.obj",
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_rear0",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_rear0.obj",
+          "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6",
+          "bytes": 4460
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.2428780496,
+            -0.0865827507,
+            0.2692238269
+          ],
+          [
+            -0.155,
+            0.086196168,
+            0.4480393759
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1856,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.1609904148745804,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_rear1",
+      "body": "torso",
+      "asset": "meshes/torso_skin_rear1.obj",
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_rear1",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_rear1.obj",
+          "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2",
+          "bytes": 4459
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.155,
+            -0.106520161,
+            0.2403286099
+          ],
+          [
+            -0.07025,
+            0.106520161,
+            0.4539999962
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 2300,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.8589126713845818,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector0",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector0.obj",
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector0",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector0.obj",
+          "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61",
+          "bytes": 4387
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0909391011,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1174,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.2987081746266211,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector1",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector1.obj",
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector1",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector1.obj",
+          "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436",
+          "bytes": 4381
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.1110918825,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1290,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.146440833600199,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector2",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector2.obj",
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector2",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector2.obj",
+          "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0",
+          "bytes": 4389
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.1115525663,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 925,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.3787309091331432,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector3",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector3.obj",
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector3",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector3.obj",
+          "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359",
+          "bytes": 4381
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.1066840278,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1308,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.9706295312222917,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector4",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector4.obj",
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector4",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector4.obj",
+          "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63",
+          "bytes": 4395
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.109104425,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1135,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.431527864174641,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_left_sector5",
+      "body": "torso",
+      "asset": "meshes/torso_skin_left_sector5.obj",
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_left_sector5",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_left_sector5.obj",
+          "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c",
+          "bytes": 4380
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.0,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.1105765404,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1304,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.1197008543438436,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector0",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector0.obj",
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector0",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector0.obj",
+          "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43",
+          "bytes": 4425
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1319,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.165993759394209,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector1",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector1.obj",
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector1",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector1.obj",
+          "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68",
+          "bytes": 4434
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1086,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.7102218489868595,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector2",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector2.obj",
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector2",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector2.obj",
+          "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2",
+          "bytes": 4428
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1223,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 1.9345204422912712,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector3",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector3.obj",
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector3",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector3.obj",
+          "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3",
+          "bytes": 4427
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1325,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.165993759394209,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector4",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector4.obj",
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector4",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector4.obj",
+          "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2",
+          "bytes": 4428
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1210,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.165993759394227,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "torso_skin_right_sector5",
+      "body": "torso",
+      "asset": "meshes/torso_skin_right_sector5.obj",
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "torso_skin_right_sector5",
+        "body": "torso",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/source/drag_joint_proxy_009_07/collision28_candidate_c06_r02/meshes/torso_skin_right_sector5.obj",
+          "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373",
+          "bytes": 4426
+        },
+        "source_occurrences": [
+          "front_main_shell",
+          "rear_service_cap",
+          "front_T1_service_door_curved_mother_patch",
+          "rear_cap_upper_balance_and_meter_curved_service_lid",
+          "rear_cap_lower_power_isolation_curved_service_lid",
+          "rear_cap_12p_curved_flush_service_lid",
+          "passive_cold_hood"
+        ],
+        "bounds_body_m": [
+          [
+            -0.07025,
+            -0.1115525663,
+            0.2370000035
+          ],
+          [
+            0.1000000015,
+            0.0,
+            0.4538752735
+          ]
+        ],
+        "source_native": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_shell_native_recovery_009/c06/front_main_shell_native_recovery_009_c06_cut_proposal.brep",
+          "sha256": "4dc59c6b0ecc8ed921d068e6e91596447a1108c0a5fb7305628dc242eb12187c"
+        },
+        "source_convex_vertices": 1287,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 2.165993759394209,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "left_shin_outer",
+      "body": "left_knee_pitch",
+      "asset": "meshes/left_shin_outer.obj",
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "left_shin_outer",
+        "body": "left_knee_pitch",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/spatial22_01/meshes/left_shin_outer.obj",
+          "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd",
+          "bytes": 4427
+        },
+        "source_occurrences": [
+          "left_visible_structural_shin_primary_shell",
+          "left_visible_shin_K_small_service_cap"
+        ],
+        "source_skin_mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/source_skin_06/left_shin_outer.npz",
+          "sha256": "49c3efd572938c6620ebda4e61d7e28222a7ae2f9ec6632a723540d48a5a98c5",
+          "bytes": 718623
+        },
+        "bounds_body_m": [
+          [
+            -0.0329592739,
+            -0.0174999982,
+            -0.1633127952
+          ],
+          [
+            0.0586721498,
+            0.0485,
+            0.0318779996
+          ]
+        ],
+        "source_convex_vertices": 2777,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 0.7978279465871809,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "left_shin_C45",
+      "body": "left_knee_pitch",
+      "asset": "meshes/left_shin_C45.obj",
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "left_shin_C45",
+        "body": "left_knee_pitch",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/spatial22_01/meshes/left_shin_C45.obj",
+          "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6",
+          "bytes": 4490
+        },
+        "source_occurrences": [
+          "left_visible_structural_shin_inner_C45_cover"
+        ],
+        "source_skin_mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/source_skin_06/left_shin_C45.npz",
+          "sha256": "a20e2d802de36a8cfdc5293c17e0b056233200c1c3ca636cdbfb5d2866ce76c7",
+          "bytes": 229318
+        },
+        "bounds_body_m": [
+          [
+            -0.0329999168,
+            -0.050999999,
+            -0.1628181139
+          ],
+          [
+            0.0578317467,
+            -0.0155000016,
+            0.032995229
+          ]
+        ],
+        "source_convex_vertices": 551,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 0.5188961369211589,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "right_shin_outer",
+      "body": "right_knee_pitch",
+      "asset": "meshes/right_shin_outer.obj",
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "right_shin_outer",
+        "body": "right_knee_pitch",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/spatial22_01/meshes/right_shin_outer.obj",
+          "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b",
+          "bytes": 4468
+        },
+        "source_occurrences": [
+          "right_visible_structural_shin_primary_shell",
+          "right_visible_shin_K_small_service_cap"
+        ],
+        "source_skin_mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/source_skin_06/right_shin_outer.npz",
+          "sha256": "fd941dbd19e86c0ade290aa7bd3ea98071a34a9b456e903b9d573f1182d6d9e7",
+          "bytes": 725124
+        },
+        "bounds_body_m": [
+          [
+            -0.0329592739,
+            -0.0485,
+            -0.1633127952
+          ],
+          [
+            0.0586815711,
+            0.0174999982,
+            0.0318779996
+          ]
+        ],
+        "source_convex_vertices": 2791,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 0.6948265339727014,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    },
+    {
+      "name": "right_shin_C45",
+      "body": "right_knee_pitch",
+      "asset": "meshes/right_shin_C45.obj",
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+      "actual_convex_support_vertices": 64,
+      "actual_convex_hull_triangles": 124,
+      "loaded_vertices": 64,
+      "loaded_triangles": 124,
+      "source_role": {
+        "name": "right_shin_C45",
+        "body": "right_knee_pitch",
+        "mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/spatial22_01/meshes/right_shin_C45.obj",
+          "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084",
+          "bytes": 4419
+        },
+        "source_occurrences": [
+          "right_visible_structural_shin_inner_C45_cover"
+        ],
+        "source_skin_mesh": {
+          "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/integration07/source_skin_06/right_shin_C45.npz",
+          "sha256": "dc1b2d1869447b54face644106d15cd6c8efde7cbf94392acf736d48ffe56494",
+          "bytes": 276001
+        },
+        "bounds_body_m": [
+          [
+            -0.0329999987,
+            0.0155000016,
+            -0.1628181139
+          ],
+          [
+            0.0578317467,
+            0.050999999,
+            0.0329999974
+          ]
+        ],
+        "source_convex_vertices": 640,
+        "support_vertices": 64,
+        "triangles": 124,
+        "source_to_proxy_max_distance_mm": 0.5298685424341006,
+        "source_to_proxy_distance_is_euclidean": true,
+        "construction": "Inscribed hull of at most64 actual clipped-source support vertices. No global shrink factor. Source-direction approximation is bounded here; convex overfill into native functional voids is checked separately."
+      }
+    }
+  ],
+  "robot_collision_leaves": 28,
+  "ground_geoms": 1,
+  "cart_geoms": 0,
+  "cargo_geoms": 0,
+  "actual_support_vertices": 1565,
+  "actual_hull_triangles": 3018,
+  "max_support_vertices_per_leaf": 64,
+  "source_hardware_manifest": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_shell_native_recovery_009/c06/frozen_native_handoff.json",
+    "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001",
+    "bytes": 34839
+  },
+  "source_geometry_revision": "Exactlyphysical07finalC06_same28_stock_refresh_r02",
+  "contact_geometry_unchanged": true,
+  "contact_materials_and_existing_exclusions_unchanged": true,
+  "same_source_faithfulness_scope": "collision_faithfulness.json",
+  "density_mass_inference": false,
+  "qualification_limits": "qualification_limits.json",
+  "source_contact_note": "MuJoCo mesh convex hulls; source OBJ polygons are distinct from actualcompiled hull graph. No concave runtime mesh introduced.",
+  "internal_native_drive_upgrade": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009_08/owner_selected_inputs_08.json",
+    "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7",
+    "bytes": 33308
+  },
+  "current_08_native_index": {
+    "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_hardware_integration_009_08/assembly_index.json",
+    "sha256": "a4fc5d029343e9deebc0b2eac970ef560015c3e4451ca2fcdc50f4e36a53bd34",
+    "bytes": 6930356
+  }
+}

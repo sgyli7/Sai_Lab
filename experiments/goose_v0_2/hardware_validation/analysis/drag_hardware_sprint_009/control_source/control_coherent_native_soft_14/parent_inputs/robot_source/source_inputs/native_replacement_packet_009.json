@@ -1,0 +1,2862 @@
+{
+  "schema": "goose_009_owner_selected_real_metal_and_foot_source_input_v1",
+  "candidate_id": "drag_hardware_integration_009_selected",
+  "status": "OWNER_ACCEPTED_NOMINAL_GEOMETRY_EXPERIMENT_NOT_TASK_OR_MANUFACTURING_RELEASE",
+  "files": [
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/c02_ideal_bond_screen_01/carrier.geo",
+      "sha256": "fd4052b4ae44eadd12f529366da47014a032f26972922708f323eb4f693679a8",
+      "bytes": 868
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/c02_ideal_bond_screen_01/carrier.sta",
+      "sha256": "4629c2318b3aa94965c19c46b92bc7e972ddbbb0d918d2c4b0151f0a930d2812",
+      "bytes": 242
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/c02_ideal_bond_screen_01/ccx.log",
+      "sha256": "f1d0376591cf0cca0278818e2fe805e179c49020ba533d0e47b9cbd41724e8d2",
+      "bytes": 2787
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/drag_hardware_sprint_009/hardware/c02_ideal_bond_screen_01/screen.json",
+      "sha256": "321beacd9c63e9cddf72d44d16e69f849d19b8700b5e38987bbdfa0abcd767fb",
+      "bytes": 7207
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/artifacts/goose_v0_2/physics_freeze_20261018_01/form_mechanics/foot_physics_priority_checkpoint_01/foot_physics_priority_checkpoint.json",
+      "sha256": "859e0daf4f7fe9d3f498934ca2c95b16e38432a001ef94a8eb467a47d956aa72",
+      "bytes": 40229
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_foot_clearance_009/c09/left/foot_clearance.glb",
+      "sha256": "b9d4021625c736082fb60be881c17e0d131748c86bd211485b335d72580d3b8a",
+      "bytes": 957976
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_foot_clearance_009/c09/left/foot_clearance.step",
+      "sha256": "23865c0b474c0fffc705a20a3a61a5ed9a3831cca93dd39bc7b2cc04b0709d98",
+      "bytes": 4669137
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_foot_clearance_009/c09/right/foot_clearance.glb",
+      "sha256": "65e716539b7dd6a317548b682afa0a0354e89223376dd407590af3b59ba3b4ac",
+      "bytes": 986224
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_foot_clearance_009/c09/right/foot_clearance.step",
+      "sha256": "426ce4c9f52865e507f042748ee37fc38d85b44a73bd2dc53fb7028f7fc92b05",
+      "bytes": 4740481
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_leg_structure_009/c02/goose_drag_leg_structure_009_c02.glb",
+      "sha256": "3363d504ce1686fc1dd54629904b257e3465dec9c01cdc6de8515d025666f1e8",
+      "bytes": 1575744
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/exports/drag_leg_structure_009/c02/goose_drag_leg_structure_009_c02.step",
+      "sha256": "ffa566b6cb3838b372e9fa9c4a5c1c858a334f2e63cd31f52d363450afc73d56",
+      "bytes": 1454823
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_integrated_ar_shoe_crown_clearance_009_c09.brep",
+      "sha256": "003927d5f0bed05eb34ff4bed5498289e3703f8137e9887c20c1639026fa1688",
+      "bytes": 1852087
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_visible_ap_inboard_coaxial_service_shell_clearance_009_c09.brep",
+      "sha256": "4cf1b359fbcf76f06c8c07814559af192d798334f90ff5e587cf55d4f97d4619",
+      "bytes": 889591
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_visible_ap_outboard_coaxial_service_shell_clearance_009_c09.brep",
+      "sha256": "35f0d296d61e60ebc3266270829da57453d350b436324c23a40e6a867a32e6cf",
+      "bytes": 999694
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/parameters.json",
+      "sha256": "40b600e72e4476ee6536b72b8ce81a4c35bd5432fb245284c596f58538d9a3b2",
+      "bytes": 2536
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/parameters.json",
+      "sha256": "763dc2c0478e5b94f340800932672f44bdc6ee86c3924d3bf5df56e21431665c",
+      "bytes": 2543
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_integrated_ar_shoe_crown_clearance_009_c09.brep",
+      "sha256": "7f9e4267070418323d5846899b60e19a74619a5210876351e2ebd1fc96824011",
+      "bytes": 1914023
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_visible_ap_inboard_coaxial_service_shell_clearance_009_c09.brep",
+      "sha256": "b70e1c230f78021cfebcdab16a82725a7307f5f7d0c14d47a0cfc33c3f78553a",
+      "bytes": 861009
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_visible_ap_outboard_coaxial_service_shell_clearance_009_c09.brep",
+      "sha256": "91b3f2acda7b7ffe8f39910eef690936e9586e3457e15bb80ad716a05a8e3c54",
+      "bytes": 997327
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/catalog_search_1.json",
+      "sha256": "f1f0ebafd22ec5414466a2e64bb10c22d8397be6a2e050c65c688f65870f86cb",
+      "bytes": 42143
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/catalog_search_2.json",
+      "sha256": "0dd1b1f093f41b03b3daec6bf1e8313608ac3e876e19640a283b729e98b45777",
+      "bytes": 42131
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/catalog_search_3.json",
+      "sha256": "865876a83e2640390d5e3581e3af3e4065247f32fa7c2682318758851fe4240e",
+      "bytes": 42129
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_0.brep",
+      "sha256": "ab55d0ae737a78c385009fd6f683b46b924f3c903ba3771d13a0d321201c6a1e",
+      "bytes": 12977
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_1.brep",
+      "sha256": "49f5a2d7250b52987a4aa07c59e0ba3987505aaa321031b408b9795b47a6f3c3",
+      "bytes": 12652
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_2.brep",
+      "sha256": "e8384676cb0c770113d95a6676389a71907dff56963d4c9faae65ad5ae7077a8",
+      "bytes": 12977
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_3.brep",
+      "sha256": "2c06d9118789bca8b756e85f31d2de031b525a6a51af8c249100c334aa426df1",
+      "bytes": 12977
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_4.brep",
+      "sha256": "6f4b1e94383b7719c0da7fa66ab30c294929034edf009e7c0bfbade8acb0a9f1",
+      "bytes": 12772
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_5.brep",
+      "sha256": "20e1fbafbc2c7dbe86ed6eb41d36344092279a3fbe9234a62b7ba100d0b00d1d",
+      "bytes": 13003
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_0_parent.brep",
+      "sha256": "2aeb8707df7ec48e85514382e604b38754b05d42ba2b0653254ff58ca59747bd",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_1_parent.brep",
+      "sha256": "09a0e3857628806786405d0554e51fc972a3cdd564626f28d873be00acbea461",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_2_parent.brep",
+      "sha256": "02782e983ab997ce0f8ec5c0084bcd53df05a68599b4f27d13643ca33d1cac18",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_3_parent.brep",
+      "sha256": "de8412004f7982c35b3acfa0859a25b25d4f2528c53bba55eecd94d42c2e8075",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_4_parent.brep",
+      "sha256": "4d38538424ffdd6fc1dd92b56f6e94ace9bfe476cf062e28b6dda1f924dc10c5",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_5_parent.brep",
+      "sha256": "75ac8e4d7aff70a8793101b76d63f4a23b66233544867940eade0fe2e64318d1",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_ankle_pitch_7075_load_body_009_c02.brep",
+      "sha256": "fc3679e2ce166d04c1bd94e761e0e14adbfb53e542c3be33e102630bb4fb0a33",
+      "bytes": 430941
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_ankle_pitch_qt_steel_collector_009_c02.brep",
+      "sha256": "00cfabc9631424a10e696337602630dfe737505ccd0b422b7dc69a7c7c888597",
+      "bytes": 129289
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/parameters.json",
+      "sha256": "a599849ea7a9ce458cfdf9048297f8aa78ac276e4969451ad56f529c88df0d8a",
+      "bytes": 77999
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_0.brep",
+      "sha256": "d43e9543b09323df0686572e2a1f02e7832b6b878eef4fc71728409ed555cd52",
+      "bytes": 12991
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_1.brep",
+      "sha256": "6a110b933aa5e3e0bdc3836058187381a8e5598d3014622f4cf8e3f01756c3a9",
+      "bytes": 12664
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_2.brep",
+      "sha256": "22611a6db6990033799eec688416547a950c4635256851def88bd177bf77ae40",
+      "bytes": 12991
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_3.brep",
+      "sha256": "08710f02bb70b0f0ded514e922a301e28e97b995619418837b3fbfabba27317b",
+      "bytes": 12991
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_4.brep",
+      "sha256": "53e82e58e8e13750571d1a06111c37492450d366336518e047977b2ba6ff1f2e",
+      "bytes": 12784
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_5.brep",
+      "sha256": "ff8225e090bbb769695d8734a5cc08f61a2a8ecbe18ee4e395532c1962e12230",
+      "bytes": 13017
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_0_parent.brep",
+      "sha256": "50586d9b78e4a97e16c06513212d2b4f9ad15fe7e4378a644edd0f061bab6b78",
+      "bytes": 9164
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_1_parent.brep",
+      "sha256": "0d743611473899e913ff55d0fe34e80fdd32d42c34b18d3e203b9ae5b836e95d",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_2_parent.brep",
+      "sha256": "77091fdf32075f86ababaaaecd0101f278021fdabaf08da1ce4061efd747b017",
+      "bytes": 9164
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_3_parent.brep",
+      "sha256": "6961048624c7a7d0468bcd0b2170fea35d85fabe82075644a19d795957ab1cab",
+      "bytes": 9164
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_4_parent.brep",
+      "sha256": "c7cd06d599340445a02204fd45bcb2119376ce7c454a32b1dfa8c780c47d57bb",
+      "bytes": 9163
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_5_parent.brep",
+      "sha256": "a7df8846b8932d63db89e751b4b2cf1dde1758125601924f1716cec4709b91bf",
+      "bytes": 9164
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_ankle_pitch_7075_load_body_009_c02.brep",
+      "sha256": "79a2078b71088e851ddc5b54530fa8912f34b669b1c726533a70afdf68feb959",
+      "bytes": 414811
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_ankle_pitch_qt_steel_collector_009_c02.brep",
+      "sha256": "026fc1c914e1ae00e342adfae76149d183607c4d0d66f57826a659739d65df28",
+      "bytes": 122028
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/engineering_checkpoint_20261018/assembly_index.json",
+      "sha256": "06465d8112d0b5c818692089c74f5dc8b5cc02cef42f49b1a7fbf2644af3b860",
+      "bytes": 6881979
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_foot_clearance_009/c07/left/native_candidate.json",
+      "sha256": "bc88e8875d74ef6731ea235d41e1bf408a6e1b7e5f1776179a5ee7ac7c437442",
+      "bytes": 26102
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_foot_clearance_009/c08/right/native_candidate.json",
+      "sha256": "54e9221a57ce29da5e0935430f026088f201a8b31c9c55cfd7377850eedcd7b7",
+      "bytes": 24489
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_foot_clearance_009/c09/left/native_candidate.json",
+      "sha256": "31dde63883e7bc66c721b5ecbc4e12c8082587d29fbae42fedba6b5fd50d0754",
+      "bytes": 27982
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_foot_clearance_009/c09/right/native_candidate.json",
+      "sha256": "5dd12df0eb5d06001c1b39d572c132df108b8957c6987a7317421dc59ab1ee27",
+      "bytes": 26387
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009/c09_owner_nominal_selection.json",
+      "sha256": "5401326cf43e7e65359dd7ab80b26b1f39e4e3a3b782345011edf0d9f1756fa4",
+      "bytes": 1592
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c01_rejection_receipt.json",
+      "sha256": "4972c72782c3d364e84ff1fa336d72337d43d23aebc86eb4e396252467b79686",
+      "bytes": 1139
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/actual_parent_adapter_fit.json",
+      "sha256": "17ad4cab90e542a468539966579e2ce52a8fd46c1c5f4e71f547ad532015485c",
+      "bytes": 2101
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/actual_post_load_case.json",
+      "sha256": "3808027c5690e67e716c53c76f888528d64fad7e40411d408f67f8f1ca9eb489",
+      "bytes": 3189
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/candidate_decision.json",
+      "sha256": "0f0ac9b5deb2cee40908f2c8c8d6b6193375627be0a682794e19f347efcc9321",
+      "bytes": 3789
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/candidate_input_manifest_c02.json",
+      "sha256": "165d65b3337253e24f29b89f7d354dd2935ddae478733eda76453b20e0961a5e",
+      "bytes": 68591
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/common_details.json",
+      "sha256": "9285202cf7bf38fed2105a9012f2551f407ca187db4397938456ad15090b6969",
+      "bytes": 8139
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/connection_screen.json",
+      "sha256": "33fc5da345f1b3b631335bdacca91e59e79214b9c357181fa7d8e2d9edac560b",
+      "bytes": 8584
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/export_receipt.json",
+      "sha256": "c908b55168d80ec5101ae89113e6342b73748929fe26c3d870da9c57147e4752",
+      "bytes": 675
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/finite_native_fit.json",
+      "sha256": "3d692bc32b1670f9b49c4d91d4e8cb32be3f959789a5e396109dd02b8b6ebd14",
+      "bytes": 13722
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/foot_clearance_independent_01_c07/c07_AP_subset_and_wall.json",
+      "sha256": "b73754023d45ddade2d782dc2c760d87c2f81fda09f861908d70794a3f948116",
+      "bytes": 8462
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/foot_clearance_independent_01_c09/independent_gate.json",
+      "sha256": "fa0f5f86f508a6d0b99028b0a1409d8b1f293c92d30b295bce0bcec154c6eca2",
+      "bytes": 15422
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/full_inertia_sanity.json",
+      "sha256": "ec0c4d65d637b5c9398e6e1218f927b82ce62b622a62fb34a65b20f02d2200d7",
+      "bytes": 5760
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/material_contract.json",
+      "sha256": "2f26c6522909c47837cb55accdcb22d95b11b9b0ca5af715fa52ae21fcb059cc",
+      "bytes": 6810
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/metal_geometry_lock_c02.json",
+      "sha256": "37dfd280cabd515909871a1ebacad03a8d54167c7a803bf90f975e90396173f5",
+      "bytes": 55357
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/native_candidate.json",
+      "sha256": "ff824918758a71f53a89ddffb062f41d407c5f1c612a0551b6b2148d78560fd6",
+      "bytes": 51812
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/original04_foot_native_gate.json",
+      "sha256": "d03dd8b67b1028d7e4a75b8bbff8ae1b6cc5cc43598824fffa2f7b3a12469d55",
+      "bytes": 1711
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/saved_step_readback.json",
+      "sha256": "bf1068c2b6b4ced64f3e00d83f4eef328916958c6b34dc9db2267e38f4b758f1",
+      "bytes": 16403
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/structural_screen.json",
+      "sha256": "7f6b0cca5272a85bd1c636fdb4138a2a098d5e1a9b5227960f228d600be11af4",
+      "bytes": 9835
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/visual_review.json",
+      "sha256": "1e4ef40b634c693c708113b52842350e80458326f8a7faf43bd7c2c0b4897770",
+      "bytes": 1212
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/candidate_input_manifest_c01.json",
+      "sha256": "b3016634701953d3ac199094ee6f413c093fcd0348f38ace4cd101eb95f7175b",
+      "bytes": 25543
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/material_contract.json",
+      "sha256": "1ef77fbd5da92bb00d6918f1943188cf5c3bf3b6b9cb4fb735bcf38363813840",
+      "bytes": 5464
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/images/drag_leg_structure_009/c02_loaded_structure_iso.png",
+      "sha256": "8edabba1283b2e7bd27e35aba50fca56f5d309bccc1b3481ded538e12d591b2b",
+      "bytes": 328234
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/models/physics_v0_2_20261018_04/mass_ledger.json",
+      "sha256": "422675e9aa739f5e1ad29518abbdbaef8fb3bc7fc46544a2c0b964f9a8017879",
+      "bytes": 2106403
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_foot_clearance_009.py",
+      "sha256": "f4195c5237015ea13fafb13b94811ac96197e2bc5c0027113c9f6147d8dff02f",
+      "bytes": 18211
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_foot_clearance_009_window.py",
+      "sha256": "14a9ee5990ffc418883e2225a841bfb3e2460eaae671f330e56da6b4b748f1a3",
+      "bytes": 3549
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009.py",
+      "sha256": "35c4235020000d37f27598a6f9c6f7ab443f8dbc41339199c85fa62dd685aaf7",
+      "bytes": 11071
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02.py",
+      "sha256": "57bc34ce931a47a6e2c73a4cd2d896a6d50a553c8d70fc00f6b8bc9f50a3da55",
+      "bytes": 8317
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_adapter_fit.py",
+      "sha256": "f3b20b41a032cc72bf230de6d6ffc575adf91049ad1a472709ba70d301718ba9",
+      "bytes": 1378
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_common_detail.py",
+      "sha256": "84cecc76eb18661fbc46a6cf2391b1a1bd06647d041d6dea635b0dd33115a780",
+      "bytes": 1729
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_fit.py",
+      "sha256": "adae1f139f219aaab0a06683af6336e125571b1606934ff3a943676058c294db",
+      "bytes": 3136
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_post_load.py",
+      "sha256": "381a697467202b2024bd781f6d3de3fddacb84c0ced9dc812f3d6a419405ec1a",
+      "bytes": 4408
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_screen.py",
+      "sha256": "6f0c0d36d7b49e45d3405546b99db9ee1d1561893c4985ceb0ff5e25e5bb8e7b",
+      "bytes": 12695
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_c02_verify.py",
+      "sha256": "234bb121d6be29caadedf1f8d1be7211e406bfde5c4234e1187af2c380b6f65a",
+      "bytes": 8757
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/cad/goose_drag_leg_structure_009_foot_review.py",
+      "sha256": "857ba30dc1d2711833026d8f79f6bb432205e1474382e5f4e64fb945f1dbb76a",
+      "bytes": 3996
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/diagnostics/run_goose_compact_peak_screen.py",
+      "sha256": "17a81e482985e231f7f4a4efbecc0005cd1eec92ac5f295cba0ae9daabb8a065",
+      "bytes": 19729
+    },
+    {
+      "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/scripts/models/goose_drag_hardware_integration_009_packet.py",
+      "sha256": "5f649477b894e1611aff6961e87b650afcb1e862d69e9d71407d22f9af8c05af",
+      "bytes": 4910
+    }
+  ],
+  "retired_occurrences": [
+    {
+      "name": "left_ankle_cross_axis_carrier",
+      "parent1824_native_part_index": 147,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.33791530008453813
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_0",
+      "parent1824_native_part_index": 839,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_0_parent.brep",
+        "sha256": "2aeb8707df7ec48e85514382e604b38754b05d42ba2b0653254ff58ca59747bd"
+      }
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_1",
+      "parent1824_native_part_index": 840,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_1_parent.brep",
+        "sha256": "09a0e3857628806786405d0554e51fc972a3cdd564626f28d873be00acbea461"
+      }
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_2",
+      "parent1824_native_part_index": 841,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_2_parent.brep",
+        "sha256": "02782e983ab997ce0f8ec5c0084bcd53df05a68599b4f27d13643ca33d1cac18"
+      }
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_3",
+      "parent1824_native_part_index": 842,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_3_parent.brep",
+        "sha256": "de8412004f7982c35b3acfa0859a25b25d4f2528c53bba55eecd94d42c2e8075"
+      }
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_4",
+      "parent1824_native_part_index": 843,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_4_parent.brep",
+        "sha256": "4d38538424ffdd6fc1dd92b56f6e94ace9bfe476cf062e28b6dda1f924dc10c5"
+      }
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x8_5",
+      "parent1824_native_part_index": 844,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x8_5_parent.brep",
+        "sha256": "75ac8e4d7aff70a8793101b76d63f4a23b66233544867940eade0fe2e64318d1"
+      }
+    },
+    {
+      "name": "right_ankle_cross_axis_carrier",
+      "parent1824_native_part_index": 146,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.33791530008453813
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_0",
+      "parent1824_native_part_index": 866,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_0_parent.brep",
+        "sha256": "50586d9b78e4a97e16c06513212d2b4f9ad15fe7e4378a644edd0f061bab6b78"
+      }
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_1",
+      "parent1824_native_part_index": 867,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_1_parent.brep",
+        "sha256": "0d743611473899e913ff55d0fe34e80fdd32d42c34b18d3e203b9ae5b836e95d"
+      }
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_2",
+      "parent1824_native_part_index": 868,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_2_parent.brep",
+        "sha256": "77091fdf32075f86ababaaaecd0101f278021fdabaf08da1ce4061efd747b017"
+      }
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_3",
+      "parent1824_native_part_index": 869,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_3_parent.brep",
+        "sha256": "6961048624c7a7d0468bcd0b2170fea35d85fabe82075644a19d795957ab1cab"
+      }
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_4",
+      "parent1824_native_part_index": 870,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_4_parent.brep",
+        "sha256": "c7cd06d599340445a02204fd45bcb2119376ce7c454a32b1dfa8c780c47d57bb"
+      }
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x8_5",
+      "parent1824_native_part_index": 871,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.00033,
+      "source_native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x8_5_parent.brep",
+        "sha256": "a7df8846b8932d63db89e751b4b2cf1dde1758125601924f1716cec4709b91bf"
+      }
+    },
+    {
+      "name": "left_visible_AP_inboard_coaxial_service_shell",
+      "parent1824_native_part_index": 1289,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.02633548899088756
+    },
+    {
+      "name": "left_visible_AP_outboard_coaxial_service_shell",
+      "parent1824_native_part_index": 1290,
+      "body": "left_ankle_pitch",
+      "mass_kg": 0.035193000154963044
+    },
+    {
+      "name": "left_integrated_AR_shoe_crown",
+      "parent1824_native_part_index": 893,
+      "body": "left_ankle_roll",
+      "mass_kg": 0.058592844110274385
+    },
+    {
+      "name": "right_visible_AP_inboard_coaxial_service_shell",
+      "parent1824_native_part_index": 1291,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.02633548903252923
+    },
+    {
+      "name": "right_visible_AP_outboard_coaxial_service_shell",
+      "parent1824_native_part_index": 1292,
+      "body": "right_ankle_pitch",
+      "mass_kg": 0.03519300036121
+    },
+    {
+      "name": "right_integrated_AR_shoe_crown",
+      "parent1824_native_part_index": 894,
+      "body": "right_ankle_roll",
+      "mass_kg": 0.058592844622817664
+    }
+  ],
+  "replacement_parts": [
+    {
+      "name": "left_ankle_pitch_7075_load_body_009_c02",
+      "body": "left_ankle_pitch",
+      "material": "7075_T651_conditional",
+      "role": "Same healthy c01 aluminium load body; no shin relief adopted",
+      "source_parent_occurrences": [
+        "left_ankle_cross_axis_carrier"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_ankle_pitch_7075_load_body_009_c02.brep",
+        "sha256": "fc3679e2ce166d04c1bd94e761e0e14adbfb53e542c3be33e102630bb4fb0a33"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          40129.0472664822
+        ],
+        "edge_tolerance_max_mm": 7.40948988530593e-06
+      },
+      "native_bounds_mm": [
+        [
+          -10.42337226663321,
+          93.25,
+          13.154999900000002
+        ],
+        [
+          74.25000010000002,
+          162.0000001,
+          111.00664876719
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 40129.04737884173,
+      "mass_kg": 0.11276262313454527,
+      "density_kg_m3": 2810,
+      "center_of_mass_world_mm": [
+        32.60986568980974,
+        145.51800452045362,
+        70.46538610841884
+      ],
+      "center_of_mass_world_m": [
+        0.03260986568980974,
+        0.1455180045204536,
+        0.07046538610841883
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          7.561696810793568e-05,
+          1.73300080091719e-05,
+          3.415185129141543e-05
+        ],
+        [
+          1.73300080091719e-05,
+          9.90143967116097e-05,
+          -1.2599537963198786e-05
+        ],
+        [
+          3.415185129141543e-05,
+          -1.2599537963198786e-05,
+          9.975231572896801e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 5.417891123593287e-12,
+      "parent_occurrence": "left_ankle_cross_axis_carrier"
+    },
+    {
+      "name": "left_ankle_pitch_qt_steel_collector_009_c02",
+      "body": "left_ankle_pitch",
+      "material": "42CrMo4_QT_steel_conditional",
+      "role": "Actual 4.5mm steel face, ring total6mm; shifted countersinks; separate bolted part, no mixed-material Fuse",
+      "source_parent_occurrences": [
+        "left_ankle_cross_axis_carrier"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_ankle_pitch_qt_steel_collector_009_c02.brep",
+        "sha256": "00cfabc9631424a10e696337602630dfe737505ccd0b422b7dc69a7c7c888597"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          6417.301209357515
+        ],
+        "edge_tolerance_max_mm": 5.00000139790393e-06
+      },
+      "native_bounds_mm": [
+        [
+          74.2499999,
+          94.9999999,
+          13.154999900000002
+        ],
+        [
+          80.41868207965034,
+          162.0000001,
+          70.6550001
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 6417.301217694967,
+      "mass_kg": 0.04954156540060514,
+      "density_kg_m3": 7720,
+      "center_of_mass_world_mm": [
+        76.49942079133147,
+        130.04112146589364,
+        43.782736845906555
+      ],
+      "center_of_mass_world_m": [
+        0.07649942079133147,
+        0.13004112146589364,
+        0.043782736845906556
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          3.34861546139802e-05,
+          -1.9633768842321338e-08,
+          -5.135471576764286e-09
+        ],
+        [
+          -1.9633768842321338e-08,
+          1.334620376343984e-05,
+          8.50265911407947e-07
+        ],
+        [
+          -5.135471576764286e-09,
+          8.50265911407947e-07,
+          2.0308571893935626e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 5.169159929847963e-10,
+      "parent_occurrence": "left_ankle_cross_axis_carrier"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_0",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_0"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_0.brep",
+        "sha256": "ab55d0ae737a78c385009fd6f683b46b924f3c903ba3771d13a0d321201c6a1e"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943767
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          143.06810333988,
+          50.03
+        ],
+        [
+          78.75,
+          148.06810333988,
+          55.03
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943753,
+      "mass_kg": 0.0004354096755690846,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.2824305777039,
+        145.56810333988005,
+        52.530000000000015
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770391,
+        0.14556810333988005,
+        0.052530000000000014
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036680542e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.411280990085958e-09,
+          9.138602763414384e-22
+        ],
+        [
+          0.0,
+          9.138602763414384e-22,
+          4.41128094489968e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 4.755661814935858e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        145.56810333988042,
+        52.53
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_0"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_1",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_1"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_1.brep",
+        "sha256": "49f5a2d7250b52987a4aa07c59e0ba3987505aaa321031b408b9795b47a6f3c3"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.466200709437594
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          122.5,
+          61.905
+        ],
+        [
+          78.75,
+          127.5,
+          66.905
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943749,
+      "mass_kg": 0.00043540967556908434,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770393,
+        125.00000000000001,
+        64.40500000000002
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770394,
+        0.12500000000000003,
+        0.06440500000000002
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036662264e-10,
+          4.569301381707192e-22,
+          -4.569301381707192e-22
+        ],
+        [
+          4.569301381707192e-22,
+          4.411280990084587e-09,
+          -4.569301381707192e-22
+        ],
+        [
+          -4.569301381707192e-22,
+          -4.569301381707192e-22,
+          4.41128094489968e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 7.926103024893099e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        125.0,
+        64.405
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_1"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_2",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_2"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_2.brep",
+        "sha256": "e8384676cb0c770113d95a6676389a71907dff56963d4c9faae65ad5ae7077a8"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.466200709437615
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          101.93189666012,
+          50.03
+        ],
+        [
+          78.75,
+          106.93189666012,
+          55.03
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943749,
+      "mass_kg": 0.00043540967556908434,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.2824305777039,
+        104.43189666011993,
+        52.53
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770391,
+        0.10443189666011993,
+        0.05253
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.92300603668968e-10,
+          -4.569301381707192e-22,
+          0.0
+        ],
+        [
+          -4.569301381707192e-22,
+          4.411280990085958e-09,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.411280944900593e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 4.07110999227331e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        104.43189666011958,
+        52.53
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_2"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_3",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_3"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_3.brep",
+        "sha256": "2c06d9118789bca8b756e85f31d2de031b525a6a51af8c249100c334aa426df1"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.466200709437615
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          101.93189666012,
+          26.28
+        ],
+        [
+          78.75,
+          106.93189666012,
+          31.28
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.4662007094375,
+      "mass_kg": 0.00043540967556908444,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770392,
+        104.43189666011995,
+        28.780000000000005
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770392,
+        0.10443189666011994,
+        0.028780000000000003
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036680542e-10,
+          9.138602763414384e-22,
+          1.142325345426798e-22
+        ],
+        [
+          9.138602763414384e-22,
+          4.411280990085958e-09,
+          2.284650690853596e-22
+        ],
+        [
+          1.142325345426798e-22,
+          2.284650690853596e-22,
+          4.4112809448987656e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 3.1704412099572377e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        104.43189666011958,
+        28.78
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_3"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_4",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_4"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_4.brep",
+        "sha256": "6f4b1e94383b7719c0da7fa66ab30c294929034edf009e7c0bfbade8acb0a9f1"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.4662007094376
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          122.5,
+          14.405000000000001
+        ],
+        [
+          78.75,
+          127.5,
+          19.405
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943749,
+      "mass_kg": 0.00043540967556908434,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770392,
+        125.00000000000003,
+        16.90500000000001
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770392,
+        0.12500000000000003,
+        0.016905000000000007
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036671403e-10,
+          1.8277205526828767e-21,
+          1.142325345426798e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          4.411280990085044e-09,
+          3.426976036280394e-22
+        ],
+        [
+          1.142325345426798e-22,
+          3.426976036280394e-22,
+          4.4112809448978515e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 9.51132362987172e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        125.0,
+        16.905
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_4"
+    },
+    {
+      "name": "left_AR_front_stator_M2p5x10_009_5",
+      "body": "left_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "left_AR_front_stator_M2p5x8_5"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/left_AR_front_stator_M2p5x10_009_5.brep",
+        "sha256": "20e1fbafbc2c7dbe86ed6eb41d36344092279a3fbe9234a62b7ba100d0b00d1d"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943768
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          143.06810333988,
+          26.28
+        ],
+        [
+          78.75,
+          148.06810333988,
+          31.28
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.466200709437565,
+      "mass_kg": 0.00043540967556908493,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770393,
+        145.56810333988,
+        28.780000000000005
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770394,
+        0.14556810333988,
+        0.028780000000000003
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.92300603675365e-10,
+          0.0,
+          4.569301381707192e-22
+        ],
+        [
+          0.0,
+          4.411280990085044e-09,
+          -4.569301381707192e-22
+        ],
+        [
+          4.569301381707192e-22,
+          -4.569301381707192e-22,
+          4.411280944901508e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 4.755661814935857e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        145.56810333988042,
+        28.77999999999999
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "left_AR_front_stator_M2p5x8_5"
+    },
+    {
+      "name": "right_ankle_pitch_7075_load_body_009_c02",
+      "body": "right_ankle_pitch",
+      "material": "7075_T651_conditional",
+      "role": "Same healthy c01 aluminium load body; no shin relief adopted",
+      "source_parent_occurrences": [
+        "right_ankle_cross_axis_carrier"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_ankle_pitch_7075_load_body_009_c02.brep",
+        "sha256": "79a2078b71088e851ddc5b54530fa8912f34b669b1c726533a70afdf68feb959"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          40129.047266482274
+        ],
+        "edge_tolerance_max_mm": 7.40948988530593e-06
+      },
+      "native_bounds_mm": [
+        [
+          -10.42337226663321,
+          -162.0000001,
+          13.154999900000002
+        ],
+        [
+          74.25000010000002,
+          -93.25,
+          111.00664876719001
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 40129.04737884176,
+      "mass_kg": 0.11276262313454535,
+      "density_kg_m3": 2810,
+      "center_of_mass_world_mm": [
+        32.609865689809745,
+        -145.5180045204536,
+        70.46538610841895
+      ],
+      "center_of_mass_world_m": [
+        0.032609865689809746,
+        -0.14551800452045358,
+        0.07046538610841896
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          7.561696810793468e-05,
+          -1.7330008009171148e-05,
+          3.41518512914156e-05
+        ],
+        [
+          -1.7330008009171148e-05,
+          9.901439671160811e-05,
+          1.2599537963197112e-05
+        ],
+        [
+          3.41518512914156e-05,
+          1.2599537963197112e-05,
+          9.975231572897036e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 1.5875175776301689e-12,
+      "parent_occurrence": "right_ankle_cross_axis_carrier"
+    },
+    {
+      "name": "right_ankle_pitch_qt_steel_collector_009_c02",
+      "body": "right_ankle_pitch",
+      "material": "42CrMo4_QT_steel_conditional",
+      "role": "Actual 4.5mm steel face, ring total6mm; shifted countersinks; separate bolted part, no mixed-material Fuse",
+      "source_parent_occurrences": [
+        "right_ankle_cross_axis_carrier"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_ankle_pitch_qt_steel_collector_009_c02.brep",
+        "sha256": "026fc1c914e1ae00e342adfae76149d183607c4d0d66f57826a659739d65df28"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          6417.301209267821
+        ],
+        "edge_tolerance_max_mm": 5.00000139790393e-06
+      },
+      "native_bounds_mm": [
+        [
+          74.2499999,
+          -162.0000001,
+          13.154999900000002
+        ],
+        [
+          80.41868207965034,
+          -94.9999999,
+          70.6550001
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 6417.301217693172,
+      "mass_kg": 0.049541565400591285,
+      "density_kg_m3": 7720,
+      "center_of_mass_world_mm": [
+        76.49942079133206,
+        -130.0411214659951,
+        43.78273684585841
+      ],
+      "center_of_mass_world_m": [
+        0.07649942079133205,
+        -0.1300411214659951,
+        0.04378273684585841
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          3.348615461395639e-05,
+          1.963376884295404e-08,
+          -5.135471575585157e-09
+        ],
+        [
+          1.963376884295404e-08,
+          1.3346203765466159e-05,
+          -8.502659008836177e-07
+        ],
+        [
+          -5.135471575585157e-09,
+          -8.502659008836177e-07,
+          2.0308571891886816e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 5.169159747118527e-10,
+      "parent_occurrence": "right_ankle_cross_axis_carrier"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_0",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_0"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_0.brep",
+        "sha256": "d43e9543b09323df0686572e2a1f02e7832b6b878eef4fc71728409ed555cd52"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943767
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -148.06810333988,
+          50.03
+        ],
+        [
+          78.75,
+          -143.06810333988,
+          55.03
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943753,
+      "mass_kg": 0.0004354096755690846,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.2824305777039,
+        -145.56810333988005,
+        52.53000000000001
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770391,
+        -0.14556810333988005,
+        0.05253000000000001
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036698818e-10,
+          1.8277205526828767e-21,
+          2.284650690853596e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          4.411280990085044e-09,
+          -4.569301381707192e-22
+        ],
+        [
+          2.284650690853596e-22,
+          -4.569301381707192e-22,
+          4.411280944901508e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 6.340882419914478e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -145.56810333988042,
+        52.53
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_0"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_1",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_1"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_1.brep",
+        "sha256": "6a110b933aa5e3e0bdc3836058187381a8e5598d3014622f4cf8e3f01756c3a9"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.466200709437594
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -127.5,
+          61.905
+        ],
+        [
+          78.75,
+          -122.5,
+          66.905
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943749,
+      "mass_kg": 0.00043540967556908434,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770393,
+        -125.00000000000004,
+        64.40500000000002
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770394,
+        -0.12500000000000006,
+        0.06440500000000002
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036680542e-10,
+          -4.569301381707192e-22,
+          -4.569301381707192e-22
+        ],
+        [
+          -4.569301381707192e-22,
+          4.411280990084587e-09,
+          -1.3707904145121576e-21
+        ],
+        [
+          -4.569301381707192e-22,
+          -1.3707904145121576e-21,
+          4.411280944892369e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 7.926103024893099e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -125.0,
+        64.405
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_1"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_2",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_2"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_2.brep",
+        "sha256": "22611a6db6990033799eec688416547a950c4635256851def88bd177bf77ae40"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943762
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -106.93189666012,
+          50.03
+        ],
+        [
+          78.75,
+          -101.93189666012,
+          55.03
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943748,
+      "mass_kg": 0.0004354096755690843,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.2824305777039,
+        -104.43189666011995,
+        52.53000000000001
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770391,
+        -0.10443189666011994,
+        0.05253000000000001
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036680542e-10,
+          9.138602763414384e-22,
+          0.0
+        ],
+        [
+          9.138602763414384e-22,
+          4.411280990086414e-09,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.4112809448978515e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 3.1704412099572377e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -104.43189666011958,
+        52.53
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_2"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_3",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_3"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_3.brep",
+        "sha256": "08710f02bb70b0f0ded514e922a301e28e97b995619418837b3fbfabba27317b"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943761
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -106.93189666012,
+          26.28
+        ],
+        [
+          78.75,
+          -101.93189666012,
+          31.28
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943751,
+      "mass_kg": 0.00043540967556908444,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770392,
+        -104.43189666011996,
+        28.780000000000005
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770392,
+        -0.10443189666011995,
+        0.028780000000000003
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036680542e-10,
+          0.0,
+          1.142325345426798e-22
+        ],
+        [
+          0.0,
+          4.411280990085958e-09,
+          0.0
+        ],
+        [
+          1.142325345426798e-22,
+          0.0,
+          4.4112809448978515e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 6.340882419914477e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -104.43189666011958,
+        28.78
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_3"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_4",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_4"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_4.brep",
+        "sha256": "53e82e58e8e13750571d1a06111c37492450d366336518e047977b2ba6ff1f2e"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.4662007094376
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -127.5,
+          14.405000000000001
+        ],
+        [
+          78.75,
+          -122.5,
+          19.405
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943749,
+      "mass_kg": 0.00043540967556908434,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.28243057770392,
+        -125.00000000000001,
+        16.90500000000001
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770392,
+        -0.12500000000000003,
+        0.016905000000000007
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036698818e-10,
+          9.138602763414384e-22,
+          1.142325345426798e-22
+        ],
+        [
+          9.138602763414384e-22,
+          4.411280990085044e-09,
+          -2.284650690853596e-22
+        ],
+        [
+          1.142325345426798e-22,
+          -2.284650690853596e-22,
+          4.41128094489968e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 9.51132362987172e-16,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -125.0,
+        16.905
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_4"
+    },
+    {
+      "name": "right_AR_front_stator_M2p5x10_009_5",
+      "body": "right_ankle_pitch",
+      "material": "steel_010p9_countersunk_conditional",
+      "role": "Nominal source-dimensioned M2.5x10 envelope, original head/hex unchanged; real class010.9 supplier family, exact lot/head proof not frozen",
+      "source_parent_occurrences": [
+        "right_AR_front_stator_M2p5x8_5"
+      ],
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_leg_structure_009/c02/right_AR_front_stator_M2p5x10_009_5.brep",
+        "sha256": "ff8225e090bbb769695d8734a5cc08f61a2a8ecbe18ee4e395532c1962e12230"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          55.46620070943767
+        ],
+        "edge_tolerance_max_mm": 1.5e-07
+      },
+      "native_bounds_mm": [
+        [
+          68.75,
+          -148.06810333988,
+          26.28
+        ],
+        [
+          78.75,
+          -143.06810333988,
+          31.28
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 55.46620070943756,
+      "mass_kg": 0.0004354096755690848,
+      "density_kg_m3": 7850,
+      "center_of_mass_world_mm": [
+        74.2824305777039,
+        -145.56810333988005,
+        28.78
+      ],
+      "center_of_mass_world_m": [
+        0.07428243057770391,
+        -0.14556810333988005,
+        0.02878
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          4.923006036698818e-10,
+          9.138602763414384e-22,
+          0.0
+        ],
+        [
+          9.138602763414384e-22,
+          4.411280990085958e-09,
+          4.569301381707192e-22
+        ],
+        [
+          0.0,
+          4.569301381707192e-22,
+          4.411280944901508e-09
+        ]
+      ],
+      "adaptive_volume_integration_error": 1.2681764839828965e-15,
+      "thread": "M2.5x0.45",
+      "length_mm": 10,
+      "thread_engagement_mm": 4.0,
+      "maximum_permitted_insert_mm": 5.0,
+      "head_datum_world_mm": [
+        78.75,
+        -145.56810333988042,
+        28.77999999999999
+      ],
+      "head_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "mass_basis": "solid nominal envelope at7850kg/m3, no thread helix or measured procurement mass",
+      "catalog_search_exact_STEP_match": false,
+      "parent_occurrence": "right_AR_front_stator_M2p5x8_5"
+    },
+    {
+      "name": "left_visible_AP_inboard_coaxial_service_shell_clearance_009_c09",
+      "body": "left_ankle_pitch",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "left_visible_AP_inboard_coaxial_service_shell",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_visible_ap_inboard_coaxial_service_shell_clearance_009_c09.brep",
+        "sha256": "4cf1b359fbcf76f06c8c07814559af192d798334f90ff5e587cf55d4f97d4619"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          20736.44653668011
+        ],
+        "edge_tolerance_max_mm": 1.20283111433689e-05
+      },
+      "native_bounds_mm": [
+        [
+          -28.623372266633215,
+          84.4499999,
+          34.316841415157036
+        ],
+        [
+          81.5500001,
+          124.80000010000025,
+          129.20664876719
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 20736.605503351206,
+      "mass_kg": 0.026335488989256032,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        28.100441686846253,
+        92.67095663375129,
+        72.71161033902678
+      ],
+      "center_of_mass_world_m": [
+        0.028100441686846254,
+        0.09267095663375129,
+        0.07271161033902677
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.4740223226055544e-05,
+          -3.1289013282620296e-06,
+          5.445579641947679e-06
+        ],
+        [
+          -3.1289013282620296e-06,
+          3.451141689218289e-05,
+          6.870915299322033e-07
+        ],
+        [
+          5.445579641947679e-06,
+          6.870915299322033e-07,
+          2.49025542347166e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 2.8544713932379937e-09,
+      "mass_delta_kg": -1.6315282458378988e-12
+    },
+    {
+      "name": "left_visible_AP_outboard_coaxial_service_shell_clearance_009_c09",
+      "body": "left_ankle_pitch",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "left_visible_AP_outboard_coaxial_service_shell",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_visible_ap_outboard_coaxial_service_shell_clearance_009_c09.brep",
+        "sha256": "35f0d296d61e60ebc3266270829da57453d350b436324c23a40e6a867a32e6cf"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          20647.90372332723
+        ],
+        "edge_tolerance_max_mm": 2.64940731766141e-05
+      },
+      "native_bounds_mm": [
+        [
+          -28.623372266633215,
+          125.19999989999985,
+          34.31684141515692
+        ],
+        [
+          81.5500001,
+          164.5914619199144,
+          129.20664876719
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 20648.036679086268,
+      "mass_kg": 0.026223006582439562,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        24.002475491964002,
+        155.9938658292188,
+        79.95235432581394
+      ],
+      "center_of_mass_world_m": [
+        0.024002475491964003,
+        0.15599386582921881,
+        0.07995235432581395
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.702109295455087e-05,
+          3.5744966764326217e-06,
+          4.7342265558047594e-06
+        ],
+        [
+          3.5744966764326217e-06,
+          3.6927779666216965e-05,
+          -6.54675411323571e-07
+        ],
+        [
+          4.7342265558047594e-06,
+          -6.54675411323571e-07,
+          2.531998146729166e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 1.6093902734617925e-10,
+      "mass_delta_kg": -0.008969993572523483
+    },
+    {
+      "name": "left_integrated_AR_shoe_crown_clearance_009_c09",
+      "body": "left_ankle_roll",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "left_integrated_AR_shoe_crown",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/left/left_integrated_ar_shoe_crown_clearance_009_c09.brep",
+        "sha256": "003927d5f0bed05eb34ff4bed5498289e3703f8137e9887c20c1639026fa1688"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          45574.28539478132
+        ],
+        "edge_tolerance_max_mm": 2.03535229738433e-05
+      },
+      "native_bounds_mm": [
+        [
+          -28.9000001,
+          89.9999999,
+          2.980316358269467
+        ],
+        [
+          125.5335501,
+          160.00000010000008,
+          75.56130475991375
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 45574.278537579296,
+      "mass_kg": 0.05787933374272571,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        45.07761285968493,
+        121.77720612790384,
+        31.472006214656247
+      ],
+      "center_of_mass_world_m": [
+        0.04507761285968493,
+        0.12177720612790384,
+        0.03147200621465625
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          5.551336648527225e-05,
+          1.8577885763639477e-06,
+          -5.617713601685809e-06
+        ],
+        [
+          1.8577885763639477e-06,
+          0.00013785151567314183,
+          2.8013442802623556e-06
+        ],
+        [
+          -5.617713601685809e-06,
+          2.8013442802623556e-06,
+          0.00014132918367294314
+        ]
+      ],
+      "adaptive_volume_integration_error": 3.0813918497777503e-07,
+      "mass_delta_kg": -0.0007135103675486726
+    },
+    {
+      "name": "right_visible_AP_inboard_coaxial_service_shell_clearance_009_c09",
+      "body": "right_ankle_pitch",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "right_visible_AP_inboard_coaxial_service_shell",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_visible_ap_inboard_coaxial_service_shell_clearance_009_c09.brep",
+        "sha256": "b70e1c230f78021cfebcdab16a82725a7307f5f7d0c14d47a0cfc33c3f78553a"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          20736.457695151475
+        ],
+        "edge_tolerance_max_mm": 8.08275949661189e-06
+      },
+      "native_bounds_mm": [
+        [
+          -28.623372266633215,
+          -124.8000001000002,
+          34.31684141515704
+        ],
+        [
+          81.5500001,
+          -84.4499999,
+          129.20664876719
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 20736.605539544824,
+      "mass_kg": 0.02633548903522193,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        28.100441741859818,
+        -92.6709566498076,
+        72.71161033961141
+      ],
+      "center_of_mass_world_m": [
+        0.028100441741859817,
+        -0.0926709566498076,
+        0.0727116103396114
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.4740223210227265e-05,
+          3.128901334620861e-06,
+          5.445579634665418e-06
+        ],
+        [
+          3.128901334620861e-06,
+          3.4511416724868814e-05,
+          -6.870921752196235e-07
+        ],
+        [
+          5.445579634665418e-06,
+          -6.870921752196235e-07,
+          2.490255443507766e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 2.469931173796545e-09,
+      "mass_delta_kg": 2.692700229456335e-12
+    },
+    {
+      "name": "right_visible_AP_outboard_coaxial_service_shell_clearance_009_c09",
+      "body": "right_ankle_pitch",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "right_visible_AP_outboard_coaxial_service_shell",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_visible_ap_outboard_coaxial_service_shell_clearance_009_c09.brep",
+        "sha256": "91b3f2acda7b7ffe8f39910eef690936e9586e3457e15bb80ad716a05a8e3c54"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          20647.266432269273
+        ],
+        "edge_tolerance_max_mm": 2.64940726981566e-05
+      },
+      "native_bounds_mm": [
+        [
+          -28.623372266633215,
+          -164.59146191991306,
+          34.316841415157036
+        ],
+        [
+          81.5500001,
+          -125.19999989999975,
+          129.20664876719
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 20647.399506340756,
+      "mass_kg": 0.02622219737305276,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        24.026910641523653,
+        -155.99394741665287,
+        79.95667098337721
+      ],
+      "center_of_mass_world_m": [
+        0.024026910641523652,
+        -0.15599394741665287,
+        0.0799566709833772
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          1.702720024835809e-05,
+          -3.5761457820226253e-06,
+          4.720593402002111e-06
+        ],
+        [
+          -3.5761457820226253e-06,
+          3.691093405635202e-05,
+          6.54385116270933e-07
+        ],
+        [
+          4.720593402002111e-06,
+          6.54385116270933e-07,
+          2.529701732692801e-05
+        ]
+      ],
+      "adaptive_volume_integration_error": 3.963936175445791e-11,
+      "mass_delta_kg": -0.00897080298815724
+    },
+    {
+      "name": "right_integrated_AR_shoe_crown_clearance_009_c09",
+      "body": "right_ankle_roll",
+      "material": "PETG_design_budget",
+      "parent_occurrence": "right_integrated_AR_shoe_crown",
+      "native": {
+        "path": "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/cad/source/drag_foot_clearance_009/c09/right/right_integrated_ar_shoe_crown_clearance_009_c09.brep",
+        "sha256": "7f9e4267070418323d5846899b60e19a74619a5210876351e2ebd1fc96824011"
+      },
+      "native_quality": {
+        "solid_count": 1,
+        "strict_valid": true,
+        "self_intersection_valid": true,
+        "signed_volumes_mm3": [
+          45536.490393052285
+        ],
+        "edge_tolerance_max_mm": 2.03529506585463e-05
+      },
+      "native_bounds_mm": [
+        [
+          -28.9000001,
+          -160.00000010000014,
+          2.980316358269467
+        ],
+        [
+          125.5335501,
+          -89.9999999,
+          75.5613047599149
+        ]
+      ],
+      "source_to_target_world_zero_4x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_volume_mm3": 45536.48515674074,
+      "mass_kg": 0.05783133614906075,
+      "density_kg_m3": 1270.0,
+      "center_of_mass_world_mm": [
+        45.0489136529444,
+        -121.74918823382173,
+        31.484440900955384
+      ],
+      "center_of_mass_world_m": [
+        0.0450489136529444,
+        -0.12174918823382172,
+        0.03148444090095538
+      ],
+      "inertia_at_com_world_kg_m2": [
+        [
+          5.544935299747435e-05,
+          -1.9137282861929366e-06,
+          -5.6425377770331765e-06
+        ],
+        [
+          -1.9137282861929366e-06,
+          0.00013778625989843032,
+          -2.779008430504836e-06
+        ],
+        [
+          -5.6425377770331765e-06,
+          -2.779008430504836e-06,
+          0.00014121537909775564
+        ]
+      ],
+      "adaptive_volume_integration_error": 2.7878424611269975e-07,
+      "mass_delta_kg": -0.0007615084737569167
+    }
+  ],
+  "mass_delta_kg": -0.36937312239288533,
+  "parent_mass_kg": 16.970203928833527,
+  "predicted_candidate_mass_kg": 16.60083080644064,
+  "qualification_boundary": {
+    "metal": "Accepted two-case single-mesh ideal-bond screen only; preload, OEM threads, fatigue and manufacture remain unqualified.",
+    "foot": "Finite actual native no-interference and declared clearance evidence only. AP extreme positive gaps below0.7mm remain explicit; no continuous full-ROM/tolerance/printing certificate.",
+    "accepted_receipts": [
+      "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_hardware_integration_009/c09_owner_nominal_selection.json",
+      "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/foot_clearance_independent_01_c09/independent_gate.json",
+      "/home/ethan/.codex/worktrees/goose-delivery-navigation/Sai_Rotbots/robots/goose_v0_2/evidence/drag_leg_structure_009/c02/foot_clearance_independent_01_c07/c07_AP_subset_and_wall.json"
+    ],
+    "training_or_drag_capability_inherited": false,
+    "collision_decision": "14-leaf inherited baseline pending explicit source contact/functional review; no scene numerical mask in generic package"
+  },
+  "no_optional_shin_relief": true,
+  "world_zero": {
+    "units": "mm",
+    "axes": "+X forward,+Y left,+Z up",
+    "placements": "identity; runtime root +5.5mm is not baked into CAD or source MCI"
+  }
+}

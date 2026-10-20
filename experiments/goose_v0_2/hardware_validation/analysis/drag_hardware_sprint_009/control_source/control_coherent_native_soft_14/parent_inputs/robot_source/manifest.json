@@ -1,0 +1,405 @@
+{
+  "schema": "goose_source_real_hardware_upgrade_prototype_manifest_v1",
+  "release_id": "physics_v0_2_20261020_08_candidate",
+  "status": "FINITE_STATIC_SOURCE_HARDWARE_PROTOTYPE_YAW_CHAIN1P8_NOT_ACTUAL_MANUFACTURING_RELEASE",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2682,
+      "sha256": "ca6ad14773ce8cab9d12f61a7f47f8b68704ea6f0425a1dd5064cee7133c6f7c"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3880,
+      "sha256": "f142561f0a2ad7e677fd9da835e8bd8b42b55ba463bc27d3e16e9d9d3b6e9ead"
+    },
+    {
+      "path": "actuator_contract.json",
+      "bytes": 34046,
+      "sha256": "f7965279acfd3ab275f9e4cb5573b59b6a7b5a594498cfe22b53a243216fc187"
+    },
+    {
+      "path": "actuator_source_facts.json",
+      "bytes": 5869,
+      "sha256": "8294d0d075a96120922af994d57ebbbea3fb5622cea570cfa5dddb20f135a15b"
+    },
+    {
+      "path": "collision_faithfulness.json",
+      "bytes": 4916,
+      "sha256": "2e6efa1d054363d596c10597227d53507c053d4cadc72aa5d3885767e87df359"
+    },
+    {
+      "path": "collision_manifest.json",
+      "bytes": 45189,
+      "sha256": "f48b371f39ada05cbd162acae278726f1c5e1edd4073bcc8a337d66087e6d20e"
+    },
+    {
+      "path": "compiled_readback.json",
+      "bytes": 20994,
+      "sha256": "9004c3036a1d2166b26fd13791e79ef345d0ca8e0125a910b7b8d4b61484cb06"
+    },
+    {
+      "path": "engineering_mass_patch.json",
+      "bytes": 44495,
+      "sha256": "7200b5f4dbbf4739854bd57b5a7dc083ea1cd024b33c04daa27a2c0bc4dec1a5"
+    },
+    {
+      "path": "hardware_change_receipt.json",
+      "bytes": 150498,
+      "sha256": "379e82b0076f1b04c0f7283fa6292c06c576a407e6a751d4918f09043c99d288"
+    },
+    {
+      "path": "mass_ledger.json",
+      "bytes": 2141055,
+      "sha256": "509a2e2d63468df130856c4d26c0b44cd1ae31b5ff0f7db4e1f238c8f86b75a8"
+    },
+    {
+      "path": "material_mass_patch.json",
+      "bytes": 51558,
+      "sha256": "7902e3d086ad8aa82364bbced1fd9d718080bb6bc7272e7c9347a482eba0d1e0"
+    },
+    {
+      "path": "meshes/left_actual_sole.obj",
+      "bytes": 4410,
+      "sha256": "b2cf58a3935216183f6ff49357ed6d20f9739fd59191b96755c67d40cfc84573"
+    },
+    {
+      "path": "meshes/left_hip_envelope.obj",
+      "bytes": 1894,
+      "sha256": "069b9be201c4c4cf3d9aabb66adcbc1d86966e6c1ecaab71ee76df0ce507cc6b"
+    },
+    {
+      "path": "meshes/left_shin_C45.obj",
+      "bytes": 4490,
+      "sha256": "a9ac28caa939f60acbf541c882e7d74d2ded515c6e688885572722feac271fd6"
+    },
+    {
+      "path": "meshes/left_shin_outer.obj",
+      "bytes": 4427,
+      "sha256": "af1c313a4c26bf7da509bbff7e69187723b1fc6841dc336b84cf7edbc79253dd"
+    },
+    {
+      "path": "meshes/left_thigh_envelope.obj",
+      "bytes": 2345,
+      "sha256": "c9822e42e9be5e21e95f81d143f0fe60aab4eaa80e043b618e70719748d8bc65"
+    },
+    {
+      "path": "meshes/lower_bill_envelope.obj",
+      "bytes": 3128,
+      "sha256": "422808fb87447727ed5139f0f38b48257fe3e78a5549e7829d0b7a6cad46ac9a"
+    },
+    {
+      "path": "meshes/neck_mid_pitch_envelope.obj",
+      "bytes": 2399,
+      "sha256": "231f964dc7e755183ed77f65af66cdf864c7811d0be9862ba4d9aa28550c1031"
+    },
+    {
+      "path": "meshes/neck_pitch_envelope.obj",
+      "bytes": 2686,
+      "sha256": "e12942f6428256a150a4951688dc29c9df866b57535e47fe5a9a30cd708e064d"
+    },
+    {
+      "path": "meshes/right_actual_sole.obj",
+      "bytes": 4410,
+      "sha256": "ef00cb85e372e459e1015df761509733d1a080566c582364d9be031c47afffe3"
+    },
+    {
+      "path": "meshes/right_hip_envelope.obj",
+      "bytes": 1922,
+      "sha256": "e89e7ba97ae62d54161a07b73b2811bfa55dffbddfe83909f581b6824912351d"
+    },
+    {
+      "path": "meshes/right_shin_C45.obj",
+      "bytes": 4419,
+      "sha256": "e1ee5ea170a79dba6f6ddd2e93e34d4083feafaf22635dd621612ec9ee88f084"
+    },
+    {
+      "path": "meshes/right_shin_outer.obj",
+      "bytes": 4468,
+      "sha256": "e598046e041a214e6c07f347dbb587f3adc3b9b86dcca5544d82f80b8c9fb39b"
+    },
+    {
+      "path": "meshes/right_thigh_envelope.obj",
+      "bytes": 2344,
+      "sha256": "595f8cddb25860e2cc1cce4e471fc03c00ce25a223a4d395a472709f8cb3411c"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector0.obj",
+      "bytes": 4387,
+      "sha256": "6972288e1628aa914cbf3684f825a8bd1121aea791458d88c3ce5b0fab241d61"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector1.obj",
+      "bytes": 4381,
+      "sha256": "5d9da73813c634e19ea4b34cc51bc8fa53fc85adb3137de07d3b65d880c6c436"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector2.obj",
+      "bytes": 4389,
+      "sha256": "1d4823dc45bb4e93a30dfa4a3ee9ef688e4033a77ad22be766e81f75b7087ce0"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector3.obj",
+      "bytes": 4381,
+      "sha256": "073360e5d6b462c9760bc685fe65ed7444d224579490a132084ed783fa89d359"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector4.obj",
+      "bytes": 4395,
+      "sha256": "4b10cbd13f77ee2420f7e72df82b1a092a37f4182f3dbf658a7268c94a403b63"
+    },
+    {
+      "path": "meshes/torso_skin_left_sector5.obj",
+      "bytes": 4380,
+      "sha256": "bd57005d29b1fca910913697e40a67b13fc93b715adb34cacf5befde2e79394c"
+    },
+    {
+      "path": "meshes/torso_skin_rear0.obj",
+      "bytes": 4460,
+      "sha256": "fdf450155782288221e98a09f6d8da0cf721394189314a8cf957b1bbda06ffd6"
+    },
+    {
+      "path": "meshes/torso_skin_rear1.obj",
+      "bytes": 4459,
+      "sha256": "176047dfcd9a5348743983f600d0da9691d6f7b7e49fca96661934364ee5a0e2"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector0.obj",
+      "bytes": 4425,
+      "sha256": "940870fb3b865134cfd48d663ce397d374ffa5ecf8cd005c9c31a7da269b9a43"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector1.obj",
+      "bytes": 4434,
+      "sha256": "22ab51ff31b90f5715e670498262e492fd976afa65338178291ddef91c03ac68"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector2.obj",
+      "bytes": 4428,
+      "sha256": "a7fb1571a34768331dc8eac16a82c8a7d5850509fe1a664900703b49ec6328d2"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector3.obj",
+      "bytes": 4427,
+      "sha256": "f859f7b5b843dc8ec239552b97a6e43631f3589a37a5d9b8a2d547ee7bc9a6f3"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector4.obj",
+      "bytes": 4428,
+      "sha256": "537f9cfeb086f0da399a65fd5a40f67f92133b9f9be4ebd97d4d2a63187970a2"
+    },
+    {
+      "path": "meshes/torso_skin_right_sector5.obj",
+      "bytes": 4426,
+      "sha256": "0e89b2e23c09a5c72057d7cd37d165d2cbb8c85ad45ba596c81c3267f3f3c373"
+    },
+    {
+      "path": "meshes/upper_bill_envelope.obj",
+      "bytes": 3130,
+      "sha256": "cfd3556451ac945b2c40d14040ad673bd1ddd34d0cda145659daf9a21bfd1c59"
+    },
+    {
+      "path": "physical_contract.json",
+      "bytes": 153482,
+      "sha256": "e4bf848f84e7d3ff7178d3518aaf33de3e2b33ef288e0e2b8a7df3dc69469b85"
+    },
+    {
+      "path": "qualification_limits.json",
+      "bytes": 3369,
+      "sha256": "c971debac6a3fd7bdc01df9b734178de28ad73f9dde705f58599471a559b2597"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 29,
+      "sha256": "61a0bfb58f85a4667231834fe4e568b8041ec60ca29303ff9e408266d421ef0c"
+    },
+    {
+      "path": "requirements_rebuild.txt",
+      "bytes": 42,
+      "sha256": "5515884c2f3cc9a75eddb69b81aad35b293cc2888876c5c0add17cad16e4ab09"
+    },
+    {
+      "path": "reset_pose_seeds.json",
+      "bytes": 2292,
+      "sha256": "de8e3790a9afe98b5289beb13e23b1ed5242e942fd495082e2a629c774f66ff9"
+    },
+    {
+      "path": "robot.xml",
+      "bytes": 28309,
+      "sha256": "f2af0f878030f3497eb244fb91692c53fb3f7c593d7404bbc72d0bcfa877af18"
+    },
+    {
+      "path": "runtime_adapter.py",
+      "bytes": 9449,
+      "sha256": "9260abf3972c7547db133dd4043c028ad116b145ad7bcc5fa216fadb6d75eef9"
+    },
+    {
+      "path": "runtime_interface.json",
+      "bytes": 5244,
+      "sha256": "7505e2ef4439831dcf3e049aefde48672e7073411620e0a325b43bd4ef2f70ab"
+    },
+    {
+      "path": "source_inputs/active07_c06_refreshed_same28_error_07.json",
+      "bytes": 9852,
+      "sha256": "6279b126a7e13b392f99510c4d2568852e65fb8033e785015d4be86542b34a30"
+    },
+    {
+      "path": "source_inputs/active07_front_MCI_precision_07.json",
+      "bytes": 2877,
+      "sha256": "b4db99eb88ba0714ef6c0490637b03c674c4cda7f1729d3ec0a16b27e21c5bd0"
+    },
+    {
+      "path": "source_inputs/active07_frozen_native_handoff.json",
+      "bytes": 34839,
+      "sha256": "e5a8c3aca6d9d9d0d6a4c6b5cbb2c7957f3f791ec016a884afb4bcb90556e001"
+    },
+    {
+      "path": "source_inputs/active07_geometry_r02_query.json",
+      "bytes": 7102,
+      "sha256": "cbccef34b16b0ac75712671f0dde2f16ba2231b89d58fe9a82951dffef75e5af"
+    },
+    {
+      "path": "source_inputs/active07_owner_proxy_adoption_07.json",
+      "bytes": 1292,
+      "sha256": "de90a4d3b13422b315d8b940be98903d9b9ed8157662911be5def9c00d759220"
+    },
+    {
+      "path": "source_inputs/active07_owner_selected_sources_07.json",
+      "bytes": 3464,
+      "sha256": "526b9af76783bbae6612b3faab67437b9cf5f35698b31134503af0b132b45de5"
+    },
+    {
+      "path": "source_inputs/active07_proxy_roles.json",
+      "bytes": 44624,
+      "sha256": "7938e5237c0af686232f5dc226221d9ebf3e4fdddb42a86f3e7059e2eafddfb1"
+    },
+    {
+      "path": "source_inputs/active07_visual_source_frame_readback_07.json",
+      "bytes": 1545,
+      "sha256": "9de9f944751dec30989533542df6f92cfb4bd289ad9b439640e33f599b02263f"
+    },
+    {
+      "path": "source_inputs/active08_integration_handoff.json",
+      "bytes": 67895,
+      "sha256": "276f17da73e447c513ace550f2ce1d6d201c116ab7a8ed9a7df58ca963ec8614"
+    },
+    {
+      "path": "source_inputs/active08_manifest.json",
+      "bytes": 2790,
+      "sha256": "ee7716dd4c9962332d45924f5cf3924925dfea46a5e43a509ed9c8212cb0dda0"
+    },
+    {
+      "path": "source_inputs/active08_material_sources.json",
+      "bytes": 1141,
+      "sha256": "0ae8d901efc2c9dd2061b49689800d74e6155ef21c8547bd5a1d2a3dcd8f75d8"
+    },
+    {
+      "path": "source_inputs/active08_native_readback_08.json",
+      "bytes": 15433,
+      "sha256": "189991eccea2a4b167cdf53d81dc51518c342557d862b84d3879ddfe259612dd"
+    },
+    {
+      "path": "source_inputs/active08_original_motor_fit_packet.json",
+      "bytes": 27896,
+      "sha256": "ceecfda6a9fb506a6f7f6c9921898815feee8f2b2154516e131ef979d9a418b1"
+    },
+    {
+      "path": "source_inputs/active08_owner_selected_inputs_08.json",
+      "bytes": 33308,
+      "sha256": "6e0c319fc955f4ff21e67f1102dc7c34ad3a48a412ccb6379310a56cc1669fa7"
+    },
+    {
+      "path": "source_inputs/active08_two_mesh_screen.json",
+      "bytes": 9300,
+      "sha256": "7ddbf62cd2c096d54090d66fbb5b069afcf136169901fc3476e41182d29be810"
+    },
+    {
+      "path": "source_inputs/active08_unchanged_geometry_load_boundary_receipt.json",
+      "bytes": 795,
+      "sha256": "f89ee21d15ca85372701912db0595dd4ca4727d2c0aca46b3989e60e881ffdea"
+    },
+    {
+      "path": "source_inputs/active08_visual_source_frame_readback_08.json",
+      "bytes": 13428,
+      "sha256": "3952bdfdd21a06fa9df47d275723d6b5c8001826b3cabe0423c130fd25dfe127"
+    },
+    {
+      "path": "source_inputs/conditional_mass_ledger.json",
+      "bytes": 2070140,
+      "sha256": "fc863230d44173ecf04e0762afec995e0e4ad7477be9639e32397d123c335d9e"
+    },
+    {
+      "path": "source_inputs/front_independent_MCI_precision_01.json",
+      "bytes": 2345,
+      "sha256": "321d9f321d6a0fd4103e414a9b0cf6169935e18d55381f1e02d85c170a07afa4"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_bill_parent03.obj",
+      "bytes": 2842,
+      "sha256": "812efca012762f1f7f2a0c57264f7cb05aa1d14087adcd10aa1fa105318bdbab"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_grip_cassette_pad.brep",
+      "bytes": 23866,
+      "sha256": "e2c6b02eb07023d31cb26643d2e029c1a0fa9df18faf31b6731be5738436db69"
+    },
+    {
+      "path": "source_inputs/native_contact/lower_pad_contact_face.json",
+      "bytes": 1576,
+      "sha256": "8d5fdf5cf8ca54555a08eeb746f2e0d7a89684f2b3176ac818ad694579ec7082"
+    },
+    {
+      "path": "source_inputs/native_contact/upper_grip_cassette_pad.brep",
+      "bytes": 24350,
+      "sha256": "cd10d13cf86e5caeffdfb4d6f9750bffdd4210bc7efdf12172e9edfa0ff443f2"
+    },
+    {
+      "path": "source_inputs/native_replacement_packet_009.json",
+      "bytes": 93056,
+      "sha256": "2d796df484fa76d7670c7ccf5cf7d85ce24f8b2553fb40a2f7dd1a4d7360920f"
+    },
+    {
+      "path": "source_inputs/owner_selected_inputs_01.json",
+      "bytes": 22978,
+      "sha256": "67859d696d244c97da455be9dbe36421a5231e2b19726a00418af4489250cda8"
+    },
+    {
+      "path": "source_inputs/owner_selected_inputs_02.json",
+      "bytes": 23663,
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a"
+    },
+    {
+      "path": "source_inputs/selected_native_sources_06.json",
+      "bytes": 23663,
+      "sha256": "b5eb94454626193908b6685fcc6690807b9e219fa15d3c03ce343f8ae26e455a"
+    },
+    {
+      "path": "source_inputs/visual_source_frame_readback_01.json",
+      "bytes": 5545,
+      "sha256": "ee5aa26590aaccd751ec1078c4776cd51a9b0ea841f52c4c5eef624f7e146016"
+    },
+    {
+      "path": "source_inputs/whole05_full_SI_contract.json",
+      "bytes": 143836,
+      "sha256": "ac67e25b1c0e544f846568c01b1d53b1234d599514021c92d3515e61d1b6db47"
+    },
+    {
+      "path": "source_snapshot.json",
+      "bytes": 2421,
+      "sha256": "6b1fa886e1fc5da4eb47dc4cc7aa80f19ff6384997d5ad6e1a2e5fa2a795426e"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1025,
+      "sha256": "776653651a7878e94e082289e04c250ea670265a5490d311f09db163ce5a8bef"
+    }
+  ],
+  "runtime_entry": "robot.xml +physical_contract.json +actuator_contract.json +runtime_adapter.py",
+  "runtime_dependencies": "Onlypackage-relativemeshesanddeclaredPythonpackages",
+  "qualification_limits": "qualification_limits.json"
+}

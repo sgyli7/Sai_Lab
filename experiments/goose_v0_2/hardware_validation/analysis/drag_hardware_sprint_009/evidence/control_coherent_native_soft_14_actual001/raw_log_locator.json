@@ -1,0 +1,12 @@
+{
+  "raw_directory": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_14_online1000/attempt_001",
+  "trace": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_14_online1000/attempt_001/substeps.jsonl.gz",
+  "trace_sha256": "593ce4c40fb3792519a40c2bd9bfbc4ff9197394d49f7cb2b39088ed12070cb4",
+  "commands50hz": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_14_online1000/attempt_001/commands50hz.json",
+  "commands_sha256": "e774cf9dd466e2659515314458614ec6aab8dd55e00b7c9d105133fef08dd892",
+  "input_manifest": "/home/ethan/ProjectBackups/2026-10-19/Sai_Lab/drag_hardware_sprint_009/control/coherent_native_soft_14_online1000/manifest.json",
+  "input_manifest_sha256": "87d167bc20a4048b127e7f3651c24ca37f8edabc45a41575633743cfc8a85367",
+  "frozen_admission_sha256": "b3ddfae5ccaa1d2063d4d1978ce87f886887b0dd9ea9a730e8c8de2a099780ec",
+  "absolute_paths_require_local_archive": true,
+  "large_trace_excluded_from_selected": true
+}

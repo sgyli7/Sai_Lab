@@ -1,0 +1,42 @@
+{
+  "status": "OFFLINE_READY_PENDING_F_FINAL_LIVE_REVIEW",
+  "physics_steps": 0,
+  "physical_source08_manifest": "264cf521b5da0a4f969337f704db3c2a397fc2b155f6d20037ff100ab2b99ce6",
+  "cart004_and_free20kg_unchanged": true,
+  "source_clocks": [
+    1000,
+    200,
+    50
+  ],
+  "effective_tc": 0.01,
+  "front6": "actualroot worldneck q-only qd0/FF0, original native frontacceleration soft boundary",
+  "legs": "same C2 observed-anchor rebuilt q/qd/qdd",
+  "root_feedback_gains_translation": [
+    25,
+    10
+  ],
+  "root_feedback_gains_rotation": [
+    64,
+    16
+  ],
+  "FF": "original actual-native soft LP directly; no nominalPD/inverse decomposition",
+  "soft_model_byte_identical_to09": true,
+  "force_unload_weights_unchanged": true,
+  "capture_prefix_byte_identical": true,
+  "entry_duration_s": 0.5,
+  "entry_counts_in_original_motion_clock": true,
+  "source_motion_clock_s": 4.90625,
+  "requested_stop_hold_s": 3.0,
+  "max_fine_steps": 15000,
+  "max_actual_attempts": 1,
+  "automatic_retry": false,
+  "actual_authorization_file_not_provided": true,
+  "original_5mm_sticky_20mm_gross_guard_retained": true,
+  "actual_air_criterion": "N<=2N plus allsole>1mm >=50ms; epoch resets only after true subsequent landing; sticky never cleared",
+  "cold_to_motion_material_history_never_reset": true,
+  "prefix_lifetime_slip_also_recorded": true,
+  "source_caps_material_geometry_unmodified": true,
+  "all_four_state_LP_source_and_blended_native_readbacks_PASS": true,
+  "qualification": "control diagnostic only; prototype manufacturing/finitecoverage/thermal limits and capture contact>0.5mm numericalFAIL retained; no actual task pass before measuring",
+  "old11_frozen_not_modified": true
+}

@@ -1,0 +1,39 @@
+{
+  "cells": [
+    {
+      "id": "old_legs_old_neck",
+      "legs": "old_fixed_double_support",
+      "neck": "old_cold_world_anchor"
+    }
+  ],
+  "max_attempts": 4,
+  "per_attempt_s_max": 4,
+  "total_steps_max": 3200,
+  "all_cold_states_identical": true,
+  "no_gait_during_causal_settle": true,
+  "fixture_assumptions": {
+    "cart_pitch_k_Nm_rad": 20,
+    "qref_rad": 0.0276930475,
+    "wheel_frictionloss_Nm_each": 0.125
+  },
+  "hard_stops": {
+    "tilt_deg": 25,
+    "actual_planted_material_slip_m": 0.02,
+    "unknown_cold_penetration_m": 0.0005,
+    "intended_support_loss_s": 0.1
+  },
+  "qualification_material_slip_m": 0.005,
+  "physics_and_drive_original04": true,
+  "independent_ff": false,
+  "resources": {
+    "BLAS_threads": 1,
+    "CPU_affinity_cores_max": 3,
+    "RSS_limit_GiB": 8,
+    "GPU": 0,
+    "training": 0
+  },
+  "run_causal.py_sha256": "25d61614249f045c7230dd9d1f9234264490d315bddafedf8e537794f030d318",
+  "causal_target_provider.py_sha256": "3ae3513a1b08417f5fe55a40f59f2df567f7fc99361852857825e36d6edab339",
+  "foot_ik_reference.py_sha256": "0bca0a8048f076749d756fc658d529ce797d0ba9ae0503405e1d4e244ce0a33a",
+  "causal_program.json_sha256": "c06187b7ea0edb09610f4101d7d17d45f3c98f32bdb24ccdae262788b3dab437"
+}

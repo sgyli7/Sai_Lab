@@ -1,0 +1,73 @@
+{
+  "scope": "physical08_controller14_actual001_FAILED_no_step",
+  "files": {
+    "REPORT14_ACTUAL.md": {
+      "sha256": "cbd943ec63715111e66c358a662d6066d21eed7e69029745c90cf0bf281a959f",
+      "bytes": 3424
+    },
+    "actual_capture_to_motion_context.json": {
+      "sha256": "e014cba6e7cc9d7a8b745bf21c4b72025e0eb37fef8bbf75b218a8cc07708c1d",
+      "bytes": 9121
+    },
+    "actual_motion_start_state.npz": {
+      "sha256": "c84a6cd53b0702f04220a819274b3e56e090a39c9193e8710295a54ce86d8040",
+      "bytes": 1915
+    },
+    "actual_scene.mjb": {
+      "sha256": "3344e5a2dcf86f85640e9b4fda2ac0fd6a65b8b18802e5888f61824fa40c8528",
+      "bytes": 5674853
+    },
+    "capture_handoff_context.json": {
+      "sha256": "1d11f1ad1d4b38d2d3618b68724862affa58ae84ca35055952a771b3e206fcc5",
+      "bytes": 81257
+    },
+    "cold_state.npz": {
+      "sha256": "77ef3743285a06164078eb4f558040357327d54ed9b3af94cf28c6b18b9520a7",
+      "bytes": 1310
+    },
+    "declaration.json": {
+      "sha256": "6893392177d3d741d401566a77ff82526294664132c78de8379f3747eace0fb7",
+      "bytes": 4308
+    },
+    "event_analysis14.json": {
+      "sha256": "b9b00e9ca7aae5ac88a9731da51af0321ab13259d44da90cdbcc5d8ca0db5194",
+      "bytes": 28995
+    },
+    "neutral_proxy_original_speed.mp4": {
+      "sha256": "c4e11752352e2b5bb7882f985d115d09515fccdf9bf4b960829418f0f372857f",
+      "bytes": 54847
+    },
+    "raw_log_locator.json": {
+      "sha256": "a79e1a57105342e968340ffcfed5c03fe0cb292510edc774595c8e67580d0ffb",
+      "bytes": 1085
+    },
+    "selected_native_PRE14.json": {
+      "sha256": "87f363c68ec5bccf7eec4e41d59589000352f132c95ee3014204ce49708d9bcf",
+      "bytes": 2171523
+    },
+    "source_after.json": {
+      "sha256": "f728a916e4a74c20e39e1ea31776300bdc8e2a971f09d25718de31824e94c0e3",
+      "bytes": 18850
+    },
+    "source_before.json": {
+      "sha256": "f728a916e4a74c20e39e1ea31776300bdc8e2a971f09d25718de31824e94c0e3",
+      "bytes": 18850
+    },
+    "summary.json": {
+      "sha256": "3bdc91b0796f40420b47ff02f69c03e14c4ab15be5ae0cb878bfdffd9620a503",
+      "bytes": 4169
+    },
+    "trajectory.npz": {
+      "sha256": "715ce60b340a64e01037a83919cf4f63e97b18200b25febe701481b22c162e73",
+      "bytes": 5001265
+    },
+    "true_terminal_poststate.json": {
+      "sha256": "92bb8de3d64cc3ae0755d13f07516bbc760cc915278bb29e13ed77212b4d471a",
+      "bytes": 170030
+    },
+    "true_terminal_poststate.npz": {
+      "sha256": "b3b0601ed1de88c82ee7d8eb2cd500fb74ad3a2981eba6e57569daf7e934369b",
+      "bytes": 12267
+    }
+  }
+}

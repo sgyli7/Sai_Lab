@@ -1,0 +1,67 @@
+{
+  "physics_steps": 0,
+  "rows": [
+    {
+      "actual_PRE_time": 0.0,
+      "counterfactual_new_motion_time": 0.0,
+      "LP_success": true,
+      "LP_hard_eq": 3.5097845185738663e-09,
+      "LP_hard_ineq": 4.440892098500626e-16,
+      "LP_source_model_error": 0.0,
+      "actual_blend": 0.0,
+      "blended_native_force_balance": 7.742056329362867e-09,
+      "blended_native_KKT": 1.4654943925052066e-14,
+      "blended_source_legal": true,
+      "blended_positive_power_W": 0.0,
+      "rawLP_prediction_vs_blend_shadow": 54.004708560564495,
+      "teacher_abort_reason": null
+    },
+    {
+      "actual_PRE_time": 5.2,
+      "counterfactual_new_motion_time": 0.2,
+      "LP_success": true,
+      "LP_hard_eq": 4.2274885954721175e-08,
+      "LP_hard_ineq": 2.1938006966593093e-13,
+      "LP_source_model_error": 0.0,
+      "actual_blend": 0.31744000000000006,
+      "blended_native_force_balance": 3.410605131648481e-13,
+      "blended_native_KKT": 5.329070518200751e-15,
+      "blended_source_legal": true,
+      "blended_positive_power_W": 0.47184853282430284,
+      "rawLP_prediction_vs_blend_shadow": 97.94481553302515,
+      "teacher_abort_reason": null
+    },
+    {
+      "actual_PRE_time": 5.38,
+      "counterfactual_new_motion_time": 0.38,
+      "LP_success": true,
+      "LP_hard_eq": 6.103874738982995e-09,
+      "LP_hard_ineq": 1.971756091734278e-13,
+      "LP_source_model_error": 0.0,
+      "actual_blend": 0.9067488256000007,
+      "blended_native_force_balance": 5.813603820570279e-09,
+      "blended_native_KKT": 5.329070518200751e-15,
+      "blended_source_legal": true,
+      "blended_positive_power_W": 0.8672527206277456,
+      "rawLP_prediction_vs_blend_shadow": 3.272083892332435,
+      "teacher_abort_reason": null
+    },
+    {
+      "actual_PRE_time": 5.9,
+      "counterfactual_new_motion_time": 0.9,
+      "LP_success": true,
+      "LP_hard_eq": 1.6537882174816332e-12,
+      "LP_hard_ineq": 1.3642420526593924e-12,
+      "LP_source_model_error": 3.1308289294429414e-14,
+      "actual_blend": 1.0,
+      "blended_native_force_balance": 4.050111037656734e-07,
+      "blended_native_KKT": 6.217248937900877e-15,
+      "blended_source_legal": true,
+      "blended_positive_power_W": 6.877340576729091,
+      "rawLP_prediction_vs_blend_shadow": 5.7102191419744486e-08,
+      "teacher_abort_reason": null
+    }
+  ],
+  "all_pass": true,
+  "not_new_actual_trajectory": true
+}

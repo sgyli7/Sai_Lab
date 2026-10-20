@@ -1,0 +1,77 @@
+{
+  "source": "artifacts/goose_v0_2/physics_freeze_20261018_01/integration_release/whole05_complete_counterbalance_readback_01/actual_complete_reference_support.json",
+  "source_runtime_dependency": false,
+  "posture_seeds": {
+    "left_neck_0.3": {
+      "joint_angles_rad": {
+        "left_hip_yaw": 0.0,
+        "left_hip_roll": -0.06,
+        "left_hip_pitch": 0.2,
+        "left_knee_pitch": -0.4,
+        "left_ankle_pitch": 0.2,
+        "left_ankle_roll": 0.4,
+        "right_hip_yaw": 0.0,
+        "right_hip_roll": 0.5,
+        "right_hip_pitch": -0.4,
+        "right_knee_pitch": 0.8,
+        "right_ankle_pitch": -0.4,
+        "right_ankle_roll": -0.35,
+        "neck_pitch": 0.3,
+        "neck_mid_pitch": -0.3,
+        "head_pitch": 0.0,
+        "neck_yaw": 0.0,
+        "head_roll": 0.0
+      },
+      "root_xyz_quat_wxyz": [
+        0.0,
+        0.0,
+        0.032921901039196316,
+        0.9855847669095608,
+        -0.16918234906699603,
+        0.0,
+        0.0
+      ],
+      "support_sides": [
+        "left"
+      ],
+      "scope": "Designpose seed from fullsourceq/root; finalfrozenmass andcontacts not optimized or taskqualified here",
+      "original_whole05_static_utilisation": 0.8958364839229452
+    },
+    "right_neck_0.3": {
+      "joint_angles_rad": {
+        "left_hip_yaw": 0.0,
+        "left_hip_roll": -0.5,
+        "left_hip_pitch": 0.4,
+        "left_knee_pitch": -0.8,
+        "left_ankle_pitch": 0.4,
+        "left_ankle_roll": 0.35,
+        "right_hip_yaw": 0.0,
+        "right_hip_roll": 0.06,
+        "right_hip_pitch": -0.2,
+        "right_knee_pitch": 0.4,
+        "right_ankle_pitch": -0.2,
+        "right_ankle_roll": -0.4,
+        "neck_pitch": 0.3,
+        "neck_mid_pitch": -0.3,
+        "head_pitch": 0.0,
+        "neck_yaw": 0.0,
+        "head_roll": 0.0
+      },
+      "root_xyz_quat_wxyz": [
+        0.0,
+        0.0,
+        0.032921901039196316,
+        0.9855847669095608,
+        0.16918234906699603,
+        0.0,
+        0.0
+      ],
+      "support_sides": [
+        "right"
+      ],
+      "scope": "Designpose seed from fullsourceq/root; finalfrozenmass andcontacts not optimized or taskqualified here",
+      "original_whole05_static_utilisation": 0.9088896594752217
+    }
+  },
+  "no_reset_pose_is_claimed_a_learned_behavior": true
+}

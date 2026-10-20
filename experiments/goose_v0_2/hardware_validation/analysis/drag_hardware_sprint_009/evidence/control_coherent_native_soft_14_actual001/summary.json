@@ -1,0 +1,136 @@
+{
+  "completed_requested_horizon": false,
+  "task_pass": false,
+  "task_pass_semantics": "requires separate actual distance/speed/stop/alternatingstep/hold analysis; no reference-request award",
+  "actual_capture_hold_complete": true,
+  "actual_foot_landing_events_fine": [],
+  "actual_first_step_observed": null,
+  "completion_not_transport_or_unloading_qualification": true,
+  "model": "physics_v0_2_20261020_08_candidate",
+  "source_manifest_entries": 79,
+  "source_tracked_files_including_manifest": 80,
+  "attempt": 1,
+  "mode": "LOADED_ONLINE_TEACHER_PHYSICS1000_DRIVE200_COMMAND50",
+  "physics_Hz": 1000,
+  "drive_Hz": 200,
+  "command_Hz": 50,
+  "actual_drive_updates": 1321,
+  "actual_command_updates": 330,
+  "MIT_substeps": 1321,
+  "maximum_same_state_total_tau_shadow_error_Nm": 0.0,
+  "actual_steps": 6605,
+  "logged_completed_rows": 6605,
+  "sim_duration_s": 6.60500000000054,
+  "failure": "unsuccessful_solver_without_validated_finite_hard_witness",
+  "error": null,
+  "final_cart_back_m": 0.0024908988881355842,
+  "final_cargo_back_m": 0.002523629730454169,
+  "max_cart_back_m": 0.003226310185703629,
+  "jaw_capture_ever": true,
+  "final_jaw_rod_normal_N": [
+    28.424357811800515,
+    24.137317168569922
+  ],
+  "TCP_5mm_for200ms_recorded_diagnostic_only": true,
+  "requested_cycles_diagnostic_only": 4,
+  "planned_transport_back_m": 0.525,
+  "unloaded_gate_pass": false,
+  "irreversible_qualification_failure": {
+    "reason": "stance_material_slip_over5mm",
+    "first_time_s": 6.404000000000473,
+    "foot_material_slip_m": [
+      0.005001007548939723,
+      0.004696814479492095
+    ],
+    "root_back_m": 0.008055072785619864
+  },
+  "diagnostic_only_not_loaded_admission": true,
+  "hold_steps": 0,
+  "hold_steps_semantics": "legacy stop_hold selector; new controller hold reported separately",
+  "new_loaded_hold_metrics": {
+    "samples": 5000,
+    "max_COM_height_error_m": 0.001434971889239689,
+    "max_tilt_deg": 1.9934140237561355,
+    "min_jaw_normal_N": 26.566119807466578,
+    "max_COM_XY_error_m": 0.004327010565177457,
+    "min_foot_normal_N": 57.98747944558593,
+    "max_COM_speed_m_s": 0.02454213170664875,
+    "last_COM_velocity_world_m_s": [
+      -0.001026288945951545,
+      -8.875170781544097e-06,
+      0.0005145738411567694
+    ]
+  },
+  "actual_plant_gate": {
+    "continuous_support_domain_s": 0.0,
+    "expected_pointmass_ZMP_distance_to_actual_contact_hull_m": {
+      "right": 0.010096468265919204,
+      "left": 0.13588150058445636
+    },
+    "actual_native_sole_tilt_deg": {
+      "right": 0.08305181857137277,
+      "left": 0.09700289419678153
+    },
+    "actual_contact_points_xy": {
+      "right": [
+        [
+          -0.021136392243985804,
+          -0.05849694876982073
+        ],
+        [
+          0.0026758840811393313,
+          -0.11806628934381576
+        ],
+        [
+          0.09063337125946719,
+          -0.023998974228833025
+        ],
+        [
+          0.12158813338457317,
+          -0.07101568287375892
+        ]
+      ],
+      "left": [
+        [
+          0.1217866066348471,
+          0.07337263923757482
+        ],
+        [
+          0.12230889201626503,
+          0.07184385205404697
+        ]
+      ]
+    },
+    "pointmass_assumption_not_dynamic_feasibility_proof": true
+  },
+  "actual_DS_gate": {
+    "continuous_DS_conditions_s": 0.0,
+    "measured_conditions": false
+  },
+  "actual_landing_events": [],
+  "endpoint_semantics": "final_* fields are last logged PRE state; true terminal separately in true_terminal_poststate.json",
+  "hold_min_root_back_m": null,
+  "hold_root_back_range_m": [
+    0,
+    0
+  ],
+  "hold_max_closure_m_or_rad": 0,
+  "hold_max_contact_penetration_m": 0,
+  "final_root_back_m": 0.024304316629214645,
+  "max_root_back_m": 0.024304316629214645,
+  "foot_material_slip_integral_m": [
+    0.006118439480040322,
+    0.005519937904470983
+  ],
+  "foot_material_slip_total_since_cold_m": [
+    0.006118439480040322,
+    0.005519937904470983
+  ],
+  "max_tilt_deg": 2.8866444424105424,
+  "max_positive_power_W": 11.125135409610232,
+  "max_observed_threads": 1,
+  "maxRSS_KiB": 3166504,
+  "source_manifest79_plus_manifest80_unchanged": true,
+  "GPU": 0,
+  "training": 0
+}

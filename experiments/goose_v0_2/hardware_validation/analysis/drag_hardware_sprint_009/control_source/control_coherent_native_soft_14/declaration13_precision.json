@@ -1,0 +1,86 @@
+{
+  "status": "FROZEN_PREPARATION_ONLY_OWNER_ACTUAL_NOT_GRANTED",
+  "parent_manifest": "a7a59a1da3698d0f9cd031006633683b49d1c4279803b0bbe3cabdde4607717f",
+  "only_runtime_source_difference": "soft_phase_model.py HiGHS primal1e-6\u21921e-9 +dual1e-9; method highs unchanged; no IPM override",
+  "guard_hard_threshold_unchanged": 1e-06,
+  "no_weight_bounds_model_reference_or_timing_change": true,
+  "parent13_actual_remains_FAIL_6260steps": true,
+  "comparison": {
+    "physical_steps": 0,
+    "LP_calls": 2,
+    "saved_failed_hard_eq": 3.42343136370311e-06,
+    "original_reproduced": true,
+    "same_exact_LP_matrix": true,
+    "method": "highs unchanged (not forced IPM)",
+    "calls": [
+      {
+        "label": "original",
+        "matrix_sha256": "64528aae00651a92362ba08922e6dd56fac16d30bb6e3bedfd01c64c3f86b434",
+        "method": "highs",
+        "options": {
+          "time_limit": 0.8,
+          "threads": 1,
+          "primal_feasibility_tolerance": 1e-06,
+          "presolve": false
+        }
+      },
+      {
+        "label": "tight_1e9",
+        "matrix_sha256": "64528aae00651a92362ba08922e6dd56fac16d30bb6e3bedfd01c64c3f86b434",
+        "method": "highs",
+        "options": {
+          "time_limit": 0.8,
+          "threads": 1,
+          "primal_feasibility_tolerance": 1e-09,
+          "presolve": false,
+          "dual_feasibility_tolerance": 1e-09
+        }
+      }
+    ],
+    "results": [
+      {
+        "label": "original",
+        "abort": "native_LP_hard_physical_readback",
+        "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "success": true,
+        "hard_eq": 3.42343136370311e-06,
+        "hard_ineq": 1.8100188015068852e-11,
+        "circle": 0.0,
+        "source_model_error": 0.0,
+        "LP_wall_s": 0.01538180303759873,
+        "native_witness": {
+          "force_balance_max": 7.105427357601002e-14,
+          "equality_acceleration_max": 3.5128150388530344e-16,
+          "contact_KKT_max": 1.7763568394002505e-15,
+          "contact_circle_excess_max": 0.0,
+          "dry_friction_mode_max": 1.7763568394002505e-15,
+          "source_legal": true
+        }
+      },
+      {
+        "label": "tight_1e9",
+        "abort": null,
+        "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "success": true,
+        "hard_eq": 3.959598871006165e-09,
+        "hard_ineq": 2.093297757355117e-12,
+        "circle": 0.0,
+        "source_model_error": 0.0,
+        "LP_wall_s": 0.012035932042635977,
+        "native_witness": {
+          "force_balance_max": 7.105427357601002e-14,
+          "equality_acceleration_max": 1.3444106938820255e-16,
+          "contact_KKT_max": 1.7763568394002505e-15,
+          "contact_circle_excess_max": 0.0,
+          "dry_friction_mode_max": 1.7763568394002505e-15,
+          "source_legal": true
+        }
+      }
+    ],
+    "same_qv_target_packet_reference_caps_weights": true,
+    "source_actual13_unchanged": true
+  },
+  "physical_steps": 0,
+  "LP_calls": 2,
+  "requires_F_and_Owner_actual_authorization": true
+}

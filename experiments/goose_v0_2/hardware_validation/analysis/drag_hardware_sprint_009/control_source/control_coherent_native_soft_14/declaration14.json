@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_PREPARATION14_NO_ACTUAL",
+  "only_change": "intrinsic native Newton numerical balance acceptance replaced with Owner local motion budget; no other gate/model/solver/control change",
+  "parent_manifest": "d3185958966533da1d0eeae9b5c81522c1b07ece1d67a5ab9f29b8931637f9ca",
+  "G_receipt": "1207065e591edbbfed64965d8581e08ae0104876db01bb92a34007cac3864035",
+  "G_point_formula_source": "be936e686327498449d804dbd0e83b42a5ace89253bd9a3437cf84c40d5534fc",
+  "unchanged_source_checks": {
+    "soft_phase_model.py": true,
+    "run_support.py": true,
+    "runner_segment_dispatch.py": true,
+    "teacher_drive_segment.py": true,
+    "teacher_mit_profile.py": true,
+    "dynamic_support_teacher.py": true,
+    "world_neck_qonly.py": true,
+    "capture_plan_entry.py": true,
+    "complete_cycle_plan.py": true,
+    "complete_reference.npz": true
+  },
+  "all49dofs": {
+    "translation": 9,
+    "rotation": 40,
+    "units_by_real_joint_type_and_dofadr": true
+  },
+  "point_definitions": "all63 mesh vertices per source actualsole, trueheadroll TCP, beakcoupler proximal0/distal equalityobj2 eq_data[3:6]/bodyipos COM",
+  "translation_5ms_budget_m": 1e-06,
+  "rotation_5ms_budget_rad": 1e-05,
+  "point3D_5ms_budget_m": 1e-06,
+  "diagnostic_h_s": 0.001,
+  "actual_gate_h_s": 0.005,
+  "new_raw_native_r": "M*qacc-qfrc_smooth-qfrc_constraint",
+  "norm": "rho=sqrt(rT Minv r) via Cholesky; Hessian>=M instantaneous strongconvexity bound",
+  "raw_old_force_balance_and_old1e6wouldfail_retained": true,
+  "mapping_and_constraint_gates_unchanged_threshold": 1e-06,
+  "LP_hard_and_HiGHS_strict_unchanged": true,
+  "no_qacc_lambda_or_model_mutation": true,
+  "scope": "frozenstate local Taylor numerical allocation, not finitehorizon/physical/hardware safety guarantee",
+  "budget_basis": "1um=0.1% of declared1mm trueair clearance;10urad farbelow20mrad referenceROM margin; not fitted to this14uN failure",
+  "negative_mathematical_tests": "r*1000 overbudget, nonSPD M, nonfinite r all rejected",
+  "fullguard": "original cold/hold and14 real callback motion0/.9/STOP each source_step stub1/zero integration/qvtime unchanged",
+  "old_FAILs_not_overwritten": true,
+  "source08_004_free20kg_clock1000_200_50": true,
+  "actual_authorization_present": false
+}
